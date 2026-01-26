@@ -1722,17 +1722,18 @@ def main() -> int:
             require_file(color_map_csv, "--color-map")
 
         # color-map é altamente recomendado no boid mode; se faltar, continuamos usando bo_color_id da DB
+        res = None
         if color_map_csv and color_map_csv.exists():
             res = load_bl_reverse_maps_from_csv(color_map_csv)
-        if res is None:
-            raise RuntimeError(f"load_bl_reverse_maps_from_csv returned None for {color_map_csv}")
-        bl_to_bo, bl_to_ldraw, rev_issues = res
+            if res is None:
+                raise RuntimeError(f"load_bl_reverse_maps_from_csv returned None for {color_map_csv}")
+            bl_to_bo, bl_to_ldraw, rev_issues = res
             for sev, typ, key, details in rev_issues:
                 add_issue(sev, typ, key, details)
             con.commit()
         else:
             if mode in ("all", "build"):
-                # já teria sido exigido
+                # já teria sido exigido (build/all requer --color-map)
                 pass
             elif mode in ("boid",):
                 add_issue("WARN", "COLOR_MAP_MISSING", "", "--color-map não fornecido; fixups BL->BO não serão aplicados.")
