@@ -3,7 +3,7 @@ name: Sync BrickStore database (latest release) and rebuild DB
 on:
   schedule:
     # daily (UTC). Adjust if you want a specific local time.
-    - cron: "15 03 * * *"
+    - cron: "00 00 * * *"
   workflow_dispatch: {}
 
 permissions:
