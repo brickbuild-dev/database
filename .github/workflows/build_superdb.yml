@@ -1,0 +1,41 @@
+name: Build SuperDB
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "inputs/super_db/**"
+      - "database/brickovery.db"
+      - "tools/build_superdb.py"
+  schedule:
+    # daily (UTC). Adjust if you want a specific local time.
+    - cron: "05 00 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Build super DB
+        run: |
+          python tools/build_superdb.py --force --git-commit --git-message "Build brickovery_sp.db"
+
+      - name: Push commit
+        run: |
+          git push
