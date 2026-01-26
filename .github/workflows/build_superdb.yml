@@ -9,7 +9,6 @@ on:
       - "tools/build_superdb.py"
   schedule:
     - cron: "05 00 * * *"
-  workflow_dispatch: {}
 
 jobs:
   build:
