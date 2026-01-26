@@ -461,115 +461,6 @@ def iter_codes_xml(codes_xml: Path) -> Iterable[Tuple[str, str, str]]:
         yield (itemtype or "P"), itemid, color_val
 
 
-def iter_items_p_altitemids(items_p_xml: Path) -> Iterable[Tuple[str, str]]:
-    """Yield (itemid, altitemids) from BrickStore items/P.xml."""
-    context = ET.iterparse(str(items_p_xml), events=("end",))
-    for _ev, el in context:
-        if (el.tag or "").upper() != "ITEM":
-            continue
-        itemid = (el.findtext("ITEMID") or el.findtext("ItemID") or "").strip()
-        alt = (el.findtext("ALTITEMIDS") or el.findtext("AltItemIDs") or "").strip()
-        el.clear()
-        if not itemid:
-            continue
-        yield itemid, alt
-
-
-def build_altitemid_hint_map(items_p_xml: Path) -> Dict[str, str]:
-    """Map BrickLink part id -> candidate Rebrickable part_num using ALTITEMIDS.
-
-    We pick the first token in ALTITEMIDS that is all-digits (design-id-like).
-    """
-    hints: Dict[str, str] = {}
-    for itemid, alt in iter_items_p_altitemids(items_p_xml):
-        if not alt:
-            continue
-        toks = [t.strip() for t in re.split(r"[\s,;]+", alt) if t.strip()]
-        cand = None
-        for t in toks:
-            if t.isdigit():
-                cand = t
-                break
-        if cand:
-            hints[itemid] = cand
-    return hints
-
-
-REBRICKABLE_API_BASE = "https://rebrickable.com/api/v3"
-
-
-def rebrickable_parts_exist(part_nums: List[str], api_key: str, *, timeout_s: int = 30) -> Set[str]:
-    """Return subset of part_nums that exist in Rebrickable as part_num.
-
-    Uses the bulk filter `part_nums=` on /lego/parts/ (Rebrickable API v3).
-    """
-    if not part_nums:
-        return set()
-    url = f"{REBRICKABLE_API_BASE}/lego/parts/"
-    headers = {"Authorization": f"key {api_key}"}  # Rebrickable docs
-    params = {"part_nums": ",".join(part_nums), "page_size": 1000, "inc_part_details": 0}
-    r = requests.get(url, headers=headers, params=params, timeout=timeout_s)
-    if r.status_code == 429:
-        try:
-            j = r.json()
-            detail = str(j.get("detail", ""))
-        except Exception:
-            detail = ""
-        raise RuntimeError(f"RB_429:{detail}")
-    r.raise_for_status()
-    j = r.json()
-    results = j.get("results") or []
-    return {str(it.get("part_num")) for it in results if it.get("part_num")}
-
-
-def rebrickable_parts_exist_batched(
-    all_part_nums: Iterable[str],
-    api_key: str,
-    *,
-    batch_size: int = 250,
-    sleep_s: float = 1.05,
-    max_retries: int = 6,
-    add_issue_fn=None,
-) -> Set[str]:
-    """Batched existence check with basic 429 backoff."""
-    all_part_nums = [p for p in all_part_nums if p]
-    exists: Set[str] = set()
-    if not all_part_nums:
-        return exists
-
-    def chunks(lst, n):
-        for i in range(0, len(lst), n):
-            yield lst[i : i + n]
-
-    for batch in chunks(all_part_nums, batch_size):
-        attempt = 0
-        while True:
-            try:
-                got = rebrickable_parts_exist(batch, api_key)
-                exists |= got
-                break
-            except Exception as e:
-                attempt += 1
-                msg = f"{type(e).__name__}: {e}"
-                wait = None
-                if isinstance(e, RuntimeError) and str(e).startswith("RB_429:"):
-                    m = re.search(r"(\d+)\s+seconds", str(e))
-                    if m:
-                        wait = int(m.group(1))
-                if add_issue_fn:
-                    add_issue_fn("WARN", "REBRICKABLE_PARTS_EXIST_RETRY", "", f"batch_size={len(batch)} attempt={attempt}/{max_retries} {msg}")
-                if attempt >= max_retries:
-                    if add_issue_fn:
-                        add_issue_fn("WARN", "REBRICKABLE_PARTS_EXIST_GIVEUP", "", "Giving up this batch; rb_part_id may be NULL for some parts.")
-                    break
-                if wait is None:
-                    wait = min(30, 2 ** attempt)
-                time.sleep(float(wait))
-        time.sleep(float(sleep_s))
-
-    return exists
-
-
 def load_rb_elements(elements_csv: Path) -> Dict[str, Tuple[str, int]]:
     """Return dict: element_id(str) -> (rb_part_num(str), rb_color_id(int))."""
     out: Dict[str, Tuple[str, int]] = {}
@@ -588,19 +479,51 @@ def load_rb_elements(elements_csv: Path) -> Dict[str, Tuple[str, int]]:
     return out
 
 
+
+def _open_csv_dictreader(path: Path) -> Tuple[TextIO, csv.DictReader]:
+    """Open CSV with robust dialect detection and whitespace/BOM normalization.
+    - Supports comma/semicolon/tab delimiters
+    - Handles UTF-8 BOM via utf-8-sig
+    - Trims spaces after delimiters (skipinitialspace)
+    Returns (file_handle, DictReader). Caller must close file_handle.
+    """
+    sample = ""
+    try:
+        with path.open("r", encoding="utf-8-sig", errors="replace") as sf:
+            sample = sf.read(4096)
+    except FileNotFoundError:
+        raise FileNotFoundError(f"Color map CSV not found: {path}")
+
+    try:
+        dialect = csv.Sniffer().sniff(sample, delimiters=",;\t|")
+    except Exception:
+        dialect = csv.excel
+    dialect.skipinitialspace = True
+
+    f = path.open("r", newline="", encoding="utf-8-sig", errors="replace")
+    r = csv.DictReader(f, dialect=dialect)
+    if r.fieldnames:
+        r.fieldnames = [((fn or "").strip()) for fn in r.fieldnames]
+    return f, r
+
 def load_color_map(color_map_csv: Path) -> Dict[int, Dict[str, Optional[int]]]:
-    """Return dict: rb_color_id -> {bl_color_id, bo_color_id, ldraw_color_id} (ints or None)."""
+    """Return dict: rb_color_id -> {bl_color_id, bo_color_id, ldraw_color_id} (ints or None).
+
+    Robust to commas/semicolons/tabs delimiters, whitespace in header, and UTF-8 BOM.
+    """
     out: Dict[int, Dict[str, Optional[int]]] = {}
-    with color_map_csv.open("r", newline="", encoding="utf-8") as f:
-        r = csv.DictReader(f)
+
+    fh, r = _open_csv_dictreader(color_map_csv)
+    try:
         for row in r:
-            rb = (row.get("rb_color_id") or "").strip()
+            rb = (row.get("rb_color_id") or row.get("rb_id") or "").strip()
             if rb == "":
                 continue
             try:
                 rb_id = int(rb)
             except Exception:
                 continue
+
             def _to_int(v: Optional[str]) -> Optional[int]:
                 v = (v or "").strip()
                 if v == "":
@@ -609,14 +532,16 @@ def load_color_map(color_map_csv: Path) -> Dict[int, Dict[str, Optional[int]]]:
                     return int(v)
                 except Exception:
                     return None
+
             out[rb_id] = {
-                "bl_color_id": _to_int(row.get("bl_color_id")),
-                "bo_color_id": _to_int(row.get("bo_color_id")),
-                "ldraw_color_id": _to_int(row.get("ldraw_color_id")),
+                "bl_color_id": _to_int(row.get("bl_color_id") or row.get("bl_id") or row.get("bricklink_color_id")),
+                "bo_color_id": _to_int(row.get("bo_color_id") or row.get("bo_id") or row.get("brickowl_color_id")),
+                "ldraw_color_id": _to_int(row.get("ldraw_color_id") or row.get("ldraw_id") or row.get("ldraw")),
             }
+    finally:
+        fh.close()
+
     return out
-
-
 def build_bl_reverse_maps(color_map: Dict[int, Dict[str, Optional[int]]]) -> Tuple[Dict[int, int], Dict[int, int], List[Tuple[str, str, str, str]]]:
     """Build reverse maps from bl_color_id -> bo_color_id/ldraw_color_id.
 
@@ -651,49 +576,55 @@ def load_bl_reverse_maps_from_csv(color_map_csv: Path) -> Tuple[Dict[int, int], 
     - bl_color_id -> bo_color_id
     - bl_color_id -> ldraw_color_id
 
-    Supports two input formats:
-      A) legacy (Rebrickable-driven): columns include rb_color_id, bl_color_id, bo_color_id, ldraw_color_id
-      B) direct (recommended): columns include bl_color_id, bo_color_id, ldraw_color_id (your colors_seed.csv)
+    Robust to delimiter , ; or tab, whitespace in headers, and UTF-8 BOM.
 
-    Returns (bl_to_bo, bl_to_ldraw, issues_rows).
+    Mode selection:
+      - If 'bl_color_id' is present, treat as DIRECT (authoritative BL mapping) even if rb_color_id exists.
+      - Else, if only 'rb_color_id' exists, treat as LEGACY.
+
+    Returns (bl_to_bo, bl_to_ldraw, issues_rows). Never returns None.
     """
-    # Peek header
-    with color_map_csv.open("r", newline="", encoding="utf-8") as f:
-        r = csv.DictReader(f)
-        fns = [c.strip() for c in (r.fieldnames or [])]
-        is_legacy = "rb_color_id" in fns
+    fh, r = _open_csv_dictreader(color_map_csv)
+    try:
+        fns = [c.strip() for c in (r.fieldnames or []) if (c or "").strip() != ""]
+    finally:
+        fh.close()
 
-    if is_legacy:
+    if ("bl_color_id" in fns) or ("bricklink_color_id" in fns) or ("bl_id" in fns):
+        bl_to_bo: Dict[int, int] = {}
+        bl_to_ldraw: Dict[int, int] = {}
+        issues: List[Tuple[str, str, str, str]] = []
+
+        fh2, r2 = _open_csv_dictreader(color_map_csv)
+        try:
+            for row in r2:
+                bl = parse_int_any(row.get("bl_color_id") or row.get("bl_id") or row.get("bricklink_color_id"))
+                if bl is None:
+                    continue
+                bo = parse_int_any(row.get("bo_color_id") or row.get("bo_id") or row.get("brickowl_color_id"))
+                ld = parse_int_any(row.get("ldraw_color_id") or row.get("ldraw_id") or row.get("ldraw"))
+
+                if bo is not None:
+                    if bl in bl_to_bo and bl_to_bo[bl] != bo:
+                        issues.append(("WARN", "BL_COLOR_TO_BO_COLOR_CONFLICT", str(bl), f"bl_color_id={bl} mapped to multiple bo_color_id: {bl_to_bo[bl]} vs {bo}"))
+                    else:
+                        bl_to_bo[bl] = bo
+
+                if ld is not None:
+                    if bl in bl_to_ldraw and bl_to_ldraw[bl] != ld:
+                        issues.append(("WARN", "BL_COLOR_TO_LDRAW_COLOR_CONFLICT", str(bl), f"bl_color_id={bl} mapped to multiple ldraw_color_id: {bl_to_ldraw[bl]} vs {ld}"))
+                    else:
+                        bl_to_ldraw[bl] = ld
+        finally:
+            fh2.close()
+
+        return bl_to_bo, bl_to_ldraw, issues
+
+    if ("rb_color_id" in fns) or ("rb_id" in fns):
         color_map = load_color_map(color_map_csv)
         return build_bl_reverse_maps(color_map)
 
-    bl_to_bo: Dict[int, int] = {}
-    bl_to_ldraw: Dict[int, int] = {}
-    issues: List[Tuple[str, str, str, str]] = []
-
-    with color_map_csv.open("r", newline="", encoding="utf-8") as f:
-        r = csv.DictReader(f)
-        for row in r:
-            bl = parse_int_any(row.get("bl_color_id") or row.get("bl_id") or row.get("bricklink_color_id"))
-            if bl is None:
-                continue
-            bo = parse_int_any(row.get("bo_color_id") or row.get("bo_id") or row.get("brickowl_color_id"))
-            ld = parse_int_any(row.get("ldraw_color_id") or row.get("ldraw_id") or row.get("ldraw"))
-            if bo is not None:
-                if bl in bl_to_bo and bl_to_bo[bl] != bo:
-                    issues.append(("WARN", "BL_COLOR_TO_BO_COLOR_CONFLICT", str(bl), f"bl_color_id={bl} mapped to multiple bo_color_id: {bl_to_bo[bl]} vs {bo}"))
-                else:
-                    bl_to_bo[bl] = bo
-            if ld is not None:
-                if bl in bl_to_ldraw and bl_to_ldraw[bl] != ld:
-                    issues.append(("WARN", "BL_COLOR_TO_LDRAW_COLOR_CONFLICT", str(bl), f"bl_color_id={bl} mapped to multiple ldraw_color_id: {bl_to_ldraw[bl]} vs {ld}"))
-                else:
-                    bl_to_ldraw[bl] = ld
-
-    return bl_to_bo, bl_to_ldraw, issues
-
-
-
+    raise ValueError(f"color-map CSV missing required headers. Found: {fns}. Need 'bl_color_id' (direct) or 'rb_color_id' (legacy).")
 def load_bl_name_to_id_from_csv(color_map_csv: Path) -> Tuple[Dict[str, int], List[Tuple[str, str, str, str]]]:
     """Build a normalized BrickLink color-name -> bl_color_id map from your authoritative CSV.
 
@@ -1490,7 +1421,6 @@ def init_db(db_path: Path) -> None:
             CREATE TABLE IF NOT EXISTS brickovery_db (
               bl_part_id TEXT NOT NULL,
               item_type TEXT NOT NULL DEFAULT 'P',
-              rb_part_id TEXT,
               bl_color_id INTEGER NOT NULL,
               bo_color_id INTEGER,
               ldraw_color_id INTEGER,
@@ -1505,13 +1435,6 @@ def init_db(db_path: Path) -> None:
     if cols:
         if cols.get('boid', 'TEXT') != 'TEXT':
             need_rebuild = True
-        # Add rb_part_id column if missing (non-destructive migration)
-        if 'rb_part_id' not in cols:
-            try:
-                cur.execute('ALTER TABLE brickovery_db ADD COLUMN rb_part_id TEXT')
-            except Exception:
-                pass
-            cols['rb_part_id'] = 'TEXT'
         if ('element_id' in cols) or ('rb_part_num' in cols) or ('rb_color_id' in cols):
             need_rebuild = True
         if 'weight_g' in cols:
@@ -1532,10 +1455,6 @@ def init_db(db_path: Path) -> None:
 
         old_cols = _cols('brickovery_db_old')
         item_type_expr = "'P'"
-        rb_part_id_expr = 'NULL'
-        if 'rb_part_id' in old_cols:
-            rb_part_id_expr = 'rb_part_id'
-
         if 'item_type' in old_cols:
             item_type_expr = 'item_type'
         w_expr = 'NULL'
@@ -1555,12 +1474,12 @@ def init_db(db_path: Path) -> None:
         cur.execute(
             f"""
             INSERT OR REPLACE INTO brickovery_db (
-              bl_part_id, item_type, rb_part_id,
+              bl_part_id, item_type,
               bl_color_id, bo_color_id, ldraw_color_id,
               weight, boid, source
             )
             SELECT
-              bl_part_id, {item_type_expr} AS item_type, {rb_part_id_expr} AS rb_part_id,
+              bl_part_id, {item_type_expr} AS item_type,
               bl_color_id, bo_color_id, ldraw_color_id,
               {w_expr} AS weight,
               {boid_expr} AS boid,
@@ -1679,7 +1598,6 @@ def main() -> int:
 
     # Inputs (apenas obrigatórios no modo build/all)
     ap.add_argument("--bl-codes-xml", help="BrickStore part_color_codes.xml (from upstream .zip)")
-    ap.add_argument("--bl-items-p-xml", help="BrickStore items/P.xml (from upstream .zip) for ALTITEMIDS (optional)")
     ap.add_argument("--bl-colors-xml", help="BrickStore/BrickLink colors.xml (from upstream .zip)")
     ap.add_argument("--color-map", help="Color map CSV (recommended: your colors_seed.csv) with bl_color_id -> bo_color_id/ldraw_color_id")
 
@@ -1753,7 +1671,6 @@ def main() -> int:
         [
             "bl_part_id",
             "item_type",
-            "rb_part_id",
             "bl_color_id",
             "bo_color_id",
             "ldraw_color_id",
@@ -1806,7 +1723,10 @@ def main() -> int:
 
         # color-map é altamente recomendado no boid mode; se faltar, continuamos usando bo_color_id da DB
         if color_map_csv and color_map_csv.exists():
-            bl_to_bo, bl_to_ldraw, rev_issues = load_bl_reverse_maps_from_csv(color_map_csv)
+            res = load_bl_reverse_maps_from_csv(color_map_csv)
+        if res is None:
+            raise RuntimeError(f"load_bl_reverse_maps_from_csv returned None for {color_map_csv}")
+        bl_to_bo, bl_to_ldraw, rev_issues = res
             for sev, typ, key, details in rev_issues:
                 add_issue(sev, typ, key, details)
             con.commit()
@@ -1849,78 +1769,7 @@ def main() -> int:
 
             batch_rows: List[Tuple] = []
 
-            last_key = None
-
-            # --- rb_part_id mapping (bl_part_id -> rb_part_id) ---
-            rb_part_id_map: Dict[str, Optional[str]] = {}
-            rb_key = (os.getenv("REBRICKABLE_API_KEY") or "").strip()
-
-            items_p_xml: Optional[Path] = None
-            if getattr(args, "bl_items_p_xml", None):
-                items_p_xml = Path(args.bl_items_p_xml)
-            else:
-                cand = Path("inputs/bricklink/items/P.xml")
-                if cand.exists():
-                    items_p_xml = cand
-
-            alt_hints: Dict[str, str] = {}
-            if items_p_xml and items_p_xml.exists():
-                try:
-                    print(f"[RB] loading ALTITEMIDS hints from {items_p_xml} ({items_p_xml.stat().st_size/1024/1024:,.1f} MiB)")
-                    alt_hints = build_altitemid_hint_map(items_p_xml)
-                    print(f"[RB] ALTITEMIDS hints loaded: {len(alt_hints):,}")
-                except Exception as e:
-                    add_issue("WARN", "ALTITEMIDS_PARSE_FAILED", str(items_p_xml), f"{type(e).__name__}: {e}")
-                    alt_hints = {}
-
-            if rb_key:
-                try:
-                    print("[RB] building rb_part_id map via Rebrickable API (batched existence check)...")
-                    parts: Set[str] = set()
-                    scanned = 0
-                    for it2, pid2, _cv2 in iter_codes_xml(codes_xml):
-                        if canon_item_type(it2) != "P":
-                            continue
-                        parts.add(pid2)
-                        scanned += 1
-                        if args.max_items and scanned >= int(args.max_items):
-                            break
-
-                    cand_by_pid: Dict[str, str] = {}
-                    candidates: Set[str] = set()
-                    for pid in parts:
-                        cand2 = alt_hints.get(pid) or pid
-                        cand_by_pid[pid] = cand2
-                        candidates.add(cand2)
-                        candidates.add(pid)  # allow fallback to BL id itself
-
-                    cand_list = sorted(candidates)
-                    print(f"[RB] unique parts={len(parts):,}; unique candidates to verify={len(cand_list):,}")
-                    exists = rebrickable_parts_exist_batched(
-                        cand_list,
-                        rb_key,
-                        batch_size=250,
-                        sleep_s=1.05,
-                        max_retries=6,
-                        add_issue_fn=add_issue,
-                    )
-
-                    for pid, cand2 in cand_by_pid.items():
-                        if cand2 in exists:
-                            rb_part_id_map[pid] = cand2
-                        elif pid in exists:
-                            rb_part_id_map[pid] = pid
-                        else:
-                            rb_part_id_map[pid] = None
-
-                    print(f"[RB] rb_part_id mapped (non-null): {sum(1 for v in rb_part_id_map.values() if v):,} / {len(rb_part_id_map):,}")
-                except Exception as e:
-                    add_issue("WARN", "REBRICKABLE_RB_PART_ID_MAP_FAILED", "", f"{type(e).__name__}: {e} (rb_part_id ficará NULL)")
-                    rb_part_id_map = {}
-            else:
-                add_issue("INFO", "REBRICKABLE_API_KEY_MISSING", "", "REBRICKABLE_API_KEY não configurada; rb_part_id ficará NULL.")
-
-  # for cheap consecutive de-dup (part,color) repeats
+            last_key = None  # for cheap consecutive de-dup (part,color) repeats
 
             for itemtype, bl_part_id, color_val in iter_codes_xml(codes_xml):
                 if _STOP:
@@ -1940,8 +1789,6 @@ def main() -> int:
                 item_type = canon_item_type(itemtype)
                 if item_type != "P":
                     continue
-
-                rb_pid = rb_part_id_map.get(bl_part_id)
 
                 # Resolve BL color id from the upstream token (either numeric ID or color name)
                 bl_color_id = parse_int_any(color_val)
@@ -1964,7 +1811,7 @@ def main() -> int:
                                         continue
                                     bo_c = bl_to_bo.get(blc)
                                     ld_c = bl_to_ldraw.get(blc)
-                                    batch_rows.append((bl_part_id, item_type, rb_pid, blc, bo_c, ld_c, None, "BL_FALLBACK"))
+                                    batch_rows.append((bl_part_id, item_type, blc, bo_c, ld_c, None, "BL_FALLBACK"))
                                     inserted += 1
                         except Exception as e:
                             add_issue("WARN", "BRICKLINK_COLORS_FALLBACK_FAILED", bl_part_id, f"{type(e).__name__}: {e}")
@@ -1984,7 +1831,7 @@ def main() -> int:
                 if bo_c is None:
                     missing_color_map += 1
 
-                batch_rows.append((bl_part_id, item_type, rb_pid, int(bl_color_id), bo_c, ld_c, None, "UPSTREAM"))
+                batch_rows.append((bl_part_id, item_type, int(bl_color_id), bo_c, ld_c, None, "UPSTREAM"))
                 inserted += 1
 
                 # flush batch
@@ -1992,10 +1839,10 @@ def main() -> int:
                     cur.executemany(
                         """
                         INSERT OR REPLACE INTO brickovery_db(
-                          bl_part_id, item_type, rb_part_id,
+                          bl_part_id, item_type,
                           bl_color_id, bo_color_id, ldraw_color_id,
                           boid, source
-                        ) VALUES (?,?,?,?,?,?,?,?)
+                        ) VALUES (?,?,?,?,?,?,?)
                         """,
                         batch_rows,
                     )
@@ -2025,10 +1872,10 @@ def main() -> int:
                 cur.executemany(
                     """
                     INSERT OR REPLACE INTO brickovery_db(
-                          bl_part_id, item_type, rb_part_id,
+                          bl_part_id, item_type,
                           bl_color_id, bo_color_id, ldraw_color_id,
                           boid, source
-                        ) VALUES (?,?,?,?,?,?,?,?)
+                        ) VALUES (?,?,?,?,?,?,?)
                     """,
                     batch_rows,
                 )
@@ -2261,21 +2108,21 @@ def main() -> int:
             print(f"[EXPORT] {out_csv.name}...")
             with out_csv.open("w", newline="", encoding="utf-8") as f:
                 w = csv.writer(f)
-                w.writerow(["bl_part_id", "item_type", "rb_part_id", "bl_color_id", "bo_color_id", "ldraw_color_id", "weight", "boid", "source"])
+                w.writerow(["bl_part_id", "item_type", "bl_color_id", "bo_color_id", "ldraw_color_id", "weight", "boid", "source"])
                 for row in cur.execute(
                     """
-                    SELECT bl_part_id, item_type, rb_part_id, bl_color_id, bo_color_id, ldraw_color_id, weight, boid, source
+                    SELECT bl_part_id, item_type, bl_color_id, bo_color_id, ldraw_color_id, weight, boid, source
                     FROM brickovery_db
                     ORDER BY item_type, bl_part_id, bl_color_id
                     """
                 ):
                     # DB mantém NULL; CSV marca no_color quando ambos IDs (BL/BO) são NULL
-                    blc = row[3]
-                    boc = row[4]
+                    blc = row[2]
+                    boc = row[3]
                     if blc is None and boc is None:
                         rr = list(row)
+                        rr[2] = 'no_color'
                         rr[3] = 'no_color'
-                        rr[4] = 'no_color'
                         w.writerow(rr)
                     else:
                         w.writerow(row)
@@ -2316,8 +2163,6 @@ def main() -> int:
     except Exception as e:
         tb = traceback.format_exc()
         append_error_log(error_log_path, tb)
-        print(tb, file=sys.stderr)
-        print(f"[FATAL] Traceback also written to {error_log_path}", file=sys.stderr)
         try:
             add_issue("ERROR", "UNHANDLED_EXCEPTION", "", f"{e}")
             con.commit()
