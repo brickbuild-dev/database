@@ -4,11 +4,6 @@
 """
 build_superdb.py
 
-Cria uma "superDB" para workflows do tipo What-the-Fig (supersets/subsets)
-a partir de:
-- DB base: database/brickovery.db
-- CSVs/ZIPs do catálogo Rebrickable-style: inputs/super_db/
-
 Output:
 - database/brickovery_sp.db (cópia do brickovery.db + tabelas e índices novos)
 
@@ -17,8 +12,6 @@ Opcional:
 
 Requisitos: Python 3.10+ (stdlib apenas).
 """
-
-from __future__ import annotations
 
 import argparse
 import csv
@@ -86,10 +79,10 @@ def open_csv_maybe_zip(path: Path) -> Tuple[io.TextIOBase, Optional[zipfile.ZipF
         # escolhe o primeiro CSV (normalmente é único)
         member = names[0]
         raw = z.open(member, "r")
-        txt = io.TextIOWrapper(raw, encoding="utf-8", errors="replace", newline="")
+        txt = io.TextIOWrapper(raw, encoding="utf-8-sig", errors="replace", newline="")
         return txt, z
     else:
-        txt = path.open("r", encoding="utf-8", errors="replace", newline="")
+        txt = path.open("r", encoding="utf-8-sig", errors="replace", newline="")
         return txt, None
 
 
@@ -131,6 +124,24 @@ def to_text(s: Any, default: str = "") -> str:
         return default
     t = str(s)
     return t
+
+
+def to_nullable_int(s: Any) -> Optional[int]:
+    """
+    Converte para int ou None.
+    Considera vazio/None/'null'/'none'/'n/a' como None.
+    """
+    if s is None:
+        return None
+    if isinstance(s, int):
+        return s
+    t = str(s).strip()
+    if t == "" or t.lower() in ("none", "null", "na", "n/a"):
+        return None
+    try:
+        return int(t)
+    except ValueError:
+        return None
 
 
 # ---------------------------
@@ -235,9 +246,19 @@ def init_super_tables(conn: sqlite3.Connection) -> None:
       rb_part_num TEXT NOT NULL
     ) WITHOUT ROWID;
 
+    -- Crosswalk de cores (seed-driven via inputs/colors_seed.csv)
+    -- Recriamos para permitir NULL quando uma cor não existe num dos catálogos.
+    DROP TABLE IF EXISTS xref_bl_rb_color;
+    DROP TABLE IF EXISTS xref_bl_bo_color;
+
     CREATE TABLE IF NOT EXISTS xref_bl_rb_color (
       bl_color_id INTEGER PRIMARY KEY,
-      rb_color_id INTEGER NOT NULL
+      rb_color_id INTEGER
+    ) WITHOUT ROWID;
+
+    CREATE TABLE IF NOT EXISTS xref_bl_bo_color (
+      bl_color_id INTEGER PRIMARY KEY,
+      bo_color_id INTEGER
     ) WITHOUT ROWID;
     """)
 
@@ -278,22 +299,24 @@ def find_mapping_table(conn: sqlite3.Connection) -> Optional[str]:
 
 def populate_xrefs_from_base(conn: sqlite3.Connection) -> Dict[str, int]:
     """
-    Popula xref_bl_rb_part e xref_bl_rb_color, se a base DB tiver colunas RB.
-    Se não tiver, mantém as tabelas vazias (isso não impede a superDB, mas limita normalização BL->RB).
+    Popula xref_bl_rb_part a partir da DB base (se existir rb_part_num).
+
+    Nota:
+      - O mapeamento de cores NÃO é extraído da DB base; é seed-driven via inputs/colors_seed.csv
+        (ver populate_color_xrefs_from_seed). Isto evita dependência de colunas rb_color_id na base.
     """
-    stats = {"parts_inserted": 0, "colors_inserted": 0}
+    stats = {"parts_inserted": 0}
     t = find_mapping_table(conn)
     if not t:
-        LOG.warning("Não foi encontrada tabela de mapping (bl_part_id/bl_color_id) na DB base. Xrefs ficarão vazios.")
+        LOG.warning("Não foi encontrada tabela de mapping (bl_part_id/bl_color_id) na DB base. xref_bl_rb_part ficará vazio.")
         return stats
 
     cols = set(table_columns(conn, t))
     has_rb_part = "rb_part_num" in cols
-    has_rb_color = "rb_color_id" in cols
 
     if has_rb_part:
         conn.execute("DELETE FROM xref_bl_rb_part;")
-        cur = conn.execute(f"""
+        conn.execute(f"""
             INSERT OR REPLACE INTO xref_bl_rb_part(bl_part_id, rb_part_num)
             SELECT bl_part_id, rb_part_num
             FROM {t}
@@ -302,25 +325,94 @@ def populate_xrefs_from_base(conn: sqlite3.Connection) -> Dict[str, int]:
               AND rb_part_num IS NOT NULL
               AND TRIM(rb_part_num) <> '';
         """)
-        # sqlite3 rowcount em INSERT..SELECT pode ser -1; contamos via SELECT
         stats["parts_inserted"] = conn.execute("SELECT COUNT(*) FROM xref_bl_rb_part;").fetchone()[0]
     else:
         LOG.warning("DB base não tem coluna rb_part_num. xref_bl_rb_part ficará vazio.")
 
-    if has_rb_color:
-        conn.execute("DELETE FROM xref_bl_rb_color;")
-        conn.execute(f"""
-            INSERT OR REPLACE INTO xref_bl_rb_color(bl_color_id, rb_color_id)
-            SELECT bl_color_id, rb_color_id
-            FROM {t}
-            WHERE bl_color_id IS NOT NULL
-              AND rb_color_id IS NOT NULL;
-        """)
-        stats["colors_inserted"] = conn.execute("SELECT COUNT(*) FROM xref_bl_rb_color;").fetchone()[0]
-    else:
-        LOG.warning("DB base não tem coluna rb_color_id. xref_bl_rb_color ficará vazio.")
-
     return stats
+
+
+def populate_color_xrefs_from_seed(conn: sqlite3.Connection, colors_seed_path: Path) -> Dict[str, int]:
+    """
+    Popula:
+      - xref_bl_rb_color (bl_color_id -> rb_color_id)
+      - xref_bl_bo_color (bl_color_id -> bo_color_id)
+
+    Fonte autoritativa: inputs/colors_seed.csv no repo.
+    Colunas mínimas esperadas: bl_color_id, rb_color_id, bo_color_id
+    (rb/bo podem ser vazios -> NULL).
+    """
+    stats = {"rb_colors_inserted": 0, "bo_colors_inserted": 0}
+
+    if not colors_seed_path.exists():
+        LOG.warning("colors_seed.csv não encontrado: %s. Xrefs de cores ficarão vazios.", colors_seed_path)
+        return stats
+
+    # Validar headers (usando a primeira linha via DictReader)
+    stream, z = open_csv_maybe_zip(colors_seed_path)
+    try:
+        reader = csv.DictReader(stream)
+        if not reader.fieldnames:
+            raise RuntimeError(f"CSV sem header: {colors_seed_path}")
+        required = {"bl_color_id", "rb_color_id", "bo_color_id"}
+        missing = required - set(reader.fieldnames)
+        if missing:
+            raise RuntimeError(f"colors_seed.csv sem colunas {sorted(missing)}; tem {reader.fieldnames}")
+
+        # limpar e inserir
+        conn.execute("DELETE FROM xref_bl_rb_color;")
+        conn.execute("DELETE FROM xref_bl_bo_color;")
+
+        batch_rb: List[Tuple[int, Optional[int]]] = []
+        batch_bo: List[Tuple[int, Optional[int]]] = []
+
+        for row in reader:
+            bl = to_int(row.get("bl_color_id"), default=0)
+            if bl <= 0:
+                continue
+            rb = to_nullable_int(row.get("rb_color_id"))
+            bo = to_nullable_int(row.get("bo_color_id"))
+
+            batch_rb.append((bl, rb))
+            batch_bo.append((bl, bo))
+
+            if len(batch_rb) >= 5000:
+                conn.executemany(
+                    "INSERT OR REPLACE INTO xref_bl_rb_color(bl_color_id, rb_color_id) VALUES (?,?);",
+                    batch_rb,
+                )
+                conn.executemany(
+                    "INSERT OR REPLACE INTO xref_bl_bo_color(bl_color_id, bo_color_id) VALUES (?,?);",
+                    batch_bo,
+                )
+                batch_rb.clear()
+                batch_bo.clear()
+
+        if batch_rb:
+            conn.executemany(
+                "INSERT OR REPLACE INTO xref_bl_rb_color(bl_color_id, rb_color_id) VALUES (?,?);",
+                batch_rb,
+            )
+            conn.executemany(
+                "INSERT OR REPLACE INTO xref_bl_bo_color(bl_color_id, bo_color_id) VALUES (?,?);",
+                batch_bo,
+            )
+
+        stats["rb_colors_inserted"] = conn.execute("SELECT COUNT(*) FROM xref_bl_rb_color;").fetchone()[0]
+        stats["bo_colors_inserted"] = conn.execute("SELECT COUNT(*) FROM xref_bl_bo_color;").fetchone()[0]
+
+        LOG.info(
+            "Xrefs de cores carregados via seed: rb=%d, bo=%d (source=%s)",
+            stats["rb_colors_inserted"], stats["bo_colors_inserted"], colors_seed_path.name
+        )
+        return stats
+
+    finally:
+        try:
+            stream.close()
+        finally:
+            if z is not None:
+                z.close()
 
 
 # ---------------------------
@@ -577,7 +669,7 @@ def write_meta(conn: sqlite3.Connection, meta: Dict[str, str]) -> None:
 def sanity_report(conn: sqlite3.Connection) -> Dict[str, int]:
     out = {}
     for t in ["fig_dim", "fig_parts", "part_color_to_fig", "part_color_stats", "set_dim", "fig_in_sets",
-              "xref_bl_rb_part", "xref_bl_rb_color"]:
+              "xref_bl_rb_part", "xref_bl_rb_color", "xref_bl_bo_color"]:
         try:
             out[t] = conn.execute(f"SELECT COUNT(*) FROM {t};").fetchone()[0]
         except sqlite3.OperationalError:
@@ -624,6 +716,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--repo-root", default=".", help="raiz do repo (default: .)")
     ap.add_argument("--inputs-dir", default="inputs/super_db", help="pasta inputs/super_db")
+    ap.add_argument("--colors-seed", default="inputs/colors_seed.csv", help="CSV de mapeamento de cores (bl_color_id, rb_color_id, bo_color_id)")
     ap.add_argument("--base-db", default="database/brickovery.db", help="DB origem")
     ap.add_argument("--out-db", default="database/brickovery_sp.db", help="DB destino (superdb)")
     ap.add_argument("--force", action="store_true", help="recriar mesmo se out-db existir")
@@ -642,6 +735,7 @@ def main() -> int:
     inputs_dir = (repo_root / args.inputs_dir).resolve()
     base_db = (repo_root / args.base_db).resolve()
     out_db = (repo_root / args.out_db).resolve()
+    colors_seed = (repo_root / args.colors_seed).resolve()
 
     if not base_db.exists():
         LOG.error("DB base não encontrada: %s", base_db)
@@ -649,6 +743,10 @@ def main() -> int:
 
     if not inputs_dir.exists():
         LOG.error("Inputs dir não encontrada: %s", inputs_dir)
+        return 2
+
+    if not colors_seed.exists():
+        LOG.error("colors_seed.csv não encontrada: %s", colors_seed)
         return 2
 
     # descobrir inputs obrigatórios
@@ -696,6 +794,10 @@ def main() -> int:
             "minifigs_file": minifigs_path.name,
             "minifigs_sha256": sha256_file(minifigs_path),
         }
+        if colors_seed.exists():
+            meta["colors_seed_file"] = colors_seed.name
+            meta["colors_seed_sha256"] = sha256_file(colors_seed)
+
         if sets_path:
             meta["sets_file"] = sets_path.name
             meta["sets_sha256"] = sha256_file(sets_path)
@@ -705,11 +807,18 @@ def main() -> int:
 
         write_meta(conn, meta)
 
-        # Xrefs (best-effort) a partir da DB base
-        xref_stats = populate_xrefs_from_base(conn)
+        # Xrefs:
+        # - parts: best-effort a partir da DB base
+        # - cores: via seed (inputs/colors_seed.csv)
+        xref_parts_stats = populate_xrefs_from_base(conn)
         write_meta(conn, {
-            "xref_bl_rb_part_count": str(xref_stats["parts_inserted"]),
-            "xref_bl_rb_color_count": str(xref_stats["colors_inserted"]),
+            "xref_bl_rb_part_count": str(xref_parts_stats.get("parts_inserted", 0)),
+        })
+
+        color_xref_stats = populate_color_xrefs_from_seed(conn, colors_seed)
+        write_meta(conn, {
+            "xref_bl_rb_color_count": str(color_xref_stats.get("rb_colors_inserted", 0)),
+            "xref_bl_bo_color_count": str(color_xref_stats.get("bo_colors_inserted", 0)),
         })
 
         # 1) inventories -> mapas
