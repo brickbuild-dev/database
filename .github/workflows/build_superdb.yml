@@ -8,7 +8,6 @@ on:
       - "database/brickovery.db"
       - "tools/build_superdb.py"
   schedule:
-    # daily (UTC). Adjust if you want a specific local time.
     - cron: "05 00 * * *"
   workflow_dispatch: {}
 
