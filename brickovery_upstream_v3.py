@@ -32,8 +32,6 @@ Secrets (GitHub Actions env) devem estar configuradas assim no workflow:
   BRICKLINK_TOKEN_SECRET: ${{ secrets.BRICKLINK_TOKEN_SECRET }}
 """
 
-from __future__ import annotations
-
 import argparse
 import csv
 import gzip
