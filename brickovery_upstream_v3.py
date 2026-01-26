@@ -45,7 +45,7 @@ import traceback
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, Iterable, List, Optional, Sequence, Set, Tuple
+from typing import Dict, Iterable, List, Optional, Sequence, Set, Tuple, TextIO
 from urllib.parse import quote
 
 import requests
