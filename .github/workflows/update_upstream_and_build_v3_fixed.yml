@@ -92,7 +92,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p database
-          python brickovery_upstream_v2.py \
+          python brickovery_upstream_v3.py \
             --mode all \
             --db database/brickovery.db \
             --out-csv database/brickovery_db.csv \
