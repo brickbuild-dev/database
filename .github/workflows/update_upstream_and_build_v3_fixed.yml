@@ -113,5 +113,5 @@ jobs:
             echo "No changes to commit."
             exit 0
           fi
-          git commit -m "chore: sync brickstore-database latest release + rebuild DB"
+          git commit -m "chore: sync database to latest release"
           git push
