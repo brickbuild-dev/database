@@ -339,8 +339,15 @@ def populate_color_xrefs_from_seed(conn: sqlite3.Connection, colors_seed_path: P
       - xref_bl_bo_color (bl_color_id -> bo_color_id)
 
     Fonte autoritativa: inputs/colors_seed.csv no repo.
-    Colunas mínimas esperadas: bl_color_id, rb_color_id, bo_color_id
-    (rb/bo podem ser vazios -> NULL).
+
+    Regras de mapeamento (apenas para obter bl_color_id quando necessário):
+      - Preferir bl_color_id (se existir e for válido).
+      - Caso bl_color_id esteja vazio/0, tentar resolver por nome usando bl_color_name.
+      - Se não houver correspondência para bl_color_name, usar source_color_name como fallback.
+
+    Colunas esperadas:
+      - rb_color_id, bo_color_id (podem ser vazios -> NULL)
+      - bl_color_id (recomendado) OU (bl_color_name / source_color_name) para resolução.
     """
     stats = {"rb_colors_inserted": 0, "bo_colors_inserted": 0}
 
@@ -348,16 +355,53 @@ def populate_color_xrefs_from_seed(conn: sqlite3.Connection, colors_seed_path: P
         LOG.warning("colors_seed.csv não encontrado: %s. Xrefs de cores ficarão vazios.", colors_seed_path)
         return stats
 
+    def _norm_name(v: Any) -> str:
+        # normalização simples e determinística; não altera nada fora da resolução de bl_color_id
+        s = to_text(v).strip().lower()
+        s = " ".join(s.split())
+        return s
+
     # Validar headers (usando a primeira linha via DictReader)
     stream, z = open_csv_maybe_zip(colors_seed_path)
     try:
         reader = csv.DictReader(stream)
         if not reader.fieldnames:
             raise RuntimeError(f"CSV sem header: {colors_seed_path}")
-        required = {"bl_color_id", "rb_color_id", "bo_color_id"}
+
+        # Precisamos de rb/bo; bl pode vir por id ou por nomes (fallback).
+        required = {"rb_color_id", "bo_color_id"}
         missing = required - set(reader.fieldnames)
         if missing:
             raise RuntimeError(f"colors_seed.csv sem colunas {sorted(missing)}; tem {reader.fieldnames}")
+
+        has_bl_id = "bl_color_id" in reader.fieldnames
+        has_bl_name = "bl_color_name" in reader.fieldnames
+        has_source_name = "source_color_name" in reader.fieldnames
+
+        if not has_bl_id and not (has_bl_name or has_source_name):
+            raise RuntimeError(
+                "colors_seed.csv precisa de 'bl_color_id' ou de ('bl_color_name'/'source_color_name') "
+                "para resolver o bl_color_id."
+            )
+
+        # Carregar todas as linhas (ficheiro pequeno) para permitir resolução por nome.
+        rows: List[Dict[str, str]] = list(reader)
+
+        # Índice auxiliar: nome -> bl_color_id, derivado das próprias linhas com bl_color_id válido.
+        name_to_blid: Dict[str, int] = {}
+        if has_bl_id:
+            for r in rows:
+                bl = to_int(r.get("bl_color_id"), default=0)
+                if bl <= 0:
+                    continue
+                if has_bl_name:
+                    n = _norm_name(r.get("bl_color_name"))
+                    if n and n not in name_to_blid:
+                        name_to_blid[n] = bl
+                if has_source_name:
+                    n = _norm_name(r.get("source_color_name"))
+                    if n and n not in name_to_blid:
+                        name_to_blid[n] = bl
 
         # limpar e inserir
         conn.execute("DELETE FROM xref_bl_rb_color;")
@@ -366,10 +410,21 @@ def populate_color_xrefs_from_seed(conn: sqlite3.Connection, colors_seed_path: P
         batch_rb: List[Tuple[int, Optional[int]]] = []
         batch_bo: List[Tuple[int, Optional[int]]] = []
 
-        for row in reader:
-            bl = to_int(row.get("bl_color_id"), default=0)
+        for row in rows:
+            bl = to_int(row.get("bl_color_id"), default=0) if has_bl_id else 0
+
+            # Resolução por nome (quando bl_color_id está vazio/0).
+            if bl <= 0:
+                # 1) tentar bl_color_name (preferência)
+                if has_bl_name:
+                    bl = name_to_blid.get(_norm_name(row.get("bl_color_name")), 0)
+                # 2) fallback: source_color_name
+                if bl <= 0 and has_source_name:
+                    bl = name_to_blid.get(_norm_name(row.get("source_color_name")), 0)
+
             if bl <= 0:
                 continue
+
             rb = to_nullable_int(row.get("rb_color_id"))
             bo = to_nullable_int(row.get("bo_color_id"))
 
