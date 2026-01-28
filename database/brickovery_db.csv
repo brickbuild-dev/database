@@ -31778,6 +31778,8 @@ bl_part_id,item_type,bl_color_id,bo_color_id,ldraw_color_id,weight,boid,source
 3626pb4096,P,95,117,,,,UPSTREAM
 3626pb4097,P,89,55,,,,UPSTREAM
 3626pb4098,P,90,65,,,,UPSTREAM
+3626pb4099,P,90,65,,,,UPSTREAM
+3626pb4100,P,11,38,,,,UPSTREAM
 3626ps2,P,3,93,,0.54,,UPSTREAM
 3626ps2,P,90,65,,0.54,,UPSTREAM
 3626ps3,P,3,93,,0.54,,UPSTREAM
@@ -74595,6 +74597,7 @@ bl_part_id,item_type,bl_color_id,bo_color_id,ldraw_color_id,weight,boid,source
 973pb6521c01,P,5,81,,,,UPSTREAM
 973pb6523c01,P,48,18,,,,UPSTREAM
 973pb6524c01,P,5,81,,,,UPSTREAM
+973pb6525c01,P,11,38,,,,UPSTREAM
 973pb6526c01,P,1,92,,,,UPSTREAM
 973pb6527c01,P,153,47,,,,UPSTREAM
 973pb6528c01,P,7,39,,,,UPSTREAM
