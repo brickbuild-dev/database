@@ -203,9 +203,13 @@ def parse_int_any(v: Optional[str]) -> Optional[int]:
 
 
 def is_disallowed_bl_color_id(bl_color_id: int) -> bool:
-    # BrickLink color_id=0 is "Not Applicable" / "No Color"; we avoid storing it as a real color mapping.
+    """Return True only when the BL color id is invalid/unparseable.
+
+    IMPORTANT: BrickLink color_id=0 ("Not Applicable"/"No Color") is a valid ID for our DB and must NOT be dropped.
+    """
     try:
-        return int(bl_color_id) == 0
+        int(bl_color_id)
+        return False
     except Exception:
         return True
 
@@ -461,6 +465,123 @@ def iter_codes_xml(codes_xml: Path) -> Iterable[Tuple[str, str, str]]:
         yield (itemtype or "P"), itemid, color_val
 
 
+
+
+def iter_items_xml(items_xml: Path, *, default_item_type: str) -> Iterable[Tuple[str, str]]:
+    """Yield (item_type, item_id) from an upstream BrickStore items/*.xml file.
+
+    The exact schema varies slightly across datasets; this parser is deliberately tolerant.
+    """
+    ctx = ET.iterparse(str(items_xml), events=("end",))
+    for _ev, elem in ctx:
+        if (elem.tag or "").upper() != "ITEM":
+            continue
+
+        # Item ID field variants observed across datasets
+        item_id = (
+            (elem.findtext("ITEMID") or "")
+            or (elem.findtext("ITEMNO") or "")
+            or (elem.findtext("ITEM_NO") or "")
+            or (elem.findtext("NO") or "")
+        ).strip()
+
+        it = (elem.findtext("ITEMTYPE") or default_item_type).strip()
+        item_type = canon_item_type(it)
+
+        if item_id:
+            yield item_type, item_id
+
+        elem.clear()
+
+
+def iter_items_dir(items_dir: Path, *, add_issue=None) -> Iterable[Tuple[str, str]]:
+    """Yield (item_type, item_id) for every item found in items_dir/*.xml."""
+    if not items_dir.exists():
+        return
+    for p in sorted(items_dir.glob("*.xml")):
+        default_it = canon_item_type(p.stem)
+        try:
+            for item_type, item_id in iter_items_xml(p, default_item_type=default_it):
+                yield item_type, item_id
+        except Exception as e:
+            if add_issue:
+                add_issue("WARN", "ITEMS_XML_PARSE_FAILED", str(p), f"{type(e).__name__}: {e}")
+
+
+def ensure_all_items_present(
+    con,
+    cur,
+    *,
+    items_dir: Optional[Path],
+    bl_to_bo: Dict[int, int],
+    bl_to_bk: Dict[int, int],
+    add_issue,
+    batch_size: int = 20000,
+) -> int:
+    """Ensure every (item_type, item_id) present in upstream items/*.xml exists in DB.
+
+    For items that have no per-color representation (e.g., SET/MINIFIG), we insert a single
+    placeholder row with bl_color_id=0 (Not Applicable).
+    """
+    if not items_dir:
+        return 0
+    items_dir = Path(items_dir)
+    if not items_dir.exists():
+        add_issue("WARN", "ITEMS_DIR_MISSING", str(items_dir), f"items_dir not found: {items_dir}")
+        return 0
+
+    existing = set(
+        cur.execute("SELECT DISTINCT bl_part_id, item_type FROM brickovery_db").fetchall()
+    )
+
+    inserted = 0
+    batch: List[Tuple] = []
+
+    # Use BL color_id=0 as canonical "Not Applicable" placeholder
+    placeholder_blc = 0
+    placeholder_bo = bl_to_bo.get(placeholder_blc)
+    placeholder_bk = bl_to_bk.get(placeholder_blc)
+
+    for item_type, item_id in iter_items_dir(items_dir, add_issue=add_issue):
+        k = (str(item_id), str(item_type))
+        if k in existing:
+            continue
+
+        batch.append((str(item_id), None, None, str(item_type), int(placeholder_blc), placeholder_bo, placeholder_bk, None, None))
+        inserted += 1
+
+        if len(batch) >= int(batch_size):
+            cur.executemany(
+                """
+                INSERT OR IGNORE INTO brickovery_db(
+                  bl_part_id, boid, bk_part_id, item_type,
+                  bl_color_id, bo_color_id, bk_color_id,
+                  weight, bk_img_url
+                ) VALUES (?,?,?,?,?,?,?,?,?)
+                """,
+                batch,
+            )
+            con.commit()
+            batch.clear()
+
+    if batch:
+        cur.executemany(
+            """
+            INSERT OR IGNORE INTO brickovery_db(
+              bl_part_id, boid, bk_part_id, item_type,
+              bl_color_id, bo_color_id, bk_color_id,
+              weight, bk_img_url
+            ) VALUES (?,?,?,?,?,?,?,?,?)
+            """,
+            batch,
+        )
+        con.commit()
+
+    if inserted:
+        add_issue("INFO", "ITEMS_DIR_ENSURE_DONE", str(items_dir), f"Inserted placeholder rows for {inserted} missing items (bl_color_id=0).")
+        con.commit()
+
+    return inserted
 def load_rb_elements(elements_csv: Path) -> Dict[str, Tuple[str, int]]:
     """Return dict: element_id(str) -> (rb_part_num(str), rb_color_id(int))."""
     out: Dict[str, Tuple[str, int]] = {}
@@ -507,7 +628,10 @@ def _open_csv_dictreader(path: Path) -> Tuple[TextIO, csv.DictReader]:
     return f, r
 
 def load_color_map(color_map_csv: Path) -> Dict[int, Dict[str, Optional[int]]]:
-    """Return dict: rb_color_id -> {bl_color_id, bo_color_id, ldraw_color_id} (ints or None).
+    """Return dict: rb_color_id -> {bl_color_id, bo_color_id, bk_color_id} (ints or None).
+
+    This supports a *legacy* mapping keyed by Rebrickable color IDs. Prefer the direct
+    BrickLink-keyed format (with bl_color_id column) whenever available.
 
     Robust to commas/semicolons/tabs delimiters, whitespace in header, and UTF-8 BOM.
     """
@@ -536,45 +660,61 @@ def load_color_map(color_map_csv: Path) -> Dict[int, Dict[str, Optional[int]]]:
             out[rb_id] = {
                 "bl_color_id": _to_int(row.get("bl_color_id") or row.get("bl_id") or row.get("bricklink_color_id")),
                 "bo_color_id": _to_int(row.get("bo_color_id") or row.get("bo_id") or row.get("brickowl_color_id")),
-                "ldraw_color_id": _to_int(row.get("ldraw_color_id") or row.get("ldraw_id") or row.get("ldraw")),
+                "bk_color_id": _to_int(row.get("bk_color_id") or row.get("bk_id") or row.get("brikick_color_id") or row.get("brikick_id")),
             }
     finally:
         fh.close()
 
     return out
-def build_bl_reverse_maps(color_map: Dict[int, Dict[str, Optional[int]]]) -> Tuple[Dict[int, int], Dict[int, int], List[Tuple[str, str, str, str]]]:
-    """Build reverse maps from bl_color_id -> bo_color_id/ldraw_color_id.
+
+
+def build_bl_reverse_maps(
+    color_map: Dict[int, Dict[str, Optional[int]]]
+) -> Tuple[Dict[int, int], Dict[int, int], List[Tuple[str, str, str, str]]]:
+    """Build reverse maps from bl_color_id -> bo_color_id / bk_color_id.
 
     Returns:
-      bl_to_bo, bl_to_ldraw, issues_rows
+      bl_to_bo, bl_to_bk, issues_rows
     issues_rows are tuples suitable for build_issues insert.
     """
     bl_to_bo: Dict[int, int] = {}
-    bl_to_ldraw: Dict[int, int] = {}
+    bl_to_bk: Dict[int, int] = {}
     issues: List[Tuple[str, str, str, str]] = []
 
     for rb_id, m in color_map.items():
         bl = m.get("bl_color_id")
         bo = m.get("bo_color_id")
-        ld = m.get("ldraw_color_id")
+        bk = m.get("bk_color_id")
         if bl is None:
             continue
+
         if bo is not None:
             if bl in bl_to_bo and bl_to_bo[bl] != bo:
-                issues.append(("WARN", "BL_COLOR_TO_BO_COLOR_CONFLICT", str(bl), f"bl_color_id={bl} mapped to multiple bo_color_id: {bl_to_bo[bl]} vs {bo}"))
+                issues.append(
+                    ("WARN", "BL_COLOR_TO_BO_COLOR_CONFLICT", str(bl),
+                     f"bl_color_id={bl} mapped to multiple bo_color_id: {bl_to_bo[bl]} vs {bo} (rb_color_id={rb_id})")
+                )
             else:
                 bl_to_bo[bl] = bo
-        if ld is not None:
-            if bl in bl_to_ldraw and bl_to_ldraw[bl] != ld:
-                issues.append(("WARN", "BL_COLOR_TO_LDRAW_COLOR_CONFLICT", str(bl), f"bl_color_id={bl} mapped to multiple ldraw_color_id: {bl_to_ldraw[bl]} vs {ld}"))
-            else:
-                bl_to_ldraw[bl] = ld
 
-    
-def load_bl_reverse_maps_from_csv(color_map_csv: Path) -> Tuple[Dict[int, int], Dict[int, int], List[Tuple[str, str, str, str]]]:
+        if bk is not None:
+            if bl in bl_to_bk and bl_to_bk[bl] != bk:
+                issues.append(
+                    ("WARN", "BL_COLOR_TO_BK_COLOR_CONFLICT", str(bl),
+                     f"bl_color_id={bl} mapped to multiple bk_color_id: {bl_to_bk[bl]} vs {bk} (rb_color_id={rb_id})")
+                )
+            else:
+                bl_to_bk[bl] = bk
+
+    return bl_to_bo, bl_to_bk, issues
+
+
+def load_bl_reverse_maps_from_csv(
+    color_map_csv: Path,
+) -> Tuple[Dict[int, int], Dict[int, int], List[Tuple[str, str, str, str]]]:
     """Load a color-map CSV and produce reverse maps:
     - bl_color_id -> bo_color_id
-    - bl_color_id -> ldraw_color_id
+    - bl_color_id -> bk_color_id
 
     Robust to delimiter , ; or tab, whitespace in headers, and UTF-8 BOM.
 
@@ -582,7 +722,7 @@ def load_bl_reverse_maps_from_csv(color_map_csv: Path) -> Tuple[Dict[int, int], 
       - If 'bl_color_id' is present, treat as DIRECT (authoritative BL mapping) even if rb_color_id exists.
       - Else, if only 'rb_color_id' exists, treat as LEGACY.
 
-    Returns (bl_to_bo, bl_to_ldraw, issues_rows). Never returns None.
+    Returns (bl_to_bo, bl_to_bk, issues_rows). Never returns None.
     """
     fh, r = _open_csv_dictreader(color_map_csv)
     try:
@@ -590,9 +730,10 @@ def load_bl_reverse_maps_from_csv(color_map_csv: Path) -> Tuple[Dict[int, int], 
     finally:
         fh.close()
 
+    # DIRECT format (preferred): bl_color_id present
     if ("bl_color_id" in fns) or ("bricklink_color_id" in fns) or ("bl_id" in fns):
         bl_to_bo: Dict[int, int] = {}
-        bl_to_ldraw: Dict[int, int] = {}
+        bl_to_bk: Dict[int, int] = {}
         issues: List[Tuple[str, str, str, str]] = []
 
         fh2, r2 = _open_csv_dictreader(color_map_csv)
@@ -601,30 +742,37 @@ def load_bl_reverse_maps_from_csv(color_map_csv: Path) -> Tuple[Dict[int, int], 
                 bl = parse_int_any(row.get("bl_color_id") or row.get("bl_id") or row.get("bricklink_color_id"))
                 if bl is None:
                     continue
+
                 bo = parse_int_any(row.get("bo_color_id") or row.get("bo_id") or row.get("brickowl_color_id"))
-                ld = parse_int_any(row.get("ldraw_color_id") or row.get("ldraw_id") or row.get("ldraw"))
+                bk = parse_int_any(row.get("bk_color_id") or row.get("bk_id") or row.get("brikick_color_id") or row.get("brikick_id"))
 
                 if bo is not None:
                     if bl in bl_to_bo and bl_to_bo[bl] != bo:
-                        issues.append(("WARN", "BL_COLOR_TO_BO_COLOR_CONFLICT", str(bl), f"bl_color_id={bl} mapped to multiple bo_color_id: {bl_to_bo[bl]} vs {bo}"))
+                        issues.append(
+                            ("WARN", "BL_COLOR_TO_BO_COLOR_CONFLICT", str(bl),
+                             f"bl_color_id={bl} mapped to multiple bo_color_id: {bl_to_bo[bl]} vs {bo}")
+                        )
                     else:
                         bl_to_bo[bl] = bo
 
-                if ld is not None:
-                    if bl in bl_to_ldraw and bl_to_ldraw[bl] != ld:
-                        issues.append(("WARN", "BL_COLOR_TO_LDRAW_COLOR_CONFLICT", str(bl), f"bl_color_id={bl} mapped to multiple ldraw_color_id: {bl_to_ldraw[bl]} vs {ld}"))
+                if bk is not None:
+                    if bl in bl_to_bk and bl_to_bk[bl] != bk:
+                        issues.append(
+                            ("WARN", "BL_COLOR_TO_BK_COLOR_CONFLICT", str(bl),
+                             f"bl_color_id={bl} mapped to multiple bk_color_id: {bl_to_bk[bl]} vs {bk}")
+                        )
                     else:
-                        bl_to_ldraw[bl] = ld
+                        bl_to_bk[bl] = bk
+
         finally:
             fh2.close()
 
-        return bl_to_bo, bl_to_ldraw, issues
+        return bl_to_bo, bl_to_bk, issues
 
-    if ("rb_color_id" in fns) or ("rb_id" in fns):
-        color_map = load_color_map(color_map_csv)
-        return build_bl_reverse_maps(color_map)
+    # LEGACY format (rb_color_id keyed)
+    cm = load_color_map(color_map_csv)
+    return build_bl_reverse_maps(cm)
 
-    raise ValueError(f"color-map CSV missing required headers. Found: {fns}. Need 'bl_color_id' (direct) or 'rb_color_id' (legacy).")
 def load_bl_name_to_id_from_csv(color_map_csv: Path) -> Tuple[Dict[str, int], List[Tuple[str, str, str, str]]]:
     """Build a normalized BrickLink color-name -> bl_color_id map from your authoritative CSV.
 
@@ -1404,124 +1552,115 @@ def init_db(db_path: Path) -> None:
         # Keep init_db resilient: if migration fails, schema creation/migrations below will proceed.
         pass
 
-
     def _cols(table: str) -> dict:
         try:
-            return {row[1]: (row[2] or '').upper() for row in cur.execute(f"PRAGMA table_info({table})").fetchall()}
+            return {row[1]: (row[2] or "").upper() for row in cur.execute(f"PRAGMA table_info({table})").fetchall()}
         except Exception:
             return {}
 
-    cols = _cols('brickovery_db')
+    desired_cols = {
+        "bl_part_id",
+        "boid",
+        "bk_part_id",
+        "item_type",
+        "bl_color_id",
+        "bo_color_id",
+        "bk_color_id",
+        "weight",
+        "bk_img_url",
+    }
 
-    # Desired schema (no weight_g; boid TEXT)
-    # Desired schema (boid TEXT; no element_id / rb_* columns)
     def _create_schema() -> None:
         cur.execute(
             """
             CREATE TABLE IF NOT EXISTS brickovery_db (
               bl_part_id TEXT NOT NULL,
+              boid TEXT,
+              bk_part_id TEXT,
               item_type TEXT NOT NULL DEFAULT 'P',
               bl_color_id INTEGER NOT NULL,
               bo_color_id INTEGER,
-              ldraw_color_id INTEGER,
+              bk_color_id INTEGER,
               weight REAL,
-              boid TEXT,
-              source TEXT,
+              bk_img_url TEXT,
               PRIMARY KEY (bl_part_id, item_type, bl_color_id)
-            )"""
+            )
+            """
         )
 
+    cols = _cols(DB_TABLE)
+
+    # Rebuild if schema mismatch (missing or extra columns) or if boid isn't TEXT.
     need_rebuild = False
     if cols:
-        if cols.get('boid', 'TEXT') != 'TEXT':
+        if set(cols.keys()) != desired_cols:
             need_rebuild = True
-        if ('element_id' in cols) or ('rb_part_num' in cols) or ('rb_color_id' in cols):
-            need_rebuild = True
-        if 'weight_g' in cols:
-            # Must be removed (user request). Prefer DROP COLUMN; if unavailable, rebuild.
-            try:
-                cur.execute('ALTER TABLE brickovery_db DROP COLUMN weight_g')
-                con.commit()
-                cols = _cols('brickovery_db')
-            except Exception:
-                need_rebuild = True
-        if 'weight' not in cols and 'weight_g' in cols:
+        if cols.get("boid", "TEXT") != "TEXT":
             need_rebuild = True
 
     if cols and need_rebuild:
-        # Non-destructive migration: rebuild table preserving data.
-        cur.execute('ALTER TABLE brickovery_db RENAME TO brickovery_db_old')
+        cur.execute(f'ALTER TABLE "{DB_TABLE}" RENAME TO "{DB_TABLE}_old"')
         _create_schema()
 
-        old_cols = _cols('brickovery_db_old')
-        item_type_expr = "'P'"
-        if 'item_type' in old_cols:
-            item_type_expr = 'item_type'
-        w_expr = 'NULL'
-        if 'weight' in old_cols:
-            w_expr = 'weight'
-        elif 'weight_g' in old_cols:
-            w_expr = 'weight_g'
+        old_cols = _cols(f"{DB_TABLE}_old")
 
-        boid_expr = 'NULL'
-        if 'boid' in old_cols:
-            boid_expr = 'CAST(boid AS TEXT)'
+        def _expr(col: str, default: str = "NULL") -> str:
+            return col if col in old_cols else default
 
-        source_expr = 'NULL'
-        if 'source' in old_cols:
-            source_expr = 'source'
+        item_type_expr = _expr("item_type", "'P'")
+        boid_expr = _expr("boid", "NULL")
+        bk_part_id_expr = _expr("bk_part_id", "NULL")
+        bk_img_url_expr = _expr("bk_img_url", "NULL")
+        bk_color_id_expr = _expr("bk_color_id", "NULL")
 
+        # Best-effort for weight legacy column
+        if "weight" in old_cols:
+            weight_expr = "weight"
+        elif "weight_g" in old_cols:
+            weight_expr = "weight_g"
+        else:
+            weight_expr = "NULL"
+
+        # bo_color_id should exist in most versions; fallback to NULL if absent
+        bo_color_expr = _expr("bo_color_id", "NULL")
+
+        # Older schemas used ldraw/source; ignore.
         cur.execute(
             f"""
-            INSERT OR REPLACE INTO brickovery_db (
-              bl_part_id, item_type,
-              bl_color_id, bo_color_id, ldraw_color_id,
-              weight, boid, source
+            INSERT OR REPLACE INTO {DB_TABLE} (
+              bl_part_id, boid, bk_part_id, item_type,
+              bl_color_id, bo_color_id, bk_color_id,
+              weight, bk_img_url
             )
             SELECT
-              bl_part_id, {item_type_expr} AS item_type,
-              bl_color_id, bo_color_id, ldraw_color_id,
-              {w_expr} AS weight,
-              {boid_expr} AS boid,
-              {source_expr} AS source
-            FROM brickovery_db_old
+              bl_part_id,
+              CAST({boid_expr} AS TEXT) AS boid,
+              {bk_part_id_expr} AS bk_part_id,
+              {item_type_expr} AS item_type,
+              bl_color_id,
+              {bo_color_expr} AS bo_color_id,
+              {bk_color_id_expr} AS bk_color_id,
+              {weight_expr} AS weight,
+              {bk_img_url_expr} AS bk_img_url
+            FROM {DB_TABLE}_old
             """
-
         )
-        cur.execute('DROP TABLE brickovery_db_old')
+        cur.execute(f'DROP TABLE "{DB_TABLE}_old"')
         con.commit()
-        cols = _cols('brickovery_db')
+        cols = _cols(DB_TABLE)
 
     # Create if missing
     _create_schema()
 
-    # Ensure weight column exists (safety)
-    cols2 = _cols('brickovery_db')
-    if 'weight' not in cols2:
+    # Safety backfills (idempotent)
+    cols2 = _cols(DB_TABLE)
+
+    if "item_type" in cols2:
         try:
-            cur.execute('ALTER TABLE brickovery_db ADD COLUMN weight REAL')
+            cur.execute("UPDATE brickovery_db SET item_type='P' WHERE item_type IS NULL OR item_type='' ")
             con.commit()
         except Exception:
             pass
-
-    # Ensure item_type column exists (safety)
-    cols3 = _cols('brickovery_db')
-    if 'item_type' not in cols3:
-        try:
-            cur.execute("ALTER TABLE brickovery_db ADD COLUMN item_type TEXT NOT NULL DEFAULT 'P'")
-            con.commit()
-        except Exception:
-            try:
-                cur.execute('ALTER TABLE brickovery_db ADD COLUMN item_type TEXT')
-                con.commit()
-            except Exception:
-                pass
-    # Backfill existing rows
-    try:
-        cur.execute("UPDATE brickovery_db SET item_type='P' WHERE item_type IS NULL OR item_type='' ")
-        con.commit()
-    except Exception:
-        pass
 
     cur.execute(
         """
@@ -1599,7 +1738,8 @@ def main() -> int:
     # Inputs (apenas obrigatórios no modo build/all)
     ap.add_argument("--bl-codes-xml", help="BrickStore part_color_codes.xml (from upstream .zip)")
     ap.add_argument("--bl-colors-xml", help="BrickStore/BrickLink colors.xml (from upstream .zip)")
-    ap.add_argument("--color-map", help="Color map CSV (recommended: your colors_seed.csv) with bl_color_id -> bo_color_id/ldraw_color_id")
+    ap.add_argument("--items-dir", help="Directory containing upstream items/*.xml (from upstream .zip) to ensure all item IDs exist in DB (placeholder bl_color_id=0).")
+    ap.add_argument("--color-map", help="Color map CSV (recommended: your colors_seed.csv) with bl_color_id -> bo_color_id/bk_color_id")
 
     # Outputs / DB (sempre necessários)
     ap.add_argument("--db", required=True)
@@ -1647,6 +1787,7 @@ def main() -> int:
 
     # Paths
     codes_xml = Path(args.bl_codes_xml) if args.bl_codes_xml else None
+    items_dir = Path(args.items_dir) if getattr(args, 'items_dir', None) else None
     color_map_csv = Path(args.color_map) if args.color_map else None
 
     db_path = Path(args.db)
@@ -1670,13 +1811,14 @@ def main() -> int:
         out_csv,
         [
             "bl_part_id",
+            "boid",
+            "bk_part_id",
             "item_type",
             "bl_color_id",
             "bo_color_id",
-            "ldraw_color_id",
+            "bk_color_id",
             "weight",
-            "boid",
-            "source",
+            "bk_img_url",
         ],
     )
     touch_with_header_csv(issues_csv, ["severity", "issue_type", "key", "details"])
@@ -1710,15 +1852,19 @@ def main() -> int:
     # Load color map early if present (used in BOID fixups too)
     color_map = None
     bl_to_bo = {}
-    bl_to_ldraw = {}
+    bl_to_bk = {}
 
     try:
         if mode in ("all", "build"):
             if codes_xml is None:
                 raise FileNotFoundError("--bl-codes-xml é obrigatório em mode=all/build")
+            if items_dir is None:
+                raise FileNotFoundError("--items-dir é obrigatório em mode=all/build (para garantir inclusão de todos os item IDs do upstream)")
             if color_map_csv is None:
                 raise FileNotFoundError("--color-map é obrigatório em mode=all/build")
             require_file(codes_xml, "--bl-codes-xml")
+            if not Path(items_dir).exists():
+                raise FileNotFoundError(f"--items-dir não encontrado: {items_dir}")
             require_file(color_map_csv, "--color-map")
 
         # color-map é altamente recomendado no boid mode; se faltar, continuamos usando bo_color_id da DB
@@ -1727,16 +1873,28 @@ def main() -> int:
             res = load_bl_reverse_maps_from_csv(color_map_csv)
             if res is None:
                 raise RuntimeError(f"load_bl_reverse_maps_from_csv returned None for {color_map_csv}")
-            bl_to_bo, bl_to_ldraw, rev_issues = res
+            bl_to_bo, bl_to_bk, rev_issues = res
             for sev, typ, key, details in rev_issues:
                 add_issue(sev, typ, key, details)
             con.commit()
+            # Backfill bk_color_id for any pre-existing rows (idempotent)
+            try:
+                if bl_to_bk:
+                    cur.executemany(
+                        "UPDATE brickovery_db SET bk_color_id=? WHERE bl_color_id=? AND (bk_color_id IS NULL OR bk_color_id!=?)",
+                        [(bk, bl, bk) for bl, bk in bl_to_bk.items()],
+                    )
+                    con.commit()
+            except Exception as e:
+                add_issue("WARN", "BK_COLOR_BACKFILL_FAILED", "", f"{type(e).__name__}: {e}")
+                con.commit()
+
         else:
             if mode in ("all", "build"):
                 # já teria sido exigido (build/all requer --color-map)
                 pass
             elif mode in ("boid",):
-                add_issue("WARN", "COLOR_MAP_MISSING", "", "--color-map não fornecido; fixups BL->BO não serão aplicados.")
+                add_issue("WARN", "COLOR_MAP_MISSING", "", "--color-map não fornecido; fixups BL->BO/BK não serão aplicados.")
                 con.commit()
 
         if args.debug_apis:
@@ -1766,7 +1924,7 @@ def main() -> int:
                 add_issue(sev, typ, key, details)
             oauth = bricklink_oauth_from_env()
             bl_colors_cache: Dict[str, List[int]] = {}
-            fallback_done_parts: Set[str] = set()
+            fallback_done_items: Set[Tuple[str, str]] = set()
 
             batch_rows: List[Tuple] = []
 
@@ -1786,10 +1944,7 @@ def main() -> int:
                     add_issue("WARN", "EARLY_EXIT_MAX_RUNTIME", "", f"Paragem limpa por --max-runtime-seconds={args.max_runtime_seconds}.")
                     break
 
-                # We only care about parts for this DB
                 item_type = canon_item_type(itemtype)
-                if item_type != "P":
-                    continue
 
                 # Resolve BL color id from the upstream token (either numeric ID or color name)
                 bl_color_id = parse_int_any(color_val)
@@ -1801,8 +1956,8 @@ def main() -> int:
                     add_issue("WARN", "UNKNOWN_BL_COLOR_TOKEN", f"{bl_part_id}|{color_val}", f"Não foi possível resolver COLOR='{color_val}' via color-map CSV (name->id). Verificar/ajustar colors_seed.csv; fallback BrickLink colors API (se configurada).")
 
                     # Optional fallback: ask BrickLink for colors for this part (once per part)
-                    if oauth and bl_part_id not in fallback_done_parts:
-                        fallback_done_parts.add(bl_part_id)
+                    if oauth and (item_type, bl_part_id) not in fallback_done_items:
+                        fallback_done_items.add((item_type, bl_part_id))
                         try:
                             colors = bricklink_list_item_colors(bl_part_id, oauth, item_type=item_type)
                             if colors:
@@ -1811,8 +1966,8 @@ def main() -> int:
                                     if is_disallowed_bl_color_id(blc):
                                         continue
                                     bo_c = bl_to_bo.get(blc)
-                                    ld_c = bl_to_ldraw.get(blc)
-                                    batch_rows.append((bl_part_id, item_type, blc, bo_c, ld_c, None, "BL_FALLBACK"))
+                                    bk_c = bl_to_bk.get(blc)
+                                    batch_rows.append((bl_part_id, None, None, item_type, int(blc), bo_c, bk_c, None, None))
                                     inserted += 1
                         except Exception as e:
                             add_issue("WARN", "BRICKLINK_COLORS_FALLBACK_FAILED", bl_part_id, f"{type(e).__name__}: {e}")
@@ -1828,11 +1983,11 @@ def main() -> int:
                 last_key = key
 
                 bo_c = bl_to_bo.get(int(bl_color_id))
-                ld_c = bl_to_ldraw.get(int(bl_color_id))
+                bk_c = bl_to_bk.get(int(bl_color_id))
                 if bo_c is None:
                     missing_color_map += 1
 
-                batch_rows.append((bl_part_id, item_type, int(bl_color_id), bo_c, ld_c, None, "UPSTREAM"))
+                batch_rows.append((bl_part_id, None, None, item_type, int(bl_color_id), bo_c, bk_c, None, None))
                 inserted += 1
 
                 # flush batch
@@ -1840,10 +1995,10 @@ def main() -> int:
                     cur.executemany(
                         """
                         INSERT OR REPLACE INTO brickovery_db(
-                          bl_part_id, item_type,
-                          bl_color_id, bo_color_id, ldraw_color_id,
-                          boid, source
-                        ) VALUES (?,?,?,?,?,?,?)
+                          bl_part_id, boid, bk_part_id, item_type,
+                          bl_color_id, bo_color_id, bk_color_id,
+                          weight, bk_img_url
+                        ) VALUES (?,?,?,?,?,?,?,?,?)
                         """,
                         batch_rows,
                     )
@@ -1873,15 +2028,29 @@ def main() -> int:
                 cur.executemany(
                     """
                     INSERT OR REPLACE INTO brickovery_db(
-                          bl_part_id, item_type,
-                          bl_color_id, bo_color_id, ldraw_color_id,
-                          boid, source
-                        ) VALUES (?,?,?,?,?,?,?)
+                          bl_part_id, boid, bk_part_id, item_type,
+                          bl_color_id, bo_color_id, bk_color_id,
+                          weight, bk_img_url
+                        ) VALUES (?,?,?,?,?,?,?,?,?)
                     """,
                     batch_rows,
                 )
                 con.commit()
                 batch_rows.clear()
+
+
+            # Ensure all upstream item IDs exist in DB (adds placeholder rows with bl_color_id=0 where needed)
+            try:
+                ensure_all_items_present(
+                    con,
+                    cur,
+                    items_dir=items_dir,
+                    bl_to_bo=bl_to_bo,
+                    bl_to_bk=bl_to_bk,
+                    add_issue=add_issue,
+                )
+            except Exception as e:
+                add_issue("WARN", "ENSURE_ALL_ITEMS_FAILED", str(items_dir) if items_dir else "", f"{type(e).__name__}: {e}")
 
             checkpoint(
                 "built",
@@ -2109,24 +2278,15 @@ def main() -> int:
             print(f"[EXPORT] {out_csv.name}...")
             with out_csv.open("w", newline="", encoding="utf-8") as f:
                 w = csv.writer(f)
-                w.writerow(["bl_part_id", "item_type", "bl_color_id", "bo_color_id", "ldraw_color_id", "weight", "boid", "source"])
+                w.writerow(["bl_part_id", "boid", "bk_part_id", "item_type", "bl_color_id", "bo_color_id", "bk_color_id", "weight", "bk_img_url"])
                 for row in cur.execute(
                     """
-                    SELECT bl_part_id, item_type, bl_color_id, bo_color_id, ldraw_color_id, weight, boid, source
+                    SELECT bl_part_id, boid, bk_part_id, item_type, bl_color_id, bo_color_id, bk_color_id, weight, bk_img_url
                     FROM brickovery_db
                     ORDER BY item_type, bl_part_id, bl_color_id
                     """
                 ):
-                    # DB mantém NULL; CSV marca no_color quando ambos IDs (BL/BO) são NULL
-                    blc = row[2]
-                    boc = row[3]
-                    if blc is None and boc is None:
-                        rr = list(row)
-                        rr[2] = 'no_color'
-                        rr[3] = 'no_color'
-                        w.writerow(rr)
-                    else:
-                        w.writerow(row)
+                    w.writerow(row)
 
             print("[EXPORT] part_color_issues.csv...")
             with issues_csv.open("w", newline="", encoding="utf-8") as f:
