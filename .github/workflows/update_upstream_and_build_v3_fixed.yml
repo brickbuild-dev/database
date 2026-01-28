@@ -79,16 +79,16 @@ jobs:
           mkdir -p inputs/upstream
           curl -L -o inputs/upstream/brickstore-database.zip "${{ steps.upstream.outputs.zip_url }}"
 
-      - name: Extract required XMLs (part_color_codes.xml + items/P.xml)
+      - name: Extract required XMLs (part_color_codes.xml + items/*.xml)
         if: steps.changed.outputs.changed == 'true'
         run: |
           set -euo pipefail
           ZIP="inputs/upstream/brickstore-database.zip"
-          mkdir -p inputs/bricklink
-          unzip -p "$ZIP" part_color_codes.xml > inputs/bricklink/part_color_codes.xml
-          # Optional but recommended for rb_part_id fallback via ALTITEMIDS
           mkdir -p inputs/bricklink/items
-          unzip -p "$ZIP" items/P.xml > inputs/bricklink/items/P.xml
+          unzip -p "$ZIP" part_color_codes.xml > inputs/bricklink/part_color_codes.xml
+          # Extract all item type catalogs to ensure we insert every upstream item_id (parts, sets, minifigs, etc.)
+          # This creates inputs/bricklink/items/*.xml
+          unzip -qq -o "$ZIP" "items/*.xml" -d inputs/bricklink
 
       - name: Build DB
         if: steps.changed.outputs.changed == 'true'
@@ -103,6 +103,7 @@ jobs:
             --out-csv database/brickovery_db.csv \
             --issues database/part_color_issues.csv \
             --bl-codes-xml inputs/bricklink/part_color_codes.xml \
+            --items-dir inputs/bricklink/items \
             --color-map inputs/colors_seed.csv \
             --commit-every 10000 \
             --progress-every 200000
@@ -113,7 +114,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add             inputs/upstream/last_release_id.txt             inputs/bricklink/part_color_codes.xml             inputs/upstream/brickstore-database.zip             database/brickovery.db             database/brickovery_db.csv             database/part_color_issues.csv || true
+          git add             inputs/upstream/last_release_id.txt             inputs/bricklink/part_color_codes.xml             inputs/bricklink/items             inputs/upstream/brickstore-database.zip             database/brickovery.db             database/brickovery_db.csv             database/part_color_issues.csv || true
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
