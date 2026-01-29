@@ -244,7 +244,7 @@ def _read_csv(path: Path) -> Tuple[List[str], Dict[Tuple[str, str], Dict[str, st
         rows: Dict[Tuple[str, str], Dict[str, str]] = {}
         for row in r:
             bl = (row.get("bl_part_id") or "").strip()
-            it = (row.get("item_type") or "").strip() or "P"
+            it = (row.get("item_type") or "").strip() or "U"
             if not bl:
                 continue
             rows[(bl, it)] = {k: (v.strip() if isinstance(v, str) else v) for k, v in row.items()}
@@ -339,7 +339,7 @@ def _append_new_rows(csv_path: Path, header: List[str], new_rows: List[Dict[str,
             hdr.append(col)
     for row in new_rows:
         bl = (row.get("bl_part_id") or "").strip()
-        it = (row.get("item_type") or "").strip() or "P"
+        it = (row.get("item_type") or "").strip() or "U"
         if not bl:
             continue
         rows[(bl, it)] = {**rows.get((bl, it), {}), **row}
@@ -370,10 +370,12 @@ def main() -> int:
         changes: List[Dict[str, str]] = []
 
         for bl, it in missing_pairs:
-            it = it.strip() or "P"
+            it = (it or '').strip() or 'U'
+            if len(it) != 1:
+                it = 'U'
             if it not in TYPE_META:
-                # Default unknowns to Parts (P) unless you later extend TYPE_META
-                it = "P"
+                # Default unknowns to Unsorted Lots (U) as the last-resort category
+                it = "U"
 
             # If mapping exists in CSV, use it (and fill/correct missing fields if needed)
             row = csv_rows.get((bl, it))
