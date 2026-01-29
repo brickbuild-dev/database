@@ -108,6 +108,10 @@ jobs:
         if: steps.changed.outputs.changed == 'true'
         env:
           REBRICKABLE_API_KEY: ${{ secrets.REBRICKABLE_API_KEY }}
+          BRICKLINK_CONSUMER_KEY: ${{ secrets.BRICKLINK_CONSUMER_KEY }}
+          BRICKLINK_CONSUMER_SECRET: ${{ secrets.BRICKLINK_CONSUMER_SECRET }}
+          BRICKLINK_TOKEN: ${{ secrets.BRICKLINK_TOKEN }}
+          BRICKLINK_TOKEN_SECRET: ${{ secrets.BRICKLINK_TOKEN_SECRET }}
         run: |
           set -euo pipefail
           mkdir -p database
