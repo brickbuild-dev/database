@@ -135,7 +135,7 @@ jobs:
             $APPLY_DELTA \
             --json-out .semantic_sync.json
 
-          python - <<'PY'
+          python - <<'PY' >> "$GITHUB_OUTPUT"
           import json
           j=json.load(open('.semantic_sync.json','r',encoding='utf-8'))
           print(f"semantic_new_data={str(bool(j.get('semantic_new_data'))).lower()}")
@@ -143,7 +143,7 @@ jobs:
           # delta is considered applied if we inserted anything
           applied = (j.get('db_inserted_items',0) or 0) + (j.get('db_inserted_codes',0) or 0)
           print(f"db_delta_applied={str(applied>0).lower()}")
-          PY >> "$GITHUB_OUTPUT"
+          PY
           echo "force_rebuild=${FORCE_REBUILD}" >> "$GITHUB_OUTPUT"
 
       - name: Force rebuild DB (manual only)
