@@ -210,6 +210,15 @@ jobs:
           print(f"db_delta_applied={str(applied>0).lower()}")
           PY
 
+      
+- name: Repair DB integrity (swap bad rows + normalize item_type)
+  if: steps.applydelta.outputs.db_delta_applied == 'true'
+  run: |
+    set -euo pipefail
+    python tools/repair_brickovery_db_integrity.py --db database/brickovery.db > .db_repair.json
+    echo "DB repair summary:"
+    cat .db_repair.json
+
       - name: Brickovery DB post-update audit (after semantic delta)
         if: steps.applydelta.outputs.db_delta_applied == 'true'
         run: |
@@ -243,6 +252,25 @@ jobs:
           test -d .tmp/mapping || { echo "::error::Missing mapping checkout (.tmp/mapping)"; exit 2; }
           test -f .tmp/mapping/bk_mapping.csv || { echo "::error::Missing .tmp/mapping/bk_mapping.csv"; exit 2; }
           python tools/apply_bk_mapping_to_db_with_meta_and_audit.py             --db database/brickovery.db             --bk-mapping-csv .tmp/mapping/bk_mapping.csv             --write-csv
+- name: Resolve BOID + fill missing weights (BrickOwl + BrickLink)
+  if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
+  env:
+    BRICKOWL_API_KEY: ${{ secrets.BRICKOWL_API_KEY }}
+    REBRICKABLE_API_KEY: ${{ secrets.REBRICKABLE_API_KEY }}
+    BRICKLINK_CONSUMER_KEY: ${{ secrets.BRICKLINK_CONSUMER_KEY }}
+    BRICKLINK_CONSUMER_SECRET: ${{ secrets.BRICKLINK_CONSUMER_SECRET }}
+    BRICKLINK_TOKEN: ${{ secrets.BRICKLINK_TOKEN }}
+    BRICKLINK_TOKEN_SECRET: ${{ secrets.BRICKLINK_TOKEN_SECRET }}
+  run: |
+    set -euo pipefail
+    V3="brickovery_upstream_v3.py"
+    if [ ! -f "$V3" ] && [ -f "database/brickovery_upstream_v3.py" ]; then V3="database/brickovery_upstream_v3.py"; fi
+    if [ ! -f "$V3" ]; then V3="$(find . -maxdepth 4 -type f -name 'brickovery_upstream_v3*.py' | head -n 1 || true)"; fi
+    test -n "$V3" && [ -f "$V3" ] || { echo "::error::Cannot find brickovery_upstream_v3*.py in repo"; ls -la; exit 2; }
+    echo "Using builder script: $V3"
+
+    python "$V3"                 --mode boid                 --db database/brickovery.db                 --resolve-boid                 --boid-cache-json database/boid_cache.json                 --bl-codes-xml inputs/bricklink/part_color_codes.xml                 --items-dir inputs/bricklink/items                 --color-map inputs/colors_seed.csv                 --commit-every 10000                 --progress-every 200000
+
 
       - name: Commit and push mapping repo (only if mapping changed)
         if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
