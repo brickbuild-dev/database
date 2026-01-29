@@ -40,37 +40,62 @@ from typing import Dict, Iterable, List, Optional, Set, Tuple
 
 
 def _try_import_helpers():
-    """Import canonical parsing helpers from brickovery_upstream_v3.py.
+    """Import canonical parsing helpers from brickovery_upstream_v3*.py.
 
     Prefer a normal import, but fall back to loading the module from a nearby
-    brickovery_upstream_v3.py file. This makes the workflow robust to changes
-    in working-directory / PYTHONPATH on GitHub Actions.
+    file path. This is robust to different repo layouts and filenames such as:
+      - brickovery_upstream_v3.py
+      - database/brickovery_upstream_v3.py
+      - brickovery_upstream_v3_with_bk_meta.py
+      - brickovery_upstream_v3 (5).py  (exported filename)
     """
     try:
         import brickovery_upstream_v3 as v3  # type: ignore
     except ModuleNotFoundError:
         import sys
         import importlib.util
+
         here = Path(__file__).resolve()
+
+        # Build a list of candidate directories to search.
+        cand_dirs = []
+        for p in [here.parent] + list(here.parents)[:8]:
+            cand_dirs.append(p)
+            cand_dirs.append(p / "database")
+            cand_dirs.append(p / "database" / "database")
+
+        # Prefer exact filename first; then any brickovery_upstream_v3*.py.
+        preferred_names = [
+            "brickovery_upstream_v3.py",
+            "brickovery_upstream_v3_with_bk_meta.py",
+        ]
+
         cand: Optional[Path] = None
 
-        # Search for brickovery_upstream_v3.py upwards from this script.
-        for p in [here.parent] + list(here.parents)[:6]:
-            f = p / "brickovery_upstream_v3.py"
-            if f.exists():
-                cand = f
-                break
-
-        # Common layout: repo root contains a "database/" folder.
-        if cand is None:
-            for p in [here.parent] + list(here.parents)[:6]:
-                f = p / "database" / "brickovery_upstream_v3.py"
+        for d in cand_dirs:
+            for name in preferred_names:
+                f = d / name
                 if f.exists():
                     cand = f
                     break
+            if cand is not None:
+                break
 
         if cand is None:
-            raise
+            for d in cand_dirs:
+                if not d.exists():
+                    continue
+                # Any prefix match (including files with spaces, e.g. "brickovery_upstream_v3 (5).py")
+                matches = sorted(d.glob("brickovery_upstream_v3*.py"))
+                if matches:
+                    cand = matches[0]
+                    break
+
+        if cand is None:
+            raise ModuleNotFoundError(
+                "Não foi possível localizar brickovery_upstream_v3*.py no repo. "
+                "Garante que existe um ficheiro com esse prefixo (ex.: database/brickovery_upstream_v3.py)."
+            )
 
         spec = importlib.util.spec_from_file_location("brickovery_upstream_v3", str(cand))
         if spec is None or spec.loader is None:
