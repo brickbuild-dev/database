@@ -65,8 +65,7 @@ jobs:
         run: |
           set -euo pipefail
           curl -L -o .latest_brickstore.zip "${{ steps.upstream.outputs.zip_url }}"
-
-      - name: Semantic gate (compare ZIP vs DB + colors_seed) and (if needed) apply INSERT-only delta
+      - name: Semantic gate (CHECK ONLY: compare ZIP vs DB + colors_seed)
         id: gates
         env:
           FORCE_REBUILD: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force_rebuild == 'true' }}
@@ -79,15 +78,8 @@ jobs:
 
           mkdir -p inputs/upstream inputs/bricklink
 
-          DB_OK="true"
           if [ ! -f database/brickovery.db ]; then
-            DB_OK="false"
-          fi
-
-          # If DB doesn't exist yet, we cannot do semantic comparison; keep the job
-          # non-destructive (no DB work) and just stage upstream inputs for manual force.
-          if [ "$DB_OK" = "false" ]; then
-            echo "database/brickovery.db missing: skipping semantic diff + delta. (Run workflow with force_rebuild to create DB.)"
+            echo "database/brickovery.db missing: skipping semantic diff. (Run workflow with force_rebuild to create DB.)"
             TMPDIR="$(mktemp -d)"; trap 'rm -rf "$TMPDIR"' EXIT
             unzip -p "$ZIP" part_color_codes.xml > "$TMPDIR/part_color_codes.xml"
             unzip -qq -o "$ZIP" "items/*.xml" -d "$TMPDIR"
@@ -97,24 +89,14 @@ jobs:
             mv -f "$ZIP" inputs/upstream/brickstore-database.zip
             echo "upstream_inputs_synced=true" >> "$GITHUB_OUTPUT"
             echo "semantic_new_data=false" >> "$GITHUB_OUTPUT"
+            echo "db_delta_needed=false" >> "$GITHUB_OUTPUT"
             echo "force_rebuild=${FORCE_REBUILD}" >> "$GITHUB_OUTPUT"
-            echo "db_delta_applied=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
-          APPLY_DELTA=""
-          if [ "${FORCE_REBUILD}" != "true" ]; then
-            APPLY_DELTA="--apply-db-delta"
-          fi
-
-          # Locate semantic sync script (repo layout may vary)
           export PYTHONPATH="${GITHUB_WORKSPACE}/database:${PYTHONPATH:-}"
           SCRIPT=""
-          for c in \
-            "tools/upstream_semantic_sync_and_delta.py" \
-            "tools/upstream_semantic_sync_and_delta_importfix.py" \
-            "database/tools/upstream_semantic_sync_and_delta.py" \
-            "database/tools/upstream_semantic_sync_and_delta_importfix.py"; do
+          for c in "tools/upstream_semantic_sync_and_delta.py" "tools/upstream_semantic_sync_and_delta_importfix.py" "database/tools/upstream_semantic_sync_and_delta.py" "database/tools/upstream_semantic_sync_and_delta_importfix.py"; do
             if [ -f "$c" ]; then SCRIPT="$c"; break; fi
           done
           if [ -z "$SCRIPT" ]; then
@@ -123,28 +105,40 @@ jobs:
           test -n "$SCRIPT" || { echo "::error::Cannot find upstream_semantic_sync_and_delta*.py in repo"; ls -la; find . -maxdepth 3 -type d -print; exit 2; }
           echo "Using semantic script: $SCRIPT"
 
-          python "$SCRIPT" \
-            --zip "$ZIP" \
-            --db database/brickovery.db \
-            --color-map inputs/colors_seed.csv \
-            --out-zip inputs/upstream/brickstore-database.zip \
-            --out-codes-xml inputs/bricklink/part_color_codes.xml \
-            --out-items-dir inputs/bricklink/items \
-            --state-dir inputs/upstream \
-            --release-id "${{ steps.upstream.outputs.release_id }}" \
-            $APPLY_DELTA \
-            --json-out .semantic_sync.json
+          python "$SCRIPT" --zip "$ZIP" --db database/brickovery.db --color-map inputs/colors_seed.csv --out-zip inputs/upstream/brickstore-database.zip --out-codes-xml inputs/bricklink/part_color_codes.xml --out-items-dir inputs/bricklink/items --state-dir inputs/upstream --release-id "${{ steps.upstream.outputs.release_id }}" --json-out .semantic_check.json
 
           python - <<'PY' >> "$GITHUB_OUTPUT"
           import json
-          j=json.load(open('.semantic_sync.json','r',encoding='utf-8'))
-          print(f"semantic_new_data={str(bool(j.get('semantic_new_data'))).lower()}")
+          j=json.load(open('.semantic_check.json','r',encoding='utf-8'))
+          sem = bool(j.get('semantic_new_data'))
+          print(f"semantic_new_data={str(sem).lower()}")
           print(f"upstream_inputs_synced={str(bool(j.get('copied_upstream_files'))).lower()}")
-          # delta is considered applied if we inserted anything
-          applied = (j.get('db_inserted_items',0) or 0) + (j.get('db_inserted_codes',0) or 0)
-          print(f"db_delta_applied={str(applied>0).lower()}")
+          print(f"db_delta_needed={str(sem).lower()}")
           PY
           echo "force_rebuild=${FORCE_REBUILD}" >> "$GITHUB_OUTPUT"
+
+      - name: Backup brickovery DB (pre-update, immutable) + audit report
+        id: dbbackup
+        if: steps.gates.outputs.force_rebuild == 'true' || steps.gates.outputs.db_delta_needed == 'true'
+        run: |
+          set -euo pipefail
+          if [ ! -f database/brickovery.db ]; then
+            echo "DB missing: skipping backup."
+            exit 0
+          fi
+          mkdir -p database/backups/brickovery_db database/audit/brickovery_db
+          REASON="semantic_delta"
+          if [ "${{ steps.gates.outputs.force_rebuild }}" = "true" ]; then REASON="manual_force_rebuild"; fi
+          EXTRA=""
+          if [ -f .semantic_check.json ]; then EXTRA="--context-json .semantic_check.json"; fi
+
+          python tools/backup_brickovery_db_with_audit.py --db database/brickovery.db --backup-dir database/backups/brickovery_db --audit-dir database/audit/brickovery_db --also-backup-csv database/brickovery_db.csv --reason "$REASON" $EXTRA > .dbbackup.json
+
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          j=json.load(open('.dbbackup.json','r',encoding='utf-8'))
+          print(f"pre_meta={j.get('meta_file','')}")
+          PY
 
       - name: Force rebuild DB (manual only)
         if: steps.gates.outputs.force_rebuild == 'true'
@@ -177,8 +171,56 @@ jobs:
             --commit-every 10000 \
             --progress-every 200000
 
+      - name: Brickovery DB post-update audit (after manual force rebuild)
+        if: steps.gates.outputs.force_rebuild == 'true'
+        run: |
+          set -euo pipefail
+          PRE_META="${{ steps.dbbackup.outputs.pre_meta }}"
+          EXTRA=""
+          if [ -n "${PRE_META:-}" ] && [ -f "$PRE_META" ]; then EXTRA="--pre-meta $PRE_META"; fi
+          python tools/brickovery_db_postupdate_report.py --db database/brickovery.db --audit-dir database/audit/brickovery_db --reason manual_force_rebuild $EXTRA
+
+      - name: Apply INSERT-only delta to DB (NO rebuild)
+        id: applydelta
+        if: steps.gates.outputs.db_delta_needed == 'true' && steps.gates.outputs.force_rebuild != 'true'
+        env:
+          PYTHONPATH: ${{ github.workspace }}/database
+        run: |
+          set -euo pipefail
+          ZIP=".latest_brickstore.zip"
+          test -f "$ZIP" || { echo "::error::Missing downloaded zip $ZIP"; exit 2; }
+
+          export PYTHONPATH="${GITHUB_WORKSPACE}/database:${PYTHONPATH:-}"
+          SCRIPT=""
+          for c in "tools/upstream_semantic_sync_and_delta.py" "tools/upstream_semantic_sync_and_delta_importfix.py" "database/tools/upstream_semantic_sync_and_delta.py" "database/tools/upstream_semantic_sync_and_delta_importfix.py"; do
+            if [ -f "$c" ]; then SCRIPT="$c"; break; fi
+          done
+          if [ -z "$SCRIPT" ]; then
+            SCRIPT="$(find . -maxdepth 5 -type f -name 'upstream_semantic_sync_and_delta*.py' | head -n 1 || true)"
+          fi
+          test -n "$SCRIPT" || { echo "::error::Cannot find upstream_semantic_sync_and_delta*.py in repo"; exit 2; }
+          echo "Using semantic script: $SCRIPT"
+
+          python "$SCRIPT" --zip "$ZIP" --db database/brickovery.db --color-map inputs/colors_seed.csv --out-zip inputs/upstream/brickstore-database.zip --out-codes-xml inputs/bricklink/part_color_codes.xml --out-items-dir inputs/bricklink/items --state-dir inputs/upstream --release-id "${{ steps.upstream.outputs.release_id }}" --apply-db-delta --json-out .semantic_apply.json
+
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          j=json.load(open('.semantic_apply.json','r',encoding='utf-8'))
+          applied = (j.get('db_inserted_items',0) or 0) + (j.get('db_inserted_codes',0) or 0)
+          print(f"db_delta_applied={str(applied>0).lower()}")
+          PY
+
+      - name: Brickovery DB post-update audit (after semantic delta)
+        if: steps.applydelta.outputs.db_delta_applied == 'true'
+        run: |
+          set -euo pipefail
+          PRE_META="${{ steps.dbbackup.outputs.pre_meta }}"
+          EXTRA=""
+          if [ -n "${PRE_META:-}" ] && [ -f "$PRE_META" ]; then EXTRA="--pre-meta $PRE_META"; fi
+          python tools/brickovery_db_postupdate_report.py --db database/brickovery.db --audit-dir database/audit/brickovery_db --reason semantic_delta $EXTRA --apply-json .semantic_apply.json
+
       - name: Validate mapping repo token (read+write)
-        if: steps.gates.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
+        if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
         env:
           MAPPING_REPO_TOKEN: ${{ secrets.MAPPING_REPO_TOKEN }}
         run: |
@@ -186,7 +228,7 @@ jobs:
           test -n "${MAPPING_REPO_TOKEN:-}" || { echo "::error::Missing secrets.MAPPING_REPO_TOKEN (needs read+write access to brickbuild-dev/brikick-secrets)"; exit 2; }
 
       - name: Checkout mapping repo (private)
-        if: steps.gates.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
+        if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
         uses: actions/checkout@v4
         with:
           repository: brickbuild-dev/brikick-secrets
@@ -195,7 +237,7 @@ jobs:
           fetch-depth: 0
 
       - name: Apply/ensure bk_mapping into DB (and write back with backups + audit)
-        if: steps.gates.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
+        if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
         run: |
           set -euo pipefail
           test -d .tmp/mapping || { echo "::error::Missing mapping checkout (.tmp/mapping)"; exit 2; }
@@ -203,7 +245,7 @@ jobs:
           python tools/apply_bk_mapping_to_db_with_meta_and_audit.py             --db database/brickovery.db             --bk-mapping-csv .tmp/mapping/bk_mapping.csv             --write-csv
 
       - name: Commit and push mapping repo (only if mapping changed)
-        if: steps.gates.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
+        if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
         run: |
           set -euo pipefail
           cd .tmp/mapping
@@ -219,7 +261,7 @@ jobs:
           git push
 
       - name: Export CSV + issues (no rebuild)
-        if: steps.gates.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
+        if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
         env:
           REBRICKABLE_API_KEY: ${{ secrets.REBRICKABLE_API_KEY }}
           BRICKLINK_CONSUMER_KEY: ${{ secrets.BRICKLINK_CONSUMER_KEY }}
@@ -242,7 +284,7 @@ jobs:
             --issues database/part_color_issues.csv
 
       - name: Commit and push (only if something changed)
-        if: steps.gates.outputs.upstream_inputs_synced == 'true' || steps.gates.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
+        if: steps.gates.outputs.upstream_inputs_synced == 'true' || steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
@@ -267,7 +309,7 @@ jobs:
 
           if [ "${{ steps.gates.outputs.force_rebuild }}" = "true" ]; then
             msg="chore: rebuild DB (manual force)"
-          elif [ "${{ steps.gates.outputs.db_delta_applied }}" = "true" ]; then
+          elif [ "${{ steps.applydelta.outputs.db_delta_applied }}" = "true" ]; then
             msg="chore: apply upstream semantic delta"
           else
             msg="chore: sync upstream inputs (DB missing)"
