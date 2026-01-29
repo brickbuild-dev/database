@@ -1,0 +1,226 @@
+name: Sync BrickStore payload (semantic) + update DB (manual rebuild only)
+
+on:
+  schedule:
+    # daily (UTC)
+    - cron: "00 00 * * *"
+  workflow_dispatch:
+    inputs:
+      force_rebuild:
+        description: "Rebuild DB ONLY when true. Otherwise the workflow only applies INSERT-only deltas when upstream ZIP contains new semantic data."
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  sync-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          set -euo pipefail
+          python -m pip install --upgrade pip
+          pip install requests requests-oauthlib
+
+      - name: Fetch latest upstream release metadata
+        id: upstream
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          API="https://api.github.com/repos/rgriebl/brickstore-database/releases/latest"
+          curl -sSL -H "Authorization: Bearer ${GH_TOKEN}" -H "Accept: application/vnd.github+json" "$API" > .upstream_release.json
+          python - <<'PY'
+          import json, sys
+          j=json.load(open(".upstream_release.json","r",encoding="utf-8"))
+          rid=str(j.get("id",""))
+          assets=j.get("assets") or []
+          z=[a for a in assets if str(a.get("name","")).lower().endswith(".zip")]
+          if not z:
+              print("No .zip asset found in latest release", file=sys.stderr)
+              sys.exit(2)
+          a=max(z, key=lambda x: x.get("size") or 0)
+          open(".upstream_release_id.txt","w",encoding="utf-8").write(rid)
+          open(".upstream_zip_url.txt","w",encoding="utf-8").write(a.get("browser_download_url",""))
+          print(f"release_id={rid}")
+          print(f"zip={a.get('name')} size={a.get('size')}")
+          PY
+          echo "release_id=$(cat .upstream_release_id.txt)" >> "$GITHUB_OUTPUT"
+          echo "zip_url=$(cat .upstream_zip_url.txt)" >> "$GITHUB_OUTPUT"
+
+      - name: Download latest .zip (temp)
+        run: |
+          set -euo pipefail
+          curl -L -o .latest_brickstore.zip "${{ steps.upstream.outputs.zip_url }}"
+
+      - name: Semantic gate (compare ZIP vs DB + colors_seed) and (if needed) apply INSERT-only delta
+        id: gates
+        env:
+          FORCE_REBUILD: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force_rebuild == 'true' }}
+        run: |
+          set -euo pipefail
+
+          ZIP=".latest_brickstore.zip"
+          test -f "$ZIP" || { echo "::error::Missing downloaded zip $ZIP"; exit 2; }
+
+          mkdir -p inputs/upstream inputs/bricklink
+
+          DB_OK="true"
+          if [ ! -f database/brickovery.db ]; then
+            DB_OK="false"
+          fi
+
+          # If DB doesn't exist yet, we cannot do semantic comparison; keep the job
+          # non-destructive (no DB work) and just stage upstream inputs for manual force.
+          if [ "$DB_OK" = "false" ]; then
+            echo "database/brickovery.db missing: skipping semantic diff + delta. (Run workflow with force_rebuild to create DB.)"
+            TMPDIR="$(mktemp -d)"; trap 'rm -rf "$TMPDIR"' EXIT
+            unzip -p "$ZIP" part_color_codes.xml > "$TMPDIR/part_color_codes.xml"
+            unzip -qq -o "$ZIP" "items/*.xml" -d "$TMPDIR"
+            mkdir -p inputs/bricklink/items
+            cp -f "$TMPDIR/part_color_codes.xml" inputs/bricklink/part_color_codes.xml
+            rsync -a --delete "$TMPDIR/items/" inputs/bricklink/items/
+            mv -f "$ZIP" inputs/upstream/brickstore-database.zip
+            echo "upstream_inputs_synced=true" >> "$GITHUB_OUTPUT"
+            echo "semantic_new_data=false" >> "$GITHUB_OUTPUT"
+            echo "force_rebuild=${FORCE_REBUILD}" >> "$GITHUB_OUTPUT"
+            echo "db_delta_applied=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          APPLY_DELTA=""
+          if [ "${FORCE_REBUILD}" != "true" ]; then
+            APPLY_DELTA="--apply-db-delta"
+          fi
+
+          python tools/upstream_semantic_sync_and_delta.py \
+            --zip "$ZIP" \
+            --db database/brickovery.db \
+            --color-map inputs/colors_seed.csv \
+            --out-zip inputs/upstream/brickstore-database.zip \
+            --out-codes-xml inputs/bricklink/part_color_codes.xml \
+            --out-items-dir inputs/bricklink/items \
+            --state-dir inputs/upstream \
+            --release-id "${{ steps.upstream.outputs.release_id }}" \
+            $APPLY_DELTA \
+            --json-out .semantic_sync.json
+
+          python - <<'PY'
+          import json
+          j=json.load(open('.semantic_sync.json','r',encoding='utf-8'))
+          print(f"semantic_new_data={str(bool(j.get('semantic_new_data'))).lower()}")
+          print(f"upstream_inputs_synced={str(bool(j.get('copied_upstream_files'))).lower()}")
+          # delta is considered applied if we inserted anything
+          applied = (j.get('db_inserted_items',0) or 0) + (j.get('db_inserted_codes',0) or 0)
+          print(f"db_delta_applied={str(applied>0).lower()}")
+          PY >> "$GITHUB_OUTPUT"
+          echo "force_rebuild=${FORCE_REBUILD}" >> "$GITHUB_OUTPUT"
+
+      - name: Force rebuild DB (manual only)
+        if: steps.gates.outputs.force_rebuild == 'true'
+        env:
+          REBRICKABLE_API_KEY: ${{ secrets.REBRICKABLE_API_KEY }}
+          BRICKLINK_CONSUMER_KEY: ${{ secrets.BRICKLINK_CONSUMER_KEY }}
+          BRICKLINK_CONSUMER_SECRET: ${{ secrets.BRICKLINK_CONSUMER_SECRET }}
+          BRICKLINK_TOKEN: ${{ secrets.BRICKLINK_TOKEN }}
+          BRICKLINK_TOKEN_SECRET: ${{ secrets.BRICKLINK_TOKEN_SECRET }}
+        run: |
+          set -euo pipefail
+          test -f inputs/bricklink/part_color_codes.xml || { echo "::error::Missing inputs/bricklink/part_color_codes.xml"; exit 2; }
+          test -d inputs/bricklink/items || { echo "::error::Missing inputs/bricklink/items"; exit 2; }
+          mkdir -p database
+          python brickovery_upstream_v3.py \
+            --mode all \
+            --db database/brickovery.db \
+            --out-csv database/brickovery_db.csv \
+            --issues database/part_color_issues.csv \
+            --bl-codes-xml inputs/bricklink/part_color_codes.xml \
+            --items-dir inputs/bricklink/items \
+            --color-map inputs/colors_seed.csv \
+            --commit-every 10000 \
+            --progress-every 200000
+
+      - name: Download bk_mapping.csv (private)
+        if: steps.gates.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
+        env:
+          MAPPING_REPO_TOKEN: ${{ secrets.MAPPING_REPO_TOKEN }}
+        run: |
+          set -euo pipefail
+          test -n "${MAPPING_REPO_TOKEN:-}" || { echo "::error::Missing secrets.MAPPING_REPO_TOKEN"; exit 2; }
+          mkdir -p .tmp
+          curl -sSL \
+            -H "Authorization: Bearer ${MAPPING_REPO_TOKEN}" \
+            -H "Accept: application/vnd.github.raw" \
+            "https://raw.githubusercontent.com/brickbuild-dev/mapping/8359b902429608fb16fff33b47b9c65c10e924eb/bk_mapping.csv" \
+            -o .tmp/bk_mapping.csv
+          test -s .tmp/bk_mapping.csv || { echo "::error::Downloaded bk_mapping.csv is empty"; exit 2; }
+
+      - name: Apply bk_mapping into DB
+        if: steps.gates.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
+        run: |
+          set -euo pipefail
+          python tools/apply_bk_mapping_to_db.py --db database/brickovery.db --mapping-csv .tmp/bk_mapping.csv
+
+      - name: Export CSV + issues (no rebuild)
+        if: steps.gates.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
+        env:
+          REBRICKABLE_API_KEY: ${{ secrets.REBRICKABLE_API_KEY }}
+          BRICKLINK_CONSUMER_KEY: ${{ secrets.BRICKLINK_CONSUMER_KEY }}
+          BRICKLINK_CONSUMER_SECRET: ${{ secrets.BRICKLINK_CONSUMER_SECRET }}
+          BRICKLINK_TOKEN: ${{ secrets.BRICKLINK_TOKEN }}
+          BRICKLINK_TOKEN_SECRET: ${{ secrets.BRICKLINK_TOKEN_SECRET }}
+        run: |
+          set -euo pipefail
+          python brickovery_upstream_v3.py \
+            --mode export \
+            --db database/brickovery.db \
+            --out-csv database/brickovery_db.csv \
+            --issues database/part_color_issues.csv
+
+      - name: Commit and push (only if something changed)
+        if: steps.gates.outputs.upstream_inputs_synced == 'true' || steps.gates.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Stage only generated artifacts
+          git add \
+            inputs/upstream/brickstore-database.zip \
+            inputs/upstream/last_payload_sha256.txt \
+            inputs/upstream/last_release_id.txt \
+            inputs/bricklink/part_color_codes.xml \
+            inputs/bricklink/items \
+            database/brickovery.db \
+            database/brickovery_db.csv \
+            database/part_color_issues.csv \
+            || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          if [ "${{ steps.gates.outputs.force_rebuild }}" = "true" ]; then
+            msg="chore: rebuild DB (manual force)"
+          elif [ "${{ steps.gates.outputs.db_delta_applied }}" = "true" ]; then
+            msg="chore: apply upstream semantic delta"
+          else
+            msg="chore: sync upstream inputs (DB missing)"
+          fi
+
+          git commit -m "$msg"
+          git push
