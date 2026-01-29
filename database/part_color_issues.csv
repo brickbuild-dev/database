@@ -1,0 +1,4 @@
+severity,issue_type,key,details
+INFO,ITEMS_DIR_ENSURE_DONE,inputs/bricklink/items,Inserted placeholder rows for 158714 missing items (bl_color_id=0).
+INFO,WEIGHTS_APPLIED,inputs/bricklink/parts_weight.csv,weights applied (updated_rows=131297)
+WARN,WEIGHTS_BRICKLINK_OAUTH_MISSING,,BrickLink OAuth não configurado; weights em falta permanecerão NULL.
