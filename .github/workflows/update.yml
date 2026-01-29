@@ -183,13 +183,13 @@ jobs:
           MAPPING_REPO_TOKEN: ${{ secrets.MAPPING_REPO_TOKEN }}
         run: |
           set -euo pipefail
-          test -n "${MAPPING_REPO_TOKEN:-}" || { echo "::error::Missing secrets.MAPPING_REPO_TOKEN (needs read+write access to brickbuild-dev/mapping)"; exit 2; }
+          test -n "${MAPPING_REPO_TOKEN:-}" || { echo "::error::Missing secrets.MAPPING_REPO_TOKEN (needs read+write access to brickbuild-dev/secrets)"; exit 2; }
 
       - name: Checkout mapping repo (private)
         if: steps.gates.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
         uses: actions/checkout@v4
         with:
-          repository: brickbuild-dev/mapping
+          repository: brickbuild-dev/secrets
           token: ${{ secrets.MAPPING_REPO_TOKEN }}
           path: .tmp/mapping
           fetch-depth: 0
