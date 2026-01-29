@@ -189,7 +189,7 @@ jobs:
         if: steps.gates.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
         uses: actions/checkout@v4
         with:
-          repository: brickbuild-dev/secrets
+          repository: brickbuild-dev/brikick-secrets
           token: ${{ secrets.MAPPING_REPO_TOKEN }}
           path: .tmp/mapping
           fetch-depth: 0
