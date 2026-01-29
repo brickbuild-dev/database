@@ -4,7 +4,13 @@ on:
   schedule:
     # daily (UTC). Adjust if you want a specific local time.
     - cron: "00 00 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      force_rebuild:
+        description: "Force rebuild even if upstream release id hasn't changed"
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -57,20 +63,28 @@ jobs:
 
       - name: Check if upstream release changed
         id: changed
+        env:
+          FORCE_REBUILD: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force_rebuild == 'true' }}
         run: |
           set -euo pipefail
           mkdir -p inputs/upstream
           OLD=""
           if [ -f inputs/upstream/last_release_id.txt ]; then OLD="$(cat inputs/upstream/last_release_id.txt)"; fi
           NEW="${{ steps.upstream.outputs.release_id }}"
-          if [ "$OLD" = "$NEW" ]; then
+          if [ "$OLD" = "$NEW" ] && [ "${FORCE_REBUILD}" != "true" ]; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No new upstream release (id=$NEW)."
           else
-            echo "$NEW" > inputs/upstream/last_release_id.txt
+            if [ "$OLD" != "$NEW" ]; then
+              echo "$NEW" > inputs/upstream/last_release_id.txt
+              echo "New upstream release detected: $NEW (old=$OLD)"
+            else
+              echo "Force rebuild requested; proceeding with upstream release id=$NEW."
+            fi
             echo "changed=true" >> "$GITHUB_OUTPUT"
-            echo "New upstream release detected: $NEW (old=$OLD)"
           fi
+
+
 
       - name: Download latest .zip
         if: steps.changed.outputs.changed == 'true'
