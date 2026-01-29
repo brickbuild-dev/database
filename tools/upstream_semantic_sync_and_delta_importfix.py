@@ -42,12 +42,11 @@ from typing import Dict, Iterable, List, Optional, Set, Tuple
 def _try_import_helpers():
     """Import canonical parsing helpers from brickovery_upstream_v3*.py.
 
-    Prefer a normal import, but fall back to loading the module from a nearby
-    file path. This is robust to different repo layouts and filenames such as:
-      - brickovery_upstream_v3.py
-      - database/brickovery_upstream_v3.py
-      - brickovery_upstream_v3_with_bk_meta.py
-      - brickovery_upstream_v3 (5).py  (exported filename)
+    Prefer a normal import, but fall back to loading a module from a file in the
+    repository even if the filename is not exactly brickovery_upstream_v3.py
+    (e.g. brickovery_upstream_v3_with_bk_meta.py).
+
+    This keeps GitHub Actions robust when the repo layout or filenames vary.
     """
     try:
         import brickovery_upstream_v3 as v3  # type: ignore
@@ -57,45 +56,64 @@ def _try_import_helpers():
 
         here = Path(__file__).resolve()
 
-        # Build a list of candidate directories to search.
-        cand_dirs = []
-        for p in [here.parent] + list(here.parents)[:8]:
-            cand_dirs.append(p)
-            cand_dirs.append(p / "database")
-            cand_dirs.append(p / "database" / "database")
-
-        # Prefer exact filename first; then any brickovery_upstream_v3*.py.
-        preferred_names = [
-            "brickovery_upstream_v3.py",
-            "brickovery_upstream_v3_with_bk_meta.py",
-        ]
-
-        cand: Optional[Path] = None
-
-        for d in cand_dirs:
-            for name in preferred_names:
-                f = d / name
-                if f.exists():
-                    cand = f
-                    break
-            if cand is not None:
+        # Try to locate repo root (a directory containing .git). If not found,
+        # fall back to a reasonable parent.
+        repo_root: Path | None = None
+        for p in [here.parent] + list(here.parents)[:10]:
+            if (p / ".git").exists():
+                repo_root = p
                 break
+        if repo_root is None:
+            repo_root = list(here.parents)[-1]
 
-        if cand is None:
-            for d in cand_dirs:
-                if not d.exists():
-                    continue
-                # Any prefix match (including files with spaces, e.g. "brickovery_upstream_v3 (5).py")
-                matches = sorted(d.glob("brickovery_upstream_v3*.py"))
-                if matches:
-                    cand = matches[0]
+        # Candidate search paths (root + common subfolders).
+        search_roots = [
+            repo_root,
+            repo_root / "database",
+            repo_root / "database" / "database",
+        ]
+        candidates: list[Path] = []
+
+        for root in search_roots:
+            if not root.exists():
+                continue
+            # exact file first
+            f = root / "brickovery_upstream_v3.py"
+            if f.exists():
+                candidates.append(f)
+                continue
+            # wildcard variants
+            candidates.extend(sorted(root.glob("brickovery_upstream_v3*.py")))
+
+        # If still empty, do a bounded rglob from repo root.
+        if not candidates:
+            # bounded: avoid walking huge trees
+            for f in repo_root.rglob("brickovery_upstream_v3*.py"):
+                candidates.append(f)
+                if len(candidates) >= 20:
                     break
 
-        if cand is None:
+        if not candidates:
             raise ModuleNotFoundError(
                 "Não foi possível localizar brickovery_upstream_v3*.py no repo. "
-                "Garante que existe um ficheiro com esse prefixo (ex.: database/brickovery_upstream_v3.py)."
+                "Garante que o ficheiro existe e está commitado no GitHub."
             )
+
+        # Prefer canonical filenames if present.
+        def _rank(p: Path) -> tuple[int, int, str]:
+            name = p.name
+            # lower rank is better
+            if name == "brickovery_upstream_v3.py":
+                r = 0
+            elif name.startswith("brickovery_upstream_v3_with_"):
+                r = 1
+            else:
+                r = 2
+            # prefer shallower paths
+            depth = len(p.relative_to(repo_root).parts) if repo_root in p.parents or p == repo_root else 99
+            return (r, depth, str(p))
+
+        cand = sorted(set(candidates), key=_rank)[0]
 
         spec = importlib.util.spec_from_file_location("brickovery_upstream_v3", str(cand))
         if spec is None or spec.loader is None:
@@ -113,7 +131,6 @@ def _try_import_helpers():
         "load_bl_reverse_maps_from_csv": v3.load_bl_reverse_maps_from_csv,
         "load_bl_name_to_id_from_csv": v3.load_bl_name_to_id_from_csv,
     }
-
 
 H = _try_import_helpers()
 
