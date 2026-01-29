@@ -70,6 +70,7 @@ jobs:
         id: gates
         env:
           FORCE_REBUILD: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force_rebuild == 'true' }}
+          PYTHONPATH: ${{ github.workspace }}/database
         run: |
           set -euo pipefail
 
