@@ -192,9 +192,16 @@ def _zip_extract_needed(zippath: Path, tmpdir: Path) -> Tuple[Path, Path]:
 
 
 def _upstream_items(items_dir: Path) -> Set[Tuple[str, str]]:
+    """Return a set of (item_type, item_id) from upstream items/*.xml.
+
+    brickovery_upstream_v3.iter_items_xml requires a keyword-only default_item_type.
+    BrickStore datasets often split items by type (filename stem), and not every <ITEM>
+    row includes ITEMTYPE; we infer a default from the filename stem.
+    """
     s: Set[Tuple[str, str]] = set()
     for p in sorted(items_dir.glob("*.xml")):
-        for item_type, item_id in H["iter_items_xml"](p):
+        default_it = H["canon_item_type"](p.stem)
+        for item_type, item_id in H["iter_items_xml"](p, default_item_type=default_it):
             s.add((H["canon_item_type"](item_type), str(item_id)))
     return s
 
