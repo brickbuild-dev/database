@@ -44768,8 +44768,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>C</ITEMTYPE>
-      <ITEMID>c25tr1</ITEMID>
-      <ITEMNAME>2025 Large Turkish January - June &amp;#40;UK f/Brand Retail - 6543368, UK f/Travel Retail - 6543382&amp;#41;</ITEMNAME>
+      <ITEMID>c25ukf1</ITEMID>
+      <ITEMNAME>2025 Large UK January - June &amp;#40;UK f/Brand Retail - 6543368, UK f/Travel Retail - 6543382&amp;#41;</ITEMNAME>
       <CATEGORY>1319</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>213</ITEMWEIGHT>
@@ -44903,8 +44903,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>C</ITEMTYPE>
-      <ITEMID>c25lam1</ITEMID>
-      <ITEMNAME>2025 Large Latin American January - June</ITEMNAME>
+      <ITEMID>c25sa1</ITEMID>
+      <ITEMNAME>2025 Large South American January - June</ITEMNAME>
       <CATEGORY>1319</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>190</ITEMWEIGHT>
@@ -45227,8 +45227,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>C</ITEMTYPE>
-      <ITEMID>c25in2</ITEMID>
-      <ITEMNAME>2025 Large Indian July - December &amp;#40;India - 6570331&amp;#41;</ITEMNAME>
+      <ITEMID>c25ind2</ITEMID>
+      <ITEMNAME>2025 Large India July - December &amp;#40;India - 6570331&amp;#41;</ITEMNAME>
       <CATEGORY>1319</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>164</ITEMWEIGHT>
@@ -45277,6 +45277,24 @@
       <CATEGORY>1319</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>203</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>C</ITEMTYPE>
+      <ITEMID>c25heb1</ITEMID>
+      <ITEMNAME>2025 Large Israel January - June &amp;#40;IS - 6543406&amp;#41;</ITEMNAME>
+      <CATEGORY>1319</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>193</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>C</ITEMTYPE>
+      <ITEMID>c25sr1</ITEMID>
+      <ITEMNAME>2025 Large Serbian January - June &amp;#40;SR - 6543405&amp;#41;</ITEMNAME>
+      <CATEGORY>1319</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>175</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -45430,6 +45448,42 @@
       <CATEGORY>371</CATEGORY>
       <ITEMYEAR>1996</ITEMYEAR>
       <ITEMWEIGHT>5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>C</ITEMTYPE>
+      <ITEMID>c25za1</ITEMID>
+      <ITEMNAME>2025 Large Middle East and African January - June &amp;#40;MENA - 6543411, RSA - 6543412&amp;#41;</ITEMNAME>
+      <CATEGORY>1319</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>183</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>C</ITEMTYPE>
+      <ITEMID>c25ad1</ITEMID>
+      <ITEMNAME>2025 Large Adriatic January - June &amp;#40;Adriatic - 6543404, Adriatic for CAT - 6543416&amp;#41;</ITEMNAME>
+      <CATEGORY>1319</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>C</ITEMTYPE>
+      <ITEMID>c25ind1</ITEMID>
+      <ITEMNAME>2025 Large India January - June &amp;#40;India - 6543418&amp;#41;</ITEMNAME>
+      <CATEGORY>1319</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>C</ITEMTYPE>
+      <ITEMID>c25tr1</ITEMID>
+      <ITEMNAME>2025 Large Turkish January - June &amp;#40;TR - 6543407, TR for CAT - 6543417&amp;#41;</ITEMNAME>
+      <CATEGORY>1319</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
