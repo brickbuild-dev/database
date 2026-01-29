@@ -215,7 +215,7 @@ jobs:
   if: steps.applydelta.outputs.db_delta_applied == 'true'
   run: |
     set -euo pipefail
-    python tools/repair_brickovery_db_integrity.py --db database/brickovery.db > .db_repair.json
+    python tools/repair_brickovery_db_integrity_with_audit.py --db database/brickovery.db > .db_repair.json
     echo "DB repair summary:"
     cat .db_repair.json
 
@@ -279,7 +279,7 @@ jobs:
           cd .tmp/mapping
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add bk_mapping.csv backups/ audit/ || true
+          git add bk_mapping.csv backups/ audit/ || true database/audit/brickovery_db
           if git diff --cached --quiet; then
             echo "No changes to mapping repo."
             exit 0
@@ -319,7 +319,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           # Stage only generated artifacts
-          git add \
+          git add \ database/audit/brickovery_db
             inputs/upstream/brickstore-database.zip \
             inputs/upstream/last_payload_sha256.txt \
             inputs/upstream/last_release_id.txt \
