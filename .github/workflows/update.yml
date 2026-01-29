@@ -269,7 +269,18 @@ jobs:
           test -n "$V3" && [ -f "$V3" ] || { echo "::error::Cannot find brickovery_upstream_v3*.py in repo"; ls -la; exit 2; }
           echo "Using builder script: $V3"
       
-          python "$V3"                 --mode boid                 --db database/brickovery.db                 --resolve-boid                 --boid-cache-json database/boid_cache.json                 --bl-codes-xml inputs/bricklink/part_color_codes.xml                 --items-dir inputs/bricklink/items                 --color-map inputs/colors_seed.csv                 --commit-every 10000                 --progress-every 200000
+          python "$V3" \
+            --mode boid \
+            --db database/brickovery.db \
+            --out-csv database/brickovery_db.csv \
+            --issues database/part_color_issues.csv \
+            --resolve-boid \
+            --boid-cache-json database/boid_cache.json \
+            --bl-codes-xml inputs/bricklink/part_color_codes.xml \
+            --items-dir inputs/bricklink/items \
+            --color-map inputs/colors_seed.csv \
+            --commit-every 10000 \
+            --progress-every 200000
       
       
       - name: Commit and push mapping repo (only if mapping changed)
