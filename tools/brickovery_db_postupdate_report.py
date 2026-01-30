@@ -4,14 +4,12 @@
 """
 brickovery_db_postupdate_report.py
 
-Gera um relatório imutável (timestamp no nome e no conteúdo) após uma atualização
-da database/brickovery.db, para auditoria e incident response.
+Relatório imutável (timestamp no nome e no conteúdo) após update da database/brickovery.db.
 
-Suporta --pre-meta para incorporar o metadata do backup pré-update
-(criado por backup_brickovery_db_with_audit.py).
-
-Saída:
-  <audit_dir>/brickovery_db_update_result_YYYYMMDD_HHMMSSZ.md
+Suporta:
+- --pre-meta     (meta do backup pré-update)
+- --apply-json   (resultado JSON do apply semantic delta; ex.: .semantic_apply.json)
+- --context-json (pode ser JSON inline OU path para ficheiro JSON)
 
 Não modifica a DB. Apenas lê e reporta.
 """
@@ -43,7 +41,6 @@ def sha256_file(path: Path, chunk_size: int = 1024 * 1024) -> str:
 
 
 def _safe_connect(db_path: Path) -> sqlite3.Connection:
-    # read-only, best effort
     uri = f"file:{db_path.as_posix()}?mode=ro"
     try:
         return sqlite3.connect(uri, uri=True)
@@ -93,11 +90,7 @@ def _count_distinct(cur: sqlite3.Cursor, table: str, col: str) -> Optional[int]:
 
 
 def _count_corruption_pattern(cur: sqlite3.Cursor, table: str) -> Optional[int]:
-    """
-    Padrão do bug reportado:
-      bl_part_id é apenas 1 letra (P/S/M/B/G/C/I/O/U)
-      item_type tem > 1 char (na prática o ID real)
-    """
+    # Bug pattern: bl_part_id é apenas 1 letra e item_type tem > 1 char
     if not (_col_exists(cur, table, "bl_part_id") and _col_exists(cur, table, "item_type")):
         return None
     return _scalar(
@@ -137,21 +130,42 @@ def _load_json_path(p: Path) -> Dict[str, Any]:
         return {"raw_path": str(p)}
 
 
+def _load_json_arg(value: str) -> Dict[str, Any]:
+    """
+    Aceita:
+    - path para ficheiro JSON existente
+    - JSON inline (string)
+    - fallback raw
+    """
+    v = (value or "").strip()
+    if not v:
+        return {}
+    p = Path(v)
+    if p.exists() and p.is_file():
+        return _load_json_path(p)
+    try:
+        return json.loads(v)
+    except Exception:
+        return {"raw": v}
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--db", required=True, help="Path para database/brickovery.db")
     ap.add_argument("--audit-dir", default="database/audit/brickovery_db", help="Diretório de saída do relatório")
-    ap.add_argument("--context-json", default="", help="JSON string (opcional) com contexto do workflow")
+    ap.add_argument("--context-json", default="", help="JSON inline OU path para JSON (opcional)")
     ap.add_argument("--reason", default="", help="Motivo textual (opcional)")
 
-    # extras opcionais usados pelo workflow
+    # opcionais usados pelo workflow
     ap.add_argument("--pre-meta", default="", help="Path para .meta.json do backup pré-update (opcional)")
-    ap.add_argument("--inserted-items", type=int, default=-1, help="Nº de items inseridos (opcional)")
-    ap.add_argument("--inserted-codes", type=int, default=-1, help="Nº de codes inseridos (opcional)")
-    ap.add_argument("--mapping-updated", default="", help="true/false (opcional)")
-    ap.add_argument("--semantic-new-data", default="", help="true/false (opcional)")
+    ap.add_argument("--apply-json", default="", help="Path para JSON do apply delta (opcional)")
+    ap.add_argument("--inserted-items", type=int, default=-1)
+    ap.add_argument("--inserted-codes", type=int, default=-1)
+    ap.add_argument("--mapping-updated", default="")
+    ap.add_argument("--semantic-new-data", default="")
 
-    args = ap.parse_args()
+    # Importante: não falhar se o workflow ganhar flags novas no futuro.
+    args, unknown = ap.parse_known_args()
 
     db_path = Path(args.db)
     if not db_path.exists():
@@ -164,21 +178,19 @@ def main() -> int:
     db_sha = sha256_file(db_path)
     db_size = db_path.stat().st_size
 
-    ctx_obj: Dict[str, Any] = {}
-    if args.context_json:
-        try:
-            ctx_obj = json.loads(args.context_json)
-        except Exception:
-            ctx_obj = {"raw": args.context_json}
+    ctx_obj = _load_json_arg(args.context_json)
 
     pre_meta_obj: Dict[str, Any] = {}
     pre_meta_path: Optional[Path] = None
     if args.pre_meta:
         pre_meta_path = Path(args.pre_meta)
-        if pre_meta_path.exists():
-            pre_meta_obj = _load_json_path(pre_meta_path)
-        else:
-            pre_meta_obj = {"missing_pre_meta_path": str(pre_meta_path)}
+        pre_meta_obj = _load_json_path(pre_meta_path) if pre_meta_path.exists() else {"missing_pre_meta_path": str(pre_meta_path)}
+
+    apply_obj: Dict[str, Any] = {}
+    apply_path: Optional[Path] = None
+    if args.apply_json:
+        apply_path = Path(args.apply_json)
+        apply_obj = _load_json_path(apply_path) if apply_path.exists() else {"missing_apply_json_path": str(apply_path)}
 
     # DB metrics (best effort)
     metrics: Dict[str, Any] = {}
@@ -226,11 +238,13 @@ def main() -> int:
         lines.append(f"- inserted_items: `{args.inserted_items}`")
     if args.inserted_codes >= 0:
         lines.append(f"- inserted_codes: `{args.inserted_codes}`")
-
     if pre_meta_path is not None:
         lines.append(f"- pre_meta_path: `{str(pre_meta_path)}`")
+    if apply_path is not None:
+        lines.append(f"- apply_json_path: `{str(apply_path)}`")
+    if unknown:
+        lines.append(f"- unknown_args: `{unknown}`")
 
-    # Include context JSON
     if ctx_obj:
         lines.append("")
         lines.append("## Context (JSON)")
@@ -239,7 +253,6 @@ def main() -> int:
         lines.append(json.dumps(ctx_obj, ensure_ascii=False, indent=2))
         lines.append("```")
 
-    # Include pre-meta JSON
     if pre_meta_obj:
         lines.append("")
         lines.append("## Pre-Update Backup Meta (JSON)")
@@ -248,7 +261,14 @@ def main() -> int:
         lines.append(json.dumps(pre_meta_obj, ensure_ascii=False, indent=2))
         lines.append("```")
 
-    # Metrics
+    if apply_obj:
+        lines.append("")
+        lines.append("## Apply Delta Result (JSON)")
+        lines.append("")
+        lines.append("```json")
+        lines.append(json.dumps(apply_obj, ensure_ascii=False, indent=2))
+        lines.append("```")
+
     lines.append("")
     lines.append("## DB Metrics")
     lines.append("")
@@ -256,7 +276,6 @@ def main() -> int:
     lines.append(json.dumps(metrics, ensure_ascii=False, indent=2))
     lines.append("```")
 
-    # Highlight criticals
     lines.append("")
     lines.append("## Critical Signals")
     lines.append("")
@@ -269,7 +288,6 @@ def main() -> int:
     lines.append(f"- null_weight: `{_fmt('null_weight')}`")
     lines.append(f"- corruption_pattern_count: `{_fmt('corruption_pattern_count')}`")
 
-    # Corruption sample table (if any)
     samples = metrics.get("corruption_samples") or []
     if isinstance(samples, list) and len(samples) > 0:
         lines.append("")
