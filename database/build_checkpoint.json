@@ -1,0 +1,13 @@
+{
+  "ts": 1769731261,
+  "phase": "done",
+  "mode": "all",
+  "processed": 106598,
+  "inserted": 83242,
+  "complete": true,
+  "early_exit_reason": "",
+  "rows_db": 241978,
+  "errors": 0,
+  "warnings": 0,
+  "elapsed_sec": 387
+}
