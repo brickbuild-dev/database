@@ -7,21 +7,26 @@ on:
   workflow_dispatch:
     inputs:
       force_rebuild:
+auto_continue:
+  description: "Force-rebuild only: re-dispatch this workflow automatically until staged rebuild is finalized."
+  required: false
+  default: true
+  type: boolean
+auto_continue_max_runs:
+  description: "Safety cap for auto-continue loops (force-rebuild only)."
+  required: false
+  default: 20
+  type: number
         description: "Rebuild DB ONLY when true. Otherwise the workflow only applies INSERT-only deltas when upstream ZIP contains new semantic data."
         required: false
         default: false
         type: boolean
-      auto_continue:
-        description: "Force-rebuild only: re-dispatch this workflow automatically until staged rebuild is complete."
-        required: false
-        default: true
-        type: boolean
-      auto_continue_max_runs:
-        description: "Safety cap for auto-continue loops (force-rebuild only)."
-        required: false
-        default: 20
-        type: number
 
+boid_debug:
+  description: "Enable verbose BOID/weights debug output (can be very noisy)."
+  required: false
+  default: false
+  type: boolean
 permissions:
   actions: write
   contents: write
@@ -152,7 +157,6 @@ jobs:
           PY
 
       - name: Force rebuild DB (manual only)
-        id: forcebuild
         if: steps.gates.outputs.force_rebuild == 'true'
         env:
           REBRICKABLE_API_KEY: ${{ secrets.REBRICKABLE_API_KEY }}
@@ -180,24 +184,8 @@ jobs:
             --bl-codes-xml inputs/bricklink/part_color_codes.xml \
             --items-dir inputs/bricklink/items \
             --color-map inputs/colors_seed.csv \
-            --checkpoint database/force_rebuild.checkpoint.json \
-            --max-runtime-seconds 15000 \
             --commit-every 10000 \
             --progress-every 200000
-
-          # Detect incomplete rebuild (chunk stop) to enable auto-continue
-          INCOMPLETE=0
-          if [ -f database/part_color_issues.csv ]; then
-            if grep -qE "EARLY_EXIT_MAX_RUNTIME|WEIGHTS_BRICKLINK_STOP_MAX_RUNTIME|SKIP_BOID_MAX_RUNTIME|STOP_SIGNAL" database/part_color_issues.csv; then
-              INCOMPLETE=1
-            fi
-          fi
-          if [ "${INCOMPLETE}" = "1" ]; then
-            echo "force_incomplete=true" >> "$GITHUB_OUTPUT"
-            echo "::notice::Force rebuild stopped early (chunk). Auto-continue can dispatch another run."
-          else
-            echo "force_incomplete=false" >> "$GITHUB_OUTPUT"
-          fi
 
       - name: Brickovery DB post-update audit (after manual force rebuild)
         if: steps.gates.outputs.force_rebuild == 'true'
@@ -283,6 +271,8 @@ jobs:
       - name: Resolve BOID + fill missing weights (BrickOwl + BrickLink)
         if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
         env:
+          BOID_DEBUG: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.boid_debug == 'true' }}
+          PYTHONUNBUFFERED: "1"
           BRICKOWL_API_KEY: ${{ secrets.BRICKOWL_API_KEY }}
           REBRICKABLE_API_KEY: ${{ secrets.REBRICKABLE_API_KEY }}
           BRICKLINK_CONSUMER_KEY: ${{ secrets.BRICKLINK_CONSUMER_KEY }}
@@ -297,20 +287,68 @@ jobs:
           test -n "$V3" && [ -f "$V3" ] || { echo "::error::Cannot find brickovery_upstream_v3*.py in repo"; ls -la; exit 2; }
           echo "Using builder script: $V3"
       
-          python "$V3" \
+          EXTRA_ARGS=()
+          if [ "${BOID_DEBUG}" = "true" ]; then
+            echo "::notice::BOID_DEBUG enabled: passing --debug-apis (may be very noisy)"
+            EXTRA_ARGS+=(--debug-apis)
+          fi
+
+          echo "::group::BOID heartbeat config"
+          echo "DB_TARGET=${DB_TARGET}"
+          echo "CSV_TARGET=${CSV_TARGET}"
+          echo "ISSUES_TARGET=${ISSUES_TARGET}"
+          echo "CHECKPOINT_TARGET=${CHECKPOINT_TARGET}"
+          echo "CHUNK_MAX_RUNTIME_SECONDS=${CHUNK_MAX_RUNTIME_SECONDS}"
+          echo "::endgroup::"
+
+          # Run builder unbuffered so logs stream in real time
+          python -u "$V3" \
             --mode boid \
-            --db database/brickovery.db \
-            --out-csv database/brickovery_db.csv \
-            --issues database/part_color_issues.csv \
+            --db "${DB_TARGET}" \
+            --out-csv "${CSV_TARGET}" \
+            --issues "${ISSUES_TARGET}" \
             --resolve-boid \
             --boid-cache-json database/boid_cache.json \
             --bl-codes-xml inputs/bricklink/part_color_codes.xml \
             --items-dir inputs/bricklink/items \
             --color-map inputs/colors_seed.csv \
+            --checkpoint "${CHECKPOINT_TARGET}" \
+            --max-runtime-seconds "${CHUNK_MAX_RUNTIME_SECONDS}" \
             --commit-every 10000 \
-            --progress-every 200000
-      
-      
+            --progress-every 50000 \
+            "${EXTRA_ARGS[@]}" \
+            &
+          PID=$!
+
+          # Heartbeat every 60s: show remaining NULL boid/weight so we can see if it is progressing.
+          while kill -0 "$PID" 2>/dev/null; do
+            python - <<'PY'
+          import os, sqlite3, time
+          db = os.environ.get('DB_TARGET')
+          ts = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+          if not db:
+              print(f'[heartbeat {ts}] DB_TARGET missing', flush=True)
+              raise SystemExit(0)
+          try:
+              con = sqlite3.connect(db)
+              cur = con.cursor()
+              def s(q):
+                  r = cur.execute(q).fetchone()
+                  return int(r[0]) if r and r[0] is not None else 0
+              total = s('SELECT COUNT(1) FROM brickovery_db')
+              null_boid = s('SELECT COUNT(1) FROM brickovery_db WHERE boid IS NULL')
+              null_w = s('SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL')
+              boid_done = total - null_boid
+              w_done = total - null_w
+              print(f'[heartbeat {ts}] total={total} boid_done={boid_done} boid_null={null_boid} weight_done={w_done} weight_null={null_w}', flush=True)
+              con.close()
+          except Exception as e:
+              print(f'[heartbeat {ts}] sqlite_error={type(e).__name__}: {e}', flush=True)
+          PY
+            sleep 60
+          done
+
+          wait "$PID"
       - name: Commit and push mapping repo (only if mapping changed)
         if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
         run: |
@@ -385,51 +423,46 @@ jobs:
           git commit -m "$msg"
           git push
 
-      - name: Auto-continue force rebuild (re-dispatch until complete)
-        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force_rebuild == 'true' && github.event.inputs.auto_continue == 'true' && steps.forcebuild.outputs.force_incomplete == 'true' }}
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-        run: |
-          set -euo pipefail
+- name: Auto-continue staged rebuild (force only)
+  if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force_rebuild == 'true' && github.event.inputs.auto_continue == 'true' }}
+  env:
+    GH_TOKEN: ${{ github.token }}
+  run: |
+    set -euo pipefail
 
-          COUNT_FILE="database/force_rebuild_autorun_count.txt"
-          MAX_RUNS="${{ github.event.inputs.auto_continue_max_runs }}"
-          if [ -z "${MAX_RUNS:-}" ]; then MAX_RUNS="20"; fi
+    # Only continue if staged rebuild workspace still exists (not finalized)
+    if [ ! -d "database/.rebuild" ]; then
+      echo "No staging workspace. Nothing to continue."
+      exit 0
+    fi
 
-          if [ ! -f "${COUNT_FILE}" ]; then echo "0" > "${COUNT_FILE}"; fi
-          CUR="$(cat "${COUNT_FILE}" | tr -d '\r\n' || echo 0)"
-          case "${CUR}" in
-            ''|*[!0-9]*) CUR="0";;
-          esac
-          NEXT=$((CUR+1))
-          echo "${NEXT}" > "${COUNT_FILE}"
+    # Safety counter (stored in staging workspace and committed by the workflow)
+    COUNT_FILE="database/.rebuild/auto_continue_count.txt"
+    MAX_RUNS="${{ github.event.inputs.auto_continue_max_runs }}"
+    if [ -z "${MAX_RUNS:-}" ]; then MAX_RUNS="20"; fi
+    if [ ! -f "${COUNT_FILE}" ]; then echo "0" > "${COUNT_FILE}"; fi
+    CUR="$(cat "${COUNT_FILE}" | tr -d '\r\n' || echo 0)"
+    case "${CUR}" in
+      ''|*[!0-9]*) CUR="0";;
+    esac
+    NEXT=$((CUR+1))
+    echo "${NEXT}" > "${COUNT_FILE}"
 
-          if [ "${NEXT}" -gt "${MAX_RUNS}" ]; then
-            echo "::warning::Auto-continue reached MAX_RUNS=${MAX_RUNS}. Stopping to avoid infinite loops."
-            exit 0
-          fi
+    if [ "${NEXT}" -gt "${MAX_RUNS}" ]; then
+      echo "::warning::Auto-continue reached MAX_RUNS=${MAX_RUNS}. Stoping here to avoid loops."
+      exit 0
+    fi
 
-          # Commit the counter + checkpoint so the next run continues cleanly
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "${COUNT_FILE}" database/force_rebuild.checkpoint.json || true
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: force rebuild auto-continue ${NEXT}/${MAX_RUNS}"
-            git push
-          fi
+    # Commit the counter increment so the next run sees updated state
+    git config user.name "github-actions[bot]"
+    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+    git add "${COUNT_FILE}" || true
+    if ! git diff --cached --quiet; then
+      git commit -m "chore: staged rebuild auto-continue counter ${NEXT}/${MAX_RUNS}"
+      git push
+    fi
 
-          # Dispatch this same workflow again (workflow_dispatch)
-          WF_PATH="${GITHUB_WORKFLOW_REF%%@*}"
-          WF_FILE="$(basename "${WF_PATH}")"
-          API="https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/${WF_FILE}/dispatches"
-
-          export AUTO_CONTINUE_MAX_RUNS="${MAX_RUNS}"
-
-          PAYLOAD="$(python -c 'import json,os; ref=os.environ.get("GITHUB_REF_NAME","main"); mx=os.environ.get("AUTO_CONTINUE_MAX_RUNS","20"); print(json.dumps({"ref": ref, "inputs": {"force_rebuild": "true", "auto_continue": "true", "auto_continue_max_runs": str(mx)}}))')"
-
-          echo "Dispatching next run (auto-continue ${NEXT}/${MAX_RUNS}) via ${WF_FILE}..."
-          curl -sS -X POST \
-            -H "Authorization: Bearer ${GITHUB_TOKEN}" \
-            -H "Accept: application/vnd.github+json" \
-            "${API}" \
-            -d "${PAYLOAD}"
+    # Re-dispatch this workflow with same inputs (force + auto_continue)
+    echo "Dispatching next run (auto-continue ${NEXT}/${MAX_RUNS})..."
+    gh auth status >/dev/null 2>&1 || true
+    gh workflow run "${GITHUB_WORKFLOW}" --ref "${GITHUB_REF_NAME}" -f force_rebuild=true -f auto_continue=true -f auto_continue_max_runs="${MAX_RUNS}"
