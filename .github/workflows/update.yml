@@ -1,39 +1,45 @@
-name: Sync BrickStore payload (semantic) + update DB (manual rebuild only)
+name: Sync upstream + update brickovery DB (semantic + chunked rebuild)
 
 on:
   schedule:
-    # daily (UTC)
     - cron: "00 00 * * *"
   workflow_dispatch:
     inputs:
       force_rebuild:
-auto_continue:
-  description: "Force-rebuild only: re-dispatch this workflow automatically until staged rebuild is finalized."
-  required: false
-  default: true
-  type: boolean
-auto_continue_max_runs:
-  description: "Safety cap for auto-continue loops (force-rebuild only)."
-  required: false
-  default: 20
-  type: number
-        description: "Rebuild DB ONLY when true. Otherwise the workflow only applies INSERT-only deltas when upstream ZIP contains new semantic data."
+        description: "Rebuild DB ONLY when true. Otherwise apply INSERT-only deltas when upstream ZIP contains new semantic data."
+        required: false
+        default: false
+        type: boolean
+      auto_continue:
+        description: "Force-rebuild only: re-dispatch automatically until staged rebuild is complete."
+        required: false
+        default: true
+        type: boolean
+      auto_continue_max_runs:
+        description: "Safety cap for auto-continue loops (force-rebuild only)."
+        required: false
+        default: 30
+        type: number
+      reset_rebuild_workspace:
+        description: "Force-rebuild only: wipe database/.rebuild workspace and start fresh."
+        required: false
+        default: false
+        type: boolean
+      boid_debug:
+        description: "Show verbose BOID/weights debug output (very noisy)."
         required: false
         default: false
         type: boolean
 
-boid_debug:
-  description: "Enable verbose BOID/weights debug output (can be very noisy)."
-  required: false
-  default: false
-  type: boolean
 permissions:
-  actions: write
   contents: write
+  actions: write
 
 jobs:
   sync-and-build:
     runs-on: ubuntu-latest
+    timeout-minutes: 345
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -81,28 +87,60 @@ jobs:
         run: |
           set -euo pipefail
           curl -L -o .latest_brickstore.zip "${{ steps.upstream.outputs.zip_url }}"
-      - name: "Semantic gate (CHECK ONLY: compare ZIP vs DB + colors_seed)"
+
+      - name: Configure DB paths (staged rebuild workspace for force)
+        id: dbpaths
+        env:
+          FORCE_REBUILD: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force_rebuild == 'true' }}
+          RESET_WORKSPACE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.reset_rebuild_workspace == 'true' }}
+        run: |
+          set -euo pipefail
+
+          # Chunk runtime: keep margin vs 350min job timeout
+          echo "CHUNK_MAX_RUNTIME_SECONDS=18000" >> "$GITHUB_ENV"   # 300 min
+          echo "HEARTBEAT_SECONDS=60" >> "$GITHUB_ENV"
+
+          if [ "${FORCE_REBUILD}" = "true" ]; then
+            mkdir -p database/.rebuild
+            if [ "${RESET_WORKSPACE}" = "true" ]; then
+              echo "Reset requested: wiping database/.rebuild/*"
+              rm -rf database/.rebuild/*
+              mkdir -p database/.rebuild
+            fi
+            echo "DB_TARGET=database/.rebuild/brickovery_work.db" >> "$GITHUB_ENV"
+            echo "CSV_TARGET=database/.rebuild/brickovery_db.csv" >> "$GITHUB_ENV"
+            echo "ISSUES_TARGET=database/.rebuild/part_color_issues.csv" >> "$GITHUB_ENV"
+            echo "CHECKPOINT_TARGET=database/.rebuild/checkpoint.json" >> "$GITHUB_ENV"
+            echo "STAGED_REBUILD=true" >> "$GITHUB_ENV"
+          else
+            echo "DB_TARGET=database/brickovery.db" >> "$GITHUB_ENV"
+            echo "CSV_TARGET=database/brickovery_db.csv" >> "$GITHUB_ENV"
+            echo "ISSUES_TARGET=database/part_color_issues.csv" >> "$GITHUB_ENV"
+            echo "CHECKPOINT_TARGET=database/checkpoint.json" >> "$GITHUB_ENV"
+            echo "STAGED_REBUILD=false" >> "$GITHUB_ENV"
+          fi
+
+      - name: Semantic gate (compare ZIP vs DB + colors_seed)
         id: gates
         env:
           FORCE_REBUILD: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force_rebuild == 'true' }}
-          PYTHONPATH: ${{ github.workspace }}/database
         run: |
           set -euo pipefail
 
           ZIP=".latest_brickstore.zip"
           test -f "$ZIP" || { echo "::error::Missing downloaded zip $ZIP"; exit 2; }
 
-          mkdir -p inputs/upstream inputs/bricklink
-
+          # If DB missing, just sync upstream files into repo inputs and stop.
           if [ ! -f database/brickovery.db ]; then
-            echo "database/brickovery.db missing: skipping semantic diff. (Run workflow with force_rebuild to create DB.)"
+            echo "::notice::database/brickovery.db missing: syncing upstream inputs only. Run with force_rebuild=true to create DB."
             TMPDIR="$(mktemp -d)"; trap 'rm -rf "$TMPDIR"' EXIT
             unzip -p "$ZIP" part_color_codes.xml > "$TMPDIR/part_color_codes.xml"
             unzip -qq -o "$ZIP" "items/*.xml" -d "$TMPDIR"
-            mkdir -p inputs/bricklink/items
+            mkdir -p inputs/upstream inputs/bricklink/items
             cp -f "$TMPDIR/part_color_codes.xml" inputs/bricklink/part_color_codes.xml
             rsync -a --delete "$TMPDIR/items/" inputs/bricklink/items/
             mv -f "$ZIP" inputs/upstream/brickstore-database.zip
+
             echo "upstream_inputs_synced=true" >> "$GITHUB_OUTPUT"
             echo "semantic_new_data=false" >> "$GITHUB_OUTPUT"
             echo "db_delta_needed=false" >> "$GITHUB_OUTPUT"
@@ -110,18 +148,9 @@ jobs:
             exit 0
           fi
 
-          export PYTHONPATH="${GITHUB_WORKSPACE}/database:${PYTHONPATH:-}"
-          SCRIPT=""
-          for c in "tools/upstream_semantic_sync_and_delta.py" "tools/upstream_semantic_sync_and_delta_importfix.py" "database/tools/upstream_semantic_sync_and_delta.py" "database/tools/upstream_semantic_sync_and_delta_importfix.py"; do
-            if [ -f "$c" ]; then SCRIPT="$c"; break; fi
-          done
-          if [ -z "$SCRIPT" ]; then
-            SCRIPT="$(find . -maxdepth 5 -type f -name 'upstream_semantic_sync_and_delta*.py' | head -n 1 || true)"
-          fi
-          test -n "$SCRIPT" || { echo "::error::Cannot find upstream_semantic_sync_and_delta*.py in repo"; ls -la; find . -maxdepth 3 -type d -print; exit 2; }
-          echo "Using semantic script: $SCRIPT"
+          test -f tools/upstream_semantic_sync_and_delta_importfix.py || { echo "::error::Missing tools/upstream_semantic_sync_and_delta_importfix.py"; ls -la tools || true; exit 2; }
 
-          python "$SCRIPT" --zip "$ZIP" --db database/brickovery.db --color-map inputs/colors_seed.csv --out-zip inputs/upstream/brickstore-database.zip --out-codes-xml inputs/bricklink/part_color_codes.xml --out-items-dir inputs/bricklink/items --state-dir inputs/upstream --release-id "${{ steps.upstream.outputs.release_id }}" --json-out .semantic_check.json
+          python tools/upstream_semantic_sync_and_delta_importfix.py             --zip "$ZIP"             --db database/brickovery.db             --color-map inputs/colors_seed.csv             --out-zip inputs/upstream/brickstore-database.zip             --out-codes-xml inputs/bricklink/part_color_codes.xml             --out-items-dir inputs/bricklink/items             --state-dir inputs/upstream             --release-id "${{ steps.upstream.outputs.release_id }}"             --json-out .semantic_check.json
 
           python - <<'PY' >> "$GITHUB_OUTPUT"
           import json
@@ -133,7 +162,7 @@ jobs:
           PY
           echo "force_rebuild=${FORCE_REBUILD}" >> "$GITHUB_OUTPUT"
 
-      - name: Backup brickovery DB (pre-update, immutable) + audit report
+      - name: Backup brickovery DB (pre-update, immutable) + audit
         id: dbbackup
         if: steps.gates.outputs.force_rebuild == 'true' || steps.gates.outputs.db_delta_needed == 'true'
         run: |
@@ -142,13 +171,17 @@ jobs:
             echo "DB missing: skipping backup."
             exit 0
           fi
+          test -f tools/backup_brickovery_db_with_audit.py || { echo "::error::Missing tools/backup_brickovery_db_with_audit.py"; exit 2; }
+
           mkdir -p database/backups/brickovery_db database/audit/brickovery_db
+
           REASON="semantic_delta"
           if [ "${{ steps.gates.outputs.force_rebuild }}" = "true" ]; then REASON="manual_force_rebuild"; fi
+
           EXTRA=""
           if [ -f .semantic_check.json ]; then EXTRA="--context-json .semantic_check.json"; fi
 
-          python tools/backup_brickovery_db_with_audit.py --db database/brickovery.db --backup-dir database/backups/brickovery_db --audit-dir database/audit/brickovery_db --also-backup-csv database/brickovery_db.csv --reason "$REASON" $EXTRA > .dbbackup.json
+          python tools/backup_brickovery_db_with_audit.py             --db database/brickovery.db             --backup-dir database/backups/brickovery_db             --audit-dir database/audit/brickovery_db             --also-backup-csv database/brickovery_db.csv             --reason "$REASON" $EXTRA > .dbbackup.json
 
           python - <<'PY' >> "$GITHUB_OUTPUT"
           import json
@@ -156,7 +189,7 @@ jobs:
           print(f"pre_meta={j.get('meta_file','')}")
           PY
 
-      - name: Force rebuild DB (manual only)
+      - name: Force rebuild DB (chunk-safe, staged) - base build
         if: steps.gates.outputs.force_rebuild == 'true'
         env:
           REBRICKABLE_API_KEY: ${{ secrets.REBRICKABLE_API_KEY }}
@@ -168,56 +201,32 @@ jobs:
           set -euo pipefail
           test -f inputs/bricklink/part_color_codes.xml || { echo "::error::Missing inputs/bricklink/part_color_codes.xml"; exit 2; }
           test -d inputs/bricklink/items || { echo "::error::Missing inputs/bricklink/items"; exit 2; }
-          mkdir -p database
-          # Locate brickovery_upstream_v3 script (repo layout may vary)
-          V3="brickovery_upstream_v3.py"
-          if [ ! -f "$V3" ] && [ -f "database/brickovery_upstream_v3.py" ]; then V3="database/brickovery_upstream_v3.py"; fi
-          if [ ! -f "$V3" ]; then V3="$(find . -maxdepth 4 -type f -name 'brickovery_upstream_v3*.py' | head -n 1 || true)"; fi
-          test -n "$V3" && [ -f "$V3" ] || { echo "::error::Cannot find brickovery_upstream_v3*.py in repo"; ls -la; exit 2; }
-          echo "Using builder script: $V3"
+          test -f brickovery_upstream_v3.py || { echo "::error::Missing brickovery_upstream_v3.py at repo root"; ls -la; exit 2; }
 
-          python "$V3" \
-            --mode all \
-            --db database/brickovery.db \
-            --out-csv database/brickovery_db.csv \
-            --issues database/part_color_issues.csv \
-            --bl-codes-xml inputs/bricklink/part_color_codes.xml \
-            --items-dir inputs/bricklink/items \
-            --color-map inputs/colors_seed.csv \
-            --commit-every 10000 \
-            --progress-every 200000
+          BASE_FLAG="database/.rebuild/base_build_complete.flag"
+          if [ -f "${DB_TARGET}" ] && [ -f "${BASE_FLAG}" ]; then
+            echo "Base build already complete; skipping."
+            exit 0
+          fi
+          rm -f "${BASE_FLAG}" || true
 
-      - name: Brickovery DB post-update audit (after manual force rebuild)
-        if: steps.gates.outputs.force_rebuild == 'true'
-        run: |
-          set -euo pipefail
-          PRE_META="${{ steps.dbbackup.outputs.pre_meta }}"
-          EXTRA=""
-          if [ -n "${PRE_META:-}" ] && [ -f "$PRE_META" ]; then EXTRA="--pre-meta $PRE_META"; fi
-          python tools/brickovery_db_postupdate_report.py --db database/brickovery.db --audit-dir database/audit/brickovery_db --reason manual_force_rebuild $EXTRA
+          python -u brickovery_upstream_v3.py             --mode build             --db "${DB_TARGET}"             --out-csv "${CSV_TARGET}"             --issues "${ISSUES_TARGET}"             --bl-codes-xml inputs/bricklink/part_color_codes.xml             --items-dir inputs/bricklink/items             --color-map inputs/colors_seed.csv             --checkpoint "${CHECKPOINT_TARGET}"             --max-runtime-seconds "${CHUNK_MAX_RUNTIME_SECONDS}"             --commit-every 10000             --progress-every 200000
 
-      - name: Apply INSERT-only delta to DB (NO rebuild)
+          if [ -f "${ISSUES_TARGET}" ] && grep -q "EARLY_EXIT_MAX_RUNTIME" "${ISSUES_TARGET}"; then
+            echo "::notice::Base build stopped early; leaving base flag unset."
+          else
+            touch "${BASE_FLAG}"
+          fi
+
+      - name: Apply INSERT-only semantic delta (no rebuild)
         id: applydelta
         if: steps.gates.outputs.db_delta_needed == 'true' && steps.gates.outputs.force_rebuild != 'true'
-        env:
-          PYTHONPATH: ${{ github.workspace }}/database
         run: |
           set -euo pipefail
           ZIP=".latest_brickstore.zip"
           test -f "$ZIP" || { echo "::error::Missing downloaded zip $ZIP"; exit 2; }
 
-          export PYTHONPATH="${GITHUB_WORKSPACE}/database:${PYTHONPATH:-}"
-          SCRIPT=""
-          for c in "tools/upstream_semantic_sync_and_delta.py" "tools/upstream_semantic_sync_and_delta_importfix.py" "database/tools/upstream_semantic_sync_and_delta.py" "database/tools/upstream_semantic_sync_and_delta_importfix.py"; do
-            if [ -f "$c" ]; then SCRIPT="$c"; break; fi
-          done
-          if [ -z "$SCRIPT" ]; then
-            SCRIPT="$(find . -maxdepth 5 -type f -name 'upstream_semantic_sync_and_delta*.py' | head -n 1 || true)"
-          fi
-          test -n "$SCRIPT" || { echo "::error::Cannot find upstream_semantic_sync_and_delta*.py in repo"; exit 2; }
-          echo "Using semantic script: $SCRIPT"
-
-          python "$SCRIPT" --zip "$ZIP" --db database/brickovery.db --color-map inputs/colors_seed.csv --out-zip inputs/upstream/brickstore-database.zip --out-codes-xml inputs/bricklink/part_color_codes.xml --out-items-dir inputs/bricklink/items --state-dir inputs/upstream --release-id "${{ steps.upstream.outputs.release_id }}" --apply-db-delta --json-out .semantic_apply.json
+          python tools/upstream_semantic_sync_and_delta_importfix.py             --zip "$ZIP"             --db database/brickovery.db             --color-map inputs/colors_seed.csv             --out-zip inputs/upstream/brickstore-database.zip             --out-codes-xml inputs/bricklink/part_color_codes.xml             --out-items-dir inputs/bricklink/items             --state-dir inputs/upstream             --release-id "${{ steps.upstream.outputs.release_id }}"             --apply-db-delta             --json-out .semantic_apply.json
 
           python - <<'PY' >> "$GITHUB_OUTPUT"
           import json
@@ -226,31 +235,13 @@ jobs:
           print(f"db_delta_applied={str(applied>0).lower()}")
           PY
 
-      
-      - name: Repair DB integrity (swap bad rows + normalize item_type)
+      - name: Repair DB integrity (after delta)
         if: steps.applydelta.outputs.db_delta_applied == 'true'
         run: |
           set -euo pipefail
+          test -f tools/repair_brickovery_db_integrity_with_audit.py || { echo "::error::Missing tools/repair_brickovery_db_integrity_with_audit.py"; exit 2; }
           python tools/repair_brickovery_db_integrity_with_audit.py --db database/brickovery.db > .db_repair.json
-          echo "DB repair summary:"
           cat .db_repair.json
-      
-      - name: Brickovery DB post-update audit (after semantic delta)
-        if: steps.applydelta.outputs.db_delta_applied == 'true'
-        run: |
-          set -euo pipefail
-          PRE_META="${{ steps.dbbackup.outputs.pre_meta }}"
-          EXTRA=""
-          if [ -n "${PRE_META:-}" ] && [ -f "$PRE_META" ]; then EXTRA="--pre-meta $PRE_META"; fi
-          python tools/brickovery_db_postupdate_report.py --db database/brickovery.db --audit-dir database/audit/brickovery_db --reason semantic_delta $EXTRA --apply-json .semantic_apply.json
-
-      - name: Validate mapping repo token (read+write)
-        if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
-        env:
-          MAPPING_REPO_TOKEN: ${{ secrets.MAPPING_REPO_TOKEN }}
-        run: |
-          set -euo pipefail
-          test -n "${MAPPING_REPO_TOKEN:-}" || { echo "::error::Missing secrets.MAPPING_REPO_TOKEN (needs read+write access to brickbuild-dev/brikick-secrets)"; exit 2; }
 
       - name: Checkout mapping repo (private)
         if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
@@ -261,18 +252,20 @@ jobs:
           path: .tmp/mapping
           fetch-depth: 0
 
-      - name: Apply/ensure bk_mapping into DB (and write back with backups + audit)
+      - name: Apply/ensure bk_mapping into DB (write-back with backups + audit)
         if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
         run: |
           set -euo pipefail
-          test -d .tmp/mapping || { echo "::error::Missing mapping checkout (.tmp/mapping)"; exit 2; }
+          test -f tools/apply_bk_mapping_to_db_with_meta_and_audit.py || { echo "::error::Missing tools/apply_bk_mapping_to_db_with_meta_and_audit.py"; exit 2; }
           test -f .tmp/mapping/bk_mapping.csv || { echo "::error::Missing .tmp/mapping/bk_mapping.csv"; exit 2; }
-          python tools/apply_bk_mapping_to_db_with_meta_and_audit.py             --db database/brickovery.db             --bk-mapping-csv .tmp/mapping/bk_mapping.csv             --write-csv
-      - name: Resolve BOID + fill missing weights (BrickOwl + BrickLink)
+
+          python tools/apply_bk_mapping_to_db_with_meta_and_audit.py             --db "${DB_TARGET}"             --bk-mapping-csv .tmp/mapping/bk_mapping.csv             --write-csv
+
+      - name: Resolve BOID + fill missing weights (BrickOwl + BrickLink) with live heartbeat
         if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
         env:
-          BOID_DEBUG: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.boid_debug == 'true' }}
           PYTHONUNBUFFERED: "1"
+          BOID_DEBUG: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.boid_debug == 'true') && 'true' || 'false' }}
           BRICKOWL_API_KEY: ${{ secrets.BRICKOWL_API_KEY }}
           REBRICKABLE_API_KEY: ${{ secrets.REBRICKABLE_API_KEY }}
           BRICKLINK_CONSUMER_KEY: ${{ secrets.BRICKLINK_CONSUMER_KEY }}
@@ -281,74 +274,66 @@ jobs:
           BRICKLINK_TOKEN_SECRET: ${{ secrets.BRICKLINK_TOKEN_SECRET }}
         run: |
           set -euo pipefail
-          V3="brickovery_upstream_v3.py"
-          if [ ! -f "$V3" ] && [ -f "database/brickovery_upstream_v3.py" ]; then V3="database/brickovery_upstream_v3.py"; fi
-          if [ ! -f "$V3" ]; then V3="$(find . -maxdepth 4 -type f -name 'brickovery_upstream_v3*.py' | head -n 1 || true)"; fi
-          test -n "$V3" && [ -f "$V3" ] || { echo "::error::Cannot find brickovery_upstream_v3*.py in repo"; ls -la; exit 2; }
-          echo "Using builder script: $V3"
-      
+          test -f brickovery_upstream_v3.py || { echo "::error::Missing brickovery_upstream_v3.py"; exit 2; }
+
           EXTRA_ARGS=()
           if [ "${BOID_DEBUG}" = "true" ]; then
-            echo "::notice::BOID_DEBUG enabled: passing --debug-apis (may be very noisy)"
+            echo "::notice::boid_debug enabled -> passing --debug-apis (very noisy)"
             EXTRA_ARGS+=(--debug-apis)
           fi
 
-          echo "::group::BOID heartbeat config"
+          echo "::group::BOID config"
           echo "DB_TARGET=${DB_TARGET}"
-          echo "CSV_TARGET=${CSV_TARGET}"
-          echo "ISSUES_TARGET=${ISSUES_TARGET}"
           echo "CHECKPOINT_TARGET=${CHECKPOINT_TARGET}"
           echo "CHUNK_MAX_RUNTIME_SECONDS=${CHUNK_MAX_RUNTIME_SECONDS}"
+          echo "HEARTBEAT_SECONDS=${HEARTBEAT_SECONDS}"
           echo "::endgroup::"
 
-          # Run builder unbuffered so logs stream in real time
-          python -u "$V3" \
-            --mode boid \
-            --db "${DB_TARGET}" \
-            --out-csv "${CSV_TARGET}" \
-            --issues "${ISSUES_TARGET}" \
-            --resolve-boid \
-            --boid-cache-json database/boid_cache.json \
-            --bl-codes-xml inputs/bricklink/part_color_codes.xml \
-            --items-dir inputs/bricklink/items \
-            --color-map inputs/colors_seed.csv \
-            --checkpoint "${CHECKPOINT_TARGET}" \
-            --max-runtime-seconds "${CHUNK_MAX_RUNTIME_SECONDS}" \
-            --commit-every 10000 \
-            --progress-every 50000 \
-            "${EXTRA_ARGS[@]}" \
-            &
+          # Run builder in background (unbuffered)
+          python -u brickovery_upstream_v3.py             --mode boid             --db "${DB_TARGET}"             --out-csv "${CSV_TARGET}"             --issues "${ISSUES_TARGET}"             --resolve-boid             --boid-cache-json database/boid_cache.json             --bl-codes-xml inputs/bricklink/part_color_codes.xml             --items-dir inputs/bricklink/items             --color-map inputs/colors_seed.csv             --checkpoint "${CHECKPOINT_TARGET}"             --max-runtime-seconds "${CHUNK_MAX_RUNTIME_SECONDS}"             --commit-every 10000             --progress-every 50000             "${EXTRA_ARGS[@]}"             &
           PID=$!
 
-          # Heartbeat every 60s: show remaining NULL boid/weight so we can see if it is progressing.
+          # Heartbeat: query progress every HEARTBEAT_SECONDS
           while kill -0 "$PID" 2>/dev/null; do
             python - <<'PY'
           import os, sqlite3, time
-          db = os.environ.get('DB_TARGET')
+          db = os.environ.get("DB_TARGET")
+          issues = os.environ.get("ISSUES_TARGET")
           ts = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
           if not db:
-              print(f'[heartbeat {ts}] DB_TARGET missing', flush=True)
+              print(f"[heartbeat {ts}] DB_TARGET missing", flush=True)
               raise SystemExit(0)
           try:
-              con = sqlite3.connect(db)
+              con = sqlite3.connect(db, timeout=1)
+              con.execute("PRAGMA busy_timeout=500")
               cur = con.cursor()
               def s(q):
                   r = cur.execute(q).fetchone()
                   return int(r[0]) if r and r[0] is not None else 0
-              total = s('SELECT COUNT(1) FROM brickovery_db')
-              null_boid = s('SELECT COUNT(1) FROM brickovery_db WHERE boid IS NULL')
-              null_w = s('SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL')
-              boid_done = total - null_boid
-              w_done = total - null_w
-              print(f'[heartbeat {ts}] total={total} boid_done={boid_done} boid_null={null_boid} weight_done={w_done} weight_null={null_w}', flush=True)
+              total = s("SELECT COUNT(1) FROM brickovery_db")
+              null_boid = s("SELECT COUNT(1) FROM brickovery_db WHERE boid IS NULL")
+              null_w = s("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL")
+              print(f"[heartbeat {ts}] total={total} boid_null={null_boid} weight_null={null_w}", flush=True)
               con.close()
           except Exception as e:
-              print(f'[heartbeat {ts}] sqlite_error={type(e).__name__}: {e}', flush=True)
+              print(f"[heartbeat {ts}] sqlite_error={type(e).__name__}: {e}", flush=True)
+
+          # Show last issues lines (if any) for live diagnostics
+          if issues and os.path.exists(issues):
+              try:
+                  with open(issues, "rb") as f:
+                      data = f.read()[-4096:]
+                  tail = data.decode("utf-8", errors="replace").splitlines()[-3:]
+                  for ln in tail:
+                      print(f"[issues-tail {ts}] {ln}", flush=True)
+              except Exception as e:
+                  print(f"[issues-tail {ts}] error={type(e).__name__}: {e}", flush=True)
           PY
-            sleep 60
+            sleep "${HEARTBEAT_SECONDS}"
           done
 
           wait "$PID"
+
       - name: Commit and push mapping repo (only if mapping changed)
         if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
         run: |
@@ -356,7 +341,7 @@ jobs:
           cd .tmp/mapping
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add bk_mapping.csv backups/ audit/ || true database/audit/brickovery_db
+          git add bk_mapping.csv backups/ audit/ || true
           if git diff --cached --quiet; then
             echo "No changes to mapping repo."
             exit 0
@@ -365,47 +350,61 @@ jobs:
           git commit -m "chore: bk_mapping update ${stamp}"
           git push
 
-      - name: Export CSV + issues (no rebuild)
+      - name: Export CSV + issues
         if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
-        env:
-          REBRICKABLE_API_KEY: ${{ secrets.REBRICKABLE_API_KEY }}
-          BRICKLINK_CONSUMER_KEY: ${{ secrets.BRICKLINK_CONSUMER_KEY }}
-          BRICKLINK_CONSUMER_SECRET: ${{ secrets.BRICKLINK_CONSUMER_SECRET }}
-          BRICKLINK_TOKEN: ${{ secrets.BRICKLINK_TOKEN }}
-          BRICKLINK_TOKEN_SECRET: ${{ secrets.BRICKLINK_TOKEN_SECRET }}
         run: |
           set -euo pipefail
-          # Locate brickovery_upstream_v3 script (repo layout may vary)
-          V3="brickovery_upstream_v3.py"
-          if [ ! -f "$V3" ] && [ -f "database/brickovery_upstream_v3.py" ]; then V3="database/brickovery_upstream_v3.py"; fi
-          if [ ! -f "$V3" ]; then V3="$(find . -maxdepth 4 -type f -name 'brickovery_upstream_v3*.py' | head -n 1 || true)"; fi
-          test -n "$V3" && [ -f "$V3" ] || { echo "::error::Cannot find brickovery_upstream_v3*.py in repo"; ls -la; exit 2; }
-          echo "Using builder script: $V3"
+          python -u brickovery_upstream_v3.py             --mode export             --db "${DB_TARGET}"             --out-csv "${CSV_TARGET}"             --issues "${ISSUES_TARGET}"
 
-          python "$V3" \
-            --mode export \
-            --db database/brickovery.db \
-            --out-csv database/brickovery_db.csv \
-            --issues database/part_color_issues.csv
+      - name: Finalize staged rebuild (swap only when complete)
+        id: finalize
+        if: steps.gates.outputs.force_rebuild == 'true'
+        run: |
+          set -e
+          INCOMPLETE=0
+          if [ -f "${ISSUES_TARGET}" ]; then
+            if grep -qE "EARLY_EXIT_MAX_RUNTIME|STOP_SIGNAL" "${ISSUES_TARGET}"; then
+              INCOMPLETE=1
+            fi
+          fi
 
-      - name: Commit and push (only if something changed)
+          if [ "${INCOMPLETE}" = "1" ]; then
+            echo "staged_finalized=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::Staged rebuild not complete. Keeping database/.rebuild/. Re-run with force_rebuild."
+            exit 0
+          fi
+
+          cp -f "${DB_TARGET}" database/brickovery.db
+          cp -f "${CSV_TARGET}" database/brickovery_db.csv
+          cp -f "${ISSUES_TARGET}" database/part_color_issues.csv
+
+          PRE_META="${{ steps.dbbackup.outputs.pre_meta }}"
+          EXTRA=""
+          if [ -n "${PRE_META:-}" ] && [ -f "$PRE_META" ]; then EXTRA="--pre-meta $PRE_META"; fi
+
+          python tools/brickovery_db_postupdate_report.py             --db database/brickovery.db             --audit-dir database/audit/brickovery_db             --reason manual_force_rebuild             $EXTRA
+
+          rm -rf database/.rebuild || true
+          echo "staged_finalized=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push (main repo)
         if: steps.gates.outputs.upstream_inputs_synced == 'true' || steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Stage only generated artifacts
-          git add \ database/audit/brickovery_db
-            inputs/upstream/brickstore-database.zip \
-            inputs/upstream/last_payload_sha256.txt \
-            inputs/upstream/last_release_id.txt \
-            inputs/bricklink/part_color_codes.xml \
-            inputs/bricklink/items \
-            database/brickovery.db \
-            database/brickovery_db.csv \
-            database/part_color_issues.csv \
-            || true
+          git add inputs/upstream inputs/bricklink || true
+          git add database/audit/brickovery_db database/backups/brickovery_db || true
+
+          if [ "${{ steps.gates.outputs.force_rebuild }}" = "true" ]; then
+            if [ -d database/.rebuild ]; then git add database/.rebuild || true; fi
+            if [ "${{ steps.finalize.outputs.staged_finalized }}" = "true" ]; then
+              git add database/brickovery.db database/brickovery_db.csv database/part_color_issues.csv || true
+            fi
+          else
+            git add database/brickovery.db database/brickovery_db.csv database/part_color_issues.csv || true
+          fi
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
@@ -413,56 +412,56 @@ jobs:
           fi
 
           if [ "${{ steps.gates.outputs.force_rebuild }}" = "true" ]; then
-            msg="chore: rebuild DB (manual force)"
+            if [ "${{ steps.finalize.outputs.staged_finalized }}" = "true" ]; then
+              msg="chore: rebuild DB (manual force) [finalized]"
+            else
+              msg="chore: rebuild DB (manual force) [staged chunk]"
+            fi
           elif [ "${{ steps.applydelta.outputs.db_delta_applied }}" = "true" ]; then
             msg="chore: apply upstream semantic delta"
           else
-            msg="chore: sync upstream inputs (DB missing)"
+            msg="chore: sync upstream inputs"
           fi
 
           git commit -m "$msg"
           git push
 
-- name: Auto-continue staged rebuild (force only)
-  if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force_rebuild == 'true' && github.event.inputs.auto_continue == 'true' }}
-  env:
-    GH_TOKEN: ${{ github.token }}
-  run: |
-    set -euo pipefail
+      - name: Auto-continue staged rebuild (force only)
+        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force_rebuild == 'true' && github.event.inputs.auto_continue == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
 
-    # Only continue if staged rebuild workspace still exists (not finalized)
-    if [ ! -d "database/.rebuild" ]; then
-      echo "No staging workspace. Nothing to continue."
-      exit 0
-    fi
+          # Continue only if staging workspace still exists (not finalized)
+          if [ ! -d "database/.rebuild" ]; then
+            echo "No staging workspace. Nothing to continue."
+            exit 0
+          fi
 
-    # Safety counter (stored in staging workspace and committed by the workflow)
-    COUNT_FILE="database/.rebuild/auto_continue_count.txt"
-    MAX_RUNS="${{ github.event.inputs.auto_continue_max_runs }}"
-    if [ -z "${MAX_RUNS:-}" ]; then MAX_RUNS="20"; fi
-    if [ ! -f "${COUNT_FILE}" ]; then echo "0" > "${COUNT_FILE}"; fi
-    CUR="$(cat "${COUNT_FILE}" | tr -d '\r\n' || echo 0)"
-    case "${CUR}" in
-      ''|*[!0-9]*) CUR="0";;
-    esac
-    NEXT=$((CUR+1))
-    echo "${NEXT}" > "${COUNT_FILE}"
+          COUNT_FILE="database/.rebuild/auto_continue_count.txt"
+          MAX_RUNS="${{ github.event.inputs.auto_continue_max_runs }}"
+          if [ -z "${MAX_RUNS:-}" ]; then MAX_RUNS="30"; fi
+          if [ ! -f "${COUNT_FILE}" ]; then echo "0" > "${COUNT_FILE}"; fi
+          CUR="$(cat "${COUNT_FILE}" | tr -d '\r\n' || echo 0)"
+          case "${CUR}" in
+            ''|*[!0-9]*) CUR="0";;
+          esac
+          NEXT=$((CUR+1))
+          echo "${NEXT}" > "${COUNT_FILE}"
 
-    if [ "${NEXT}" -gt "${MAX_RUNS}" ]; then
-      echo "::warning::Auto-continue reached MAX_RUNS=${MAX_RUNS}. Stoping here to avoid loops."
-      exit 0
-    fi
+          if [ "${NEXT}" -gt "${MAX_RUNS}" ]; then
+            echo "::warning::Auto-continue reached MAX_RUNS=${MAX_RUNS}. Stopping to avoid loops."
+            exit 0
+          fi
 
-    # Commit the counter increment so the next run sees updated state
-    git config user.name "github-actions[bot]"
-    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-    git add "${COUNT_FILE}" || true
-    if ! git diff --cached --quiet; then
-      git commit -m "chore: staged rebuild auto-continue counter ${NEXT}/${MAX_RUNS}"
-      git push
-    fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "${COUNT_FILE}" || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: staged rebuild auto-continue ${NEXT}/${MAX_RUNS}"
+            git push
+          fi
 
-    # Re-dispatch this workflow with same inputs (force + auto_continue)
-    echo "Dispatching next run (auto-continue ${NEXT}/${MAX_RUNS})..."
-    gh auth status >/dev/null 2>&1 || true
-    gh workflow run "${GITHUB_WORKFLOW}" --ref "${GITHUB_REF_NAME}" -f force_rebuild=true -f auto_continue=true -f auto_continue_max_runs="${MAX_RUNS}"
+          echo "Dispatching next run (auto-continue ${NEXT}/${MAX_RUNS})..."
+          gh workflow run "${GITHUB_WORKFLOW}" --ref "${GITHUB_REF_NAME}"             -f force_rebuild=true             -f auto_continue=true             -f auto_continue_max_runs="${MAX_RUNS}"             -f reset_rebuild_workspace=false             -f boid_debug="${{ github.event.inputs.boid_debug }}"
