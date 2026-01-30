@@ -290,7 +290,7 @@ jobs:
           echo "::endgroup::"
 
           # Run BOID resolver (weights disabled here to avoid blocking BOID)
-          python -u brickovery_upstream_v3.py             --mode boid             --db "${DB_TARGET}"             --out-csv "${CSV_TARGET}"             --issues "${ISSUES_TARGET}"             --resolve-boid             --skip-weights             --boid-cache-json database/boid_cache.json             --bl-codes-xml inputs/bricklink/part_color_codes.xml             --items-dir inputs/bricklink/items             --color-map inputs/colors_seed.csv             --checkpoint "${CHECKPOINT_TARGET}"             --max-runtime-seconds "${CHUNK_MAX_RUNTIME_SECONDS}"             --commit-every 10000             --progress-every 50000             "${EXTRA_ARGS[@]}"             &
+          python -u brickovery_upstream_v3.py             --mode boid             --db "${DB_TARGET}"             --out-csv "${CSV_TARGET}"             --issues "${ISSUES_TARGET}"             --resolve-boid             --skip-weights             --boid-cache-json database/boid_cache.json            --boid-timeout 8             --boid-max-pairs 500             --boid-min-interval 0.05             --boid-bulk-min-interval 0.35             --boid-commit-every 5000             --bl-codes-xml inputs/bricklink/part_color_codes.xml             --items-dir inputs/bricklink/items             --color-map inputs/colors_seed.csv             --checkpoint "${CHECKPOINT_TARGET}"             --max-runtime-seconds "${CHUNK_MAX_RUNTIME_SECONDS}"             --commit-every 10000             --progress-every 50000             "${EXTRA_ARGS[@]}"             &
           PID=$!
 
           # Heartbeat: query progress every HEARTBEAT_SECONDS
@@ -323,7 +323,10 @@ jobs:
               try:
                   with open(issues, "rb") as f:
                       data = f.read()[-4096:]
-                  tail = data.decode("utf-8", errors="replace").splitlines()[-3:]
+                  lines = data.decode("utf-8", errors="replace").splitlines()
+                  # Remove noisy WEIGHTS_* lines during BOID phase
+                  lines = [ln for ln in lines if "WEIGHTS_" not in ln]
+                  tail = lines[-6:]
                   for ln in tail:
                       print(f"[issues-tail {ts}] {ln}", flush=True)
               except Exception as e:
@@ -390,7 +393,10 @@ jobs:
               try:
                   with open(issues, "rb") as f:
                       data = f.read()[-4096:]
-                  tail = data.decode("utf-8", errors="replace").splitlines()[-3:]
+                  lines = data.decode("utf-8", errors="replace").splitlines()
+                  # Remove noisy WEIGHTS_* lines during BOID phase
+                  lines = [ln for ln in lines if "WEIGHTS_" not in ln]
+                  tail = lines[-6:]
                   for ln in tail:
                       print(f"[issues-tail {ts}] {ln}", flush=True)
               except Exception as e:
