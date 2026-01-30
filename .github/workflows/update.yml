@@ -261,7 +261,7 @@ jobs:
 
           python tools/apply_bk_mapping_to_db_with_meta_and_audit.py             --db "${DB_TARGET}"             --bk-mapping-csv .tmp/mapping/bk_mapping.csv             --write-csv
 
-      - name: Resolve BOID + fill missing weights (BrickOwl + BrickLink) with live heartbeat
+      - name: Resolve BOID (BrickOwl) with live heartbeat
         if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
         env:
           PYTHONUNBUFFERED: "1"
@@ -289,8 +289,8 @@ jobs:
           echo "HEARTBEAT_SECONDS=${HEARTBEAT_SECONDS}"
           echo "::endgroup::"
 
-          # Run builder in background (unbuffered)
-          python -u brickovery_upstream_v3.py             --mode boid             --db "${DB_TARGET}"             --out-csv "${CSV_TARGET}"             --issues "${ISSUES_TARGET}"             --resolve-boid             --boid-cache-json database/boid_cache.json             --bl-codes-xml inputs/bricklink/part_color_codes.xml             --items-dir inputs/bricklink/items             --color-map inputs/colors_seed.csv             --checkpoint "${CHECKPOINT_TARGET}"             --max-runtime-seconds "${CHUNK_MAX_RUNTIME_SECONDS}"             --commit-every 10000             --progress-every 50000             "${EXTRA_ARGS[@]}"             &
+          # Run BOID resolver (weights disabled here to avoid blocking BOID)
+          python -u brickovery_upstream_v3.py             --mode boid             --db "${DB_TARGET}"             --out-csv "${CSV_TARGET}"             --issues "${ISSUES_TARGET}"             --resolve-boid             --skip-weights             --boid-cache-json database/boid_cache.json             --bl-codes-xml inputs/bricklink/part_color_codes.xml             --items-dir inputs/bricklink/items             --color-map inputs/colors_seed.csv             --checkpoint "${CHECKPOINT_TARGET}"             --max-runtime-seconds "${CHUNK_MAX_RUNTIME_SECONDS}"             --commit-every 10000             --progress-every 50000             "${EXTRA_ARGS[@]}"             &
           PID=$!
 
           # Heartbeat: query progress every HEARTBEAT_SECONDS
@@ -311,14 +311,81 @@ jobs:
                   r = cur.execute(q).fetchone()
                   return int(r[0]) if r and r[0] is not None else 0
               total = s("SELECT COUNT(1) FROM brickovery_db")
-              null_boid = s("SELECT COUNT(1) FROM brickovery_db WHERE boid IS NULL")
-              null_w = s("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL")
-              print(f"[heartbeat {ts}] total={total} boid_null={null_boid} weight_null={null_w}", flush=True)
+              null_boid_pu = s("SELECT COUNT(1) FROM brickovery_db WHERE boid IS NULL AND item_type IN ('P','U')")
+              null_weight_pu = s("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type IN ('P','U')")
+              print(f"[heartbeat {ts}] total={total} boid_null(P|U)={null_boid_pu} weight_null(P|U)={null_weight_pu}", flush=True)
               con.close()
           except Exception as e:
               print(f"[heartbeat {ts}] sqlite_error={type(e).__name__}: {e}", flush=True)
 
           # Show last issues lines (if any) for live diagnostics
+          if issues and os.path.exists(issues):
+              try:
+                  with open(issues, "rb") as f:
+                      data = f.read()[-4096:]
+                  tail = data.decode("utf-8", errors="replace").splitlines()[-3:]
+                  for ln in tail:
+                      print(f"[issues-tail {ts}] {ln}", flush=True)
+              except Exception as e:
+                  print(f"[issues-tail {ts}] error={type(e).__name__}: {e}", flush=True)
+          PY
+            sleep "${HEARTBEAT_SECONDS}"
+          done
+
+          wait "$PID"
+
+      - name: Fill missing weights (CSV + BrickLink) with live heartbeat
+        if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
+        env:
+          PYTHONUNBUFFERED: "1"
+          BOID_DEBUG: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.boid_debug == 'true') && 'true' || 'false' }}
+          BRICKLINK_CONSUMER_KEY: ${{ secrets.BRICKLINK_CONSUMER_KEY }}
+          BRICKLINK_CONSUMER_SECRET: ${{ secrets.BRICKLINK_CONSUMER_SECRET }}
+          BRICKLINK_TOKEN: ${{ secrets.BRICKLINK_TOKEN }}
+          BRICKLINK_TOKEN_SECRET: ${{ secrets.BRICKLINK_TOKEN_SECRET }}
+        run: |
+          set -euo pipefail
+          test -f brickovery_upstream_v3.py || { echo "::error::Missing brickovery_upstream_v3.py"; exit 2; }
+
+          EXTRA_ARGS=()
+          if [ "${BOID_DEBUG}" = "true" ]; then
+            echo "::notice::boid_debug enabled -> passing --debug-apis (very noisy)"
+            EXTRA_ARGS+=(--debug-apis)
+          fi
+
+          echo "::group::WEIGHTS config"
+          echo "DB_TARGET=${DB_TARGET}"
+          echo "CHUNK_MAX_RUNTIME_SECONDS=${CHUNK_MAX_RUNTIME_SECONDS}"
+          echo "HEARTBEAT_SECONDS=${HEARTBEAT_SECONDS}"
+          echo "::endgroup::"
+
+          # Run weights fill in a separate phase (does not resolve BOID)
+          python -u brickovery_upstream_v3.py             --mode export             --db "${DB_TARGET}"             --out-csv "${CSV_TARGET}"             --issues "${ISSUES_TARGET}"             --bl-codes-xml inputs/bricklink/part_color_codes.xml             --items-dir inputs/bricklink/items             --color-map inputs/colors_seed.csv             --checkpoint "${CHECKPOINT_TARGET}"             --max-runtime-seconds "${CHUNK_MAX_RUNTIME_SECONDS}"             --commit-every 20000             --progress-every 100000             "${EXTRA_ARGS[@]}"             &
+          PID=$!
+
+          while kill -0 "$PID" 2>/dev/null; do
+            python - <<'PY'
+          import os, sqlite3, time
+          db = os.environ.get("DB_TARGET")
+          issues = os.environ.get("ISSUES_TARGET")
+          ts = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+          if not db:
+              print(f"[heartbeat {ts}] DB_TARGET missing", flush=True)
+              raise SystemExit(0)
+          try:
+              con = sqlite3.connect(db, timeout=1)
+              con.execute("PRAGMA busy_timeout=500")
+              cur = con.cursor()
+              def s(q):
+                  r = cur.execute(q).fetchone()
+                  return int(r[0]) if r and r[0] is not None else 0
+              null_weight_pu = s("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type IN ('P','U')")
+              miss_parts = s("SELECT COUNT(DISTINCT bl_part_id) FROM brickovery_db WHERE weight IS NULL AND bl_part_id IS NOT NULL AND item_type IN ('P','U')")
+              print(f"[heartbeat {ts}] weight_null(P|U)_rows={null_weight_pu} missing_parts(P|U)={miss_parts}", flush=True)
+              con.close()
+          except Exception as e:
+              print(f"[heartbeat {ts}] sqlite_error={type(e).__name__}: {e}", flush=True)
+
           if issues and os.path.exists(issues):
               try:
                   with open(issues, "rb") as f:
