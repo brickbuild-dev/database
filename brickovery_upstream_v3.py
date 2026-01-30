@@ -1771,7 +1771,6 @@ def main() -> int:
     ap.add_argument("--progress-every", type=int, default=50000)
     ap.add_argument("--commit-every", type=int, default=5000)
     ap.add_argument("--checkpoint", default="data/build_checkpoint.json")
-    ap.add_argument("--resume-build", action="store_true", help="Retomar build a partir do checkpoint (não faz truncate).")
     ap.add_argument("--max-items", type=int, default=0, help="DEBUG: processa no máximo N ITEMS (0 = sem limite).")
     ap.add_argument("--max-runtime-seconds", type=int, default=0, help="Se definido, termina de forma limpa após este tempo (evita timeout).")
 
@@ -1810,19 +1809,6 @@ def main() -> int:
 
     checkpoint_path = Path(args.checkpoint)
     error_log_path = out_csv.parent / "brickovery_build_error.log"
-
-    # Resume cursor (for --resume-build)
-    resume_from_processed = 0
-    resume_from_inserted = 0
-    if args.resume_build and checkpoint_path.exists():
-        try:
-            prev = load_json(checkpoint_path) or {}
-            resume_from_processed = int(prev.get("processed", 0) or 0)
-            resume_from_inserted = int(prev.get("inserted", 0) or 0)
-        except Exception:
-            resume_from_processed = 0
-            resume_from_inserted = 0
-
 
     # register globals for signal handler
     global _STOP_CHECKPOINT_PATH, _STOP_ERROR_LOG_PATH
@@ -1871,7 +1857,7 @@ def main() -> int:
             raise FileNotFoundError(f"Ficheiro obrigatório em falta ({label}): {pth}")
 
     # Fresh rebuild only in build/all
-    if mode in ("all", "build") and (not args.resume_build):
+    if mode in ("all", "build"):
         cur.execute("DELETE FROM brickovery_db")
         cur.execute("DELETE FROM build_issues")
         con.commit()
@@ -1927,14 +1913,12 @@ def main() -> int:
         if args.debug_apis:
             api_selftests(add_issue)
             con.commit()
+
         processed = 0
         inserted = 0
-        if args.resume_build:
-            inserted = resume_from_inserted
         missing_color_tokens = 0
         missing_color_map = 0
         fallback_parts = 0
-        early_exit_reason = ""
 
         checkpoint("start", {"mode": mode, "processed": 0, "inserted": 0, "stop": False})
 
@@ -1959,27 +1943,18 @@ def main() -> int:
 
             last_key = None  # for cheap consecutive de-dup (part,color) repeats
 
-            early_exit_reason = ""
-
             for itemtype, bl_part_id, color_val in iter_codes_xml(codes_xml):
                 if _STOP:
                     add_issue("WARN", "STOP_SIGNAL", "", f"Stop requested ({_STOP_REASON}).")
-                    early_exit_reason = "stop_signal"
                     break
                 processed += 1
 
-                # Resume: skip already processed rows
-                if args.resume_build and resume_from_processed and processed <= resume_from_processed:
-                    continue
-
                 if args.max_items and processed > args.max_items:
                     add_issue("WARN", "DEBUG_MAX_ITEMS", "", f"Paragem por --max-items={args.max_items}.")
-                    early_exit_reason = "max_items"
                     break
 
                 if args.max_runtime_seconds and (now_s() - t0) > float(args.max_runtime_seconds):
                     add_issue("WARN", "EARLY_EXIT_MAX_RUNTIME", "", f"Paragem limpa por --max-runtime-seconds={args.max_runtime_seconds}.")
-                    early_exit_reason = "max_runtime"
                     break
 
                 item_type = canon_item_type(itemtype)
@@ -2096,8 +2071,6 @@ def main() -> int:
                     "mode": mode,
                     "processed": processed,
                     "inserted": inserted,
-                    "complete": bool((not _STOP) and (early_exit_reason == "")),
-                    "early_exit_reason": early_exit_reason,
                     "missing_color_tokens": missing_color_tokens,
                     "fallback_parts": fallback_parts,
                     "missing_color_map": missing_color_map,
@@ -2106,41 +2079,6 @@ def main() -> int:
                     "stop_reason": _STOP_REASON,
                 },
             )
-        # If build did not complete (e.g., --max-runtime-seconds), stop here so the workflow can resume later.
-        if mode in ("all", "build") and (bool(_STOP) or early_exit_reason != ""):
-            try:
-                n_err = cur.execute(
-                    "SELECT COUNT(1) FROM build_issues WHERE severity='ERROR' AND ts>=?",
-                    (run_ts,),
-                ).fetchone()[0]
-                n_warn = cur.execute(
-                    "SELECT COUNT(1) FROM build_issues WHERE severity='WARN' AND ts>=?",
-                    (run_ts,),
-                ).fetchone()[0]
-                n_rows = cur.execute("SELECT COUNT(1) FROM brickovery_db").fetchone()[0]
-            except Exception:
-                n_err, n_warn, n_rows = 0, 0, 0
-            elapsed = now_s() - t0
-            checkpoint(
-                "done",
-                {
-                    "mode": mode,
-                    "processed": processed,
-                    "inserted": inserted,
-                    "rows_db": n_rows,
-                    "errors": n_err,
-                    "warnings": n_warn,
-                    "elapsed_sec": int(elapsed),
-                    "complete": False,
-                    "early_exit_reason": early_exit_reason or ("stop" if _STOP else ""),
-                    "stop": bool(_STOP),
-                    "stop_reason": _STOP_REASON,
-                },
-            )
-            if args.strict and n_err:
-                return 2
-            return 0
-
         # -----------------
         # WEIGHTS (apply from inputs/bricklink/parts_weight.csv by default)
         # -----------------
@@ -2385,8 +2323,6 @@ def main() -> int:
                 "mode": mode,
                 "processed": processed,
                 "inserted": inserted,
-                "complete": True,
-                "early_exit_reason": "",
                 "rows_db": n_rows,
                 "errors": n_err,
                 "warnings": n_warn,
