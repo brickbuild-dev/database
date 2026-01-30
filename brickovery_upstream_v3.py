@@ -263,6 +263,23 @@ def apply_weights_from_csv(con, cur, weights_csv: Path, *, overwrite: bool, add_
     batch = []
     batch_size = 5000
 
+    # Performance: filter the weights CSV to only the parts that are actually missing weight in DB.
+    # This avoids scanning/applying millions of no-op UPDATEs when the CSV is large.
+    missing_parts: Optional[Set[str]] = None
+    if not overwrite:
+        try:
+            rows = cur.execute(
+                "SELECT DISTINCT bl_part_id FROM brickovery_db "
+                "WHERE weight IS NULL AND bl_part_id IS NOT NULL AND item_type='P'"
+            ).fetchall()
+            missing_parts = {str(r[0]) for r in rows if r and r[0]}
+            if not missing_parts:
+                add_issue('INFO', 'WEIGHTS_SKIP_NO_MISSING', str(wp), 'No missing part weights in DB; skipping weights CSV apply.')
+                return 0
+            add_issue('INFO', 'WEIGHTS_CSV_FILTER', str(wp), f'Filtering weights CSV to {len(missing_parts)} missing parts.')
+        except Exception:
+            missing_parts = None
+
     # Header aliases (tolerant)
     part_keys = {'bl_part_id','part_id','item_no','itemid','part'}
     weight_keys = {'weight','weight_g','grams','g'}
@@ -285,6 +302,8 @@ def apply_weights_from_csv(con, cur, weights_csv: Path, *, overwrite: bool, add_
             for row in reader:
                 bl = (row.get(part_col) or '').strip()
                 ws = (row.get(weight_col) or '').strip()
+                if missing_parts is not None and bl not in missing_parts:
+                    continue
                 if not bl or not ws:
                     continue
                 # allow comma decimal
@@ -294,6 +313,20 @@ def apply_weights_from_csv(con, cur, weights_csv: Path, *, overwrite: bool, add_
                 except Exception:
                     continue
                 batch.append((wv, bl))
+                if missing_parts is not None:
+                    # If the same part appears again in the CSV, we don't need it.
+                    missing_parts.discard(bl)
+                    if not missing_parts:
+                        # Found weights for all missing parts; flush current batch and exit early.
+                        if overwrite:
+                            cur.executemany("UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND item_type='P'", batch)
+                        else:
+                            cur.executemany("UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND weight IS NULL AND item_type='P'", batch)
+                        updated += cur.rowcount if cur.rowcount is not None else 0
+                        con.commit()
+                        batch.clear()
+                        break
+
                 if len(batch) >= batch_size:
                     if overwrite:
                         cur.executemany("UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND item_type='P'", batch)
@@ -302,6 +335,8 @@ def apply_weights_from_csv(con, cur, weights_csv: Path, *, overwrite: bool, add_
                     updated += cur.rowcount if cur.rowcount is not None else 0
                     con.commit()
                     batch.clear()
+                    if missing_parts is not None and not missing_parts:
+                        break
 
         if batch:
             if overwrite:
@@ -2087,7 +2122,7 @@ def main() -> int:
                 wp = Path(args.weights_csv)
                 # Skip if nothing missing and not overwrite
                 try:
-                    missing_w = cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL").fetchone()[0]
+                    missing_w = cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type='P'").fetchone()[0]
                 except Exception:
                     missing_w = None
 
@@ -2098,7 +2133,7 @@ def main() -> int:
 
                     # Fallback: preencher weights em falta via BrickLink API (por BL ID, sem cor)
                     try:
-                        missing_after_csv = cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL").fetchone()[0]
+                        missing_after_csv = cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type='P'").fetchone()[0]
                     except Exception:
                         missing_after_csv = None
 
