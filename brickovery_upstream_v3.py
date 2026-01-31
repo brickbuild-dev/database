@@ -16,7 +16,7 @@ Key behaviors (per project decisions):
     * regista WARN (ELEMENT_NOT_IN_REBRICKABLE_ELEMENTS)
     * tenta obrigatoriamente BrickLink API (known colors) pelo bl_part_id
     * insere linhas BL-only (rb_* = NULL) para não perder a peça
-- BOID é implementado por defeito (pode ser desativado com --skip-boid) e usa BrickOwl catalog/id_lookup + (fallback) catalog/lookup e catalog/bulk_lookup. Opcional: validação extra via catalog/availability.
+- BOID é opcional (ativa com --resolve-boid) e usa BrickOwl catalog/id_lookup + (fallback) catalog/lookup e catalog/bulk_lookup. Opcional: validação extra via catalog/availability.
 - Debug/robustez para GitHub Actions:
     * cria ficheiros de output logo no início (evita "No files were found" quando algo falha cedo)
     * checkpoint periódico (JSON)
@@ -263,23 +263,6 @@ def apply_weights_from_csv(con, cur, weights_csv: Path, *, overwrite: bool, add_
     batch = []
     batch_size = 5000
 
-    # Performance: filter the weights CSV to only the parts that are actually missing weight in DB.
-    # This avoids scanning/applying millions of no-op UPDATEs when the CSV is large.
-    missing_parts: Optional[Set[str]] = None
-    if not overwrite:
-        try:
-            rows = cur.execute(
-                "SELECT DISTINCT bl_part_id FROM brickovery_db "
-                "WHERE weight IS NULL AND bl_part_id IS NOT NULL AND item_type='P'"
-            ).fetchall()
-            missing_parts = {str(r[0]) for r in rows if r and r[0]}
-            if not missing_parts:
-                add_issue('INFO', 'WEIGHTS_SKIP_NO_MISSING', str(wp), 'No missing part weights in DB; skipping weights CSV apply.')
-                return 0
-            add_issue('INFO', 'WEIGHTS_CSV_FILTER', str(wp), f'Filtering weights CSV to {len(missing_parts)} missing parts.')
-        except Exception:
-            missing_parts = None
-
     # Header aliases (tolerant)
     part_keys = {'bl_part_id','part_id','item_no','itemid','part'}
     weight_keys = {'weight','weight_g','grams','g'}
@@ -302,8 +285,6 @@ def apply_weights_from_csv(con, cur, weights_csv: Path, *, overwrite: bool, add_
             for row in reader:
                 bl = (row.get(part_col) or '').strip()
                 ws = (row.get(weight_col) or '').strip()
-                if missing_parts is not None and bl not in missing_parts:
-                    continue
                 if not bl or not ws:
                     continue
                 # allow comma decimal
@@ -313,20 +294,6 @@ def apply_weights_from_csv(con, cur, weights_csv: Path, *, overwrite: bool, add_
                 except Exception:
                     continue
                 batch.append((wv, bl))
-                if missing_parts is not None:
-                    # If the same part appears again in the CSV, we don't need it.
-                    missing_parts.discard(bl)
-                    if not missing_parts:
-                        # Found weights for all missing parts; flush current batch and exit early.
-                        if overwrite:
-                            cur.executemany("UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND item_type='P'", batch)
-                        else:
-                            cur.executemany("UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND weight IS NULL AND item_type='P'", batch)
-                        updated += cur.rowcount if cur.rowcount is not None else 0
-                        con.commit()
-                        batch.clear()
-                        break
-
                 if len(batch) >= batch_size:
                     if overwrite:
                         cur.executemany("UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND item_type='P'", batch)
@@ -335,8 +302,6 @@ def apply_weights_from_csv(con, cur, weights_csv: Path, *, overwrite: bool, add_
                     updated += cur.rowcount if cur.rowcount is not None else 0
                     con.commit()
                     batch.clear()
-                    if missing_parts is not None and not missing_parts:
-                        break
 
         if batch:
             if overwrite:
@@ -811,17 +776,11 @@ def load_bl_reverse_maps_from_csv(
 def load_bl_name_to_id_from_csv(color_map_csv: Path) -> Tuple[Dict[str, int], List[Tuple[str, str, str, str]]]:
     """Build a normalized BrickLink color-name -> bl_color_id map from your authoritative CSV.
 
-    IMPORTANT: The authoritative source of truth is inputs/colors_seed.csv.
-    This loader indexes *both* name columns when present:
-      - color_name
-      - bl_color_name
+    The upstream part_color_codes.xml provides COLOR as a *name* in most datasets (e.g. "White").
+    Since you decided not to use the upstream colors.xml, we must resolve name->id via your CSV.
 
-    This is required because BrickLink color tokens may appear under either naming variant.
-    We DO NOT attempt any automatic fallback to upstream colors.xml or BrickLink colors API.
-
-    Accepted header variants for name columns:
-      - color_name, bl_color_name
-      - bl_color_name, bricklink_color_name, bl_name, name, bricklink_name (legacy/compat)
+    Accepted header variants for the name column:
+      - bl_color_name, bricklink_color_name, bl_name, color_name, name, bricklink_name
 
     Requires bl_color_id (or compatible alias) per row.
     Returns (name_to_id, issues_rows).
@@ -829,58 +788,44 @@ def load_bl_name_to_id_from_csv(color_map_csv: Path) -> Tuple[Dict[str, int], Li
     issues: List[Tuple[str, str, str, str]] = []
     name_to_id: Dict[str, int] = {}
 
-    def pick_int(row: Dict[str, str], keys: List[str]) -> Optional[int]:
+    # detect columns
+    with color_map_csv.open("r", newline="", encoding="utf-8") as f:
+        r = csv.DictReader(f)
+        fns = [c.strip() for c in (r.fieldnames or [])]
+
+    def pick(row: Dict[str, str], keys: List[str]) -> str:
         for k in keys:
             v = row.get(k)
             if v and str(v).strip():
-                x = parse_int_any(str(v).strip())
-                if x is not None:
-                    return x
-        return None
+                return str(v).strip()
+        return ""
 
-    # Prefer the explicit dual columns first, then fall back to legacy aliases
-    primary_name_keys = ["color_name", "bl_color_name"]
-    extra_name_keys = ["bricklink_color_name", "bl_name", "name", "bricklink_name"]
-    name_keys = primary_name_keys + extra_name_keys
-    id_keys = ["bl_color_id", "bl_id", "bricklink_color_id"]
+    name_keys = ["bl_color_name","bricklink_color_name","bl_name","color_name","name","bricklink_name"]
+    id_keys = ["bl_color_id","bl_id","bricklink_color_id"]
 
     with color_map_csv.open("r", newline="", encoding="utf-8") as f:
         r = csv.DictReader(f)
         for row in r:
-            bl_id = pick_int(row, id_keys)
-            if bl_id is None:
-                # Ignore rows without a usable BrickLink color id
+            name = pick(row, name_keys)
+            bl = parse_int_any(pick(row, id_keys))
+            if not name or bl is None:
                 continue
-
-            # Collect ALL non-empty names from all supported columns (not just the first match).
-            # This ensures both 'color_name' and 'bl_color_name' are used before declaring an unknown token.
-            raw_names: List[str] = []
-            for k in name_keys:
-                v = row.get(k)
-                if v is None:
-                    continue
-                s = str(v).strip()
-                if not s:
-                    continue
-                raw_names.append(s)
-
-            if not raw_names:
+            nk = norm(name)
+            if not nk:
                 continue
+            if nk in name_to_id and name_to_id[nk] != int(bl):
+                issues.append(("WARN","BL_COLOR_NAME_TO_ID_CONFLICT",nk,f"'{name}' mapped to multiple bl_color_id: {name_to_id[nk]} vs {int(bl)}"))
+            else:
+                name_to_id[nk] = int(bl)
 
-            for nm in sorted(set(raw_names)):
-                key = norm(nm)
-                if not key:
-                    continue
-                prev = name_to_id.get(key)
-                if prev is None:
-                    name_to_id[key] = bl_id
-                elif prev != bl_id:
-                    # Conflict: same normalized token maps to multiple ids in CSV -> warn and keep first
-                    issues.append(
-                        ("WARN", "COLOR_NAME_ID_CONFLICT", key, f"'{nm}' maps to bl_color_id={bl_id} but already mapped to {prev} (keeping {prev})")
-                    )
+    if not name_to_id:
+        issues.append(("WARN","BL_COLOR_NAME_MAP_EMPTY","",f"No usable color-name mappings found in {color_map_csv}. Ensure it has a name column + bl_color_id."))
 
     return name_to_id, issues
+
+# -----------------------------
+# BrickLink API
+# -----------------------------
 
 def bricklink_oauth_from_env() -> Optional[OAuth1]:
     if not (BRICKLINK_CONSUMER_KEY and BRICKLINK_CONSUMER_SECRET and BRICKLINK_TOKEN and BRICKLINK_TOKEN_SECRET):
@@ -1618,9 +1563,6 @@ def init_db(db_path: Path) -> None:
         "boid",
         "bk_part_id",
         "item_type",
-        "brikick_name",
-        "api_item_type",
-        "bk_part_key",
         "bl_color_id",
         "bo_color_id",
         "bk_color_id",
@@ -1636,9 +1578,6 @@ def init_db(db_path: Path) -> None:
               boid TEXT,
               bk_part_id TEXT,
               item_type TEXT NOT NULL DEFAULT 'P',
-              brikick_name TEXT,
-              api_item_type TEXT,
-              bk_part_key TEXT,
               bl_color_id INTEGER NOT NULL,
               bo_color_id INTEGER,
               bk_color_id INTEGER,
@@ -1671,9 +1610,6 @@ def init_db(db_path: Path) -> None:
         item_type_expr = _expr("item_type", "'P'")
         boid_expr = _expr("boid", "NULL")
         bk_part_id_expr = _expr("bk_part_id", "NULL")
-        brikick_name_expr = _expr("brikick_name", "NULL")
-        api_item_type_expr = _expr("api_item_type", "NULL")
-        bk_part_key_expr = _expr("bk_part_key", "NULL")
         bk_img_url_expr = _expr("bk_img_url", "NULL")
         bk_color_id_expr = _expr("bk_color_id", "NULL")
 
@@ -1693,7 +1629,6 @@ def init_db(db_path: Path) -> None:
             f"""
             INSERT OR REPLACE INTO {DB_TABLE} (
               bl_part_id, boid, bk_part_id, item_type,
-              brikick_name, api_item_type, bk_part_key,
               bl_color_id, bo_color_id, bk_color_id,
               weight, bk_img_url
             )
@@ -1702,9 +1637,6 @@ def init_db(db_path: Path) -> None:
               CAST({boid_expr} AS TEXT) AS boid,
               {bk_part_id_expr} AS bk_part_id,
               {item_type_expr} AS item_type,
-              {brikick_name_expr} AS brikick_name,
-              {api_item_type_expr} AS api_item_type,
-              {bk_part_key_expr} AS bk_part_key,
               bl_color_id,
               {bo_color_expr} AS bo_color_id,
               {bk_color_id_expr} AS bk_color_id,
@@ -1796,8 +1728,8 @@ def main() -> int:
         default="all",
         help=(
             "Modo de execução: "
-            "all=build + boid + export; "
-            "build=build + boid + export; "
+            "all=build + (opcional) boid + export; "
+            "build=build + export; "
             "boid=resolve boid + export (sem rebuild); "
             "export=apenas exportar CSVs a partir da DB."
         ),
@@ -1830,10 +1762,7 @@ def main() -> int:
     ap.add_argument("--max-runtime-seconds", type=int, default=0, help="Se definido, termina de forma limpa após este tempo (evita timeout).")
 
     # BOID tuning
-    # BOID é resolvido por defeito. Use --skip-boid para desativar quando precisares de uma execução rápida.
-    boid_group = ap.add_mutually_exclusive_group()
-    boid_group.add_argument("--skip-boid", action="store_true", help="Não resolve BOID via BrickOwl (mantém boid vazio).")
-    boid_group.add_argument("--resolve-boid", action="store_true", help="(DEPRECATED) BOID já é resolvido por defeito; manter apenas por compatibilidade.")
+    ap.add_argument("--resolve-boid", action="store_true")
     ap.add_argument("--boid-cache-json", default="data/brickowl_api_cache.json")
     ap.add_argument("--boid-min-interval", type=float, default=0.11)
     ap.add_argument("--boid-bulk-min-interval", type=float, default=0.65)
@@ -2145,7 +2074,7 @@ def main() -> int:
                 wp = Path(args.weights_csv)
                 # Skip if nothing missing and not overwrite
                 try:
-                    missing_w = cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type='P'").fetchone()[0]
+                    missing_w = cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL").fetchone()[0]
                 except Exception:
                     missing_w = None
 
@@ -2156,7 +2085,7 @@ def main() -> int:
 
                     # Fallback: preencher weights em falta via BrickLink API (por BL ID, sem cor)
                     try:
-                        missing_after_csv = cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type='P'").fetchone()[0]
+                        missing_after_csv = cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL").fetchone()[0]
                     except Exception:
                         missing_after_csv = None
 
@@ -2188,7 +2117,7 @@ def main() -> int:
         # -----------------
         # BOID resolution (resume)
         # -----------------
-        do_boid = (not bool(getattr(args, 'skip_boid', False))) and mode in ("all", "build", "boid")
+        do_boid = bool(args.resolve_boid) and mode in ("all", "boid")
         if do_boid:
             # avoid starting BOID if we're already beyond max-runtime
             if args.max_runtime_seconds and (now_s() - t0) > float(args.max_runtime_seconds):
@@ -2349,10 +2278,10 @@ def main() -> int:
             print(f"[EXPORT] {out_csv.name}...")
             with out_csv.open("w", newline="", encoding="utf-8") as f:
                 w = csv.writer(f)
-                w.writerow(["bl_part_id", "boid", "bk_part_id", "item_type", "brikick_name", "api_item_type", "bk_part_key", "bl_color_id", "bo_color_id", "bk_color_id", "weight", "bk_img_url"])
+                w.writerow(["bl_part_id", "boid", "bk_part_id", "item_type", "bl_color_id", "bo_color_id", "bk_color_id", "weight", "bk_img_url"])
                 for row in cur.execute(
                     """
-                    SELECT bl_part_id, boid, bk_part_id, item_type, brikick_name, api_item_type, bk_part_key, bl_color_id, bo_color_id, bk_color_id, weight, bk_img_url
+                    SELECT bl_part_id, boid, bk_part_id, item_type, bl_color_id, bo_color_id, bk_color_id, weight, bk_img_url
                     FROM brickovery_db
                     ORDER BY item_type, bl_part_id, bl_color_id
                     """
