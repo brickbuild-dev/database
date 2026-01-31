@@ -16,7 +16,7 @@ Key behaviors (per project decisions):
     * regista WARN (ELEMENT_NOT_IN_REBRICKABLE_ELEMENTS)
     * tenta obrigatoriamente BrickLink API (known colors) pelo bl_part_id
     * insere linhas BL-only (rb_* = NULL) para não perder a peça
-- BOID é opcional (ativa com --resolve-boid) e usa BrickOwl catalog/id_lookup + (fallback) catalog/lookup e catalog/bulk_lookup. Opcional: validação extra via catalog/availability.
+- BOID é implementado por defeito (pode ser desativado com --skip-boid) e usa BrickOwl catalog/id_lookup + (fallback) catalog/lookup e catalog/bulk_lookup. Opcional: validação extra via catalog/availability.
 - Debug/robustez para GitHub Actions:
     * cria ficheiros de output logo no início (evita "No files were found" quando algo falha cedo)
     * checkpoint periódico (JSON)
@@ -1796,8 +1796,8 @@ def main() -> int:
         default="all",
         help=(
             "Modo de execução: "
-            "all=build + (opcional) boid + export; "
-            "build=build + export; "
+            "all=build + boid + export; "
+            "build=build + boid + export; "
             "boid=resolve boid + export (sem rebuild); "
             "export=apenas exportar CSVs a partir da DB."
         ),
@@ -1830,7 +1830,10 @@ def main() -> int:
     ap.add_argument("--max-runtime-seconds", type=int, default=0, help="Se definido, termina de forma limpa após este tempo (evita timeout).")
 
     # BOID tuning
-    ap.add_argument("--resolve-boid", action="store_true")
+    # BOID é resolvido por defeito. Use --skip-boid para desativar quando precisares de uma execução rápida.
+    boid_group = ap.add_mutually_exclusive_group()
+    boid_group.add_argument("--skip-boid", action="store_true", help="Não resolve BOID via BrickOwl (mantém boid vazio).")
+    boid_group.add_argument("--resolve-boid", action="store_true", help="(DEPRECATED) BOID já é resolvido por defeito; manter apenas por compatibilidade.")
     ap.add_argument("--boid-cache-json", default="data/brickowl_api_cache.json")
     ap.add_argument("--boid-min-interval", type=float, default=0.11)
     ap.add_argument("--boid-bulk-min-interval", type=float, default=0.65)
@@ -2185,7 +2188,7 @@ def main() -> int:
         # -----------------
         # BOID resolution (resume)
         # -----------------
-        do_boid = bool(args.resolve_boid) and mode in ("all", "boid")
+        do_boid = (not bool(getattr(args, 'skip_boid', False))) and mode in ("all", "build", "boid")
         if do_boid:
             # avoid starting BOID if we're already beyond max-runtime
             if args.max_runtime_seconds and (now_s() - t0) > float(args.max_runtime_seconds):
