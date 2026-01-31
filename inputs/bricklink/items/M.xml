@@ -100632,7 +100632,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>st002</ITEMID>
-      <ITEMNAME>Joyce Byers</ITEMNAME>
+      <ITEMNAME>Joyce Byers - Sand Green Jacket, Dark Brown Legs</ITEMNAME>
       <CATEGORY>1043</CATEGORY>
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>4.12</ITEMWEIGHT>
@@ -100677,7 +100677,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>st007</ITEMID>
-      <ITEMNAME>Chief Jim Hopper</ITEMNAME>
+      <ITEMNAME>Chief Jim Hopper - Police Uniform</ITEMNAME>
       <CATEGORY>1043</CATEGORY>
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>3.65</ITEMWEIGHT>
@@ -166502,6 +166502,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>st023</ITEMID>
+      <ITEMNAME>Joyce Byers - Dark Red Plaid Flannel Shirt, Dark Blue Legs</ITEMNAME>
+      <CATEGORY>1043</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.12</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1960</ITEMID>
       <ITEMNAME>Coast Guard City - Male, Reddish Orange Jacket with Pockets and Reflective Stripes, Dark Blue Legs with Pockets and Reflective Stripes, White Flight Helmet</ITEMNAME>
       <CATEGORY>67</CATEGORY>
@@ -166637,6 +166646,33 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1964</ITEMID>
+      <ITEMNAME>Recycling Worker - Male, Lime Safety Jacket with Reflective Stripes, Dark Green Legs with Reflective Stripes, Dark Bluish Gray Beanie</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.56</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1965</ITEMID>
+      <ITEMNAME>Recycling Worker - Female, Lime Safety Jacket with Reflective Stripes, Dark Green Legs with Reflective Stripes, Dark Brown Ponytail and Swept Sideways Fringe</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.63</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>st024</ITEMID>
+      <ITEMNAME>Chief Jim Hopper - Reddish Brown Coat, Dark Blue Cap, Dark Tan Beard</ITEMNAME>
+      <CATEGORY>1043</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>drm113</ITEMID>
       <ITEMNAME>Grimspawn - Ears</ITEMNAME>
       <CATEGORY>1268</CATEGORY>
@@ -166651,6 +166687,24 @@
       <CATEGORY>1268</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.65</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sc144</ITEMID>
+      <ITEMNAME>McLaren W1 Driver</ITEMNAME>
+      <CATEGORY>842</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.67</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1966</ITEMID>
+      <ITEMNAME>Snowplow Driver - Male, Neon Yellow Safety Vest with Reflective Stripes, Dark Green Legs with Reflective Stripes, Gray Beanie</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
