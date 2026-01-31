@@ -10,6 +10,11 @@ on:
         required: false
         default: false
         type: boolean
+      boid_repair:
+        description: "Manual: run BOID resolve on existing DB even if there is no upstream semantic delta (no rebuild, no delta apply)."
+        required: false
+        default: false
+        type: boolean
       auto_continue:
         description: "Force-rebuild only: re-dispatch automatically until staged rebuild is complete."
         required: false
@@ -124,8 +129,25 @@ jobs:
         id: gates
         env:
           FORCE_REBUILD: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force_rebuild == 'true' }}
+          BOID_REPAIR: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.boid_repair == 'true' }}
         run: |
           set -euo pipefail
+
+          # Manual BOID repair: skip semantic gate/delta and proceed to BOID step.
+          if [ "${BOID_REPAIR}" = "true" ]; then
+            if [ ! -f database/brickovery.db ]; then
+              echo "::error::BOID repair requested but database/brickovery.db is missing."
+              exit 2
+            fi
+            echo "::notice::BOID repair requested: skipping semantic gate (no upstream delta apply)."
+            echo "upstream_inputs_synced=false" >> "$GITHUB_OUTPUT"
+            echo "semantic_new_data=false" >> "$GITHUB_OUTPUT"
+            echo "db_delta_needed=false" >> "$GITHUB_OUTPUT"
+            echo "boid_repair=true" >> "$GITHUB_OUTPUT"
+            echo "force_rebuild=${FORCE_REBUILD}" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
 
           ZIP=".latest_brickstore.zip"
           test -f "$ZIP" || { echo "::error::Missing downloaded zip $ZIP"; exit 2; }
@@ -144,6 +166,7 @@ jobs:
             echo "upstream_inputs_synced=true" >> "$GITHUB_OUTPUT"
             echo "semantic_new_data=false" >> "$GITHUB_OUTPUT"
             echo "db_delta_needed=false" >> "$GITHUB_OUTPUT"
+            echo "boid_repair=false" >> "$GITHUB_OUTPUT"
             echo "force_rebuild=${FORCE_REBUILD}" >> "$GITHUB_OUTPUT"
             exit 0
           fi
@@ -161,10 +184,11 @@ jobs:
           print(f"db_delta_needed={str(sem).lower()}")
           PY
           echo "force_rebuild=${FORCE_REBUILD}" >> "$GITHUB_OUTPUT"
+          echo "boid_repair=false" >> "$GITHUB_OUTPUT"
 
       - name: Backup brickovery DB (pre-update, immutable) + audit
         id: dbbackup
-        if: steps.gates.outputs.force_rebuild == 'true' || steps.gates.outputs.db_delta_needed == 'true'
+        if: steps.gates.outputs.force_rebuild == 'true' || steps.gates.outputs.db_delta_needed == 'true' || steps.gates.outputs.boid_repair == 'true'
         run: |
           set -euo pipefail
           if [ ! -f database/brickovery.db ]; then
@@ -244,7 +268,7 @@ jobs:
           cat .db_repair.json
 
       - name: Checkout mapping repo (private)
-        if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
+        if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true' || steps.gates.outputs.boid_repair == 'true'
         uses: actions/checkout@v4
         with:
           repository: brickbuild-dev/brikick-secrets
@@ -290,7 +314,7 @@ jobs:
           echo "::endgroup::"
 
           # Run BOID resolver (weights disabled here to avoid blocking BOID)
-          python -u brickovery_upstream_v3.py             --mode boid             --db "${DB_TARGET}"             --out-csv "${CSV_TARGET}"             --issues "${ISSUES_TARGET}"             --resolve-boid             --skip-weights             --boid-cache-json database/boid_cache.json            --boid-timeout 8             --boid-max-pairs 500             --boid-min-interval 0.05             --boid-bulk-min-interval 0.35             --boid-commit-every 5000             --bl-codes-xml inputs/bricklink/part_color_codes.xml             --items-dir inputs/bricklink/items             --color-map inputs/colors_seed.csv             --checkpoint "${CHECKPOINT_TARGET}"             --max-runtime-seconds "${CHUNK_MAX_RUNTIME_SECONDS}"             --commit-every 10000             --progress-every 50000             "${EXTRA_ARGS[@]}"             &
+          python -u brickovery_upstream_v3.py             --mode boid             --db "${DB_TARGET}"             --out-csv "${CSV_TARGET}"             --issues "${ISSUES_TARGET}"             --resolve-boid             --skip-weights             --boid-cache-json database/boid_cache.json            --boid-timeout 8                          --boid-min-interval 0.05             --boid-bulk-min-interval 0.35             --boid-commit-every 5000             --bl-codes-xml inputs/bricklink/part_color_codes.xml             --items-dir inputs/bricklink/items             --color-map inputs/colors_seed.csv             --checkpoint "${CHECKPOINT_TARGET}"             --max-runtime-seconds "${CHUNK_MAX_RUNTIME_SECONDS}"             --commit-every 10000             --progress-every 50000             "${EXTRA_ARGS[@]}"             &
           PID=$!
 
           # Heartbeat: query progress every HEARTBEAT_SECONDS
@@ -461,7 +485,7 @@ jobs:
           echo "staged_finalized=true" >> "$GITHUB_OUTPUT"
 
       - name: Commit and push (main repo)
-        if: steps.gates.outputs.upstream_inputs_synced == 'true' || steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
+        if: steps.gates.outputs.upstream_inputs_synced == 'true' || steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true' || steps.gates.outputs.boid_repair == 'true'
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
@@ -492,6 +516,8 @@ jobs:
             fi
           elif [ "${{ steps.applydelta.outputs.db_delta_applied }}" = "true" ]; then
             msg="chore: apply upstream semantic delta"
+          elif [ "${{ steps.gates.outputs.boid_repair }}" = "true" ]; then
+            msg="chore: BOID repair"
           else
             msg="chore: sync upstream inputs"
           fi
@@ -516,8 +542,7 @@ jobs:
           MAX_RUNS="${{ github.event.inputs.auto_continue_max_runs }}"
           if [ -z "${MAX_RUNS:-}" ]; then MAX_RUNS="30"; fi
           if [ ! -f "${COUNT_FILE}" ]; then echo "0" > "${COUNT_FILE}"; fi
-          CUR="$(cat "${COUNT_FILE}" | tr -d '\r\n' || echo 0)"
-          case "${CUR}" in
+          CUR="$(cat "${COUNT_FILE}" 2>/dev/null | tr -d '\r\n' || echo 0)"
             ''|*[!0-9]*) CUR="0";;
           esac
           NEXT=$((CUR+1))
@@ -538,3 +563,65 @@ jobs:
 
           echo "Dispatching next run (auto-continue ${NEXT}/${MAX_RUNS})..."
           gh workflow run "${GITHUB_WORKFLOW}" --ref "${GITHUB_REF_NAME}"             -f force_rebuild=true             -f auto_continue=true             -f auto_continue_max_runs="${MAX_RUNS}"             -f reset_rebuild_workspace=false             -f boid_debug="${{ github.event.inputs.boid_debug }}"
+
+      - name: Auto-continue BOID repair (manual)
+        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.boid_repair == 'true' && github.event.inputs.auto_continue == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          # Continue only if last run exited early due to max runtime
+          if [ ! -f "${ISSUES_TARGET}" ]; then
+            echo "No issues file. Nothing to continue."
+            exit 0
+          fi
+          if ! grep -qE "EARLY_EXIT_MAX_RUNTIME|STOP_SIGNAL" "${ISSUES_TARGET}"; then
+            echo "No early-exit markers. Nothing to continue."
+            exit 0
+          fi
+
+          python - <<'PY'
+          import os, sqlite3
+          db=os.environ.get("DB_TARGET","database/brickovery.db")
+          con=sqlite3.connect(db, timeout=5)
+          cur=con.cursor()
+          n=cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE boid IS NULL AND item_type IN ('P','U')").fetchone()[0]
+          con.close()
+          if int(n)==0:
+              print("BOID repair appears complete (no NULL BOID for P|U).")
+              raise SystemExit(0)
+          print(f"BOID still missing for {n} rows (P|U). Continuing...")
+          PY
+
+          COUNT_FILE="database/.boid_repair_auto_continue_count.txt"
+          MAX_RUNS="${{ github.event.inputs.auto_continue_max_runs }}"
+          if [ -z "${MAX_RUNS:-}" ]; then MAX_RUNS="30"; fi
+          if [ ! -f "${COUNT_FILE}" ]; then echo "0" > "${COUNT_FILE}"; fi
+          CUR="$(cat "${COUNT_FILE}" 2>/dev/null | tr -d '\r\n' || echo 0)"
+          case "${CUR}" in
+            ''|*[!0-9]*) CUR="0";;
+          esac
+          NEXT=$((CUR+1))
+          echo "${NEXT}" > "${COUNT_FILE}"
+
+          if [ "${NEXT}" -gt "${MAX_RUNS}" ]; then
+            echo "::warning::Auto-continue reached MAX_RUNS=${MAX_RUNS}. Stopping to avoid loops."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "${COUNT_FILE}" || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: boid repair auto-continue ${NEXT}/${MAX_RUNS}"
+            git push
+          fi
+
+          echo "Dispatching next run (boid repair auto-continue ${NEXT}/${MAX_RUNS})..."
+          gh workflow run "${GITHUB_WORKFLOW}" --ref "${GITHUB_REF_NAME}" \
+            -f force_rebuild=false \
+            -f boid_repair=true \
+            -f auto_continue=true \
+            -f auto_continue_max_runs="${MAX_RUNS}" \
+            -f reset_rebuild_workspace=false \
+            -f boid_debug="${{ github.event.inputs.boid_debug }}"
