@@ -111422,8 +111422,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>clikits260</ITEMID>
-      <ITEMNAME>Envelope, Clikits Square</ITEMNAME>
+      <ITEMID>51504</ITEMID>
+      <ITEMNAME>Envelope, Clikits Lavender Square</ITEMNAME>
       <CATEGORY>1113</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>2.82</ITEMWEIGHT>
@@ -200013,6 +200013,24 @@
       <ITEMNAME>Botanical Collection, Blueprint LEGO VIP Art Print</ITEMNAME>
       <CATEGORY>503</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>p13cty01</ITEMID>
+      <ITEMNAME>City Poster 2013 1 of 2 / The Lone Ranger &amp;#40;Double-Sided&amp;#41;</ITEMNAME>
+      <CATEGORY>503</CATEGORY>
+      <ITEMYEAR>2013</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>p13cty02</ITEMID>
+      <ITEMNAME>City Poster 2013 2 of 2 / LEGO Club &amp;#40;Double-Sided&amp;#41;</ITEMNAME>
+      <CATEGORY>503</CATEGORY>
+      <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>

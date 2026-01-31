@@ -1,0 +1,28 @@
+{
+  "created_at_utc": "20260131_013722Z",
+  "reason": "semantic_delta",
+  "db_path": "database/brickovery.db",
+  "db_sha256": "4ee02bd87060376b0c2e40ef4ed176126633e16a3ed99ce68e27ce4401c41b69",
+  "db_size_bytes": 44376064,
+  "backup_file": "database/backups/brickovery_db/brickovery_db_backup_20260131_013722Z.sqlite.gz",
+  "backup_file_format": "sqlite.gz",
+  "context_json": ".semantic_check.json",
+  "context": {
+    "semantic_new_data": true,
+    "items_upstream": 202331,
+    "items_db": 237863,
+    "items_missing_in_db": 8,
+    "codes_upstream": 83259,
+    "codes_db": 282460,
+    "codes_missing_in_db": 16,
+    "unknown_color_tokens": [],
+    "unknown_color_tokens_count": 0,
+    "copied_upstream_files": true,
+    "db_inserted_items": 0,
+    "db_inserted_codes": 0
+  },
+  "csv_path": "database/brickovery_db.csv",
+  "csv_sha256": "e06e2cc32a4318461c20c9f3fa53582d7085fe70f1cfc39412a2f4733881d6be",
+  "csv_size_bytes": 16153392,
+  "csv_backup_file": "database/backups/brickovery_db/brickovery_db_csv_backup_20260131_013722Z.csv.gz"
+}

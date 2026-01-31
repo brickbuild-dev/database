@@ -53274,7 +53274,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0434</ITEMID>
-      <ITEMNAME>Malakili</ITEMNAME>
+      <ITEMNAME>Malakili - Rancor Keeper</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>3.8</ITEMWEIGHT>
@@ -166705,6 +166705,24 @@
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sp149</ITEMID>
+      <ITEMNAME>Astronaut - Female, Dark Brown Hair, White Spacesuit with Dark Turquoise Panel and Sleeves</ITEMNAME>
+      <CATEGORY>166</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.67</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sp150</ITEMID>
+      <ITEMNAME>Astronaut - Dark Turquoise Helmet and Legs, Coral Arms, Dark Blue Backpack</ITEMNAME>
+      <CATEGORY>166</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>5.9</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
