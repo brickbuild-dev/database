@@ -811,11 +811,17 @@ def load_bl_reverse_maps_from_csv(
 def load_bl_name_to_id_from_csv(color_map_csv: Path) -> Tuple[Dict[str, int], List[Tuple[str, str, str, str]]]:
     """Build a normalized BrickLink color-name -> bl_color_id map from your authoritative CSV.
 
-    The upstream part_color_codes.xml provides COLOR as a *name* in most datasets (e.g. "White").
-    Since you decided not to use the upstream colors.xml, we must resolve name->id via your CSV.
+    IMPORTANT: The authoritative source of truth is inputs/colors_seed.csv.
+    This loader indexes *both* name columns when present:
+      - color_name
+      - bl_color_name
 
-    Accepted header variants for the name column:
-      - bl_color_name, bricklink_color_name, bl_name, color_name, name, bricklink_name
+    This is required because BrickLink color tokens may appear under either naming variant.
+    We DO NOT attempt any automatic fallback to upstream colors.xml or BrickLink colors API.
+
+    Accepted header variants for name columns:
+      - color_name, bl_color_name
+      - bl_color_name, bricklink_color_name, bl_name, name, bricklink_name (legacy/compat)
 
     Requires bl_color_id (or compatible alias) per row.
     Returns (name_to_id, issues_rows).
@@ -823,44 +829,58 @@ def load_bl_name_to_id_from_csv(color_map_csv: Path) -> Tuple[Dict[str, int], Li
     issues: List[Tuple[str, str, str, str]] = []
     name_to_id: Dict[str, int] = {}
 
-    # detect columns
-    with color_map_csv.open("r", newline="", encoding="utf-8") as f:
-        r = csv.DictReader(f)
-        fns = [c.strip() for c in (r.fieldnames or [])]
-
-    def pick(row: Dict[str, str], keys: List[str]) -> str:
+    def pick_int(row: Dict[str, str], keys: List[str]) -> Optional[int]:
         for k in keys:
             v = row.get(k)
             if v and str(v).strip():
-                return str(v).strip()
-        return ""
+                x = parse_int_any(str(v).strip())
+                if x is not None:
+                    return x
+        return None
 
-    name_keys = ["bl_color_name","bricklink_color_name","bl_name","color_name","name","bricklink_name"]
-    id_keys = ["bl_color_id","bl_id","bricklink_color_id"]
+    # Prefer the explicit dual columns first, then fall back to legacy aliases
+    primary_name_keys = ["color_name", "bl_color_name"]
+    extra_name_keys = ["bricklink_color_name", "bl_name", "name", "bricklink_name"]
+    name_keys = primary_name_keys + extra_name_keys
+    id_keys = ["bl_color_id", "bl_id", "bricklink_color_id"]
 
     with color_map_csv.open("r", newline="", encoding="utf-8") as f:
         r = csv.DictReader(f)
         for row in r:
-            name = pick(row, name_keys)
-            bl = parse_int_any(pick(row, id_keys))
-            if not name or bl is None:
+            bl_id = pick_int(row, id_keys)
+            if bl_id is None:
+                # Ignore rows without a usable BrickLink color id
                 continue
-            nk = norm(name)
-            if not nk:
-                continue
-            if nk in name_to_id and name_to_id[nk] != int(bl):
-                issues.append(("WARN","BL_COLOR_NAME_TO_ID_CONFLICT",nk,f"'{name}' mapped to multiple bl_color_id: {name_to_id[nk]} vs {int(bl)}"))
-            else:
-                name_to_id[nk] = int(bl)
 
-    if not name_to_id:
-        issues.append(("WARN","BL_COLOR_NAME_MAP_EMPTY","",f"No usable color-name mappings found in {color_map_csv}. Ensure it has a name column + bl_color_id."))
+            # Collect ALL non-empty names from all supported columns (not just the first match).
+            # This ensures both 'color_name' and 'bl_color_name' are used before declaring an unknown token.
+            raw_names: List[str] = []
+            for k in name_keys:
+                v = row.get(k)
+                if v is None:
+                    continue
+                s = str(v).strip()
+                if not s:
+                    continue
+                raw_names.append(s)
+
+            if not raw_names:
+                continue
+
+            for nm in sorted(set(raw_names)):
+                key = norm(nm)
+                if not key:
+                    continue
+                prev = name_to_id.get(key)
+                if prev is None:
+                    name_to_id[key] = bl_id
+                elif prev != bl_id:
+                    # Conflict: same normalized token maps to multiple ids in CSV -> warn and keep first
+                    issues.append(
+                        ("WARN", "COLOR_NAME_ID_CONFLICT", key, f"'{nm}' maps to bl_color_id={bl_id} but already mapped to {prev} (keeping {prev})")
+                    )
 
     return name_to_id, issues
-
-# -----------------------------
-# BrickLink API
-# -----------------------------
 
 def bricklink_oauth_from_env() -> Optional[OAuth1]:
     if not (BRICKLINK_CONSUMER_KEY and BRICKLINK_CONSUMER_SECRET and BRICKLINK_TOKEN and BRICKLINK_TOKEN_SECRET):
@@ -1819,7 +1839,7 @@ def main() -> int:
 
     ap.add_argument("--boid-country", default="PT", help="ISO2 do país destino para /catalog/availability (ex: PT).")
     ap.add_argument("--boid-validate-availability", action="store_true", help="Valida BOID também via /catalog/availability (mais lento).")
-    ap.add_argument("--boid-max-pairs", type=int, default=0, help="DEBUG: limita nº de pares (item_type,bl_item_no,bo_color_id) para resolver; 0 = sem limite")
+    ap.add_argument("--boid-max-pairs", type=int, default=0, help="DEBUG: limita nº de pares (part,bo_color) para resolver; 0 = sem limite")
 
     args = ap.parse_args()
 
@@ -2198,9 +2218,9 @@ def main() -> int:
 
                 rows_pairs = cur.execute(
                     """
-                    SELECT DISTINCT item_type, bl_part_id, bl_color_id, bo_color_id
+                    SELECT DISTINCT bl_part_id, bl_color_id, bo_color_id
                     FROM brickovery_db
-                    WHERE (boid IS NULL OR boid = '')
+                    WHERE (boid IS NULL OR boid = '') AND item_type='P'
                     """
                 ).fetchall()
 
@@ -2208,13 +2228,13 @@ def main() -> int:
                     rows_pairs = rows_pairs[: int(args.boid_max_pairs)]
 
                 total_pairs = len(rows_pairs)
-                add_issue("INFO", "BRICKOWL_BOID_RESOLVE_START", "", f"A resolver BOID para {total_pairs} pares (item_type,bl_item_no,bo_color_id).")
+                add_issue("INFO", "BRICKOWL_BOID_RESOLVE_START", "", f"A resolver BOID para {total_pairs} pares (part,bo_color).")
                 con.commit()
 
                 updated = 0
                 commit_every = max(1, int(args.boid_commit_every))
 
-                for idx, (item_type, bl_part_id, bl_color_id, bo_color_id_db) in enumerate(rows_pairs, start=1):
+                for idx, (bl_part_id, bl_color_id, bo_color_id_db) in enumerate(rows_pairs, start=1):
                     if _STOP:
                         add_issue("WARN", "STOP_SIGNAL", "", f"Stop requested ({_STOP_REASON}) durante boid resolve.")
                         break
@@ -2258,17 +2278,13 @@ def main() -> int:
                             bo_color_id_eff = None
 
                     if bo_color_id_eff is None:
-                        # Para itens sem cor (bl_color_id=0/NULL), BrickOwl frequentemente usa color_id=0.
-                        if blc is None or blc == 0:
-                            bo_color_id_eff = 0
-                        else:
-                            add_issue(
-                                "WARN",
-                                "BRICKOWL_BO_COLOR_ID_MISSING",
-                                f"{item_type}|{bl_part_id}|{blc}",
-                                "Sem bo_color_id (mapeamento BL->BO indisponível e DB não tem valor).",
-                            )
-                            continue
+                        add_issue(
+                            "WARN",
+                            "BRICKOWL_BO_COLOR_ID_MISSING",
+                            str(bl_part_id),
+                            "Sem bo_color_id (mapeamento BL->BO indisponível e DB não tem valor).",
+                        )
+                        continue
 
                     try:
                         boid = resolve_boid_for_pair(
@@ -2286,25 +2302,15 @@ def main() -> int:
                     if boid:
                         if blc is not None:
                             cur.execute(
-                                "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bl_color_id=? AND item_type=?",
-                                (str(boid), int(bo_color_id_eff), str(bl_part_id), int(blc), str(item_type)),
+                                "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bl_color_id=? AND item_type='P'",
+                                (str(boid), int(bo_color_id_eff), str(bl_part_id), int(blc)),
                             )
                         else:
                             cur.execute(
-                                "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bo_color_id=? AND (bl_color_id IS NULL) AND item_type=?",
-                                (str(boid), int(bo_color_id_eff), str(bl_part_id), int(bo_color_id_eff), str(item_type)),
+                                "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bo_color_id=? AND (bl_color_id IS NULL) AND item_type='P'",
+                                (str(boid), int(bo_color_id_eff), str(bl_part_id), int(bo_color_id_eff)),
                             )
-
-                        rc = int(cur.rowcount or 0)
-                        if rc <= 0:
-                            add_issue(
-                                "WARN",
-                                "BOID_UPDATE_ROWCOUNT_ZERO",
-                                f"{item_type}|{bl_part_id}|{blc if blc is not None else 'NULL'}",
-                                "BOID resolvido mas 0 linhas foram atualizadas (verificar tipos/valores na DB).",
-                            )
-                        else:
-                            updated += 1
+                        updated += 1
 
                     if idx % commit_every == 0:
                         con.commit()
