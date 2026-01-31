@@ -321,7 +321,7 @@ def apply_weights_from_csv(con, cur, weights_csv: Path, *, overwrite: bool, add_
                         if overwrite:
                             cur.executemany("UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND item_type='P'", batch)
                         else:
-                            cur.executemany("UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND weight IS NULL AND item_type IN ('P','U')", batch)
+                            cur.executemany("UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND weight IS NULL AND item_type='P'", batch)
                         updated += cur.rowcount if cur.rowcount is not None else 0
                         con.commit()
                         batch.clear()
@@ -331,7 +331,7 @@ def apply_weights_from_csv(con, cur, weights_csv: Path, *, overwrite: bool, add_
                     if overwrite:
                         cur.executemany("UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND item_type='P'", batch)
                     else:
-                        cur.executemany("UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND weight IS NULL AND item_type IN ('P','U')", batch)
+                        cur.executemany("UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND weight IS NULL AND item_type='P'", batch)
                     updated += cur.rowcount if cur.rowcount is not None else 0
                     con.commit()
                     batch.clear()
@@ -342,7 +342,7 @@ def apply_weights_from_csv(con, cur, weights_csv: Path, *, overwrite: bool, add_
             if overwrite:
                 cur.executemany("UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND item_type='P'", batch)
             else:
-                cur.executemany("UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND weight IS NULL AND item_type IN ('P','U')", batch)
+                cur.executemany("UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND weight IS NULL AND item_type='P'", batch)
             updated += cur.rowcount if cur.rowcount is not None else 0
             con.commit()
             batch.clear()
@@ -379,7 +379,7 @@ def fill_missing_weights_from_bricklink(
     """
     try:
         rows = cur.execute(
-            "SELECT DISTINCT bl_part_id FROM brickovery_db WHERE weight IS NULL AND bl_part_id IS NOT NULL AND item_type IN ('P','U')"
+            "SELECT DISTINCT bl_part_id FROM brickovery_db WHERE weight IS NULL AND bl_part_id IS NOT NULL AND item_type='P'"
         ).fetchall()
     except Exception as e:
         add_issue('WARN', 'WEIGHTS_BRICKLINK_QUERY_FAILED', '', f'Falha ao listar parts sem weight: {e}')
@@ -419,7 +419,7 @@ def fill_missing_weights_from_bricklink(
         else:
             try:
                 cur.execute(
-                    "UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND weight IS NULL AND item_type IN ('P','U')",
+                    "UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND weight IS NULL AND item_type='P'",
                     (float(w), str(part)),
                 )
                 if cur.rowcount:
@@ -1819,7 +1819,7 @@ def main() -> int:
 
     ap.add_argument("--boid-country", default="PT", help="ISO2 do país destino para /catalog/availability (ex: PT).")
     ap.add_argument("--boid-validate-availability", action="store_true", help="Valida BOID também via /catalog/availability (mais lento).")
-    ap.add_argument("--boid-max-pairs", type=int, default=0, help="DEBUG: limita nº de pares (part,bo_color) para resolver; 0 = sem limite")
+    ap.add_argument("--boid-max-pairs", type=int, default=0, help="DEBUG: limita nº de pares (item_type,bl_item_no,bo_color_id) para resolver; 0 = sem limite")
 
     args = ap.parse_args()
 
@@ -2122,7 +2122,7 @@ def main() -> int:
                 wp = Path(args.weights_csv)
                 # Skip if nothing missing and not overwrite
                 try:
-                    missing_w = cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type IN ('P','U')").fetchone()[0]
+                    missing_w = cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type='P'").fetchone()[0]
                 except Exception:
                     missing_w = None
 
@@ -2133,7 +2133,7 @@ def main() -> int:
 
                     # Fallback: preencher weights em falta via BrickLink API (por BL ID, sem cor)
                     try:
-                        missing_after_csv = cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type IN ('P','U')").fetchone()[0]
+                        missing_after_csv = cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type='P'").fetchone()[0]
                     except Exception:
                         missing_after_csv = None
 
@@ -2198,9 +2198,9 @@ def main() -> int:
 
                 rows_pairs = cur.execute(
                     """
-                    SELECT DISTINCT bl_part_id, bl_color_id, bo_color_id
+                    SELECT DISTINCT item_type, bl_part_id, bl_color_id, bo_color_id
                     FROM brickovery_db
-                    WHERE (boid IS NULL OR boid = '') AND item_type IN ('P','U')
+                    WHERE (boid IS NULL OR boid = '')
                     """
                 ).fetchall()
 
@@ -2208,13 +2208,13 @@ def main() -> int:
                     rows_pairs = rows_pairs[: int(args.boid_max_pairs)]
 
                 total_pairs = len(rows_pairs)
-                add_issue("INFO", "BRICKOWL_BOID_RESOLVE_START", "", f"A resolver BOID para {total_pairs} pares (part,bo_color).")
+                add_issue("INFO", "BRICKOWL_BOID_RESOLVE_START", "", f"A resolver BOID para {total_pairs} pares (item_type,bl_item_no,bo_color_id).")
                 con.commit()
 
                 updated = 0
                 commit_every = max(1, int(args.boid_commit_every))
 
-                for idx, (bl_part_id, bl_color_id, bo_color_id_db) in enumerate(rows_pairs, start=1):
+                for idx, (item_type, bl_part_id, bl_color_id, bo_color_id_db) in enumerate(rows_pairs, start=1):
                     if _STOP:
                         add_issue("WARN", "STOP_SIGNAL", "", f"Stop requested ({_STOP_REASON}) durante boid resolve.")
                         break
@@ -2258,13 +2258,17 @@ def main() -> int:
                             bo_color_id_eff = None
 
                     if bo_color_id_eff is None:
-                        add_issue(
-                            "WARN",
-                            "BRICKOWL_BO_COLOR_ID_MISSING",
-                            str(bl_part_id),
-                            "Sem bo_color_id (mapeamento BL->BO indisponível e DB não tem valor).",
-                        )
-                        continue
+                        # Para itens sem cor (bl_color_id=0/NULL), BrickOwl frequentemente usa color_id=0.
+                        if blc is None or blc == 0:
+                            bo_color_id_eff = 0
+                        else:
+                            add_issue(
+                                "WARN",
+                                "BRICKOWL_BO_COLOR_ID_MISSING",
+                                f"{item_type}|{bl_part_id}|{blc}",
+                                "Sem bo_color_id (mapeamento BL->BO indisponível e DB não tem valor).",
+                            )
+                            continue
 
                     try:
                         boid = resolve_boid_for_pair(
@@ -2282,23 +2286,25 @@ def main() -> int:
                     if boid:
                         if blc is not None:
                             cur.execute(
-                                "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bl_color_id=? AND item_type IN ('P','U')",
-                                (str(boid), int(bo_color_id_eff), str(bl_part_id), int(blc)),
+                                "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bl_color_id=? AND item_type=?",
+                                (str(boid), int(bo_color_id_eff), str(bl_part_id), int(blc), str(item_type)),
                             )
                         else:
                             cur.execute(
-                                "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bo_color_id=? AND (bl_color_id IS NULL) AND item_type IN ('P','U')",
-                                (str(boid), int(bo_color_id_eff), str(bl_part_id), int(bo_color_id_eff)),
+                                "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bo_color_id=? AND (bl_color_id IS NULL) AND item_type=?",
+                                (str(boid), int(bo_color_id_eff), str(bl_part_id), int(bo_color_id_eff), str(item_type)),
                             )
-                        # Count only if DB row was actually updated
-                        try:
-                            if cur.rowcount and int(cur.rowcount) > 0:
-                                updated += 1
-                            else:
-                                add_issue('WARN','BRICKOWL_BOID_DB_UPDATE_0ROW', f"{bl_part_id}|{bo_color_id_eff}", 'BOID resolvido mas UPDATE afetou 0 linhas (item_type mismatch?)')
-                        except Exception:
-                            updated += 1
 
+                        rc = int(cur.rowcount or 0)
+                        if rc <= 0:
+                            add_issue(
+                                "WARN",
+                                "BOID_UPDATE_ROWCOUNT_ZERO",
+                                f"{item_type}|{bl_part_id}|{blc if blc is not None else 'NULL'}",
+                                "BOID resolvido mas 0 linhas foram atualizadas (verificar tipos/valores na DB).",
+                            )
+                        else:
+                            updated += 1
 
                     if idx % commit_every == 0:
                         con.commit()
