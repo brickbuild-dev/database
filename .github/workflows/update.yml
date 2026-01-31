@@ -30,6 +30,21 @@ on:
         required: false
         default: false
         type: boolean
+boid_repair:
+  description: "Manual-only: fill missing BOIDs on existing DB (no rebuild, no upstream delta required)."
+  required: false
+  default: false
+  type: boolean
+boid_rebuild:
+  description: "Manual-only: clear BOID column then rebuild BOIDs (chunked; uses checkpoint)."
+  required: false
+  default: false
+  type: boolean
+boid_verify:
+  description: "Manual-only: generate BOID coverage report only (no modifications)."
+  required: false
+  default: false
+  type: boolean
 
 permissions:
   contents: write
@@ -124,8 +139,26 @@ jobs:
         id: gates
         env:
           FORCE_REBUILD: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force_rebuild == 'true' }}
+          BOID_REPAIR: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.boid_repair == 'true' }}
+          BOID_REBUILD: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.boid_rebuild == 'true' }}
+          BOID_VERIFY: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.boid_verify == 'true' }}
         run: |
           set -euo pipefail
+
+# BOID maintenance runs should not be gated on upstream semantic changes.
+if [ "${BOID_VERIFY}" = "true" ] || [ "${BOID_REPAIR}" = "true" ] || [ "${BOID_REBUILD}" = "true" ]; then
+  if [ ! -f database/brickovery.db ]; then
+    echo "::error::database/brickovery.db missing; cannot run BOID maintenance."
+    exit 2
+  fi
+  echo "::notice::BOID maintenance requested: skipping semantic gate (no upstream delta apply)."
+  echo "upstream_inputs_synced=false" >> "$GITHUB_OUTPUT"
+  echo "semantic_new_data=false" >> "$GITHUB_OUTPUT"
+  echo "db_delta_needed=false" >> "$GITHUB_OUTPUT"
+  echo "force_rebuild=${FORCE_REBUILD}" >> "$GITHUB_OUTPUT"
+  echo "boid_maintenance=true" >> "$GITHUB_OUTPUT"
+  exit 0
+fi
 
           ZIP=".latest_brickstore.zip"
           test -f "$ZIP" || { echo "::error::Missing downloaded zip $ZIP"; exit 2; }
@@ -164,7 +197,7 @@ jobs:
 
       - name: Backup brickovery DB (pre-update, immutable) + audit
         id: dbbackup
-        if: steps.gates.outputs.force_rebuild == 'true' || steps.gates.outputs.db_delta_needed == 'true'
+        if: steps.gates.outputs.force_rebuild == 'true' || steps.gates.outputs.db_delta_needed == 'true' || steps.gates.outputs.boid_maintenance == 'true'
         run: |
           set -euo pipefail
           if [ ! -f database/brickovery.db ]; then
@@ -176,6 +209,7 @@ jobs:
           mkdir -p database/backups/brickovery_db database/audit/brickovery_db
 
           REASON="semantic_delta"
+          if [ "${{ steps.gates.outputs.boid_maintenance }}" = "true" ]; then REASON="boid_maintenance"; fi
           if [ "${{ steps.gates.outputs.force_rebuild }}" = "true" ]; then REASON="manual_force_rebuild"; fi
 
           EXTRA=""
@@ -261,8 +295,26 @@ jobs:
 
           python tools/apply_bk_mapping_to_db_with_meta_and_audit.py             --db "${DB_TARGET}"             --bk-mapping-csv .tmp/mapping/bk_mapping.csv             --write-csv
 
+- name: BOID rebuild: clear existing BOIDs (manual-only)
+  if: github.event_name == 'workflow_dispatch' && github.event.inputs.boid_rebuild == 'true'
+  run: |
+    set -euo pipefail
+    python - <<'PY'
+    import os, sqlite3, time
+    db=os.environ.get("DB_TARGET","database/brickovery.db")
+    con=sqlite3.connect(db)
+    cur=con.cursor()
+    before=cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE boid IS NOT NULL AND TRIM(boid)<>''").fetchone()[0]
+    cur.execute("UPDATE brickovery_db SET boid=NULL")
+    con.commit()
+    after=cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE boid IS NOT NULL AND TRIM(boid)<>''").fetchone()[0]
+    con.close()
+    ts=time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+    print(f"[BOID-REBUILD {ts}] cleared boid: before={before} after={after}")
+    PY
+
       - name: Resolve BOID (BrickOwl) with live heartbeat
-        if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
+        if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true' || (github.event_name == 'workflow_dispatch' && (github.event.inputs.boid_repair == 'true' || github.event.inputs.boid_rebuild == 'true'))
         env:
           PYTHONUNBUFFERED: "1"
           BOID_DEBUG: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.boid_debug == 'true') && 'true' || 'false' }}
@@ -311,8 +363,8 @@ jobs:
                   r = cur.execute(q).fetchone()
                   return int(r[0]) if r and r[0] is not None else 0
               total = s("SELECT COUNT(1) FROM brickovery_db")
-              null_boid_all = s("SELECT COUNT(1) FROM brickovery_db WHERE boid IS NULL OR TRIM(boid)='' ")
-              null_weight_all = s("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL")
+              null_boid_pu = s("SELECT COUNT(1) FROM brickovery_db WHERE boid IS NULL AND item_type IN ('P','U')")
+              null_weight_pu = s("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type IN ('P','U')")
               print(f"[heartbeat {ts}] total={total} boid_null(all)={null_boid_all} weight_null(all)={null_weight_all}", flush=True)
               con.close()
           except Exception as e:
@@ -382,9 +434,9 @@ jobs:
               def s(q):
                   r = cur.execute(q).fetchone()
                   return int(r[0]) if r and r[0] is not None else 0
-              null_weight_all = s("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL")
+              null_weight_pu = s("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type IN ('P','U')")
               miss_parts = s("SELECT COUNT(DISTINCT bl_part_id) FROM brickovery_db WHERE weight IS NULL AND bl_part_id IS NOT NULL AND item_type IN ('P','U')")
-              print(f"[heartbeat {ts}] weight_null(P|U)_rows={null_weight_all} missing_parts(P|U)={miss_parts}", flush=True)
+              print(f"[heartbeat {ts}] weight_null(P|U)_rows={null_weight_pu} missing_parts(P|U)={miss_parts}", flush=True)
               con.close()
           except Exception as e:
               print(f"[heartbeat {ts}] sqlite_error={type(e).__name__}: {e}", flush=True)
@@ -424,10 +476,66 @@ jobs:
           git push
 
       - name: Export CSV + issues
-        if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
+        if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true' || (steps.gates.outputs.boid_maintenance == 'true' && (github.event.inputs.boid_repair == 'true' || github.event.inputs.boid_rebuild == 'true'))
         run: |
           set -euo pipefail
           python -u brickovery_upstream_v3.py             --mode export             --db "${DB_TARGET}"             --out-csv "${CSV_TARGET}"             --issues "${ISSUES_TARGET}"
+
+- name: Postupdate report (BOID maintenance)
+  if: steps.gates.outputs.boid_maintenance == 'true' && github.event_name == 'workflow_dispatch' && (github.event.inputs.boid_repair == 'true' || github.event.inputs.boid_rebuild == 'true')
+  run: |
+    set -euo pipefail
+    PRE_META="${{ steps.dbbackup.outputs.pre_meta }}"
+    EXTRA=""
+    if [ -n "${PRE_META:-}" ] && [ -f "$PRE_META" ]; then EXTRA="--pre-meta $PRE_META"; fi
+    python tools/brickovery_db_postupdate_report.py             --db database/brickovery.db             --audit-dir database/audit/brickovery_db             --reason boid_maintenance             $EXTRA
+
+
+
+- name: BOID verify report (manual-only)
+  if: github.event_name == 'workflow_dispatch' && github.event.inputs.boid_verify == 'true'
+  run: |
+    set -euo pipefail
+    mkdir -p database/audit/boid
+    python - <<'PY'
+    import os, sqlite3, time
+    db=os.environ.get("DB_TARGET","database/brickovery.db")
+    con=sqlite3.connect(db)
+    cur=con.cursor()
+    ts=time.strftime('%Y%m%d_%H%M%SZ', time.gmtime())
+    out=f"database/audit/boid/boid_verify_{ts}Z.md"
+    def q(sql):
+        r=cur.execute(sql).fetchone()
+        return int(r[0]) if r and r[0] is not None else 0
+    total=q("SELECT COUNT(1) FROM brickovery_db")
+    boid_filled=q("SELECT COUNT(1) FROM brickovery_db WHERE boid IS NOT NULL AND TRIM(boid)<>''")
+    boid_null=q("SELECT COUNT(1) FROM brickovery_db WHERE boid IS NULL OR TRIM(boid)==''")
+    with open(out,"w",encoding="utf-8") as f:
+        f.write(f"# BOID verify report\n\n")
+        f.write(f"- Timestamp (UTC): {ts}Z\n")
+        f.write(f"- DB: {db}\n\n")
+        f.write(f"## Totals\n")
+        f.write(f"- total_rows: {total}\n")
+        f.write(f"- boid_filled_rows: {boid_filled}\n")
+        f.write(f"- boid_null_rows: {boid_null}\n\n")
+        f.write("## By item_type (top 20)\n\n")
+        f.write("| item_type | rows | boid_filled | boid_null |\n|---:|---:|---:|---:|\n")
+        rows=cur.execute("""
+          SELECT item_type,
+                 COUNT(1) AS rows,
+                 SUM(CASE WHEN boid IS NOT NULL AND TRIM(boid)<>'' THEN 1 ELSE 0 END) AS filled,
+                 SUM(CASE WHEN boid IS NULL OR TRIM(boid)=='' THEN 1 ELSE 0 END) AS nulls
+          FROM brickovery_db
+          GROUP BY item_type
+          ORDER BY rows DESC
+          LIMIT 20
+        """).fetchall()
+        for it, rows_cnt, filled_cnt, null_cnt in rows:
+            f.write(f"| {it or ''} | {rows_cnt} | {filled_cnt} | {null_cnt} |\n")
+        f.write("\n")
+    con.close()
+    print(f"Wrote {out}")
+    PY
 
       - name: Finalize staged rebuild (swap only when complete)
         id: finalize
@@ -461,14 +569,14 @@ jobs:
           echo "staged_finalized=true" >> "$GITHUB_OUTPUT"
 
       - name: Commit and push (main repo)
-        if: steps.gates.outputs.upstream_inputs_synced == 'true' || steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
+        if: steps.gates.outputs.upstream_inputs_synced == 'true' || steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true' || steps.gates.outputs.boid_maintenance == 'true'
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add inputs/upstream inputs/bricklink || true
-          git add database/audit/brickovery_db database/backups/brickovery_db || true
+          git add database/audit/brickovery_db database/backups/brickovery_db database/audit/boid || true
 
           if [ "${{ steps.gates.outputs.force_rebuild }}" = "true" ]; then
             if [ -d database/.rebuild ]; then git add database/.rebuild || true; fi
