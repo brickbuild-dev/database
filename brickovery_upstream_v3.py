@@ -251,11 +251,6 @@ def apply_weights_from_csv(con, cur, weights_csv: Path, *, overwrite: bool, add_
     Default: only fills rows where weight IS NULL, unless overwrite=True.
     Leaves NULL when no match exists in the CSV (as requested).
 
-    IMPORTANT (performance):
-      - We only scan/apply weights for parts that are actually missing in the DB
-        (DISTINCT bl_part_id where weight IS NULL and item_type in ('P','U')).
-      - We stop scanning the CSV early once all missing part_ids were found.
-
     Returns number of updated rows (SQLite rowcount best-effort).
     """
     wp = Path(weights_csv)
@@ -263,31 +258,31 @@ def apply_weights_from_csv(con, cur, weights_csv: Path, *, overwrite: bool, add_
         add_issue('WARN', 'WEIGHTS_FILE_MISSING', str(wp), f'weights file not found: {wp}')
         return 0
 
-    # Only consider item types that we treat as "part-like" for weight filling.
-    # 'U' is a fallback category for unknown BL item types; in practice many are PARTs.
-    item_types = ('P', 'U')
-
-    try:
-        missing_parts = cur.execute(
-            "SELECT DISTINCT bl_part_id FROM brickovery_db "
-            "WHERE weight IS NULL AND bl_part_id IS NOT NULL AND item_type IN ('P','U')"
-        ).fetchall()
-    except Exception as e:
-        add_issue('WARN', 'WEIGHTS_QUERY_MISSING_FAILED', str(wp), f'Falha ao listar parts sem weight: {e}')
-        return 0
-
-    missing_set = {r[0] for r in (missing_parts or []) if r and r[0]}
-    if not missing_set and not overwrite:
-        return 0
-
     opener = _open_maybe_gzip(wp)
+    updated = 0
+    batch = []
+    batch_size = 5000
+
+    # Performance: filter the weights CSV to only the parts that are actually missing weight in DB.
+    # This avoids scanning/applying millions of no-op UPDATEs when the CSV is large.
+    missing_parts: Optional[Set[str]] = None
+    if not overwrite:
+        try:
+            rows = cur.execute(
+                "SELECT DISTINCT bl_part_id FROM brickovery_db "
+                "WHERE weight IS NULL AND bl_part_id IS NOT NULL AND item_type='P'"
+            ).fetchall()
+            missing_parts = {str(r[0]) for r in rows if r and r[0]}
+            if not missing_parts:
+                add_issue('INFO', 'WEIGHTS_SKIP_NO_MISSING', str(wp), 'No missing part weights in DB; skipping weights CSV apply.')
+                return 0
+            add_issue('INFO', 'WEIGHTS_CSV_FILTER', str(wp), f'Filtering weights CSV to {len(missing_parts)} missing parts.')
+        except Exception:
+            missing_parts = None
 
     # Header aliases (tolerant)
-    part_keys = {'bl_part_id', 'part_id', 'item_no', 'itemid', 'part'}
-    weight_keys = {'weight', 'weight_g', 'grams', 'g'}
-
-    weights_for_missing: dict = {}
-    scanned = 0
+    part_keys = {'bl_part_id','part_id','item_no','itemid','part'}
+    weight_keys = {'weight','weight_g','grams','g'}
 
     try:
         with opener(wp, 'rt', encoding='utf-8', newline='') as f:
@@ -304,69 +299,60 @@ def apply_weights_from_csv(con, cur, weights_csv: Path, *, overwrite: bool, add_
                 add_issue('WARN', 'WEIGHTS_BAD_HEADER', str(wp), f'weights header missing part/weight: {reader.fieldnames}')
                 return 0
 
-            # Scan only until all missing parts were found (early-stop).
-            target = len(missing_set) if not overwrite else None
             for row in reader:
-                scanned += 1
                 bl = (row.get(part_col) or '').strip()
-                if not bl:
-                    continue
-                if not overwrite and bl not in missing_set:
-                    continue
-                if bl in weights_for_missing:
-                    continue
-
                 ws = (row.get(weight_col) or '').strip()
-                if not ws:
+                if missing_parts is not None and bl not in missing_parts:
                     continue
+                if not bl or not ws:
+                    continue
+                # allow comma decimal
                 ws = ws.replace(',', '.')
                 try:
                     wv = float(ws)
                 except Exception:
                     continue
+                batch.append((wv, bl))
+                if missing_parts is not None:
+                    # If the same part appears again in the CSV, we don't need it.
+                    missing_parts.discard(bl)
+                    if not missing_parts:
+                        # Found weights for all missing parts; flush current batch and exit early.
+                        if overwrite:
+                            cur.executemany("UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND item_type='P'", batch)
+                        else:
+                            cur.executemany("UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND weight IS NULL AND item_type IN ('P','U')", batch)
+                        updated += cur.rowcount if cur.rowcount is not None else 0
+                        con.commit()
+                        batch.clear()
+                        break
 
-                weights_for_missing[bl] = wv
+                if len(batch) >= batch_size:
+                    if overwrite:
+                        cur.executemany("UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND item_type='P'", batch)
+                    else:
+                        cur.executemany("UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND weight IS NULL AND item_type IN ('P','U')", batch)
+                    updated += cur.rowcount if cur.rowcount is not None else 0
+                    con.commit()
+                    batch.clear()
+                    if missing_parts is not None and not missing_parts:
+                        break
 
-                # Early stop if we've found weights for all currently-missing parts.
-                if (target is not None) and (len(weights_for_missing) >= target):
-                    break
+        if batch:
+            if overwrite:
+                cur.executemany("UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND item_type='P'", batch)
+            else:
+                cur.executemany("UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND weight IS NULL AND item_type IN ('P','U')", batch)
+            updated += cur.rowcount if cur.rowcount is not None else 0
+            con.commit()
+            batch.clear()
 
-                # Very light progress ping for huge CSVs (keeps Actions logs alive).
-                if scanned % 500000 == 0:
-                    print(f"[WEIGHT] scanned={scanned} matched={len(weights_for_missing)}/{len(missing_set)}", flush=True)
-
-        if not weights_for_missing:
-            add_issue('INFO', 'WEIGHTS_APPLIED', str(wp), 'weights scan found no matches for missing parts')
-            return 0
-
-        # Apply updates: one statement per part_id (fast; usually only a few thousand).
-        batch = [(float(w), str(bl)) for bl, w in weights_for_missing.items()]
-        if overwrite:
-            cur.executemany(
-                "UPDATE brickovery_db SET weight=? "
-                "WHERE bl_part_id=? AND item_type IN ('P','U')",
-                batch,
-            )
-        else:
-            cur.executemany(
-                "UPDATE brickovery_db SET weight=? "
-                "WHERE bl_part_id=? AND weight IS NULL AND item_type IN ('P','U')",
-                batch,
-            )
-
-        updated = cur.rowcount if cur.rowcount is not None else 0
-        con.commit()
-
-        add_issue('INFO', 'WEIGHTS_APPLIED', str(wp), f'weights applied (parts_matched={len(batch)}, updated_rows={updated}, scanned_rows={scanned})')
-        return int(updated)
+        add_issue('INFO', 'WEIGHTS_APPLIED', str(wp), f'weights applied (updated_rows={updated})')
+        return updated
 
     except Exception as e:
         add_issue('WARN', 'WEIGHTS_APPLY_FAILED', str(wp), f'Falha a aplicar weights: {e}')
-        try:
-            con.commit()
-        except Exception:
-            pass
-        return 0
+        return updated
 
 
 
@@ -385,21 +371,18 @@ def fill_missing_weights_from_bricklink(
 
     Estratégia:
       - Faz lookup por bl_part_id (sem cor) e tenta extrair 'weight' (gramas)
-      - Atualiza todas as linhas desse bl_part_id onde weight IS NULL e item_type in ('P','U')
+      - Atualiza todas as linhas desse bl_part_id onde weight IS NULL
 
     Nota:
-      - Só corre para items com weight IS NULL e item_type in ('P','U').
+      - Só corre para parts com weight IS NULL.
       - Respeita min_interval_s para evitar rate-limit.
-      - Emite progresso a cada 50 items para visibilidade em tempo real no Actions.
     """
     try:
         rows = cur.execute(
-            "SELECT DISTINCT bl_part_id "
-            "FROM brickovery_db "
-            "WHERE weight IS NULL AND bl_part_id IS NOT NULL AND item_type IN ('P','U')"
+            "SELECT DISTINCT bl_part_id FROM brickovery_db WHERE weight IS NULL AND bl_part_id IS NOT NULL AND item_type IN ('P','U')"
         ).fetchall()
     except Exception as e:
-        add_issue('WARN', 'WEIGHTS_BRICKLINK_QUERY_FAILED', '', f'Falha ao listar items sem weight: {e}')
+        add_issue('WARN', 'WEIGHTS_BRICKLINK_QUERY_FAILED', '', f'Falha ao listar parts sem weight: {e}')
         return 0
 
     parts = [r[0] for r in rows if r and r[0]]
@@ -411,13 +394,12 @@ def fill_missing_weights_from_bricklink(
     missing_parts = 0
 
     last_call = 0.0
-    t_start = now_s()
 
     for i, part in enumerate(parts, 1):
         if _STOP:
             break
         if max_runtime_seconds and t0 and (now_s() - float(t0)) > float(max_runtime_seconds):
-            add_issue('WARN', 'WEIGHTS_BRICKLINK_STOP_MAX_RUNTIME', '', f'Parado por max-runtime-seconds após {i-1} itens.')
+            add_issue('WARN', 'WEIGHTS_BRICKLINK_STOP_MAX_RUNTIME', '', f'Parado por max-runtime-seconds após {i-1} partes.')
             break
 
         # throttle
@@ -428,7 +410,6 @@ def fill_missing_weights_from_bricklink(
 
         w = None
         try:
-            # Try as PART first (most common). For 'U' we still try PART endpoint.
             w = bricklink_get_item_weight(str(part), oauth, item_type='P', timeout_s=30)
         except Exception:
             w = None
@@ -438,8 +419,7 @@ def fill_missing_weights_from_bricklink(
         else:
             try:
                 cur.execute(
-                    "UPDATE brickovery_db SET weight=? "
-                    "WHERE bl_part_id=? AND weight IS NULL AND item_type IN ('P','U')",
+                    "UPDATE brickovery_db SET weight=? WHERE bl_part_id=? AND weight IS NULL AND item_type IN ('P','U')",
                     (float(w), str(part)),
                 )
                 if cur.rowcount:
@@ -450,14 +430,6 @@ def fill_missing_weights_from_bricklink(
 
         if commit_every and (i % int(commit_every) == 0):
             con.commit()
-
-        if i % 50 == 0:
-            elapsed = max(1e-6, (now_s() - t_start))
-            rate = float(i) / float(elapsed)
-            print(
-                f"[WEIGHT-BL] {i}/{len(parts)} rate={rate:.2f}/s filled_parts={filled_parts} still_missing={missing_parts} rows_updated={updated_rows}",
-                flush=True,
-            )
 
     con.commit()
     add_issue(
@@ -2150,22 +2122,18 @@ def main() -> int:
                 wp = Path(args.weights_csv)
                 # Skip if nothing missing and not overwrite
                 try:
-                    missing_w = cur.execute("SELECT COUNT(DISTINCT bl_part_id) FROM brickovery_db WHERE weight IS NULL AND bl_part_id IS NOT NULL AND item_type IN ('P','U')").fetchone()[0]
+                    missing_w = cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type IN ('P','U')").fetchone()[0]
                 except Exception:
                     missing_w = None
 
                 if args.weights_overwrite or (missing_w is None) or (int(missing_w) > 0):
-                    try:
-                        missing_rows = cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type IN ('P','U')").fetchone()[0]
-                    except Exception:
-                        missing_rows = None
-                    print(f"[WEIGHT] applying weights from: {wp} (missing_parts={missing_w}, missing_rows={missing_rows})")
+                    print(f"[WEIGHT] applying weights from: {wp} (missing={missing_w})")
                     apply_weights_from_csv(con, cur, wp, overwrite=bool(args.weights_overwrite), add_issue=add_issue)
                     con.commit()
 
                     # Fallback: preencher weights em falta via BrickLink API (por BL ID, sem cor)
                     try:
-                        missing_after_csv = cur.execute("SELECT COUNT(DISTINCT bl_part_id) FROM brickovery_db WHERE weight IS NULL AND bl_part_id IS NOT NULL AND item_type IN ('P','U')").fetchone()[0]
+                        missing_after_csv = cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type IN ('P','U')").fetchone()[0]
                     except Exception:
                         missing_after_csv = None
 
@@ -2175,7 +2143,7 @@ def main() -> int:
                             add_issue("WARN", "WEIGHTS_BRICKLINK_OAUTH_MISSING", "", "BrickLink OAuth não configurado; weights em falta permanecerão NULL.")
                             con.commit()
                         else:
-                            print(f"[WEIGHT] BrickLink fallback: missing_parts_after_csv={missing_after_csv}")
+                            print(f"[WEIGHT] BrickLink fallback: missing_after_csv={missing_after_csv}")
                             fill_missing_weights_from_bricklink(
                                 con,
                                 cur,
@@ -2232,7 +2200,7 @@ def main() -> int:
                     """
                     SELECT DISTINCT bl_part_id, bl_color_id, bo_color_id
                     FROM brickovery_db
-                    WHERE (boid IS NULL OR boid = '') AND item_type='P'
+                    WHERE (boid IS NULL OR boid = '') AND item_type IN ('P','U')
                     """
                 ).fetchall()
 
@@ -2314,15 +2282,23 @@ def main() -> int:
                     if boid:
                         if blc is not None:
                             cur.execute(
-                                "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bl_color_id=? AND item_type='P'",
+                                "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bl_color_id=? AND item_type IN ('P','U')",
                                 (str(boid), int(bo_color_id_eff), str(bl_part_id), int(blc)),
                             )
                         else:
                             cur.execute(
-                                "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bo_color_id=? AND (bl_color_id IS NULL) AND item_type='P'",
+                                "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bo_color_id=? AND (bl_color_id IS NULL) AND item_type IN ('P','U')",
                                 (str(boid), int(bo_color_id_eff), str(bl_part_id), int(bo_color_id_eff)),
                             )
-                        updated += 1
+                        # Count only if DB row was actually updated
+                        try:
+                            if cur.rowcount and int(cur.rowcount) > 0:
+                                updated += 1
+                            else:
+                                add_issue('WARN','BRICKOWL_BOID_DB_UPDATE_0ROW', f"{bl_part_id}|{bo_color_id_eff}", 'BOID resolvido mas UPDATE afetou 0 linhas (item_type mismatch?)')
+                        except Exception:
+                            updated += 1
+
 
                     if idx % commit_every == 0:
                         con.commit()
