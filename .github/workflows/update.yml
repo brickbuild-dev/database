@@ -412,8 +412,12 @@ jobs:
           echo "::endgroup::"
 
           # Run BOID resolver (weights disabled here to avoid blocking BOID)
-          python -u brickovery_upstream_v3.py             --mode boid             --db "${DB_TARGET}"             --out-csv "${CSV_TARGET}"             --issues "${ISSUES_TARGET}"             --resolve-boid             --skip-weights             --boid-cache-json database/boid_cache.json            --boid-timeout 8             --boid-max-pairs 500             --boid-min-interval 0.05             --boid-bulk-min-interval 0.35             --boid-commit-every 5000             --bl-codes-xml inputs/bricklink/part_color_codes.xml             --items-dir inputs/bricklink/items             --color-map inputs/colors_seed.csv             --checkpoint "${CHECKPOINT_TARGET}"             --max-runtime-seconds "${CHUNK_MAX_RUNTIME_SECONDS}"             --commit-every 10000             --progress-every 50000             "${EXTRA_ARGS[@]}"             &
+          BOID_LOG="${RUNNER_TEMP}/boid_run.log"
+          : > "$BOID_LOG"
+
+          python -u brickovery_upstream_v3.py             --mode boid             --db "${DB_TARGET}"             --out-csv "${CSV_TARGET}"             --issues "${ISSUES_TARGET}"             --resolve-boid             --skip-weights             --boid-cache-json database/boid_cache.json            --boid-timeout 8             --boid-max-pairs 500             --boid-min-interval 0.05             --boid-bulk-min-interval 0.35             --boid-commit-every 5000             --bl-codes-xml inputs/bricklink/part_color_codes.xml             --items-dir inputs/bricklink/items             --color-map inputs/colors_seed.csv             --checkpoint "${CHECKPOINT_TARGET}"             --max-runtime-seconds "${CHUNK_MAX_RUNTIME_SECONDS}"             --commit-every 10000             --progress-every 50000             "${EXTRA_ARGS[@]}" > "$BOID_LOG" 2>&1 &
           PID=$!
+
 
           # Heartbeat: query progress every HEARTBEAT_SECONDS
           while kill -0 "$PID" 2>/dev/null; do
@@ -454,10 +458,24 @@ jobs:
               except Exception as e:
                   print(f"[issues-tail {ts}] error={type(e).__name__}: {e}", flush=True)
           PY
+            ts="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            if [ -f "${BOID_LOG:-}" ]; then
+              echo "[boid-log-tail ${ts}] last 10 lines"
+              tail -n 10 "$BOID_LOG" | sed 's/^/[boid-log] /' || true
+            fi
+
             sleep "${HEARTBEAT_SECONDS}"
           done
 
+          set +e
           wait "$PID"
+          RC=$?
+          set -e
+          echo "::group::BOID log tail (last 50 lines)"
+          tail -n 50 "$BOID_LOG" || true
+          echo "::endgroup::"
+          exit $RC
+
 
       - name: Fill missing weights (CSV + BrickLink) with live heartbeat
         if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true'
