@@ -1,4 +1,7 @@
 severity,issue_type,key,details
+WARN,API_SELFTEST_REBRICKABLE_FAILED,,Rebrickable selftest falhou: name 'rebrickable_selftest' is not defined
+INFO,API_SELFTEST_BRICKLINK_OK,,BrickLink OAuth OK (/items/part/3001/colors).
+INFO,API_SELFTEST_BRICKOWL_OK,,BrickOwl OK (/user/details + /catalog/color_list).
 INFO,ITEMS_DIR_ENSURE_DONE,inputs/bricklink/items,Inserted placeholder rows for 158784 missing items (bl_color_id=0).
 INFO,WEIGHTS_CSV_FILTER,inputs/bricklink/parts_weight.csv,Filtering weights CSV to 93191 missing parts.
 INFO,WEIGHTS_APPLIED,inputs/bricklink/parts_weight.csv,weights applied (updated_rows=131297)
