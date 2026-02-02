@@ -1,12 +1,12 @@
 {
   "fb552c5cdb47cd9246e1720fae2f441095b6f889d5e4d381a6b313515bb60506": {
-    "updated_utc": "2026-02-02T07:03:04Z",
+    "updated_utc": "2026-02-02T07:09:55Z",
     "missing": {
       "boid": 1320,
       "weight": 0,
       "bk": 0
     },
     "attempts": 3,
-    "finalized": false
+    "finalized": true
   }
 }
