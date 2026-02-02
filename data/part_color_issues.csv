@@ -1,9 +1,9 @@
 severity,issue_type,key,details
-INFO,ITEMS_DIR_ENSURE_DONE,inputs/bricklink/items,Inserted placeholder rows for 158784 missing items (bl_color_id=0).
-INFO,WEIGHTS_CSV_FILTER,inputs/bricklink/parts_weight.csv,Filtering weights CSV to 93191 missing parts.
+INFO,ITEMS_DIR_ENSURE_DONE,inputs/bricklink/items,Inserted placeholder rows for 158819 missing items (bl_color_id=0).
+INFO,WEIGHTS_CSV_FILTER,inputs/bricklink/parts_weight.csv,Filtering weights CSV to 93193 missing parts.
 INFO,WEIGHTS_APPLIED,inputs/bricklink/parts_weight.csv,weights applied (updated_rows=131297)
-INFO,WEIGHTS_BRICKLINK_DONE,,"BrickLink weight fill: parts_missing_before=1565, parts_filled=1565, parts_still_missing=0, rows_updated=1586."
-INFO,BRICKOWL_BOID_RESOLVE_START,,"A resolver BOID para 132883 pares (part,bo_color)."
+INFO,WEIGHTS_BRICKLINK_DONE,,"BrickLink weight fill: parts_missing_before=1567, parts_filled=1567, parts_still_missing=0, rows_updated=1588."
+INFO,BRICKOWL_BOID_RESOLVE_START,,"A resolver BOID para 132885 pares (part,bo_color)."
 WARN,BRICKOWL_ID_LOOKUP_EMPTY,122c01assy2,id_lookup devolveu 0 BOIDs para bl_item_no=122c01assy2
 WARN,BRICKOWL_BO_COLOR_ID_MISSING,140.1stk01,Sem bo_color_id (mapeamento BL->BO indisponível e DB não tem valor).
 WARN,BRICKOWL_BO_COLOR_ID_MISSING,140.1stk02,Sem bo_color_id (mapeamento BL->BO indisponível e DB não tem valor).
@@ -54225,6 +54225,8 @@ WARN,BRICKOWL_BO_COLOR_ID_MISSING,66155c05,Sem bo_color_id (mapeamento BL->BO in
 WARN,BRICKOWL_BO_COLOR_ID_MISSING,54200pb117,Sem bo_color_id (mapeamento BL->BO indisponível e DB não tem valor).
 WARN,BRICKOWL_BO_COLOR_ID_MISSING,3070pb392,Sem bo_color_id (mapeamento BL->BO indisponível e DB não tem valor).
 WARN,BRICKOWL_BO_COLOR_ID_MISSING,973pb6526,Sem bo_color_id (mapeamento BL->BO indisponível e DB não tem valor).
+WARN,BRICKOWL_BO_COLOR_ID_MISSING,67095pb129,Sem bo_color_id (mapeamento BL->BO indisponível e DB não tem valor).
+WARN,BRICKOWL_BO_COLOR_ID_MISSING,2446pb64,Sem bo_color_id (mapeamento BL->BO indisponível e DB não tem valor).
 WARN,BRICKOWL_BO_COLOR_ID_MISSING,981pb438,Sem bo_color_id (mapeamento BL->BO indisponível e DB não tem valor).
 WARN,BRICKOWL_BO_COLOR_ID_MISSING,982pb438,Sem bo_color_id (mapeamento BL->BO indisponível e DB não tem valor).
 WARN,BRICKOWL_BO_COLOR_ID_MISSING,981pb437,Sem bo_color_id (mapeamento BL->BO indisponível e DB não tem valor).
@@ -54259,4 +54261,4 @@ WARN,BRICKOWL_BO_COLOR_ID_MISSING,3068pb2791,Sem bo_color_id (mapeamento BL->BO 
 WARN,BRICKOWL_BO_COLOR_ID_MISSING,973pb6533,Sem bo_color_id (mapeamento BL->BO indisponível e DB não tem valor).
 WARN,BRICKOWL_BO_COLOR_ID_MISSING,973pb6534,Sem bo_color_id (mapeamento BL->BO indisponível e DB não tem valor).
 WARN,BRICKOWL_BO_COLOR_ID_MISSING,973pb6522,Sem bo_color_id (mapeamento BL->BO indisponível e DB não tem valor).
-INFO,BRICKOWL_BOID_RESOLVE_DONE,,BOID resolve terminado. Updated_pairs=78655/132883.
+INFO,BRICKOWL_BOID_RESOLVE_DONE,,BOID resolve terminado. Updated_pairs=78655/132885.
