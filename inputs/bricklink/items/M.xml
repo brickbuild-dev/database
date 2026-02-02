@@ -163409,7 +163409,7 @@
       <ITEMID>pln207</ITEMID>
       <ITEMNAME>Plain Red Torso with Red Arms, Black Legs, Black Eyebrows, Thin Grin</ITEMNAME>
       <CATEGORY>447</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>3.05</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -166161,7 +166161,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1957</ITEMID>
-      <ITEMNAME>Coast Guard City - Female, Reddish Orange Jacket with Dark Blue Safety Vest and Reflective Stripes, Dark Blue Legs with Pockets and Reflective Stripes, White Helmet, Trans-Clear Visor, Safety Glasses</ITEMNAME>
+      <ITEMNAME>Coast Guard City Helicopter Pilot - Female, Reddish Orange Jacket with Dark Blue Safety Vest, Dark Blue Legs with Pockets and Reflective Stripes, White Flight Helmet</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.65</ITEMWEIGHT>
@@ -166512,10 +166512,10 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1960</ITEMID>
-      <ITEMNAME>Coast Guard City - Male, Reddish Orange Jacket with Pockets and Reflective Stripes, Dark Blue Legs with Pockets and Reflective Stripes, White Flight Helmet</ITEMNAME>
+      <ITEMNAME>Coast Guard City Helicopter Pilot - Male, Reddish Orange Jacket with Dark Blue Safety Vest, Dark Blue Legs with Pockets and Reflective Stripes, White Flight Helmet</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>3.67</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -166593,28 +166593,28 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1961</ITEMID>
-      <ITEMNAME>Surfer - Female, Light Bluish Gray and Lime Wetsuit, Light Bluish Gray Legs, Dark Orange Hair, Orange Life Jacket</ITEMNAME>
+      <ITEMNAME>Woman - Light Bluish Gray and Lime Wetsuit, Light Bluish Gray Legs, Dark Orange Hair, Orange Life Jacket</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>3.94</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1962</ITEMID>
-      <ITEMNAME>Coast Guard City - Female, Reddish Orange Jacket with Pockets and Reflective Stripes, Dark Blue Legs with Reflective Stripes, Orange Life Jacket White Sports Helmet</ITEMNAME>
+      <ITEMNAME>Coast Guard City - Female, Reddish Orange Jacket with Pockets and Reflective Stripes, Dark Blue Legs with Pockets and Reflective Stripes, Orange Life Jacket, White Sports Helmet</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>3.7</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1963</ITEMID>
-      <ITEMNAME>Coast Guard City - Male, Reddish Orange Jacket with Pockets and Reflective Stripes, Dark Blue Legs with Reflective Stripes, Black Neck Bracket, White Sports Helmet</ITEMNAME>
+      <ITEMNAME>Coast Guard City - Male, Reddish Orange Jacket with Pockets and Reflective Stripes, Dark Blue Legs with Pockets and Reflective Stripes, White Sports Helmet, Black Neck Bracket</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>3.6</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -166649,7 +166649,7 @@
       <ITEMID>cty1964</ITEMID>
       <ITEMNAME>Recycling Worker - Male, Lime Safety Jacket with Reflective Stripes, Dark Green Legs with Reflective Stripes, Dark Bluish Gray Beanie</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.56</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -166658,7 +166658,7 @@
       <ITEMID>cty1965</ITEMID>
       <ITEMNAME>Recycling Worker - Female, Lime Safety Jacket with Reflective Stripes, Dark Green Legs with Reflective Stripes, Dark Brown Ponytail and Swept Sideways Fringe</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.63</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -166694,7 +166694,7 @@
       <ITEMID>sc144</ITEMID>
       <ITEMNAME>McLaren W1 Driver</ITEMNAME>
       <CATEGORY>842</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.67</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -166703,7 +166703,7 @@
       <ITEMID>cty1966</ITEMID>
       <ITEMNAME>Snowplow Driver - Male, Neon Yellow Safety Vest with Reflective Stripes, Dark Green Legs with Reflective Stripes, Gray Beanie</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -166712,7 +166712,7 @@
       <ITEMID>sp149</ITEMID>
       <ITEMNAME>Astronaut - Female, Dark Brown Hair, White Spacesuit with Dark Turquoise Panel and Sleeves</ITEMNAME>
       <CATEGORY>166</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.67</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -166721,7 +166721,7 @@
       <ITEMID>sp150</ITEMID>
       <ITEMNAME>Astronaut - Dark Turquoise Helmet and Legs, Coral Arms, Dark Blue Backpack</ITEMNAME>
       <CATEGORY>166</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>5.9</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
