@@ -1,1 +1,4 @@
 severity,issue_type,key,details
+INFO,WEIGHTS_CSV_FILTER,inputs/bricklink/parts_weight.csv,Filtering weights CSV to 2 missing parts.
+INFO,WEIGHTS_APPLIED,inputs/bricklink/parts_weight.csv,weights applied (updated_rows=0)
+INFO,WEIGHTS_BRICKLINK_DONE,,"BrickLink weight fill: parts_missing_before=2, parts_filled=0, parts_still_missing=2, rows_updated=0."
