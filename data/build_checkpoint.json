@@ -1,11 +1,11 @@
 {
-  "ts": 1770075234,
+  "ts": 1770106817,
   "phase": "done",
   "mode": "all",
   "processed": 106598,
   "inserted": 83242,
-  "rows_db": 242061,
+  "rows_db": 242078,
   "errors": 0,
-  "warnings": 54230,
-  "elapsed_sec": 1172
+  "warnings": 54231,
+  "elapsed_sec": 1159
 }
