@@ -10,7 +10,7 @@ Rules (as requested)
 --------------------
 1) DB is never rebuilt here. This script only INSERTs missing rows.
 2) Upstream tracked files (inputs/bricklink/items + part_color_codes.xml +
-   inputs/upstream/brickstore-database.zip) are only updated when the ZIP
+   Parts.xml + codes.xml + inputs/upstream/brickstore-database.zip) are only updated when the ZIP
    contains *new semantic data* vs what already exists in the DB.
    (I.e., formatting/order-only differences do NOT trigger updates.)
 
@@ -136,6 +136,20 @@ H = _try_import_helpers()
 
 _ALLOWED_TYPES = {"P","S","M","B","G","C","I","O","U"}
 
+
+def _validate_zip(zippath: Path, *, max_zip_mb: int, max_uncompressed_mb: int, max_entries: int) -> None:
+    size_mb = zippath.stat().st_size / (1024 * 1024)
+    if size_mb > max_zip_mb:
+        raise RuntimeError(f"ZIP demasiado grande: {size_mb:.1f} MiB (max {max_zip_mb} MiB)")
+    with zipfile.ZipFile(zippath, "r") as z:
+        infos = z.infolist()
+        if len(infos) > max_entries:
+            raise RuntimeError(f"ZIP com demasiados ficheiros: {len(infos)} (max {max_entries})")
+        total_uncompressed = sum(i.file_size for i in infos)
+        total_mb = total_uncompressed / (1024 * 1024)
+        if total_mb > max_uncompressed_mb:
+            raise RuntimeError(f"ZIP demasiado grande (uncompressed): {total_mb:.1f} MiB (max {max_uncompressed_mb} MiB)")
+
 def _normalize_it_id(it_raw: str, id_raw: str) -> Optional[Tuple[str, str]]:
     """Return normalized (item_type, item_id) or None if irrecoverably invalid.
 
@@ -187,10 +201,11 @@ def _db_sets(db_path: Path) -> Tuple[Set[Tuple[str, str]], Set[Tuple[str, str, i
         con.close()
 
 
-def _zip_extract_needed(zippath: Path, tmpdir: Path) -> Tuple[Path, Path]:
+def _zip_extract_needed(zippath: Path, tmpdir: Path) -> Tuple[Path, Path, Optional[Path], Optional[Path]]:
     """Extract part_color_codes.xml and items/*.xml into tmpdir.
 
-    Returns (codes_xml_path, items_dir_path).
+    Also attempts to extract Parts.xml and codes.xml if present.
+    Returns (codes_xml_path, items_dir_path, parts_xml_path_or_none, element_codes_xml_path_or_none).
     """
     tmpdir.mkdir(parents=True, exist_ok=True)
     items_dir = tmpdir / "items"
@@ -214,8 +229,20 @@ def _zip_extract_needed(zippath: Path, tmpdir: Path) -> Tuple[Path, Path]:
             out = items_dir / Path(m).name
             with z.open(m) as src, open(out, "wb") as dst:
                 shutil.copyfileobj(src, dst)
+        # Optional files at root
+        names = {n.lower(): n for n in z.namelist()}
+        parts_xml = None
+        element_codes_xml = None
+        if "parts.xml" in names:
+            parts_xml = tmpdir / "Parts.xml"
+            with z.open(names["parts.xml"]) as src, open(parts_xml, "wb") as dst:
+                shutil.copyfileobj(src, dst)
+        if "codes.xml" in names:
+            element_codes_xml = tmpdir / "codes.xml"
+            with z.open(names["codes.xml"]) as src, open(element_codes_xml, "wb") as dst:
+                shutil.copyfileobj(src, dst)
 
-    return codes_xml, items_dir
+    return codes_xml, items_dir, parts_xml, element_codes_xml
 
 
 def _upstream_items(items_dir: Path) -> Set[Tuple[str, str]]:
@@ -352,12 +379,17 @@ def main() -> int:
 
     ap.add_argument("--out-zip", default="", help="Where to copy ZIP if semantic new data exists")
     ap.add_argument("--out-codes-xml", default="", help="Where to copy part_color_codes.xml if semantic new data exists")
+    ap.add_argument("--out-parts-xml", default="", help="Where to copy Parts.xml if semantic new data exists")
+    ap.add_argument("--out-element-codes-xml", default="", help="Where to copy codes.xml if semantic new data exists")
     ap.add_argument("--out-items-dir", default="", help="Where to copy items/*.xml dir if semantic new data exists")
     ap.add_argument("--state-dir", default="", help="Optional dir to store audit files (sha/release id) when changes happen")
     ap.add_argument("--release-id", default="", help="Optional upstream release id (audit only)")
 
     ap.add_argument("--apply-db-delta", action="store_true", help="Apply incremental INSERT-only delta to DB")
     ap.add_argument("--json-out", default="", help="Write JSON result to this path")
+    ap.add_argument("--max-zip-size-mb", type=int, default=500, help="Max ZIP size in MiB (anti zip-bomb).")
+    ap.add_argument("--max-uncompressed-mb", type=int, default=800, help="Max uncompressed size in MiB.")
+    ap.add_argument("--max-entries", type=int, default=20000, help="Max number of entries inside ZIP.")
 
     args = ap.parse_args()
 
@@ -374,13 +406,20 @@ def main() -> int:
     if not color_map_csv.exists():
         raise FileNotFoundError(f"color-map não encontrado: {color_map_csv}")
 
+    _validate_zip(
+        zip_path,
+        max_zip_mb=int(args.max_zip_size_mb),
+        max_uncompressed_mb=int(args.max_uncompressed_mb),
+        max_entries=int(args.max_entries),
+    )
+
     # Load mapping for resolving color tokens
     bl_to_bo, bl_to_bk, _issues = H["load_bl_reverse_maps_from_csv"](color_map_csv)
     name_to_id, _id_to_name = H["load_bl_name_to_id_from_csv"](color_map_csv)
 
     with tempfile.TemporaryDirectory() as td:
         tmpdir = Path(td)
-        codes_xml, items_dir = _zip_extract_needed(zip_path, tmpdir)
+        codes_xml, items_dir, parts_xml, element_codes_xml = _zip_extract_needed(zip_path, tmpdir)
 
         upstream_items = _upstream_items(items_dir)
         upstream_codes, unknown_color_tokens = _upstream_codes(codes_xml, name_to_id=name_to_id)
@@ -405,6 +444,16 @@ def main() -> int:
                 out_codes.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy2(codes_xml, out_codes)
                 copied = True
+            if args.out_parts_xml and parts_xml:
+                out_parts = Path(args.out_parts_xml)
+                out_parts.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(parts_xml, out_parts)
+                copied = True
+            if args.out_element_codes_xml and element_codes_xml:
+                out_el = Path(args.out_element_codes_xml)
+                out_el.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(element_codes_xml, out_el)
+                copied = True
             if args.out_items_dir:
                 _copy_dir_atomic(items_dir, Path(args.out_items_dir))
                 copied = True
@@ -419,6 +468,10 @@ def main() -> int:
                 h = hashlib.sha256()
                 # codes
                 h.update(codes_xml.read_bytes())
+                if parts_xml and parts_xml.exists():
+                    h.update(parts_xml.read_bytes())
+                if element_codes_xml and element_codes_xml.exists():
+                    h.update(element_codes_xml.read_bytes())
                 # items (sorted by filename)
                 for p in sorted(items_dir.glob("*.xml")):
                     h.update(p.name.encode("utf-8"))

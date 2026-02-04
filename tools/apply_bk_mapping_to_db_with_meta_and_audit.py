@@ -8,11 +8,12 @@ Goal:
   bl_part_id, bk_part_id, item_type, brikick_name, api_item_type, bk_part_key
 
 Behavior:
-- Loads bk_mapping.csv (must contain at least the columns above; extra columns are tolerated).
+- Loads bk_mapping.csv (must contain at least bl_part_id,bk_part_id,item_type,brikick_name,api_item_type; extra columns are tolerated).
 - For any (bl_part_id,item_type) present in DB and missing in CSV:
-    * auto-generates a new BK id/key using per-item_type counters (no collisions),
+    * auto-generates a new bk_part_id using per-item_type counters (no collisions),
     * appends the new row to bk_mapping.csv (optional),
     * updates brickovery_db columns for all colors for that (bl_part_id,item_type).
+- bk_part_key is derived from DB columns: BK-{item_type}-{bk_part_id}-{bk_color_id}.
 - Also maintains an internal table bk_mapping (optional but useful) inside the same DB.
 
 This script is designed to run *after* brickovery_upstream_v3.py builds/updates the DB.
@@ -26,12 +27,13 @@ import io
 import datetime
 import hashlib
 import os
-import re
 import sqlite3
 from pathlib import Path
-from typing import Dict, Iterable, List, Tuple, Optional
+from typing import Dict, List, Tuple, Optional
 
-BK_KEY_RE = re.compile(r"^BK-([A-Z])-([0-9]{8})$")
+BK_PART_KEY_FORMAT = "BK-{item_type}-{bk_part_id}-{bk_color_id}"
+CSV_REQUIRED_COLUMNS = ["bl_part_id", "bk_part_id", "item_type", "brikick_name", "api_item_type"]
+CSV_DROP_COLUMNS = {"bk_part_key", "source", "confidence"}
 
 TYPE_META = {
     "P": ("Parts", "PART"),
@@ -149,11 +151,10 @@ def _write_change_report(
             bl = ch.get("bl_part_id", "")
             it = ch.get("item_type", "")
             bk_id = ch.get("bk_part_id", "")
-            bk_key = ch.get("bk_part_key", "")
             brikick_name = ch.get("brikick_name", "")
             api_item_type = ch.get("api_item_type", "")
             note = ch.get("note", "")
-            lines.append(f"- **{action}** bl_part_id=`{bl}` item_type=`{it}` bk_part_id=`{bk_id}` bk_part_key=`{bk_key}` brikick_name=`{brikick_name}` api_item_type=`{api_item_type}`{(' — ' + note) if note else ''}")
+            lines.append(f"- **{action}** bl_part_id=`{bl}` item_type=`{it}` bk_part_id=`{bk_id}` brikick_name=`{brikick_name}` api_item_type=`{api_item_type}`{(' — ' + note) if note else ''}")
 
     lines.append("")
     lines.append("## Operational notes")
@@ -170,12 +171,11 @@ def _write_csv_canonical(csv_path: Path, header: List[str], rows: Dict[Tuple[str
     """Rewrite bk_mapping.csv canonically (unique by (bl_part_id,item_type))."""
     csv_path.parent.mkdir(parents=True, exist_ok=True)
 
-    # Stable sort: by item_type then numeric suffix of bk_part_key (if any), then bl_part_id
+    # Stable sort: by item_type then numeric bk_part_id (if any), then bl_part_id
     def sort_key(item):
         (bl, it), row = item
-        key = (row.get("bk_part_key") or "").strip()
-        m = BK_KEY_RE.match(key)
-        n = int(m.group(2)) if m else 0
+        bk_id = (row.get("bk_part_id") or "").strip()
+        n = int(bk_id) if bk_id.isdigit() else 0
         return (it, n, bl)
 
     tmp = csv_path.parent / f".tmp_bk_mapping_{os.getpid()}.csv"
@@ -228,7 +228,7 @@ def _ensure_columns(con: sqlite3.Connection) -> None:
 
 
 def _read_csv(path: Path) -> Tuple[List[str], Dict[Tuple[str, str], Dict[str, str]]]:
-    required = ["bl_part_id", "bk_part_id", "item_type", "brikick_name", "api_item_type", "bk_part_key"]
+    required = CSV_REQUIRED_COLUMNS.copy()
     if not path.exists():
         return (required.copy(), {})
 
@@ -255,35 +255,57 @@ def _read_csv(path: Path) -> Tuple[List[str], Dict[Tuple[str, str], Dict[str, st
         return header, rows
 
 
-def _extract_n_from_key(key: str) -> Optional[int]:
-    m = BK_KEY_RE.match(key.strip())
-    if not m:
-        return None
-    return int(m.group(2))
+def _normalize_header(header: List[str]) -> List[str]:
+    out: List[str] = []
+    for col in header:
+        if col in CSV_DROP_COLUMNS:
+            continue
+        if col not in out:
+            out.append(col)
+    for col in CSV_REQUIRED_COLUMNS:
+        if col not in out:
+            out.append(col)
+    return out
 
 
 def _compute_last_numbers(con: sqlite3.Connection, csv_rows: Dict[Tuple[str, str], Dict[str, str]]) -> Dict[str, int]:
     last: Dict[str, int] = {k: 0 for k in TYPE_META.keys()}
     # From CSV
     for (bl, it), row in csv_rows.items():
-        key = (row.get("bk_part_key") or "").strip()
-        n = _extract_n_from_key(key) if key else None
-        if n is not None:
-            last[it] = max(last.get(it, 0), n)
+        bk_id = (row.get("bk_part_id") or "").strip()
+        if bk_id.isdigit():
+            last[it] = max(last.get(it, 0), int(bk_id))
 
     # From DB existing values (covers cases where DB is ahead of CSV)
     cur = con.cursor()
     for it in TYPE_META.keys():
-        for (key,) in cur.execute(
-            "SELECT bk_part_key FROM brickovery_db WHERE item_type=? AND bk_part_key IS NOT NULL",
+        for (bk_id,) in cur.execute(
+            "SELECT bk_part_id FROM brickovery_db WHERE item_type=? AND bk_part_id IS NOT NULL",
             (it,),
         ):
-            if not key:
+            if not bk_id:
                 continue
-            n = _extract_n_from_key(str(key))
-            if n is not None:
-                last[it] = max(last.get(it, 0), n)
+            s = str(bk_id).strip()
+            if s.isdigit():
+                last[it] = max(last.get(it, 0), int(s))
     return last
+
+
+def _db_existing_bk_part_id(con: sqlite3.Connection, bl: str, it: str) -> Optional[str]:
+    cur = con.cursor()
+    row = cur.execute(
+        """
+        SELECT bk_part_id
+        FROM brickovery_db
+        WHERE bl_part_id=? AND item_type=? AND bk_part_id IS NOT NULL AND bk_part_id<>''
+        LIMIT 1
+        """,
+        (bl, it),
+    ).fetchone()
+    if not row or row[0] is None:
+        return None
+    s = str(row[0]).strip()
+    return s if s.isdigit() else None
 
 
 def _distinct_missing_pairs(con: sqlite3.Connection) -> List[Tuple[str, str]]:
@@ -294,7 +316,6 @@ def _distinct_missing_pairs(con: sqlite3.Connection) -> List[Tuple[str, str]]:
         SELECT DISTINCT bl_part_id, item_type
         FROM brickovery_db
         WHERE (bk_part_id IS NULL OR bk_part_id='')
-           OR (bk_part_key IS NULL OR bk_part_key='')
            OR (api_item_type IS NULL OR api_item_type='')
            OR (brikick_name IS NULL OR brikick_name='')
         ORDER BY item_type, bl_part_id
@@ -304,24 +325,25 @@ def _distinct_missing_pairs(con: sqlite3.Connection) -> List[Tuple[str, str]]:
     return out
 
 
-def _upsert_db(con: sqlite3.Connection, bl: str, it: str, bk_part_id: str, brikick_name: str, api_item_type: str, bk_part_key: str) -> None:
+def _upsert_db(con: sqlite3.Connection, bl: str, it: str, bk_part_id: str, brikick_name: str, api_item_type: str) -> None:
     cur = con.cursor()
     # Update all colors for (bl,item_type)
     cur.execute(
         """
         UPDATE brickovery_db
-        SET bk_part_id=?, brikick_name=?, api_item_type=?, bk_part_key=?
+        SET bk_part_id=?, brikick_name=?, api_item_type=?,
+            bk_part_key=('BK-' || item_type || '-' || bk_part_id || '-' || bk_color_id)
         WHERE bl_part_id=? AND item_type=?
         """,
-        (bk_part_id, brikick_name, api_item_type, bk_part_key, bl, it),
+        (bk_part_id, brikick_name, api_item_type, bl, it),
     )
     # Maintain internal mapping table
     cur.execute(
         """
         INSERT OR REPLACE INTO bk_mapping (bl_part_id, item_type, bk_part_id, brikick_name, api_item_type, bk_part_key)
-        VALUES (?, ?, ?, ?, ?, ?)
+        VALUES (?, ?, ?, ?, ?, NULL)
         """,
-        (bl, it, bk_part_id, brikick_name, api_item_type, bk_part_key),
+        (bl, it, bk_part_id, brikick_name, api_item_type),
     )
 
 
@@ -349,7 +371,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--db", required=True, help="Path to brickovery.db")
     ap.add_argument("--bk-mapping-csv", required=True, help="Path to bk_mapping.csv (checked out from mapping repo)")
-    ap.add_argument("--write-csv", action="store_true", help="Append auto-generated mappings into bk_mapping.csv")
+    ap.add_argument("--write-csv", action="store_true", help="Write/refresh auto-generated mappings into bk_mapping.csv")
     args = ap.parse_args()
 
     db_path = Path(args.db)
@@ -360,6 +382,7 @@ def main() -> int:
         _ensure_columns(con)
 
         header, csv_rows = _read_csv(csv_path)
+        target_header = _normalize_header(header)
         last_numbers = _compute_last_numbers(con, csv_rows)
 
         missing_pairs = _distinct_missing_pairs(con)
@@ -368,6 +391,7 @@ def main() -> int:
         updated = 0
         created = 0
         changes: List[Dict[str, str]] = []
+        header_changed = header != target_header
 
         for bl, it in missing_pairs:
             it = (it or '').strip() or 'U'
@@ -384,21 +408,17 @@ def main() -> int:
                 orig_bk_part_id = (row.get("bk_part_id") or "").strip()
                 orig_brikick_name = (row.get("brikick_name") or "").strip()
                 orig_api_item_type = (row.get("api_item_type") or "").strip()
-                orig_bk_part_key = (row.get("bk_part_key") or "").strip()
 
                 bk_part_id = orig_bk_part_id
                 brikick_name = orig_brikick_name or TYPE_META[it][0]
                 api_item_type = orig_api_item_type or TYPE_META[it][1]
-                bk_part_key = orig_bk_part_key
 
-                # Determine numeric id n in the safest order:
-                # 1) from bk_part_key (canonical)
-                # 2) from numeric bk_part_id (if present)
-                # 3) allocate next per-item_type
-                n = _extract_n_from_key(bk_part_key) if bk_part_key else None
-                if n is None:
-                    if bk_part_id and bk_part_id.isdigit():
-                        n = int(bk_part_id)
+                # Determine numeric id n:
+                # 1) from numeric bk_part_id (if present)
+                # 2) allocate next per-item_type
+                n: Optional[int] = None
+                if bk_part_id and bk_part_id.isdigit():
+                    n = int(bk_part_id)
                 if n is None:
                     last_numbers[it] = last_numbers.get(it, 0) + 1
                     n = last_numbers[it]
@@ -408,8 +428,8 @@ def main() -> int:
 
                 changed_fields: List[str] = []
 
-                # Fill missing bk_part_id if blank
-                if not bk_part_id:
+                # Fill missing or non-numeric bk_part_id
+                if (not bk_part_id) or (not bk_part_id.isdigit()):
                     bk_part_id = str(n)
                     row["bk_part_id"] = bk_part_id
                     changed_fields.append("bk_part_id")
@@ -422,13 +442,6 @@ def main() -> int:
                     row["api_item_type"] = api_item_type
                     changed_fields.append("api_item_type")
 
-                # Ensure bk_part_key is present and valid
-                key_n = _extract_n_from_key(bk_part_key) if bk_part_key else None
-                if key_n is None:
-                    bk_part_key = f"BK-{it}-{n:08d}"
-                    row["bk_part_key"] = bk_part_key
-                    changed_fields.append("bk_part_key")
-
                 # Record changes for audit + CSV write
                 if changed_fields:
                     changes.append({
@@ -438,21 +451,26 @@ def main() -> int:
                         "bk_part_id": bk_part_id,
                         "brikick_name": brikick_name,
                         "api_item_type": api_item_type,
-                        "bk_part_key": bk_part_key,
                         "note": "filled/normalized: " + ", ".join(changed_fields),
                     })
                     new_rows.append({**row})  # mark that CSV should be updated
 
-                _upsert_db(con, bl, it, bk_part_id, brikick_name, api_item_type, bk_part_key)
+                _upsert_db(con, bl, it, bk_part_id, brikick_name, api_item_type)
                 updated += 1
                 continue
 
             # Otherwise: create new mapping row
-            last_numbers[it] = last_numbers.get(it, 0) + 1
-            n = last_numbers[it]
+            existing_id = _db_existing_bk_part_id(con, bl, it)
+            if existing_id:
+                bk_part_id = existing_id
+                n = int(existing_id)
+                last_numbers[it] = max(last_numbers.get(it, 0), n)
+            else:
+                last_numbers[it] = last_numbers.get(it, 0) + 1
+                n = last_numbers[it]
+                bk_part_id = str(n)
+
             brikick_name, api_item_type = TYPE_META[it]
-            bk_part_id = str(n)
-            bk_part_key = f"BK-{it}-{n:08d}"
 
             new_row = {
                 "bl_part_id": bl,
@@ -460,7 +478,6 @@ def main() -> int:
                 "item_type": it,
                 "brikick_name": brikick_name,
                 "api_item_type": api_item_type,
-                "bk_part_key": bk_part_key,
             }
             csv_rows[(bl, it)] = new_row
             new_rows.append(new_row)
@@ -471,15 +488,22 @@ def main() -> int:
                 "bk_part_id": bk_part_id,
                 "brikick_name": brikick_name,
                 "api_item_type": api_item_type,
-                "bk_part_key": bk_part_key,
                 "note": "auto-generated (not present in bk_mapping.csv)",
             })
-            _upsert_db(con, bl, it, bk_part_id, brikick_name, api_item_type, bk_part_key)
+            _upsert_db(con, bl, it, bk_part_id, brikick_name, api_item_type)
             created += 1
+
+        # Ensure bk_part_key uses the new canonical format for all rows
+        try:
+            con.execute(
+                "UPDATE brickovery_db SET bk_part_key=('BK-' || item_type || '-' || bk_part_id || '-' || bk_color_id)"
+            )
+        except Exception:
+            pass
 
         con.commit()
 
-        if args.write_csv and new_rows:
+        if args.write_csv and (new_rows or header_changed):
             # Vital data protection:
             # - Create an immutable pre-update backup snapshot
             # - Rewrite canonically (no duplicates) to keep mapping deterministic
@@ -494,7 +518,7 @@ def main() -> int:
             backup_path = _write_backup_pre_update(csv_path, stamp, human)
 
             # Canonical rewrite with updated rows
-            _write_csv_canonical(csv_path, header, csv_rows)
+            _write_csv_canonical(csv_path, target_header, csv_rows)
 
             new_sha = _sha256_file(csv_path) if csv_path.exists() else None
             new_count = len(csv_rows)

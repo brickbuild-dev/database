@@ -1,0 +1,25 @@
+{
+  "created_at_utc": "2026-02-04T19:22:02Z",
+  "rows": 282561,
+  "distinct_parts": 203783,
+  "item_type_counts": {
+    "B": 7583,
+    "C": 5080,
+    "G": 22671,
+    "I": 12906,
+    "M": 18525,
+    "O": 21217,
+    "P": 173362,
+    "S": 21217
+  },
+  "null_counts": {
+    "boid": 168401,
+    "weight_parts": 2,
+    "bo_color_id": 167081,
+    "bk_color_id": 0,
+    "bk_part_id": 0,
+    "bk_part_key": 0,
+    "part_name": 150052,
+    "element_id": 199319
+  }
+}

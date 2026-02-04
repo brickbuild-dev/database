@@ -20,6 +20,11 @@ permissions:
   contents: write
   actions: write
 
+env:
+  BACKUP_RETAIN_COUNT: 5
+  BACKUP_RETAIN_DAYS: 5
+  BACKUP_RETAIN_SIZE_MB: 4096
+
 jobs:
   sync-and-build:
     runs-on: ubuntu-latest
@@ -134,7 +139,7 @@ jobs:
           test -n "$SCRIPT" || { echo "::error::Cannot find upstream_semantic_sync_and_delta*.py in repo"; ls -la; find . -maxdepth 3 -type d -print; exit 2; }
           echo "Using semantic script: $SCRIPT"
 
-          python "$SCRIPT" --zip "$ZIP" --db database/brickovery.db --color-map inputs/colors_seed.csv --out-zip inputs/upstream/brickstore-database.zip --out-codes-xml inputs/bricklink/part_color_codes.xml --out-items-dir inputs/bricklink/items --state-dir inputs/upstream --release-id "${{ steps.upstream.outputs.release_id }}" --json-out .semantic_check.json
+          python "$SCRIPT" --zip "$ZIP" --db database/brickovery.db --color-map inputs/colors_seed.csv --out-zip inputs/upstream/brickstore-database.zip --out-codes-xml inputs/bricklink/part_color_codes.xml --out-parts-xml inputs/bricklink/Parts.xml --out-element-codes-xml inputs/bricklink/codes.xml --out-items-dir inputs/bricklink/items --state-dir inputs/upstream --release-id "${{ steps.upstream.outputs.release_id }}" --json-out .semantic_check.json
 
           python - <<'PY' >> "$GITHUB_OUTPUT"
           import json
@@ -161,7 +166,7 @@ jobs:
           EXTRA=""
           if [ -f .semantic_check.json ]; then EXTRA="--context-json .semantic_check.json"; fi
 
-          python tools/backup_brickovery_db_with_audit.py --db database/brickovery.db --backup-dir database/backups/brickovery_db --audit-dir database/audit/brickovery_db --also-backup-csv database/brickovery_db.csv --reason "$REASON" $EXTRA > .dbbackup.json
+          python tools/backup_brickovery_db_with_audit.py --db database/brickovery.db --backup-dir database/backups/brickovery_db --audit-dir database/audit/brickovery_db --also-backup-csv database/brickovery_db.csv --reason "$REASON" --retain "${BACKUP_RETAIN_COUNT}" --retain-days "${BACKUP_RETAIN_DAYS}" --retain-size-mb "${BACKUP_RETAIN_SIZE_MB}" $EXTRA > .dbbackup.json
 
           python - <<'PY' >> "$GITHUB_OUTPUT"
           import json
@@ -190,14 +195,15 @@ jobs:
           echo "Using builder script: $V3"
 
           python "$V3" \
-            --mode all \
+            --mode build \
             --db database/brickovery.db \
             --out-csv database/brickovery_db.csv \
             --issues database/part_color_issues.csv \
             --bl-codes-xml inputs/bricklink/part_color_codes.xml \
             --items-dir inputs/bricklink/items \
             --color-map inputs/colors_seed.csv \
-            --commit-every 10000 \
+            --skip-boid \
+            --commit-every-auto \
             --progress-every 200000
 
       - name: Brickovery DB post-update audit (after manual force rebuild)
@@ -230,7 +236,7 @@ jobs:
           test -n "$SCRIPT" || { echo "::error::Cannot find upstream_semantic_sync_and_delta*.py in repo"; exit 2; }
           echo "Using semantic script: $SCRIPT"
 
-          python "$SCRIPT" --zip "$ZIP" --db database/brickovery.db --color-map inputs/colors_seed.csv --out-zip inputs/upstream/brickstore-database.zip --out-codes-xml inputs/bricklink/part_color_codes.xml --out-items-dir inputs/bricklink/items --state-dir inputs/upstream --release-id "${{ steps.upstream.outputs.release_id }}" --apply-db-delta --json-out .semantic_apply.json
+          python "$SCRIPT" --zip "$ZIP" --db database/brickovery.db --color-map inputs/colors_seed.csv --out-zip inputs/upstream/brickstore-database.zip --out-codes-xml inputs/bricklink/part_color_codes.xml --out-parts-xml inputs/bricklink/Parts.xml --out-element-codes-xml inputs/bricklink/codes.xml --out-items-dir inputs/bricklink/items --state-dir inputs/upstream --release-id "${{ steps.upstream.outputs.release_id }}" --apply-db-delta --json-out .semantic_apply.json
 
           python - <<'PY' >> "$GITHUB_OUTPUT"
           import json
@@ -375,12 +381,14 @@ jobs:
             --out-csv database/brickovery_db.csv
             --issues database/part_color_issues.csv
             --resolve-boid
+            --allow-api
             --boid-cache-json database/boid_cache.json
             --bl-codes-xml inputs/bricklink/part_color_codes.xml
             --items-dir inputs/bricklink/items
             --color-map inputs/colors_seed.csv
             --commit-every 10000
             --progress-every 200000
+            --boid-commit-every-auto
           )
           if [ "${MAX_RUNTIME_SECONDS}" -gt 0 ]; then
             ARGS+=(--max-runtime-seconds "${MAX_RUNTIME_SECONDS}")
@@ -426,6 +434,29 @@ jobs:
             --db database/brickovery.db \
             --out-csv database/brickovery_db.csv \
             --issues database/part_color_issues.csv
+
+      - name: Export BL -> BK mapping (dedicated)
+        if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true' || steps.preboid.outputs.run_boid == 'true' || steps.premap.outputs.run_mapping == 'true'
+        run: |
+          set -euo pipefail
+          python tools/export_bl_to_bk_mapping.py --db database/brickovery.db --out database/bl_to_bk_mapping.csv
+
+      - name: Export BK part key
+        if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true' || steps.preboid.outputs.run_boid == 'true' || steps.premap.outputs.run_mapping == 'true'
+        run: |
+          set -euo pipefail
+          python tools/export_bk_part_key.py --db database/brickovery.db --out database/bk_part_key.csv
+
+      - name: Generate artifacts + validate
+        if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true' || steps.preboid.outputs.run_boid == 'true' || steps.premap.outputs.run_mapping == 'true'
+        run: |
+          set -euo pipefail
+          python tools/generate_artifacts.py \
+            --db database/brickovery.db \
+            --artifacts-dir database/artifacts \
+            --inputs-dir inputs \
+            --data-version-file inputs/upstream/last_release_id.txt \
+            --strict
 
       - name: Check remaining work (resume gate)
         id: resume
@@ -580,11 +611,18 @@ jobs:
           git add \
             database/audit/brickovery_db \
             database/backups/brickovery_db \
+            database/artifacts \
+            database/bl_to_bk_mapping.csv \
+            database/bk_part_key.csv \
+            database/boid_cache.json \
+            database/bricklink_api_cache.json \
             inputs/upstream/brickstore-database.zip \
             inputs/upstream/last_payload_sha256.txt \
             inputs/upstream/last_release_id.txt \
             inputs/upstream/resume_state.json \
             inputs/bricklink/part_color_codes.xml \
+            inputs/bricklink/Parts.xml \
+            inputs/bricklink/codes.xml \
             inputs/bricklink/items \
             database/brickovery.db \
             database/brickovery_db.csv \

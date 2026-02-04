@@ -150,6 +150,7 @@ jobs:
             --issues "data/part_color_issues.csv"
             --checkpoint "data/build_checkpoint.json"
             --boid-cache-json "data/brickowl_api_cache.json"
+            --allow-api
             --max-runtime-seconds 198000
           )
 

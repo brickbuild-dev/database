@@ -1,0 +1,163 @@
+([Past chat][1])([Past chat][2])([Past chat][3])([Past chat][4])([Past chat][3])
+
+```text
+TÍTULO: Auditoria técnica do repositório “database builder” (superDB) — estrutura, funcionamento, consistência e fiabilidade
+
+PAPEL / PERFIL
+Atua como Arquiteto de Dados + Engenheiro de Plataforma (CI/CD) + Senior Python Engineer. O teu objetivo é AUDITAR e DOCUMENTAR o repo existente. Não inventes comportamento: tudo deve ser suportado por evidência do código/ficheiros. Onde faltarem peças, regista “GAP” e propõe correção.
+
+CONTEXTO
+Este repositório produz uma base de dados final (superDB, tipicamente SQLite) que será consumida por várias plataformas: Brikick, Brikovery e Brikit.
+A superDB é read-only para as apps consumidoras. O builder é responsável por:
+- Ler dados upstream (ex.: downloads.zip do BrickLink, dumps do Rebrickable, e crosswalk brickovery_db.csv).
+- Aplicar mapeamentos (inclui “color map” do utilizador).
+- Gerar a DB final + artefactos auditáveis (manifest/metadata/logs/issues).
+- Criar backup após atualização.
+- Exportar um ficheiro separado com mapeamento bl_part_id → bk_part_id (obrigatório).
+
+REGRAS / INVARIANTES (devem ser verificadas e reforçadas)
+1) BOID pode faltar: itens sem BOID são tratados como BL-only e NÃO bloqueiam pipeline/solver.
+2) BrickOwl só deve ser consultado quando boid != NULL (se existir integração no builder).
+3) Peso/dimensões podem ser NULL: não podem bloquear o pipeline; usar fallback de fontes disponíveis ou marcar issue sem falhar build.
+4) Se (bl_part_id, cor) do search.xml estiver ausente na base upstream: acionar fluxo de resolução (via APIs ou fonte definida no repo) para preencher IDs e fazer upsert na base upstream (se o repo suportar esse modo); caso a superDB seja estritamente read-only, então registar issue de alta prioridade e continuar sem bloquear o build.
+5) O “color map” do utilizador deve ser SEMPRE a fonte de verdade (não substituir por defaults silenciosos).
+6) Build deve ser determinístico/reprodutível (mesmos inputs → mesma DB e mesmos artefactos).
+
+OBJETIVOS DE AUDITORIA
+A) Entender e explicar o fluxo end-to-end:
+   fontes → parsing → normalização → mapeamentos → validações → geração DB → artefactos → backup.
+B) Verificar consistência e fiabilidade:
+   - integridade referencial, chaves únicas, coerência de tipos
+   - cobertura dos mapeamentos (ids, cores, itens)
+   - comportamento perante dados faltantes (BOID, peso, dimensões, crosswalk incompleto)
+   - idempotência e reprodutibilidade do build
+C) Avaliar operacionalidade:
+   - scripts/CLI bem definidos
+   - logging estruturado e níveis de severidade
+   - GitHub Actions para build/QA e geração de artefactos
+   - gestão de versões (schema_version, data_version, builder_version)
+D) Produzir um relatório accionável e, se necessário, um conjunto mínimo de correções (patches) em branch separada.
+
+ESCOPO (o que deves fazer no repo)
+1) INVENTÁRIO DO REPO
+   - Mapear estrutura de pastas, entrypoints, scripts, docs e workflows.
+   - Identificar: “fonte de verdade” do schema, onde é gerada a SQLite, e como é configurada.
+   - Listar dependências e como estão “pinned” (requirements/poetry/uv/pip-tools).
+
+2) FLUXO DE BUILD (EVIDÊNCIA)
+   - Identificar comando oficial de build (Makefile/justfile/scripts).
+   - Reconstituir o pipeline em passos numerados com referências a ficheiros e funções.
+   - Confirmar como são ingeridos: BrickLink downloads.zip, Rebrickable dumps, crosswalk.
+   - Confirmar onde entra o color map e como é aplicado.
+
+3) CONTRATO DA DB (DB CONTRACT)
+   - Extrair schema (tabelas, colunas, índices, constraints) e documentar:
+     * chaves primárias/únicas
+     * FKs (se existirem) e relações principais
+     * colunas críticas usadas pelos consumidores
+   - Criar/atualizar docs: `docs/db_contract.md` com:
+     * “tabelas públicas” vs “internas”
+     * campos obrigatórios/opcionais (incluindo BOID, peso, dimensões)
+     * regras de compatibilidade para Brikick/Brikovery/Brikit
+   - Garantir existência de `schema_version` e `data_version` (ou equivalente). Se não existir, marcar GAP e propor implementação.
+
+4) VALIDAÇÕES E QUALIDADE DE DADOS
+   - Localizar validações existentes; se ausentes, propor “validation suite” mínima:
+     * unicidade de IDs (bk_*_id), consistência de keys
+     * coerência de cores (mapeadas e existentes)
+     * checks de nullability (permitido vs não permitido)
+     * detecção de “orphans” (refs sem lookup)
+   - Definir severidades (blocker/major/minor) e critério de falha do build:
+     * block: corrupção estrutural, schema inconsistente, chaves duplicadas, artefactos essenciais ausentes
+     * major: gaps de mapping significativos, muitas refs sem resolução
+     * minor: campos opcionais NULL dentro do esperado
+
+5) ARTEFACTOS AUDITÁVEIS (OBRIGATÓRIOS)
+   Verificar se o build gera e publica:
+   - `manifest.json` (lista de inputs + checksums + versões)
+   - `run_metadata.json` (timestamp, builder_version, schema_version, data_version, contagens)
+   - `issues.csv`/`issues.json` (gaps e severidades)
+   - `stats.json` (KPIs: totals, null counts, coverage)
+   - logs estruturados
+   Se faltar algum, marcar GAP e propor adição.
+
+6) BACKUP E RETENÇÃO
+   - Verificar se existe cópia de segurança automática após update (com naming determinístico e retention policy).
+   - Caso não exista: propor implementação (ex.: copiar a DB final para `backups/YYYY-MM-DD/` + manifest).
+
+7) FICHEIRO SEPARADO bl_part_id → bk_part_id
+   - Verificar se existe export.
+   - Confirmar formato, colunas, estabilidade e regras:
+     * bl_part_id, bk_part_id, item_type, color_id (se aplicável), source, confidence
+   - Caso não exista ou esteja incompleto: marcar como BLOCKER e propor implementação.
+
+8) CI/CD (GitHub Actions)
+   - Rever workflows: lint, tests, build da DB (pelo menos smoke build), publicação de artefactos.
+   - Confirmar caching e pinning de versões.
+   - Recomendar: workflow “manual dispatch” + “schedule” (se fizer sentido).
+   - Verificar que o workflow falha corretamente em BLOCKERS e publica relatórios em MAJOR/MINOR.
+
+9) TESTES
+   - Identificar testes existentes.
+   - Se fracos/inexistentes: propor suite mínima:
+     * unit tests para parsing e mapping
+     * “golden test” com fixtures pequenos (inputs reduzidos) para validar determinismo
+     * teste de integridade (schema + invariantes)
+   - Documentar como correr localmente e no CI.
+
+ENTREGÁVEIS (OUTPUTS)
+Cria/atualiza estes ficheiros (ou equivalentes), com conteúdo real baseado no repo:
+1) `docs/audit_report.md`
+   - Visão geral do repo e do pipeline
+   - Riscos e pontos fortes
+   - Lista de issues por severidade (BLOCKER/MAJOR/MINOR) com referência ao código
+   - Recomendações priorizadas (P0/P1/P2) e esforço estimado (S/M/L)
+
+2) `docs/db_contract.md`
+   - Contrato de schema para consumidores
+   - Campos obrigatórios/opcionais
+   - Versionamento e compatibilidade
+
+3) `docs/build_runbook.md`
+   - Como executar build localmente (passo a passo)
+   - Como executar validações e interpretar issues
+   - Como publicar artefactos
+
+4) (Se aplicável) PR/patches em branch `audit/<data>`
+   - Pequenas correções “low-risk” que aumentem confiabilidade (ex.: adicionar manifest, export mapping, validações mínimas, melhorar CI)
+   - Commits pequenos e descritivos
+
+RESTRIÇÕES IMPORTANTES
+- Não faças refactors grandes.
+- Não alteres contratos sem documentar impacto nas plataformas consumidoras.
+- Não removas campos/tabelas sem compat layer.
+- Se precisares de executar comandos, lista primeiro os comandos e justifica.
+- Não uses scraping em produção; se existir, marcar como risco e propor alternativa.
+
+MÉTODO (como deves trabalhar)
+1) Começa por ler README, docs e workflows.
+2) Mapeia entrypoints e executa um “dry-run mental” do pipeline.
+3) Inspeciona o schema gerado (se houver DB pronta no repo) via tooling (sqlite3/python) e documenta.
+4) Identifica invariantes e valida se o código os cumpre.
+5) Produz relatório e plano.
+6) Só depois implementa patches mínimos (se necessário).
+
+CRITÉRIOS DE ACEITAÇÃO (Definition of Done)
+- Existe um relatório claro com evidência (paths, funções, trechos relevantes).
+- Existe contrato da DB e runbook de build.
+- Foram identificados e classificados problemas de fiabilidade.
+- Existem recomendações concretas e, se necessário, patches mínimos e testáveis.
+- O export bl_part_id → bk_part_id está coberto (ou marcado como BLOCKER com proposta concreta).
+
+FORMATO DE RESPOSTA (no final da tua execução)
+1) Sumário executivo (5–10 bullets)
+2) Tabela de Issues (severidade, componente, descrição, impacto, recomendação)
+3) Arquitetura / fluxo end-to-end (diagrama textual)
+4) Próximos passos priorizados (P0/P1/P2)
+5) Referências exatas a ficheiros e comandos (copy/paste)
+```
+
+[1]: https://chatgpt.com/c/69803708-ff48-838c-b663-1d8dae650e59 "Recriar Brickovery de raiz"
+[2]: https://chatgpt.com/c/6980316b-1a58-8388-9966-31156034922a "New chat"
+[3]: https://chatgpt.com/c/6976af7d-9228-832b-8714-0717306b83a9 "Automatizar atualização DB"
+[4]: https://chatgpt.com/c/6976bc13-78ec-8327-b1a7-4096f296c030 "ja copiado p pc"

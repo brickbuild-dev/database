@@ -210,6 +210,8 @@ def main() -> int:
             metrics["null_bk_part_key"] = _count_null(cur, t, "bk_part_key")
             metrics["null_api_item_type"] = _count_null(cur, t, "api_item_type")
             metrics["null_brikick_name"] = _count_null(cur, t, "brikick_name")
+            metrics["null_part_name"] = _count_null(cur, t, "part_name")
+            metrics["null_element_id"] = _count_null(cur, t, "element_id")
             metrics["corruption_pattern_count"] = _count_corruption_pattern(cur, t)
             metrics["corruption_samples"] = _sample_corruption(cur, t, limit=10)
         else:

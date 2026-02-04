@@ -1,0 +1,14 @@
+.git
+.github
+database/backups
+database/audit
+database/artifacts
+database/*.db
+database/*.db.build
+database/*.csv
+inputs/bricklink/items
+inputs/upstream/brickstore-database.zip
+inputs/rebrickable
+inputs/super_db
+__pycache__
+*.pyc

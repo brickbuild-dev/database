@@ -30,7 +30,8 @@ import shutil
 import sys
 import gzip
 from pathlib import Path
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
+from typing import Dict, Optional
 
 
 def _utc_stamp() -> str:
@@ -51,6 +52,87 @@ def _gzip_copy(src: Path, dst_gz: Path) -> None:
         shutil.copyfileobj(f_in, f_out)
 
 
+def _parse_stamp(stamp: str) -> Optional[datetime]:
+    try:
+        return datetime.strptime(stamp, "%Y%m%d_%H%M%SZ").replace(tzinfo=timezone.utc)
+    except Exception:
+        return None
+
+
+def _collect_groups(backup_dir: Path, audit_dir: Path) -> Dict[str, Dict[str, object]]:
+    groups: Dict[str, Dict[str, object]] = {}
+    for b in backup_dir.glob("brickovery_db_backup_*.sqlite.gz"):
+        stamp = b.name.replace("brickovery_db_backup_", "").replace(".sqlite.gz", "")
+        ts = _parse_stamp(stamp)
+        files = [
+            b,
+            backup_dir / f"brickovery_db_backup_{stamp}.meta.json",
+            backup_dir / f"brickovery_db_csv_backup_{stamp}.csv.gz",
+            audit_dir / f"brickovery_db_changes_{stamp}.md",
+        ]
+        size = 0
+        for p in files:
+            if p.exists():
+                size += p.stat().st_size
+        groups[stamp] = {
+            "stamp": stamp,
+            "ts": ts,
+            "files": files,
+            "size": size,
+        }
+    return groups
+
+
+def _prune_backups(
+    backup_dir: Path,
+    audit_dir: Path,
+    *,
+    retain_count: int,
+    retain_days: int,
+    retain_size_mb: int,
+) -> None:
+    groups = _collect_groups(backup_dir, audit_dir)
+    if not groups:
+        return
+
+    def _delete_group(g):
+        for p in g.get("files", []):
+            try:
+                if p.exists():
+                    p.unlink()
+            except Exception:
+                pass
+
+    # Apply retention by days
+    if retain_days and retain_days > 0:
+        cutoff = datetime.now(timezone.utc) - timedelta(days=int(retain_days))
+        for g in list(groups.values()):
+            ts = g.get("ts")
+            if ts and ts < cutoff:
+                _delete_group(g)
+                groups.pop(g["stamp"], None)
+
+    # Apply retention by count
+    if retain_count and retain_count > 0 and len(groups) > retain_count:
+        ordered = sorted(groups.values(), key=lambda x: x.get("ts") or datetime.min.replace(tzinfo=timezone.utc))
+        to_remove = ordered[: max(0, len(ordered) - retain_count)]
+        for g in to_remove:
+            _delete_group(g)
+            groups.pop(g["stamp"], None)
+
+    # Apply retention by total size
+    if retain_size_mb and retain_size_mb > 0:
+        max_bytes = int(retain_size_mb) * 1024 * 1024
+        ordered = sorted(groups.values(), key=lambda x: x.get("ts") or datetime.min.replace(tzinfo=timezone.utc))
+        total = sum(int(g.get("size") or 0) for g in ordered)
+        idx = 0
+        while total > max_bytes and idx < len(ordered):
+            g = ordered[idx]
+            idx += 1
+            total -= int(g.get("size") or 0)
+            _delete_group(g)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--db", required=True, help="Path to brickovery SQLite DB")
@@ -59,6 +141,9 @@ def main() -> int:
     ap.add_argument("--reason", required=True, help="Reason for backup (semantic_delta|manual_force_rebuild|...)")
     ap.add_argument("--context-json", default="", help="Optional JSON context (semantic check/apply output)")
     ap.add_argument("--also-backup-csv", default="", help="Optional path to brickovery_db.csv to snapshot too")
+    ap.add_argument("--retain", type=int, default=0, help="Keep only the most recent N backups (0 = keep all).")
+    ap.add_argument("--retain-days", type=int, default=0, help="Delete backups older than N days (0 = keep all).")
+    ap.add_argument("--retain-size-mb", type=int, default=0, help="Keep total backup size under N MiB (0 = keep all).")
     args = ap.parse_args()
 
     db_path = Path(args.db)
@@ -207,6 +292,15 @@ def main() -> int:
     audit_lines.append("- This DB is the Brikick critical dataset; treat backups as P0 artefacts.")
 
     audit_md.write_text("\n".join(audit_lines) + "\n", encoding="utf-8")
+
+    # Retention (best-effort)
+    _prune_backups(
+        backup_dir,
+        audit_dir,
+        retain_count=int(args.retain),
+        retain_days=int(args.retain_days),
+        retain_size_mb=int(args.retain_size_mb),
+    )
 
     # Print a short JSON to stdout (helpful for debugging / step logs)
     print(json.dumps(

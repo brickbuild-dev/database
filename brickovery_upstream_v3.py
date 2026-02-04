@@ -14,9 +14,11 @@ Key behaviors (per project decisions):
 - Divergências naturais NÃO bloqueiam o pipeline (WARN não falha).
 - Se um BrickLink element_id (codes.xml) não existir no Rebrickable elements.csv:
     * regista WARN (ELEMENT_NOT_IN_REBRICKABLE_ELEMENTS)
-    * tenta obrigatoriamente BrickLink API (known colors) pelo bl_part_id
+    * tenta BrickLink API (known colors) pelo bl_part_id **apenas** quando `--allow-api`
     * insere linhas BL-only (rb_* = NULL) para não perder a peça
-- BOID é implementado por defeito (pode ser desativado com --skip-boid) e usa BrickOwl catalog/id_lookup + (fallback) catalog/lookup e catalog/bulk_lookup. Opcional: validação extra via catalog/availability.
+- BOID é resolvido por defeito (pode ser desativado com --skip-boid) **quando** `--allow-api` está ativo, usando BrickOwl catalog/id_lookup + (fallback) catalog/lookup e catalog/bulk_lookup. Opcional: validação extra via catalog/availability.
+- Offline-first: chamadas a APIs externas só quando `--allow-api` é definido.
+- Cache persistente de APIs: BrickOwl (`database/boid_cache.json`) e BrickLink (`database/bricklink_api_cache.json`).
 - Debug/robustez para GitHub Actions:
     * cria ficheiros de output logo no início (evita "No files were found" quando algo falha cedo)
     * checkpoint periódico (JSON)
@@ -43,6 +45,7 @@ import sys
 import time
 import traceback
 import xml.etree.ElementTree as ET
+from contextlib import contextmanager
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Sequence, Set, Tuple, TextIO
@@ -67,6 +70,7 @@ BRICKLINK_TOKEN_SECRET = os.getenv("BRICKLINK_TOKEN_SECRET", "").strip()
 # -----------------------------
 BRICKOWL_CATALOG_BASE_URL = "https://api.brickowl.com/v1/catalog"
 BRICKOWL_USER_BASE_URL = "https://api.brickowl.com/v1/user"
+BRICKOWL_BULK_BASE_URL = "https://api.brickowl.com/v1/bulk"
 
 # -----------------------------
 # BrickLink itemtype normalization
@@ -120,6 +124,7 @@ ITEMTYPE_TO_CANON = {
 # -----------------------------
 DB_TABLE = "brickovery_db"
 LEGACY_TABLE = "part_color_map"  # backward-compat migration
+SCHEMA_VERSION = 1
 
 
 def canon_item_type(itemtype: Optional[str]) -> str:
@@ -190,6 +195,60 @@ def append_error_log(path: Path, msg: str) -> None:
 
 def norm(s: str) -> str:
     return " ".join((s or "").strip().lower().replace("_", " ").split())
+
+
+@contextmanager
+def build_lock(lock_path: Path, *, enabled: bool) -> Iterable[None]:
+    if not enabled:
+        yield
+        return
+
+    lock_path.parent.mkdir(parents=True, exist_ok=True)
+    lock_fd = None
+    try:
+        flags = os.O_CREAT | os.O_EXCL | os.O_WRONLY
+        lock_fd = os.open(str(lock_path), flags)
+        payload = {
+            "pid": os.getpid(),
+            "ts": int(time.time()),
+            "path": str(lock_path),
+        }
+        os.write(lock_fd, json.dumps(payload, ensure_ascii=False).encode("utf-8"))
+        yield
+    finally:
+        try:
+            if lock_fd is not None:
+                os.close(lock_fd)
+        finally:
+            try:
+                if lock_path.exists():
+                    lock_path.unlink()
+            except Exception:
+                pass
+
+
+def run_integrity_check(cur: sqlite3.Cursor) -> Tuple[bool, str]:
+    try:
+        row = cur.execute("PRAGMA integrity_check").fetchone()
+        if not row:
+            return False, "integrity_check returned no rows"
+        msg = str(row[0])
+        return (msg.lower() == "ok"), msg
+    except Exception as e:
+        return False, f"{type(e).__name__}: {e}"
+
+
+def compute_commit_every_auto(codes_xml: Optional[Path], default: int) -> int:
+    if not codes_xml or not codes_xml.exists():
+        return default
+    size_mb = codes_xml.stat().st_size / (1024 * 1024)
+    if size_mb >= 120:
+        return 40000
+    if size_mb >= 60:
+        return 20000
+    if size_mb >= 20:
+        return 10000
+    return default
 
 
 def parse_int_any(v: Optional[str]) -> Optional[int]:
@@ -359,13 +418,16 @@ def apply_weights_from_csv(con, cur, weights_csv: Path, *, overwrite: bool, add_
 def fill_missing_weights_from_bricklink(
     con,
     cur,
-    oauth: OAuth1,
+    oauth: Optional[OAuth1],
     *,
     add_issue: callable,
     min_interval_s: float = 0.25,
     commit_every: int = 200,
     max_runtime_seconds: float = 0.0,
     t0: float = 0.0,
+    cache: Optional[dict] = None,
+    cache_state: Optional[dict] = None,
+    allow_api: bool = True,
 ) -> int:
     """Preenche weights em falta consultando BrickLink (GET /items/{type}/{no}).
 
@@ -377,6 +439,10 @@ def fill_missing_weights_from_bricklink(
       - Só corre para parts com weight IS NULL.
       - Respeita min_interval_s para evitar rate-limit.
     """
+    if not allow_api and not cache:
+        add_issue("WARN", "WEIGHTS_BRICKLINK_SKIPPED_NO_CACHE", "", "Offline-first sem cache; skipping BrickLink weights.")
+        return 0
+
     try:
         rows = cur.execute(
             "SELECT DISTINCT bl_part_id FROM brickovery_db WHERE weight IS NULL AND bl_part_id IS NOT NULL AND item_type='P'"
@@ -402,15 +468,24 @@ def fill_missing_weights_from_bricklink(
             add_issue('WARN', 'WEIGHTS_BRICKLINK_STOP_MAX_RUNTIME', '', f'Parado por max-runtime-seconds após {i-1} partes.')
             break
 
-        # throttle
-        dt = time.time() - last_call
-        if dt < float(min_interval_s):
-            time.sleep(float(min_interval_s) - dt)
-        last_call = time.time()
+        # throttle only when calling API
+        if allow_api:
+            dt = time.time() - last_call
+            if dt < float(min_interval_s):
+                time.sleep(float(min_interval_s) - dt)
+            last_call = time.time()
 
         w = None
         try:
-            w = bricklink_get_item_weight(str(part), oauth, item_type='P', timeout_s=30)
+            w = bricklink_get_item_weight_cached(
+                str(part),
+                oauth,
+                item_type="P",
+                timeout_s=30,
+                cache=cache,
+                cache_state=cache_state,
+                allow_api=allow_api,
+            )
         except Exception:
             w = None
 
@@ -468,6 +543,39 @@ def persist_brickowl_cache(cache_path: Path, cache: dict) -> None:
     cache_path.write_text(json.dumps(filtered, ensure_ascii=False), encoding='utf-8')
 
 
+def load_bricklink_cache(cache_path: Path) -> dict:
+    if not cache_path.exists():
+        return {"colors": {}, "weights": {}}
+    try:
+        data = json.loads(cache_path.read_text(encoding="utf-8"))
+        if not isinstance(data, dict):
+            return {"colors": {}, "weights": {}}
+        data.setdefault("colors", {})
+        data.setdefault("weights", {})
+        return data
+    except Exception:
+        return {"colors": {}, "weights": {}}
+
+
+def persist_bricklink_cache(cache_path: Path, cache: dict) -> None:
+    cache_path.parent.mkdir(parents=True, exist_ok=True)
+    cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def cache_get(cache: Optional[dict], section: str, key: str):
+    if not cache:
+        return None
+    return (cache.get(section) or {}).get(key)
+
+
+def cache_set(cache: Optional[dict], section: str, key: str, value, cache_state: Optional[dict] = None) -> None:
+    if cache is None:
+        return
+    cache.setdefault(section, {})[key] = value
+    if cache_state is not None:
+        cache_state["dirty"] = True
+
+
 # -----------------------------
 # Parsing inputs
 # -----------------------------
@@ -498,6 +606,73 @@ def iter_codes_xml(codes_xml: Path) -> Iterable[Tuple[str, str, str]]:
         if not itemid or not color_val:
             continue
         yield (itemtype or "P"), itemid, color_val
+
+
+def load_part_names(parts_xml: Path, *, add_issue=None) -> Dict[Tuple[str, str], str]:
+    """Return dict: (item_type, bl_part_id) -> part_name."""
+    out: Dict[Tuple[str, str], str] = {}
+    if not parts_xml.exists():
+        if add_issue:
+            add_issue("WARN", "PARTS_XML_MISSING", str(parts_xml), "Parts.xml not found; part_name will remain NULL.")
+        return out
+
+    ctx = ET.iterparse(str(parts_xml), events=("end",))
+    for _ev, elem in ctx:
+        if (elem.tag or "").upper() != "ITEM":
+            continue
+        item_id = (elem.findtext("ITEMID") or elem.findtext("ItemID") or "").strip()
+        item_type = canon_item_type((elem.findtext("ITEMTYPE") or elem.findtext("ItemType") or "P").strip())
+        item_name = (elem.findtext("ITEMNAME") or elem.findtext("ItemName") or "").strip()
+        elem.clear()
+        if not item_id or not item_name:
+            continue
+        out[(item_type, item_id)] = item_name
+
+    return out
+
+
+def load_element_ids(
+    codes_xml: Path,
+    bl_name_to_id: Dict[str, int],
+    *,
+    add_issue=None,
+) -> Dict[Tuple[str, str, int], str]:
+    """Return dict: (item_type, bl_part_id, bl_color_id) -> element_id (codename)."""
+    out: Dict[Tuple[str, str, int], str] = {}
+    if not codes_xml.exists():
+        if add_issue:
+            add_issue("WARN", "CODES_XML_MISSING", str(codes_xml), "codes.xml not found; element_id will remain NULL.")
+        return out
+
+    missing_color = 0
+
+    ctx = ET.iterparse(str(codes_xml), events=("end",))
+    for _ev, elem in ctx:
+        if (elem.tag or "").upper() != "ITEM":
+            continue
+        item_id = (elem.findtext("ITEMID") or elem.findtext("ItemID") or "").strip()
+        item_type = canon_item_type((elem.findtext("ITEMTYPE") or elem.findtext("ItemType") or "P").strip())
+        color_val = (elem.findtext("COLOR") or elem.findtext("Color") or "").strip()
+        codename = (elem.findtext("CODENAME") or elem.findtext("CodeName") or elem.findtext("CODE") or "").strip()
+        elem.clear()
+
+        if not item_id or not color_val or not codename:
+            continue
+
+        bl_color_id = parse_int_any(color_val)
+        if bl_color_id is None:
+            bl_color_id = bl_name_to_id.get(norm(color_val))
+
+        if bl_color_id is None:
+            missing_color += 1
+            continue
+
+        out[(item_type, item_id, int(bl_color_id))] = codename
+
+    if missing_color and add_issue:
+        add_issue("WARN", "CODES_XML_COLOR_UNRESOLVED", str(codes_xml), f"Failed to map {missing_color} color tokens to bl_color_id.")
+
+    return out
 
 
 
@@ -550,6 +725,8 @@ def ensure_all_items_present(
     items_dir: Optional[Path],
     bl_to_bo: Dict[int, int],
     bl_to_bk: Dict[int, int],
+    part_name_map: Optional[Dict[Tuple[str, str], str]] = None,
+    element_id_map: Optional[Dict[Tuple[str, str, int], str]] = None,
     add_issue,
     batch_size: int = 20000,
 ) -> int:
@@ -582,7 +759,23 @@ def ensure_all_items_present(
         if k in existing:
             continue
 
-        batch.append((str(item_id), None, None, str(item_type), int(placeholder_blc), placeholder_bo, placeholder_bk, None, None))
+        part_name = part_name_map.get((item_type, item_id)) if part_name_map else None
+        element_id = element_id_map.get((item_type, item_id, int(placeholder_blc))) if element_id_map else None
+        batch.append(
+            (
+                str(item_id),
+                None,
+                None,
+                str(item_type),
+                int(placeholder_blc),
+                placeholder_bo,
+                placeholder_bk,
+                None,
+                None,
+                part_name,
+                element_id,
+            )
+        )
         inserted += 1
 
         if len(batch) >= int(batch_size):
@@ -591,8 +784,8 @@ def ensure_all_items_present(
                 INSERT OR IGNORE INTO brickovery_db(
                   bl_part_id, boid, bk_part_id, item_type,
                   bl_color_id, bo_color_id, bk_color_id,
-                  weight, bk_img_url
-                ) VALUES (?,?,?,?,?,?,?,?,?)
+                  weight, bk_img_url, part_name, element_id
+                ) VALUES (?,?,?,?,?,?,?,?,?,?,?)
                 """,
                 batch,
             )
@@ -605,8 +798,8 @@ def ensure_all_items_present(
             INSERT OR IGNORE INTO brickovery_db(
               bl_part_id, boid, bk_part_id, item_type,
               bl_color_id, bo_color_id, bk_color_id,
-              weight, bk_img_url
-            ) VALUES (?,?,?,?,?,?,?,?,?)
+              weight, bk_img_url, part_name, element_id
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?)
             """,
             batch,
         )
@@ -617,6 +810,91 @@ def ensure_all_items_present(
         con.commit()
 
     return inserted
+
+
+def apply_part_metadata(
+    con,
+    cur,
+    *,
+    part_name_map: Optional[Dict[Tuple[str, str], str]] = None,
+    element_id_map: Optional[Dict[Tuple[str, str, int], str]] = None,
+    add_issue=None,
+    batch_size: int = 50000,
+) -> Tuple[int, int]:
+    """Backfill part_name and element_id in DB from upstream mappings."""
+    updated_names = 0
+    updated_elements = 0
+
+    if part_name_map:
+        batch: List[Tuple[str, str, str]] = []
+        for (item_type, item_id), name in part_name_map.items():
+            if not name:
+                continue
+            batch.append((name, item_type, item_id))
+            if len(batch) >= batch_size:
+                cur.executemany(
+                    """
+                    UPDATE brickovery_db
+                    SET part_name=?
+                    WHERE item_type=? AND bl_part_id=? AND (part_name IS NULL OR part_name='')
+                    """,
+                    batch,
+                )
+                con.commit()
+                updated_names += max(cur.rowcount, 0)
+                batch.clear()
+        if batch:
+            cur.executemany(
+                """
+                UPDATE brickovery_db
+                SET part_name=?
+                WHERE item_type=? AND bl_part_id=? AND (part_name IS NULL OR part_name='')
+                """,
+                batch,
+            )
+            con.commit()
+            updated_names += max(cur.rowcount, 0)
+
+    if element_id_map:
+        batch2: List[Tuple[str, str, str, int]] = []
+        for (item_type, item_id, bl_color_id), eid in element_id_map.items():
+            if not eid:
+                continue
+            batch2.append((eid, item_type, item_id, int(bl_color_id)))
+            if len(batch2) >= batch_size:
+                cur.executemany(
+                    """
+                    UPDATE brickovery_db
+                    SET element_id=?
+                    WHERE item_type=? AND bl_part_id=? AND bl_color_id=? AND (element_id IS NULL OR element_id='')
+                    """,
+                    batch2,
+                )
+                con.commit()
+                updated_elements += max(cur.rowcount, 0)
+                batch2.clear()
+        if batch2:
+            cur.executemany(
+                """
+                UPDATE brickovery_db
+                SET element_id=?
+                WHERE item_type=? AND bl_part_id=? AND bl_color_id=? AND (element_id IS NULL OR element_id='')
+                """,
+                batch2,
+            )
+            con.commit()
+            updated_elements += max(cur.rowcount, 0)
+
+    if add_issue and (part_name_map or element_id_map):
+        add_issue(
+            "INFO",
+            "PART_METADATA_APPLIED",
+            "",
+            f"part_name_updated={updated_names} element_id_updated={updated_elements}",
+        )
+        con.commit()
+
+    return updated_names, updated_elements
 def load_rb_elements(elements_csv: Path) -> Dict[str, Tuple[str, int]]:
     """Return dict: element_id(str) -> (rb_part_num(str), rb_color_id(int))."""
     out: Dict[str, Tuple[str, int]] = {}
@@ -925,9 +1203,115 @@ def bricklink_get_item_weight(bl_part_id: str, oauth: OAuth1, item_type: str = '
         return None
 
 
+def bricklink_list_item_colors_cached(
+    bl_part_id: str,
+    oauth: Optional[OAuth1],
+    *,
+    item_type: str = "P",
+    timeout_s: int = 30,
+    cache: Optional[dict] = None,
+    cache_state: Optional[dict] = None,
+    allow_api: bool = True,
+) -> List[int]:
+    key = f"{item_type}|{bl_part_id}"
+    cached = cache_get(cache, "colors", key)
+    if cached is not None:
+        try:
+            return [int(x) for x in cached]
+        except Exception:
+            return list(cached)
+
+    if not allow_api or oauth is None:
+        return []
+
+    colors = bricklink_list_item_colors(bl_part_id, oauth, item_type=item_type, timeout_s=timeout_s)
+    if isinstance(colors, list):
+        uniq = sorted(set(int(x) for x in colors if isinstance(x, (int, str))))
+        cache_set(cache, "colors", key, uniq, cache_state)
+        return uniq
+    return []
+
+
+def bricklink_get_item_weight_cached(
+    bl_part_id: str,
+    oauth: Optional[OAuth1],
+    *,
+    item_type: str = "P",
+    timeout_s: int = 30,
+    cache: Optional[dict] = None,
+    cache_state: Optional[dict] = None,
+    allow_api: bool = True,
+) -> Optional[float]:
+    key = f"{item_type}|{bl_part_id}"
+    cached = cache_get(cache, "weights", key)
+    if cached is not None:
+        try:
+            return float(cached)
+        except Exception:
+            return None
+
+    if not allow_api or oauth is None:
+        return None
+
+    w = bricklink_get_item_weight(bl_part_id, oauth, item_type=item_type, timeout_s=timeout_s)
+    if w is not None:
+        try:
+            cache_set(cache, "weights", key, float(w), cache_state)
+        except Exception:
+            pass
+    return w
+
+
 # -----------------------------
 # BrickOwl API
 # -----------------------------
+
+def _extract_boids_from_payload(obj) -> List[str]:
+    """Parse a BrickOwl id_lookup payload into a list of boid strings."""
+    def _extract_list(data_obj):
+        # BrickOwl responses can vary:
+        #  - ["123-1", "123-2"]
+        #  - {"data": [ ... ]}
+        #  - {"data": {"boids": [ ... ]}}
+        #  - {"boids": [ ... ]}
+        if isinstance(data_obj, list):
+            return data_obj
+        if isinstance(data_obj, dict):
+            # direct list fields
+            for k in ("items", "boids", "result", "results", "data"):
+                v = data_obj.get(k)
+                if isinstance(v, list):
+                    return v
+            # nested dict fields (common: data={...})
+            for k in ("data", "result", "results"):
+                v = data_obj.get(k)
+                if isinstance(v, dict):
+                    for kk in ("items", "boids", "result", "results", "data"):
+                        vv = v.get(kk)
+                        if isinstance(vv, list):
+                            return vv
+            # as a last resort, first list-valued entry
+            for v in data_obj.values():
+                if isinstance(v, list):
+                    return v
+        return []
+
+    items = _extract_list(obj)
+    boids: List[str] = []
+    if isinstance(items, list):
+        for it in items:
+            b = None
+            if isinstance(it, dict):
+                b = it.get("boid") or it.get("id") or it.get("bo_id")
+            else:
+                b = it
+            if b is None:
+                continue
+            bs = str(b).strip()
+            if not bs or bs == "0":
+                continue
+            boids.append(bs)
+    return sorted(set(boids))
 
 class BrickOwlAPI:
     """Minimal BrickOwl wrapper with throttling + cache.
@@ -1013,6 +1397,50 @@ class BrickOwlAPI:
             raise last_exc
         raise RuntimeError('BrickOwl request failed')
 
+    def _post(self, url: str, data: dict, min_interval: float) -> dict:
+        """HTTP POST with basic throttling + retries (form-encoded)."""
+        max_attempts = 5
+        base_sleep = 0.6
+        max_sleep = 8.0
+
+        last_exc = None
+        for attempt in range(1, max_attempts + 1):
+            self._sleep(min_interval)
+            self._last_call = time.time()
+            try:
+                r = requests.post(url, data=data, timeout=self.timeout_s)
+
+                # Retryable conditions
+                if r.status_code == 429 or (500 <= r.status_code <= 599):
+                    ra = r.headers.get('Retry-After')
+                    sleep_s = None
+                    if ra:
+                        try:
+                            sleep_s = float(ra)
+                        except Exception:
+                            sleep_s = None
+                    if sleep_s is None:
+                        sleep_s = min(max_sleep, base_sleep * (2 ** (attempt - 1)))
+                    time.sleep(sleep_s)
+                    continue
+
+                r.raise_for_status()
+
+                ct = (r.headers.get('content-type') or '').lower()
+                if ct.startswith('application/json'):
+                    return r.json()
+                return json.loads(r.text)
+
+            except Exception as e:
+                last_exc = e
+                if attempt >= max_attempts:
+                    raise
+                time.sleep(min(max_sleep, base_sleep * (2 ** (attempt - 1))))
+
+        if last_exc:
+            raise last_exc
+        raise RuntimeError('BrickOwl request failed')
+
     def user_details(self) -> dict:
         url = f"{BRICKOWL_USER_BASE_URL}/details"
         return self._get(url, {"key": self.api_key}, self.min_interval_s)
@@ -1045,52 +1473,7 @@ class BrickOwlAPI:
             self.min_interval_s,
         )
 
-        def _extract_list(obj):
-            # BrickOwl responses can vary:
-            #  - ["123-1", "123-2"]
-            #  - {"data": [ ... ]}
-            #  - {"data": {"boids": [ ... ]}}
-            #  - {"boids": [ ... ]}
-            if isinstance(obj, list):
-                return obj
-            if isinstance(obj, dict):
-                # direct list fields
-                for k in ("items", "boids", "result", "results", "data"):
-                    v = obj.get(k)
-                    if isinstance(v, list):
-                        return v
-                # nested dict fields (common: data={...})
-                for k in ("data", "result", "results"):
-                    v = obj.get(k)
-                    if isinstance(v, dict):
-                        for kk in ("items", "boids", "result", "results", "data"):
-                            vv = v.get(kk)
-                            if isinstance(vv, list):
-                                return vv
-                # as a last resort, first list-valued entry
-                for v in obj.values():
-                    if isinstance(v, list):
-                        return v
-            return []
-
-        items = _extract_list(data)
-
-        boids: List[str] = []
-        if isinstance(items, list):
-            for it in items:
-                b = None
-                if isinstance(it, dict):
-                    b = it.get("boid") or it.get("id") or it.get("bo_id")
-                else:
-                    b = it
-                if b is None:
-                    continue
-                bs = str(b).strip()
-                if not bs or bs == "0":
-                    continue
-                boids.append(bs)
-
-        boids = sorted(set(boids))
+        boids = _extract_boids_from_payload(data)
 
         # Cache positive results only; keep empty in-memory during this run but avoid sticky persistence.
         if boids:
@@ -1099,6 +1482,25 @@ class BrickOwlAPI:
             self.cache[cache_key] = []
 
         return boids
+
+    def bulk_batch(self, requests_list: List[dict]) -> List[dict]:
+        """POST /bulk/batch with up to 50 requests per call."""
+        if not requests_list:
+            return []
+        url = f"{BRICKOWL_BULK_BASE_URL}/batch"
+        payload = {
+            "key": self.api_key,
+            "requests": json.dumps(requests_list),
+        }
+        data = self._post(url, payload, self.bulk_min_interval_s)
+        if isinstance(data, list):
+            return data
+        if isinstance(data, dict):
+            for k in ("data", "result", "results", "responses", "requests"):
+                v = data.get(k)
+                if isinstance(v, list):
+                    return v
+        return []
 
 
     def catalog_bulk_lookup(self, boids: Sequence[str]) -> List[dict]:
@@ -1122,6 +1524,9 @@ class BrickOwlAPI:
             for it in items:
                 if isinstance(it, dict):
                     out.append(it)
+                    b = it.get("boid") or it.get("id") or it.get("bo_id")
+                    if b:
+                        self.cache[f"lookup:{str(b).strip()}"] = it
         self.cache[key] = out
         return out
 
@@ -1199,6 +1604,85 @@ class BrickOwlAPI:
 
 
 
+def _chunked(seq: List[str], size: int) -> Iterable[List[str]]:
+    if size <= 0:
+        size = 1
+    for i in range(0, len(seq), size):
+        yield seq[i:i + size]
+
+
+def _unwrap_bulk_response(resp):
+    if isinstance(resp, dict):
+        for k in ("data", "result", "response", "body"):
+            if k in resp:
+                return resp.get(k)
+    return resp
+
+
+def brickowl_id_lookup_bulk(
+    bo_api: BrickOwlAPI,
+    part_ids: List[str],
+    *,
+    item_type: str = "Part",
+    id_type: str = "bl_item_no",
+    use_bulk_batch: bool = True,
+) -> Dict[str, List[str]]:
+    """Prefetch BrickOwl id_lookup for many parts, using bulk/batch when possible."""
+    out: Dict[str, List[str]] = {}
+    pending: List[str] = []
+
+    for pid in part_ids:
+        key = f"id_lookup:{item_type}:{id_type}:{pid}"
+        cached = bo_api.cache.get(key)
+        if isinstance(cached, list) and len(cached) > 0:
+            out[pid] = [str(x) for x in cached]
+        else:
+            pending.append(pid)
+
+    if use_bulk_batch and pending:
+        for chunk in _chunked(pending, 50):  # BrickOwl bulk/batch limit
+            reqs = []
+            for pid in chunk:
+                reqs.append(
+                    {
+                        "endpoint": "catalog/id_lookup",
+                        "request_method": "GET",
+                        "params": [
+                            {"id": pid},
+                            {"type": item_type},
+                            {"id_type": id_type},
+                        ],
+                    }
+                )
+            try:
+                responses = bo_api.bulk_batch(reqs)
+            except Exception:
+                responses = []
+
+            if len(responses) != len(chunk):
+                # Fallback if response size mismatches
+                for pid in chunk:
+                    boids = bo_api.catalog_id_lookup(id_value=pid, item_type=item_type, id_type=id_type)
+                    out[pid] = boids
+                continue
+
+            for pid, resp in zip(chunk, responses):
+                payload = _unwrap_bulk_response(resp)
+                boids = _extract_boids_from_payload(payload)
+                key = f"id_lookup:{item_type}:{id_type}:{pid}"
+                bo_api.cache[key] = boids
+                if boids:
+                    out[pid] = boids
+
+    # Fallback for any remaining
+    for pid in pending:
+        if pid in out:
+            continue
+        boids = bo_api.catalog_id_lookup(id_value=pid, item_type=item_type, id_type=id_type)
+        if boids:
+            out[pid] = boids
+
+    return out
 
 def pick_boid_base(boids: List[str]) -> str:
     """Escolhe um BOID base de forma não destrutiva.
@@ -1570,7 +2054,18 @@ def resolve_boid_for_pair(
     )
     return None
 
-def init_db(db_path: Path) -> None:
+
+def resolve_boid_from_cache(cache: dict, bl_part_id: str, bo_color_id: int) -> Optional[str]:
+    """Resolve BOID strictly from cached validated entries (offline mode)."""
+    if not cache:
+        return None
+    key = f"boid_resolve:{str(bl_part_id).strip()}-{int(bo_color_id)}"
+    v = cache.get(key)
+    if v:
+        return str(v).strip()
+    return None
+
+def init_db(db_path: Path, data_version: str = "", data_version_file: str = "inputs/upstream/last_release_id.txt") -> None:
 
     db_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -1596,6 +2091,25 @@ def init_db(db_path: Path) -> None:
 
     con = sqlite3.connect(str(db_path))
     cur = con.cursor()
+
+    def set_meta(key: str, value: str) -> None:
+        cur.execute("INSERT OR REPLACE INTO meta(key, value) VALUES (?, ?)", (key, value))
+
+    data_version = (data_version or "").strip()
+    if not data_version:
+        try:
+            dv_path = Path(data_version_file)
+            if dv_path.exists():
+                data_version = dv_path.read_text(encoding="utf-8").strip()
+        except Exception:
+            data_version = ""
+    if not data_version:
+        data_version = "unknown"
+    try:
+        set_meta("data_version", data_version)
+        con.commit()
+    except Exception:
+        pass
 
     # Backward-compat: if an old DB still uses the legacy table name, migrate it in-place.
     try:
@@ -1626,6 +2140,8 @@ def init_db(db_path: Path) -> None:
         "bk_color_id",
         "weight",
         "bk_img_url",
+        "part_name",
+        "element_id",
     }
 
     def _create_schema() -> None:
@@ -1644,6 +2160,8 @@ def init_db(db_path: Path) -> None:
               bk_color_id INTEGER,
               weight REAL,
               bk_img_url TEXT,
+              part_name TEXT,
+              element_id TEXT,
               PRIMARY KEY (bl_part_id, item_type, bl_color_id)
             )
             """
@@ -1675,6 +2193,8 @@ def init_db(db_path: Path) -> None:
         api_item_type_expr = _expr("api_item_type", "NULL")
         bk_part_key_expr = _expr("bk_part_key", "NULL")
         bk_img_url_expr = _expr("bk_img_url", "NULL")
+        part_name_expr = _expr("part_name", "NULL")
+        element_id_expr = _expr("element_id", "NULL")
         bk_color_id_expr = _expr("bk_color_id", "NULL")
 
         # Best-effort for weight legacy column
@@ -1695,7 +2215,7 @@ def init_db(db_path: Path) -> None:
               bl_part_id, boid, bk_part_id, item_type,
               brikick_name, api_item_type, bk_part_key,
               bl_color_id, bo_color_id, bk_color_id,
-              weight, bk_img_url
+              weight, bk_img_url, part_name, element_id
             )
             SELECT
               bl_part_id,
@@ -1709,7 +2229,9 @@ def init_db(db_path: Path) -> None:
               {bo_color_expr} AS bo_color_id,
               {bk_color_id_expr} AS bk_color_id,
               {weight_expr} AS weight,
-              {bk_img_url_expr} AS bk_img_url
+              {bk_img_url_expr} AS bk_img_url,
+              {part_name_expr} AS part_name,
+              {element_id_expr} AS element_id
             FROM {DB_TABLE}_old
             """
         )
@@ -1743,8 +2265,28 @@ def init_db(db_path: Path) -> None:
         """
     )
 
+    cur.execute(
+        """
+        CREATE TABLE IF NOT EXISTS meta (
+          key TEXT PRIMARY KEY,
+          value TEXT NOT NULL
+        ) WITHOUT ROWID
+        """
+    )
+    cur.execute(
+        "INSERT OR REPLACE INTO meta(key, value) VALUES (?, ?)",
+        ("schema_version", str(SCHEMA_VERSION)),
+    )
+
     con.commit()
     con.close()
+
+
+def create_post_build_indexes(cur: sqlite3.Cursor) -> None:
+    """Create non-PK indexes after bulk load (performance)."""
+    cur.execute("CREATE INDEX IF NOT EXISTS idx_brickovery_bk_part_id ON brickovery_db(bk_part_id)")
+    cur.execute("CREATE INDEX IF NOT EXISTS idx_brickovery_bk_part_key ON brickovery_db(bk_part_key)")
+    cur.execute("CREATE INDEX IF NOT EXISTS idx_brickovery_boid ON brickovery_db(boid)")
 
 
 # -----------------------------
@@ -1808,6 +2350,8 @@ def main() -> int:
     ap.add_argument("--bl-colors-xml", help="BrickStore/BrickLink colors.xml (from upstream .zip)")
     ap.add_argument("--items-dir", help="Directory containing upstream items/*.xml (from upstream .zip) to ensure all item IDs exist in DB (placeholder bl_color_id=0).")
     ap.add_argument("--color-map", help="Color map CSV (recommended: your colors_seed.csv) with bl_color_id -> bo_color_id/bk_color_id")
+    ap.add_argument("--bl-parts-xml", default="inputs/bricklink/Parts.xml", help="BrickLink Parts.xml (from upstream .zip) for part_name.")
+    ap.add_argument("--bl-element-codes-xml", default="inputs/bricklink/codes.xml", help="BrickLink codes.xml (from upstream .zip) for element_id (codename).")
 
     # Outputs / DB (sempre necessários)
     ap.add_argument("--db", required=True)
@@ -1821,13 +2365,32 @@ def main() -> int:
 
     ap.add_argument("--strict", action="store_true", help="Falha apenas se existirem ERROR (WARN não falha).")
     ap.add_argument("--debug-apis", action="store_true")
+    ap.add_argument("--allow-api", action="store_true", help="Permite chamadas a APIs externas (offline-first por defeito).")
+    ap.add_argument("--bl-cache-json", default="database/bricklink_api_cache.json", help="Cache persistente BrickLink (JSON).")
+    ap.add_argument("--no-api-cache", action="store_true", help="Desativa uso de cache de APIs.")
+
+    ap.add_argument(
+        "--data-version",
+        default="",
+        help="Data version (ex.: upstream_release_id). Se vazio, tenta ler de --data-version-file.",
+    )
+    ap.add_argument(
+        "--data-version-file",
+        default="inputs/upstream/last_release_id.txt",
+        help="Path para ficheiro com data_version (fallback).",
+    )
 
     # Build tuning
     ap.add_argument("--progress-every", type=int, default=50000)
     ap.add_argument("--commit-every", type=int, default=5000)
+    ap.add_argument("--commit-every-auto", action="store_true", help="Ajusta commit-every automaticamente com base no tamanho do upstream.")
     ap.add_argument("--checkpoint", default="data/build_checkpoint.json")
     ap.add_argument("--max-items", type=int, default=0, help="DEBUG: processa no máximo N ITEMS (0 = sem limite).")
     ap.add_argument("--max-runtime-seconds", type=int, default=0, help="Se definido, termina de forma limpa após este tempo (evita timeout).")
+    ap.add_argument("--no-atomic-swap", action="store_true", help="Desativa swap atómico (default: ativo em mode build/all).")
+    ap.add_argument("--no-lock", action="store_true", help="Desativa lock de build.")
+    ap.add_argument("--lock-path", default="", help="Path do lock file (default: <db_dir>/.build.lock).")
+    ap.add_argument("--skip-integrity-check", action="store_true", help="Ignora PRAGMA integrity_check (não recomendado).")
 
     # BOID tuning
     # BOID é resolvido por defeito. Use --skip-boid para desativar quando precisares de uma execução rápida.
@@ -1839,6 +2402,7 @@ def main() -> int:
     ap.add_argument("--boid-bulk-min-interval", type=float, default=0.65)
     ap.add_argument("--boid-timeout", type=int, default=30)
     ap.add_argument("--boid-commit-every", type=int, default=200, help="Commit/flush do progresso BOID a cada N pares.")
+    ap.add_argument("--boid-commit-every-auto", action="store_true", help="Ajusta boid-commit-every automaticamente pelo nº de pares.")
 
     ap.add_argument("--boid-country", default="PT", help="ISO2 do país destino para /catalog/availability (ex: PT).")
     ap.add_argument("--boid-validate-availability", action="store_true", help="Valida BOID também via /catalog/availability (mais lento).")
@@ -1856,17 +2420,61 @@ def main() -> int:
 
     t0 = now_s()
 
+    # Lock (avoid parallel writers)
+    lock_path = Path(args.lock_path) if args.lock_path else Path(args.db).resolve().parent / ".build.lock"
+    lock_ctx = build_lock(lock_path, enabled=(not args.no_lock))
+    lock_ctx_entered = False
+    try:
+        lock_ctx.__enter__()
+        lock_ctx_entered = True
+    except FileExistsError:
+        print(f"::error::Build lock exists: {lock_path}")
+        return 2
+
     # Paths
     codes_xml = Path(args.bl_codes_xml) if args.bl_codes_xml else None
     items_dir = Path(args.items_dir) if getattr(args, 'items_dir', None) else None
     color_map_csv = Path(args.color_map) if args.color_map else None
+    if color_map_csv is None:
+        default_color_map = Path("inputs/colors_seed.csv")
+        if default_color_map.exists():
+            color_map_csv = default_color_map
 
-    db_path = Path(args.db)
-    out_csv = Path(args.out_csv)
-    issues_csv = Path(args.issues)
+    db_path_final = Path(args.db)
+    out_csv_final = Path(args.out_csv)
+    issues_csv_final = Path(args.issues)
+    checkpoint_path_final = Path(args.checkpoint)
+    error_log_final = out_csv_final.parent / "brickovery_build_error.log"
 
-    checkpoint_path = Path(args.checkpoint)
-    error_log_path = out_csv.parent / "brickovery_build_error.log"
+    atomic_swap = (mode in ("all", "build")) and (not args.no_atomic_swap)
+
+    db_path = db_path_final
+    out_csv = out_csv_final
+    issues_csv = issues_csv_final
+    checkpoint_path = checkpoint_path_final
+    error_log_path = error_log_final
+
+    temp_paths: List[Path] = []
+
+    if atomic_swap:
+        db_path = db_path_final.with_name(db_path_final.name + f".tmp.{os.getpid()}")
+        out_csv = out_csv_final.with_suffix(out_csv_final.suffix + ".tmp")
+        issues_csv = issues_csv_final.with_suffix(issues_csv_final.suffix + ".tmp")
+        checkpoint_path = checkpoint_path_final.with_suffix(checkpoint_path_final.suffix + ".tmp")
+        error_log_path = error_log_final.with_name(error_log_final.name + ".tmp")
+        temp_paths = [db_path, out_csv, issues_csv, checkpoint_path, error_log_path]
+
+        for p in temp_paths:
+            try:
+                if p.exists():
+                    p.unlink()
+            except Exception:
+                pass
+
+    use_api_cache = not args.no_api_cache
+    bl_cache_path = Path(args.bl_cache_json)
+    bl_cache_state = {"dirty": False}
+    bl_cache = load_bricklink_cache(bl_cache_path) if use_api_cache else None
 
     # register globals for signal handler
     global _STOP_CHECKPOINT_PATH, _STOP_ERROR_LOG_PATH
@@ -1877,28 +2485,49 @@ def main() -> int:
     signal.signal(signal.SIGINT, _sig_handler)
 
     # Ensure output files exist early
-    init_db(db_path)
-    touch_with_header_csv(
-        out_csv,
-        [
-            "bl_part_id",
-            "boid",
-            "bk_part_id",
-            "item_type",
-            "bl_color_id",
-            "bo_color_id",
-            "bk_color_id",
-            "weight",
-            "bk_img_url",
-        ],
-    )
-    touch_with_header_csv(issues_csv, ["severity", "issue_type", "key", "details"])
-    if not error_log_path.exists():
-        error_log_path.write_text("", encoding="utf-8")
+    try:
+        init_db(db_path, data_version=args.data_version, data_version_file=args.data_version_file)
+        touch_with_header_csv(
+            out_csv,
+            [
+                "bl_part_id",
+                "boid",
+                "bk_part_id",
+                "item_type",
+                "brikick_name",
+                "api_item_type",
+                "bk_part_key",
+                "bl_color_id",
+                "bo_color_id",
+                "bk_color_id",
+                "weight",
+                "bk_img_url",
+                "part_name",
+                "element_id",
+            ],
+        )
+        touch_with_header_csv(issues_csv, ["severity", "issue_type", "key", "details"])
+        if not error_log_path.exists():
+            error_log_path.write_text("", encoding="utf-8")
 
-    # Open DB
-    con = sqlite3.connect(str(db_path))
-    cur = con.cursor()
+        # Open DB
+        con = sqlite3.connect(str(db_path))
+        cur = con.cursor()
+    except Exception as e:
+        print(f"::error::Failed to initialize build: {type(e).__name__}: {e}")
+        if atomic_swap:
+            for p in temp_paths:
+                try:
+                    if p.exists():
+                        p.unlink()
+                except Exception:
+                    pass
+        if lock_ctx_entered:
+            try:
+                lock_ctx.__exit__(None, None, None)
+            except Exception:
+                pass
+        return 1
 
     def add_issue(sev: str, typ: str, key: str, details: str) -> None:
         cur.execute(
@@ -1924,6 +2553,12 @@ def main() -> int:
     color_map = None
     bl_to_bo = {}
     bl_to_bk = {}
+    bl_name_to_id: Dict[str, int] = {}
+    part_name_map: Dict[Tuple[str, str], str] = {}
+    element_id_map: Dict[Tuple[str, str, int], str] = {}
+
+    success = False
+    return_code = 1
 
     try:
         if mode in ("all", "build"):
@@ -1937,6 +2572,11 @@ def main() -> int:
             if not Path(items_dir).exists():
                 raise FileNotFoundError(f"--items-dir não encontrado: {items_dir}")
             require_file(color_map_csv, "--color-map")
+
+        commit_every_build = int(args.commit_every)
+        if args.commit_every_auto:
+            commit_every_build = compute_commit_every_auto(codes_xml, commit_every_build)
+            print(f"[BUILD] commit_every auto -> {commit_every_build}")
 
         # color-map é altamente recomendado no boid mode; se faltar, continuamos usando bo_color_id da DB
         res = None
@@ -1968,8 +2608,51 @@ def main() -> int:
                 add_issue("WARN", "COLOR_MAP_MISSING", "", "--color-map não fornecido; fixups BL->BO/BK não serão aplicados.")
                 con.commit()
 
+        if color_map_csv and color_map_csv.exists():
+            try:
+                bl_name_to_id, name_map_issues = load_bl_name_to_id_from_csv(color_map_csv)
+                for sev, typ, key, details in name_map_issues:
+                    add_issue(sev, typ, key, details)
+                con.commit()
+            except Exception as e:
+                add_issue("WARN", "COLOR_MAP_NAME_INDEX_FAILED", str(color_map_csv), f"{type(e).__name__}: {e}")
+                con.commit()
+
+        parts_xml = Path(args.bl_parts_xml) if args.bl_parts_xml else None
+        element_codes_xml = Path(args.bl_element_codes_xml) if args.bl_element_codes_xml else None
+
+        if parts_xml and parts_xml.exists():
+            part_name_map = load_part_names(parts_xml, add_issue=add_issue)
+            add_issue("INFO", "PART_NAMES_LOADED", str(parts_xml), f"Loaded {len(part_name_map)} part names.")
+            con.commit()
+        else:
+            if mode in ("all", "build"):
+                add_issue("WARN", "PARTS_XML_MISSING", str(parts_xml) if parts_xml else "", "Parts.xml não encontrado; part_name ficará NULL.")
+                con.commit()
+
+        if element_codes_xml and element_codes_xml.exists():
+            if bl_name_to_id:
+                element_id_map = load_element_ids(element_codes_xml, bl_name_to_id, add_issue=add_issue)
+                add_issue("INFO", "ELEMENT_IDS_LOADED", str(element_codes_xml), f"Loaded {len(element_id_map)} element_ids.")
+                con.commit()
+            else:
+                add_issue(
+                    "WARN",
+                    "ELEMENT_IDS_SKIPPED_NO_COLOR_MAP",
+                    str(element_codes_xml),
+                    "colors_seed.csv não carregado; element_id não será resolvido.",
+                )
+                con.commit()
+        else:
+            if mode in ("all", "build"):
+                add_issue("WARN", "CODES_XML_MISSING", str(element_codes_xml) if element_codes_xml else "", "codes.xml não encontrado; element_id ficará NULL.")
+                con.commit()
+
         if args.debug_apis:
-            api_selftests(add_issue)
+            if not args.allow_api:
+                add_issue("WARN", "API_SELFTEST_SKIPPED_OFFLINE", "", "debug_apis ativo, mas --allow-api não foi definido (offline-first).")
+            else:
+                api_selftests(add_issue)
             con.commit()
 
         processed = 0
@@ -1990,9 +2673,6 @@ def main() -> int:
             print("[LOAD] inputs...")
             print(f"  part_color_codes.xml: {codes_xml} ({codes_xml.stat().st_size/1024/1024:,.1f} MiB)")
             print(f"  color_map.csv: {color_map_csv} ({color_map_csv.stat().st_size/1024/1024:,.1f} MiB)")
-            bl_name_to_id, name_map_issues = load_bl_name_to_id_from_csv(color_map_csv)
-            for sev,typ,key,details in name_map_issues:
-                add_issue(sev, typ, key, details)
             oauth = bricklink_oauth_from_env()
             bl_colors_cache: Dict[str, List[int]] = {}
             fallback_done_items: Set[Tuple[str, str]] = set()
@@ -2006,6 +2686,8 @@ def main() -> int:
                     add_issue("WARN", "STOP_SIGNAL", "", f"Stop requested ({_STOP_REASON}).")
                     break
                 processed += 1
+
+                part_name = part_name_map.get((canon_item_type(itemtype), bl_part_id)) if part_name_map else None
 
                 if args.max_items and processed > args.max_items:
                     add_issue("WARN", "DEBUG_MAX_ITEMS", "", f"Paragem por --max-items={args.max_items}.")
@@ -2027,10 +2709,17 @@ def main() -> int:
                     add_issue("WARN", "UNKNOWN_BL_COLOR_TOKEN", f"{bl_part_id}|{color_val}", f"Não foi possível resolver COLOR='{color_val}' via color-map CSV (name->id). Verificar/ajustar colors_seed.csv; fallback BrickLink colors API (se configurada).")
 
                     # Optional fallback: ask BrickLink for colors for this part (once per part)
-                    if oauth and (item_type, bl_part_id) not in fallback_done_items:
+                    if (item_type, bl_part_id) not in fallback_done_items:
                         fallback_done_items.add((item_type, bl_part_id))
                         try:
-                            colors = bricklink_list_item_colors(bl_part_id, oauth, item_type=item_type)
+                            colors = bricklink_list_item_colors_cached(
+                                bl_part_id,
+                                oauth,
+                                item_type=item_type,
+                                cache=bl_cache,
+                                cache_state=bl_cache_state,
+                                allow_api=bool(args.allow_api),
+                            )
                             if colors:
                                 fallback_parts += 1
                                 for blc in colors:
@@ -2038,7 +2727,10 @@ def main() -> int:
                                         continue
                                     bo_c = bl_to_bo.get(blc)
                                     bk_c = bl_to_bk.get(blc)
-                                    batch_rows.append((bl_part_id, None, None, item_type, int(blc), bo_c, bk_c, None, None))
+                                    element_id = element_id_map.get((item_type, bl_part_id, int(blc))) if element_id_map else None
+                                    batch_rows.append(
+                                        (bl_part_id, None, None, item_type, int(blc), bo_c, bk_c, None, None, part_name, element_id)
+                                    )
                                     inserted += 1
                         except Exception as e:
                             add_issue("WARN", "BRICKLINK_COLORS_FALLBACK_FAILED", bl_part_id, f"{type(e).__name__}: {e}")
@@ -2058,18 +2750,21 @@ def main() -> int:
                 if bo_c is None:
                     missing_color_map += 1
 
-                batch_rows.append((bl_part_id, None, None, item_type, int(bl_color_id), bo_c, bk_c, None, None))
+                element_id = element_id_map.get((item_type, bl_part_id, int(bl_color_id))) if element_id_map else None
+                batch_rows.append(
+                    (bl_part_id, None, None, item_type, int(bl_color_id), bo_c, bk_c, None, None, part_name, element_id)
+                )
                 inserted += 1
 
                 # flush batch
-                if len(batch_rows) >= int(args.commit_every):
+                if len(batch_rows) >= int(commit_every_build):
                     cur.executemany(
                         """
                         INSERT OR REPLACE INTO brickovery_db(
                           bl_part_id, boid, bk_part_id, item_type,
                           bl_color_id, bo_color_id, bk_color_id,
-                          weight, bk_img_url
-                        ) VALUES (?,?,?,?,?,?,?,?,?)
+                          weight, bk_img_url, part_name, element_id
+                        ) VALUES (?,?,?,?,?,?,?,?,?,?,?)
                         """,
                         batch_rows,
                     )
@@ -2101,8 +2796,8 @@ def main() -> int:
                     INSERT OR REPLACE INTO brickovery_db(
                           bl_part_id, boid, bk_part_id, item_type,
                           bl_color_id, bo_color_id, bk_color_id,
-                          weight, bk_img_url
-                        ) VALUES (?,?,?,?,?,?,?,?,?)
+                          weight, bk_img_url, part_name, element_id
+                        ) VALUES (?,?,?,?,?,?,?,?,?,?,?)
                     """,
                     batch_rows,
                 )
@@ -2118,6 +2813,8 @@ def main() -> int:
                     items_dir=items_dir,
                     bl_to_bo=bl_to_bo,
                     bl_to_bk=bl_to_bk,
+                    part_name_map=part_name_map,
+                    element_id_map=element_id_map,
                     add_issue=add_issue,
                 )
             except Exception as e:
@@ -2137,6 +2834,22 @@ def main() -> int:
                     "stop_reason": _STOP_REASON,
                 },
             )
+
+        # -----------------
+        # Part metadata (part_name + element_id)
+        # -----------------
+        if mode in ("all", "build", "boid", "export"):
+            try:
+                apply_part_metadata(
+                    con,
+                    cur,
+                    part_name_map=part_name_map,
+                    element_id_map=element_id_map,
+                    add_issue=add_issue,
+                )
+            except Exception as e:
+                add_issue("WARN", "PART_METADATA_APPLY_FAILED", "", f"{type(e).__name__}: {e}")
+                con.commit()
         # -----------------
         # WEIGHTS (apply from inputs/bricklink/parts_weight.csv by default)
         # -----------------
@@ -2161,23 +2874,47 @@ def main() -> int:
                         missing_after_csv = None
 
                     if missing_after_csv is not None and int(missing_after_csv) > 0:
-                        oauth_w = bricklink_oauth_from_env()
-                        if oauth_w is None:
-                            add_issue("WARN", "WEIGHTS_BRICKLINK_OAUTH_MISSING", "", "BrickLink OAuth não configurado; weights em falta permanecerão NULL.")
-                            con.commit()
+                        if not args.allow_api:
+                            # Offline-first: allow cached weights if available
+                            if use_api_cache and bl_cache and (bl_cache.get("weights") or {}):
+                                fill_missing_weights_from_bricklink(
+                                    con,
+                                    cur,
+                                    None,
+                                    add_issue=add_issue,
+                                    min_interval_s=0.0,
+                                    commit_every=200,
+                                    max_runtime_seconds=float(args.max_runtime_seconds or 0),
+                                    t0=float(t0),
+                                    cache=bl_cache,
+                                    cache_state=bl_cache_state,
+                                    allow_api=False,
+                                )
+                                con.commit()
+                            else:
+                                add_issue("WARN", "WEIGHTS_BRICKLINK_SKIPPED_OFFLINE", "", "Offline-first: BrickLink API desativada; weights em falta permanecerão NULL.")
+                                con.commit()
                         else:
-                            print(f"[WEIGHT] BrickLink fallback: missing_after_csv={missing_after_csv}")
-                            fill_missing_weights_from_bricklink(
-                                con,
-                                cur,
-                                oauth_w,
-                                add_issue=add_issue,
-                                min_interval_s=0.25,
-                                commit_every=200,
-                                max_runtime_seconds=float(args.max_runtime_seconds or 0),
-                                t0=float(t0),
-                            )
-                            con.commit()
+                            oauth_w = bricklink_oauth_from_env()
+                            if oauth_w is None:
+                                add_issue("WARN", "WEIGHTS_BRICKLINK_OAUTH_MISSING", "", "BrickLink OAuth não configurado; weights em falta permanecerão NULL.")
+                                con.commit()
+                            else:
+                                print(f"[WEIGHT] BrickLink fallback: missing_after_csv={missing_after_csv}")
+                                fill_missing_weights_from_bricklink(
+                                    con,
+                                    cur,
+                                    oauth_w,
+                                    add_issue=add_issue,
+                                    min_interval_s=0.25,
+                                    commit_every=200,
+                                    max_runtime_seconds=float(args.max_runtime_seconds or 0),
+                                    t0=float(t0),
+                                    cache=bl_cache,
+                                    cache_state=bl_cache_state,
+                                    allow_api=True,
+                                )
+                                con.commit()
                 else:
                     print("[WEIGHT] skip (weight já preenchido)")
             except Exception as e:
@@ -2199,6 +2936,78 @@ def main() -> int:
                     f"A saltar BOID resolve porque já excedeu --max-runtime-seconds={args.max_runtime_seconds}.",
                 )
                 con.commit()
+            elif not args.allow_api:
+                cache_path = Path(args.boid_cache_json)
+                cache = {}
+                if cache_path.exists():
+                    try:
+                        cache = json.loads(cache_path.read_text(encoding="utf-8"))
+                    except Exception:
+                        cache = {}
+
+                if not cache:
+                    add_issue("WARN", "BRICKOWL_BOID_OFFLINE_CACHE_EMPTY", "", "Offline-first: cache BrickOwl vazio; BOID não preenchido.")
+                    con.commit()
+                else:
+                    rows_pairs = cur.execute(
+                        """
+                        SELECT DISTINCT bl_part_id, bl_color_id, bo_color_id
+                        FROM brickovery_db
+                        WHERE (boid IS NULL OR boid = '') AND item_type='P'
+                        """
+                    ).fetchall()
+
+                    if args.boid_max_pairs and int(args.boid_max_pairs) > 0:
+                        rows_pairs = rows_pairs[: int(args.boid_max_pairs)]
+
+                    updated = 0
+                    commit_every = 500
+                    for idx, (bl_part_id, bl_color_id, bo_color_id_db) in enumerate(rows_pairs, start=1):
+                        if _STOP:
+                            add_issue("WARN", "STOP_SIGNAL", "", f"Stop requested ({_STOP_REASON}) durante boid cache offline.")
+                            break
+
+                        # Prefer mapping BL->BO at resolve time (authoritative). If missing, fall back to DB.
+                        blc = None
+                        try:
+                            blc = int(bl_color_id) if bl_color_id is not None else None
+                        except Exception:
+                            blc = None
+
+                        bo_color_id_eff = None
+                        if blc is not None and bl_to_bo:
+                            mapped = bl_to_bo.get(blc)
+                            if mapped is not None:
+                                bo_color_id_eff = int(mapped)
+                        if bo_color_id_eff is None and bo_color_id_db is not None:
+                            try:
+                                bo_color_id_eff = int(bo_color_id_db)
+                            except Exception:
+                                bo_color_id_eff = None
+
+                        if bo_color_id_eff is None:
+                            continue
+
+                        boid = resolve_boid_from_cache(cache, str(bl_part_id), int(bo_color_id_eff))
+                        if boid:
+                            if blc is not None:
+                                cur.execute(
+                                    "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bl_color_id=? AND item_type='P'",
+                                    (str(boid), int(bo_color_id_eff), str(bl_part_id), int(blc)),
+                                )
+                            else:
+                                cur.execute(
+                                    "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bo_color_id=? AND (bl_color_id IS NULL) AND item_type='P'",
+                                    (str(boid), int(bo_color_id_eff), str(bl_part_id), int(bo_color_id_eff)),
+                                )
+                            updated += 1
+
+                        if idx % commit_every == 0:
+                            con.commit()
+
+                    con.commit()
+                    add_issue("INFO", "BRICKOWL_BOID_OFFLINE_CACHE_USED", "", f"BOID offline cache preenchido. Updated_pairs={updated}/{len(rows_pairs)}.")
+                    con.commit()
             elif not BRICKOWL_API_KEY:
                 add_issue("WARN", "BRICKOWL_API_UNAVAILABLE", "", "BRICKOWL_API_KEY não definido; a coluna boid ficará vazia.")
                 con.commit()
@@ -2236,6 +3045,38 @@ def main() -> int:
 
                 updated = 0
                 commit_every = max(1, int(args.boid_commit_every))
+                if args.boid_commit_every_auto:
+                    if total_pairs >= 200000:
+                        commit_every = 500
+                    elif total_pairs >= 50000:
+                        commit_every = 200
+                    else:
+                        commit_every = 100
+                    print(f"[BOID] commit_every auto -> {commit_every}")
+
+                # Prefetch id_lookup in bulk (reduces API overhead) and seed lookup cache via bulk_lookup
+                try:
+                    unique_parts = sorted({str(bl_part_id) for (bl_part_id, _blc, _boc) in rows_pairs})
+                    if unique_parts:
+                        boid_candidates = brickowl_id_lookup_bulk(bo_api, unique_parts, use_bulk_batch=True)
+                        all_boids = sorted({b for lst in boid_candidates.values() for b in lst})
+                        if all_boids:
+                            for chunk in _chunked(all_boids, 100):
+                                try:
+                                    bo_api.catalog_bulk_lookup(chunk)
+                                except Exception:
+                                    # fallback: ignore bulk prefetch errors; per-pair lookup will still work
+                                    break
+                        add_issue(
+                            "INFO",
+                            "BRICKOWL_PREFETCH_DONE",
+                            "",
+                            f"Prefetch id_lookup parts={len(unique_parts)} boids={len(all_boids)}",
+                        )
+                        con.commit()
+                except Exception as e:
+                    add_issue("WARN", "BRICKOWL_PREFETCH_FAILED", "", f"{type(e).__name__}: {e}")
+                    con.commit()
 
                 for idx, (bl_part_id, bl_color_id, bo_color_id_db) in enumerate(rows_pairs, start=1):
                     if _STOP:
@@ -2343,16 +3184,27 @@ def main() -> int:
                 con.commit()
 
         # -----------------
+        # Post-build indexes (after bulk load / boid / weights)
+        # -----------------
+        if mode in ("all", "build", "boid", "export"):
+            try:
+                create_post_build_indexes(cur)
+                con.commit()
+            except Exception as e:
+                add_issue("WARN", "INDEX_CREATE_FAILED", "", f"{type(e).__name__}: {e}")
+                con.commit()
+
+        # -----------------
         # Export CSVs
         # -----------------
         if mode in ("all", "build", "boid", "export"):
             print(f"[EXPORT] {out_csv.name}...")
             with out_csv.open("w", newline="", encoding="utf-8") as f:
                 w = csv.writer(f)
-                w.writerow(["bl_part_id", "boid", "bk_part_id", "item_type", "brikick_name", "api_item_type", "bk_part_key", "bl_color_id", "bo_color_id", "bk_color_id", "weight", "bk_img_url"])
+                w.writerow(["bl_part_id", "boid", "bk_part_id", "item_type", "brikick_name", "api_item_type", "bk_part_key", "bl_color_id", "bo_color_id", "bk_color_id", "weight", "bk_img_url", "part_name", "element_id"])
                 for row in cur.execute(
                     """
-                    SELECT bl_part_id, boid, bk_part_id, item_type, brikick_name, api_item_type, bk_part_key, bl_color_id, bo_color_id, bk_color_id, weight, bk_img_url
+                    SELECT bl_part_id, boid, bk_part_id, item_type, brikick_name, api_item_type, bk_part_key, bl_color_id, bo_color_id, bk_color_id, weight, bk_img_url, part_name, element_id
                     FROM brickovery_db
                     ORDER BY item_type, bl_part_id, bl_color_id
                     """
@@ -2373,7 +3225,7 @@ def main() -> int:
         n_warn = cur.execute("SELECT COUNT(1) FROM build_issues WHERE severity='WARN' AND ts>=?", (run_ts,)).fetchone()[0]
         n_rows = cur.execute("SELECT COUNT(1) FROM brickovery_db").fetchone()[0]
         elapsed = now_s() - t0
-        print(f"✅ mode={mode} | DB rows={n_rows:,} | issues ERR={n_err} WARN={n_warn} | elapsed={elapsed:,.1f}s")
+        print(f"[OK] mode={mode} | DB rows={n_rows:,} | issues ERR={n_err} WARN={n_warn} | elapsed={elapsed:,.1f}s")
 
         checkpoint(
             "done",
@@ -2388,9 +3240,20 @@ def main() -> int:
             },
         )
 
-        if args.strict and n_err:
-            return 2
-        return 0
+        integrity_ok = True
+        if not args.skip_integrity_check:
+            integrity_ok, msg = run_integrity_check(cur)
+            if not integrity_ok:
+                add_issue("ERROR", "INTEGRITY_CHECK_FAILED", "", msg)
+                con.commit()
+                print(f"::error::Integrity check failed: {msg}")
+
+        if integrity_ok and (not args.strict or n_err == 0):
+            return_code = 0
+            success = True
+        else:
+            return_code = 2
+            success = False
 
     except Exception as e:
         tb = traceback.format_exc()
@@ -2401,7 +3264,8 @@ def main() -> int:
         except Exception:
             pass
         checkpoint("crash", {"mode": mode, "error": str(e)})
-        return 1
+        return_code = 1
+        success = False
 
     finally:
         try:
@@ -2409,6 +3273,46 @@ def main() -> int:
             con.close()
         except Exception:
             pass
+
+        if use_api_cache and bl_cache_state.get("dirty"):
+            try:
+                persist_bricklink_cache(bl_cache_path, bl_cache or {})
+            except Exception:
+                pass
+
+        # Atomic swap of DB + outputs only after full success (build/all only)
+        if atomic_swap and success:
+            try:
+                os.replace(db_path, db_path_final)
+                if out_csv.exists():
+                    os.replace(out_csv, out_csv_final)
+                if issues_csv.exists():
+                    os.replace(issues_csv, issues_csv_final)
+                if checkpoint_path.exists():
+                    os.replace(checkpoint_path, checkpoint_path_final)
+                if error_log_path.exists():
+                    os.replace(error_log_path, error_log_final)
+            except Exception as e:
+                print(f"::error::Atomic swap failed: {type(e).__name__}: {e}")
+                return_code = 2
+                success = False
+
+        # Cleanup temp files on failure
+        if atomic_swap and (not success):
+            for p in temp_paths:
+                try:
+                    if p.exists():
+                        p.unlink()
+                except Exception:
+                    pass
+
+        if lock_ctx_entered:
+            try:
+                lock_ctx.__exit__(None, None, None)
+            except Exception:
+                pass
+
+    return return_code
 
 
 if __name__ == "__main__":
