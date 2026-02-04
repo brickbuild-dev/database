@@ -6,6 +6,11 @@ on:
     - cron: "00 00 * * *"
   workflow_dispatch:
     inputs:
+      force_rebuild:
+        description: "Se true, força rebuild completo da DB (ignora semantic delta)."
+        required: false
+        default: false
+        type: boolean
       resume_until_done:
         description: "Se true, limita runtime (~5h30) e auto-repete a run até terminar."
         required: false
@@ -102,7 +107,7 @@ jobs:
       - name: "Semantic gate (CHECK ONLY: compare ZIP vs DB + colors_seed)"
         id: gates
         env:
-          FORCE_REBUILD: "false"
+          FORCE_REBUILD: ${{ github.event.inputs.force_rebuild || 'false' }}
           PYTHONPATH: ${{ github.workspace }}/database
         run: |
           set -euo pipefail
