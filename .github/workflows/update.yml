@@ -515,7 +515,7 @@ jobs:
                 "WHERE item_type='P' AND weight IS NULL"
             )
             missing_weight = int(cur.fetchone()[0] or 0)
-  
+
             run_boid_weights = os.environ.get("RUN_BOID_WEIGHTS", "true").strip().lower() == "true"
             if not run_boid_weights:
                 missing_boid = 0
