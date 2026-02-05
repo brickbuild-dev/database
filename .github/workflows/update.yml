@@ -639,27 +639,32 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Stage only generated artifacts
-          git add \
-            database/audit/brickovery_db \
-            database/backups/brickovery_db \
-            database/artifacts \
-            database/bl_to_bk_mapping.csv \
-            database/bk_part_key.csv \
-            database/boid_cache.json \
-            database/bricklink_api_cache.json \
-            inputs/upstream/brickstore-database.zip \
-            inputs/upstream/last_payload_sha256.txt \
-            inputs/upstream/last_release_id.txt \
-            inputs/upstream/resume_state.json \
-            inputs/bricklink/part_color_codes.xml \
-            inputs/bricklink/Parts.xml \
-            inputs/bricklink/codes.xml \
-            inputs/bricklink/items \
-            database/brickovery.db \
-            database/brickovery_db.csv \
-            database/part_color_issues.csv \
-            || true
+          # Stage only generated artifacts (skip missing paths; force-add to override ignores)
+          paths=(
+            "database/audit/brickovery_db"
+            "database/backups/brickovery_db"
+            "database/artifacts"
+            "database/bl_to_bk_mapping.csv"
+            "database/bk_part_key.csv"
+            "database/boid_cache.json"
+            "database/bricklink_api_cache.json"
+            "inputs/upstream/brickstore-database.zip"
+            "inputs/upstream/last_payload_sha256.txt"
+            "inputs/upstream/last_release_id.txt"
+            "inputs/upstream/resume_state.json"
+            "inputs/bricklink/part_color_codes.xml"
+            "inputs/bricklink/Parts.xml"
+            "inputs/bricklink/codes.xml"
+            "inputs/bricklink/items"
+            "database/brickovery.db"
+            "database/brickovery_db.csv"
+            "database/part_color_issues.csv"
+          )
+          for p in "${paths[@]}"; do
+            if [ -e "$p" ]; then
+              git add -f "$p"
+            fi
+          done
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
