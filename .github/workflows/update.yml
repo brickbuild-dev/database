@@ -6,6 +6,11 @@ on:
     - cron: "00 00 * * *"
   workflow_dispatch:
     inputs:
+      run_boid_weights:
+        description: "Se true, resolve BOID + weights (BrickOwl/BrickLink)."
+        required: false
+        default: true
+        type: boolean
       force_rebuild:
         description: "Se true, força rebuild completo da DB (ignora semantic delta)."
         required: false
@@ -36,6 +41,7 @@ jobs:
     timeout-minutes: 350
     env:
       RESUME_MODE: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.resume_until_done == 'true') || github.event_name == 'schedule' }}
+      RUN_BOID_WEIGHTS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_boid_weights || 'true' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -340,7 +346,7 @@ jobs:
 
       - name: Check missing BOID/weights (pre-BOID, resume)
         id: preboid
-        if: ${{ env.RESUME_MODE == 'true' }}
+        if: ${{ env.RESUME_MODE == 'true' && env.RUN_BOID_WEIGHTS == 'true' }}
         run: |
           set -euo pipefail
           python - <<'PY' >> "$GITHUB_OUTPUT"
@@ -374,7 +380,7 @@ jobs:
           PY
 
       - name: Resolve BOID + fill missing weights (BrickOwl + BrickLink)
-        if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true' || steps.preboid.outputs.run_boid == 'true'
+        if: ${{ env.RUN_BOID_WEIGHTS == 'true' && (steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true' || steps.preboid.outputs.run_boid == 'true') }}
         env:
           BRICKOWL_API_KEY: ${{ secrets.BRICKOWL_API_KEY }}
           REBRICKABLE_API_KEY: ${{ secrets.REBRICKABLE_API_KEY }}
@@ -504,16 +510,21 @@ jobs:
           )
           missing_boid = int(cur.fetchone()[0] or 0)
 
-          cur.execute(
-              "SELECT COUNT(1) FROM brickovery_db "
-              "WHERE item_type='P' AND weight IS NULL"
-          )
-          missing_weight = int(cur.fetchone()[0] or 0)
+            cur.execute(
+                "SELECT COUNT(1) FROM brickovery_db "
+                "WHERE item_type='P' AND weight IS NULL"
+            )
+            missing_weight = int(cur.fetchone()[0] or 0)
+  
+            run_boid_weights = os.environ.get("RUN_BOID_WEIGHTS", "true").strip().lower() == "true"
+            if not run_boid_weights:
+                missing_boid = 0
+                missing_weight = 0
 
-          # bk mapping missing
-          cur.execute(
-              "SELECT COUNT(1) FROM brickovery_db "
-              "WHERE bk_part_id IS NULL OR bk_part_key IS NULL"
+            # bk mapping missing
+            cur.execute(
+                "SELECT COUNT(1) FROM brickovery_db "
+                "WHERE bk_part_id IS NULL OR bk_part_key IS NULL"
           )
           missing_bk = int(cur.fetchone()[0] or 0)
           con.close()
@@ -674,5 +685,5 @@ jobs:
           set -euo pipefail
           echo "Resume requested and missing data detected. Dispatching new run..."
           api="https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/update.yml/dispatches"
-          payload='{"ref":"'"${GITHUB_REF_NAME}"'","inputs":{"resume_until_done":"true"}}'
+          payload='{"ref":"'"${GITHUB_REF_NAME}"'","inputs":{"resume_until_done":"true","run_boid_weights":"'"${RUN_BOID_WEIGHTS}"'"}}'
           curl -fsSL -X POST -H "Authorization: Bearer ${GH_TOKEN}" -H "Accept: application/vnd.github+json" -d "$payload" "$api"
