@@ -510,21 +510,21 @@ jobs:
           )
           missing_boid = int(cur.fetchone()[0] or 0)
 
-            cur.execute(
-                "SELECT COUNT(1) FROM brickovery_db "
-                "WHERE item_type='P' AND weight IS NULL"
-            )
-            missing_weight = int(cur.fetchone()[0] or 0)
+          cur.execute(
+              "SELECT COUNT(1) FROM brickovery_db "
+              "WHERE item_type='P' AND weight IS NULL"
+          )
+          missing_weight = int(cur.fetchone()[0] or 0)
 
-            run_boid_weights = os.environ.get("RUN_BOID_WEIGHTS", "true").strip().lower() == "true"
-            if not run_boid_weights:
-                missing_boid = 0
-                missing_weight = 0
+          run_boid_weights = os.environ.get("RUN_BOID_WEIGHTS", "true").strip().lower() == "true"
+          if not run_boid_weights:
+              missing_boid = 0
+              missing_weight = 0
 
-            # bk mapping missing
-            cur.execute(
-                "SELECT COUNT(1) FROM brickovery_db "
-                "WHERE bk_part_id IS NULL OR bk_part_key IS NULL"
+          # bk mapping missing
+          cur.execute(
+              "SELECT COUNT(1) FROM brickovery_db "
+              "WHERE bk_part_id IS NULL OR bk_part_key IS NULL"
           )
           missing_bk = int(cur.fetchone()[0] or 0)
           con.close()
