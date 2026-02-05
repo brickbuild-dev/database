@@ -389,7 +389,7 @@ def main() -> int:
     ap.add_argument("--json-out", default="", help="Write JSON result to this path")
     ap.add_argument("--max-zip-size-mb", type=int, default=500, help="Max ZIP size in MiB (anti zip-bomb).")
     ap.add_argument("--max-uncompressed-mb", type=int, default=800, help="Max uncompressed size in MiB.")
-    ap.add_argument("--max-entries", type=int, default=20000, help="Max number of entries inside ZIP.")
+    ap.add_argument("--max-entries", type=int, default=65000, help="Max number of entries inside ZIP.")
 
     args = ap.parse_args()
 
