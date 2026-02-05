@@ -22530,7 +22530,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0121</ITEMID>
-      <ITEMNAME>Anakin Skywalker - Trans-Light Blue Light-up Lightsaber</ITEMNAME>
+      <ITEMNAME>Anakin Skywalker - Trans-Light Blue Light-Up Lightsaber</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>5</ITEMWEIGHT>
@@ -96888,7 +96888,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0537</ITEMID>
-      <ITEMNAME>Sandman, Tan Sand Form with Swirling Base</ITEMNAME>
+      <ITEMNAME>Sandman - Sand Form, Swirling Base</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>6.69</ITEMWEIGHT>
@@ -115122,7 +115122,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0685</ITEMID>
-      <ITEMNAME>Sandman - Green Outfit, Tan Sand Form with Swirling Base</ITEMNAME>
+      <ITEMNAME>Sandman - Green Outfit, Swirling Base</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>6.56</ITEMWEIGHT>
@@ -166615,6 +166615,15 @@
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.6</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1112</ITEMID>
+      <ITEMNAME>Sandman - Sand Form, Printed Legs</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
