@@ -2867,54 +2867,22 @@ def main() -> int:
                     apply_weights_from_csv(con, cur, wp, overwrite=bool(args.weights_overwrite), add_issue=add_issue)
                     con.commit()
 
-                    # Fallback: preencher weights em falta via BrickLink API (por BL ID, sem cor)
+                    # No API fallback: weights are sourced only from the CSV file.
                     try:
-                        missing_after_csv = cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type='P'").fetchone()[0]
+                        missing_after_csv = cur.execute(
+                            "SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type='P'"
+                        ).fetchone()[0]
                     except Exception:
                         missing_after_csv = None
 
                     if missing_after_csv is not None and int(missing_after_csv) > 0:
-                        if not args.allow_api:
-                            # Offline-first: allow cached weights if available
-                            if use_api_cache and bl_cache and (bl_cache.get("weights") or {}):
-                                fill_missing_weights_from_bricklink(
-                                    con,
-                                    cur,
-                                    None,
-                                    add_issue=add_issue,
-                                    min_interval_s=0.0,
-                                    commit_every=200,
-                                    max_runtime_seconds=float(args.max_runtime_seconds or 0),
-                                    t0=float(t0),
-                                    cache=bl_cache,
-                                    cache_state=bl_cache_state,
-                                    allow_api=False,
-                                )
-                                con.commit()
-                            else:
-                                add_issue("WARN", "WEIGHTS_BRICKLINK_SKIPPED_OFFLINE", "", "Offline-first: BrickLink API desativada; weights em falta permanecerão NULL.")
-                                con.commit()
-                        else:
-                            oauth_w = bricklink_oauth_from_env()
-                            if oauth_w is None:
-                                add_issue("WARN", "WEIGHTS_BRICKLINK_OAUTH_MISSING", "", "BrickLink OAuth não configurado; weights em falta permanecerão NULL.")
-                                con.commit()
-                            else:
-                                print(f"[WEIGHT] BrickLink fallback: missing_after_csv={missing_after_csv}")
-                                fill_missing_weights_from_bricklink(
-                                    con,
-                                    cur,
-                                    oauth_w,
-                                    add_issue=add_issue,
-                                    min_interval_s=0.25,
-                                    commit_every=200,
-                                    max_runtime_seconds=float(args.max_runtime_seconds or 0),
-                                    t0=float(t0),
-                                    cache=bl_cache,
-                                    cache_state=bl_cache_state,
-                                    allow_api=True,
-                                )
-                                con.commit()
+                        add_issue(
+                            "INFO",
+                            "WEIGHTS_MISSING_AFTER_CSV",
+                            "",
+                            f"weights em falta permanecem NULL (sem fallback API). missing={missing_after_csv}",
+                        )
+                        con.commit()
                 else:
                     print("[WEIGHT] skip (weight já preenchido)")
             except Exception as e:
