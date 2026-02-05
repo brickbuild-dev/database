@@ -16,6 +16,7 @@
 - Mapa de cores: `inputs/colors_seed.csv` (fonte de verdade BL→BO/BK/RB).
 - Pesos (opcional): `inputs/bricklink/parts_weight.csv`.
 - Mapping BK (obrigatório): `inputs/bk_mapping.csv` (colunas: `bl_part_id,bk_part_id,item_type,brikick_name,api_item_type`).
+- Mapping BOID (opcional): `inputs/bl_boid_mapping.csv` (colunas: `bl_part_id,boid` e opcionalmente `bl_color_id,item_type`).
 - SuperDB (opcional): `inputs/super_db/*.csv.zip` (Rebrickable).
 
 ## Variáveis de ambiente (APIs)
@@ -86,7 +87,15 @@ python tools/apply_bk_mapping_to_db_with_meta_and_audit.py \
 
 Nota: `bk_part_key` na DB segue o formato `BK-{item_type}-{bk_part_id}-{bk_color_id}`.
 
-4. Export dedicado BL → BK:
+4. (Opcional) Aplicar BOID manual da CSV (sem API):
+
+```bash
+python tools/apply_boid_mapping_to_db.py \
+  --db database/brickovery.db \
+  --csv inputs/bl_boid_mapping.csv
+```
+
+5. Export dedicado BL → BK:
 
 ```bash
 python tools/export_bl_to_bk_mapping.py \
@@ -94,7 +103,7 @@ python tools/export_bl_to_bk_mapping.py \
   --out database/bl_to_bk_mapping.csv
 ```
 
-5. Export dedicado BK part key:
+6. Export dedicado BK part key:
 
 ```bash
 python tools/export_bk_part_key.py \
@@ -102,7 +111,7 @@ python tools/export_bk_part_key.py \
   --out database/bk_part_key.csv
 ```
 
-6. Gerar artefactos obrigatórios + validações:
+7. Gerar artefactos obrigatórios + validações:
 
 ```bash
 python tools/generate_artifacts.py \
@@ -113,7 +122,7 @@ python tools/generate_artifacts.py \
   --strict
 ```
 
-7. Relatório pós-update:
+8. Relatório pós-update:
 
 ```bash
 python tools/brickovery_db_postupdate_report.py \
@@ -122,7 +131,7 @@ python tools/brickovery_db_postupdate_report.py \
   --reason manual_force_rebuild
 ```
 
-8. Backup imutável (pré e/ou pós update):
+9. Backup imutável (pré e/ou pós update):
 
 ```bash
 python tools/backup_brickovery_db_with_audit.py \
@@ -157,7 +166,15 @@ python tools/repair_brickovery_db_integrity_with_audit.py \
   --db database/brickovery.db
 ```
 
-3. Resolver BOID + weights (opcional, separadamente):
+3. (Opcional) Aplicar BOID manual da CSV (sem API):
+
+```bash
+python tools/apply_boid_mapping_to_db.py \
+  --db database/brickovery.db \
+  --csv inputs/bl_boid_mapping.csv
+```
+
+4. Resolver BOID + weights (opcional, separadamente):
 
 ```bash
 python brickovery_upstream_v3.py \
@@ -169,7 +186,9 @@ python brickovery_upstream_v3.py \
   --boid-commit-every-auto
 ```
 
-4. Gerar artefactos + validações (ver passo 5 acima).
+Nota: weights são aplicados **apenas** via `inputs/bricklink/parts_weight.csv` (sem fallback API).
+
+5. Gerar artefactos + validações (ver passo 7 acima).
 
 ## SuperDB (opcional)
 ```bash

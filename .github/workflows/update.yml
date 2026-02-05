@@ -322,6 +322,22 @@ jobs:
             --bk-mapping-csv .tmp/mapping/bk_mapping.csv \
             --write-csv
 
+      - name: Apply BOID mapping from inputs (optional)
+        if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true' || steps.premap.outputs.run_mapping == 'true' || env.RESUME_MODE == 'true'
+        run: |
+          set -euo pipefail
+          if [ ! -f database/brickovery.db ]; then
+            echo "DB missing: skipping BOID mapping."
+            exit 0
+          fi
+          if [ ! -f inputs/bl_boid_mapping.csv ]; then
+            echo "No inputs/bl_boid_mapping.csv found; skipping."
+            exit 0
+          fi
+          python tools/apply_boid_mapping_to_db.py \
+            --db database/brickovery.db \
+            --csv inputs/bl_boid_mapping.csv
+
       - name: Check missing BOID/weights (pre-BOID, resume)
         id: preboid
         if: ${{ env.RESUME_MODE == 'true' }}

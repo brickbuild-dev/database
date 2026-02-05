@@ -119,6 +119,7 @@ def collect_inputs(inputs_root: Path) -> List[Dict[str, object]]:
     add_file(inputs_root / "upstream" / "last_release_id.txt", "upstream_release_id")
     add_file(inputs_root / "colors_seed.csv", "color_map")
     add_file(inputs_root / "bk_mapping.csv", "bk_mapping")
+    add_file(inputs_root / "bl_boid_mapping.csv", "bl_boid_mapping")
     add_file(inputs_root / "bricklink" / "part_color_codes.xml", "bricklink_part_color_codes")
     add_file(inputs_root / "bricklink" / "Parts.xml", "bricklink_parts")
     add_file(inputs_root / "bricklink" / "codes.xml", "bricklink_element_codes")
