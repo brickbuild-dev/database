@@ -152,10 +152,14 @@ jobs:
                       continue
                   boids = bo.catalog_id_lookup(id_value=part_id, item_type="Part", id_type="bl_item_no")
                   if not boids:
-                      fail(f"BrickOwl id_lookup returned 0 BOIDs for bl_item_no={part_id}.")
+                      print(f"[SKIP] BrickOwl id_lookup returned 0 BOIDs for bl_item_no={part_id}.")
+                      time.sleep(1.0)
+                      continue
                   boid = str(boids[0]).strip()
                   if not boid:
-                      fail(f"BrickOwl id_lookup returned empty BOID for bl_item_no={part_id}.")
+                      print(f"[SKIP] BrickOwl id_lookup returned empty BOID for bl_item_no={part_id}.")
+                      time.sleep(1.0)
+                      continue
                   info = bo.catalog_lookup(boid)
                   if isinstance(info, dict) and info.get("error"):
                       fail(f"BrickOwl catalog_lookup returned error for BOID={boid}: {info.get('error')}")

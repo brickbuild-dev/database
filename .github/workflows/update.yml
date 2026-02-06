@@ -17,10 +17,15 @@ on:
         default: false
         type: boolean
       resume_until_done:
-        description: "Se true, limita runtime (~4h) e auto-repete a run até terminar."
+        description: "Se true, limita runtime por run e auto-repete até terminar."
         required: false
         default: false
         type: boolean
+      run_max_hours:
+        description: "Horas máximas por run quando resume_until_done=true (ex: 4)."
+        required: false
+        default: 4
+        type: number
 
 concurrency:
   group: brickovery-update
@@ -38,10 +43,11 @@ env:
 jobs:
   sync-and-build:
     runs-on: ubuntu-latest
-    timeout-minutes: 350
+    timeout-minutes: 720
     env:
       RESUME_MODE: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.resume_until_done == 'true') || github.event_name == 'schedule' }}
       RUN_BOID_WEIGHTS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_boid_weights || 'true' }}
+      RUN_MAX_HOURS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_max_hours || '4' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -328,7 +334,7 @@ jobs:
             --bk-mapping-csv .tmp/mapping/bk_mapping.csv \
             --write-csv
 
-      - name: Check missing BOID/weights (pre-BOID, resume)
+      - name: Check missing BOID/weights/names (pre-BOID, resume)
         id: preboid
         if: ${{ env.RESUME_MODE == 'true' && env.RUN_BOID_WEIGHTS == 'true' }}
         run: |
@@ -340,6 +346,7 @@ jobs:
               print("run_boid=false")
               print("missing_boid=0")
               print("missing_weight=0")
+              print("missing_name=0")
               raise SystemExit(0)
 
           con = sqlite3.connect(db_path)
@@ -352,18 +359,25 @@ jobs:
 
           cur.execute(
               "SELECT COUNT(1) FROM brickovery_db "
-              "WHERE item_type='P' AND weight IS NULL"
+              "WHERE weight IS NULL"
           )
           missing_weight = int(cur.fetchone()[0] or 0)
+
+          cur.execute(
+              "SELECT COUNT(1) FROM brickovery_db "
+              "WHERE brikick_name IS NULL OR brikick_name=''"
+          )
+          missing_name = int(cur.fetchone()[0] or 0)
           con.close()
 
-          run_boid = (missing_boid > 0) or (missing_weight > 0)
+          run_boid = (missing_boid > 0) or (missing_weight > 0) or (missing_name > 0)
           print(f"missing_boid={missing_boid}")
           print(f"missing_weight={missing_weight}")
+          print(f"missing_name={missing_name}")
           print(f"run_boid={str(run_boid).lower()}")
           PY
 
-      - name: Resolve BOID + fill missing weights (BrickOwl + BrickLink web)
+      - name: Resolve BOID + fill missing weights/names (BrickOwl + BrickLink web)
         if: ${{ env.RUN_BOID_WEIGHTS == 'true' && (steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true' || steps.preboid.outputs.run_boid == 'true') }}
         env:
           BRICKOWL_API_KEY: ${{ secrets.BRICKOWL_API_KEY }}
@@ -383,7 +397,7 @@ jobs:
 
           MAX_RUNTIME_SECONDS=0
           if [ "${RESUME_MODE}" = "true" ]; then
-            MAX_RUNTIME_SECONDS=$((4*3600))
+            MAX_RUNTIME_SECONDS="$(python - <<'PY'\nimport os\nv=os.environ.get('RUN_MAX_HOURS','4').strip()\ntry:\n    h=float(v)\nexcept Exception:\n    h=4.0\nif h<=0:\n    h=4.0\nprint(int(h*3600))\nPY)"
           fi
 
           ARGS=(
@@ -399,8 +413,8 @@ jobs:
             --color-map inputs/colors_seed.csv
             --weights-scrape
             --weights-scrape-delay 1.5
-            --sets-scrape
-            --sets-scrape-delay 1.5
+            --names-scrape
+            --names-scrape-delay 1.5
             --commit-every 10000
             --progress-every 200000
             --boid-commit-every-auto
@@ -487,6 +501,7 @@ jobs:
               print("resume_needed=false")
               print("missing_boid=0")
               print("missing_weight=0")
+              print("missing_name=0")
               print("missing_bk=0")
               print("resume_state_key=none")
               raise SystemExit(0)
@@ -502,14 +517,21 @@ jobs:
 
           cur.execute(
               "SELECT COUNT(1) FROM brickovery_db "
-              "WHERE item_type='P' AND weight IS NULL"
+              "WHERE weight IS NULL"
           )
           missing_weight = int(cur.fetchone()[0] or 0)
+
+          cur.execute(
+              "SELECT COUNT(1) FROM brickovery_db "
+              "WHERE brikick_name IS NULL OR brikick_name=''"
+          )
+          missing_name = int(cur.fetchone()[0] or 0)
 
           run_boid_weights = os.environ.get("RUN_BOID_WEIGHTS", "true").strip().lower() == "true"
           if not run_boid_weights:
               missing_boid = 0
               missing_weight = 0
+              missing_name = 0
 
           # bk mapping missing
           cur.execute(
@@ -519,7 +541,7 @@ jobs:
           missing_bk = int(cur.fetchone()[0] or 0)
           con.close()
 
-          resume_needed = (missing_boid > 0) or (missing_weight > 0) or (missing_bk > 0)
+          resume_needed = (missing_boid > 0) or (missing_weight > 0) or (missing_name > 0) or (missing_bk > 0)
 
           # Resume state: stop re-dispatch if no progress across runs (accept NULLs).
           state_dir = "inputs/upstream"
@@ -549,6 +571,7 @@ jobs:
           current_missing = {
               "boid": missing_boid,
               "weight": missing_weight,
+              "name": missing_name,
               "bk": missing_bk,
           }
 
@@ -579,6 +602,7 @@ jobs:
 
           print(f"missing_boid={missing_boid}")
           print(f"missing_weight={missing_weight}")
+          print(f"missing_name={missing_name}")
           print(f"missing_bk={missing_bk}")
           print(f"resume_state_key={payload_key}")
           print(f"resume_needed={str(resume_needed).lower()}")
@@ -612,6 +636,7 @@ jobs:
           lines.append(f"- payload_key: `{key}`")
           lines.append(f"- missing_boid: `{missing.get('boid', 0)}`")
           lines.append(f"- missing_weight: `{missing.get('weight', 0)}`")
+          lines.append(f"- missing_name: `{missing.get('name', 0)}`")
           lines.append(f"- missing_bk: `{missing.get('bk', 0)}`")
           lines.append(f"- attempts: `{entry.get('attempts', 0)}`")
           lines.append(f"- finalized: `{bool(entry.get('finalized'))}`")
@@ -680,5 +705,5 @@ jobs:
           set -euo pipefail
           echo "Resume requested and missing data detected. Dispatching new run..."
           api="https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/update.yml/dispatches"
-          payload='{"ref":"'"${GITHUB_REF_NAME}"'","inputs":{"resume_until_done":"true","run_boid_weights":"'"${RUN_BOID_WEIGHTS}"'"}}'
+          payload='{"ref":"'"${GITHUB_REF_NAME}"'","inputs":{"resume_until_done":"true","run_boid_weights":"'"${RUN_BOID_WEIGHTS}"'","run_max_hours":"'"${RUN_MAX_HOURS}"'"}}'
           curl -fsSL -X POST -H "Authorization: Bearer ${GH_TOKEN}" -H "Accept: application/vnd.github+json" -d "$payload" "$api"
