@@ -396,7 +396,19 @@ jobs:
           echo "Using builder script: $V3"
 
           MAX_RUNTIME_SECONDS=0
-          MAX_RUNTIME_SECONDS="$(python - <<'PY'\nimport os\nv=os.environ.get('RUN_MAX_MINUTES','0').strip()\ntry:\n    m=float(v)\nexcept Exception:\n    m=0.0\nif m<=0:\n    print(0)\nelse:\n    print(int(m*60))\nPY)"
+          MAX_RUNTIME_SECONDS="$(python - <<'PY'
+          import os
+          v=os.environ.get('RUN_MAX_MINUTES','0').strip()
+          try:
+              m=float(v)
+          except Exception:
+              m=0.0
+          if m<=0:
+              print(0)
+          else:
+              print(int(m*60))
+          PY
+          )"
           if [ "${MAX_RUNTIME_SECONDS}" -le 0 ] && [ "${RESUME_MODE}" = "true" ]; then
             MAX_RUNTIME_SECONDS=$((4*3600))
           fi
