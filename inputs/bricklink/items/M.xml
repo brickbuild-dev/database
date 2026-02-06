@@ -53940,7 +53940,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0055</ITEMID>
-      <ITEMNAME>Venom - Teeth Together, 4 Back Appendages Spiked</ITEMNAME>
+      <ITEMNAME>Venom - White Teeth Together, 4 Back Appendages Spiked</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>5.13</ITEMWEIGHT>
@@ -61086,7 +61086,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0113</ITEMID>
-      <ITEMNAME>Venom - Teeth Together</ITEMNAME>
+      <ITEMNAME>Venom - White Teeth Together</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2014</ITEMYEAR>
       <ITEMWEIGHT>2.97</ITEMWEIGHT>
@@ -96933,7 +96933,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0542</ITEMID>
-      <ITEMNAME>Venom - Teeth Parted</ITEMNAME>
+      <ITEMNAME>Venom - White Teeth Parted</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>3.05</ITEMWEIGHT>
@@ -111216,7 +111216,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0664</ITEMID>
-      <ITEMNAME>Venom - Teeth Parted, 4 Back Appendages Small with Clips</ITEMNAME>
+      <ITEMNAME>Venom - White Teeth Parted, 4 Back Appendages Small with Clips</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>3.1</ITEMWEIGHT>
@@ -116850,7 +116850,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0690</ITEMID>
-      <ITEMNAME>Venom - Teeth Parted, 2 Back Appendages Asymmetrical</ITEMNAME>
+      <ITEMNAME>Venom - White Teeth Parted, 2 Back Appendages Asymmetrical</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>4.86</ITEMWEIGHT>
@@ -118560,7 +118560,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0711</ITEMID>
-      <ITEMNAME>Venom - Teeth Parted, 4 Back Appendages Medium</ITEMNAME>
+      <ITEMNAME>Venom - White Teeth Parted, 4 Back Appendages Medium</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>6.8</ITEMWEIGHT>
@@ -141897,7 +141897,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0895</ITEMID>
-      <ITEMNAME>Venom - Teeth Parted, 4 Back Appendages Large</ITEMNAME>
+      <ITEMNAME>Venom - White Teeth Parted, 4 Back Appendages Large</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -156117,7 +156117,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh1028</ITEMID>
-      <ITEMNAME>Venom - Teeth Parted, 2 Back Appendages Symmetrical</ITEMNAME>
+      <ITEMNAME>Venom - White Teeth Parted, 2 Back Appendages Symmetrical</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>4.55</ITEMWEIGHT>
@@ -166615,6 +166615,15 @@
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.6</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1113</ITEMID>
+      <ITEMNAME>Venom - Tan Teeth, 4 Back Appendages</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>7.8</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
