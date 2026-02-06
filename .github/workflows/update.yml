@@ -22,9 +22,9 @@ on:
         default: false
         type: boolean
       run_max_hours:
-        description: "Horas máximas por run quando resume_until_done=true (ex: 4)."
+        description: "Horas máximas por run (apenas manual). 0 = sem limite."
         required: false
-        default: 4
+        default: 0
         type: number
 
 concurrency:
@@ -47,7 +47,7 @@ jobs:
     env:
       RESUME_MODE: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.resume_until_done == 'true') || github.event_name == 'schedule' }}
       RUN_BOID_WEIGHTS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_boid_weights || 'true' }}
-      RUN_MAX_HOURS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_max_hours || '4' }}
+      RUN_MAX_HOURS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_max_hours || '0' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -396,8 +396,9 @@ jobs:
           echo "Using builder script: $V3"
 
           MAX_RUNTIME_SECONDS=0
-          if [ "${RESUME_MODE}" = "true" ]; then
-            MAX_RUNTIME_SECONDS="$(python - <<'PY'\nimport os\nv=os.environ.get('RUN_MAX_HOURS','4').strip()\ntry:\n    h=float(v)\nexcept Exception:\n    h=4.0\nif h<=0:\n    h=4.0\nprint(int(h*3600))\nPY)"
+          MAX_RUNTIME_SECONDS="$(python - <<'PY'\nimport os\nv=os.environ.get('RUN_MAX_HOURS','0').strip()\ntry:\n    h=float(v)\nexcept Exception:\n    h=0.0\nif h<=0:\n    print(0)\nelse:\n    print(int(h*3600))\nPY)"
+          if [ "${MAX_RUNTIME_SECONDS}" -le 0 ] && [ "${RESUME_MODE}" = "true" ]; then
+            MAX_RUNTIME_SECONDS=$((4*3600))
           fi
 
           ARGS=(
