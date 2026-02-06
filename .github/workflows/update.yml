@@ -21,8 +21,8 @@ on:
         required: false
         default: false
         type: boolean
-      run_max_hours:
-        description: "Horas máximas por run (apenas manual). 0 = sem limite."
+      run_max_minutes:
+        description: "Minutos máximos por run (apenas manual). 0 = sem limite."
         required: false
         default: 0
         type: number
@@ -47,7 +47,7 @@ jobs:
     env:
       RESUME_MODE: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.resume_until_done == 'true') || github.event_name == 'schedule' }}
       RUN_BOID_WEIGHTS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_boid_weights || 'true' }}
-      RUN_MAX_HOURS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_max_hours || '0' }}
+      RUN_MAX_MINUTES: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_max_minutes || '0' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -396,7 +396,7 @@ jobs:
           echo "Using builder script: $V3"
 
           MAX_RUNTIME_SECONDS=0
-          MAX_RUNTIME_SECONDS="$(python - <<'PY'\nimport os\nv=os.environ.get('RUN_MAX_HOURS','0').strip()\ntry:\n    h=float(v)\nexcept Exception:\n    h=0.0\nif h<=0:\n    print(0)\nelse:\n    print(int(h*3600))\nPY)"
+          MAX_RUNTIME_SECONDS="$(python - <<'PY'\nimport os\nv=os.environ.get('RUN_MAX_MINUTES','0').strip()\ntry:\n    m=float(v)\nexcept Exception:\n    m=0.0\nif m<=0:\n    print(0)\nelse:\n    print(int(m*60))\nPY)"
           if [ "${MAX_RUNTIME_SECONDS}" -le 0 ] && [ "${RESUME_MODE}" = "true" ]; then
             MAX_RUNTIME_SECONDS=$((4*3600))
           fi
@@ -706,5 +706,5 @@ jobs:
           set -euo pipefail
           echo "Resume requested and missing data detected. Dispatching new run..."
           api="https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/update.yml/dispatches"
-          payload='{"ref":"'"${GITHUB_REF_NAME}"'","inputs":{"resume_until_done":"true","run_boid_weights":"'"${RUN_BOID_WEIGHTS}"'","run_max_hours":"'"${RUN_MAX_HOURS}"'"}}'
+          payload='{"ref":"'"${GITHUB_REF_NAME}"'","inputs":{"resume_until_done":"true","run_boid_weights":"'"${RUN_BOID_WEIGHTS}"'","run_max_minutes":"'"${RUN_MAX_MINUTES}"'"}}'
           curl -fsSL -X POST -H "Authorization: Bearer ${GH_TOKEN}" -H "Accept: application/vnd.github+json" -d "$payload" "$api"
