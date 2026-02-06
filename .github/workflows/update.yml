@@ -24,8 +24,8 @@ on:
       run_max_minutes:
         description: "Minutos máximos por run (apenas manual). 0 = sem limite."
         required: false
-        default: 0
-        type: number
+        default: "0"
+        type: string
 
 concurrency:
   group: brickovery-update
