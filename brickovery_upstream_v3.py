@@ -318,7 +318,16 @@ def _open_maybe_gzip(path: Path):
     return gzip.open if path.suffix.lower() == '.gz' else open
 
 
-def apply_weights_from_csv(con, cur, weights_csv: Path, *, overwrite: bool, add_issue) -> int:
+def apply_weights_from_csv(
+    con,
+    cur,
+    weights_csv: Path,
+    *,
+    overwrite: bool,
+    add_issue,
+    max_runtime_seconds: float = 0.0,
+    t0: float = 0.0,
+) -> int:
     """Apply part weights to brickovery_db.weight.
 
     Expected: a CSV (optionally .gz) with at least:
@@ -377,6 +386,12 @@ def apply_weights_from_csv(con, cur, weights_csv: Path, *, overwrite: bool, add_
                 return 0
 
             for row in reader:
+                if _STOP:
+                    add_issue('WARN', 'WEIGHTS_STOP_SIGNAL', str(wp), f'Stop requested ({_STOP_REASON}) durante weights CSV.')
+                    break
+                if max_runtime_seconds and t0 and (now_s() - float(t0)) > float(max_runtime_seconds):
+                    add_issue('WARN', 'WEIGHTS_STOP_MAX_RUNTIME', str(wp), f'Parado por max-runtime-seconds={max_runtime_seconds}.')
+                    break
                 bl = (row.get(part_col) or '').strip()
                 ws = (row.get(weight_col) or '').strip()
                 if missing_parts is not None and bl not in missing_parts:
@@ -628,7 +643,13 @@ def iter_codes_xml(codes_xml: Path) -> Iterable[Tuple[str, str, str]]:
         yield (itemtype or "P"), itemid, color_val
 
 
-def load_part_names(parts_xml: Path, *, add_issue=None) -> Dict[Tuple[str, str], str]:
+def load_part_names(
+    parts_xml: Path,
+    *,
+    add_issue=None,
+    max_runtime_seconds: float = 0.0,
+    t0: float = 0.0,
+) -> Dict[Tuple[str, str], str]:
     """Return dict: (item_type, bl_part_id) -> brikick_name."""
     out: Dict[Tuple[str, str], str] = {}
     if not parts_xml.exists():
@@ -638,6 +659,14 @@ def load_part_names(parts_xml: Path, *, add_issue=None) -> Dict[Tuple[str, str],
 
     ctx = ET.iterparse(str(parts_xml), events=("end",))
     for _ev, elem in ctx:
+        if _STOP:
+            if add_issue:
+                add_issue("WARN", "PART_NAMES_STOP_SIGNAL", str(parts_xml), f"Stop requested ({_STOP_REASON}) durante load_part_names.")
+            break
+        if max_runtime_seconds and t0 and (now_s() - float(t0)) > float(max_runtime_seconds):
+            if add_issue:
+                add_issue("WARN", "PART_NAMES_STOP_MAX_RUNTIME", str(parts_xml), f"Parado por max-runtime-seconds={max_runtime_seconds} durante load_part_names.")
+            break
         if (elem.tag or "").upper() != "ITEM":
             continue
         item_id = (elem.findtext("ITEMID") or elem.findtext("ItemID") or "").strip()
@@ -656,6 +685,8 @@ def load_element_ids(
     bl_name_to_id: Dict[str, int],
     *,
     add_issue=None,
+    max_runtime_seconds: float = 0.0,
+    t0: float = 0.0,
 ) -> Dict[Tuple[str, str, int], str]:
     """Return dict: (item_type, bl_part_id, bl_color_id) -> element_id (codename)."""
     out: Dict[Tuple[str, str, int], str] = {}
@@ -668,6 +699,14 @@ def load_element_ids(
 
     ctx = ET.iterparse(str(codes_xml), events=("end",))
     for _ev, elem in ctx:
+        if _STOP:
+            if add_issue:
+                add_issue("WARN", "ELEMENT_IDS_STOP_SIGNAL", str(codes_xml), f"Stop requested ({_STOP_REASON}) durante load_element_ids.")
+            break
+        if max_runtime_seconds and t0 and (now_s() - float(t0)) > float(max_runtime_seconds):
+            if add_issue:
+                add_issue("WARN", "ELEMENT_IDS_STOP_MAX_RUNTIME", str(codes_xml), f"Parado por max-runtime-seconds={max_runtime_seconds} durante load_element_ids.")
+            break
         if (elem.tag or "").upper() != "ITEM":
             continue
         item_id = (elem.findtext("ITEMID") or elem.findtext("ItemID") or "").strip()
@@ -749,6 +788,8 @@ def ensure_all_items_present(
     element_id_map: Optional[Dict[Tuple[str, str, int], str]] = None,
     add_issue,
     batch_size: int = 20000,
+    max_runtime_seconds: float = 0.0,
+    t0: float = 0.0,
 ) -> int:
     """Ensure every (item_type, item_id) present in upstream items/*.xml exists in DB.
 
@@ -775,6 +816,12 @@ def ensure_all_items_present(
     placeholder_bk = bl_to_bk.get(placeholder_blc)
 
     for item_type, item_id in iter_items_dir(items_dir, add_issue=add_issue):
+        if _STOP:
+            add_issue("WARN", "ITEMS_DIR_STOP_SIGNAL", str(items_dir), f"Stop requested ({_STOP_REASON}) durante ensure_all_items_present.")
+            break
+        if max_runtime_seconds and t0 and (now_s() - float(t0)) > float(max_runtime_seconds):
+            add_issue("WARN", "ITEMS_DIR_STOP_MAX_RUNTIME", str(items_dir), f"Parado por max-runtime-seconds={max_runtime_seconds} durante ensure_all_items_present.")
+            break
         k = (str(item_id), str(item_type))
         if k in existing:
             continue
@@ -840,6 +887,8 @@ def apply_part_metadata(
     element_id_map: Optional[Dict[Tuple[str, str, int], str]] = None,
     add_issue=None,
     batch_size: int = 50000,
+    max_runtime_seconds: float = 0.0,
+    t0: float = 0.0,
 ) -> Tuple[int, int]:
     """Backfill brikick_name and element_id in DB from upstream mappings."""
     updated_names = 0
@@ -848,6 +897,14 @@ def apply_part_metadata(
     if part_name_map:
         batch: List[Tuple[str, str, str]] = []
         for (item_type, item_id), name in part_name_map.items():
+            if _STOP:
+                if add_issue:
+                    add_issue("WARN", "PART_METADATA_STOP_SIGNAL", "", f"Stop requested ({_STOP_REASON}) durante part_name metadata.")
+                break
+            if max_runtime_seconds and t0 and (now_s() - float(t0)) > float(max_runtime_seconds):
+                if add_issue:
+                    add_issue("WARN", "PART_METADATA_STOP_MAX_RUNTIME", "", f"Parado por max-runtime-seconds={max_runtime_seconds} durante part_name metadata.")
+                break
             if not name:
                 continue
             batch.append((name, item_type, item_id))
@@ -878,6 +935,14 @@ def apply_part_metadata(
     if element_id_map:
         batch2: List[Tuple[str, str, str, int]] = []
         for (item_type, item_id, bl_color_id), eid in element_id_map.items():
+            if _STOP:
+                if add_issue:
+                    add_issue("WARN", "ELEMENT_METADATA_STOP_SIGNAL", "", f"Stop requested ({_STOP_REASON}) durante element_id metadata.")
+                break
+            if max_runtime_seconds and t0 and (now_s() - float(t0)) > float(max_runtime_seconds):
+                if add_issue:
+                    add_issue("WARN", "ELEMENT_METADATA_STOP_MAX_RUNTIME", "", f"Parado por max-runtime-seconds={max_runtime_seconds} durante element_id metadata.")
+                break
             if not eid:
                 continue
             batch2.append((eid, item_type, item_id, int(bl_color_id)))
@@ -3067,7 +3132,12 @@ def main() -> int:
         element_codes_xml = Path(args.bl_element_codes_xml) if args.bl_element_codes_xml else None
 
         if parts_xml and parts_xml.exists():
-            part_name_map = load_part_names(parts_xml, add_issue=add_issue)
+            part_name_map = load_part_names(
+                parts_xml,
+                add_issue=add_issue,
+                max_runtime_seconds=float(args.max_runtime_seconds or 0),
+                t0=t0,
+            )
             add_issue("INFO", "PART_NAMES_LOADED", str(parts_xml), f"Loaded {len(part_name_map)} brikick_name entries.")
             con.commit()
         else:
@@ -3077,7 +3147,13 @@ def main() -> int:
 
         if element_codes_xml and element_codes_xml.exists():
             if bl_name_to_id:
-                element_id_map = load_element_ids(element_codes_xml, bl_name_to_id, add_issue=add_issue)
+                element_id_map = load_element_ids(
+                    element_codes_xml,
+                    bl_name_to_id,
+                    add_issue=add_issue,
+                    max_runtime_seconds=float(args.max_runtime_seconds or 0),
+                    t0=t0,
+                )
                 add_issue("INFO", "ELEMENT_IDS_LOADED", str(element_codes_xml), f"Loaded {len(element_id_map)} element_ids.")
                 con.commit()
             else:
@@ -3261,6 +3337,8 @@ def main() -> int:
                     part_name_map=part_name_map,
                     element_id_map=element_id_map,
                     add_issue=add_issue,
+                    max_runtime_seconds=float(args.max_runtime_seconds or 0),
+                    t0=t0,
                 )
             except Exception as e:
                 add_issue("WARN", "ENSURE_ALL_ITEMS_FAILED", str(items_dir) if items_dir else "", f"{type(e).__name__}: {e}")
@@ -3291,6 +3369,8 @@ def main() -> int:
                     part_name_map=part_name_map,
                     element_id_map=element_id_map,
                     add_issue=add_issue,
+                    max_runtime_seconds=float(args.max_runtime_seconds or 0),
+                    t0=t0,
                 )
             except Exception as e:
                 add_issue("WARN", "PART_METADATA_APPLY_FAILED", "", f"{type(e).__name__}: {e}")
@@ -3572,7 +3652,15 @@ def main() -> int:
 
                 if args.weights_overwrite or (missing_w is None) or (int(missing_w) > 0):
                     print(f"[WEIGHT] applying weights from: {wp} (missing={missing_w})")
-                    apply_weights_from_csv(con, cur, wp, overwrite=bool(args.weights_overwrite), add_issue=add_issue)
+                    apply_weights_from_csv(
+                        con,
+                        cur,
+                        wp,
+                        overwrite=bool(args.weights_overwrite),
+                        add_issue=add_issue,
+                        max_runtime_seconds=float(args.max_runtime_seconds or 0),
+                        t0=t0,
+                    )
                     con.commit()
 
                     # Optional fallback: scrape BrickLink pages when requested (no API).

@@ -47,7 +47,7 @@ jobs:
     env:
       RESUME_MODE: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.resume_until_done == 'true') || github.event_name == 'schedule' }}
       RUN_BOID_WEIGHTS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_boid_weights || 'true' }}
-      RUN_MAX_MINUTES: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_max_minutes || '0' }}
+      RUN_MAX_MINUTES: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_max_minutes || '' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -398,18 +398,21 @@ jobs:
           MAX_RUNTIME_SECONDS=0
           MAX_RUNTIME_SECONDS="$(python - <<'PY'
           import os
-          v=os.environ.get('RUN_MAX_MINUTES','0').strip()
-          try:
-              m=float(v)
-          except Exception:
-              m=0.0
-          if m<=0:
+          v=os.environ.get('RUN_MAX_MINUTES','').strip()
+          if v == "":
               print(0)
           else:
-              print(int(m*60))
+              try:
+                  m=float(v)
+              except Exception:
+                  m=0.0
+              if m<=0:
+                  print(0)
+              else:
+                  print(int(m*60))
           PY
           )"
-          if [ "${MAX_RUNTIME_SECONDS}" -le 0 ] && [ "${RESUME_MODE}" = "true" ]; then
+          if [ "${MAX_RUNTIME_SECONDS}" -le 0 ] && [ "${RESUME_MODE}" = "true" ] && [ -z "${RUN_MAX_MINUTES}" ]; then
             MAX_RUNTIME_SECONDS=$((4*3600))
           fi
           echo "RUN_MAX_MINUTES=${RUN_MAX_MINUTES} -> MAX_RUNTIME_SECONDS=${MAX_RUNTIME_SECONDS}"
@@ -440,10 +443,10 @@ jobs:
 
           if [ "${MAX_RUNTIME_SECONDS}" -gt 0 ]; then
             set +e
-            timeout --signal=TERM "${MAX_RUNTIME_SECONDS}" python "$V3" "${ARGS[@]}"
+            timeout --signal=TERM --kill-after=30s "${MAX_RUNTIME_SECONDS}" python "$V3" "${ARGS[@]}"
             rc=$?
             set -e
-            if [ "$rc" -eq 124 ]; then
+            if [ "$rc" -eq 124 ] || [ "$rc" -eq 137 ] || [ "$rc" -eq 143 ]; then
               echo "::warning::Run timed out after ${MAX_RUNTIME_SECONDS}s (expected)."
             elif [ "$rc" -ne 0 ]; then
               exit "$rc"
