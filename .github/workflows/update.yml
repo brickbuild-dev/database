@@ -395,6 +395,25 @@ jobs:
           test -n "$V3" && [ -f "$V3" ] || { echo "::error::Cannot find brickovery_upstream_v3*.py in repo"; ls -la; exit 2; }
           echo "Using builder script: $V3"
 
+          LOCK="database/.build.lock"
+          if [ -f "$LOCK" ]; then
+            pid="$(python - <<'PY'
+import json
+try:
+    d=json.load(open("database/.build.lock","r",encoding="utf-8"))
+    print(d.get("pid","") or "")
+except Exception:
+    print("")
+PY
+)"
+            if [ -n "$pid" ] && ps -p "$pid" >/dev/null 2>&1; then
+              echo "::error::Build lock active (pid=$pid)."
+              exit 2
+            fi
+            echo "Stale build lock removed."
+            rm -f "$LOCK"
+          fi
+
           MAX_RUNTIME_SECONDS=0
           MAX_RUNTIME_SECONDS="$(python - <<'PY'
           import os
@@ -436,6 +455,7 @@ jobs:
             --progress-every 200000
             --boid-commit-every-auto
             --boid-safe
+            --no-lock
           )
           if [ "${MAX_RUNTIME_SECONDS}" -gt 0 ]; then
             ARGS+=(--max-runtime-seconds "${MAX_RUNTIME_SECONDS}")
