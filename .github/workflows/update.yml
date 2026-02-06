@@ -398,14 +398,14 @@ jobs:
           LOCK="database/.build.lock"
           if [ -f "$LOCK" ]; then
             pid="$(python - <<'PY'
-import json
-try:
-    d=json.load(open("database/.build.lock","r",encoding="utf-8"))
-    print(d.get("pid","") or "")
-except Exception:
-    print("")
-PY
-)"
+            import json
+            try:
+                d=json.load(open("database/.build.lock","r",encoding="utf-8"))
+                print(d.get("pid","") or "")
+            except Exception:
+                print("")
+            PY
+            )"
             if [ -n "$pid" ] && ps -p "$pid" >/dev/null 2>&1; then
               echo "::error::Build lock active (pid=$pid)."
               exit 2
