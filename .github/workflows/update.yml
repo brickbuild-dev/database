@@ -43,7 +43,7 @@ env:
 jobs:
   sync-and-build:
     runs-on: ubuntu-latest
-    timeout-minutes: 720
+    timeout-minutes: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.run_max_minutes != '0' && github.event.inputs.run_max_minutes) || 720 }}
     env:
       RESUME_MODE: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.resume_until_done == 'true') || github.event_name == 'schedule' }}
       RUN_BOID_WEIGHTS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_boid_weights || 'true' }}
@@ -412,6 +412,7 @@ jobs:
           if [ "${MAX_RUNTIME_SECONDS}" -le 0 ] && [ "${RESUME_MODE}" = "true" ]; then
             MAX_RUNTIME_SECONDS=$((4*3600))
           fi
+          echo "RUN_MAX_MINUTES=${RUN_MAX_MINUTES} -> MAX_RUNTIME_SECONDS=${MAX_RUNTIME_SECONDS}"
 
           ARGS=(
             --mode boid
@@ -437,7 +438,19 @@ jobs:
             ARGS+=(--max-runtime-seconds "${MAX_RUNTIME_SECONDS}")
           fi
 
-          python "$V3" "${ARGS[@]}"
+          if [ "${MAX_RUNTIME_SECONDS}" -gt 0 ]; then
+            set +e
+            timeout --signal=TERM "${MAX_RUNTIME_SECONDS}" python "$V3" "${ARGS[@]}"
+            rc=$?
+            set -e
+            if [ "$rc" -eq 124 ]; then
+              echo "::warning::Run timed out after ${MAX_RUNTIME_SECONDS}s (expected)."
+            elif [ "$rc" -ne 0 ]; then
+              exit "$rc"
+            fi
+          else
+            python "$V3" "${ARGS[@]}"
+          fi
 
       - name: Commit and push mapping repo (only if mapping changed)
         if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true' || steps.premap.outputs.run_mapping == 'true'
