@@ -37,7 +37,7 @@ jobs:
         run: |
           set -euo pipefail
           python - <<'PY'
-          import os, sys, time
+          import os, sys, time, sqlite3
           from brickovery_upstream_v3 import BrickOwlAPI, bricklink_scrape_item_weight, bricklink_scrape_item_name_and_weight
 
           def fail(msg: str):
@@ -55,14 +55,89 @@ jobs:
                       out.append(p)
               return out or default
 
-          test_part_ids = parse_list(
-              "TEST_PART_IDS",
-              ["3001", "3002", "3003", "3004", "3005", "3006", "3007", "3008", "3009", "3010"],
-          )
-          test_set_ids = parse_list(
-              "TEST_SET_IDS",
-              ["60051-1", "60052-1", "60053-1", "60054-1", "60055-1", "60056-1", "60057-1", "60058-1", "60059-1", "60060-1"],
-          )
+          def parse_item_pairs(raw: str) -> list[tuple[str, str]]:
+              pairs = []
+              for token in (raw or "").split(","):
+                  t = token.strip()
+                  if not t:
+                      continue
+                  if "=" in t:
+                      it, pid = t.split("=", 1)
+                  elif ":" in t:
+                      it, pid = t.split(":", 1)
+                  else:
+                      it, pid = "P", t
+                  it = (it or "P").strip().upper()
+                  pid = (pid or "").strip()
+                  if pid:
+                      pairs.append((it, pid))
+              return pairs
+
+          def load_items_from_db(db_path: str, limit: int = 10) -> list[tuple[str, str]]:
+              if not os.path.exists(db_path):
+                  return []
+              try:
+                  con = sqlite3.connect(db_path)
+                  cur = con.cursor()
+                  rows = cur.execute(
+                      "SELECT item_type, bl_part_id FROM brickovery_db "
+                      "WHERE bl_part_id IS NOT NULL AND (weight IS NULL OR brikick_name IS NULL) "
+                      "GROUP BY item_type"
+                  ).fetchall()
+                  # fallback to any items if none missing
+                  if not rows:
+                      rows = cur.execute(
+                          "SELECT item_type, bl_part_id FROM brickovery_db "
+                          "WHERE bl_part_id IS NOT NULL "
+                          "GROUP BY item_type"
+                      ).fetchall()
+                  con.close()
+              except Exception:
+                  return []
+              out = []
+              for it, pid in rows:
+                  if not pid:
+                      continue
+                  it = (it or "P").strip().upper()
+                  out.append((it, str(pid)))
+              return out[:limit]
+
+          # Primary: TEST_ITEM_IDS with explicit item_type (e.g. "P=3001,S=60051-1,M=sw0001")
+          test_items = parse_item_pairs(os.getenv("TEST_ITEM_IDS", ""))
+
+          # Back-compat: TEST_PART_IDS and TEST_SET_IDS
+          if not test_items:
+              test_part_ids = parse_list(
+                  "TEST_PART_IDS",
+                  [],
+              )
+              test_set_ids = parse_list(
+                  "TEST_SET_IDS",
+                  [],
+              )
+              for pid in test_part_ids:
+                  test_items.append(("P", pid))
+              for sid in test_set_ids:
+                  test_items.append(("S", sid))
+
+          # DB-driven sample (preferred when available)
+          if not test_items:
+              test_items = load_items_from_db("database/brickovery.db", limit=10)
+
+          # Fallback defaults (kept minimal if no DB)
+          if not test_items:
+              test_items = [
+                  ("P", "3001"),
+                  ("P", "3002"),
+                  ("P", "3003"),
+                  ("P", "3004"),
+                  ("P", "3005"),
+                  ("S", "60051-1"),
+                  ("S", "60052-1"),
+                  ("S", "60053-1"),
+                  ("S", "60054-1"),
+                  ("S", "60055-1"),
+              ]
 
           # BrickOwl BOID selftest (id_lookup + lookup)
           key = os.getenv("BRICKOWL_API_KEY", "").strip()
@@ -71,7 +146,10 @@ jobs:
 
           try:
               bo = BrickOwlAPI(key)
-              for part_id in test_part_ids:
+              for item_type, part_id in test_items:
+                  # Only parts are supported by BrickOwl id_lookup in this selftest
+                  if item_type != "P":
+                      continue
                   boids = bo.catalog_id_lookup(id_value=part_id, item_type="Part", id_type="bl_item_no")
                   if not boids:
                       fail(f"BrickOwl id_lookup returned 0 BOIDs for bl_item_no={part_id}.")
@@ -88,22 +166,22 @@ jobs:
 
           # BrickLink weight scrape selftest
           try:
-              for part_id in test_part_ids:
-                  w = bricklink_scrape_item_weight(part_id, item_type="P", timeout_s=30)
+              for item_type, item_id in test_items:
+                  w = bricklink_scrape_item_weight(item_id, item_type=item_type, timeout_s=30)
                   if w is None:
-                      fail(f"BrickLink weight scrape failed for part {part_id}.")
-                  print(f"[OK] BrickLink weight scrape ok ({part_id} -> {w}g).")
+                      fail(f"BrickLink weight scrape failed for {item_type}={item_id}.")
+                  print(f"[OK] BrickLink weight scrape ok ({item_type}={item_id} -> {w}g).")
                   time.sleep(1.5)
           except Exception as e:
               fail(f"BrickLink weight scrape failed: {type(e).__name__}: {e}")
 
-          # BrickLink item name scrape selftest (set)
+          # BrickLink item name scrape selftest (all item types)
           try:
-              for set_id in test_set_ids:
-                  name, weight = bricklink_scrape_item_name_and_weight(set_id, item_type="S", timeout_s=30)
+              for item_type, item_id in test_items:
+                  name, weight = bricklink_scrape_item_name_and_weight(item_id, item_type=item_type, timeout_s=30)
                   if not name:
-                      fail(f"BrickLink set name scrape failed for S={set_id}.")
-                  msg = f"[OK] BrickLink set name scrape ok (S={set_id} -> '{name}')"
+                      fail(f"BrickLink name scrape failed for {item_type}={item_id}.")
+                  msg = f"[OK] BrickLink name scrape ok ({item_type}={item_id} -> '{name}')"
                   if weight is not None:
                       msg += f" weight={weight}g"
                   print(msg)
