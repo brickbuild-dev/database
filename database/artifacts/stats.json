@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-02-06T03:25:35Z",
+  "created_at_utc": "2026-02-06T07:26:51Z",
   "rows": 242096,
   "distinct_parts": 168259,
   "item_type_counts": {
@@ -14,7 +14,7 @@
   },
   "null_counts": {
     "boid": 242096,
-    "weight_parts": 1563,
+    "weight_parts": 1550,
     "bo_color_id": 163057,
     "bk_color_id": 0,
     "bk_part_id": 0,
