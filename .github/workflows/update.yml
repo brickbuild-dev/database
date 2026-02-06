@@ -17,7 +17,7 @@ on:
         default: false
         type: boolean
       resume_until_done:
-        description: "Se true, limita runtime por run e auto-repete até terminar."
+        description: "Se true, limita runtime por run a 2h e auto-repete até terminar."
         required: false
         default: false
         type: boolean
@@ -421,6 +421,14 @@ jobs:
             --boid-safe
             --no-lock
           )
+          MAX_RUNTIME_SECONDS=0
+          if [ "${RESUME_MODE}" = "true" ]; then
+            MAX_RUNTIME_SECONDS=$((2*3600))
+          fi
+          echo "RESUME_MODE=${RESUME_MODE} -> MAX_RUNTIME_SECONDS=${MAX_RUNTIME_SECONDS}"
+          if [ "${MAX_RUNTIME_SECONDS}" -gt 0 ]; then
+            ARGS+=(--max-runtime-seconds "${MAX_RUNTIME_SECONDS}")
+          fi
           python "$V3" "${ARGS[@]}"
 
       - name: Commit and push mapping repo (only if mapping changed)
@@ -702,5 +710,5 @@ jobs:
           set -euo pipefail
           echo "Resume requested and missing data detected. Dispatching new run..."
           api="https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/update.yml/dispatches"
-          payload='{"ref":"'"${GITHUB_REF_NAME}"'","inputs":{"resume_until_done":"true","run_boid_weights":"'"${RUN_BOID_WEIGHTS}"'","run_max_minutes":"'"${RUN_MAX_MINUTES}"'"}}'
+          payload='{"ref":"'"${GITHUB_REF_NAME}"'","inputs":{"resume_until_done":"true","run_boid_weights":"'"${RUN_BOID_WEIGHTS}"'"}}'
           curl -fsSL -X POST -H "Authorization: Bearer ${GH_TOKEN}" -H "Accept: application/vnd.github+json" -d "$payload" "$api"
