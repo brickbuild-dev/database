@@ -21,11 +21,6 @@ on:
         required: false
         default: false
         type: boolean
-      quick_test_2min:
-        description: "Se true, limita o workflow a 2 minutos (teste rápido manual)."
-        required: false
-        default: false
-        type: boolean
 
 concurrency:
   group: brickovery-update
@@ -47,7 +42,6 @@ jobs:
     env:
       RESUME_MODE: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.resume_until_done == 'true') || github.event_name == 'schedule' }}
       RUN_BOID_WEIGHTS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_boid_weights || 'true' }}
-      QUICK_TEST_2MIN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.quick_test_2min || 'false' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -427,14 +421,6 @@ jobs:
             --boid-safe
             --no-lock
           )
-          MAX_RUNTIME_SECONDS=0
-          if [ "${QUICK_TEST_2MIN}" = "true" ]; then
-            MAX_RUNTIME_SECONDS=120
-          fi
-          echo "QUICK_TEST_2MIN=${QUICK_TEST_2MIN} -> MAX_RUNTIME_SECONDS=${MAX_RUNTIME_SECONDS}"
-          if [ "${MAX_RUNTIME_SECONDS}" -gt 0 ]; then
-            ARGS+=(--max-runtime-seconds "${MAX_RUNTIME_SECONDS}")
-          fi
           python "$V3" "${ARGS[@]}"
 
       - name: Commit and push mapping repo (only if mapping changed)
