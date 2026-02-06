@@ -397,7 +397,7 @@ jobs:
 
           LOCK="database/.build.lock"
           if [ -f "$LOCK" ]; then
-            pid="$(python -c 'import json; p="database/.build.lock"; try: d=json.load(open(p,"r",encoding="utf-8")); except Exception: d={}; print(d.get("pid","") or "")')"
+            pid="$(python -c "import re, pathlib; p=pathlib.Path('database/.build.lock'); s=p.read_text(encoding='utf-8') if p.exists() else ''; m=re.search(r'\"pid\"\\s*:\\s*(\\d+)', s); print(m.group(1) if m else '')")"
             if [ -n "$pid" ] && ps -p "$pid" >/dev/null 2>&1; then
               echo "::error::Build lock active (pid=$pid)."
               exit 2
@@ -407,7 +407,7 @@ jobs:
           fi
 
           MAX_RUNTIME_SECONDS=0
-          MAX_RUNTIME_SECONDS="$(python -c 'import os; v=os.environ.get("RUN_MAX_MINUTES","").strip(); m=0.0; try: m=float(v) if v else 0.0; except Exception: m=0.0; print(0 if m<=0 else int(m*60))')"
+          MAX_RUNTIME_SECONDS="$(python -c "import os, re; v=os.environ.get('RUN_MAX_MINUTES','').strip(); ok=bool(re.match(r'^\\d+(\\.\\d+)?$', v)); m=float(v) if ok else 0.0; print(0 if m<=0 else int(m*60))")"
           if [ "${MAX_RUNTIME_SECONDS}" -le 0 ] && [ "${RESUME_MODE}" = "true" ] && [ -z "${RUN_MAX_MINUTES}" ]; then
             MAX_RUNTIME_SECONDS=$((4*3600))
           fi
