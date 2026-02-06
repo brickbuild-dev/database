@@ -43,7 +43,7 @@ env:
 jobs:
   sync-and-build:
     runs-on: ubuntu-latest
-    timeout-minutes: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.run_max_minutes != '0' && github.event.inputs.run_max_minutes) || 720 }}
+    timeout-minutes: ${{ (github.event_name == 'workflow_dispatch' && (github.event.inputs.run_max_minutes || '0') != '0' && fromJSON(github.event.inputs.run_max_minutes || '0')) || 720 }}
     env:
       RESUME_MODE: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.resume_until_done == 'true') || github.event_name == 'schedule' }}
       RUN_BOID_WEIGHTS: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.run_boid_weights || 'true' }}
