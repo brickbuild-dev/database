@@ -263,6 +263,22 @@ def parse_int_any(v: Optional[str]) -> Optional[int]:
         return None
 
 
+def normalize_weight_value(value: Optional[float]) -> Optional[float | int]:
+    """Normalize weight to remove trailing .0 when integer."""
+    if value is None:
+        return None
+    try:
+        v = float(value)
+    except Exception:
+        return None
+    # Guard against NaN
+    if v != v:
+        return None
+    if abs(v - round(v)) < 1e-9:
+        return int(round(v))
+    return v
+
+
 def is_disallowed_bl_color_id(bl_color_id: int) -> bool:
     """Return True only when the BL color id is invalid/unparseable.
 
@@ -370,8 +386,10 @@ def apply_weights_from_csv(con, cur, weights_csv: Path, *, overwrite: bool, add_
                 # allow comma decimal
                 ws = ws.replace(',', '.')
                 try:
-                    wv = float(ws)
+                    wv = normalize_weight_value(float(ws))
                 except Exception:
+                    continue
+                if wv is None:
                     continue
                 batch.append((wv, bl))
                 if missing_parts is not None:
@@ -1200,7 +1218,7 @@ def bricklink_get_item_weight(bl_part_id: str, oauth: OAuth1, item_type: str = '
     if w is None or str(w).strip() == '':
         return None
     try:
-        return float(w)
+        return normalize_weight_value(float(w))
     except Exception:
         return None
 
@@ -1248,7 +1266,7 @@ def bricklink_get_item_weight_cached(
     cached = cache_get(cache, "weights", key)
     if cached is not None:
         try:
-            return float(cached)
+            return normalize_weight_value(float(cached))
         except Exception:
             return None
 
@@ -1258,7 +1276,7 @@ def bricklink_get_item_weight_cached(
     w = bricklink_get_item_weight(bl_part_id, oauth, item_type=item_type, timeout_s=timeout_s)
     if w is not None:
         try:
-            cache_set(cache, "weights", key, float(w), cache_state)
+            cache_set(cache, "weights", key, w, cache_state)
         except Exception:
             pass
     return w
@@ -1302,7 +1320,7 @@ def bricklink_scrape_item_weight(
         return None
     ws = m.group(1).replace(",", ".").strip()
     try:
-        return float(ws)
+        return normalize_weight_value(float(ws))
     except Exception:
         return None
 
@@ -1382,14 +1400,15 @@ def fill_missing_weights_from_bricklink_web(
                 errors += 1
             cache[key] = w
 
-        if w is None:
+        w_norm = normalize_weight_value(w) if w is not None else None
+        if w_norm is None:
             missing_parts += 1
         else:
             try:
                 cur.execute(
                     "UPDATE brickovery_db SET weight=? "
                     "WHERE bl_part_id=? AND item_type=? AND weight IS NULL",
-                    (float(w), part_id, item_type),
+                    (w_norm, part_id, item_type),
                 )
                 if cur.rowcount:
                     updated_rows += int(cur.rowcount)
@@ -1450,7 +1469,7 @@ def bricklink_scrape_item_name_and_weight(
     if m_w:
         ws = m_w.group(1).replace(",", ".").strip()
         try:
-            weight = float(ws)
+            weight = normalize_weight_value(float(ws))
         except Exception:
             weight = None
 
@@ -1468,35 +1487,51 @@ def fill_missing_names_from_bricklink_web(
     t0: float = 0.0,
     timeout_s: int = 30,
 ) -> Tuple[int, int]:
-    """Fill missing brikick_name for rows with missing name via BrickLink scraping."""
+    """Fill missing brikick_name and weight via BrickLink scraping."""
     try:
-        rows = cur.execute(
+        name_rows = cur.execute(
             "SELECT DISTINCT item_type, bl_part_id "
             "FROM brickovery_db "
             "WHERE bl_part_id IS NOT NULL "
             "AND (brikick_name IS NULL OR brikick_name='')"
         ).fetchall()
+        weight_rows = cur.execute(
+            "SELECT DISTINCT item_type, bl_part_id "
+            "FROM brickovery_db "
+            "WHERE bl_part_id IS NOT NULL "
+            "AND weight IS NULL"
+        ).fetchall()
     except Exception as e:
-        add_issue("WARN", "NAMES_WEB_QUERY_FAILED", "", f"Falha ao listar items sem name: {e}")
-        return 0
+        add_issue("WARN", "NAMES_WEB_QUERY_FAILED", "", f"Falha ao listar items sem name/weight: {e}")
+        return 0, 0
 
-    pairs = []
-    for r in rows:
+    name_pairs: Set[Tuple[str, str]] = set()
+    weight_pairs: Set[Tuple[str, str]] = set()
+    for r in name_rows:
         if not r or not r[1]:
             continue
         it = canon_item_type(r[0] if r[0] else "P")
-        pairs.append((it, str(r[1])))
+        name_pairs.add((it, str(r[1])))
+    for r in weight_rows:
+        if not r or not r[1]:
+            continue
+        it = canon_item_type(r[0] if r[0] else "P")
+        weight_pairs.add((it, str(r[1])))
+
+    pairs = sorted(name_pairs | weight_pairs)
 
     if not pairs:
-        return 0
+        return 0, 0
 
     updated_name_rows = 0
+    updated_weight_rows = 0
     missing_name = 0
+    missing_weight = 0
     errors = 0
 
     last_call = 0.0
     session = requests.Session()
-    cache: Dict[Tuple[str, str], Optional[str]] = {}
+    cache: Dict[Tuple[str, str], Tuple[Optional[str], Optional[float]]] = {}
 
     for i, (item_type, part_id) in enumerate(pairs, 1):
         if _STOP:
@@ -1507,14 +1542,14 @@ def fill_missing_names_from_bricklink_web(
 
         key = (item_type, part_id)
         if key in cache:
-            name = cache[key]
+            name, w = cache[key]
         else:
             dt = time.time() - last_call
             if dt < float(min_interval_s):
                 time.sleep(float(min_interval_s) - dt)
             last_call = time.time()
             try:
-                name, _weight = bricklink_scrape_item_name_and_weight(
+                name, w = bricklink_scrape_item_name_and_weight(
                     part_id,
                     item_type=item_type,
                     timeout_s=timeout_s,
@@ -1522,22 +1557,43 @@ def fill_missing_names_from_bricklink_web(
                 )
             except Exception:
                 name = None
+                w = None
                 errors += 1
-            cache[key] = name
+            cache[key] = (name, w)
 
-        if not name:
-            missing_name += 1
-        else:
-            try:
-                cur.execute(
-                    "UPDATE brickovery_db SET brikick_name=? "
-                    "WHERE bl_part_id=? AND item_type=? AND (brikick_name IS NULL OR brikick_name='')",
-                    (name, part_id, item_type),
-                )
-                if cur.rowcount:
-                    updated_name_rows += int(cur.rowcount)
-            except Exception:
-                errors += 1
+        need_name = key in name_pairs
+        need_weight = key in weight_pairs
+
+        if need_name:
+            if not name:
+                missing_name += 1
+            else:
+                try:
+                    cur.execute(
+                        "UPDATE brickovery_db SET brikick_name=? "
+                        "WHERE bl_part_id=? AND item_type=? AND (brikick_name IS NULL OR brikick_name='')",
+                        (name, part_id, item_type),
+                    )
+                    if cur.rowcount:
+                        updated_name_rows += int(cur.rowcount)
+                except Exception:
+                    errors += 1
+
+        if need_weight:
+            w_norm = normalize_weight_value(w) if w is not None else None
+            if w_norm is None:
+                missing_weight += 1
+            else:
+                try:
+                    cur.execute(
+                        "UPDATE brickovery_db SET weight=? "
+                        "WHERE bl_part_id=? AND item_type=? AND weight IS NULL",
+                        (w_norm, part_id, item_type),
+                    )
+                    if cur.rowcount:
+                        updated_weight_rows += int(cur.rowcount)
+                except Exception:
+                    errors += 1
 
         if commit_every and (i % int(commit_every) == 0):
             con.commit()
@@ -1547,10 +1603,11 @@ def fill_missing_names_from_bricklink_web(
         "INFO",
         "NAMES_WEB_DONE",
         "",
-        f"BrickLink name scrape: parts_missing_before={len(pairs)}, "
-        f"name_rows_updated={updated_name_rows}, missing_name={missing_name}, errors={errors}.",
+        f"BrickLink name/weight scrape: pairs_missing_before={len(pairs)}, "
+        f"name_rows_updated={updated_name_rows}, weight_rows_updated={updated_weight_rows}, "
+        f"missing_name={missing_name}, missing_weight={missing_weight}, errors={errors}.",
     )
-    return updated_name_rows
+    return updated_name_rows, updated_weight_rows
 
 
 # -----------------------------
@@ -2713,13 +2770,13 @@ def main() -> int:
         "--sets-scrape",
         dest="names_scrape",
         action="store_true",
-        help="(DEPRECATED) Use --names-scrape. Scrape name/weight para linhas com name em falta.",
+        help="(DEPRECATED) Use --names-scrape. Scrape name/weight para linhas com name ou weight em falta.",
     )
     ap.add_argument(
         "--names-scrape",
         dest="names_scrape",
         action="store_true",
-        help="Se definido, tenta preencher brikick_name em falta via scraping BrickLink usando item_type no URL.",
+        help="Se definido, tenta preencher brikick_name/weight em falta via scraping BrickLink usando item_type no URL.",
     )
     ap.add_argument(
         "--sets-scrape-delay",
@@ -3509,7 +3566,7 @@ def main() -> int:
                 wp = Path(args.weights_csv)
                 # Skip if nothing missing and not overwrite
                 try:
-                    missing_w = cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type='P'").fetchone()[0]
+                    missing_w = cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL").fetchone()[0]
                 except Exception:
                     missing_w = None
 
@@ -3521,7 +3578,7 @@ def main() -> int:
                     # Optional fallback: scrape BrickLink pages when requested (no API).
                     try:
                         missing_after_csv = cur.execute(
-                            "SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type='P'"
+                            "SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL"
                         ).fetchone()[0]
                     except Exception:
                         missing_after_csv = None
@@ -3548,7 +3605,7 @@ def main() -> int:
 
                             try:
                                 missing_after_scrape = cur.execute(
-                                    "SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type='P'"
+                                    "SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL"
                                 ).fetchone()[0]
                             except Exception:
                                 missing_after_scrape = None
@@ -3577,11 +3634,11 @@ def main() -> int:
 
 
         # -----------------
-        # NAMES: scrape brikick_name from BrickLink (optional)
+        # NAMES: scrape brikick_name + weight from BrickLink (optional)
         # -----------------
         if bool(getattr(args, "names_scrape", False)) and mode in ("all", "build", "boid", "export"):
             try:
-                print("[NAME] scraping BrickLink pages (brikick_name)...")
+                print("[NAME] scraping BrickLink pages (brikick_name + weight)...")
                 fill_missing_names_from_bricklink_web(
                     con,
                     cur,
