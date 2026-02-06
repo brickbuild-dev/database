@@ -1,0 +1,113 @@
+name: Brickovery - Selftest (BOID + Weight)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  selftest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            pip install requests requests-oauthlib
+          fi
+
+      - name: Selftest BOID + weight (BrickOwl + BrickLink web)
+        env:
+          BRICKOWL_API_KEY: ${{ secrets.BRICKOWL_API_KEY }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import os, sys, time
+          from brickovery_upstream_v3 import BrickOwlAPI, bricklink_scrape_item_weight, bricklink_scrape_item_name_and_weight
+
+          def fail(msg: str):
+              print(f"::error::{msg}")
+              raise SystemExit(2)
+
+          def parse_list(env_key: str, default: list[str]) -> list[str]:
+              raw = os.getenv(env_key, "").strip()
+              if not raw:
+                  return default
+              out = []
+              for part in raw.split(","):
+                  p = part.strip()
+                  if p:
+                      out.append(p)
+              return out or default
+
+          test_part_ids = parse_list(
+              "TEST_PART_IDS",
+              ["3001", "3002", "3003", "3004", "3005", "3006", "3007", "3008", "3009", "3010"],
+          )
+          test_set_ids = parse_list(
+              "TEST_SET_IDS",
+              ["60051-1", "60052-1", "60053-1", "60054-1", "60055-1", "60056-1", "60057-1", "60058-1", "60059-1", "60060-1"],
+          )
+
+          # BrickOwl BOID selftest (id_lookup + lookup)
+          key = os.getenv("BRICKOWL_API_KEY", "").strip()
+          if not key:
+              fail("BRICKOWL_API_KEY missing (required for BOID selftest).")
+
+          try:
+              bo = BrickOwlAPI(key)
+              for part_id in test_part_ids:
+                  boids = bo.catalog_id_lookup(id_value=part_id, item_type="Part", id_type="bl_item_no")
+                  if not boids:
+                      fail(f"BrickOwl id_lookup returned 0 BOIDs for bl_item_no={part_id}.")
+                  boid = str(boids[0]).strip()
+                  if not boid:
+                      fail(f"BrickOwl id_lookup returned empty BOID for bl_item_no={part_id}.")
+                  info = bo.catalog_lookup(boid)
+                  if isinstance(info, dict) and info.get("error"):
+                      fail(f"BrickOwl catalog_lookup returned error for BOID={boid}: {info.get('error')}")
+                  print(f"[OK] BrickOwl id_lookup+lookup ok (bl_item_no={part_id}, boid={boid}).")
+                  time.sleep(1.0)
+          except Exception as e:
+              fail(f"BrickOwl selftest failed: {type(e).__name__}: {e}")
+
+          # BrickLink weight scrape selftest
+          try:
+              for part_id in test_part_ids:
+                  w = bricklink_scrape_item_weight(part_id, item_type="P", timeout_s=30)
+                  if w is None:
+                      fail(f"BrickLink weight scrape failed for part {part_id}.")
+                  print(f"[OK] BrickLink weight scrape ok ({part_id} -> {w}g).")
+                  time.sleep(1.5)
+          except Exception as e:
+              fail(f"BrickLink weight scrape failed: {type(e).__name__}: {e}")
+
+          # BrickLink item name scrape selftest (set)
+          try:
+              for set_id in test_set_ids:
+                  name, weight = bricklink_scrape_item_name_and_weight(set_id, item_type="S", timeout_s=30)
+                  if not name:
+                      fail(f"BrickLink set name scrape failed for S={set_id}.")
+                  msg = f"[OK] BrickLink set name scrape ok (S={set_id} -> '{name}')"
+                  if weight is not None:
+                      msg += f" weight={weight}g"
+                  print(msg)
+                  time.sleep(1.5)
+          except Exception as e:
+              fail(f"BrickLink set name scrape failed: {type(e).__name__}: {e}")
+          PY

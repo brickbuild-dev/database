@@ -611,11 +611,11 @@ def iter_codes_xml(codes_xml: Path) -> Iterable[Tuple[str, str, str]]:
 
 
 def load_part_names(parts_xml: Path, *, add_issue=None) -> Dict[Tuple[str, str], str]:
-    """Return dict: (item_type, bl_part_id) -> part_name."""
+    """Return dict: (item_type, bl_part_id) -> brikick_name."""
     out: Dict[Tuple[str, str], str] = {}
     if not parts_xml.exists():
         if add_issue:
-            add_issue("WARN", "PARTS_XML_MISSING", str(parts_xml), "Parts.xml not found; part_name will remain NULL.")
+            add_issue("WARN", "PARTS_XML_MISSING", str(parts_xml), "Parts.xml not found; brikick_name will remain NULL.")
         return out
 
     ctx = ET.iterparse(str(parts_xml), events=("end",))
@@ -761,7 +761,7 @@ def ensure_all_items_present(
         if k in existing:
             continue
 
-        part_name = part_name_map.get((item_type, item_id)) if part_name_map else None
+        brikick_name = part_name_map.get((item_type, item_id)) if part_name_map else None
         element_id = element_id_map.get((item_type, item_id, int(placeholder_blc))) if element_id_map else None
         batch.append(
             (
@@ -774,7 +774,7 @@ def ensure_all_items_present(
                 placeholder_bk,
                 None,
                 None,
-                part_name,
+                brikick_name,
                 element_id,
             )
         )
@@ -786,7 +786,7 @@ def ensure_all_items_present(
                 INSERT OR IGNORE INTO brickovery_db(
                   bl_part_id, boid, bk_part_id, item_type,
                   bl_color_id, bo_color_id, bk_color_id,
-                  weight, bk_img_url, part_name, element_id
+                  weight, bk_img_url, brikick_name, element_id
                 ) VALUES (?,?,?,?,?,?,?,?,?,?,?)
                 """,
                 batch,
@@ -800,7 +800,7 @@ def ensure_all_items_present(
             INSERT OR IGNORE INTO brickovery_db(
               bl_part_id, boid, bk_part_id, item_type,
               bl_color_id, bo_color_id, bk_color_id,
-              weight, bk_img_url, part_name, element_id
+              weight, bk_img_url, brikick_name, element_id
             ) VALUES (?,?,?,?,?,?,?,?,?,?,?)
             """,
             batch,
@@ -823,7 +823,7 @@ def apply_part_metadata(
     add_issue=None,
     batch_size: int = 50000,
 ) -> Tuple[int, int]:
-    """Backfill part_name and element_id in DB from upstream mappings."""
+    """Backfill brikick_name and element_id in DB from upstream mappings."""
     updated_names = 0
     updated_elements = 0
 
@@ -837,8 +837,8 @@ def apply_part_metadata(
                 cur.executemany(
                     """
                     UPDATE brickovery_db
-                    SET part_name=?
-                    WHERE item_type=? AND bl_part_id=? AND (part_name IS NULL OR part_name='')
+                    SET brikick_name=?
+                    WHERE item_type=? AND bl_part_id=? AND (brikick_name IS NULL OR brikick_name='')
                     """,
                     batch,
                 )
@@ -849,8 +849,8 @@ def apply_part_metadata(
             cur.executemany(
                 """
                 UPDATE brickovery_db
-                SET part_name=?
-                WHERE item_type=? AND bl_part_id=? AND (part_name IS NULL OR part_name='')
+                SET brikick_name=?
+                WHERE item_type=? AND bl_part_id=? AND (brikick_name IS NULL OR brikick_name='')
                 """,
                 batch,
             )
@@ -892,7 +892,7 @@ def apply_part_metadata(
             "INFO",
             "PART_METADATA_APPLIED",
             "",
-            f"part_name_updated={updated_names} element_id_updated={updated_elements}",
+            f"brikick_name_updated={updated_names} element_id_updated={updated_elements}",
         )
         con.commit()
 
@@ -1411,14 +1411,15 @@ def fill_missing_weights_from_bricklink_web(
     return updated_rows
 
 
-def bricklink_scrape_set_name_and_weight(
+def bricklink_scrape_item_name_and_weight(
     bl_part_id: str,
     *,
+    item_type: str = "P",
     timeout_s: int = 30,
     session: Optional[requests.Session] = None,
 ) -> Tuple[Optional[str], Optional[float]]:
-    """Scrape BrickLink catalog page for a SET (S) and extract name + weight."""
-    url = _bricklink_catalog_item_url(bl_part_id, item_type="S")
+    """Scrape BrickLink catalog page and extract name + weight."""
+    url = _bricklink_catalog_item_url(bl_part_id, item_type=item_type)
     headers = {
         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         "Accept-Language": "en-US,en;q=0.9",
@@ -1456,7 +1457,7 @@ def bricklink_scrape_set_name_and_weight(
     return name, weight
 
 
-def fill_missing_set_fields_from_bricklink_web(
+def fill_missing_names_from_bricklink_web(
     con,
     cur,
     *,
@@ -1467,82 +1468,74 @@ def fill_missing_set_fields_from_bricklink_web(
     t0: float = 0.0,
     timeout_s: int = 30,
 ) -> Tuple[int, int]:
-    """Fill missing part_name/weight for item_type='S' via BrickLink scraping."""
+    """Fill missing brikick_name for rows with missing name via BrickLink scraping."""
     try:
         rows = cur.execute(
-            "SELECT DISTINCT bl_part_id "
+            "SELECT DISTINCT item_type, bl_part_id "
             "FROM brickovery_db "
-            "WHERE item_type='S' AND bl_part_id IS NOT NULL "
-            "AND ((part_name IS NULL OR part_name='') OR weight IS NULL)"
+            "WHERE bl_part_id IS NOT NULL "
+            "AND (brikick_name IS NULL OR brikick_name='')"
         ).fetchall()
     except Exception as e:
-        add_issue("WARN", "SETS_WEB_QUERY_FAILED", "", f"Falha ao listar sets sem name/weight: {e}")
-        return (0, 0)
+        add_issue("WARN", "NAMES_WEB_QUERY_FAILED", "", f"Falha ao listar items sem name: {e}")
+        return 0
 
-    parts = [str(r[0]) for r in rows if r and r[0]]
-    if not parts:
-        return (0, 0)
+    pairs = []
+    for r in rows:
+        if not r or not r[1]:
+            continue
+        it = canon_item_type(r[0] if r[0] else "P")
+        pairs.append((it, str(r[1])))
+
+    if not pairs:
+        return 0
 
     updated_name_rows = 0
-    updated_weight_rows = 0
     missing_name = 0
-    missing_weight = 0
     errors = 0
 
     last_call = 0.0
     session = requests.Session()
-    cache: Dict[str, Tuple[Optional[str], Optional[float]]] = {}
+    cache: Dict[Tuple[str, str], Optional[str]] = {}
 
-    for i, part_id in enumerate(parts, 1):
+    for i, (item_type, part_id) in enumerate(pairs, 1):
         if _STOP:
             break
         if max_runtime_seconds and t0 and (now_s() - float(t0)) > float(max_runtime_seconds):
-            add_issue("WARN", "SETS_WEB_STOP_MAX_RUNTIME", "", f"Parado por max-runtime-seconds após {i-1} sets.")
+            add_issue("WARN", "NAMES_WEB_STOP_MAX_RUNTIME", "", f"Parado por max-runtime-seconds após {i-1} itens.")
             break
 
-        if part_id in cache:
-            name, weight = cache[part_id]
+        key = (item_type, part_id)
+        if key in cache:
+            name = cache[key]
         else:
             dt = time.time() - last_call
             if dt < float(min_interval_s):
                 time.sleep(float(min_interval_s) - dt)
             last_call = time.time()
             try:
-                name, weight = bricklink_scrape_set_name_and_weight(
+                name, _weight = bricklink_scrape_item_name_and_weight(
                     part_id,
+                    item_type=item_type,
                     timeout_s=timeout_s,
                     session=session,
                 )
             except Exception:
-                name, weight = None, None
+                name = None
                 errors += 1
-            cache[part_id] = (name, weight)
+            cache[key] = name
 
-        if name is None:
+        if not name:
             missing_name += 1
         else:
             try:
                 cur.execute(
-                    "UPDATE brickovery_db SET part_name=? "
-                    "WHERE bl_part_id=? AND item_type='S' AND (part_name IS NULL OR part_name='')",
-                    (name, part_id),
+                    "UPDATE brickovery_db SET brikick_name=? "
+                    "WHERE bl_part_id=? AND item_type=? AND (brikick_name IS NULL OR brikick_name='')",
+                    (name, part_id, item_type),
                 )
                 if cur.rowcount:
                     updated_name_rows += int(cur.rowcount)
-            except Exception:
-                errors += 1
-
-        if weight is None:
-            missing_weight += 1
-        else:
-            try:
-                cur.execute(
-                    "UPDATE brickovery_db SET weight=? "
-                    "WHERE bl_part_id=? AND item_type='S' AND weight IS NULL",
-                    (float(weight), part_id),
-                )
-                if cur.rowcount:
-                    updated_weight_rows += int(cur.rowcount)
             except Exception:
                 errors += 1
 
@@ -1552,13 +1545,12 @@ def fill_missing_set_fields_from_bricklink_web(
     con.commit()
     add_issue(
         "INFO",
-        "SETS_WEB_DONE",
+        "NAMES_WEB_DONE",
         "",
-        f"BrickLink set scrape: parts_missing_before={len(parts)}, "
-        f"name_rows_updated={updated_name_rows}, weight_rows_updated={updated_weight_rows}, "
-        f"missing_name={missing_name}, missing_weight={missing_weight}, errors={errors}.",
+        f"BrickLink name scrape: parts_missing_before={len(pairs)}, "
+        f"name_rows_updated={updated_name_rows}, missing_name={missing_name}, errors={errors}.",
     )
-    return updated_name_rows, updated_weight_rows
+    return updated_name_rows
 
 
 # -----------------------------
@@ -2683,7 +2675,7 @@ def main() -> int:
     ap.add_argument("--bl-colors-xml", help="BrickStore/BrickLink colors.xml (from upstream .zip)")
     ap.add_argument("--items-dir", help="Directory containing upstream items/*.xml (from upstream .zip) to ensure all item IDs exist in DB (placeholder bl_color_id=0).")
     ap.add_argument("--color-map", help="Color map CSV (recommended: your colors_seed.csv) with bl_color_id -> bo_color_id/bk_color_id")
-    ap.add_argument("--bl-parts-xml", default="inputs/bricklink/Parts.xml", help="BrickLink Parts.xml (from upstream .zip) for part_name.")
+    ap.add_argument("--bl-parts-xml", default="inputs/bricklink/Parts.xml", help="BrickLink Parts.xml (from upstream .zip) for brikick_name.")
     ap.add_argument("--bl-element-codes-xml", default="inputs/bricklink/codes.xml", help="BrickLink codes.xml (from upstream .zip) for element_id (codename).")
 
     # Outputs / DB (sempre necessários)
@@ -2719,20 +2711,43 @@ def main() -> int:
     )
     ap.add_argument(
         "--sets-scrape",
+        dest="names_scrape",
         action="store_true",
-        help="Se definido, tenta preencher part_name/weight em falta para item_type='S' via scraping BrickLink.",
+        help="(DEPRECATED) Use --names-scrape. Scrape name/weight para linhas com name em falta.",
+    )
+    ap.add_argument(
+        "--names-scrape",
+        dest="names_scrape",
+        action="store_true",
+        help="Se definido, tenta preencher brikick_name em falta via scraping BrickLink usando item_type no URL.",
     )
     ap.add_argument(
         "--sets-scrape-delay",
+        dest="names_scrape_delay",
         type=float,
         default=1.5,
-        help="Delay (segundos) entre requests de scraping BrickLink para sets.",
+        help="Delay (segundos) entre requests de scraping BrickLink (names).",
+    )
+    ap.add_argument(
+        "--names-scrape-delay",
+        dest="names_scrape_delay",
+        type=float,
+        default=1.5,
+        help="Delay (segundos) entre requests de scraping BrickLink (names).",
     )
     ap.add_argument(
         "--sets-scrape-timeout",
+        dest="names_scrape_timeout",
         type=int,
         default=30,
-        help="Timeout (segundos) para requests de scraping BrickLink para sets.",
+        help="Timeout (segundos) para requests de scraping BrickLink (names).",
+    )
+    ap.add_argument(
+        "--names-scrape-timeout",
+        dest="names_scrape_timeout",
+        type=int,
+        default=30,
+        help="Timeout (segundos) para requests de scraping BrickLink (names).",
     )
 
     ap.add_argument("--strict", action="store_true", help="Falha apenas se existirem ERROR (WARN não falha).")
@@ -2996,11 +3011,11 @@ def main() -> int:
 
         if parts_xml and parts_xml.exists():
             part_name_map = load_part_names(parts_xml, add_issue=add_issue)
-            add_issue("INFO", "PART_NAMES_LOADED", str(parts_xml), f"Loaded {len(part_name_map)} part names.")
+            add_issue("INFO", "PART_NAMES_LOADED", str(parts_xml), f"Loaded {len(part_name_map)} brikick_name entries.")
             con.commit()
         else:
             if mode in ("all", "build"):
-                add_issue("WARN", "PARTS_XML_MISSING", str(parts_xml) if parts_xml else "", "Parts.xml não encontrado; part_name ficará NULL.")
+                add_issue("WARN", "PARTS_XML_MISSING", str(parts_xml) if parts_xml else "", "Parts.xml não encontrado; brikick_name ficará NULL.")
                 con.commit()
 
         if element_codes_xml and element_codes_xml.exists():
@@ -3060,7 +3075,7 @@ def main() -> int:
                     break
                 processed += 1
 
-                part_name = part_name_map.get((canon_item_type(itemtype), bl_part_id)) if part_name_map else None
+                brikick_name = part_name_map.get((canon_item_type(itemtype), bl_part_id)) if part_name_map else None
 
                 if args.max_items and processed > args.max_items:
                     add_issue("WARN", "DEBUG_MAX_ITEMS", "", f"Paragem por --max-items={args.max_items}.")
@@ -3102,7 +3117,7 @@ def main() -> int:
                                     bk_c = bl_to_bk.get(blc)
                                     element_id = element_id_map.get((item_type, bl_part_id, int(blc))) if element_id_map else None
                                     batch_rows.append(
-                                        (bl_part_id, None, None, item_type, int(blc), bo_c, bk_c, None, None, part_name, element_id)
+                                        (bl_part_id, None, None, item_type, int(blc), bo_c, bk_c, None, None, brikick_name, element_id)
                                     )
                                     inserted += 1
                         except Exception as e:
@@ -3125,7 +3140,7 @@ def main() -> int:
 
                 element_id = element_id_map.get((item_type, bl_part_id, int(bl_color_id))) if element_id_map else None
                 batch_rows.append(
-                    (bl_part_id, None, None, item_type, int(bl_color_id), bo_c, bk_c, None, None, part_name, element_id)
+                    (bl_part_id, None, None, item_type, int(bl_color_id), bo_c, bk_c, None, None, brikick_name, element_id)
                 )
                 inserted += 1
 
@@ -3136,7 +3151,7 @@ def main() -> int:
                         INSERT OR REPLACE INTO brickovery_db(
                           bl_part_id, boid, bk_part_id, item_type,
                           bl_color_id, bo_color_id, bk_color_id,
-                          weight, bk_img_url, part_name, element_id
+                          weight, bk_img_url, brikick_name, element_id
                         ) VALUES (?,?,?,?,?,?,?,?,?,?,?)
                         """,
                         batch_rows,
@@ -3169,7 +3184,7 @@ def main() -> int:
                     INSERT OR REPLACE INTO brickovery_db(
                           bl_part_id, boid, bk_part_id, item_type,
                           bl_color_id, bo_color_id, bk_color_id,
-                          weight, bk_img_url, part_name, element_id
+                          weight, bk_img_url, brikick_name, element_id
                         ) VALUES (?,?,?,?,?,?,?,?,?,?,?)
                     """,
                     batch_rows,
@@ -3209,7 +3224,7 @@ def main() -> int:
             )
 
         # -----------------
-        # Part metadata (part_name + element_id)
+        # Part metadata (brikick_name + element_id)
         # -----------------
         if mode in ("all", "build", "boid", "export"):
             try:
@@ -3223,101 +3238,6 @@ def main() -> int:
             except Exception as e:
                 add_issue("WARN", "PART_METADATA_APPLY_FAILED", "", f"{type(e).__name__}: {e}")
                 con.commit()
-
-        # -----------------
-        # SETS: scrape part_name + weight from BrickLink (optional)
-        # -----------------
-        if args.sets_scrape and mode in ("all", "build", "boid", "export"):
-            try:
-                print("[SET] scraping BrickLink set pages (part_name + weight)...")
-                fill_missing_set_fields_from_bricklink_web(
-                    con,
-                    cur,
-                    add_issue=add_issue,
-                    min_interval_s=float(args.sets_scrape_delay),
-                    commit_every=200,
-                    max_runtime_seconds=float(args.max_runtime_seconds or 0),
-                    t0=t0,
-                    timeout_s=int(args.sets_scrape_timeout),
-                )
-                con.commit()
-            except Exception as e:
-                add_issue("WARN", "SETS_WEB_APPLY_FAILED", "", f"Falha ao aplicar set scrape: {e}")
-                con.commit()
-        # -----------------
-        # WEIGHTS (apply from inputs/bricklink/parts_weight.csv by default)
-        # -----------------
-        if (not args.skip_weights) and mode in ("all", "build", "boid", "export"):
-            try:
-                wp = Path(args.weights_csv)
-                # Skip if nothing missing and not overwrite
-                try:
-                    missing_w = cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type='P'").fetchone()[0]
-                except Exception:
-                    missing_w = None
-
-                if args.weights_overwrite or (missing_w is None) or (int(missing_w) > 0):
-                    print(f"[WEIGHT] applying weights from: {wp} (missing={missing_w})")
-                    apply_weights_from_csv(con, cur, wp, overwrite=bool(args.weights_overwrite), add_issue=add_issue)
-                    con.commit()
-
-                    # Optional fallback: scrape BrickLink pages when requested (no API).
-                    try:
-                        missing_after_csv = cur.execute(
-                            "SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type='P'"
-                        ).fetchone()[0]
-                    except Exception:
-                        missing_after_csv = None
-
-                    if missing_after_csv is not None and int(missing_after_csv) > 0:
-                        if args.weights_scrape:
-                            try:
-                                print("[WEIGHT] scraping BrickLink pages (no API)...")
-                                fill_missing_weights_from_bricklink_web(
-                                    con,
-                                    cur,
-                                    add_issue=add_issue,
-                                    min_interval_s=float(args.weights_scrape_delay),
-                                    commit_every=200,
-                                    max_runtime_seconds=float(args.max_runtime_seconds or 0),
-                                    t0=t0,
-                                    timeout_s=int(args.weights_scrape_timeout),
-                                    exclude_item_types={"S"} if args.sets_scrape else None,
-                                )
-                                con.commit()
-                            except Exception as e:
-                                add_issue("WARN", "WEIGHTS_WEB_APPLY_FAILED", "", f"Falha ao aplicar weights via scraping: {e}")
-                                con.commit()
-
-                            try:
-                                missing_after_scrape = cur.execute(
-                                    "SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type='P'"
-                                ).fetchone()[0]
-                            except Exception:
-                                missing_after_scrape = None
-
-                            if missing_after_scrape is not None and int(missing_after_scrape) > 0:
-                                add_issue(
-                                    "INFO",
-                                    "WEIGHTS_MISSING_AFTER_WEB",
-                                    "",
-                                    f"weights em falta permanecem NULL após scraping. missing={missing_after_scrape}",
-                                )
-                                con.commit()
-                        else:
-                            add_issue(
-                                "INFO",
-                                "WEIGHTS_MISSING_AFTER_CSV",
-                                "",
-                                f"weights em falta permanecem NULL (sem fallback). missing={missing_after_csv}",
-                            )
-                            con.commit()
-                else:
-                    print("[WEIGHT] skip (weight já preenchido)")
-            except Exception as e:
-                add_issue("WARN", "WEIGHTS_APPLY_FAILED", "", f"Falha ao aplicar weights: {e}")
-                con.commit()
-
 
         # -----------------
         # BOID resolution (resume)
@@ -3581,6 +3501,101 @@ def main() -> int:
                 add_issue("INFO", "BRICKOWL_BOID_RESOLVE_DONE", "", f"BOID resolve terminado. Updated_pairs={updated}/{total_pairs}.")
                 con.commit()
 
+        # -----------------
+        # WEIGHTS (apply from inputs/bricklink/parts_weight.csv by default)
+        # -----------------
+        if (not args.skip_weights) and mode in ("all", "build", "boid", "export"):
+            try:
+                wp = Path(args.weights_csv)
+                # Skip if nothing missing and not overwrite
+                try:
+                    missing_w = cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type='P'").fetchone()[0]
+                except Exception:
+                    missing_w = None
+
+                if args.weights_overwrite or (missing_w is None) or (int(missing_w) > 0):
+                    print(f"[WEIGHT] applying weights from: {wp} (missing={missing_w})")
+                    apply_weights_from_csv(con, cur, wp, overwrite=bool(args.weights_overwrite), add_issue=add_issue)
+                    con.commit()
+
+                    # Optional fallback: scrape BrickLink pages when requested (no API).
+                    try:
+                        missing_after_csv = cur.execute(
+                            "SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type='P'"
+                        ).fetchone()[0]
+                    except Exception:
+                        missing_after_csv = None
+
+                    if missing_after_csv is not None and int(missing_after_csv) > 0:
+                        if args.weights_scrape:
+                            try:
+                                print("[WEIGHT] scraping BrickLink pages (no API)...")
+                                fill_missing_weights_from_bricklink_web(
+                                    con,
+                                    cur,
+                                    add_issue=add_issue,
+                                    min_interval_s=float(args.weights_scrape_delay),
+                                    commit_every=200,
+                                    max_runtime_seconds=float(args.max_runtime_seconds or 0),
+                                    t0=t0,
+                                    timeout_s=int(args.weights_scrape_timeout),
+                                    exclude_item_types=None,
+                                )
+                                con.commit()
+                            except Exception as e:
+                                add_issue("WARN", "WEIGHTS_WEB_APPLY_FAILED", "", f"Falha ao aplicar weights via scraping: {e}")
+                                con.commit()
+
+                            try:
+                                missing_after_scrape = cur.execute(
+                                    "SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL AND item_type='P'"
+                                ).fetchone()[0]
+                            except Exception:
+                                missing_after_scrape = None
+
+                            if missing_after_scrape is not None and int(missing_after_scrape) > 0:
+                                add_issue(
+                                    "INFO",
+                                    "WEIGHTS_MISSING_AFTER_WEB",
+                                    "",
+                                    f"weights em falta permanecem NULL após scraping. missing={missing_after_scrape}",
+                                )
+                                con.commit()
+                        else:
+                            add_issue(
+                                "INFO",
+                                "WEIGHTS_MISSING_AFTER_CSV",
+                                "",
+                                f"weights em falta permanecem NULL (sem fallback). missing={missing_after_csv}",
+                            )
+                            con.commit()
+                else:
+                    print("[WEIGHT] skip (weight já preenchido)")
+            except Exception as e:
+                add_issue("WARN", "WEIGHTS_APPLY_FAILED", "", f"Falha ao aplicar weights: {e}")
+                con.commit()
+
+
+        # -----------------
+        # NAMES: scrape brikick_name from BrickLink (optional)
+        # -----------------
+        if bool(getattr(args, "names_scrape", False)) and mode in ("all", "build", "boid", "export"):
+            try:
+                print("[NAME] scraping BrickLink pages (brikick_name)...")
+                fill_missing_names_from_bricklink_web(
+                    con,
+                    cur,
+                    add_issue=add_issue,
+                    min_interval_s=float(args.names_scrape_delay),
+                    commit_every=200,
+                    max_runtime_seconds=float(args.max_runtime_seconds or 0),
+                    t0=t0,
+                    timeout_s=int(args.names_scrape_timeout),
+                )
+                con.commit()
+            except Exception as e:
+                add_issue("WARN", "NAMES_WEB_APPLY_FAILED", "", f"Falha ao aplicar name scrape: {e}")
+                con.commit()
         # -----------------
         # Post-build indexes (after bulk load / boid / weights)
         # -----------------
