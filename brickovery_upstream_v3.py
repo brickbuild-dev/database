@@ -2140,7 +2140,7 @@ def resolve_boid_for_pair(
     country: str = "PT",
     validate_availability: bool = False,
     safe_mode: bool = False,
-) -> Optional[str]:
+) -> Optional[Tuple[str, int]]:
     """Resolve BOID for (bl_part_id, bo_color_id) sem "forçar" cor.
 
     Problema observado (real): o BrickOwl tem casos em que o BOID válido é um número "base" (sem "-<cor>")
@@ -2158,7 +2158,7 @@ def resolve_boid_for_pair(
          - lookup expõe lista de cores que inclui bo_color_id; OU
          - (caso especial) BOID base único (id_lookup devolveu 1 candidato) e lookup valida mas color_id é 0/None.
 
-    Retorna BOID validado (string) ou None.
+    Retorna (boid, bo_color_id_resolvido) ou None.
     """
 
     bl_part_id = str(bl_part_id).strip()
@@ -2169,14 +2169,12 @@ def resolve_boid_for_pair(
         bo_color_id_i = int(bo_color_id)
     except Exception:
         return None
+    target_unknown = bool(bo_color_id_i < 0)
 
     it = canon_item_type(item_type)
     cache_key = f"boid_resolve:{it}:{bl_part_id}-{bo_color_id_i}"
-    cached = bo_api.cache.get(cache_key)
-    if cached:
-        return str(cached)
 
-    target_suffix = f"-{bo_color_id_i}"
+    target_suffix = None if target_unknown else f"-{bo_color_id_i}"
 
     def _unwrap(obj):
         """Normalize BrickOwl payloads that sometimes wrap results under 'data'/'result' keys."""
@@ -2236,6 +2234,19 @@ def resolve_boid_for_pair(
                             pass
         return out
 
+    def _infer_boid_color(boid: str) -> Optional[int]:
+        """Infer color id from BOID suffix when possible (e.g., 3001-7 -> 7)."""
+        b = str(boid).strip()
+        if not b or "-" not in b:
+            return None
+        tail = b.rsplit("-", 1)[-1].strip()
+        if tail == "":
+            return None
+        try:
+            return int(tail)
+        except Exception:
+            return None
+
     def _extract_lookup_ids(info: Optional[dict]) -> List[Tuple[str, str]]:
         out: List[Tuple[str, str]] = []
         if not isinstance(info, dict):
@@ -2287,64 +2298,135 @@ def resolve_boid_for_pair(
 
         return True, raw if isinstance(raw, dict) else None
 
-    def _accept(boid: str, info: Optional[dict], origin: str, *, id_lookup_count: int) -> Optional[str]:
+    cached = bo_api.cache.get(cache_key)
+    if cached:
+        b = str(cached).strip()
+        if b:
+            inferred = _infer_boid_color(b)
+            if inferred is not None:
+                return b, int(inferred)
+            if target_unknown:
+                return b, 0
+            return b, int(bo_color_id_i if bo_color_id_i >= 0 else 0)
+
+    def _accept(boid: str, info: Optional[dict], origin: str, *, id_lookup_count: int) -> Optional[Tuple[str, int]]:
         b = str(boid).strip()
         if not b:
             return None
 
-        # Fast accept by suffix (quando existe)
-        if b.endswith(target_suffix):
-            bo_api.cache[cache_key] = b
-            issues_add("INFO", "BRICKOWL_BOID_OK", f"{bl_part_id}|{bo_color_id_i}", f"BOID validado ({origin}): {b}")
-            return b
-
         cid = _extract_color_id(info)
-        if cid is not None and int(cid) == bo_color_id_i:
-            bo_api.cache[cache_key] = b
-            issues_add("INFO", "BRICKOWL_BOID_OK", f"{bl_part_id}|{bo_color_id_i}", f"BOID validado ({origin}): {b}")
-            return b
-
-        # If lookup exposes available colors, use as a hint.
         hints = _extract_color_hints(info)
-        if hints:
-            if bo_color_id_i in hints:
-                bo_api.cache[cache_key] = b
-                issues_add(
-                    "INFO",
-                    "BRICKOWL_BOID_OK_BY_COLORS_HINT",
-                    f"{bl_part_id}|{bo_color_id_i}",
-                    f"BOID validado por hint de cores ({origin}): {b} (hints={len(hints)})",
-                )
-                return b
-            else:
-                # record mismatch but keep searching
-                issues_add(
-                    "INFO",
-                    "BRICKOWL_LOOKUP_AVAILABLE_COLORS",
-                    f"{bl_part_id}|{bo_color_id_i}",
-                    f"Lookup expôs cores mas não inclui target={bo_color_id_i} ({origin}) boid={b}",
-                )
+        boid_color = _infer_boid_color(b)
 
-        # Special case: uncolored/base BOID.
-        # Observed: lookup color_id=0 (ou ausente) mas BOID é utilizável e existe no BrickOwl.
-        if ("-" not in b) and (cid is None or int(cid) == 0) and int(id_lookup_count) == 1:
+        accepted = False
+        accepted_by_hint = False
+        reason = ""
+
+        if target_unknown:
+            if cid is not None:
+                accepted = True
+                reason = "api_color"
+            elif boid_color is not None:
+                accepted = True
+                reason = "boid_suffix"
+            elif ("-" not in b) and (cid is None or int(cid) == 0):
+                accepted = True
+                reason = "uncolored"
+            elif hints and len(hints) == 1:
+                accepted = True
+                accepted_by_hint = True
+                reason = "hint_single"
+        else:
+            # Fast accept by suffix (quando existe)
+            if target_suffix and b.endswith(target_suffix):
+                accepted = True
+                reason = "suffix"
+            elif cid is not None and int(cid) == bo_color_id_i:
+                accepted = True
+                reason = "api_color"
+            elif hints:
+                if bo_color_id_i in hints:
+                    accepted = True
+                    accepted_by_hint = True
+                    reason = "hint"
+                else:
+                    # record mismatch but keep searching
+                    issues_add(
+                        "INFO",
+                        "BRICKOWL_LOOKUP_AVAILABLE_COLORS",
+                        f"{bl_part_id}|{bo_color_id_i}",
+                        f"Lookup expôs cores mas não inclui target={bo_color_id_i} ({origin}) boid={b}",
+                    )
+
+            # Special case: uncolored/base BOID.
+            # Observed: lookup color_id=0 (ou ausente) mas BOID é utilizável e existe no BrickOwl.
+            if (not accepted) and ("-" not in b) and (cid is None or int(cid) == 0) and int(id_lookup_count) == 1:
+                accepted = True
+                reason = "uncolored"
+
+        if not accepted:
+            if (cid is not None) and (not target_unknown) and int(cid) != bo_color_id_i:
+                issues_add(
+                    "INFO",
+                    "BRICKOWL_BOID_COLOR_MISMATCH",
+                    f"{bl_part_id}|{bo_color_id_i}",
+                    f"BOID validou mas cor diferente (lookup color_id={cid}, target={bo_color_id_i}) boid={b} origin={origin}",
+                )
+            return None
+
+        # Resolve final bo_color_id based on API response (preferred), then BOID suffix.
+        resolved_color = None
+        if cid is not None:
+            resolved_color = int(cid)
+        elif boid_color is not None:
+            resolved_color = int(boid_color)
+        elif accepted_by_hint and (not target_unknown):
+            resolved_color = int(bo_color_id_i)
+        elif accepted_by_hint and target_unknown and hints and len(hints) == 1:
+            resolved_color = int(list(hints)[0])
+
+        if resolved_color is None:
+            resolved_color = 0
+
+        # Cache BOID for both original and resolved color keys.
+        try:
             bo_api.cache[cache_key] = b
+            bo_api.cache[f"boid_resolve:{it}:{bl_part_id}-{int(resolved_color)}"] = b
+        except Exception:
+            pass
+
+        # Logging
+        if reason == "hint":
+            issues_add(
+                "INFO",
+                "BRICKOWL_BOID_OK_BY_COLORS_HINT",
+                f"{bl_part_id}|{bo_color_id_i}",
+                f"BOID validado por hint de cores ({origin}): {b} (hints={len(hints)}) -> bo_color_id={resolved_color}",
+            )
+        elif reason == "uncolored":
             issues_add(
                 "INFO",
                 "BRICKOWL_BOID_OK_UNCOLORED_UNIQUE",
                 f"{bl_part_id}|{bo_color_id_i}",
-                f"Aceite BOID base único sem cor explícita (color_id={cid}) ({origin}): {b}",
+                f"Aceite BOID base sem cor explícita (color_id={cid}) ({origin}): {b} -> bo_color_id={resolved_color}",
             )
-            return b
-
-        if cid is not None and int(cid) != bo_color_id_i:
+        else:
             issues_add(
                 "INFO",
-                "BRICKOWL_BOID_COLOR_MISMATCH",
+                "BRICKOWL_BOID_OK",
                 f"{bl_part_id}|{bo_color_id_i}",
-                f"BOID validou mas cor diferente (lookup color_id={cid}, target={bo_color_id_i}) boid={b} origin={origin}",
+                f"BOID validado ({origin}): {b} -> bo_color_id={resolved_color}",
             )
-        return None
+
+        if (not target_unknown) and int(resolved_color) != int(bo_color_id_i):
+            issues_add(
+                "INFO",
+                "BRICKOWL_BOID_COLOR_CORRECTED",
+                f"{bl_part_id}|{bo_color_id_i}",
+                f"bo_color_id corrigido por API: {bo_color_id_i} -> {resolved_color} (boid={b})",
+            )
+
+        return b, int(resolved_color)
 
     # --------------------
     # Step 1: /catalog/id_lookup by BL item id
@@ -3642,18 +3724,12 @@ def main() -> int:
                     if bo_color_id_eff is None and it != "P":
                         # Non-part items are typically uncolored; allow base BOID resolution.
                         bo_color_id_eff = 0
-
-                    if bo_color_id_eff is None:
-                        add_issue(
-                            "WARN",
-                            "BRICKOWL_BO_COLOR_ID_MISSING",
-                            f"{bl_part_id}|{it}",
-                            "Sem bo_color_id (mapeamento BL->BO indisponível e DB não tem valor).",
-                        )
-                        continue
+                    if bo_color_id_eff is None and it == "P":
+                        # Unknown color for part: allow API to decide and correct bo_color_id.
+                        bo_color_id_eff = -1
 
                     try:
-                        boid = resolve_boid_for_pair(
+                        res = resolve_boid_for_pair(
                             bo_api,
                             str(bl_part_id),
                             int(bo_color_id_eff),
@@ -3665,18 +3741,21 @@ def main() -> int:
                         )
                     except Exception as e:
                         add_issue("WARN", "BRICKOWL_BOID_RESOLVE_FAILED", f"{bl_part_id}|{bo_color_id_eff}", f"Falha boid resolve: {e}")
-                        boid = None
+                        res = None
 
-                    if boid:
+                    if res:
+                        boid, bo_color_resolved = res
+                        if bo_color_resolved is None:
+                            bo_color_resolved = bo_color_id_eff if bo_color_id_eff is not None else 0
                         if blc is not None:
                             cur.execute(
                                 "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bl_color_id=? AND item_type=?",
-                                (str(boid), int(bo_color_id_eff), str(bl_part_id), int(blc), it),
+                                (str(boid), int(bo_color_resolved), str(bl_part_id), int(blc), it),
                             )
                         else:
                             cur.execute(
-                                "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bo_color_id=? AND (bl_color_id IS NULL) AND item_type=?",
-                                (str(boid), int(bo_color_id_eff), str(bl_part_id), int(bo_color_id_eff), it),
+                                "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND item_type=? AND (bl_color_id IS NULL)",
+                                (str(boid), int(bo_color_resolved), str(bl_part_id), it),
                             )
                         updated += 1
 

@@ -364,7 +364,7 @@ jobs:
           cur = con.cursor()
           cur.execute(
               "SELECT COUNT(1) FROM brickovery_db "
-              "WHERE item_type='P' AND (boid IS NULL OR boid='') AND bo_color_id IS NOT NULL"
+              "WHERE (boid IS NULL OR boid='')"
           )
           missing_boid = int(cur.fetchone()[0] or 0)
 
@@ -454,6 +454,61 @@ jobs:
           fi
           python "$V3" "${ARGS[@]}"
 
+      - name: Debug summary (BOID/weight/name progress)
+        if: ${{ env.RUN_BOID_WEIGHTS == 'true' && (steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true' || steps.preboid.outputs.run_boid == 'true') }}
+        env:
+          BEFORE_MISSING_BOID: ${{ steps.preboid.outputs.missing_boid }}
+          BEFORE_MISSING_WEIGHT: ${{ steps.preboid.outputs.missing_weight }}
+          BEFORE_MISSING_NAME: ${{ steps.preboid.outputs.missing_name }}
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import os, sqlite3, time
+          db_path = "database/brickovery.db"
+          if not os.path.exists(db_path):
+              print("DB missing; skip summary.")
+              raise SystemExit(0)
+
+          def to_int(s):
+              s = (s or "").strip()
+              return int(s) if s.isdigit() else None
+
+          before_boid = to_int(os.getenv("BEFORE_MISSING_BOID"))
+          before_weight = to_int(os.getenv("BEFORE_MISSING_WEIGHT"))
+          before_name = to_int(os.getenv("BEFORE_MISSING_NAME"))
+
+          con = sqlite3.connect(db_path)
+          cur = con.cursor()
+          cur.execute(
+              "SELECT COUNT(1) FROM brickovery_db "
+              "WHERE (boid IS NULL OR boid='')"
+          )
+          after_boid = int(cur.fetchone()[0] or 0)
+          cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE weight IS NULL")
+          after_weight = int(cur.fetchone()[0] or 0)
+          cur.execute("SELECT COUNT(1) FROM brickovery_db WHERE brikick_name IS NULL OR brikick_name=''")
+          after_name = int(cur.fetchone()[0] or 0)
+          con.close()
+
+          def delta(before, after):
+              if before is None:
+                  return "n/a"
+              return str(before - after)
+
+          ts = time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+          lines = []
+          lines.append(f"## BOID/Weight/Name Progress ({ts} UTC)")
+          lines.append("")
+          lines.append("| Field | Before | After | Filled |")
+          lines.append("|---|---:|---:|---:|")
+          lines.append(f"| boid (all item types) | {before_boid if before_boid is not None else 'n/a'} | {after_boid} | {delta(before_boid, after_boid)} |")
+          lines.append(f"| weight | {before_weight if before_weight is not None else 'n/a'} | {after_weight} | {delta(before_weight, after_weight)} |")
+          lines.append(f"| brikick_name | {before_name if before_name is not None else 'n/a'} | {after_name} | {delta(before_name, after_name)} |")
+          print("\n".join(lines))
+          with open(os.environ.get("GITHUB_STEP_SUMMARY", ""), "a", encoding="utf-8") as f:
+              f.write("\n".join(lines) + "\n")
+          PY
+
       - name: Commit and push mapping repo (only if mapping changed)
         if: steps.applydelta.outputs.db_delta_applied == 'true' || steps.gates.outputs.force_rebuild == 'true' || steps.premap.outputs.run_mapping == 'true'
         run: |
@@ -539,7 +594,7 @@ jobs:
           # boid missing: only where bo_color_id exists for parts
           cur.execute(
               "SELECT COUNT(1) FROM brickovery_db "
-              "WHERE item_type='P' AND (boid IS NULL OR boid='') AND bo_color_id IS NOT NULL"
+              "WHERE (boid IS NULL OR boid='')"
           )
           missing_boid = int(cur.fetchone()[0] or 0)
 
