@@ -120,6 +120,26 @@ ITEMTYPE_TO_CANON = {
     "UNSORTED_LOT": "U",
 }
 
+# -----------------------------
+# BrickOwl itemtype mapping
+# -----------------------------
+BRICKOWL_ITEMTYPE = {
+    "P": "Part",
+    "S": "Set",
+    "M": "Minifig",
+    "G": "Gear",
+    "B": "Book",
+    "C": "Catalog",
+    "I": "Instruction",
+    "O": "Original Box",
+    "U": "Unsorted Lot",
+}
+
+
+def brickowl_item_type(item_type: Optional[str]) -> str:
+    it = canon_item_type(item_type)
+    return BRICKOWL_ITEMTYPE.get(it, "Part")
+
 
 # -----------------------------
 # DB table name (SQLite)
@@ -1364,11 +1384,12 @@ def bricklink_scrape_item_weight(
     """Scrape BrickLink catalog page and extract item weight (grams).
 
     Expected HTML snippet:
-      <span id="item-weight-info">2.32g</span>
+      item-weight-info">2.32g<
+    Returns numeric weight (int when .0).
     """
     url = _bricklink_catalog_item_url(bl_part_id, item_type=item_type)
     headers = {
-        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
         "Accept-Language": "en-US,en;q=0.9",
     }
     sess = session or requests
@@ -1376,11 +1397,7 @@ def bricklink_scrape_item_weight(
     if r.status_code != 200:
         return None
     text = r.text or ""
-    m = re.search(
-        r'id=["\']item-weight-info["\'][^>]*>\s*([0-9]+(?:[.,][0-9]+)?)\s*g',
-        text,
-        flags=re.IGNORECASE,
-    )
+    m = re.search(r'item-weight-info">(\d+\.?\d*)g<', text)
     if not m:
         return None
     ws = m.group(1).replace(",", ".").strip()
@@ -2121,6 +2138,7 @@ def resolve_boid_for_pair(
     bo_color_id: int,
     issues_add: callable,
     *,
+    item_type: str = "P",
     country: str = "PT",
     validate_availability: bool = False,
     safe_mode: bool = False,
@@ -2154,7 +2172,8 @@ def resolve_boid_for_pair(
     except Exception:
         return None
 
-    cache_key = f"boid_resolve:{bl_part_id}-{bo_color_id_i}"
+    it = canon_item_type(item_type)
+    cache_key = f"boid_resolve:{it}:{bl_part_id}-{bo_color_id_i}"
     cached = bo_api.cache.get(cache_key)
     if cached:
         return str(cached)
@@ -2333,7 +2352,11 @@ def resolve_boid_for_pair(
     # Step 1: /catalog/id_lookup by BL item id
     # --------------------
     try:
-        boids1 = bo_api.catalog_id_lookup(id_value=bl_part_id, item_type="Part", id_type="bl_item_no")
+        boids1 = bo_api.catalog_id_lookup(
+            id_value=bl_part_id,
+            item_type=brickowl_item_type(it),
+            id_type="bl_item_no",
+        )
     except Exception as e:
         issues_add("WARN", "BRICKOWL_ID_LOOKUP_FAILED", f"{bl_part_id}", f"id_lookup falhou: {e}")
         return None
@@ -2389,7 +2412,7 @@ def resolve_boid_for_pair(
             if id_type == "bl_item_no":
                 continue
             try:
-                more = bo_api.catalog_id_lookup(id_value=id_val, item_type="Part", id_type=id_type)
+                more = bo_api.catalog_id_lookup(id_value=id_val, item_type=brickowl_item_type(it), id_type=id_type)
             except Exception:
                 continue
             for x in more or []:
@@ -2473,11 +2496,18 @@ def resolve_boid_for_pair(
     return None
 
 
-def resolve_boid_from_cache(cache: dict, bl_part_id: str, bo_color_id: int) -> Optional[str]:
+def resolve_boid_from_cache(
+    cache: dict,
+    bl_part_id: str,
+    bo_color_id: int,
+    *,
+    item_type: str = "P",
+) -> Optional[str]:
     """Resolve BOID strictly from cached validated entries (offline mode)."""
     if not cache:
         return None
-    key = f"boid_resolve:{str(bl_part_id).strip()}-{int(bo_color_id)}"
+    it = canon_item_type(item_type)
+    key = f"boid_resolve:{it}:{str(bl_part_id).strip()}-{int(bo_color_id)}"
     v = cache.get(key)
     if v:
         return str(v).strip()
@@ -3405,9 +3435,9 @@ def main() -> int:
                 else:
                     rows_pairs = cur.execute(
                         """
-                        SELECT DISTINCT bl_part_id, bl_color_id, bo_color_id
+                        SELECT DISTINCT item_type, bl_part_id, bl_color_id, bo_color_id
                         FROM brickovery_db
-                        WHERE (boid IS NULL OR boid = '') AND item_type='P'
+                        WHERE (boid IS NULL OR boid = '')
                         """
                     ).fetchall()
 
@@ -3416,10 +3446,11 @@ def main() -> int:
 
                     updated = 0
                     commit_every = 500
-                    for idx, (bl_part_id, bl_color_id, bo_color_id_db) in enumerate(rows_pairs, start=1):
+                    for idx, (item_type, bl_part_id, bl_color_id, bo_color_id_db) in enumerate(rows_pairs, start=1):
                         if _STOP:
                             add_issue("WARN", "STOP_SIGNAL", "", f"Stop requested ({_STOP_REASON}) durante boid cache offline.")
                             break
+                        it = canon_item_type(item_type or "P")
 
                         # Prefer mapping BL->BO at resolve time (authoritative). If missing, fall back to DB.
                         blc = None
@@ -3438,21 +3469,24 @@ def main() -> int:
                                 bo_color_id_eff = int(bo_color_id_db)
                             except Exception:
                                 bo_color_id_eff = None
+                        if bo_color_id_eff is None and it != "P":
+                            # Non-part items are typically uncolored; allow base BOID resolution.
+                            bo_color_id_eff = 0
 
                         if bo_color_id_eff is None:
                             continue
 
-                        boid = resolve_boid_from_cache(cache, str(bl_part_id), int(bo_color_id_eff))
+                        boid = resolve_boid_from_cache(cache, str(bl_part_id), int(bo_color_id_eff), item_type=it)
                         if boid:
                             if blc is not None:
                                 cur.execute(
-                                    "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bl_color_id=? AND item_type='P'",
-                                    (str(boid), int(bo_color_id_eff), str(bl_part_id), int(blc)),
+                                    "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bl_color_id=? AND item_type=?",
+                                    (str(boid), int(bo_color_id_eff), str(bl_part_id), int(blc), it),
                                 )
                             else:
                                 cur.execute(
-                                    "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bo_color_id=? AND (bl_color_id IS NULL) AND item_type='P'",
-                                    (str(boid), int(bo_color_id_eff), str(bl_part_id), int(bo_color_id_eff)),
+                                    "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bo_color_id=? AND (bl_color_id IS NULL) AND item_type=?",
+                                    (str(boid), int(bo_color_id_eff), str(bl_part_id), int(bo_color_id_eff), it),
                                 )
                             updated += 1
 
@@ -3484,9 +3518,9 @@ def main() -> int:
 
                 rows_pairs = cur.execute(
                     """
-                    SELECT DISTINCT bl_part_id, bl_color_id, bo_color_id
+                    SELECT DISTINCT item_type, bl_part_id, bl_color_id, bo_color_id
                     FROM brickovery_db
-                    WHERE (boid IS NULL OR boid = '') AND item_type='P'
+                    WHERE (boid IS NULL OR boid = '')
                     """
                 ).fetchall()
 
@@ -3521,11 +3555,30 @@ def main() -> int:
                     )
                     con.commit()
                 else:
-                    try:
-                        unique_parts = sorted({str(bl_part_id) for (bl_part_id, _blc, _boc) in rows_pairs})
-                        if unique_parts:
-                            boid_candidates = brickowl_id_lookup_bulk(bo_api, unique_parts, use_bulk_batch=True)
+                try:
+                        parts_by_type: Dict[str, Set[str]] = {}
+                        for (_it, bl_part_id, _blc, _boc) in rows_pairs:
+                            if not bl_part_id:
+                                continue
+                            it = canon_item_type(_it or "P")
+                            parts_by_type.setdefault(it, set()).add(str(bl_part_id))
+
+                        total_parts = 0
+                        total_boids = 0
+                        for it, part_ids in sorted(parts_by_type.items()):
+                            unique_parts = sorted(part_ids)
+                            if not unique_parts:
+                                continue
+                            total_parts += len(unique_parts)
+                            boid_candidates = brickowl_id_lookup_bulk(
+                                bo_api,
+                                unique_parts,
+                                item_type=brickowl_item_type(it),
+                                id_type="bl_item_no",
+                                use_bulk_batch=True,
+                            )
                             all_boids = sorted({b for lst in boid_candidates.values() for b in lst})
+                            total_boids += len(all_boids)
                             if all_boids:
                                 for chunk in _chunked(all_boids, 100):
                                     try:
@@ -3533,18 +3586,18 @@ def main() -> int:
                                     except Exception:
                                         # fallback: ignore bulk prefetch errors; per-pair lookup will still work
                                         break
-                            add_issue(
-                                "INFO",
-                                "BRICKOWL_PREFETCH_DONE",
-                                "",
-                                f"Prefetch id_lookup parts={len(unique_parts)} boids={len(all_boids)}",
-                            )
-                            con.commit()
+                        add_issue(
+                            "INFO",
+                            "BRICKOWL_PREFETCH_DONE",
+                            "",
+                            f"Prefetch id_lookup parts={total_parts} boids={total_boids}",
+                        )
+                        con.commit()
                     except Exception as e:
                         add_issue("WARN", "BRICKOWL_PREFETCH_FAILED", "", f"{type(e).__name__}: {e}")
                         con.commit()
 
-                for idx, (bl_part_id, bl_color_id, bo_color_id_db) in enumerate(rows_pairs, start=1):
+                for idx, (item_type, bl_part_id, bl_color_id, bo_color_id_db) in enumerate(rows_pairs, start=1):
                     if _STOP:
                         add_issue("WARN", "STOP_SIGNAL", "", f"Stop requested ({_STOP_REASON}) durante boid resolve.")
                         break
@@ -3557,6 +3610,8 @@ def main() -> int:
                             f"Paragem limpa por --max-runtime-seconds={args.max_runtime_seconds} durante boid resolve.",
                         )
                         break
+
+                    it = canon_item_type(item_type or "P")
 
                     # Prefer mapping BL->BO at resolve time (authoritative). If missing, fall back to DB.
                     blc = None
@@ -3586,12 +3641,15 @@ def main() -> int:
                             bo_color_id_eff = int(bo_color_id_db)
                         except Exception:
                             bo_color_id_eff = None
+                    if bo_color_id_eff is None and it != "P":
+                        # Non-part items are typically uncolored; allow base BOID resolution.
+                        bo_color_id_eff = 0
 
                     if bo_color_id_eff is None:
                         add_issue(
                             "WARN",
                             "BRICKOWL_BO_COLOR_ID_MISSING",
-                            str(bl_part_id),
+                            f"{bl_part_id}|{it}",
                             "Sem bo_color_id (mapeamento BL->BO indisponível e DB não tem valor).",
                         )
                         continue
@@ -3602,6 +3660,7 @@ def main() -> int:
                             str(bl_part_id),
                             int(bo_color_id_eff),
                             add_issue,
+                            item_type=it,
                             country=str(args.boid_country),
                             validate_availability=bool(args.boid_validate_availability),
                             safe_mode=bool(args.boid_safe),
@@ -3613,13 +3672,13 @@ def main() -> int:
                     if boid:
                         if blc is not None:
                             cur.execute(
-                                "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bl_color_id=? AND item_type='P'",
-                                (str(boid), int(bo_color_id_eff), str(bl_part_id), int(blc)),
+                                "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bl_color_id=? AND item_type=?",
+                                (str(boid), int(bo_color_id_eff), str(bl_part_id), int(blc), it),
                             )
                         else:
                             cur.execute(
-                                "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bo_color_id=? AND (bl_color_id IS NULL) AND item_type='P'",
-                                (str(boid), int(bo_color_id_eff), str(bl_part_id), int(bo_color_id_eff)),
+                                "UPDATE brickovery_db SET boid=?, bo_color_id=? WHERE bl_part_id=? AND bo_color_id=? AND (bl_color_id IS NULL) AND item_type=?",
+                                (str(boid), int(bo_color_id_eff), str(bl_part_id), int(bo_color_id_eff), it),
                             )
                         updated += 1
 
