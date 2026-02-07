@@ -43,12 +43,10 @@ import os
 import re
 import signal
 import sqlite3
-import sys
 import time
 import traceback
 import xml.etree.ElementTree as ET
 from contextlib import contextmanager
-from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Sequence, Set, Tuple, TextIO
 from urllib.parse import quote
@@ -1378,7 +1376,7 @@ def bricklink_scrape_item_weight(
     bl_part_id: str,
     *,
     item_type: str = "P",
-    timeout_s: int = 30,
+    timeout_s: int = 10,
     session: Optional[requests.Session] = None,
 ) -> Optional[float]:
     """Scrape BrickLink catalog page and extract item weight (grams).
@@ -2858,7 +2856,7 @@ def main() -> int:
     ap.add_argument(
         "--weights-scrape-timeout",
         type=int,
-        default=30,
+        default=10,
         help="Timeout (segundos) para requests de scraping BrickLink.",
     )
     ap.add_argument(
@@ -3090,7 +3088,6 @@ def main() -> int:
         con.commit()
 
     # Load color map early if present (used in BOID fixups too)
-    color_map = None
     bl_to_bo = {}
     bl_to_bk = {}
     bl_name_to_id: Dict[str, int] = {}
@@ -3225,7 +3222,6 @@ def main() -> int:
             print(f"  part_color_codes.xml: {codes_xml} ({codes_xml.stat().st_size/1024/1024:,.1f} MiB)")
             print(f"  color_map.csv: {color_map_csv} ({color_map_csv.stat().st_size/1024/1024:,.1f} MiB)")
             oauth = bricklink_oauth_from_env()
-            bl_colors_cache: Dict[str, List[int]] = {}
             fallback_done_items: Set[Tuple[str, str]] = set()
 
             batch_rows: List[Tuple] = []
