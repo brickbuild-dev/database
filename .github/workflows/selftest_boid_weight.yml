@@ -38,7 +38,13 @@ jobs:
           set -euo pipefail
           python - <<'PY'
           import os, sys, time, sqlite3
-          from brickovery_upstream_v3 import BrickOwlAPI, bricklink_scrape_item_weight, bricklink_scrape_item_name_and_weight
+          from brickovery_upstream_v3 import (
+              BrickOwlAPI,
+              bricklink_scrape_item_weight,
+              bricklink_scrape_item_name_and_weight,
+              resolve_boid_for_pair,
+              canon_item_type,
+          )
 
           def fail(msg: str):
               print(f"::error::{msg}")
@@ -102,6 +108,42 @@ jobs:
                   out.append((it, str(pid)))
               return out[:limit]
 
+          def load_boid_pairs_from_db(db_path: str, limit: int = 10) -> list[tuple[str, str, int]]:
+              if not os.path.exists(db_path):
+                  return []
+              try:
+                  con = sqlite3.connect(db_path)
+                  cur = con.cursor()
+                  rows = cur.execute(
+                      "SELECT item_type, bl_part_id, bl_color_id, bo_color_id "
+                      "FROM brickovery_db "
+                      "WHERE bl_part_id IS NOT NULL AND (boid IS NULL OR boid='') "
+                      "LIMIT ?",
+                      (limit * 5,),
+                  ).fetchall()
+                  con.close()
+              except Exception:
+                  return []
+
+              out: list[tuple[str, str, int]] = []
+              for it, pid, blc, boc in rows:
+                  if not pid:
+                      continue
+                  it = canon_item_type(it or "P")
+                  # For parts we need a bo_color_id; for non-parts allow 0 (uncolored).
+                  if it == "P":
+                      if boc is None:
+                          continue
+                      try:
+                          out.append((it, str(pid), int(boc)))
+                      except Exception:
+                          continue
+                  else:
+                      out.append((it, str(pid), 0))
+                  if len(out) >= limit:
+                      break
+              return out
+
           # Primary: TEST_ITEM_IDS with explicit item_type (e.g. "P=3001,S=60051-1,M=sw0001")
           test_items = parse_item_pairs(os.getenv("TEST_ITEM_IDS", ""))
 
@@ -139,31 +181,39 @@ jobs:
                   ("S", "60055-1"),
               ]
 
-          # BrickOwl BOID selftest (id_lookup + lookup)
+          # BrickOwl BOID selftest (resolve_boid_for_pair)
           key = os.getenv("BRICKOWL_API_KEY", "").strip()
           if not key:
               fail("BRICKOWL_API_KEY missing (required for BOID selftest).")
 
           try:
               bo = BrickOwlAPI(key)
-              for item_type, part_id in test_items:
-                  # Only parts are supported by BrickOwl id_lookup in this selftest
-                  if item_type != "P":
-                      continue
-                  boids = bo.catalog_id_lookup(id_value=part_id, item_type="Part", id_type="bl_item_no")
-                  if not boids:
-                      print(f"[SKIP] BrickOwl id_lookup returned 0 BOIDs for bl_item_no={part_id}.")
-                      time.sleep(1.0)
-                      continue
-                  boid = str(boids[0]).strip()
+              boid_pairs = load_boid_pairs_from_db("database/brickovery.db", limit=10)
+              if not boid_pairs:
+                  # Fallback: use non-part items with bo_color_id=0
+                  for item_type, part_id in test_items:
+                      if item_type != "P":
+                          boid_pairs.append((item_type, part_id, 0))
+              if not boid_pairs:
+                  fail("No BOID pairs available for selftest.")
+
+              def issues_add(sev, typ, key, details):
+                  print(f"[{sev}] {typ} {key}: {details}")
+
+              for item_type, part_id, bo_color_id in boid_pairs:
+                  boid = resolve_boid_for_pair(
+                      bo,
+                      part_id,
+                      int(bo_color_id),
+                      issues_add,
+                      item_type=item_type,
+                      safe_mode=True,
+                  )
                   if not boid:
-                      print(f"[SKIP] BrickOwl id_lookup returned empty BOID for bl_item_no={part_id}.")
+                      print(f"[SKIP] No BOID resolved for {item_type}={part_id} (bo_color_id={bo_color_id}).")
                       time.sleep(1.0)
                       continue
-                  info = bo.catalog_lookup(boid)
-                  if isinstance(info, dict) and info.get("error"):
-                      fail(f"BrickOwl catalog_lookup returned error for BOID={boid}: {info.get('error')}")
-                  print(f"[OK] BrickOwl id_lookup+lookup ok (bl_item_no={part_id}, boid={boid}).")
+                  print(f"[OK] BOID resolve ok ({item_type}={part_id} -> {boid}).")
                   time.sleep(1.0)
           except Exception as e:
               fail(f"BrickOwl selftest failed: {type(e).__name__}: {e}")
@@ -171,7 +221,7 @@ jobs:
           # BrickLink weight scrape selftest
           try:
               for item_type, item_id in test_items:
-                  w = bricklink_scrape_item_weight(item_id, item_type=item_type, timeout_s=30)
+                  w = bricklink_scrape_item_weight(item_id, item_type=item_type, timeout_s=10)
                   if w is None:
                       fail(f"BrickLink weight scrape failed for {item_type}={item_id}.")
                   print(f"[OK] BrickLink weight scrape ok ({item_type}={item_id} -> {w}g).")
@@ -182,7 +232,7 @@ jobs:
           # BrickLink item name scrape selftest (all item types)
           try:
               for item_type, item_id in test_items:
-                  name, weight = bricklink_scrape_item_name_and_weight(item_id, item_type=item_type, timeout_s=30)
+                  name, weight = bricklink_scrape_item_name_and_weight(item_id, item_type=item_type, timeout_s=10)
                   if not name:
                       fail(f"BrickLink name scrape failed for {item_type}={item_id}.")
                   msg = f"[OK] BrickLink name scrape ok ({item_type}={item_id} -> '{name}')"
