@@ -1,4 +1,0 @@
-severity,issue_type,key,details
-INFO,ITEMS_DIR_ENSURE_DONE,inputs/bricklink/items,Inserted placeholder rows for 158736 missing items (bl_color_id=0).
-INFO,WEIGHTS_APPLIED,inputs/bricklink/parts_weight.csv,weights applied (updated_rows=131297)
-INFO,WEIGHTS_BRICKLINK_DONE,,"BrickLink weight fill: parts_missing_before=1530, parts_filled=1530, parts_still_missing=0, rows_updated=1551."
