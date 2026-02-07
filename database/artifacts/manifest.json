@@ -1,8 +1,8 @@
 {
-  "created_at_utc": "2026-02-07T08:00:28Z",
+  "created_at_utc": "2026-02-07T09:01:37Z",
   "schema_version": "unknown",
   "data_version": "283940242",
-  "builder_version": "35c76146bc2197b8f6b08ef031129bc04745c146",
+  "builder_version": "4c0812351f79900229eaa1c2980faee037d85ef8",
   "inputs": [
     {
       "path": "inputs/upstream/brickstore-database.zip",
