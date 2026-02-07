@@ -3551,7 +3551,7 @@ def main() -> int:
                     )
                     con.commit()
                 else:
-                try:
+                    try:
                         parts_by_type: Dict[str, Set[str]] = {}
                         for (_it, bl_part_id, _blc, _boc) in rows_pairs:
                             if not bl_part_id:
