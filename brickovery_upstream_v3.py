@@ -3508,29 +3508,41 @@ def main() -> int:
                         commit_every = 100
                     print(f"[BOID] commit_every auto -> {commit_every}")
 
-                # Prefetch id_lookup in bulk (reduces API overhead) and seed lookup cache via bulk_lookup
-                try:
-                    unique_parts = sorted({str(bl_part_id) for (bl_part_id, _blc, _boc) in rows_pairs})
-                    if unique_parts:
-                        boid_candidates = brickowl_id_lookup_bulk(bo_api, unique_parts, use_bulk_batch=True)
-                        all_boids = sorted({b for lst in boid_candidates.values() for b in lst})
-                        if all_boids:
-                            for chunk in _chunked(all_boids, 100):
-                                try:
-                                    bo_api.catalog_bulk_lookup(chunk)
-                                except Exception:
-                                    # fallback: ignore bulk prefetch errors; per-pair lookup will still work
-                                    break
-                        add_issue(
-                            "INFO",
-                            "BRICKOWL_PREFETCH_DONE",
-                            "",
-                            f"Prefetch id_lookup parts={len(unique_parts)} boids={len(all_boids)}",
-                        )
-                        con.commit()
-                except Exception as e:
-                    add_issue("WARN", "BRICKOWL_PREFETCH_FAILED", "", f"{type(e).__name__}: {e}")
+                # Prefetch id_lookup in bulk (reduces API overhead) and seed lookup cache via bulk_lookup.
+                # For short, resume-limited runs we skip prefetch to avoid blowing the time budget.
+                max_rt = float(args.max_runtime_seconds or 0)
+                skip_prefetch = bool(max_rt > 0)
+                if skip_prefetch:
+                    add_issue(
+                        "INFO",
+                        "BRICKOWL_PREFETCH_SKIPPED_MAX_RUNTIME",
+                        "",
+                        f"Prefetch skipped because --max-runtime-seconds={max_rt} is set.",
+                    )
                     con.commit()
+                else:
+                    try:
+                        unique_parts = sorted({str(bl_part_id) for (bl_part_id, _blc, _boc) in rows_pairs})
+                        if unique_parts:
+                            boid_candidates = brickowl_id_lookup_bulk(bo_api, unique_parts, use_bulk_batch=True)
+                            all_boids = sorted({b for lst in boid_candidates.values() for b in lst})
+                            if all_boids:
+                                for chunk in _chunked(all_boids, 100):
+                                    try:
+                                        bo_api.catalog_bulk_lookup(chunk)
+                                    except Exception:
+                                        # fallback: ignore bulk prefetch errors; per-pair lookup will still work
+                                        break
+                            add_issue(
+                                "INFO",
+                                "BRICKOWL_PREFETCH_DONE",
+                                "",
+                                f"Prefetch id_lookup parts={len(unique_parts)} boids={len(all_boids)}",
+                            )
+                            con.commit()
+                    except Exception as e:
+                        add_issue("WARN", "BRICKOWL_PREFETCH_FAILED", "", f"{type(e).__name__}: {e}")
+                        con.commit()
 
                 for idx, (bl_part_id, bl_color_id, bo_color_id_db) in enumerate(rows_pairs, start=1):
                     if _STOP:
