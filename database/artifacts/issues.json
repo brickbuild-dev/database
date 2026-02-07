@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-02-07T06:59:17Z",
+  "created_at_utc": "2026-02-07T08:00:28Z",
   "issue_count": 3,
   "issues": [
     {
@@ -11,7 +11,7 @@
     {
       "severity": "MINOR",
       "issue_type": "BOID_MISSING",
-      "count": 182974,
+      "count": 168606,
       "details": "BOID missing (allowed)."
     },
     {
