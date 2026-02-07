@@ -166622,7 +166622,7 @@
       <ITEMID>sh1113</ITEMID>
       <ITEMNAME>Venom - Tan Teeth, 4 Back Appendages</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>7.8</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -166631,7 +166631,7 @@
       <ITEMID>sh1112</ITEMID>
       <ITEMNAME>Sandman - Sand Form, Printed Legs</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -166640,7 +166640,7 @@
       <ITEMID>drm110</ITEMID>
       <ITEMNAME>Mr. Oz - Pearl Gold Suit and Armor, Dark Blue Arms</ITEMNAME>
       <CATEGORY>1268</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.63</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -166649,7 +166649,7 @@
       <ITEMID>drm111</ITEMID>
       <ITEMNAME>Izzie - Satin Trans-Clear Armor with Satin Trans-Light Blue Gem</ITEMNAME>
       <CATEGORY>1268</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>5.21</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -166777,6 +166777,15 @@
       <CATEGORY>166</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>6.2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1967</ITEMID>
+      <ITEMNAME>Police - City Officer Male, Neon Yellow Safety Vest, Dark Blue Legs, White Flight Helmet, Trans-Clear Visor, Lopsided Grin / Scared</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.67</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
