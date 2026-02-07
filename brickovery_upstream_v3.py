@@ -2360,7 +2360,8 @@ def resolve_boid_for_pair(
         return None
 
     if not boids1:
-        issues_add("WARN", "BRICKOWL_ID_LOOKUP_EMPTY", f"{bl_part_id}", f"id_lookup devolveu 0 BOIDs para bl_item_no={bl_part_id}")
+        sev = "INFO" if safe_mode else "WARN"
+        issues_add(sev, "BRICKOWL_ID_LOOKUP_EMPTY", f"{bl_part_id}", f"id_lookup devolveu 0 BOIDs para bl_item_no={bl_part_id}")
         return None
 
     boids1 = [str(b).strip() for b in boids1 if str(b).strip()]
@@ -2485,8 +2486,9 @@ def resolve_boid_for_pair(
                 issues_add("INFO", "BRICKOWL_BOID_RECOVERED_BY_SEARCH", f"{bl_part_id}|{bo_color_id_i}", f"Recuperado via catalog/search (cands={len(boids3)})")
                 return acc
 
+    sev = "INFO" if safe_mode else "WARN"
     issues_add(
-        "WARN",
+        sev,
         "BRICKOWL_BOID_LOOKUP_INVALID",
         f"{bl_part_id}|{bo_color_id_i}",
         f"Nenhum BOID validado. candidatos id_lookup={id_lookup_count} (ex: {boids1[0] if boids1 else ''})",
