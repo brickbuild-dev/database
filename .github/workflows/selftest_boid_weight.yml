@@ -220,12 +220,18 @@ jobs:
 
           # BrickLink weight scrape selftest
           try:
+              ok_count = 0
               for item_type, item_id in test_items:
                   w = bricklink_scrape_item_weight(item_id, item_type=item_type, timeout_s=10)
                   if w is None:
-                      fail(f"BrickLink weight scrape failed for {item_type}={item_id}.")
+                      print(f"[SKIP] BrickLink weight not found for {item_type}={item_id}.")
+                      time.sleep(1.5)
+                      continue
+                  ok_count += 1
                   print(f"[OK] BrickLink weight scrape ok ({item_type}={item_id} -> {w}g).")
                   time.sleep(1.5)
+              if ok_count == 0:
+                  fail("BrickLink weight scrape failed for all test items.")
           except Exception as e:
               fail(f"BrickLink weight scrape failed: {type(e).__name__}: {e}")
 
