@@ -101217,7 +101217,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0596</ITEMID>
-      <ITEMNAME>Bruce Wayne - Black Suit</ITEMNAME>
+      <ITEMNAME>Bruce Wayne - Black Suit with Dark Red Tie</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>3.39</ITEMWEIGHT>
@@ -140376,7 +140376,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0884</ITEMID>
-      <ITEMNAME>Bruce Wayne - Black Suit, Coiled Hair</ITEMNAME>
+      <ITEMNAME>Bruce Wayne - Black Suit, Dark Bluish Gray Sweater</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>3.42</ITEMWEIGHT>
@@ -166781,6 +166781,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0885</ITEMID>
+      <ITEMNAME>Friends Liann - Lime, Coral and Medium Azure Tank Top, Yellowish Green Shorts Folded Hem, Metallic Light Blue Shoes, Orange Life Jacket, Bright Pink Flower</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.28</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>frnd0888</ITEMID>
       <ITEMNAME>Friends Paisley - Bright Light Yellow and Medium Lavender Tank Top, Medium Lavender Shorts, Dark Tan Shoes, Bright Light Orange Flower Tiara</ITEMNAME>
       <CATEGORY>771</CATEGORY>
@@ -166795,6 +166804,24 @@
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.67</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1115</ITEMID>
+      <ITEMNAME>Batman Batsuit - Black with Yellow Belt with Medium Nougat Details, Cowl with White Eyes, Flexible Rubber Cape, Trans-Light Blue Head</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.8</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1114</ITEMID>
+      <ITEMNAME>Bruce Wayne - Black Suit with Dark Blue Tie</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.5</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
