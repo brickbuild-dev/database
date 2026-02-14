@@ -155055,7 +155055,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>frnd0774</ITEMID>
-      <ITEMNAME>Friends Matilde - White Top with Cherries, Red Skirt, Dark Orange Shoes</ITEMNAME>
+      <ITEMNAME>Friends Matilde - White Shirt with Cherries, Red Skirt, Dark Orange Shoes</ITEMNAME>
       <CATEGORY>771</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>2.98</ITEMWEIGHT>
@@ -166885,6 +166885,24 @@
       <CATEGORY>1268</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>1.9</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0890</ITEMID>
+      <ITEMNAME>Friends Matilde - Bright Pink Sleeveless Jacket, White Trousers, Black Boots</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0889</ITEMID>
+      <ITEMNAME>Friends Autumn - Blue Tied Flannel Vest, Sand Green Trousers, Dark Brown Boots, Bright Light Blue Horse Riding Helmet</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>2.95</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
