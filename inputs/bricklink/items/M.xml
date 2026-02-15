@@ -117210,7 +117210,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>idea091</ITEMID>
-      <ITEMNAME>Eeyore</ITEMNAME>
+      <ITEMNAME>Eeyore &amp;#40;6338518&amp;#41;</ITEMNAME>
       <CATEGORY>817</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>8.5</ITEMWEIGHT>
@@ -166835,6 +166835,33 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1968</ITEMID>
+      <ITEMNAME>Police - City Officer Male, Black Safety Vest with Silver Star Badge Logo, Dark Blue Legs, Dark Brown Wavy Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.47</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1969</ITEMID>
+      <ITEMNAME>Police - City Bandit Crook Female, Black Tuxedo with Red Tie, Black Legs, Black Helmet</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.6</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1970</ITEMID>
+      <ITEMNAME>Police - City Jail Prisoner Male, Orange Prison Jumpsuit, Medium Nougat Wavy Hair, Sideburns, Orange Glasses</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.64</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh1115</ITEMID>
       <ITEMNAME>Batman Batsuit - Black with Yellow Belt with Medium Nougat Details, Cowl with White Eyes, Flexible Rubber Cape, Trans-Light Blue Head</ITEMNAME>
       <CATEGORY>768</CATEGORY>
@@ -166871,6 +166898,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1971</ITEMID>
+      <ITEMNAME>Construction Engineer / Architect - Male, Black Vest with Blue Striped Tie, Black Legs, White Construction Helmet with Dark Brown Hair, Lopsided Grin</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.66</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1972</ITEMID>
+      <ITEMNAME>Construction Worker - Female, Reddish Orange Safety Jacket with Reflective Stripes, Dark Bluish Gray Legs, Red Construction Helmet with Dark Brown Ponytail Hair, Open Mouth Smile with Top Teeth</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.61</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>drm117</ITEMID>
       <ITEMNAME>Dreamling Pilot</ITEMNAME>
       <CATEGORY>1268</CATEGORY>
@@ -166889,10 +166934,37 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1973</ITEMID>
+      <ITEMNAME>Service Truck Driver - Male, Neon Yellow Safety Vest with Reflective Stripes, Dark Green Legs with Reflective Stripes, Dark Brown Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.37</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1974</ITEMID>
+      <ITEMNAME>Coast Guard City - Male, Reddish Orange Jacket with Pockets and Reflective Stripes, Dark Blue Legs with Pockets and Reflective Stripes, Orange Life Jacket, Dark Brown Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.89</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1975</ITEMID>
+      <ITEMNAME>Paramedic - Female, Dark Turquoise and Neon Yellow Safety Vest, Legs with Silver Reflective Stripes, Dark Tan Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.64</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>frnd0890</ITEMID>
       <ITEMNAME>Friends Matilde - Bright Pink Sleeveless Jacket, White Trousers, Black Boots</ITEMNAME>
       <CATEGORY>771</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -166901,7 +166973,7 @@
       <ITEMID>frnd0889</ITEMID>
       <ITEMNAME>Friends Autumn - Blue Tied Flannel Vest, Sand Green Trousers, Dark Brown Boots, Bright Light Blue Horse Riding Helmet</ITEMNAME>
       <CATEGORY>771</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>2.95</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
