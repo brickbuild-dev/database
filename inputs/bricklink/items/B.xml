@@ -2909,8 +2909,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>mn1998sep</ITEMID>
-      <ITEMNAME>Mania Magazine 1998 Sept-Oct</ITEMNAME>
+      <ITEMID>mn1998sepca</ITEMID>
+      <ITEMNAME>Mania Magazine 1998 Sept-Oct &amp;#40;Canadian&amp;#41;</ITEMNAME>
       <CATEGORY>462</CATEGORY>
       <ITEMYEAR>1998</ITEMYEAR>
       <ITEMWEIGHT>70</ITEMWEIGHT>
@@ -2918,8 +2918,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>mn1998may</ITEMID>
-      <ITEMNAME>Mania Magazine 1998 May-Jun</ITEMNAME>
+      <ITEMID>mn1998mayca</ITEMID>
+      <ITEMNAME>Mania Magazine 1998 May-Jun &amp;#40;Canadian&amp;#41;</ITEMNAME>
       <CATEGORY>462</CATEGORY>
       <ITEMYEAR>1998</ITEMYEAR>
       <ITEMWEIGHT>39</ITEMWEIGHT>
@@ -2927,8 +2927,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>mn1997nov</ITEMID>
-      <ITEMNAME>Mania Magazine 1997 Nov-Dec</ITEMNAME>
+      <ITEMID>mn1997novca</ITEMID>
+      <ITEMNAME>Mania Magazine 1997 Nov-Dec &amp;#40;Canadian&amp;#41;</ITEMNAME>
       <CATEGORY>462</CATEGORY>
       <ITEMYEAR>1997</ITEMYEAR>
       <ITEMWEIGHT>39</ITEMWEIGHT>
@@ -2936,8 +2936,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>mn1997sep</ITEMID>
-      <ITEMNAME>Mania Magazine 1997 Sep-Oct</ITEMNAME>
+      <ITEMID>mn1997sepca</ITEMID>
+      <ITEMNAME>Mania Magazine 1997 Sep-Oct &amp;#40;Canadian&amp;#41;</ITEMNAME>
       <CATEGORY>462</CATEGORY>
       <ITEMYEAR>1997</ITEMYEAR>
       <ITEMWEIGHT>66</ITEMWEIGHT>
@@ -2945,8 +2945,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>mn1997may</ITEMID>
-      <ITEMNAME>Mania Magazine 1997 May-Jun</ITEMNAME>
+      <ITEMID>mn1997mayca</ITEMID>
+      <ITEMNAME>Mania Magazine 1997 May-Jun &amp;#40;Canadian&amp;#41;</ITEMNAME>
       <CATEGORY>462</CATEGORY>
       <ITEMYEAR>1997</ITEMYEAR>
       <ITEMWEIGHT>50</ITEMWEIGHT>
@@ -2954,8 +2954,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>mn1995nov</ITEMID>
-      <ITEMNAME>Mania Magazine 1995 Nov-Dec</ITEMNAME>
+      <ITEMID>mn1995novca</ITEMID>
+      <ITEMNAME>Mania Magazine 1995 Nov-Dec &amp;#40;Canadian&amp;#41;</ITEMNAME>
       <CATEGORY>462</CATEGORY>
       <ITEMYEAR>1995</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -3008,8 +3008,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>mn1995sep</ITEMID>
-      <ITEMNAME>Mania Magazine 1995 Sept-Oct</ITEMNAME>
+      <ITEMID>mn1995sepca</ITEMID>
+      <ITEMNAME>Mania Magazine 1995 Sept-Oct &amp;#40;Canadian&amp;#41;</ITEMNAME>
       <CATEGORY>462</CATEGORY>
       <ITEMYEAR>1995</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -3017,8 +3017,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>mn1995jul</ITEMID>
-      <ITEMNAME>Mania Magazine 1995 July-August</ITEMNAME>
+      <ITEMID>mn1995julca</ITEMID>
+      <ITEMNAME>Mania Magazine 1995 July-August &amp;#40;Canadian&amp;#41;</ITEMNAME>
       <CATEGORY>462</CATEGORY>
       <ITEMYEAR>1995</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -3026,8 +3026,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>mn1995may</ITEMID>
-      <ITEMNAME>Mania Magazine 1995 May-June</ITEMNAME>
+      <ITEMID>mn1995mayca</ITEMID>
+      <ITEMNAME>Mania Magazine 1995 May-June &amp;#40;Canadian&amp;#41;</ITEMNAME>
       <CATEGORY>462</CATEGORY>
       <ITEMYEAR>1995</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -3557,8 +3557,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>mn1996may</ITEMID>
-      <ITEMNAME>Mania Magazine 1996 May-June</ITEMNAME>
+      <ITEMID>mn1996mayca</ITEMID>
+      <ITEMNAME>Mania Magazine 1996 May-June &amp;#40;Canadian&amp;#41;</ITEMNAME>
       <CATEGORY>462</CATEGORY>
       <ITEMYEAR>1996</ITEMYEAR>
       <ITEMWEIGHT>25.67</ITEMWEIGHT>
@@ -3575,8 +3575,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>mn1996jan</ITEMID>
-      <ITEMNAME>Mania Magazine 1996 Jan-Feb</ITEMNAME>
+      <ITEMID>mn1996janca</ITEMID>
+      <ITEMNAME>Mania Magazine 1996 Jan-Feb &amp;#40;Canadian&amp;#41;</ITEMNAME>
       <CATEGORY>462</CATEGORY>
       <ITEMYEAR>1996</ITEMYEAR>
       <ITEMWEIGHT>25.67</ITEMWEIGHT>
@@ -66525,6 +66525,105 @@
       <ITEMNAME>City Magazine 2025 Issue 77 &amp;#40;German&amp;#41;</ITEMNAME>
       <CATEGORY>1021</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mn1995may</ITEMID>
+      <ITEMNAME>Mania Magazine 1995 May-June</ITEMNAME>
+      <CATEGORY>462</CATEGORY>
+      <ITEMYEAR>1995</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mn1995jul</ITEMID>
+      <ITEMNAME>Mania Magazine 1995 July-August</ITEMNAME>
+      <CATEGORY>462</CATEGORY>
+      <ITEMYEAR>1995</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mn1995sep</ITEMID>
+      <ITEMNAME>Mania Magazine 1995 Sept-Oct</ITEMNAME>
+      <CATEGORY>462</CATEGORY>
+      <ITEMYEAR>1995</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mn1995nov</ITEMID>
+      <ITEMNAME>Mania Magazine 1995 Nov-Dec</ITEMNAME>
+      <CATEGORY>462</CATEGORY>
+      <ITEMYEAR>1995</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mn1996jan</ITEMID>
+      <ITEMNAME>Mania Magazine 1996 Jan-Feb</ITEMNAME>
+      <CATEGORY>462</CATEGORY>
+      <ITEMYEAR>1996</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mn1996may</ITEMID>
+      <ITEMNAME>Mania Magazine 1996 May-June</ITEMNAME>
+      <CATEGORY>462</CATEGORY>
+      <ITEMYEAR>1996</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mn1997may</ITEMID>
+      <ITEMNAME>Mania Magazine 1997 May-Jun</ITEMNAME>
+      <CATEGORY>462</CATEGORY>
+      <ITEMYEAR>1997</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mn1997sep</ITEMID>
+      <ITEMNAME>Mania Magazine 1997 Sep-Oct</ITEMNAME>
+      <CATEGORY>462</CATEGORY>
+      <ITEMYEAR>1997</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mn1997nov</ITEMID>
+      <ITEMNAME>Mania Magazine 1997 Nov-Dec</ITEMNAME>
+      <CATEGORY>462</CATEGORY>
+      <ITEMYEAR>1997</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mn1998may</ITEMID>
+      <ITEMNAME>Mania Magazine 1998 May-Jun</ITEMNAME>
+      <CATEGORY>462</CATEGORY>
+      <ITEMYEAR>1998</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mn1998sep</ITEMID>
+      <ITEMNAME>Mania Magazine 1998 Sept-Oct</ITEMNAME>
+      <CATEGORY>462</CATEGORY>
+      <ITEMYEAR>1998</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
