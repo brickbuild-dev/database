@@ -53085,7 +53085,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>lor033</ITEMID>
-      <ITEMNAME>Elrond - Short Cape</ITEMNAME>
+      <ITEMNAME>Elrond - Very Short Cape</ITEMNAME>
       <CATEGORY>789</CATEGORY>
       <ITEMYEAR>2012</ITEMYEAR>
       <ITEMWEIGHT>3.2</ITEMWEIGHT>
@@ -79869,7 +79869,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0819</ITEMID>
-      <ITEMNAME>Rebel Pilot A-wing &amp;#40;Jake Farrell&amp;#41;</ITEMNAME>
+      <ITEMNAME>Rebel Pilot A-wing - Green Jumpsuit with Dark Tan Vest &amp;#40;Jake Farrell&amp;#41;</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
       <ITEMWEIGHT>3.88</ITEMWEIGHT>
@@ -90039,7 +90039,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0908</ITEMID>
-      <ITEMNAME>Astromech Droid, R2-D2, Dirt Stains on Front</ITEMNAME>
+      <ITEMNAME>Astromech Droid, R2-D2 - Dirt Stains on Front</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
       <ITEMWEIGHT>5</ITEMWEIGHT>
@@ -109644,7 +109644,7 @@
       <ITEMNAME>Duplo Figure Lego Ville, Male, Medium Blue Legs, Lime Striped Apron, Red Bow Tie, Dark Brown Hair, Red Cap &amp;#40;6295457&amp;#41;</ITEMNAME>
       <CATEGORY>167</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>14.63</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -126660,7 +126660,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1200</ITEMID>
-      <ITEMNAME>Astromech Droid, R2-D2, Dirt Stains on Front and Back</ITEMNAME>
+      <ITEMNAME>Astromech Droid, R2-D2 - Dirt Stains on Front and Back, with Dirt Stains on Top Panels</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT>4.5</ITEMWEIGHT>
@@ -138522,7 +138522,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1286</ITEMID>
-      <ITEMNAME>Rebel Crew - Female</ITEMNAME>
+      <ITEMNAME>Rebel Crew - Female, Nougat Head</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>4.1</ITEMWEIGHT>
@@ -159951,7 +159951,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1420</ITEMID>
-      <ITEMNAME>Imperial AT-ST Driver - Printed Arms &amp;#40;75417&amp;#41;</ITEMNAME>
+      <ITEMNAME>Imperial AT-ST Driver - Helmet with Molded Goggles, Light Bluish Gray Jumpsuit with Silver Dot, Printed Arms, Printed Legs</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>3.7</ITEMWEIGHT>
@@ -160338,7 +160338,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1912</ITEMID>
-      <ITEMNAME>Police - City Officer Female, Neon Yellow Safety Vest, Dark Blue Legs, Dark Orange Mid Length Hair</ITEMNAME>
+      <ITEMNAME>Police - City Officer Female, Neon Yellow Safety Vest, Dark Blue Legs, Dark Orange Mid Length Hair, Open Mouth Grin</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>3.68</ITEMWEIGHT>
@@ -161277,7 +161277,7 @@
       <ITEMNAME>Wicket &amp;#40;Ewok&amp;#41;, Molded Dark Orange Hood with Wrinkles</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
-      <ITEMWEIGHT>4.22</ITEMWEIGHT>
+      <ITEMWEIGHT>4.5</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -163137,7 +163137,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1478</ITEMID>
-      <ITEMNAME>Imperial Royal Guard - Dark Red Arms and Hands, Torso Creases on Front and Back</ITEMNAME>
+      <ITEMNAME>Imperial Royal Guard - Dark Red Arms and Hands, Torso Creases on Front and Back, Spongy Cape</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>4.1</ITEMWEIGHT>
@@ -166865,7 +166865,7 @@
       <ITEMID>sh1115</ITEMID>
       <ITEMNAME>Batman Batsuit - Black with Yellow Belt with Medium Nougat Details, Cowl with White Eyes, Flexible Rubber Cape, Trans-Light Blue Head</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.8</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -166874,7 +166874,7 @@
       <ITEMID>sh1114</ITEMID>
       <ITEMNAME>Bruce Wayne - Black Suit with Dark Blue Tie</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.5</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167083,6 +167083,258 @@
       <CATEGORY>771</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.38</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol415</ITEMID>
+      <ITEMNAME>Man - Red Tang Jacket with Gold Chinese Scrollwork, Red Legs, Black Smooth Hair</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol416</ITEMID>
+      <ITEMNAME>Woman - Red Tang Jacket with Gold Chinese Scrollwork, White Legs, Dark Brown Hair</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol417</ITEMID>
+      <ITEMNAME>Man - Red Tang Jacket with Gold Chinese Scrollwork, White Legs, Dark Tan Hair</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol418</ITEMID>
+      <ITEMNAME>Woman - Red Tang Jacket with Gold Chinese Scrollwork, Red Legs, Brown Short Hair</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1491</ITEMID>
+      <ITEMNAME>Luke Skywalker &amp;#40;Tatooine&amp;#41; - SMART Play™</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.74</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1492</ITEMID>
+      <ITEMNAME>Jawa - Straps with Orange Stains and Holster</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.44</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1493</ITEMID>
+      <ITEMNAME>Gonk Droid &amp;#40;GNK Power Droid&amp;#41; - Dark Blue Body</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.75</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1495</ITEMID>
+      <ITEMNAME>Luke Skywalker &amp;#40;Dagobah&amp;#41; - SMART Play™</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.74</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1494</ITEMID>
+      <ITEMNAME>Yoda - SMART Play™</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.4</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1496</ITEMID>
+      <ITEMNAME>Astromech Droid, R2-D2 - Dirt Stains on Front and Back, without Dirt Stains on Top Panels</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1497</ITEMID>
+      <ITEMNAME>Wicket &amp;#40;Ewok&amp;#41; - SMART Play™</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.65</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1498</ITEMID>
+      <ITEMNAME>Imperial AT-ST Driver - Helmet with Molded Goggles, Light Bluish Gray Jumpsuit with Silver Dot, Printed Legs</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.7</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1499</ITEMID>
+      <ITEMNAME>Chewbacca - SMART Play™</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>5.1</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1500</ITEMID>
+      <ITEMNAME>Han Solo - SMART Play™</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.83</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1501</ITEMID>
+      <ITEMNAME>C-3PO - SMART Play™</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.21</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1502</ITEMID>
+      <ITEMNAME>Darth Vader - SMART Play™</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.18</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1503</ITEMID>
+      <ITEMNAME>Rebel Crew - Female, Sienna Head</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1504</ITEMID>
+      <ITEMNAME>Princess Leia - SMART Play™</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.95</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1505</ITEMID>
+      <ITEMNAME>Luke Skywalker &amp;#40;Pilot Suit&amp;#41; - SMART Play™</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.8</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1507</ITEMID>
+      <ITEMNAME>Luke Skywalker &amp;#40;Jedi&amp;#41; - SMART Play™</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.8</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1508</ITEMID>
+      <ITEMNAME>Emperor Palpatine - SMART Play™</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1509</ITEMID>
+      <ITEMNAME>Imperial Royal Guard - Dark Red Arms and Hands, Torso Creases on Front and Back, Very Short Spongy Cape</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.05</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1510</ITEMID>
+      <ITEMNAME>Rebel Pilot A-wing - Green Jumpsuit with Dark Bluish Gray Vest</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.93</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1506</ITEMID>
+      <ITEMNAME>R2-D2 - SMART Play™ Tag on Back</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.7</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1511</ITEMID>
+      <ITEMNAME>Sandtrooper - Plastic Pauldron, Dirt Stains</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1512</ITEMID>
+      <ITEMNAME>Obi-Wan Kenobi - SMART Play™</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.54</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1513</ITEMID>
+      <ITEMNAME>Greedo - SMART Play™</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.41</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1514</ITEMID>
+      <ITEMNAME>Imperial Scout Trooper - Male, Dual Molded Helmet, Belt with Small Dots, Light Nougat Head, Dark Brown Eyebrows, Frown</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
