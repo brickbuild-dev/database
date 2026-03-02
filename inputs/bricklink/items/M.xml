@@ -139197,7 +139197,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>soc166</ITEMID>
-      <ITEMNAME>Soccer Spectator - Orange Goalie Uniform, Orange Hair</ITEMNAME>
+      <ITEMNAME>Soccer Spectator - Female, Orange Goalie Uniform, Orange Hair</ITEMNAME>
       <CATEGORY>473</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>3.67</ITEMWEIGHT>
@@ -139206,7 +139206,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>soc167</ITEMID>
-      <ITEMNAME>Soccer Spectator - Dark Azure Jacket, Bright Pink Shirt, White Legs, Reddish Brown Hair</ITEMNAME>
+      <ITEMNAME>Soccer Spectator - Female, Dark Azure Jacket, Bright Pink Shirt, White Legs, Reddish Brown Hair</ITEMNAME>
       <CATEGORY>473</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>3.55</ITEMWEIGHT>
@@ -166934,6 +166934,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>twn542</ITEMID>
+      <ITEMNAME>Michael Schumacher </ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.37</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>soc175</ITEMID>
+      <ITEMNAME>Soccer Spectator - Female, Blue Hoodie with Black FIFA World Cup™ 2026 Logo, White Cap</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.02</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1973</ITEMID>
       <ITEMNAME>Service Truck Driver - Male, Neon Yellow Safety Vest with Reflective Stripes, Dark Green Legs with Reflective Stripes, Dark Brown Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
@@ -167087,6 +167105,123 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dis190</ITEMID>
+      <ITEMNAME>Winnie the Pooh - White Bib</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1992</ITEMID>
+      <ITEMNAME>Go-Kart Driver - Male, Lime Racing Suit, Light Bluish Gray Legs, White Helmet</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.67</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp274</ITEMID>
+      <ITEMNAME>Art Factory Photographer - Male, Dark Blue Bodywarmer Over Sand Green Sweater, Dark Blue Legs, Black Hair Parted on Right, Headphones Around Neck</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.76</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp273</ITEMID>
+      <ITEMNAME>Art Factory Waiter - Male, Black Tuxedo, Black Legs, Black Short Hair with Left Part</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.48</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp270</ITEMID>
+      <ITEMNAME>Art Factory Ballerina Teacher - Female, White Halter Top and Black Choker Necklace, Dark Turquoise Legs, Dark Brown Hair with Large High Bun</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.66</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp272</ITEMID>
+      <ITEMNAME>Art Factory Painter - Female, Medium Nougat Overalls over Sand Green Shirt, Medium Nougat Legs with Reddish Brown Boots, Dark Orange Tousled Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.73</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp268</ITEMID>
+      <ITEMNAME>Art Factory Pianist - Male, Dark Bluish Gray Plaid Jacket with Red Bow Tie, Dark Brown Legs, Light Bluish Gray Bushy Hair Swept Back</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.04</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp267</ITEMID>
+      <ITEMNAME>Art Factory Critic - Female, Tan Jacket Over Black Sweater, Dark Green Legs, Dark Tan Thick And Messy Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.74</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp266</ITEMID>
+      <ITEMNAME>Art Factory Security - Female, Black Safety Vest with Silver Star Badge Logo, Black Legs, Black Ponytail and Swept Sideways Fringe</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.65</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp265</ITEMID>
+      <ITEMNAME>Art Factory Bassist - Female, Dark Brown Jacket over Red Hawaiian Shirt, Dark Red Legs with Coral and Gold Vertical Stripes, Dark Brown Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.43</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp271</ITEMID>
+      <ITEMNAME>Art Factory Ballerina Student - Girl, White Dress with Ruffled Collar, White Medium Legs, Dark Brown Hair with Two Buns on Top, White Skirt</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.94</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp269</ITEMID>
+      <ITEMNAME>Art Factory Maintenance Worker - Male, Black Jacket with Reflective Stripes, Dark Bluish Gray Legs with Knee Pads, Light Bluish Gray Combed Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.34</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>phm001</ITEMID>
+      <ITEMNAME>Ryland Grace</ITEMNAME>
+      <CATEGORY>1374</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.58</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hol415</ITEMID>
       <ITEMNAME>Man - Red Tang Jacket with Gold Chinese Scrollwork, Red Legs, Black Smooth Hair</ITEMNAME>
       <CATEGORY>390</CATEGORY>
@@ -167124,108 +167259,108 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1491</ITEMID>
-      <ITEMNAME>Luke Skywalker &amp;#40;Tatooine&amp;#41; - SMART Play™</ITEMNAME>
+      <ITEMNAME>Luke Skywalker™ - SMART Play™</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.74</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1492</ITEMID>
-      <ITEMNAME>Jawa - Straps with Orange Stains and Holster</ITEMNAME>
+      <ITEMNAME>Jawa™ - Straps with Orange Stains and Holster</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.44</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1493</ITEMID>
-      <ITEMNAME>Gonk Droid &amp;#40;GNK Power Droid&amp;#41; - Dark Blue Body</ITEMNAME>
+      <ITEMNAME>Gonk Droid™ &amp;#40;GNK Power Droid&amp;#41; - Dark Blue Body</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.75</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1495</ITEMID>
-      <ITEMNAME>Luke Skywalker &amp;#40;Dagobah&amp;#41; - SMART Play™</ITEMNAME>
+      <ITEMNAME>Luke Skywalker™ &amp;#40;Dagobah&amp;#41; - SMART Play™</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.74</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1494</ITEMID>
-      <ITEMNAME>Yoda - SMART Play™</ITEMNAME>
+      <ITEMNAME>Yoda™ - SMART Play™</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.4</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1496</ITEMID>
-      <ITEMNAME>Astromech Droid, R2-D2 - Dirt Stains on Front and Back, without Dirt Stains on Top Panels</ITEMNAME>
+      <ITEMNAME>Astromech Droid, R2-D2™ - Dirt Stains on Front and Back, without Dirt Stains on Top Panels</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.5</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1497</ITEMID>
-      <ITEMNAME>Wicket &amp;#40;Ewok&amp;#41; - SMART Play™</ITEMNAME>
+      <ITEMNAME>Wicket™ &amp;#40;Ewok&amp;#41; - SMART Play™</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.65</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1498</ITEMID>
-      <ITEMNAME>Imperial AT-ST Driver - Helmet with Molded Goggles, Light Bluish Gray Jumpsuit with Silver Dot, Printed Legs</ITEMNAME>
+      <ITEMNAME>AT-ST Driver™ - Helmet with Molded Goggles, Light Bluish Gray Jumpsuit with Silver Dot, Printed Legs</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.7</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1499</ITEMID>
-      <ITEMNAME>Chewbacca - SMART Play™</ITEMNAME>
+      <ITEMNAME>Chewbacca™ - SMART Play™</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>5.1</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1500</ITEMID>
-      <ITEMNAME>Han Solo - SMART Play™</ITEMNAME>
+      <ITEMNAME>Han Solo™ - SMART Play™</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.83</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1501</ITEMID>
-      <ITEMNAME>C-3PO - SMART Play™</ITEMNAME>
+      <ITEMNAME>C-3PO™ - SMART Play™</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.21</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1502</ITEMID>
-      <ITEMNAME>Darth Vader - SMART Play™</ITEMNAME>
+      <ITEMNAME>Darth Vader™ - SMART Play™</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.18</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167241,7 +167376,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1504</ITEMID>
-      <ITEMNAME>Princess Leia - SMART Play™</ITEMNAME>
+      <ITEMNAME>Princess Leia™ - SMART Play™</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>3.95</ITEMWEIGHT>
@@ -167250,7 +167385,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1505</ITEMID>
-      <ITEMNAME>Luke Skywalker &amp;#40;Pilot Suit&amp;#41; - SMART Play™</ITEMNAME>
+      <ITEMNAME>Luke Skywalker™ &amp;#40;Pilot Suit&amp;#41; - SMART Play™</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>3.8</ITEMWEIGHT>
@@ -167259,18 +167394,18 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1507</ITEMID>
-      <ITEMNAME>Luke Skywalker &amp;#40;Jedi&amp;#41; - SMART Play™</ITEMNAME>
+      <ITEMNAME>Luke Skywalker™ &amp;#40;Jedi&amp;#41; - SMART Play™</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.8</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1508</ITEMID>
-      <ITEMNAME>Emperor Palpatine - SMART Play™</ITEMNAME>
+      <ITEMNAME>Emperor Palpatine™ - SMART Play™</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.2</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167279,7 +167414,7 @@
       <ITEMID>sw1509</ITEMID>
       <ITEMNAME>Imperial Royal Guard - Dark Red Arms and Hands, Torso Creases on Front and Back, Very Short Spongy Cape</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.05</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167288,14 +167423,14 @@
       <ITEMID>sw1510</ITEMID>
       <ITEMNAME>Rebel Pilot A-wing - Green Jumpsuit with Dark Bluish Gray Vest</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.93</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1506</ITEMID>
-      <ITEMNAME>R2-D2 - SMART Play™ Tag on Back</ITEMNAME>
+      <ITEMNAME>R2-D2™ - SMART Play™ Tag on Back</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>4.7</ITEMWEIGHT>
@@ -167304,28 +167439,82 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1511</ITEMID>
-      <ITEMNAME>Sandtrooper - Plastic Pauldron, Dirt Stains</ITEMNAME>
+      <ITEMNAME>Sandtrooper™ - Plastic Pauldron, Dirt Stains</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.5</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1512</ITEMID>
-      <ITEMNAME>Obi-Wan Kenobi - SMART Play™</ITEMNAME>
+      <ITEMNAME>Obi-Wan Kenobi™ - SMART Play™</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.54</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1513</ITEMID>
-      <ITEMNAME>Greedo - SMART Play™</ITEMNAME>
+      <ITEMNAME>Greedo™ - SMART Play™</ITEMNAME>
       <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.41</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1986</ITEMID>
+      <ITEMNAME>Police - City Bandit Crook Male, White Vest, Medium Nougat Wavy Hair, Sideburns, Orange Glasses</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.64</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1987</ITEMID>
+      <ITEMNAME>Police - City Bandit Crook Female, Black Tuxedo with Red Tie, Black Legs, Black Long Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.76</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1988</ITEMID>
+      <ITEMNAME>Police - City Detective Female, Reddish Brown Jacket, Black Legs, Bright Light Yellow Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.9</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1989</ITEMID>
+      <ITEMNAME>Police - City Officer Male, Black Safety Vest with Silver Star Badge Logo, Dark Blue Legs, Black Coiled Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>3.41</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1990</ITEMID>
+      <ITEMNAME>Police - City Officer Female, Neon Yellow Safety Vest, Dark Blue Legs, Dark Orange Mid Length Hair, Closed Mouth Smile</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.68</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1991</ITEMID>
+      <ITEMNAME>Police - City Jail Prisoner Male, Orange Prison Jumpsuit, Dark Brown Hair and Sideburns</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.6</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -167333,7 +167522,7 @@
       <ITEMID>sw1514</ITEMID>
       <ITEMNAME>Imperial Scout Trooper - Male, Dual Molded Helmet, Belt with Small Dots, Light Nougat Head, Dark Brown Eyebrows, Frown</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
