@@ -166754,6 +166754,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1119</ITEMID>
+      <ITEMNAME>Batman - Black Suit with Silver Bats and Trim</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sp151</ITEMID>
       <ITEMNAME>Astronaut - Female, Dark Brown Long Hair, Dark Turquoise Track Suit</ITEMNAME>
       <CATEGORY>166</CATEGORY>
@@ -166944,7 +166953,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>soc175</ITEMID>
-      <ITEMNAME>Soccer Spectator - Female, Blue Hoodie with Black FIFA World Cup™ 2026 Logo, White Cap</ITEMNAME>
+      <ITEMNAME>Soccer Spectator - Female, Blue Hoodie with Black FIFA World Cup 2026 Logo, White Cap</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>4.02</ITEMWEIGHT>
@@ -167108,7 +167117,7 @@
       <ITEMID>dis190</ITEMID>
       <ITEMNAME>Winnie the Pooh - White Bib</ITEMNAME>
       <CATEGORY>878</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167126,7 +167135,7 @@
       <ITEMID>bdp274</ITEMID>
       <ITEMNAME>Art Factory Photographer - Male, Dark Blue Bodywarmer Over Sand Green Sweater, Dark Blue Legs, Black Hair Parted on Right, Headphones Around Neck</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.76</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167135,7 +167144,7 @@
       <ITEMID>bdp273</ITEMID>
       <ITEMNAME>Art Factory Waiter - Male, Black Tuxedo, Black Legs, Black Short Hair with Left Part</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.48</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167144,7 +167153,7 @@
       <ITEMID>bdp270</ITEMID>
       <ITEMNAME>Art Factory Ballerina Teacher - Female, White Halter Top and Black Choker Necklace, Dark Turquoise Legs, Dark Brown Hair with Large High Bun</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.66</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167153,7 +167162,7 @@
       <ITEMID>bdp272</ITEMID>
       <ITEMNAME>Art Factory Painter - Female, Medium Nougat Overalls over Sand Green Shirt, Medium Nougat Legs with Reddish Brown Boots, Dark Orange Tousled Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.73</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167162,7 +167171,7 @@
       <ITEMID>bdp268</ITEMID>
       <ITEMNAME>Art Factory Pianist - Male, Dark Bluish Gray Plaid Jacket with Red Bow Tie, Dark Brown Legs, Light Bluish Gray Bushy Hair Swept Back</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.04</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167171,7 +167180,7 @@
       <ITEMID>bdp267</ITEMID>
       <ITEMNAME>Art Factory Critic - Female, Tan Jacket Over Black Sweater, Dark Green Legs, Dark Tan Thick And Messy Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.74</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167180,7 +167189,7 @@
       <ITEMID>bdp266</ITEMID>
       <ITEMNAME>Art Factory Security - Female, Black Safety Vest with Silver Star Badge Logo, Black Legs, Black Ponytail and Swept Sideways Fringe</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.65</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167189,7 +167198,7 @@
       <ITEMID>bdp265</ITEMID>
       <ITEMNAME>Art Factory Bassist - Female, Dark Brown Jacket over Red Hawaiian Shirt, Dark Red Legs with Coral and Gold Vertical Stripes, Dark Brown Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.43</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167198,7 +167207,7 @@
       <ITEMID>bdp271</ITEMID>
       <ITEMNAME>Art Factory Ballerina Student - Girl, White Dress with Ruffled Collar, White Medium Legs, Dark Brown Hair with Two Buns on Top, White Skirt</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.94</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167207,7 +167216,7 @@
       <ITEMID>bdp269</ITEMID>
       <ITEMNAME>Art Factory Maintenance Worker - Male, Black Jacket with Reflective Stripes, Dark Bluish Gray Legs with Knee Pads, Light Bluish Gray Combed Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.34</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167369,7 +167378,7 @@
       <ITEMID>sw1503</ITEMID>
       <ITEMNAME>Rebel Crew - Female, Sienna Head</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.2</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167378,7 +167387,7 @@
       <ITEMID>sw1504</ITEMID>
       <ITEMNAME>Princess Leia™ - SMART Play™</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.95</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167387,7 +167396,7 @@
       <ITEMID>sw1505</ITEMID>
       <ITEMNAME>Luke Skywalker™ &amp;#40;Pilot Suit&amp;#41; - SMART Play™</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.8</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167432,7 +167441,7 @@
       <ITEMID>sw1506</ITEMID>
       <ITEMNAME>R2-D2™ - SMART Play™ Tag on Back</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.7</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
