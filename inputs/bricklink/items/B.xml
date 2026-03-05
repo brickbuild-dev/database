@@ -1091,19 +1091,19 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>PuzMummy</ITEMID>
-      <ITEMNAME>The Curse of the Mummy - An Interactive Puzzle Book</ITEMNAME>
+      <ITEMID>b99adv02</ITEMID>
+      <ITEMNAME>The Curse of the Mummy - An Interactive Puzzle Storybook</ITEMNAME>
       <CATEGORY>594</CATEGORY>
-      <ITEMYEAR>1998</ITEMYEAR>
+      <ITEMYEAR>1999</ITEMYEAR>
       <ITEMWEIGHT>175</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>PuzTemple</ITEMID>
-      <ITEMNAME>The Lost Temple - An Interactive Puzzle Book</ITEMNAME>
+      <ITEMID>b99adv01</ITEMID>
+      <ITEMNAME>The Lost Temple - An Interactive Puzzle Storybook</ITEMNAME>
       <CATEGORY>594</CATEGORY>
-      <ITEMYEAR>1998</ITEMYEAR>
+      <ITEMYEAR>1999</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -10235,8 +10235,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>PuzMummyit</ITEMID>
-      <ITEMNAME>The Curse of the Mummy - An Interactive Puzzle Book - Italian Edition</ITEMNAME>
+      <ITEMID>b99adv02it</ITEMID>
+      <ITEMNAME>Alla Ricerca del Magico Rubino – Un Libro-Quiz Interattivo &amp;#40;Italian Edition&amp;#41;</ITEMNAME>
       <CATEGORY>594</CATEGORY>
       <ITEMYEAR>1999</ITEMYEAR>
       <ITEMWEIGHT>160</ITEMWEIGHT>
@@ -66881,6 +66881,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b99adv02se</ITEMID>
+      <ITEMNAME>Mumiens Förbannelse - Läs Sagan och Lös Gåtorna &amp;#40;Swedish Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>594</CATEGORY>
+      <ITEMYEAR>1999</ITEMYEAR>
+      <ITEMWEIGHT>160</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b23drm02es</ITEMID>
       <ITEMNAME>DREAMZzz - Bienvenidos al Mundo de los Sueños &amp;#40;Spanish Edition&amp;#41;</ITEMNAME>
       <CATEGORY>332</CATEGORY>
@@ -68249,10 +68258,37 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>FLLb201001</ITEMID>
+      <ITEMNAME>FIRST LEGO League Coaches' Handbook - 2010 FLL Challenge - Body Forward</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2010</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>FLLb201201</ITEMID>
+      <ITEMNAME>FIRST LEGO League Coaches' Handbook - 2012 FLL Challenge - Senior Solutions</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2012</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b25jw02</ITEMID>
       <ITEMNAME>Jurassic World - Dinosaur Chaos! &amp;#40;Softcover&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>FLLb201301</ITEMID>
+      <ITEMNAME>FIRST LEGO League Coaches' Handbook - 2013 FLL Challenge - Natures Fury</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -68461,6 +68497,33 @@
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>167</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26njo01uk</ITEMID>
+      <ITEMNAME>NINJAGO - Greatest Battles, Search &amp; Find Sticker Activity &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>189</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26njo02</ITEMID>
+      <ITEMNAME>NINJAGO - Graphic Novel: Strike of the Serpentine</ITEMNAME>
+      <CATEGORY>331</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>275</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26dup01</ITEMID>
+      <ITEMNAME>Duplo - Number Train &amp;#40;Board Book&amp;#41;</ITEMNAME>
+      <CATEGORY>254</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>119</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -69766,6 +69829,24 @@
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>28.8</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b25bot04hu</ITEMID>
+      <ITEMNAME>Botanicals - Virágcsokor - Vadvirágok &amp;#40;Softcover&amp;#41; &amp;#40;Hungarian Edition&amp;#41; - book only entry</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b25bot05hu</ITEMID>
+      <ITEMNAME>Botanicals - Sivatagi kert - Pozsgások &amp;#40;Softcover&amp;#41; &amp;#40;Hungarian Edition&amp;#41; - book only entry</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
