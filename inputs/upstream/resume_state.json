@@ -1,13 +1,13 @@
 {
-  "315c65673edb10a82d7d02c9478c8c9bc735564d47902fba07fcb89600c70da5": {
-    "updated_utc": "2026-03-06T01:17:56Z",
+  "5ffce4eaec18d408b3c5ce644a55de567ae9c8a3a330cd688f8fde564f29feab": {
+    "updated_utc": "2026-03-07T01:04:37Z",
     "missing": {
-      "boid": 165409,
-      "weight": 89770,
+      "boid": 165461,
+      "weight": 89822,
       "name": 0,
       "bk": 0
     },
     "attempts": 1,
-    "finalized": true
+    "finalized": false
   }
 }
