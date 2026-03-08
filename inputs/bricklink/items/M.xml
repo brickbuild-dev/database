@@ -4539,7 +4539,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>fab8g</ITEMID>
-      <ITEMNAME>Fabuland Monkey- Mike Monkey, Red Head, Legs and Arms, Yellow Top</ITEMNAME>
+      <ITEMNAME>Fabuland Monkey - Mike Monkey, Red Head, Legs and Arms, Yellow Top</ITEMNAME>
       <CATEGORY>153</CATEGORY>
       <ITEMYEAR>1979</ITEMYEAR>
       <ITEMWEIGHT>8</ITEMWEIGHT>
@@ -123753,7 +123753,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0796</ITEMID>
-      <ITEMNAME>Doc Ock - Female, Medium Legs, Flat Silver Arms</ITEMNAME>
+      <ITEMNAME>Doc Ock - Female, Medium Legs, Bright Green Jacket, Large Goggles, Flat Silver Arms</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT>4.99</ITEMWEIGHT>
@@ -136884,7 +136884,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0869</ITEMID>
-      <ITEMNAME>Doc Ock - Female, Medium Legs, Light Bluish Gray Arms</ITEMNAME>
+      <ITEMNAME>Doc Ock - Female, Medium Legs, Bright Green Jacket, Large Goggles, Light Bluish Gray Arms</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>4.99</ITEMWEIGHT>
@@ -167123,6 +167123,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1117</ITEMID>
+      <ITEMNAME>Ghost-Spider &amp;#40;Gwen Stacy&amp;#41; - Dark Purple Medium Legs, White Hood, Medium Azure Spider Logo, Dark Orange Belt</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.69</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1118</ITEMID>
+      <ITEMNAME>Doc Ock - Female, Medium Legs, Green Open Jacket, Round Goggles, Light Bluish Gray Arms</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>5.1</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1992</ITEMID>
       <ITEMNAME>Go-Kart Driver - Male, Lime Racing Suit, Light Bluish Gray Legs, White Helmet</ITEMNAME>
       <CATEGORY>67</CATEGORY>
@@ -167555,6 +167573,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dis191</ITEMID>
+      <ITEMNAME>Piglet</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sc145</ITEMID>
       <ITEMNAME>F1 ACADEMY LEGO Driver</ITEMNAME>
       <CATEGORY>842</CATEGORY>
@@ -167574,7 +167601,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>edu025</ITEMID>
-      <ITEMNAME>Arctic Explorer - Female, Coral and Dark Blue Outfit, Orange Lifevest, Dark Orange Hair, Dark Blue Hat</ITEMNAME>
+      <ITEMNAME>Arctic Explorer - Female, Coral and Dark Turquoise Outfit, Orange Lifevest, Dark Orange Hair, Dark Blue Hat</ITEMNAME>
       <CATEGORY>166</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.09</ITEMWEIGHT>
@@ -167587,6 +167614,51 @@
       <CATEGORY>771</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>2.76</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sc146</ITEMID>
+      <ITEMNAME>Audi Revolut F1 Team Driver</ITEMNAME>
+      <CATEGORY>842</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.96</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>edu026</ITEMID>
+      <ITEMNAME>Arctic Explorer - Female, Coral and Dark Turquoise Outfit, Long Black Hair</ITEMNAME>
+      <CATEGORY>166</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.84</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>edu027</ITEMID>
+      <ITEMNAME>Arctic Explorer Diver - Dark Blue Wetsuit with Coral Sleeves, Dark Turquoise Tank and Flippers, Dark Blue Helmet</ITEMNAME>
+      <CATEGORY>166</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.68</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>edu028</ITEMID>
+      <ITEMNAME>Arctic Explorer Photographer - Female, Coral Jacket, Dark Blue Legs, Bright Light Yellow Long Hair</ITEMNAME>
+      <CATEGORY>166</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.9</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>edu029</ITEMID>
+      <ITEMNAME>Arctic Explorer - Coral Jacket, Dark Turquoise Legs, Dark Blue Ushanka Hat</ITEMNAME>
+      <CATEGORY>166</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.95</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>

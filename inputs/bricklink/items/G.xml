@@ -71223,7 +71223,7 @@
       <ITEMNAME>Christmas Tree Ornament, Ribbon with Gold Edges and Bricks Pattern</ITEMNAME>
       <CATEGORY>1008</CATEGORY>
       <ITEMYEAR>2011</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>1.8</ITEMWEIGHT>
       <IMAGECOLOR>5</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -74823,7 +74823,7 @@
       <ITEMNAME>Wer sammelt die meisten LEGOLAND Modelle? Board Game &amp;#40;93933-D&amp;#41;</ITEMNAME>
       <CATEGORY>252</CATEGORY>
       <ITEMYEAR>1984</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>58</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -138129,7 +138129,7 @@
       <ITEMNAME>Watch Part, Case Analog - Brick 1 x 1 and Star Field, Neon Green Hour and Minute Hands, Silver Second Hand with Circle, Dark Blue Face with Glow in the Dark Areas</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>8.98</ITEMWEIGHT>
       <IMAGECOLOR>11</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -138921,7 +138921,7 @@
       <ITEMNAME>Watch Part, Case Analog - Brick 2 x 2, Blue Stacked Bricks Hour Hand, Red Stacked Bricks Minute Hand</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>8.01</ITEMWEIGHT>
       <IMAGECOLOR>7</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -138957,7 +138957,7 @@
       <ITEMNAME>Watch Part, Case Analog, Space - LEGO Logo, Silver Hands with Glow in the Dark Areas</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>6.33</ITEMWEIGHT>
       <IMAGECOLOR>11</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -139920,7 +139920,7 @@
       <ITEMNAME>Watch Part, Band - Male Classic, Short</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>3.22</ITEMWEIGHT>
       <IMAGECOLOR>5</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -139929,7 +139929,7 @@
       <ITEMNAME>Watch Part, Band - Female Classic, Short with Blue Buckle and &amp;#39;WATCH SYSTEM&amp;#39; Text</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>3.26</ITEMWEIGHT>
       <IMAGECOLOR>5</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -204163,6 +204163,15 @@
       <CATEGORY>1104</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>7.1</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6616407</ITEMID>
+      <ITEMNAME>Flyer 2025 Set 910057 Insert - Building App Link and Instructions &amp;#40;North American Version&amp;#41;</ITEMNAME>
+      <CATEGORY>1104</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>11</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
