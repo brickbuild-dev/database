@@ -137388,7 +137388,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1265</ITEMID>
-      <ITEMNAME>Imperial Scout Trooper - Male, Dual Molded Helmet, Light Nougat Head, Dark Brown Eyebrows, Frown</ITEMNAME>
+      <ITEMNAME>Imperial Scout Trooper - Male, Dual Molded Helmet, Belt with Large Dots  on Back, Light Nougat Head, Dark Brown Eyebrows, Frown</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>4.3</ITEMWEIGHT>
@@ -166955,7 +166955,7 @@
       <ITEMID>edi001</ITEMID>
       <ITEMNAME>Soccer Spectator - Female, Blue Hoodie with Black FIFA World Cup 2026 Logo, White Cap</ITEMNAME>
       <CATEGORY>1359</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.02</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167126,7 +167126,7 @@
       <ITEMID>sh1117</ITEMID>
       <ITEMNAME>Ghost-Spider &amp;#40;Gwen Stacy&amp;#41; - Dark Purple Medium Legs, White Hood, Medium Azure Spider Logo, Dark Orange Belt</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.69</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167135,7 +167135,7 @@
       <ITEMID>sh1118</ITEMID>
       <ITEMNAME>Doc Ock - Female, Medium Legs, Green Open Jacket, Round Goggles, Light Bluish Gray Arms</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>5.1</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167236,6 +167236,15 @@
       <CATEGORY>1197</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.34</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp615</ITEMID>
+      <ITEMNAME>Ginny Weasley - Gryffindor Robe Clasped, Black Short Legs, Skirt</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.9</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -167547,7 +167556,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1514</ITEMID>
-      <ITEMNAME>Imperial Scout Trooper - Male, Dual Molded Helmet, Belt with Small Dots, Light Nougat Head, Dark Brown Eyebrows, Frown</ITEMNAME>
+      <ITEMNAME>Imperial Scout Trooper - Male, Dual Molded Helmet, Belt with Small Dots on Back, Light Nougat Head, Dark Brown Eyebrows, Frown</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.3</ITEMWEIGHT>
@@ -167576,7 +167585,7 @@
       <ITEMID>dis191</ITEMID>
       <ITEMNAME>Piglet</ITEMNAME>
       <CATEGORY>878</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167621,7 +167630,7 @@
       <ITEMID>sc146</ITEMID>
       <ITEMNAME>Audi Revolut F1 Team Driver</ITEMNAME>
       <CATEGORY>842</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.96</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167630,7 +167639,7 @@
       <ITEMID>edu026</ITEMID>
       <ITEMNAME>Arctic Explorer - Female, Coral and Dark Turquoise Outfit, Long Black Hair</ITEMNAME>
       <CATEGORY>166</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.84</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167639,7 +167648,7 @@
       <ITEMID>edu027</ITEMID>
       <ITEMNAME>Arctic Explorer Diver - Dark Blue Wetsuit with Coral Sleeves, Dark Turquoise Tank and Flippers, Dark Blue Helmet</ITEMNAME>
       <CATEGORY>166</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.68</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167648,7 +167657,7 @@
       <ITEMID>edu028</ITEMID>
       <ITEMNAME>Arctic Explorer Photographer - Female, Coral Jacket, Dark Blue Legs, Bright Light Yellow Long Hair</ITEMNAME>
       <CATEGORY>166</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.9</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167657,8 +167666,26 @@
       <ITEMID>edu029</ITEMID>
       <ITEMNAME>Arctic Explorer - Coral Jacket, Dark Turquoise Legs, Dark Blue Ushanka Hat</ITEMNAME>
       <CATEGORY>166</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.95</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sp155</ITEMID>
+      <ITEMNAME>Classic Space Droid - Light Bluish Gray and Blue with Yellow Eye and Light Bluish Gray Arms</ITEMNAME>
+      <CATEGORY>34</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.05</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0893</ITEMID>
+      <ITEMNAME>Friends Sage - Reddish Orange Cropped Shirt, Trousers Bell-Bottoms, Orange Shoes, Dark Pink Cowboy Hat</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.36</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>

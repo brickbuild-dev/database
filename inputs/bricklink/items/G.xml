@@ -124248,7 +124248,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>McDTLM2_09</ITEMID>
-      <ITEMNAME>The LEGO Movie 2 Batman Happy Meal Toy</ITEMNAME>
+      <ITEMNAME>The LEGO Movie 2 Batman Happy Meal Toy &amp;#40;Marble Maze&amp;#41;</ITEMNAME>
       <CATEGORY>679</CATEGORY>
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>53.86</ITEMWEIGHT>
@@ -124257,7 +124257,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>McDTLM2_10</ITEMID>
-      <ITEMNAME>The LEGO Movie 2 Wyldstyle Happy Meal Toy</ITEMNAME>
+      <ITEMNAME>The LEGO Movie 2 Wyldstyle Happy Meal Toy &amp;#40;Disk + Thrower&amp;#41;</ITEMNAME>
       <CATEGORY>679</CATEGORY>
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>36.85</ITEMWEIGHT>
@@ -128442,7 +128442,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>McDTLM2_04</ITEMID>
-      <ITEMNAME>The LEGO Movie 2 Emmet Happy Meal Toy</ITEMNAME>
+      <ITEMNAME>The LEGO Movie 2 Emmet Happy Meal Toy &amp;#40;Puzzle&amp;#41;</ITEMNAME>
       <CATEGORY>679</CATEGORY>
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>69</ITEMWEIGHT>
@@ -128451,7 +128451,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>McDTLM2_08</ITEMID>
-      <ITEMNAME>The LEGO Movie 2 Unikitty Happy Meal Toy</ITEMNAME>
+      <ITEMNAME>The LEGO Movie 2 Unikitty Happy Meal Toy &amp;#40;Memory Card game&amp;#41;</ITEMNAME>
       <CATEGORY>679</CATEGORY>
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>43</ITEMWEIGHT>
@@ -128460,7 +128460,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>McDTLM2_07</ITEMID>
-      <ITEMNAME>The LEGO Movie 2 Ultrakatty Happy Meal Toy</ITEMNAME>
+      <ITEMNAME>The LEGO Movie 2 Ultrakatty Happy Meal Toy &amp;#40;Drawing Kit&amp;#41;</ITEMNAME>
       <CATEGORY>679</CATEGORY>
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>45</ITEMWEIGHT>
@@ -128496,7 +128496,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>McDTLM2_02</ITEMID>
-      <ITEMNAME>The LEGO Movie 2 Duplo Alien #1 Happy Meal Toy</ITEMNAME>
+      <ITEMNAME>The LEGO Movie 2 Duplo Alien #1 Happy Meal Toy &amp;#40;Tic-Tac-Toe Game&amp;#41;</ITEMNAME>
       <CATEGORY>679</CATEGORY>
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>77</ITEMWEIGHT>
@@ -204172,6 +204172,15 @@
       <CATEGORY>1104</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>11</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6616277</ITEMID>
+      <ITEMNAME>Flyer 2025 Set 910055 Insert - Building App Link and Instructions &amp;#40;North American Version&amp;#41;</ITEMNAME>
+      <CATEGORY>1104</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>11.15</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
