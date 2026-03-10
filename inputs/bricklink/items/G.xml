@@ -194340,7 +194340,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>5009187</ITEMID>
-      <ITEMNAME>Tote Bag, Easter</ITEMNAME>
+      <ITEMNAME>Tote Bag, Easter, Yellowish Green with Flowers, Eggs and Bunny Heads Pattern</ITEMNAME>
       <CATEGORY>1112</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>70</ITEMWEIGHT>
@@ -204181,6 +204181,15 @@
       <CATEGORY>1104</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>11.15</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>5010109</ITEMID>
+      <ITEMNAME>Tote Bag, Easter, with Bunny Ears, Bunny Suit Guy and Chicken Suit Guy Pattern</ITEMNAME>
+      <CATEGORY>1112</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
