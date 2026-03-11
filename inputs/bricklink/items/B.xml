@@ -50825,8 +50825,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>biocom10frmini</ITEMID>
-      <ITEMNAME>Bionicle #10 January 2003 L'arrivee des Kali! &amp;#40;Mini Version&amp;#41;</ITEMNAME>
+      <ITEMID>biocom10cafmini</ITEMID>
+      <ITEMNAME>Bionicle #10 January 2003 L&amp;#39;arrivee des Kali! - Mini Version &amp;#40;French - CA Edition&amp;#41;</ITEMNAME>
       <CATEGORY>331</CATEGORY>
       <ITEMYEAR>2003</ITEMYEAR>
       <ITEMWEIGHT>18</ITEMWEIGHT>
@@ -50834,8 +50834,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>biocom12casmall</ITEMID>
-      <ITEMNAME>Bionicle #12 May 2003 All Our Powers Against Us &amp;#40;English - CA Edition, Small Version&amp;#41;</ITEMNAME>
+      <ITEMID>biocom12camini</ITEMID>
+      <ITEMNAME>Bionicle #12 May 2003 All Our Powers Against Us - Mini Version &amp;#40;English - CA Edition&amp;#41;</ITEMNAME>
       <CATEGORY>331</CATEGORY>
       <ITEMYEAR>2003</ITEMYEAR>
       <ITEMWEIGHT>18</ITEMWEIGHT>
@@ -67961,6 +67961,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>biocom10camini</ITEMID>
+      <ITEMNAME>Bionicle #10 January 2003 The Coming Of The Kal - Mini Version &amp;#40;English - CA Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>331</CATEGORY>
+      <ITEMYEAR>2003</ITEMYEAR>
+      <ITEMWEIGHT>18</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>biocom08ca</ITEMID>
+      <ITEMNAME>Bionicle # 8 September 2002 The End Of The Toa? &amp;#40;Non-foil cover&amp;#41; &amp;#40;English - CA Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>331</CATEGORY>
+      <ITEMYEAR>2002</ITEMYEAR>
+      <ITEMWEIGHT>27</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>6469134</ITEMID>
       <ITEMNAME>Set 45825 - Activity Card 1 - Concert Stage / Museum Exhibition</ITEMNAME>
       <CATEGORY>576</CATEGORY>
@@ -68479,6 +68497,78 @@
       <CATEGORY>505</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT>64.9</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>com2023sw12de</ITEMID>
+      <ITEMNAME>Star Wars Comic 2023 Issue 12 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>331</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>com2024sw17de</ITEMID>
+      <ITEMNAME>Star Wars Comic 2024 Issue 17 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>331</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>com2024sw18de</ITEMID>
+      <ITEMNAME>Star Wars Comic 2024 Issue 18 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>331</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>com2023sw14de</ITEMID>
+      <ITEMNAME>Star Wars Comic 2023 Issue 14 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>331</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>com2023sw10de</ITEMID>
+      <ITEMNAME>Star Wars Comic 2023 Issue 10 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>331</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>com2024sw19de</ITEMID>
+      <ITEMNAME>Star Wars Comic 2024 Issue 19 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>331</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>com2024sw16de</ITEMID>
+      <ITEMNAME>Star Wars Comic 2024 Issue 16 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>331</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>com2025sw25de</ITEMID>
+      <ITEMNAME>Star Wars Comic 2025 Issue 25 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>331</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
