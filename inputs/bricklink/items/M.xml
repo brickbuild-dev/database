@@ -121683,7 +121683,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>dp136</ITEMID>
-      <ITEMNAME>Elsa - Medium Azure Skirt, Medium Blue Long Narrow Glitter Cape, Closed Mouth</ITEMNAME>
+      <ITEMNAME>Elsa - Medium Azure Dress, Medium Blue Long Narrow Glitter Cape, Smirk Wide</ITEMNAME>
       <CATEGORY>878</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>3.2</ITEMWEIGHT>
@@ -122529,7 +122529,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>dp140</ITEMID>
-      <ITEMNAME>Elsa - Medium Azure Skirt without Cape</ITEMNAME>
+      <ITEMNAME>Elsa - Medium Azure Dress, Closed Smile</ITEMNAME>
       <CATEGORY>878</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>3.12</ITEMWEIGHT>
@@ -122538,7 +122538,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>dp141</ITEMID>
-      <ITEMNAME>Anna - Blue Skirt, Black Boots and Black Top, Light Aqua Sleeves, Wide Smile</ITEMNAME>
+      <ITEMNAME>Anna - Blue Skirt, Black Boots and Black Top, Light Aqua Sleeves, Wide Smile, Dark Pink Lips</ITEMNAME>
       <CATEGORY>878</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>3.12</ITEMWEIGHT>
@@ -151788,7 +151788,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>dp197</ITEMID>
-      <ITEMNAME>Elsa - Medium Azure Skirt, Medium Blue Long Narrow Glitter Cape, Open Mouth</ITEMNAME>
+      <ITEMNAME>Elsa - Medium Azure Dress, Medium Blue Long Narrow Glitter Cape, Open Smile</ITEMNAME>
       <CATEGORY>878</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
@@ -166736,18 +166736,18 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
-      <ITEMID>sp149</ITEMID>
+      <ITEMID>edu030</ITEMID>
       <ITEMNAME>Astronaut - Female, Dark Brown Hair, White Spacesuit with Dark Turquoise Panel and Sleeves</ITEMNAME>
-      <CATEGORY>166</CATEGORY>
+      <CATEGORY>1370</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.67</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
-      <ITEMID>sp150</ITEMID>
+      <ITEMID>edu031</ITEMID>
       <ITEMNAME>Astronaut - Dark Turquoise Helmet and Legs, Coral Arms, Dark Blue Backpack</ITEMNAME>
-      <CATEGORY>166</CATEGORY>
+      <CATEGORY>1370</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>5.9</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -166763,36 +166763,36 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
-      <ITEMID>sp151</ITEMID>
+      <ITEMID>edu032</ITEMID>
       <ITEMNAME>Astronaut - Female, Dark Brown Long Hair, Dark Turquoise Track Suit</ITEMNAME>
-      <CATEGORY>166</CATEGORY>
+      <CATEGORY>1370</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.88</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
-      <ITEMID>sp152</ITEMID>
+      <ITEMID>edu033</ITEMID>
       <ITEMNAME>Astronaut - White Spacesuit with Dark Turquoise Panel and Sleeves, Dark Turquoise Helmet</ITEMNAME>
-      <CATEGORY>166</CATEGORY>
+      <CATEGORY>1370</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.26</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
-      <ITEMID>sp153</ITEMID>
+      <ITEMID>edu034</ITEMID>
       <ITEMNAME>Astronaut - Spacesuit with Dark Blue Legs, Coral Arms, Medium Nougat Hair</ITEMNAME>
-      <CATEGORY>166</CATEGORY>
+      <CATEGORY>1370</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.84</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
-      <ITEMID>sp154</ITEMID>
+      <ITEMID>edu035</ITEMID>
       <ITEMNAME>Astronaut - Female, Spacesuit with Dark Turquoise Legs, Coral Arms, Backpack with Light on Armature</ITEMNAME>
-      <CATEGORY>166</CATEGORY>
+      <CATEGORY>1370</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>6.2</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -167052,7 +167052,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1979</ITEMID>
-      <ITEMNAME>Airport Security Guard - Female, Black Safety Vest with Silver Star Bad Logo, Dark Blue Legs, Bright Light Yellow Hair Ponytail</ITEMNAME>
+      <ITEMNAME>Airport Security Guard - Female, Black Safety Vest with Silver Star Badge Logo, Dark Blue Legs, Bright Light Yellow Hair Ponytail</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.64</ITEMWEIGHT>
@@ -167602,7 +167602,7 @@
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>edu024</ITEMID>
       <ITEMNAME>Arctic Photographer - Dark Blue Jacket and Legs, Coral Sleeves, Dark Brown Hair</ITEMNAME>
-      <CATEGORY>166</CATEGORY>
+      <CATEGORY>1370</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.57</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -167611,7 +167611,7 @@
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>edu025</ITEMID>
       <ITEMNAME>Arctic Explorer - Female, Coral and Dark Turquoise Outfit, Orange Lifevest, Dark Orange Hair, Dark Blue Hat</ITEMNAME>
-      <CATEGORY>166</CATEGORY>
+      <CATEGORY>1370</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.09</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -167638,7 +167638,7 @@
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>edu026</ITEMID>
       <ITEMNAME>Arctic Explorer - Female, Coral and Dark Turquoise Outfit, Long Black Hair</ITEMNAME>
-      <CATEGORY>166</CATEGORY>
+      <CATEGORY>1370</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.84</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -167647,7 +167647,7 @@
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>edu027</ITEMID>
       <ITEMNAME>Arctic Explorer Diver - Dark Blue Wetsuit with Coral Sleeves, Dark Turquoise Tank and Flippers, Dark Blue Helmet</ITEMNAME>
-      <CATEGORY>166</CATEGORY>
+      <CATEGORY>1370</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.68</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -167656,7 +167656,7 @@
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>edu028</ITEMID>
       <ITEMNAME>Arctic Explorer Photographer - Female, Coral Jacket, Dark Blue Legs, Bright Light Yellow Long Hair</ITEMNAME>
-      <CATEGORY>166</CATEGORY>
+      <CATEGORY>1370</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.9</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -167665,7 +167665,7 @@
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>edu029</ITEMID>
       <ITEMNAME>Arctic Explorer - Coral Jacket, Dark Turquoise Legs, Dark Blue Ushanka Hat</ITEMNAME>
-      <CATEGORY>166</CATEGORY>
+      <CATEGORY>1370</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.95</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
