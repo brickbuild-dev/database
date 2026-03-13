@@ -87240,7 +87240,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hol105</ITEMID>
-      <ITEMNAME>Winter Jacket Zipper, Dark Azure Short Legs, Light Bluish Gray Sports Helmet</ITEMNAME>
+      <ITEMNAME>Boy, Winter Jacket Zipper, Dark Azure Short Legs, Light Bluish Gray Sports Helmet</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
@@ -167672,6 +167672,33 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>47394pb376</ITEMID>
+      <ITEMNAME>Duplo Figure Lego Ville, Female, Construction Worker, Dark Blue Legs, Orange Vest with Name Tag, Medium Azure Shirt, Light Bluish Gray Hands, White Helmet &amp;#40;6585429&amp;#41;</ITEMNAME>
+      <CATEGORY>167</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>15</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>47394pb377</ITEMID>
+      <ITEMNAME>Duplo Figure Lego Ville, Male, Construction Worker, Dark Blue Legs, Orange Vest with Name Tag, Medium Azure Shirt, Light Bluish Gray Hands, White Helmet &amp;#40;6585846&amp;#41;</ITEMNAME>
+      <CATEGORY>167</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>14.11</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dp238</ITEMID>
+      <ITEMNAME>Snowgie - Bright Light Blue Smile, Dark Azure Outline, Dome Top</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>0.7</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sp155</ITEMID>
       <ITEMNAME>Classic Space Droid - Light Bluish Gray and Blue with Yellow Eye and Light Bluish Gray Arms</ITEMNAME>
       <CATEGORY>34</CATEGORY>
@@ -167686,6 +167713,33 @@
       <CATEGORY>771</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.36</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dp239</ITEMID>
+      <ITEMNAME>Anna - Blue Skirt, Black Boots and Black Top, Light Aqua Sleeves, Wide Smile, Coral Lips</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.12</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dp240</ITEMID>
+      <ITEMNAME>Elsa - Medium Azure Dress, Medium Blue Long Narrow Glitter Cape, Smirk Narrow</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>2.97</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dis192</ITEMID>
+      <ITEMNAME>Sally - Mini Doll</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.2</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
