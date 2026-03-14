@@ -167142,7 +167142,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1992</ITEMID>
-      <ITEMNAME>Go-Kart Driver - Male, Lime Racing Suit, Light Bluish Gray Legs, White Helmet</ITEMNAME>
+      <ITEMNAME>Go-Kart Driver - Male, Lime Racing Suit with Leopard Logo, Light Bluish Gray Legs, White Helmet, Trans-Clear Visor, Goatee Stubble</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.67</ITEMWEIGHT>
@@ -167675,7 +167675,7 @@
       <ITEMID>47394pb376</ITEMID>
       <ITEMNAME>Duplo Figure Lego Ville, Female, Construction Worker, Dark Blue Legs, Orange Vest with Name Tag, Medium Azure Shirt, Light Bluish Gray Hands, White Helmet &amp;#40;6585429&amp;#41;</ITEMNAME>
       <CATEGORY>167</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>15</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167684,7 +167684,7 @@
       <ITEMID>47394pb377</ITEMID>
       <ITEMNAME>Duplo Figure Lego Ville, Male, Construction Worker, Dark Blue Legs, Orange Vest with Name Tag, Medium Azure Shirt, Light Bluish Gray Hands, White Helmet &amp;#40;6585846&amp;#41;</ITEMNAME>
       <CATEGORY>167</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>14.11</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167693,7 +167693,7 @@
       <ITEMID>dp238</ITEMID>
       <ITEMNAME>Snowgie - Bright Light Blue Smile, Dark Azure Outline, Dome Top</ITEMNAME>
       <CATEGORY>878</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>0.7</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167717,10 +167717,46 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1994</ITEMID>
+      <ITEMNAME>Race Car Driver - Male, Lime Racing Suit with Leopard Logo, Light Bluish Gray Legs, White Helmet, Trans-Clear Visor, Beard Stubble, Open Mouth Smile</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.67</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1995</ITEMID>
+      <ITEMNAME>Jet Pilot - Female, Racing Suit with Hawk Head Logo, Black Legs, Black Helmet, Trans-Clear Visor, Smirk / Wink</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.67</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1996</ITEMID>
+      <ITEMNAME>Bike Racer - Male, Racing Suit with Shark Head Logo, Blue Legs, Black Hair Short</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.66</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1997</ITEMID>
+      <ITEMNAME>Bike Racer - Female, Racing Suit with Shark Head Logo, Dark Blue Legs, Dark Brown Hair Mid-Length</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.66</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>dp239</ITEMID>
       <ITEMNAME>Anna - Blue Skirt, Black Boots and Black Top, Light Aqua Sleeves, Wide Smile, Coral Lips</ITEMNAME>
       <CATEGORY>878</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.12</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167729,7 +167765,7 @@
       <ITEMID>dp240</ITEMID>
       <ITEMNAME>Elsa - Medium Azure Dress, Medium Blue Long Narrow Glitter Cape, Smirk Narrow</ITEMNAME>
       <CATEGORY>878</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>2.97</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167738,7 +167774,7 @@
       <ITEMID>dis192</ITEMID>
       <ITEMNAME>Sally - Mini Doll</ITEMNAME>
       <CATEGORY>878</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.2</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>

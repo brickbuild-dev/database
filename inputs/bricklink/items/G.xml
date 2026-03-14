@@ -204189,7 +204189,16 @@
       <ITEMNAME>Tote Bag, Easter, with Bunny Ears, Bunny Suit Guy and Chicken Suit Guy Pattern</ITEMNAME>
       <CATEGORY>1112</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>139</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6616071</ITEMID>
+      <ITEMNAME>Flyer 2026 Set 910056 Insert - Building App Link and Instructions &amp;#40;International Version&amp;#41;</ITEMNAME>
+      <CATEGORY>1104</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>7.98</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
