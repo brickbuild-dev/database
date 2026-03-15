@@ -146550,7 +146550,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>ani001</ITEMID>
-      <ITEMNAME>Tom Nook</ITEMNAME>
+      <ITEMNAME>Tom Nook - Party Hat</ITEMNAME>
       <CATEGORY>1285</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>6.13</ITEMWEIGHT>
@@ -167582,6 +167582,33 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>47394pb375</ITEMID>
+      <ITEMNAME>Duplo Figure Lego Ville, Female Police, Dark Blue Legs, Medium Azure Top with Badge and Zipper, White Helmet &amp;#40;6586684&amp;#41;</ITEMNAME>
+      <CATEGORY>167</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>19.45</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp275</ITEMID>
+      <ITEMNAME>Lion Knight - Male, Flat Silver Neck Protector, Sideburns</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.65</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp276</ITEMID>
+      <ITEMNAME>Wolfpack - Male, Dark Bluish Gray Legs with Black Boots, White Beard and Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.81</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>dis191</ITEMID>
       <ITEMNAME>Piglet</ITEMNAME>
       <CATEGORY>878</CATEGORY>
@@ -167618,11 +167645,83 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp277</ITEMID>
+      <ITEMNAME>Wolfpack - Male, Dark Bluish Gray Legs with Black Boots, Reddish Brown Hood</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.88</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp278</ITEMID>
+      <ITEMNAME>Lion Knight - Female, Flat Silver Neck Protector, Scared Face Sideburns</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.65</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp279</ITEMID>
+      <ITEMNAME>Wolfpack - Female, Dark Bluish Gray Legs with Black Boots, Dark Brown Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.92</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp280</ITEMID>
+      <ITEMNAME>Wolfpack - Male, Black Legs with Reddish Brown Boots, Black Hood</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.92</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp281</ITEMID>
+      <ITEMNAME>Wolfpack - Female, Black Hood, Quiver</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.19</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp282</ITEMID>
+      <ITEMNAME>Wolfpack - Female, Tan Hair, Black Bandana</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>frnd0892</ITEMID>
       <ITEMNAME>Friends Valeria - White Shirt with Hearts and Bones, Magenta Trousers, Dark Blue Boots, Dark Orange Hair</ITEMNAME>
       <CATEGORY>771</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>2.76</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp283</ITEMID>
+      <ITEMNAME>Wolfpack - Female, Black Legs with Reddish Brown Boots, Black Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.49</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp284</ITEMID>
+      <ITEMNAME>Wolfpack - Male, Black Legs with Reddish Brown Boots, Light Bluish Gray Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.14</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -167720,7 +167819,7 @@
       <ITEMID>cty1994</ITEMID>
       <ITEMNAME>Race Car Driver - Male, Lime Racing Suit with Leopard Logo, Light Bluish Gray Legs, White Helmet, Trans-Clear Visor, Beard Stubble, Open Mouth Smile</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.67</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167729,7 +167828,7 @@
       <ITEMID>cty1995</ITEMID>
       <ITEMNAME>Jet Pilot - Female, Racing Suit with Hawk Head Logo, Black Legs, Black Helmet, Trans-Clear Visor, Smirk / Wink</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.67</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167738,7 +167837,7 @@
       <ITEMID>cty1996</ITEMID>
       <ITEMNAME>Bike Racer - Male, Racing Suit with Shark Head Logo, Blue Legs, Black Hair Short</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.66</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167747,8 +167846,17 @@
       <ITEMID>cty1997</ITEMID>
       <ITEMNAME>Bike Racer - Female, Racing Suit with Shark Head Logo, Dark Blue Legs, Dark Brown Hair Mid-Length</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.66</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>ani027</ITEMID>
+      <ITEMNAME>Tom Nook</ITEMNAME>
+      <CATEGORY>1285</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>5.96</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -167776,6 +167884,204 @@
       <CATEGORY>878</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1120</ITEMID>
+      <ITEMNAME>Dr. Octopus &amp;#40;Otto Octavius&amp;#41; / Doc Ock - Dark Green Outfit, Dark Brown Hair</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.35</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1121</ITEMID>
+      <ITEMNAME>Batman - Dark Bluish Gray Suit, Cowl with White Eyes, Black Boots</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.1</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1122</ITEMID>
+      <ITEMNAME>Batman - Pearl Dark Gray Armor, Cowl with White Eyes, Spongy Cape</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.64</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp294</ITEMID>
+      <ITEMNAME>Gold Mine Wagon Driver - Male, Black Vest with Blue Striped Tie, Black Legs, Black Top Hat, Large Moustache</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.73</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp295</ITEMID>
+      <ITEMNAME>Gold Mine Prisoner - Male, White Shirt with Pocket and Black Stripes, Black Legs, Dark Orange Swept Back Hair with Ponytail, Black Bandana</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.63</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp296</ITEMID>
+      <ITEMNAME>Gold Mine Lady - White Dress with Ruffled Collar, Black Lower Body Skirt, Dark Orange Hair with Braid</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.22</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp297</ITEMID>
+      <ITEMNAME>Gold Mine Gentleman - Light Bluish Gray Jacket with Pinstripes, Legs and Fedora</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.67</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp298</ITEMID>
+      <ITEMNAME>Gold Mine Prospector - Male, Red Shirt with Tan Tie, Dark Blue Legs, Dark Brown Fedora, Light Bluish Gray Beard</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.95</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp299</ITEMID>
+      <ITEMNAME>Gold Mine Explorer - Female, Reddish Brown Coat, Tan Fur Collar, Dark Blue Legs and Beanie</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.42</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp300</ITEMID>
+      <ITEMNAME>Gold Mine Bandit - Female, Tan Jacket Over Black Sweater, Black Legs, Dark Brown Fedora, Black Bandana</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.81</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp301</ITEMID>
+      <ITEMNAME>Gold Mine Bandit - Male, Red Plaid Flannel Shirt, Black Legs, Dark Brown Fedora, Black Bandana</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.8</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp302</ITEMID>
+      <ITEMNAME>Gold Mine Bandit - Female, Black Suit Jacket with White Button Up Shirt, Black Lower Body Skirt, Dark Red Side Swept Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.46</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp303</ITEMID>
+      <ITEMNAME>Gold Mine Miner - Male, Dark Tan Shirt with Reddish Brown Apron, Reddish Brown Legs, Flat Cap and Backpack</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.21</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp304</ITEMID>
+      <ITEMNAME>Gold Mine Worker - Female, Dark Green Open Jacket, Sand Blue Legs, Dark Brown Coiled Hair with Bun</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.1</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp305</ITEMID>
+      <ITEMNAME>Gold Mine Miner - Female, Medium Nougat Overalls over Sand Green Shirt, Dark Tan Legs with Molded Reddish Brown Boots, Dark Brown Fedora</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.73</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp306</ITEMID>
+      <ITEMNAME>Gold Mine Miner - Male, White Shirt with Reddish Brown Vest, Reddish Brown Legs, Dark Brown Fedora, Dark Blue Bandana</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.79</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1998</ITEMID>
+      <ITEMNAME>Construction Worker - Male, Dark Bluish Gray Overalls over Reddish Orange Safety Jacket with Reflective Stripes, Dark Bluish Gray Legs, Red Construction Helmet, Lopsided Grin and Scuff</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.35</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1123</ITEMID>
+      <ITEMNAME>Batman - Black Suit, Yellow Belt with Medium Nougat Details, Cowl with White Eyes, Flexible Rubber Cape</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.74</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1124</ITEMID>
+      <ITEMNAME>Batman - Pearl Gold Suit, Flexible Rubber Cape</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.74</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1999</ITEMID>
+      <ITEMNAME>Audi Revolut F1 Team Driver - Male, Black Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.36</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2000</ITEMID>
+      <ITEMNAME>Formula 1 Pit Crew Member - Female, Reddish Orange Racing Suit with Pockets, Dark Bluish Gray Legs, Dark Tan Tousled Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.6</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2001</ITEMID>
+      <ITEMNAME>Formula 1 Pit Crew Member - Male, Reddish Orange Racing Suit with Pockets, Dark Bluish Gray Legs, Black Hair, Scuff Mark</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.26</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>

@@ -69932,6 +69932,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026njo138de</ITEMID>
+      <ITEMNAME>NINJAGO Magazine 2026 Issue 138 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>1024</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b25bot04</ITEMID>
       <ITEMNAME>Botanicals - Tiny Wildflower Bouquet: Your own collection of blooms &amp;#40;Softcover&amp;#41; - book only entry</ITEMNAME>
       <CATEGORY>766</CATEGORY>
@@ -69963,6 +69972,24 @@
       <ITEMNAME>Botanicals - Sivatagi kert - Pozsgások &amp;#40;Softcover&amp;#41; &amp;#40;Hungarian Edition&amp;#41; - book only entry</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b16sw18fr</ITEMID>
+      <ITEMNAME>Star Wars - Construis ton Aventure &amp;#40;Hardcover&amp;#41; &amp;#40;French Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>317</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026cty86de</ITEMID>
+      <ITEMNAME>City Magazine 2026 Issue 86 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>1021</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>

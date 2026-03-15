@@ -46527,7 +46527,7 @@
       <ITEMNAME>Wooden Harrow</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>80</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -59973,7 +59973,7 @@
       <ITEMNAME>Plastic Harrow &amp;#40;fits Ferguson Tractor&amp;#41;</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT>19</ITEMWEIGHT>
+      <ITEMWEIGHT>22</ITEMWEIGHT>
       <IMAGECOLOR>9</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -77118,7 +77118,7 @@
       <ITEMNAME>Watch Part, Band Link - Minifigure Body Part, Hips and Legs</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>2012</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>0.88</ITEMWEIGHT>
       <IMAGECOLOR>157</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -94290,7 +94290,7 @@
       <ITEMNAME>Watch Part, Band Link - Minifigure Body Part, Torso with LEGO Logo, Red Arms, Yellow Hands</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>0.98</ITEMWEIGHT>
       <IMAGECOLOR>7</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -94299,7 +94299,7 @@
       <ITEMNAME>Watch Part, Band Link - Minifigure Body Part, Head Male</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>0.81</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -138174,7 +138174,7 @@
       <ITEMNAME>Watch Part, Case Attachment - Bezel Ring Raised with Silver Triangles and Dots Pattern</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>0.94</ITEMWEIGHT>
       <IMAGECOLOR>11</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -138966,7 +138966,7 @@
       <ITEMNAME>Watch Part, Case Attachment - Bezel Ring Wide with Black Compass Directions Pattern</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>0.78</ITEMWEIGHT>
       <IMAGECOLOR>6</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -138975,7 +138975,7 @@
       <ITEMNAME>Watch Part, Case Attachment - Bezel Ring Wide with Black Compass Directions and White Triangles Pattern</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
       <IMAGECOLOR>9</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -138993,7 +138993,7 @@
       <ITEMNAME>Watch Part, Case Attachment - Bezel Ring 12-Sided with Black Numbers and City Names Pattern on Both Sides</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>0.89</ITEMWEIGHT>
       <IMAGECOLOR>7</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -139011,7 +139011,7 @@
       <ITEMNAME>Watch Part, Case Attachment - Bezel Ring Raised with Blue Roman Numerals Pattern</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>0.95</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -140217,7 +140217,7 @@
       <ITEMNAME>Plastic Plow &amp;#40;fits Ferguson Tractor&amp;#41;</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1951</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>17</ITEMWEIGHT>
       <IMAGECOLOR>9</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -167424,7 +167424,7 @@
       <ITEMNAME>Watch Part, Case Attachment - Bezel Ring Aluminum Medium with Numbers 5 to 55</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>2.88</ITEMWEIGHT>
       <IMAGECOLOR>52</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -167433,7 +167433,7 @@
       <ITEMNAME>Watch Part, Case Attachment - Bezel Ring Aluminum Large with Tachometer Numbers Pattern</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>8.04</ITEMWEIGHT>
       <IMAGECOLOR>67</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -167442,7 +167442,7 @@
       <ITEMNAME>Watch Part, Case Analog, Aluminum - Black Background with Red 2 x 2 Brick</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>18.37</ITEMWEIGHT>
       <IMAGECOLOR>67</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -204154,6 +204154,15 @@
       <CATEGORY>1104</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>8.42</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo10deLE16</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 10 - # LE16 Mächtiger Lloyd Limited Edition</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>2.2</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
