@@ -130557,7 +130557,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hp376</ITEMID>
-      <ITEMNAME>Ron Weasley - Olive Green Jacket, Dark Blue Jumper</ITEMNAME>
+      <ITEMNAME>Ron Weasley - Olive Green Jacket, Dark Blue Sweater</ITEMNAME>
       <CATEGORY>227</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT>3.2</ITEMWEIGHT>
@@ -158646,7 +158646,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hp550</ITEMID>
-      <ITEMNAME>Ron Weasley - Olive Green Jacket, Blue Jumper</ITEMNAME>
+      <ITEMNAME>Ron Weasley - Olive Green Jacket, Blue Sweater</ITEMNAME>
       <CATEGORY>227</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>3.2</ITEMWEIGHT>
@@ -158673,7 +158673,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1898</ITEMID>
-      <ITEMNAME>Arctic Explorer - Male, Orange and Medium Azure Jacket, Dark Blue Ushanka Hat, Black Beard, Glasses, Back Pack</ITEMNAME>
+      <ITEMNAME>Arctic Explorer - Male, Orange and Medium Azure Jacket, Dark Blue Ushanka Hat, Black Beard, Glasses, Backpack</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>5.07</ITEMWEIGHT>
@@ -166800,7 +166800,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>frnd0886</ITEMID>
-      <ITEMNAME>Friends Paisley - Bright Light Yellow and Medium Lavender Tank Top, Blue Violet Skirt, Dark Blue Sandals, Bright Pink Suncap</ITEMNAME>
+      <ITEMNAME>Friends Paisley - Bright Light Yellow and Medium Lavender Tank Top, Blue Violet Skirt, Dark Blue Sandals, Bright Pink Sun Cap</ITEMNAME>
       <CATEGORY>771</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.4</ITEMWEIGHT>
@@ -167861,6 +167861,87 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp286</ITEMID>
+      <ITEMNAME>Sequoia Tree Trail Ranger - Male, Bright Light Blue Uniform, Dark Green Legs, Tan Fedora, Sunglasses</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.64</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp285</ITEMID>
+      <ITEMNAME>Sequoia Tree Trail Ranger - Male, Bright Light Blue Uniform, Dark Green Legs, Tan Fedora, Rectangular Glasses</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.64</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp287</ITEMID>
+      <ITEMNAME>Sequoia Tree Trail Ranger - Female, Bright Light Blue Uniform, Dark Green Legs, Tan Fedora</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.64</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp288</ITEMID>
+      <ITEMNAME>Sequoia Tree Trail Tourist - Father, Dark Azure Hoodie with Green Striped Shirt, Dark Blue Legs, Dark Brown Hair Short Wavy, Baby Carrier</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.6</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp290</ITEMID>
+      <ITEMNAME>Sequoia Tree Trail Tourist - Mother, Light Bluish Gray Cardigan Sweater, Sand Blue Legs with Pockets, Black Coiled Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.4</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp289</ITEMID>
+      <ITEMNAME>Sequoia Tree Trail Tourist - Daughter, Reddish Brown Jacket, Medium Lavender Short Legs, Long Black Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.61</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp291</ITEMID>
+      <ITEMNAME>Sequoia Tree Trail Hiker - Male, Dark Turquoise Hoody and Legs, Medium Nougat Hair, Backpack</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp292</ITEMID>
+      <ITEMNAME>Sequoia Tree Trail Hiker - Female, Dark Purple Tracksuit, Reddish Brown Hair Mid-Length</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.96</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp293</ITEMID>
+      <ITEMNAME>Sequoia Tree Trail Adventurer - Female, Tan Jacket, Black Legs, Bright Light Yellow Ponytail</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.64</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>dp239</ITEMID>
       <ITEMNAME>Anna - Blue Skirt, Black Boots and Black Top, Light Aqua Sleeves, Wide Smile, Coral Lips</ITEMNAME>
       <CATEGORY>878</CATEGORY>
@@ -168035,7 +168116,7 @@
       <ITEMID>cty1998</ITEMID>
       <ITEMNAME>Construction Worker - Male, Dark Bluish Gray Overalls over Reddish Orange Safety Jacket with Reflective Stripes, Dark Bluish Gray Legs, Red Construction Helmet, Lopsided Grin and Scuff</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.35</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -168062,7 +168143,7 @@
       <ITEMID>cty1999</ITEMID>
       <ITEMNAME>Audi Revolut F1 Team Driver - Male, Black Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.36</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -168071,7 +168152,7 @@
       <ITEMID>cty2000</ITEMID>
       <ITEMNAME>Formula 1 Pit Crew Member - Female, Reddish Orange Racing Suit with Pockets, Dark Bluish Gray Legs, Dark Tan Tousled Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.6</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -168080,7 +168161,7 @@
       <ITEMID>cty2001</ITEMID>
       <ITEMNAME>Formula 1 Pit Crew Member - Male, Reddish Orange Racing Suit with Pockets, Dark Bluish Gray Legs, Black Hair, Scuff Mark</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.26</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
