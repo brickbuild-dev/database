@@ -191657,6 +191657,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>SWGCNO-1</ITEMID>
+      <ITEMNAME>Star Wars Galactic Challenge Contest Promotional Set &amp;#40;Norwegian Version&amp;#41;</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>1999</ITEMYEAR>
+      <ITEMWEIGHT>11</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
       <ITEMID>L0002248-1</ITEMID>
       <ITEMNAME>Hero with Blaze paper bag</ITEMNAME>
       <CATEGORY>801</CATEGORY>
@@ -191669,6 +191678,15 @@
       <ITEMID>L0002221-1</ITEMID>
       <ITEMNAME>Construction Worker with Bulldozer paper bag</ITEMNAME>
       <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>40890-1</ITEMID>
+      <ITEMNAME>Easter Decorations</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>

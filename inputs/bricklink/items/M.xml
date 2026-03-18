@@ -2010,7 +2010,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0004</ITEMID>
-      <ITEMNAME>Darth Vader &amp;#40;Light Gray Head&amp;#41;</ITEMNAME>
+      <ITEMNAME>Darth Vader - Light Gray Head, Dark Gray Torso Armor with Silver Chest Panel</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>1999</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -34977,7 +34977,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0209</ITEMID>
-      <ITEMNAME>Darth Vader (Death Star torso)</ITEMNAME>
+      <ITEMNAME>Darth Vader &amp;#40;Death Star Torso&amp;#41;</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2008</ITEMYEAR>
       <ITEMWEIGHT>4.6</ITEMWEIGHT>
@@ -86622,7 +86622,7 @@
       <ITEMNAME>Friends Sienna</ITEMNAME>
       <CATEGORY>771</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>2.9</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -97908,7 +97908,7 @@
       <ITEMNAME>Staff LEGO Games</ITEMNAME>
       <CATEGORY>976</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>3.36</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -108264,7 +108264,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo0596</ITEMID>
-      <ITEMNAME>Lord Garmadon - Legacy</ITEMNAME>
+      <ITEMNAME>Lord Garmadon - Legacy, Black Helmet, Printed Legs</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -112551,7 +112551,7 @@
       <ITEMNAME>Friends Stephanie - Medium Azure Skirt, Medium Azure and Dark Purple Jacket, Sunglasses</ITEMNAME>
       <CATEGORY>771</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>3.5</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -122820,7 +122820,7 @@
       <ITEMNAME>Japan Retail Academy Training</ITEMNAME>
       <CATEGORY>983</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>3.36</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -136353,7 +136353,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo0803</ITEMID>
-      <ITEMNAME>Lord Garmadon - Legacy, Silver Armor, Plain Legs</ITEMNAME>
+      <ITEMNAME>Lord Garmadon - Legacy, Black Helmet, Plain Legs</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -154758,7 +154758,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo0920</ITEMID>
-      <ITEMNAME>Dragonian Warrior</ITEMNAME>
+      <ITEMNAME>Dragonian Warrior - Open Mouth with Teeth Parted</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>4.8</ITEMWEIGHT>
@@ -155307,7 +155307,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo0931</ITEMID>
-      <ITEMNAME>Dragonian Warrior - Dragon Backpack</ITEMNAME>
+      <ITEMNAME>Dragonian Warrior - Open Mouth with Teeth Parted, Dragon Backpack</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>7.14</ITEMWEIGHT>
@@ -163920,7 +163920,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo0994</ITEMID>
-      <ITEMNAME>Kai - Dragons Rising, Tunic with Shoulder Armor, Hair &amp;#40;Book b25njo06&amp;#41;</ITEMNAME>
+      <ITEMNAME>Kai - Dragons Rising, Tunic with Shoulder Armor, Hair</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>4.05</ITEMWEIGHT>
@@ -165162,7 +165162,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1016</ITEMID>
-      <ITEMNAME>Lord Garmadon - Legacy, Pearl Dark Gray Helmet, No Leg Print</ITEMNAME>
+      <ITEMNAME>Lord Garmadon - Legacy, Pearl Dark Gray Helmet</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.87</ITEMWEIGHT>
@@ -166988,6 +166988,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>njo1055</ITEMID>
+      <ITEMNAME>Lord Garmadon - Legacy, Dark Brown Hat &amp;#40;b25njo08de&amp;#41;</ITEMNAME>
+      <CATEGORY>759</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.95</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>frnd0890</ITEMID>
       <ITEMNAME>Friends Matilde - Bright Pink Sleeveless Jacket, White Trousers, Black Boots</ITEMNAME>
       <CATEGORY>771</CATEGORY>
@@ -167020,6 +167029,24 @@
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>3.6</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>njo1053</ITEMID>
+      <ITEMNAME>Lloyd - Dragons Rising, Tournament Armor, Dark Green Bandana</ITEMNAME>
+      <CATEGORY>759</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.06</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>njo1054</ITEMID>
+      <ITEMNAME>Dragonian Warrior - Open Mouth with Bottom Fangs</ITEMNAME>
+      <CATEGORY>759</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.8</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -167600,6 +167627,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>njo1051</ITEMID>
+      <ITEMNAME>Grimfax</ITEMNAME>
+      <CATEGORY>759</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.93</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>njo1052</ITEMID>
+      <ITEMNAME>Master of Ice</ITEMNAME>
+      <CATEGORY>759</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.6</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>bdp276</ITEMID>
       <ITEMNAME>Wolfpack - Male, Dark Bluish Gray Legs with Black Boots, White Beard and Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
@@ -167816,6 +167861,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1515</ITEMID>
+      <ITEMNAME>Darth Vader - Light Gray Head, Silver Torso Armor with Dark Gray Chest Panel &amp;#40;Galactic Challenge Promotional&amp;#41;</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1994</ITEMID>
       <ITEMNAME>Race Car Driver - Male, Lime Racing Suit with Leopard Logo, Light Bluish Gray Legs, White Helmet, Trans-Clear Visor, Beard Stubble, Open Mouth Smile</ITEMNAME>
       <CATEGORY>67</CATEGORY>
@@ -167916,7 +167970,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>bdp291</ITEMID>
-      <ITEMNAME>Sequoia Tree Trail Hiker - Male, Dark Turquoise Hoody and Legs, Medium Nougat Hair, Backpack</ITEMNAME>
+      <ITEMNAME>Sequoia Tree Trail Hiker - Male, Dark Turquoise Jacket with Dark Green Panel, Legs with Silver Reflective Stripes, Medium Nougat Hair, Backpack</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.5</ITEMWEIGHT>
@@ -168170,7 +168224,7 @@
       <ITEMID>frnd0894</ITEMID>
       <ITEMNAME>Friends Nova - Dark Turquoise Sleeveless Hoodie, Black Trousers Bell-Bottoms with Metallic Light Blue Shoes</ITEMNAME>
       <CATEGORY>771</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.25</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -168179,7 +168233,7 @@
       <ITEMID>frnd0895</ITEMID>
       <ITEMNAME>Friends Liann - Black Leather Jacket, Dark Azure Skirt with Ruffles</ITEMNAME>
       <CATEGORY>771</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.85</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -168188,7 +168242,7 @@
       <ITEMID>frnd0896</ITEMID>
       <ITEMNAME>Friends Paisley - Bright Light Yellow and Medium Lavender Tank Top, Dark Blue Trousers with Red Shoes</ITEMNAME>
       <CATEGORY>771</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.32</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -168197,7 +168251,7 @@
       <ITEMID>47394pb378</ITEMID>
       <ITEMNAME>Duplo Figure Lego Ville, Male Firefighter, Black Legs, Red Vest with Silver Fire Badge and Radio, Medium Nougat Face, White Helmet with Fire Badge &amp;#40;6589646&amp;#41;</ITEMNAME>
       <CATEGORY>167</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>16.3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -168206,7 +168260,7 @@
       <ITEMID>njo1057</ITEMID>
       <ITEMNAME>Jay - Dragons Rising, Tunic with Dragon Head, Helmet</ITEMNAME>
       <CATEGORY>759</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.1</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -168215,7 +168269,7 @@
       <ITEMID>sh1125</ITEMID>
       <ITEMNAME>Venomized Wolverine</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.82</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -168224,7 +168278,7 @@
       <ITEMID>47394pb379</ITEMID>
       <ITEMNAME>Duplo Figure Lego Ville, Female, Dark Blue Legs, Orange Vest with Name Tag Pattern, Medium Azure Shirt, Light Bluish Gray Hands, White Construction Helmet &amp;#40;6589830&amp;#41;</ITEMNAME>
       <CATEGORY>167</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>15.25</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -168233,8 +168287,62 @@
       <ITEMID>47394pb380</ITEMID>
       <ITEMNAME>Duplo Figure Lego Ville, Male, Dark Blue Legs, Orange Vest with Name Tag Pattern, Medium Azure Arms, White Cap with Headset &amp;#40;6589826&amp;#41;</ITEMNAME>
       <CATEGORY>167</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>15</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>7627pb01</ITEMID>
+      <ITEMNAME>Duplo Figure Lego Ville, Baby, Bright Light Yellow Sleep Sack, White Top with Paw Prints Pattern, Yellow Hat &amp;#40;6567923&amp;#41;</ITEMNAME>
+      <CATEGORY>167</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>11.46</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>47205pb131</ITEMID>
+      <ITEMNAME>Duplo Figure Lego Ville, Child Boy, Bright Green Legs, Medium Azure Jacket with Capital Letter A and Buttons, Black Hair &amp;#40;6590637&amp;#41;</ITEMNAME>
+      <CATEGORY>167</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>11.9</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>47394pb381</ITEMID>
+      <ITEMNAME>Duplo Figure Lego Ville, Male, Dark Bluish Gray Legs, Orange Vest over White Shirt with Bricks Pattern, Dark Orange Hair and Beard &amp;#40;6590834&amp;#41;</ITEMNAME>
+      <CATEGORY>167</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>15.2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp309</ITEMID>
+      <ITEMNAME>Camper - Male, Light Bluish Gray Hoodie with Dark Red Shirt, Sand Blue Legs with Pockets, Dark Blue Cap, Backpack</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.21</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp308</ITEMID>
+      <ITEMNAME>Child - Boy, Dark Turquoise Jacket with Dark Green Panel, Olive Green Medium Legs, Black Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.56</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp307</ITEMID>
+      <ITEMNAME>Mountain Bike Cyclist - Female, Dark Red and Coral Jogging Suit, Dark Tan Legs with Pockets, Dark Blue Dirt Bike Helmet, White Goggles</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.92</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
