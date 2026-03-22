@@ -68808,7 +68808,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b17njo09hu</ITEMID>
-      <ITEMNAME>NINJAGO - A Spinjitsu Könyve &amp;#40;Hardcover&amp;#41; &amp;#40;Hungarian Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>NINJAGO - A Spinjitzu Könyve &amp;#40;Hardcover&amp;#41; &amp;#40;Hungarian Edition&amp;#41;</ITEMNAME>
       <CATEGORY>505</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
       <ITEMWEIGHT>479</ITEMWEIGHT>
@@ -68916,7 +68916,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b17cty14hu</ITEMID>
-      <ITEMNAME>City - Vigyázz. kész, tűz! &amp;#40;Softcover&amp;#41; &amp;#40;Hungarian Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>City - Vigyázz, kész, tűz! &amp;#40;Softcover&amp;#41; &amp;#40;Hungarian Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -70022,11 +70022,29 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b22sw09fr</ITEMID>
+      <ITEMNAME>Star Wars - L'Encyclopédie des Personnages - Nouvelle Édition &amp;#40;Hardcover&amp;#41; &amp;#40;French Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>883</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b16sw18fr</ITEMID>
       <ITEMNAME>Star Wars - Construis ton Aventure &amp;#40;Hardcover&amp;#41; &amp;#40;French Edition&amp;#41;</ITEMNAME>
       <CATEGORY>317</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b16sw07fr</ITEMID>
+      <ITEMNAME>Star Wars - 100 Scènes Cultes &amp;#40;Hardcover&amp;#41; &amp;#40;French Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT>1120</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>

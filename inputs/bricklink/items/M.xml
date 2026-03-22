@@ -20496,7 +20496,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>6453pb028</ITEMID>
-      <ITEMNAME>Duplo Figure, Child Type 2 Girl, White Legs, Dark Pink Lace Tank Top with Heart, Black Hair Pigtails</ITEMNAME>
+      <ITEMNAME>Duplo Figure, Child Type 2 Girl, White Legs, Dark Pink Lace Tank Top with Heart, Black Hair Pigtails &amp;#40;4143103&amp;#41;</ITEMNAME>
       <CATEGORY>167</CATEGORY>
       <ITEMYEAR>2001</ITEMYEAR>
       <ITEMWEIGHT>11.4</ITEMWEIGHT>
@@ -25077,7 +25077,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>47205pb001</ITEMID>
-      <ITEMNAME>Duplo Figure Lego Ville, Child Girl, Bright Green Legs, Light Blue Top with Red Flowers, Black Hair &amp;#40;4644712, 6233812&amp;#41;</ITEMNAME>
+      <ITEMNAME>Duplo Figure Lego Ville, Child Girl, Bright Green Legs, Light Blue Top with Red Flowers, Black Hair &amp;#40;4271511 / 4644712 / 6233812&amp;#41;</ITEMNAME>
       <CATEGORY>167</CATEGORY>
       <ITEMYEAR>1998</ITEMYEAR>
       <ITEMWEIGHT>12</ITEMWEIGHT>
@@ -25203,7 +25203,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>47205pb006</ITEMID>
-      <ITEMNAME>Duplo Figure Lego Ville, Child Girl, Red Legs, Dark Pink Top With Flowers, Light Blond Hair With Ponytail, Glasses</ITEMNAME>
+      <ITEMNAME>Duplo Figure Lego Ville, Child Girl, Red Legs, Dark Pink Top With Flowers, Light Blond Hair With Ponytail, Glasses &amp;#40;4286465&amp;#41;</ITEMNAME>
       <CATEGORY>167</CATEGORY>
       <ITEMYEAR>2004</ITEMYEAR>
       <ITEMWEIGHT>13</ITEMWEIGHT>
@@ -26400,7 +26400,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>47394pb030</ITEMID>
-      <ITEMNAME>Duplo Figure Lego Ville, Female, Dark Red Legs, Sand Green Sweater, Very Light Gray Hair, Green Eyes, Glasses</ITEMNAME>
+      <ITEMNAME>Duplo Figure Lego Ville, Female, Dark Red Legs, Sand Green Sweater, Very Light Gray Hair, Green Eyes, Glasses &amp;#40;4208136&amp;#41;</ITEMNAME>
       <CATEGORY>167</CATEGORY>
       <ITEMYEAR>2004</ITEMYEAR>
       <ITEMWEIGHT>17.48</ITEMWEIGHT>
@@ -28821,7 +28821,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>47205pb009</ITEMID>
-      <ITEMNAME>Duplo Figure Lego Ville, Child Girl, Bright Green Legs, Medium Green Top with Red Trim, Black Hair</ITEMNAME>
+      <ITEMNAME>Duplo Figure Lego Ville, Child Girl, Bright Green Legs, Medium Green Top with Red Trim, Black Hair &amp;#40;4271511&amp;#41;</ITEMNAME>
       <CATEGORY>167</CATEGORY>
       <ITEMYEAR>2004</ITEMYEAR>
       <ITEMWEIGHT>12</ITEMWEIGHT>
@@ -33222,7 +33222,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>bio024</ITEMID>
-      <ITEMNAME>Bionicle Mini - Toa Mahri Bright Light Orange</ITEMNAME>
+      <ITEMNAME>Bionicle Mini - Toa Mahri Hewkii with Rebreather</ITEMNAME>
       <CATEGORY>273</CATEGORY>
       <ITEMYEAR>2007</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
@@ -119586,7 +119586,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>mk049</ITEMID>
-      <ITEMNAME>Syntax</ITEMNAME>
+      <ITEMNAME>Syntax - Spike, Cup, Dish</ITEMNAME>
       <CATEGORY>1100</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>7.69</ITEMWEIGHT>
@@ -168289,6 +168289,24 @@
       <CATEGORY>167</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>15</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>min260</ITEMID>
+      <ITEMNAME>Wither - Base with Connector Hubs &amp;#40;21590&amp;#41;</ITEMNAME>
+      <CATEGORY>801</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>9.3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>min261</ITEMID>
+      <ITEMNAME>Crimson Warrior &amp;#40;21590&amp;#41;</ITEMNAME>
+      <CATEGORY>801</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>5.05</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>

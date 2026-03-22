@@ -3965,7 +3965,7 @@
       <ITEMID>P1535</ITEMID>
       <ITEMNAME>Knights' Kingdom Pen</ITEMNAME>
       <CATEGORY>241</CATEGORY>
-      <ITEMYEAR>2003</ITEMYEAR>
+      <ITEMYEAR>2001</ITEMYEAR>
       <ITEMWEIGHT>131</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -14870,8 +14870,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>Citymat</ITEMID>
-      <ITEMNAME>Playmat / Rug with Street Pattern</ITEMNAME>
+      <ITEMID>LC206</ITEMID>
+      <ITEMNAME>Playmat / Rug - Children&amp;#39;s Factory Learning Carpets City Life Play Carpet</ITEMNAME>
       <CATEGORY>998</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>2300</ITEMWEIGHT>
@@ -25710,7 +25710,7 @@
       <ITEMNAME>Race Car Driver Vertical Lines Torso Key Chain - Twisted Metal Chain with small ring, no LEGO logo on back</ITEMNAME>
       <CATEGORY>334</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>6</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -34266,9 +34266,9 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>bb1014</ITEMID>
-      <ITEMNAME>Watch Part, Band Link - Large &amp;#40;Bionicle Tahu Nuva Watch&amp;#41;</ITEMNAME>
+      <ITEMNAME>Watch Part, Band Link - Large</ITEMNAME>
       <CATEGORY>517</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2003</ITEMYEAR>
       <ITEMWEIGHT>1.06</ITEMWEIGHT>
       <IMAGECOLOR>4</IMAGECOLOR>
    </ITEM>
@@ -82139,8 +82139,8 @@
       <ITEMID>bb1044</ITEMID>
       <ITEMNAME>Watch Part, Case Attachment - Band Link Adaptor</ITEMNAME>
       <CATEGORY>517</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT>1</ITEMWEIGHT>
+      <ITEMYEAR>1996</ITEMYEAR>
+      <ITEMWEIGHT>0.51</ITEMWEIGHT>
       <IMAGECOLOR>7</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -138065,7 +138065,7 @@
       <ITEMID>bb1192</ITEMID>
       <ITEMNAME>Watch Part, Case Attachment - Band Locking Ring</ITEMNAME>
       <CATEGORY>517</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1996</ITEMYEAR>
       <ITEMWEIGHT>1.02</ITEMWEIGHT>
       <IMAGECOLOR>7</IMAGECOLOR>
    </ITEM>
@@ -138119,8 +138119,8 @@
       <ITEMID>bb1197c01</ITEMID>
       <ITEMNAME>Watch Part, Case Analog, Space - Brick 2 x 2, Silver Hour Hand, Neon Green Minute Hand, Neon Red Second Hand with Circle</ITEMNAME>
       <CATEGORY>517</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMYEAR>1997</ITEMYEAR>
+      <ITEMWEIGHT>8.04</ITEMWEIGHT>
       <IMAGECOLOR>11</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -138128,7 +138128,7 @@
       <ITEMID>bb1198c01</ITEMID>
       <ITEMNAME>Watch Part, Case Analog - Brick 1 x 1 and Star Field, Neon Green Hour and Minute Hands, Silver Second Hand with Circle, Dark Blue Face with Glow in the Dark Areas</ITEMNAME>
       <CATEGORY>517</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1999</ITEMYEAR>
       <ITEMWEIGHT>8.98</ITEMWEIGHT>
       <IMAGECOLOR>11</IMAGECOLOR>
    </ITEM>
@@ -138173,7 +138173,7 @@
       <ITEMID>bb1012pb02</ITEMID>
       <ITEMNAME>Watch Part, Case Attachment - Bezel Ring Raised with Silver Triangles and Dots Pattern</ITEMNAME>
       <CATEGORY>517</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT>0.94</ITEMWEIGHT>
       <IMAGECOLOR>11</IMAGECOLOR>
    </ITEM>
@@ -138254,7 +138254,7 @@
       <ITEMID>bb1212c01</ITEMID>
       <ITEMNAME>Watch Part, Band - Velcro with Blue Stitching</ITEMNAME>
       <CATEGORY>517</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1999</ITEMYEAR>
       <ITEMWEIGHT>5.85</ITEMWEIGHT>
       <IMAGECOLOR>11</IMAGECOLOR>
    </ITEM>
@@ -138918,9 +138918,9 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>bb1226c01</ITEMID>
-      <ITEMNAME>Watch Part, Case Analog - Brick 2 x 2, Blue Stacked Bricks Hour Hand, Red Stacked Bricks Minute Hand</ITEMNAME>
+      <ITEMNAME>Watch Part, Case Analog - Brick 2 x 2, Blue Stacked Bricks Hour Hand, Red Stacked Bricks Minute Hand, White Face with Glow in the Dark Areas</ITEMNAME>
       <CATEGORY>517</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1996</ITEMYEAR>
       <ITEMWEIGHT>8.01</ITEMWEIGHT>
       <IMAGECOLOR>7</IMAGECOLOR>
    </ITEM>
@@ -138954,9 +138954,9 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>bb1234c01</ITEMID>
-      <ITEMNAME>Watch Part, Case Analog, Space - LEGO Logo, Silver Hands with Glow in the Dark Areas</ITEMNAME>
+      <ITEMNAME>Watch Part, Case Analog, Space - LEGO Logo, White Hands with Glow in the Dark Areas</ITEMNAME>
       <CATEGORY>517</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2002</ITEMYEAR>
       <ITEMWEIGHT>6.33</ITEMWEIGHT>
       <IMAGECOLOR>11</IMAGECOLOR>
    </ITEM>
@@ -138965,7 +138965,7 @@
       <ITEMID>bb1043pb05</ITEMID>
       <ITEMNAME>Watch Part, Case Attachment - Bezel Ring Wide with Black Compass Directions Pattern</ITEMNAME>
       <CATEGORY>517</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1996</ITEMYEAR>
       <ITEMWEIGHT>0.78</ITEMWEIGHT>
       <IMAGECOLOR>6</IMAGECOLOR>
    </ITEM>
@@ -138974,7 +138974,7 @@
       <ITEMID>bb1043pb06</ITEMID>
       <ITEMNAME>Watch Part, Case Attachment - Bezel Ring Wide with Black Compass Directions and White Triangles Pattern</ITEMNAME>
       <CATEGORY>517</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1999</ITEMYEAR>
       <ITEMWEIGHT>0.82</ITEMWEIGHT>
       <IMAGECOLOR>9</IMAGECOLOR>
    </ITEM>
@@ -138992,7 +138992,7 @@
       <ITEMID>bb1236pb01</ITEMID>
       <ITEMNAME>Watch Part, Case Attachment - Bezel Ring 12-Sided with Black Numbers and City Names Pattern on Both Sides</ITEMNAME>
       <CATEGORY>517</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1996</ITEMYEAR>
       <ITEMWEIGHT>0.89</ITEMWEIGHT>
       <IMAGECOLOR>7</IMAGECOLOR>
    </ITEM>
@@ -139010,7 +139010,7 @@
       <ITEMID>bb1012pb03</ITEMID>
       <ITEMNAME>Watch Part, Case Attachment - Bezel Ring Raised with Blue Roman Numerals Pattern</ITEMNAME>
       <CATEGORY>517</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1999</ITEMYEAR>
       <ITEMWEIGHT>0.95</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
    </ITEM>
@@ -139919,7 +139919,7 @@
       <ITEMID>bb1272</ITEMID>
       <ITEMNAME>Watch Part, Band - Male Classic, Short</ITEMNAME>
       <CATEGORY>517</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1996</ITEMYEAR>
       <ITEMWEIGHT>3.22</ITEMWEIGHT>
       <IMAGECOLOR>5</IMAGECOLOR>
    </ITEM>
@@ -139928,7 +139928,7 @@
       <ITEMID>bb1273c01</ITEMID>
       <ITEMNAME>Watch Part, Band - Female Classic, Short with Blue Buckle and &amp;#39;WATCH SYSTEM&amp;#39; Text</ITEMNAME>
       <CATEGORY>517</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1996</ITEMYEAR>
       <ITEMWEIGHT>3.26</ITEMWEIGHT>
       <IMAGECOLOR>5</IMAGECOLOR>
    </ITEM>
@@ -176708,7 +176708,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>340816</ITEMID>
+      <ITEMID>340806</ITEMID>
       <ITEMNAME>Watch Set, Classic Adult&amp;#39;s &amp;#40;White Brick Dial / Blue Bezel&amp;#41;</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>2009</ITEMYEAR>
@@ -200109,7 +200109,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>displaysign126</ITEMID>
-      <ITEMNAME>Display Sign Hanging, Life on Mars</ITEMNAME>
+      <ITEMNAME>Display Sign Hanging, Life on Mars Canopus</ITEMNAME>
       <CATEGORY>539</CATEGORY>
       <ITEMYEAR>2001</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
