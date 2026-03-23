@@ -70770,7 +70770,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo0164</ITEMID>
-      <ITEMNAME>Postman</ITEMNAME>
+      <ITEMNAME>Postman &amp;#40;Mailman&amp;#41;</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2015</ITEMYEAR>
       <ITEMWEIGHT>3.38</ITEMWEIGHT>
@@ -148539,7 +148539,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1766</ITEMID>
-      <ITEMNAME>Jungle Photographer - Female, Dark Tan Vest over Orange Shirt, Dark Blue Legs, Dark Orange Hair</ITEMNAME>
+      <ITEMNAME>Jungle Explorer Photographer - Female, Dark Tan Vest over Orange Shirt, Dark Blue Legs, Dark Orange Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>3.9</ITEMWEIGHT>
@@ -148548,7 +148548,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1767</ITEMID>
-      <ITEMNAME>City Jungle Pilot - Male, Dark Brown Jacket over Red Hawaiian Shirt, Dark Tan Legs with Pockets, Reddish Brown Aviator Cap, Dark Bluish Gray Goggles, Beard</ITEMNAME>
+      <ITEMNAME>City Jungle Explorer Pilot - Male, Dark Brown Jacket over Red Hawaiian Shirt, Dark Tan Legs with Pockets, Reddish Brown Aviator Cap with Dark Bluish Gray Goggles, Dark Orange Beard</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>3.7</ITEMWEIGHT>
@@ -150078,7 +150078,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1780</ITEMID>
-      <ITEMNAME>City Jungle Explorer - Sand Blue Jacket, Stethoscope, Dark Tan Legs, Black Hair, Backpack</ITEMNAME>
+      <ITEMNAME>City Jungle Explorer Medic - Male, Sand Blue Vest with Stethoscope, Dark Tan Legs with Pockets, Goatee and Black Hair, Open Backpack</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>4.72</ITEMWEIGHT>
@@ -150087,7 +150087,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1776</ITEMID>
-      <ITEMNAME>City Jungle Explorer - Sand Blue Jacket, Stethoscope, Dark Tan Legs, Black Hair</ITEMNAME>
+      <ITEMNAME>City Jungle Explorer Medic - Male, Sand Blue Vest with Stethoscope, Dark Tan Legs with Pockets, Goatee and Black Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>3.69</ITEMWEIGHT>
@@ -150096,7 +150096,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1779</ITEMID>
-      <ITEMNAME>City Jungle Explorer Female - Sand Blue Knotted Shirt over Tan T-Shirt, Dark Tan Legs, Black Hair Braided with Knot Bun</ITEMNAME>
+      <ITEMNAME>City Jungle Explorer - Female, Sand Blue Knotted Shirt over Tan Shirt and Necklace, Dark Tan Legs with Pockets, Black Hair Braided Bun</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>3.78</ITEMWEIGHT>
@@ -150105,7 +150105,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1777</ITEMID>
-      <ITEMNAME>City Jungle Explorer Female - Dark Tan Vest, Dark Blue Legs, Dark Red Hair</ITEMNAME>
+      <ITEMNAME>City Jungle Explorer Mechanic - Female, Dark Tan Vest over Sand Green Shirt, Dark Blue Legs, Dark Red Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>3.53</ITEMWEIGHT>
@@ -150114,7 +150114,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1778</ITEMID>
-      <ITEMNAME>City Jungle Pilot - Male, Dark Brown Jacket over Red Hawaiian Shirt, Dark Tan Legs with Pockets, Dark Blue Cap, Beard</ITEMNAME>
+      <ITEMNAME>City Jungle Explorer Pilot - Male, Dark Brown Jacket over Red Hawaiian Shirt, Dark Tan Legs with Pockets, Dark Blue Cap, Dark Orange Beard</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>3.4</ITEMWEIGHT>
@@ -164892,7 +164892,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1006</ITEMID>
-      <ITEMNAME>Master of Lightning</ITEMNAME>
+      <ITEMNAME>Master of Lightning &amp;#40;Libber&amp;#41;</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.89</ITEMWEIGHT>
@@ -165108,7 +165108,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1011</ITEMID>
-      <ITEMNAME>Master of Earth</ITEMNAME>
+      <ITEMNAME>Master of Earth &amp;#40;Benton&amp;#41;</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.7</ITEMWEIGHT>
@@ -165189,7 +165189,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1019</ITEMID>
-      <ITEMNAME>Ninjago Mailman</ITEMNAME>
+      <ITEMNAME>Postman &amp;#40;Mailman&amp;#41; - Legacy</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.14</ITEMWEIGHT>
@@ -168296,7 +168296,7 @@
       <ITEMID>min260</ITEMID>
       <ITEMNAME>Wither - Base with Connector Hubs &amp;#40;21590&amp;#41;</ITEMNAME>
       <CATEGORY>801</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>9.3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -168305,7 +168305,7 @@
       <ITEMID>min261</ITEMID>
       <ITEMNAME>Crimson Warrior &amp;#40;21590&amp;#41;</ITEMNAME>
       <CATEGORY>801</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>5.05</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>

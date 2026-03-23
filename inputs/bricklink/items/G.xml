@@ -77097,7 +77097,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>bb1028</ITEMID>
-      <ITEMNAME>Watch Part, Band Link - Minifigure Body Part, Head Female</ITEMNAME>
+      <ITEMNAME>Watch Part, Band Link - Minifigure Body Part, Head Female with Reddish Brown Hair with Open Smile Pattern</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>2012</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -77106,7 +77106,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>bb1029</ITEMID>
-      <ITEMNAME>Watch Part, Band Link - Minifigure Body Part, Torso Female with Flowers at Neck, Yellow Hands</ITEMNAME>
+      <ITEMNAME>Watch Part, Band Link - Minifigure Body Part, Torso Female Dress with Flowers at Neck Pattern, Yellow Hands</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>2012</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -77115,7 +77115,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>bb1030</ITEMID>
-      <ITEMNAME>Watch Part, Band Link - Minifigure Body Part, Hips and Legs</ITEMNAME>
+      <ITEMNAME>Watch Part, Band Link - Minifigure Body Part, Hips and Legs Plain</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>2012</ITEMYEAR>
       <ITEMWEIGHT>0.88</ITEMWEIGHT>
@@ -80674,7 +80674,7 @@
       <CATEGORY>336</CATEGORY>
       <ITEMYEAR>2001</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
-      <IMAGECOLOR>0</IMAGECOLOR>
+      <IMAGECOLOR>7</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
@@ -94287,7 +94287,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>bb1052</ITEMID>
-      <ITEMNAME>Watch Part, Band Link - Minifigure Body Part, Torso with LEGO Logo, Red Arms, Yellow Hands</ITEMNAME>
+      <ITEMNAME>Watch Part, Band Link - Minifigure Body Part, Torso with LEGO Logo Pattern, Red Arms, Yellow Hands</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>0.98</ITEMWEIGHT>
@@ -94295,8 +94295,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>bb1053</ITEMID>
-      <ITEMNAME>Watch Part, Band Link - Minifigure Body Part, Head Male</ITEMNAME>
+      <ITEMID>bb1053pb01</ITEMID>
+      <ITEMNAME>Watch Part, Band Link - Minifigure Body Part, Head Male with Huge Smile, White Teeth, Red Tongue Pattern</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>0.81</ITEMWEIGHT>
@@ -157056,7 +157056,7 @@
       <ITEMNAME>Trading Card, LEGO City - Sheet of 8 Cards &amp;#40;6460227_DE&amp;#41;</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>17</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -180884,6 +180884,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>b95train</ITEMID>
+      <ITEMNAME>Contest Form, 9V Train Promotion: Jim Blond und der Powerzug &amp;#40;Comic Book Style&amp;#41;</ITEMNAME>
+      <CATEGORY>1003</CATEGORY>
+      <ITEMYEAR>1995</ITEMYEAR>
+      <ITEMWEIGHT>17</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>shav01ptLE13</ITEMID>
       <ITEMNAME>Avengers Trading Card Collection &amp;#40;Portuguese&amp;#41; Series 1 - # LE13 Hulk vs Red Hulk Limited Edition</ITEMNAME>
       <CATEGORY>380</CATEGORY>
@@ -185375,6 +185384,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>hpbag01</ITEMID>
+      <ITEMNAME>Shopping Bag, Harry Potter</ITEMNAME>
+      <CATEGORY>399</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>65</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>5007588</ITEMID>
       <ITEMNAME>Hat, Bucket Hat Double-Sided, Dark Blue with LEGO Logo and Stripes / Blue with White Bricks and Dark Blue Markings Pattern</ITEMNAME>
       <CATEGORY>1111</CATEGORY>
@@ -186019,6 +186037,15 @@
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>2.2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>flyerweltschau</ITEMID>
+      <ITEMNAME>Flyer Lego Welt Schau Einladung 1984 Braunschweig</ITEMNAME>
+      <CATEGORY>1104</CATEGORY>
+      <ITEMYEAR>1983</ITEMYEAR>
+      <ITEMWEIGHT>0.01</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -196463,6 +196490,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>VHS402</ITEMID>
+      <ITEMNAME>Video Tape - Die Legende Lebt, Promo &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>513</CATEGORY>
+      <ITEMYEAR>2002</ITEMYEAR>
+      <ITEMWEIGHT>215</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>sw04enLE10</ITEMID>
       <ITEMNAME>Star Wars Trading Card Collection &amp;#40;English&amp;#41; Series 4 &amp;#40;&amp;#39;The Force&amp;#39; Edition&amp;#41; - # LE10 Stormtrooper Limited Edition</ITEMNAME>
       <CATEGORY>380</CATEGORY>
@@ -202664,6 +202700,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>clk19</ITEMID>
+      <ITEMNAME>Clock Unit, Creator Pattern &amp;#40;Gear 7396&amp;#41;</ITEMNAME>
+      <CATEGORY>336</CATEGORY>
+      <ITEMYEAR>2002</ITEMYEAR>
+      <ITEMWEIGHT>113</ITEMWEIGHT>
+      <IMAGECOLOR>7</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>ACP-6601DEcards</ITEMID>
       <ITEMNAME>ReBuild Karten - Spaß Activity Cards &amp;#40;German&amp;#41; &amp;#40;Pack of 30 Cards + 2 Bonus Cards and Instructions&amp;#41;</ITEMNAME>
       <CATEGORY>997</CATEGORY>
@@ -203092,6 +203137,15 @@
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>6</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>lc91</ITEMID>
+      <ITEMNAME>LEGO Club - Important Notice Innovations Magazine Renewal</ITEMNAME>
+      <CATEGORY>1003</CATEGORY>
+      <ITEMYEAR>1991</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -204461,5 +204515,59 @@
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>5</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>bb1053pb02</ITEMID>
+      <ITEMNAME>Watch Part, Band Link - Minifigure Body Part, Head Male with Grin Pattern</ITEMNAME>
+      <CATEGORY>517</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>0.81</ITEMWEIGHT>
+      <IMAGECOLOR>3</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>bb1053pb03</ITEMID>
+      <ITEMNAME>Watch Part, Band Link - Minifigure Body Part, Head Male with Open Mouth, White Teeth and Red Tongue Pattern</ITEMNAME>
+      <CATEGORY>517</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>0.81</ITEMWEIGHT>
+      <IMAGECOLOR>3</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>bb1030pb01</ITEMID>
+      <ITEMNAME>Watch Part, Band Link - Minifigure Body Part, Hips and Legs with Red Hips Pattern &amp;#40;Superman&amp;#41;</ITEMNAME>
+      <CATEGORY>517</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>7</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>bb1030pb02</ITEMID>
+      <ITEMNAME>Watch Part, Band Link - Minifigure Body Part, Hips and Legs with Black Hips Pattern &amp;#40;Storm Trooper&amp;#41;</ITEMNAME>
+      <CATEGORY>517</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>bb1030pb03</ITEMID>
+      <ITEMNAME>Watch Part, Band Link - Minifigure Body Part, Hips and Legs with Buckle, Pockets and Chain Pattern &amp;#40;The Joker&amp;#41;</ITEMNAME>
+      <CATEGORY>517</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>0.88</ITEMWEIGHT>
+      <IMAGECOLOR>89</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>bb1420</ITEMID>
+      <ITEMNAME>Watch Part, Band Link - Minifigure Body Part, Hips and Short Legs Plain</ITEMNAME>
+      <CATEGORY>517</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>0.55</ITEMWEIGHT>
+      <IMAGECOLOR>2</IMAGECOLOR>
    </ITEM>
 </CATALOG>

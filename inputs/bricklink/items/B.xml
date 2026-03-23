@@ -11550,7 +11550,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>1035fr</ITEMID>
-      <ITEMNAME>Teacher's Guide to TECHNIC I (Set 1030) - French Version</ITEMNAME>
+      <ITEMNAME>Teacher&amp;#39;s Guide to TECHNIC I &amp;#40;Set 1030&amp;#41; &amp;#40;French&amp;#41;</ITEMNAME>
       <CATEGORY>576</CATEGORY>
       <ITEMYEAR>1983</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -12252,7 +12252,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>1035nl</ITEMID>
-      <ITEMNAME>Teacher's Guide to TECHNIC I (Set 1030) Dutch version</ITEMNAME>
+      <ITEMNAME>Teacher&amp;#39;s Guide to TECHNIC I &amp;#40;Set 1030&amp;#41; &amp;#40;Dutch&amp;#41;</ITEMNAME>
       <CATEGORY>576</CATEGORY>
       <ITEMYEAR>1985</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -31781,7 +31781,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>9780241280997</ITEMID>
+      <ITEMID>b17sw21</ITEMID>
       <ITEMNAME>Star Wars - The Amazing Book of LEGO Star Wars &amp;#40;Hardcover&amp;#41;</ITEMNAME>
       <CATEGORY>332</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
@@ -43850,9 +43850,9 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>9785001012955</ITEMID>
-      <ITEMNAME>Star Wars - Jedi Heroes</ITEMNAME>
-      <CATEGORY>505</CATEGORY>
+      <ITEMID>b15sw22</ITEMID>
+      <ITEMNAME>Star Wars - Jedi Heroes &amp;#40;Hardcover&amp;#41;</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
       <ITEMYEAR>2015</ITEMYEAR>
       <ITEMWEIGHT>212</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -54732,7 +54732,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b22hp05uk</ITEMID>
-      <ITEMNAME>Harry Potter - Time to play! &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition&amp;#41; {Sirius Black Minifigure}</ITEMNAME>
+      <ITEMNAME>Harry Potter - Time to play! &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition&amp;#41; {Sirius Black Minifigure, Ball and Chain}</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -65099,6 +65099,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>1035de</ITEMID>
+      <ITEMNAME>Teacher's Guide to TECHNIC I &amp;#40;Set 1030&amp;#41; &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>576</CATEGORY>
+      <ITEMYEAR>1982</ITEMYEAR>
+      <ITEMWEIGHT>166</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2024jw05nl</ITEMID>
       <ITEMNAME>Jurassic World Magazine 2024 Issue 5 &amp;#40;Dutch&amp;#41;</ITEMNAME>
       <CATEGORY>1084</CATEGORY>
@@ -66089,6 +66098,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>6053018</ITEMID>
+      <ITEMNAME>Super Heroes Comic Book, Marvel, Avengers - One-Shot #1 &amp;#40;6053018&amp;#41;</ITEMNAME>
+      <CATEGORY>331</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>48</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b25njo01de</ITEMID>
       <ITEMNAME>NINJAGO - Das Erwachen der Ninja &amp;#40;Softcover&amp;#41; &amp;#40;German Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
@@ -66980,6 +66998,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b23hp14uk</ITEMID>
+      <ITEMNAME>Harry Potter - Time to play! &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition 2023&amp;#41; {Sirius Black Minifigure} &amp;#40;handling, Diana&amp;#41; asked for ISBN, March 15</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>114</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b95llukpg</ITEMID>
+      <ITEMNAME>LEGOLAND Windsor Park Guide 1995 &amp;#40;Pre-opening&amp;#41; with Map</ITEMNAME>
+      <CATEGORY>572</CATEGORY>
+      <ITEMYEAR>1995</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2025sw122de</ITEMID>
       <ITEMNAME>Star Wars Magazine 2025 Issue 122 &amp;#40;German&amp;#41;</ITEMNAME>
       <CATEGORY>1025</CATEGORY>
@@ -67430,7 +67466,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>b24njo09</ITEMID>
+      <ITEMID>b24njo09uk</ITEMID>
       <ITEMNAME>NINJAGO - Ninja Duels - Read &amp; Play Adventures &amp;#40;Box-Set&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
@@ -67673,6 +67709,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b12hf01</ITEMID>
+      <ITEMNAME>DK Readers Level 2 - Hero Factory - Meet the Heroes &amp;#40;Beginning to Read Alone&amp;#41;</ITEMNAME>
+      <CATEGORY>505</CATEGORY>
+      <ITEMYEAR>2012</ITEMYEAR>
+      <ITEMWEIGHT>82</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2025frnd12de</ITEMID>
       <ITEMNAME>Friends Magazine 2025 Issue 12 &amp;#40;German&amp;#41;</ITEMNAME>
       <CATEGORY>1022</CATEGORY>
@@ -67894,6 +67939,15 @@
       <CATEGORY>1323</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>63</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b24njo12uk</ITEMID>
+      <ITEMNAME>NINJAGO - Ninja Duels - Read &amp; Play Adventures &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition&amp;#41; - book only entry</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>234</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -68195,6 +68249,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b16njo19</ITEMID>
+      <ITEMNAME>NINJAGO - Masters of Spinjitzu - From Ghosts to Pirates &amp;#40;Softcover&amp;#41;</ITEMNAME>
+      <CATEGORY>331</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT>198.7</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b25cty03</ITEMID>
+      <ITEMNAME>City - Underwater Adventure - StickerTivity &amp;#40;Softcover&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>73.2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b18cty11ca</ITEMID>
       <ITEMNAME>City - Les Gardes-Côtes à la Rescousse &amp;#40;Softcover&amp;#41; &amp;#40;French - CA Edition&amp;#41;</ITEMNAME>
       <CATEGORY>505</CATEGORY>
@@ -68213,11 +68285,29 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b24jw01de</ITEMID>
+      <ITEMNAME>Jurassic World - Rätselspass mit Ian Malcolm &amp;#40;Softcover&amp;#41; &amp;#40;German Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>160</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b22hp16cy</ITEMID>
       <ITEMNAME>Harry Potter - Nadolig Harri Potter &amp;#40;Hardcover&amp;#41; &amp;#40;Welsh - UK Edition&amp;#41;</ITEMNAME>
       <CATEGORY>332</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b23jw01de</ITEMID>
+      <ITEMNAME>Jurassic World - Rätselspass in Jurassic World &amp;#40;Softcover&amp;#41; &amp;#40;German Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>165</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -68465,6 +68555,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b25njo09</ITEMID>
+      <ITEMNAME>NINJAGO - World Builder: Create a World of Play</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>908</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2026drm12de</ITEMID>
       <ITEMNAME>DREAMZzz Magazine 2026 Issue 12 &amp;#40;German&amp;#41;</ITEMNAME>
       <CATEGORY>1269</CATEGORY>
@@ -68501,11 +68600,38 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b15cty12</ITEMID>
+      <ITEMNAME>City - Phonics Reading Program , Book 4, Short 0: Stop That Crook</ITEMNAME>
+      <CATEGORY>254</CATEGORY>
+      <ITEMYEAR>2015</ITEMYEAR>
+      <ITEMWEIGHT>32</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b14frnd08</ITEMID>
       <ITEMNAME>Friends - We Stick Together! </ITEMNAME>
       <CATEGORY>505</CATEGORY>
       <ITEMYEAR>2014</ITEMYEAR>
       <ITEMWEIGHT>370</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b16sp01</ITEMID>
+      <ITEMNAME>Planets: A LEGO Adventure in the Real World &amp;#40;Softcover&amp;#41;</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT>162</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b15sw23</ITEMID>
+      <ITEMNAME>Star Wars - Dooku's Army &amp;#40;Hardcover&amp;#41;</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2015</ITEMYEAR>
+      <ITEMWEIGHT>212</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -68524,6 +68650,15 @@
       <CATEGORY>505</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT>64.9</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b18njo28</ITEMID>
+      <ITEMNAME>DK Readers Level 1 - NINJAGO - Ninja in Action! &amp;#40;Softcover&amp;#41;</ITEMNAME>
+      <CATEGORY>505</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>70.7</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -68609,6 +68744,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b13sw01uk</ITEMID>
+      <ITEMNAME>Star Wars - The Yoda Chronicles &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>505</CATEGORY>
+      <ITEMYEAR>2013</ITEMYEAR>
+      <ITEMWEIGHT>683</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b26hp01uk</ITEMID>
       <ITEMNAME>Harry Potter - Draco’s Potions &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
@@ -68649,6 +68793,15 @@
       <ITEMNAME>Jurassic World - Complete Dinosauria: A Jurassic Explorer Field Guide &amp;#40;Hardcover&amp;#41;</ITEMNAME>
       <CATEGORY>332</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b21jw03</ITEMID>
+      <ITEMNAME>Jurassic World - Dino Lab Secrets &amp;#40;Softcover&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -69320,6 +69473,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026sw131es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2026 Issue 131 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>76</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2019tlm01hu</ITEMID>
       <ITEMNAME>The LEGO Movie 2 Magazine Issue 1 &amp;#40;Hungarian&amp;#41;</ITEMNAME>
       <CATEGORY>1088</CATEGORY>
@@ -69887,6 +70049,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2025sw81pt</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2025 Issue 81 &amp;#40;Portuguese&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>102</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2025shsp12pt</ITEMID>
       <ITEMNAME>Spider-Man Magazine 2025 Issue 12 &amp;#40;Portuguese&amp;#41;</ITEMNAME>
       <CATEGORY>1063</CATEGORY>
@@ -69919,6 +70090,24 @@
       <CATEGORY>1024</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2025sw130de</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2025 Issue 130 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>83</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026sw131de</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2025 Issue 131 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>83</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -70013,6 +70202,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b21njo19hu</ITEMID>
+      <ITEMNAME>NINJAGO - Építs magadnak Kalandot! - A Legnagyobb Nindzsacsaták &amp;#40;Hardcover&amp;#41; &amp;#40;Hungarian Edition&amp;#41; - book only entry</ITEMNAME>
+      <CATEGORY>317</CATEGORY>
+      <ITEMYEAR>2021</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b16sw26fr</ITEMID>
       <ITEMNAME>Star Wars - Le Coffret de la Force &amp;#40;Box Set&amp;#41; &amp;#40;French Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
@@ -70031,11 +70229,29 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b16sw27fr</ITEMID>
+      <ITEMNAME>Star Wars - L'Encyclopédie des Personnages: Mise à Jour et Augmentée &amp;#40;Hardcover&amp;#41; &amp;#40;French Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT>1094</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b16sw18fr</ITEMID>
       <ITEMNAME>Star Wars - Construis ton Aventure &amp;#40;Hardcover&amp;#41; &amp;#40;French Edition&amp;#41;</ITEMNAME>
       <CATEGORY>317</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b14sw03fr</ITEMID>
+      <ITEMNAME>Star Wars - Le Côté Obscur &amp;#40;Hardcover&amp;#41; &amp;#40;French Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2014</ITEMYEAR>
+      <ITEMWEIGHT>800</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -70049,6 +70265,33 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b17sw21fr</ITEMID>
+      <ITEMNAME>Star Wars - Ma Première Encyclopédie &amp;#40;Hardcover&amp;#41; &amp;#40;French Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>650</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026sw132es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2026 Issue 132 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>88</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b16njo18</ITEMID>
+      <ITEMNAME>NINJAGO - Legend of the Brown Ninja</ITEMNAME>
+      <CATEGORY>505</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT>61</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2026cty86de</ITEMID>
       <ITEMNAME>City Magazine 2026 Issue 86 &amp;#40;German&amp;#41;</ITEMNAME>
       <CATEGORY>1021</CATEGORY>
@@ -70058,11 +70301,83 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b23sw08de</ITEMID>
+      <ITEMNAME>NINJAGO - Die Magie der Neuen Welt</ITEMNAME>
+      <CATEGORY>505</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>268</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2015sw02es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2015 Issue 2 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2015</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2015sw03es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2015 Issue 3 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2015</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2015sw04es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2015 Issue 4 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2015</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2015sw05es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2015 Issue 5 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2015</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b20sw11es</ITEMID>
+      <ITEMNAME>Star Wars - Enciclopedia de Personajes: Nueva Edición &amp;#40;Hardcover&amp;#41; &amp;#40;Spanish Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>916</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b24sw01es</ITEMID>
+      <ITEMNAME>Star Wars - Diccionario Visual: Nueva Edición &amp;#40;Hardcover&amp;#41; &amp;#40;Spanish Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>1320</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b25bot02de</ITEMID>
       <ITEMNAME>Botanicals - Kakteen: Bau dir deinen Minigarten &amp;#40;Box Set&amp;#41; &amp;#40;German Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>180</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b15sw03es</ITEMID>
+      <ITEMNAME>Star Wars - Enciclopedia de Personajes: Actualizada y Ampliada &amp;#40;Hardcover&amp;#41; &amp;#40;Spanish Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2015</ITEMYEAR>
+      <ITEMWEIGHT>1070</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -70089,6 +70404,24 @@
       <ITEMNAME>NINJAGO - Shatterspin &amp;#40;Softcover&amp;#41; &amp;#40;German Edition&amp;#41;</ITEMNAME>
       <CATEGORY>331</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b12other03</ITEMID>
+      <ITEMNAME>Official Fan Book</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2012</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2012sch001</ITEMID>
+      <ITEMNAME>Lego Club Magazine 2012 School Edition - Issue 1</ITEMNAME>
+      <CATEGORY>1167</CATEGORY>
+      <ITEMYEAR>2012</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
