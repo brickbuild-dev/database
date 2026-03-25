@@ -97410,7 +97410,7 @@
    <ITEM>
       <ITEMTYPE>I</ITEMTYPE>
       <ITEMID>854011-1</ITEMID>
-      <ITEMNAME>Eiffel Tower Magnet Build</ITEMNAME>
+      <ITEMNAME>Eiffel Tower Magnet Build blister pack</ITEMNAME>
       <CATEGORY>976</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
@@ -110901,7 +110901,7 @@
    <ITEM>
       <ITEMTYPE>I</ITEMTYPE>
       <ITEMID>854012-1</ITEMID>
-      <ITEMNAME>London Magnet Build</ITEMNAME>
+      <ITEMNAME>London Magnet Build blister pack</ITEMNAME>
       <CATEGORY>976</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -110910,7 +110910,7 @@
    <ITEM>
       <ITEMTYPE>I</ITEMTYPE>
       <ITEMID>854030-1</ITEMID>
-      <ITEMNAME>Empire State Building Magnet Build</ITEMNAME>
+      <ITEMNAME>Empire State Building Magnet Build blister pack</ITEMNAME>
       <CATEGORY>976</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -116774,5 +116774,14 @@
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>52398-99</ITEMID>
+      <ITEMNAME>Ruler, Buildable Ruler - Black Plates with Blue Baseplates</ITEMNAME>
+      <CATEGORY>447</CATEGORY>
+      <ITEMYEAR>2015</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
    </ITEM>
 </CATALOG>
