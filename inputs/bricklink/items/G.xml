@@ -34270,7 +34270,7 @@
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>2003</ITEMYEAR>
       <ITEMWEIGHT>1.06</ITEMWEIGHT>
-      <IMAGECOLOR>4</IMAGECOLOR>
+      <IMAGECOLOR>66</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
@@ -37321,7 +37321,7 @@
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>0.67</ITEMWEIGHT>
-      <IMAGECOLOR>7</IMAGECOLOR>
+      <IMAGECOLOR>86</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
@@ -77119,7 +77119,7 @@
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>2012</ITEMYEAR>
       <ITEMWEIGHT>0.88</ITEMWEIGHT>
-      <IMAGECOLOR>157</IMAGECOLOR>
+      <IMAGECOLOR>36</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
@@ -85425,7 +85425,7 @@
       <ITEMNAME>Police Chase Race Game Score Pad - Police vs. Burglar</ITEMNAME>
       <CATEGORY>252</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>7.47</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -179984,6 +179984,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>5008782</ITEMID>
+      <ITEMNAME>Minifigure Trophy Figure, LEGO Insiders Happy Anniversary, Metal</ITEMNAME>
+      <CATEGORY>1008</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>6239831</ITEMID>
       <ITEMNAME>Display Assembled Set, City Set 60192 in Plastic Case</ITEMNAME>
       <CATEGORY>848</CATEGORY>
@@ -181682,6 +181691,15 @@
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>2</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>106619</ITEMID>
+      <ITEMNAME>Cup / Mug, Ceramic with Silicone Studs 300ml</ITEMNAME>
+      <CATEGORY>175</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>5</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
@@ -185190,7 +185208,7 @@
       <ITEMNAME>LED Lite, Night Light 1 x 1 Plate</ITEMNAME>
       <CATEGORY>646</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>203</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -204569,5 +204587,2885 @@
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>2</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de001</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 1 Mutiger Clay</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de002</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 2 Action Clay</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de003</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 3 Superstarker Clay</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de004</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 4 Ultra Action Clay</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de005</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 5 Mutiger Aaron</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de006</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 6 Action Aaron</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de007</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 7 Superstarker Aaron</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de008</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 8 Ultra Action Aaron</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de009</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 9 Mutiger Axl</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de010</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 10 Action Axl</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de011</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 11 Superstarker Axl</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de013</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 13 Mutiger Lance</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de014</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 14 Action Lance</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de015</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 15 Superstarker Lance</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de016</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 16 Ultra Action Lance</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de017</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 17 Mutige Macy</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de018</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 18 Action Macy</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de019</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 19 Superstarke Macy</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de020</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 20 Ultra Action Macy</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de021</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 21 Mutiger König Halbert</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de022</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 22 Königliche Wache</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de023</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 23 Mutige Königin Halbert</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de024</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 24 Mutiger Merlok</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de025</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 25 Superstarker Merlok 2.0</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de026</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 26 Mutige Aua</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de027</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 27 Mutiger Robin</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de028</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 28 Lord Sindwir Geizig</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de029</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 29 Roger Der Gärtner</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de030</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 30 Goldie Richmond</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de031</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 31 Cuthbert Richmond</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de032</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 32 Andi Topflappen</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de033</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 33 Jürgen von Stroheim</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de034</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 34 Siegfried Spaßvogel</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de035</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 35 Direktor Steinland</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de036</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 36 Maynard</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de037</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 37 Hack Coughmeyer</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de038</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 38 Versteinernder Clay</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de039</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 39 Sieglinde Streng</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de040</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 40 Super Robo Hood</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de041</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 41 Maler-Robo</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de042</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 42 DJ-Robo</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de043</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 43 Mülmann-Robo</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de044</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 44 Feuerwehr-Robo</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de045</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 45 Ferkelinchen</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de046</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 46 Monstrox</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de047</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 47 Gemeiner Monstrox</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de048</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 48 Ultra Monstrox</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de049</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 49 Ängstlicher Jestro</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de050</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 50 Gemeiner Jestro</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de051</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 51 Ultra Power Jestro</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de052</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 52 Ruina Steinherz</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de053</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 53 Gemeine Ruina</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de054</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 54 Ultra Ruina</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de055</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 55 Reex</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de056</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 56 Gemeiner Reex</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de057</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 57 Ultra Reex</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de058</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 58 Roog</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de059</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 59 Gemeiner Roog</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de060</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 60 Ultra Roog</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de062</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 62 Gemeiner Steingoyl</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de063</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 63 Wasserspeier</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de064</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 64 Fliegende Wasserspeier</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de065</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 65 Gemeine Wasserspeier</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de068</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 68 Brockner Team</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de069</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 69 Kiesler</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de071</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 71 Kiesler Team</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de072</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 72 Steinstampfer</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de073</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 73 Steinstampfer Team</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de074</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 74 Super Steinstampfer Team</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de075</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 75 Schotterer</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de076</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 76 Erwachter Steingoyl</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de077</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 77 General Garg</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de078</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 78 Geröllgroll</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de079</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 79 Herzog Krakenkopf</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de080</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 80 Der Steinkoloss</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de081</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 81 Die Harpien-Schwestern</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de082</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 82 Die Bösen Harpien-Schwestern</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de083</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 83 Wasserspeier-Robo</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de084</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 84 Steinzwerg</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de085</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 85 Mini-Steinstampfer</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de086</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 86 Steiner</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de087</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 87 Steiner Team</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de088</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 88 Junger Monstrox</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de089</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 89 Triumphierender Jestro</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de090</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 90 Alter Steingoyl</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de091</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 91 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de092</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 92 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de094</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 94 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de095</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 95 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de096</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 96 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de097</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 97 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de098</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 98 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de099</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 99 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de100</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 100 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de101</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 101 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de102</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 102 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de104</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 104 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de105</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 105 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de106</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 106 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de107</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 107 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de108</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 108 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de109</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 109 Kräfte Auswählen</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de110</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 110 Der Rat Der Magier</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de111</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 111 Typ Im Fass</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de112</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 112 Rockstar Jestro</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de113</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 113 Steinschlag</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de114</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 114 Lagebesprechung</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de115</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 115 Schimmeliger Schinken</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de116</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 116 Pfui!</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de117</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 117 Furzkissen</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de118</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 118 Urlaub!</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de119</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 119 Erkältung</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de120</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 120 Bäm!</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de121</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 121 Miese Combo Nexo Kraft</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de122</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 122 Rumms!</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de123</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 123 Versteinern</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de124</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 124 Brrrzzz!</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de125</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 125 Ausrüstung Reparieren</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de126</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 126 Rostige Rüstung</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de127</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 127 Hinterhalt</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de128</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 128 Verkleidet</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de129</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 129 Stinkiger Sumpf</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de130</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 130 Katapult</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de131</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 131 Quarkmaske</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de132</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 132 Macys Buddler</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de133</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 133 Axls Krawallmacher</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de134</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 134 Lances Doppellanzen-cruiser</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de136</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 136 Aarons Klettermaxe</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de137</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 137 Bike Der Königlichen Wache</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de138</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 138 Aarons Flex-Dragster</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de139</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 139 Verstärkung Aus Schloss Knighton</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de140</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 140 Schloss Knighton</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de141</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 141 Merlok-Robo</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de142</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 142 Robins Fahrzeug</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de143</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 143 Macys Robo-Abwurfdrache</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de144</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 144 Lances Robo-Pferd</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de145</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 145 Rumpelrakete</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de146</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 146 Jestros Monströses Monstermobil</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de147</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 147 Ruinas Käfig-Roller</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de149</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 149 Rumpel</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de150</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 150 Der Gargoyl-Heli</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de151</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 151 Hofnarrenmützen-Miniflieger</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de152</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 152 Steingefährt</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de153</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 153 Blitzkugelkatapult</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de154</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 154 Krakenmonster</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de155</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 155 Mega Clay</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de156</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 156 Mega Aaron</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de157</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 157 Mega Macy</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de158</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 158 Mega Axl</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de159</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 159 Mega Lance</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de161</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 161 Combo Nexo Kraft Magnetstein-Falke</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de162</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 162 Merloks Untersuchung</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de163</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 163 Megaböses Team</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de164</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 164 Mega Steingoyl Team</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de165</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 165 Mega Monstrox</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de166</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 166 Mega Jestro</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de167</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 167 Mega Steingoyl</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de168</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 168 Die Mega Brüder</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de169</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 169 Mega Geröllgroll</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>nex2de170</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 170 Mega Brockner</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de005</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 5 Action Robin</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de009</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 9 Ace the Bat-Hound</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de012</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 12 Action Superman</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de014</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 14 Supergirl</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de016</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 16 Superboy</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de017</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 17 Krypto</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de018</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 18 Jor-El</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de020</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 20 Wonder Woman</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de022</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 22 Ultra Wonder Woman</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de023</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 23 Wonder Girl</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de027</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 27 Kid Flash</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de030</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 30 Green Lantern Hal Jordan</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de037</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 37 Cyborg</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de038</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 38 Action Acyborg</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de041</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 41 Martian Manhunter</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de042</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 42 Hawkman</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de045</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 45 Katana</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de046</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 46 The Atom</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de050</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 50 Black Canary</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de051</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 51 Zatanna</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de053</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 53 Team Grün</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de057</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 57 Ultra the Joker</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de060</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 60 Two-Face</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de063</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 63 Gemeiner Pinguin</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de071</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 71 Böser Riddler</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de073</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 73 Poison Ivy</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de074</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 74 Mr. Freeze</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de082</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 82 Brainiac</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de083</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 83 Ultra Brainiac</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de084</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 84 Lex Luthor</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de087</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 87 General Zod</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de088</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 88 Ultra Doomsday</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de089</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 89 Ares</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de096</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 96 Black Manta</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de099</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 99 Lobo</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de105</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 105 Greenzarro</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de107</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 107 Team Böse</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de110</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 110 Justice League Superman</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de115</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 115 Hinterhältiger Steppenwolf</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de119</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 119 Mighty Micros Robin</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de122</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 122 Mighty Micros Power Batman</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de125</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 125 Mighty Micros Nightwing</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de130</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 130 Mighty Micros Bizarro</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de134</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 134 Mighty Micros The Joker</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de137</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 137 Verstärkung</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de140</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 140 Kugelsicher</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de141</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 141 Lasso der Wahrheit</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de147</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 147 Doofer Regen!</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de149</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 149 Telepathie</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de150</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 150 Schlag</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de151</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 151 Batarang</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de154</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 154 Sprung über die Kanononkugel</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de155</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 155 Unterwasser-Attacke</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de157</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 157 Sturm</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de158</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 158 Angstgas</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de160</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 160 Kryptonit</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de169</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 169 Cyborgcopter</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de170</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 170 Batmans Bat-Tank</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de172</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 172 Classic Batcycle</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de174</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 174 Batmans Buggy</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de179</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 179 Kryptonit-Gabelstapler</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de185</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 185 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de186</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 186 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de190</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 190 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de191</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 191 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de199</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 199 Batman / Batzarro</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>shba01de131</ITEMID>
+      <ITEMNAME>Batman Trading Card Game &amp;#40;German&amp;#41; Series 1 - # 131 Mighty Micros Killer Moth</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade002</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 2 Lloyds Power Avatar</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade004</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 4 Next Level Ultra Lloyd</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade006</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 6 Coles Power Avatar</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade008</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 8 Next Level Ultra Cole</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade009</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 9 Stolzer Nimmer-Welt Kai</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade010</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 10 Kais Power Avatar</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade011</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 11 Mutiger Digi Kai</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade015</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 15 Mutige Digi Nya</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade016</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 16 Next Level Ultra Nya</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade017</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 17 Stolzer Nimmer-Welt Zane</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade018</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 18 Power Detektiv Zane</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade019</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 19 Mutiger Digi Zane</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade020</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 20 Next Level Ultra Zane</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade023</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 23 Mutiger Digi Jay</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade024</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 24 Next Level Ultra Jay</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade027</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 27 Mutiges Team Cole, Kai &amp; Nya</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade029</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 29 Power Team Zane, Cole &amp; Jay</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade030</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 30 Power Team Nya, Kai &amp; Lloyd</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade031</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 31 Stolzer Nimmer-Welt Meister Wu</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade032</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 32 Power Meister Wu</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade033</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 33 Team P.I.X.A.L. &amp; Meister Wu</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade034</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 34 Cooler Scott</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade035</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 35 Power Scott</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade037</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 37 Power Okino</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade038</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 38 Hinterhältiger Unagami</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade039</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 39 Grässlicher Unagami</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade041</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 41 Hinterhältiger Sushimi</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade042</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 42 Grässlicher Sushimi</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade043</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 43 Next Level Ultra Sushimi</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade044</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 44 Hinterhältiger Richie</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade046</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 46 Next Level Ultra Richie</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade047</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 47 Hinterhältiger Hausner</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade048</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 48 Grässlicher Hausner</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade050</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 50 Harumis Hinterhältiger Avatar</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade051</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 51 Harumis Grässlicher Avatar</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade052</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 52 Harumis Scheußlicher Avatar</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade053</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 53 Hinterhältiger Killow</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade054</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 54 Hinterhältiger Ultra Violet</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade055</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 55 Hinterhältiger Mechaniker</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade056</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 56 Grässlicher Mechaniker</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade058</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 58 Grässliches Team</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade059</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 59 Gefährlicher Eis-Kaiser</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade060</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 60 Power Eis-Kaiser</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade061</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 61 Gefährlicher General Vex</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade062</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 62 Power General Vex</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade063</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 63 Gefährlicher Blizzard-Bogenschütze</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade065</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 65 Gefährlicher Eis-Samurai</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade066</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 66 Power Eis-Samurai</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade067</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 67 Gefährlicher Blizzard-Schwertmeister</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade068</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 68 Power Blizzard-Schwertmeister</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade069</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 69 Böses Power Team</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade070</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 70 Gefährliches Team</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade071</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 71 Level Up Lloyd</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade072</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 72 Level Up Cole</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade074</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 74 Level Up Nya</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade075</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 75 Level Up Zane</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade076</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 76 Level Up Jay</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade077</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 77 Level Up Okino</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade078</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 78 Level Up Scott</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade079</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 79 Level Up Team Kai &amp; Jay</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade080</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 80 Level Up Team Cole &amp; Lloyd</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade081</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 81 Level Up Unagami</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade082</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 82 Level Up Sushimi</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade083</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 83 Level Up Richie</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade084</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 84 Level Up Hausner</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade085</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 85 Level Up Red Visor</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade086</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 86 Level Up Harumis Avatar</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade088</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 88 Level Up Killow</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade089</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 89 Level Up Team Unagami &amp; Sushimi</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade090</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 90 Level Up Team Harumi &amp; Ultra Violet</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade091</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 91 Der coolste Typ der Stadt</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade092</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 92 Vor dem Duell</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade093</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 93 Waaas?!</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade094</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 94 Achtung! Red Visor!</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade095</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 95 Ich Sehe Alles!</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade096</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 96 Handarbeit</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade098</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 98 Portal ins Prime Empire</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade100</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 100 Unwillig</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade101</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 101 Level Up Die Action!</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade103</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 103 Frontal</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade106</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 106 Gescheitert</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade108</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 108 Jump &amp; Run</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade109</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 109 Diebe!</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade110</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 110 Helfende Hand!</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade111</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 111 Vollgeschleimt!</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade114</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 114 Traurig</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade116</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 116 Schlechte Nachrichten</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade117</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 117 Gefahr!</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade120</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 120 Freuer-Stein-Mech</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade122</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 122 Coles Spinjitzu-Kreisel</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade123</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 123 Lloyds Spinjitzu-Kreisel</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade125</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 125 Donner-Jet</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05ade126</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 126 Kais Super-Jet</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>

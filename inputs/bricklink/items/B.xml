@@ -49196,8 +49196,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>9780744027266</ITEMID>
-      <ITEMNAME>NINJAGO - Character Encyclopedia - New Edition &amp;#40;Hardcover&amp;#41; - 2021 Edition &amp;#40;US&amp;#41;</ITEMNAME>
+      <ITEMID>b21njo20</ITEMID>
+      <ITEMNAME>NINJAGO - Character Encyclopedia - New Edition &amp;#40;Hardcover&amp;#41; - 2021 Edition &amp;#40;US / CA - Future Nya&amp;#41;</ITEMNAME>
       <CATEGORY>332</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>904</ITEMWEIGHT>
@@ -70148,6 +70148,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b25njo10</ITEMID>
+      <ITEMNAME>NINJAGO - Character Encyclopedia - New Edition &amp;#40;Hardcover&amp;#41; - 2025 Edition &amp;#40;US / CA - Green Ninja ZX&amp;#41;</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>6641897</ITEMID>
       <ITEMNAME>Paper Information Note, Important Information About Batteries, Disposal Warning</ITEMNAME>
       <CATEGORY>332</CATEGORY>
@@ -70256,6 +70265,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b14sw01fr</ITEMID>
+      <ITEMNAME>Star Wars - L'Encyclopédie Illustrée: Mise à Jour et Augmentée &amp;#40;Hardcover&amp;#41; &amp;#40;French Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2014</ITEMYEAR>
+      <ITEMWEIGHT>1200</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b16sw07fr</ITEMID>
       <ITEMNAME>Star Wars - 100 Scènes Cultes &amp;#40;Hardcover&amp;#41; &amp;#40;French Edition&amp;#41;</ITEMNAME>
       <CATEGORY>332</CATEGORY>
@@ -70288,6 +70306,15 @@
       <CATEGORY>505</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT>61</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b25sw07ca</ITEMID>
+      <ITEMNAME>Star Wars - Imperial Riddles! &amp;#40;Softcover&amp;#41; &amp;#40;English - CA Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>152</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
