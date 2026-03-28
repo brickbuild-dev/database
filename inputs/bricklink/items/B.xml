@@ -9596,7 +9596,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>810003</ITEMID>
+      <ITEMID>b08other02</ITEMID>
       <ITEMNAME>Collector&amp;#39;s Guide - 50 Years of Play 1st Edition</ITEMNAME>
       <CATEGORY>332</CATEGORY>
       <ITEMYEAR>2008</ITEMYEAR>
@@ -38189,8 +38189,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>9783935976640</ITEMID>
-      <ITEMNAME>Collector&amp;#39;s Guide 2nd Edition</ITEMNAME>
+      <ITEMID>b11other04</ITEMID>
+      <ITEMNAME>Collector's Guide 2nd Edition 2011</ITEMNAME>
       <CATEGORY>332</CATEGORY>
       <ITEMYEAR>2011</ITEMYEAR>
       <ITEMWEIGHT>1063</ITEMWEIGHT>
@@ -70391,6 +70391,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b16sw01es</ITEMID>
+      <ITEMNAME>Star Wars - Aventuras Espaciales &amp;#40;Softcover&amp;#41; &amp;#40;Spanish Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>170</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b25bot02de</ITEMID>
       <ITEMNAME>Botanicals - Kakteen: Bau dir deinen Minigarten &amp;#40;Box Set&amp;#41; &amp;#40;German Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
@@ -70449,6 +70458,159 @@
       <ITEMNAME>Lego Club Magazine 2012 School Edition - Issue 1</ITEMNAME>
       <CATEGORY>1167</CATEGORY>
       <ITEMYEAR>2012</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2015sw06es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2015 Issue 6 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2015</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2015sw07es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2015 Issue 7 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2015</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2016sw08es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2016 Issue 8 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2016sw09es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2016 Issue 9 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2016sw10es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2016 Issue 10 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2016sw11es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2016 Issue 11 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2016sw12es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2016 Issue 12 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2016sw13es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2016 Issue 13 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2016sw14es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2016 Issue 14 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2016sw15es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2016 Issue 15 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b25other08</ITEMID>
+      <ITEMNAME>Collector's Guide 2nd Edition 2011 &amp;#40;2025 Reprint&amp;#41;</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>1180</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2016njo02es</ITEMID>
+      <ITEMNAME>NINJAGO Magazine 2016 Issue 2 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1024</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2016njo03es</ITEMID>
+      <ITEMNAME>NINJAGO Magazine 2016 Issue 3 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1024</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2016njo04es</ITEMID>
+      <ITEMNAME>NINJAGO Magazine 2016 Issue 4 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1024</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2016njo05es</ITEMID>
+      <ITEMNAME>NINJAGO Magazine 2016 Issue 5 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1024</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2016njo06es</ITEMID>
+      <ITEMNAME>NINJAGO Magazine 2016 Issue 6 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1024</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2017njo07es</ITEMID>
+      <ITEMNAME>NINJAGO Magazine 2017 Issue 7 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1024</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
