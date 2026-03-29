@@ -2028,7 +2028,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0006</ITEMID>
-      <ITEMNAME>Aldar Beedo</ITEMNAME>
+      <ITEMNAME>Aldar Beedo - Aviator Helmet, Visor Goggles, Yellow Head</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -2073,7 +2073,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0011</ITEMID>
-      <ITEMNAME>Chewbacca (Brown)</ITEMNAME>
+      <ITEMNAME>Chewbacca - Brown</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT>4.67</ITEMWEIGHT>
@@ -2127,7 +2127,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0017</ITEMID>
-      <ITEMNAME>Jar Jar Binks</ITEMNAME>
+      <ITEMNAME>Jar Jar Binks - Tan Torso, Plain Tan Head, Dark Gray Legs</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>1999</ITEMYEAR>
       <ITEMWEIGHT>4.5</ITEMWEIGHT>
@@ -2199,7 +2199,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0025</ITEMID>
-      <ITEMNAME>Padmé Naberrie &amp;#40;Amidala&amp;#41; &amp;#40;Yellow&amp;#41;</ITEMNAME>
+      <ITEMNAME>Padmé Naberrie &amp;#40;Amidala&amp;#41; - Yellow Head</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>1999</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -5574,7 +5574,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0038</ITEMID>
-      <ITEMNAME>Watto - Plain Head</ITEMNAME>
+      <ITEMNAME>Watto - Medium Blue, Plain Head</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2001</ITEMYEAR>
       <ITEMWEIGHT>5.33</ITEMWEIGHT>
@@ -5583,7 +5583,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0980</ITEMID>
-      <ITEMNAME>Sebulba</ITEMNAME>
+      <ITEMNAME>Sebulba - Dark Gray, One Piece</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>1999</ITEMYEAR>
       <ITEMWEIGHT>2.18</ITEMWEIGHT>
@@ -8499,7 +8499,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0050</ITEMID>
-      <ITEMNAME>Ewok, Brown Hood (Wicket)</ITEMNAME>
+      <ITEMNAME>Wicket &amp;#40;Ewok&amp;#41; - Brown Head and Hood</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2002</ITEMYEAR>
       <ITEMWEIGHT>4.05</ITEMWEIGHT>
@@ -8553,7 +8553,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0979</ITEMID>
-      <ITEMNAME>Aldar Beedo &amp;#40;One Piece&amp;#41;</ITEMNAME>
+      <ITEMNAME>Aldar Beedo - One Piece &amp;#40;4143266&amp;#41;</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2001</ITEMYEAR>
       <ITEMWEIGHT>3.06</ITEMWEIGHT>
@@ -10560,7 +10560,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0061</ITEMID>
-      <ITEMNAME>Battle Droid Geonosian</ITEMNAME>
+      <ITEMNAME>Battle Droid - Sand Red &amp;#40;Geonosian&amp;#41;</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2003</ITEMYEAR>
       <ITEMWEIGHT>2</ITEMWEIGHT>
@@ -18327,7 +18327,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0104</ITEMID>
-      <ITEMNAME>Princess Leia (Cloud City)</ITEMNAME>
+      <ITEMNAME>Princess Leia - Bespin Outfit, Long Braided Hair, Plain Legs, Yellow Head</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2003</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -20577,7 +20577,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0011a</ITEMID>
-      <ITEMNAME>Chewbacca (Reddish Brown)</ITEMNAME>
+      <ITEMNAME>Chewbacca - Reddish Brown</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2004</ITEMYEAR>
       <ITEMWEIGHT>4.67</ITEMWEIGHT>
@@ -22890,7 +22890,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0132</ITEMID>
-      <ITEMNAME>Wookiee Warrior</ITEMNAME>
+      <ITEMNAME>Wookiee Warrior - Reddish Brown, Plain Legs</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>5.4</ITEMWEIGHT>
@@ -24150,7 +24150,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0151</ITEMID>
-      <ITEMNAME>IG-88</ITEMNAME>
+      <ITEMNAME>Assassin Droid &amp;#40;IG-88&amp;#41; - Metallic Silver</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2006</ITEMYEAR>
       <ITEMWEIGHT>1.88</ITEMWEIGHT>
@@ -25185,7 +25185,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0153</ITEMID>
-      <ITEMNAME>Ten Numb</ITEMNAME>
+      <ITEMNAME>Ten Numb - White Pilot Suit, Light Nougat Head, Aviator Helmet</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2006</ITEMYEAR>
       <ITEMWEIGHT>3.54</ITEMWEIGHT>
@@ -29541,7 +29541,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>belvfemale74</ITEMID>
-      <ITEMNAME>Belville Female, Child Girl  - Dark Purple Top, Light Yellow Hair, Dark Pink Shoes &amp;#40;4499750&amp;#41;</ITEMNAME>
+      <ITEMNAME>Belville Female, Child Girl - Lilac Top, Tan Hair, Dark Pink Shoes &amp;#40;4499750&amp;#41;</ITEMNAME>
       <CATEGORY>48</CATEGORY>
       <ITEMYEAR>2007</ITEMYEAR>
       <ITEMWEIGHT>10.2</ITEMWEIGHT>
@@ -35022,7 +35022,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0215</ITEMID>
-      <ITEMNAME>Assassin Droid (White)</ITEMNAME>
+      <ITEMNAME>Assassin Droid - White</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2008</ITEMYEAR>
       <ITEMWEIGHT>2.6</ITEMWEIGHT>
@@ -35976,7 +35976,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0222</ITEMID>
-      <ITEMNAME>Assassin Droid Elite (Black)</ITEMNAME>
+      <ITEMNAME>Assassin Droid - Black &amp;#40;Elite&amp;#41;</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2009</ITEMYEAR>
       <ITEMWEIGHT>2.42</ITEMWEIGHT>
@@ -36003,7 +36003,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0229</ITEMID>
-      <ITEMNAME>Assassin Droid (Silver)</ITEMNAME>
+      <ITEMNAME>Assassin Droid - Metallic Silver</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2009</ITEMYEAR>
       <ITEMWEIGHT>2.46</ITEMWEIGHT>
@@ -36804,7 +36804,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0239</ITEMID>
-      <ITEMNAME>Endor Rebel Commando - Frown</ITEMNAME>
+      <ITEMNAME>Endor Rebel Commando - Frown, Backpack</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2009</ITEMYEAR>
       <ITEMWEIGHT>4.26</ITEMWEIGHT>
@@ -36813,7 +36813,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0237</ITEMID>
-      <ITEMNAME>Wicket (Ewok)</ITEMNAME>
+      <ITEMNAME>Wicket &amp;#40;Ewok&amp;#41; - Printed Dark Orange Hood, Reddish Brown Face</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2009</ITEMYEAR>
       <ITEMWEIGHT>4.49</ITEMWEIGHT>
@@ -36831,7 +36831,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0240</ITEMID>
-      <ITEMNAME>Endor Rebel Commando - Beard</ITEMNAME>
+      <ITEMNAME>Endor Rebel Commando - Brown Beard, Backpack</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2009</ITEMYEAR>
       <ITEMWEIGHT>4.27</ITEMWEIGHT>
@@ -37344,7 +37344,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0244</ITEMID>
-      <ITEMNAME>Senate Commando</ITEMNAME>
+      <ITEMNAME>Senate Commando - Plain Legs, Large Eyes</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2009</ITEMYEAR>
       <ITEMWEIGHT>3.8</ITEMWEIGHT>
@@ -39189,7 +39189,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0227</ITEMID>
-      <ITEMNAME>Rocket Droid Commander &amp;#40;Battle&amp;#41;</ITEMNAME>
+      <ITEMNAME>Rocket Battle Droid Commander</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2010</ITEMYEAR>
       <ITEMWEIGHT>2.4</ITEMWEIGHT>
@@ -41016,7 +41016,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0282</ITEMID>
-      <ITEMNAME>2-1B Medical Droid - Badge with Letter &amp;#39;T&amp;#39; Pattern</ITEMNAME>
+      <ITEMNAME>2-1B Medical Droid - Pearl Dark Gray Torso, Silver Badge with Letter &amp;#39;T&amp;#39; Pattern</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2010</ITEMYEAR>
       <ITEMWEIGHT>2.27</ITEMWEIGHT>
@@ -42114,7 +42114,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0288</ITEMID>
-      <ITEMNAME>Senate Commando Captain</ITEMNAME>
+      <ITEMNAME>Senate Commando Captain - Plain Legs, Large Eyes</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2010</ITEMYEAR>
       <ITEMWEIGHT>3.8</ITEMWEIGHT>
@@ -42717,7 +42717,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0244a</ITEMID>
-      <ITEMNAME>Senate Commando - Plain Light Nougat Head</ITEMNAME>
+      <ITEMNAME>Senate Commando - Plain Legs, Plain Light Nougat Head</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2010</ITEMYEAR>
       <ITEMWEIGHT>3.8</ITEMWEIGHT>
@@ -44211,7 +44211,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0301</ITEMID>
-      <ITEMNAME>Jar Jar Binks &amp;#40;Printed Head&amp;#41;</ITEMNAME>
+      <ITEMNAME>Jar Jar Binks - Dark Tan Torso, Printed Head with Dark Tan Top, Dark Bluish Gray Legs</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2011</ITEMYEAR>
       <ITEMWEIGHT>4.3</ITEMWEIGHT>
@@ -44490,7 +44490,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0308</ITEMID>
-      <ITEMNAME>Saesee Tiin</ITEMNAME>
+      <ITEMNAME>Saesee Tiin - Dark Brown Robe, White Arms, Large Eyes</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2011</ITEMYEAR>
       <ITEMWEIGHT>4.16</ITEMWEIGHT>
@@ -46488,7 +46488,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0324</ITEMID>
-      <ITEMNAME>Padmé Naberrie &amp;#40;Amidala&amp;#41;</ITEMNAME>
+      <ITEMNAME>Padmé Naberrie &amp;#40;Amidala&amp;#41; - Light Nought Head</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2011</ITEMYEAR>
       <ITEMWEIGHT>4.1</ITEMWEIGHT>
@@ -46551,7 +46551,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0325</ITEMID>
-      <ITEMNAME>Watto - Printed Head, Dark Bluish Gray Hands</ITEMNAME>
+      <ITEMNAME>Watto - Sand Blue, Printed Head, Dark Bluish Gray Hands</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2011</ITEMYEAR>
       <ITEMWEIGHT>4.2</ITEMWEIGHT>
@@ -46560,7 +46560,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0326</ITEMID>
-      <ITEMNAME>Sebulba - Movable Arms</ITEMNAME>
+      <ITEMNAME>Sebulba - Dark Bluish Gray, Movable Arms</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2011</ITEMYEAR>
       <ITEMWEIGHT>4.2</ITEMWEIGHT>
@@ -47496,7 +47496,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0351</ITEMID>
-      <ITEMNAME>IG-88 &amp;#40;Printed Head&amp;#41;</ITEMNAME>
+      <ITEMNAME>Assassin Droid &amp;#40;IG-88&amp;#41; - Dark Bluish Gray, Printed Head</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2011</ITEMYEAR>
       <ITEMWEIGHT>2.5</ITEMWEIGHT>
@@ -50646,7 +50646,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0388</ITEMID>
-      <ITEMNAME>Obi-Wan Kenobi (Old) - Short Cape (Watch 9002939)</ITEMNAME>
+      <ITEMNAME>Obi-Wan Kenobi - Old, Short Cape &amp;#40;Watch 9002939&amp;#41;</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>3.48</ITEMWEIGHT>
@@ -50853,7 +50853,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0391</ITEMID>
-      <ITEMNAME>Republic Trooper Jace Malcom</ITEMNAME>
+      <ITEMNAME>Republic Trooper - Black Hair, Red Arms &amp;#40;Jace Malcom&amp;#41;</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2012</ITEMYEAR>
       <ITEMWEIGHT>3.48</ITEMWEIGHT>
@@ -51978,7 +51978,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0414</ITEMID>
-      <ITEMNAME>Sith Trooper - Black Armor with Plain Legs</ITEMNAME>
+      <ITEMNAME>Sith Trooper - Black Armor, Plain Legs</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2012</ITEMYEAR>
       <ITEMWEIGHT>3.7</ITEMWEIGHT>
@@ -52356,7 +52356,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0420</ITEMID>
-      <ITEMNAME>Saesee Tiin with Cape</ITEMNAME>
+      <ITEMNAME>Saesee Tiin - Dark Brown Robe, Cape</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2012</ITEMYEAR>
       <ITEMWEIGHT>4.34</ITEMWEIGHT>
@@ -53643,7 +53643,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0436</ITEMID>
-      <ITEMNAME>Sith Trooper - Dark Red Armor</ITEMNAME>
+      <ITEMNAME>Sith Trooper - Dark Red Armor, Printed Legs</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>3.74</ITEMWEIGHT>
@@ -53679,7 +53679,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0440</ITEMID>
-      <ITEMNAME>Republic Trooper &amp;#40;Smirk&amp;#41;</ITEMNAME>
+      <ITEMNAME>Republic Trooper - Helmet, Smirk</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -53832,7 +53832,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0443</ITEMID>
-      <ITEMNAME>Sith Trooper - Black Armor with Printed Legs</ITEMNAME>
+      <ITEMNAME>Sith Trooper - Black Armor, Printed Legs</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>3.71</ITEMWEIGHT>
@@ -53841,7 +53841,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0444</ITEMID>
-      <ITEMNAME>Republic Trooper &amp;#40;Cheek Lines&amp;#41;</ITEMNAME>
+      <ITEMNAME>Republic Trooper - Helmet, Cheek Lines</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>3.99</ITEMWEIGHT>
@@ -56190,7 +56190,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0475</ITEMID>
-      <ITEMNAME>Jek-14 with Clone Helmet</ITEMNAME>
+      <ITEMNAME>Jek-14 - Clone Helmet</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>3.65</ITEMWEIGHT>
@@ -56352,7 +56352,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0494</ITEMID>
-      <ITEMNAME>Mandalorian Super Commando</ITEMNAME>
+      <ITEMNAME>Mandalorian Super Commando - Large Sand Blue Eyes</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>4.15</ITEMWEIGHT>
@@ -56829,7 +56829,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0495</ITEMID>
-      <ITEMNAME>Mandalorian Super Commando &amp;#40;Head with High Brow Pattern&amp;#41;</ITEMNAME>
+      <ITEMNAME>Mandalorian Super Commando - Large Blue Eyes with High Brow Pattern</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>4.11</ITEMWEIGHT>
@@ -57954,7 +57954,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0513</ITEMID>
-      <ITEMNAME>Wicket &amp;#40;Ewok&amp;#41; with Tan Face Paint Pattern</ITEMNAME>
+      <ITEMNAME>Wicket &amp;#40;Ewok&amp;#41; - Printed Dark Orange Hood, Tan Face</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>4.49</ITEMWEIGHT>
@@ -57972,7 +57972,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0511</ITEMID>
-      <ITEMNAME>Endor Rebel Commando - Beard and Angry Dual Sided Head</ITEMNAME>
+      <ITEMNAME>Endor Rebel Commando - Shaggy Beard, Dual Sided Head</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -58062,7 +58062,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0507</ITEMID>
-      <ITEMNAME>Endor Rebel Trooper &amp;#40;Sand Green&amp;#41;</ITEMNAME>
+      <ITEMNAME>Endor Rebel Trooper - Sand Green</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>3.76</ITEMWEIGHT>
@@ -59097,7 +59097,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0532</ITEMID>
-      <ITEMNAME>Chewbacca - Medium Nougat Fur</ITEMNAME>
+      <ITEMNAME>Chewbacca - Dark Brown, Medium Nougat Fur</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2014</ITEMYEAR>
       <ITEMWEIGHT>5.05</ITEMWEIGHT>
@@ -59718,7 +59718,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0475a</ITEMID>
-      <ITEMNAME>Jek-14 with Hair</ITEMNAME>
+      <ITEMNAME>Jek-14 - Hair</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>3.4</ITEMWEIGHT>
@@ -62139,7 +62139,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0552</ITEMID>
-      <ITEMNAME>Obi-Wan Kenobi &amp;#40;Dark Brown Hooded Coat&amp;#41;</ITEMNAME>
+      <ITEMNAME>Obi-Wan Kenobi - Old, Dark Brown Hooded Coat</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2014</ITEMYEAR>
       <ITEMWEIGHT>3.4</ITEMWEIGHT>
@@ -62193,7 +62193,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0556</ITEMID>
-      <ITEMNAME>Ten Numb &amp;#40;Red Jumpsuit&amp;#41;</ITEMNAME>
+      <ITEMNAME>Ten Numb - Red Pilot Suit, Tan Head, B-Wing Pilot Helmet</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2014</ITEMYEAR>
       <ITEMWEIGHT>3.8</ITEMWEIGHT>
@@ -62562,7 +62562,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0571</ITEMID>
-      <ITEMNAME>Jek-14 with Stormtrooper Helmet</ITEMNAME>
+      <ITEMNAME>Jek-14 - Stormtrooper Helmet</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2014</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -63120,7 +63120,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0587</ITEMID>
-      <ITEMNAME>Mini Treadwell Droid</ITEMNAME>
+      <ITEMNAME>Treadwell Droid - Mini</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2014</ITEMYEAR>
       <ITEMWEIGHT>1.4</ITEMWEIGHT>
@@ -66504,7 +66504,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0627</ITEMID>
-      <ITEMNAME>Wookiee, Printed Arm</ITEMNAME>
+      <ITEMNAME>Wookiee - Reddish Brown with Dark Tan Fur, Printed Legs, Band on Left Arm</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2015</ITEMYEAR>
       <ITEMWEIGHT>5.48</ITEMWEIGHT>
@@ -69384,7 +69384,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0644</ITEMID>
-      <ITEMNAME>Han Solo &amp;#40;Endor Outfit&amp;#41;</ITEMNAME>
+      <ITEMNAME>Han Solo - Endor Outfit, Dark Tan Camouflage Jacket, Smooth Hair</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2015</ITEMYEAR>
       <ITEMWEIGHT>3.37</ITEMWEIGHT>
@@ -69393,7 +69393,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0645</ITEMID>
-      <ITEMNAME>Endor Rebel Trooper 1 &amp;#40;Olive Green&amp;#41;</ITEMNAME>
+      <ITEMNAME>Endor Rebel Trooper - Olive Green</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2015</ITEMYEAR>
       <ITEMWEIGHT>3.76</ITEMWEIGHT>
@@ -69402,7 +69402,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0646</ITEMID>
-      <ITEMNAME>Endor Rebel Trooper 2 &amp;#40;Olive Green&amp;#41; &amp;#40;Commander Rex&amp;#41;</ITEMNAME>
+      <ITEMNAME>Endor Rebel Trooper - Dark Tan Vest, Tan Beard &amp;#40;Commander Rex&amp;#41;</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2015</ITEMYEAR>
       <ITEMWEIGHT>3.76</ITEMWEIGHT>
@@ -70518,7 +70518,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0649</ITEMID>
-      <ITEMNAME>Watto - Printed Head, Tan Hands</ITEMNAME>
+      <ITEMNAME>Watto - Sand Blue, Printed Head, Tan Hands</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2015</ITEMYEAR>
       <ITEMWEIGHT>4.2</ITEMWEIGHT>
@@ -71058,7 +71058,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0683</ITEMID>
-      <ITEMNAME>Assassin Droid &amp;#40;Dark Bluish Gray&amp;#41;</ITEMNAME>
+      <ITEMNAME>Assassin Droid - Dark Bluish Gray</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2015</ITEMYEAR>
       <ITEMWEIGHT>1.89</ITEMWEIGHT>
@@ -71274,7 +71274,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0672</ITEMID>
-      <ITEMNAME>First Order TIE Fighter Pilot, Two White Lines on Helmet</ITEMNAME>
+      <ITEMNAME>First Order TIE Fighter Pilot - Two White Lines on Helmet</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2015</ITEMYEAR>
       <ITEMWEIGHT>4.2</ITEMWEIGHT>
@@ -72615,7 +72615,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0713</ITEMID>
-      <ITEMNAME>Wookiee</ITEMNAME>
+      <ITEMNAME>Wookiee - Reddish Brown with Dark Tan Fur, Printed Legs, Plain Arms</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT>5</ITEMWEIGHT>
@@ -72714,7 +72714,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0716</ITEMID>
-      <ITEMNAME>Finn &amp;#40;FN-2187&amp;#41;</ITEMNAME>
+      <ITEMNAME>Finn - First Order Stormtrooper &amp;#40;FN-2187&amp;#41;</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT>3.5</ITEMWEIGHT>
@@ -77790,7 +77790,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0763</ITEMID>
-      <ITEMNAME>Snow Chewbacca</ITEMNAME>
+      <ITEMNAME>Chewbacca - White &amp;#40;Snow / Christmas&amp;#41;</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT>5</ITEMWEIGHT>
@@ -78501,7 +78501,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0796</ITEMID>
-      <ITEMNAME>Imperial Death Trooper &amp;#40;Specialist / Commander&amp;#41;</ITEMNAME>
+      <ITEMNAME>Imperial Death Trooper - Black Armor with Ammo Pouch and Grenades, Pauldron &amp;#40;Specialist / Commander&amp;#41;</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT>4.21</ITEMWEIGHT>
@@ -79734,7 +79734,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0807</ITEMID>
-      <ITEMNAME>Imperial Death Trooper - Light Nougat Head</ITEMNAME>
+      <ITEMNAME>Imperial Death Trooper - Black Armor</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
       <ITEMWEIGHT>4.2</ITEMWEIGHT>
@@ -84522,7 +84522,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0831a</ITEMID>
-      <ITEMNAME>IG-88 with Round 1 x 1 Plate</ITEMNAME>
+      <ITEMNAME>Assassin Droid &amp;#40;IG-88&amp;#41; - Dark Bluish Gray, Printed Head, 1 x 1 Round Plate and Clip</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
@@ -86241,7 +86241,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0860</ITEMID>
-      <ITEMNAME>First Order TIE Pilot, Two Red Stripes on Helmet</ITEMNAME>
+      <ITEMNAME>First Order TIE Fighter Pilot - Two Red Stripes on Helmet</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
       <ITEMWEIGHT>4.2</ITEMWEIGHT>
@@ -87915,7 +87915,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0891</ITEMID>
-      <ITEMNAME>Admiral Ematt</ITEMNAME>
+      <ITEMNAME>Admiral Caluan Ematt</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
       <ITEMWEIGHT>3.6</ITEMWEIGHT>
@@ -88833,7 +88833,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0902</ITEMID>
-      <ITEMNAME>First Order TIE Pilot, Three White Lines on Helmet</ITEMNAME>
+      <ITEMNAME>First Order TIE Fighter Pilot - Three White Lines on Helmet</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
       <ITEMWEIGHT>4.2</ITEMWEIGHT>
@@ -89922,7 +89922,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0919</ITEMID>
-      <ITEMNAME>Tobias Beckett - Imperial Mudtrooper Disguise &amp;#40;Army Captain&amp;#41;</ITEMNAME>
+      <ITEMNAME>Tobias Beckett - Imperial Mudtrooper Disguise, Imperial Officer Cap</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
       <ITEMWEIGHT>3.4</ITEMWEIGHT>
@@ -89949,7 +89949,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0922</ITEMID>
-      <ITEMNAME>Chewbacca - Crossed Bandoliers</ITEMNAME>
+      <ITEMNAME>Chewbacca - Dark Brown, Medium Nougat Fur, Crossed Bandoliers</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
       <ITEMWEIGHT>4.91</ITEMWEIGHT>
@@ -93162,7 +93162,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0941</ITEMID>
-      <ITEMNAME>Tobias Beckett</ITEMNAME>
+      <ITEMNAME>Tobias Beckett - Dark Tan Coat, Tan Hair</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
       <ITEMWEIGHT>3.3</ITEMWEIGHT>
@@ -93738,7 +93738,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0948</ITEMID>
-      <ITEMNAME>Chewbacca - Crossed Bandoliers and Goggles</ITEMNAME>
+      <ITEMNAME>Chewbacca - Dark Brown, Medium Nougat Fur, Crossed Bandoliers, Goggles</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
       <ITEMWEIGHT>4.8</ITEMWEIGHT>
@@ -95286,7 +95286,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0972</ITEMID>
-      <ITEMNAME>Princess Leia - Bespin Outfit</ITEMNAME>
+      <ITEMNAME>Princess Leia - Bespin Outfit, Short Braided Hair, Printed Skirt</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
       <ITEMWEIGHT>3.9</ITEMWEIGHT>
@@ -95520,7 +95520,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0968</ITEMID>
-      <ITEMNAME>IG-88 without Round 1 x 1 Plate</ITEMNAME>
+      <ITEMNAME>Assassin Droid &amp;#40;IG-88&amp;#41; - Dark Bluish Gray, Printed Head, 1 x 1 Clip</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
       <ITEMWEIGHT>2.11</ITEMWEIGHT>
@@ -96537,7 +96537,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0996</ITEMID>
-      <ITEMNAME>Kashyyyk Battle Droid / AAT Driver Battle Droid</ITEMNAME>
+      <ITEMNAME>Battle Droid - Tan, Olive Green Torso, Printed Head &amp;#40;Kashyyyk / AAT Driver Battle Droid&amp;#41;</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>1.4</ITEMWEIGHT>
@@ -99363,7 +99363,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1028</ITEMID>
-      <ITEMNAME>Wookiee Warrior, Printed Legs</ITEMNAME>
+      <ITEMNAME>Wookiee Warrior - Dark Brown with Dark Tan Fur, Printed Legs</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>4.9</ITEMWEIGHT>
@@ -99381,7 +99381,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1023</ITEMID>
-      <ITEMNAME>Padmé Naberrie &amp;#40;Amidala&amp;#41;, Medium Legs</ITEMNAME>
+      <ITEMNAME>Padmé Naberrie &amp;#40;Amidala&amp;#41; - Light Nougat Head, Medium Legs</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -104529,7 +104529,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1059</ITEMID>
-      <ITEMNAME>Klatooinian Raider with Armor Neck</ITEMNAME>
+      <ITEMNAME>Klatooinian Raider - Neck Armor</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>3.3</ITEMWEIGHT>
@@ -104538,7 +104538,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1060</ITEMID>
-      <ITEMNAME>Klatooinian Raider with Helmet</ITEMNAME>
+      <ITEMNAME>Klatooinian Raider - Aviator Helmet, Shoulder Pad with Spikes</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>3.8</ITEMWEIGHT>
@@ -104583,7 +104583,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1065</ITEMID>
-      <ITEMNAME>Sith Trooper - Episode 9</ITEMNAME>
+      <ITEMNAME>Sith Trooper - Red Armor and Helmet</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>4.1</ITEMWEIGHT>
@@ -109884,7 +109884,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1114</ITEMID>
-      <ITEMNAME>Greef Karga</ITEMNAME>
+      <ITEMNAME>Greef Karga - Dark Red, Plain Legs, Moustache</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>3.6</ITEMWEIGHT>
@@ -118731,7 +118731,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1156</ITEMID>
-      <ITEMNAME>Greef Karga - Black Magistrate Robe and Gray Beard</ITEMNAME>
+      <ITEMNAME>Greef Karga - Black Magistrate Robe, Dark Brown Printed Legs, Gray Beard</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -118794,7 +118794,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1163</ITEMID>
-      <ITEMNAME>Bo-Katan Kryze</ITEMNAME>
+      <ITEMNAME>Bo-Katan Kryze - Plain Arms, Jet Pack, Helmet</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>4.21</ITEMWEIGHT>
@@ -123141,7 +123141,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1183</ITEMID>
-      <ITEMNAME>Imperial AT-ST Driver, Hoth - Helmet with Molded Goggles, White Jacket</ITEMNAME>
+      <ITEMNAME>Imperial AT-ST Driver - Helmet with Molded Goggles, White Jacket &amp;#40;Hoth&amp;#41;</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -123150,7 +123150,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1184</ITEMID>
-      <ITEMNAME>Chewbacca - Snow</ITEMNAME>
+      <ITEMNAME>Chewbacca - Dark Brown, Medium Nougat Fur, Snow Spots</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT>4.9</ITEMWEIGHT>
@@ -129612,7 +129612,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1218</ITEMID>
-      <ITEMNAME>Wicket &amp;#40;Ewok&amp;#41;, Printed Dark Orange Hood with Wrinkles</ITEMNAME>
+      <ITEMNAME>Wicket &amp;#40;Ewok&amp;#41; - Printed Dark Orange Hood with Wrinkles</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT>4.5</ITEMWEIGHT>
@@ -135804,7 +135804,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1253</ITEMID>
-      <ITEMNAME>Chewbacca - Medium Nougat Face Fur, Dark Tan Leg Fur</ITEMNAME>
+      <ITEMNAME>Chewbacca - Dark Brown, Medium Nougat Face Fur, Dark Tan Leg Fur</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>5.05</ITEMWEIGHT>
@@ -136533,7 +136533,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1287</ITEMID>
-      <ITEMNAME>Bo-Katan Kryze - Printed Arms, Dark Orange Hair</ITEMNAME>
+      <ITEMNAME>Bo-Katan Kryze - Printed Arms, Jet Pack, Dark Orange Hair</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>4.24</ITEMWEIGHT>
@@ -140178,7 +140178,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1307</ITEMID>
-      <ITEMNAME>Lt. Beyta</ITEMNAME>
+      <ITEMNAME>Lt. Beyta &amp;#40;Lieutenant&amp;#41;</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>3.9</ITEMWEIGHT>
@@ -149142,7 +149142,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1367</ITEMID>
-      <ITEMNAME>Darth Jar Jar</ITEMNAME>
+      <ITEMNAME>Jar Jar Binks - Black Outfit, Printed Head with Dark Orange Top &amp;#40;Darth Jar Jar&amp;#41;</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>4.31</ITEMWEIGHT>
@@ -149151,7 +149151,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1364</ITEMID>
-      <ITEMNAME>Darth Rey</ITEMNAME>
+      <ITEMNAME>Rey - Black Dress, Hood and Cape &amp;#40;Darth Rey&amp;#41;</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>4.01</ITEMWEIGHT>
@@ -158142,7 +158142,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1416</ITEMID>
-      <ITEMNAME>Imperial Death Trooper - Dark Tan Head</ITEMNAME>
+      <ITEMNAME>Imperial Death Trooper - Black Armor with Gold Cracks, Dark Tan Zombie Head</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>4.2</ITEMWEIGHT>
@@ -160077,7 +160077,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1447</ITEMID>
-      <ITEMNAME>Scrap Battle Droid</ITEMNAME>
+      <ITEMNAME>Battle Droid - Tan, Dark Bluish Gray Left Arm, Antenna &amp;#40;Scrap Battle Droid&amp;#41;</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>2.05</ITEMWEIGHT>
@@ -161274,7 +161274,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1435</ITEMID>
-      <ITEMNAME>Wicket &amp;#40;Ewok&amp;#41;, Molded Dark Orange Hood with Wrinkles</ITEMNAME>
+      <ITEMNAME>Wicket &amp;#40;Ewok&amp;#41; - Molded Dark Orange Hood with Wrinkles</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>4.5</ITEMWEIGHT>
@@ -163056,7 +163056,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1468</ITEMID>
-      <ITEMNAME>Admiral Motti</ITEMNAME>
+      <ITEMNAME>Admiral Conan Antonio Motti</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>3.4</ITEMWEIGHT>
@@ -166750,6 +166750,15 @@
       <CATEGORY>1370</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>5.9</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol419</ITEMID>
+      <ITEMNAME>Pixal / P.I.X.A.L. - 15th Anniversary</ITEMNAME>
+      <CATEGORY>976</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
