@@ -58295,7 +58295,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>QX5454</ITEMID>
+      <ITEMID>QXI2619</ITEMID>
       <ITEMNAME>Christmas Tree Ornament, Hallmark LEGO Star Wars Darth Vader</ITEMNAME>
       <CATEGORY>1008</CATEGORY>
       <ITEMYEAR>2011</ITEMYEAR>
@@ -114744,10 +114744,10 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>QXI3063</ITEMID>
-      <ITEMNAME>Christmas Tree Ornament, Hallmark The LEGO Batman Movie The Joker</ITEMNAME>
+      <ITEMNAME>Christmas Tree Ornament, Hallmark LEGO The Joker, The LEGO Batman Movie</ITEMNAME>
       <CATEGORY>1008</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>20</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -121254,7 +121254,7 @@
       <ITEMNAME>City - Lego Club Czech / Harbor Poster &amp;#40;Double-Sided&amp;#41;</ITEMNAME>
       <CATEGORY>503</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
-      <ITEMWEIGHT>0.02</ITEMWEIGHT>
+      <ITEMWEIGHT>17</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -167483,6 +167483,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>penbody017</ITEMID>
+      <ITEMNAME>Bead, Pen Body with Royal Blue Ends, Chrome Tip</ITEMNAME>
+      <CATEGORY>464</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>245</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>bead038</ITEMID>
+      <ITEMNAME>Bead, Pen Cap with Purple String</ITEMNAME>
+      <CATEGORY>464</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>97</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>bead004pb092</ITEMID>
       <ITEMNAME>Bead, Square with Iridescent Coating Pattern</ITEMNAME>
       <CATEGORY>464</CATEGORY>
@@ -178688,6 +178706,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>p13cty01nl</ITEMID>
+      <ITEMNAME>City - Lego Club Dutch / Harbor Poster &amp;#40;Double-Sided&amp;#41;</ITEMNAME>
+      <CATEGORY>503</CATEGORY>
+      <ITEMYEAR>2013</ITEMYEAR>
+      <ITEMWEIGHT>17</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>njo09adeLE04</ITEMID>
       <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 9 &amp;#40;Next Level&amp;#41; - # LE4 Böser Ras Limited Edition</ITEMNAME>
       <CATEGORY>380</CATEGORY>
@@ -179210,6 +179237,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>lwsbag</ITEMID>
+      <ITEMNAME>Shopping Bag, Plastic, LEGO World Show / LEGO Logo on Reverse &amp;#40;40.5 x 49 cm&amp;#41;</ITEMNAME>
+      <CATEGORY>399</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>107541</ITEMID>
       <ITEMNAME>Backpack DREAMZzz</ITEMNAME>
       <CATEGORY>498</CATEGORY>
@@ -179251,6 +179287,15 @@
       <CATEGORY>334</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>35</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>pin271</ITEMID>
+      <ITEMNAME>Pin, Lust auf Laster. &amp;#40;Highway Rig&amp;#41;</ITEMNAME>
+      <CATEGORY>445</CATEGORY>
+      <ITEMYEAR>1990</ITEMYEAR>
+      <ITEMWEIGHT>11</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -182594,6 +182639,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>QXI7555</ITEMID>
+      <ITEMNAME>Christmas Tree Ornament, Hallmark LEGO Star Wars Darth Vader - Holiday Sweater</ITEMNAME>
+      <CATEGORY>1008</CATEGORY>
+      <ITEMYEAR>2021</ITEMYEAR>
+      <ITEMWEIGHT>42</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>QXI7562</ITEMID>
+      <ITEMNAME>Christmas Tree Ornament, Hallmark LEGO Star Wars Stormtrooper - Holiday Sweater</ITEMNAME>
+      <CATEGORY>1008</CATEGORY>
+      <ITEMYEAR>2021</ITEMYEAR>
+      <ITEMWEIGHT>37</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>jw3de001</ITEMID>
       <ITEMNAME>Jurassic World Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 1 Lauernder T. rex</ITEMNAME>
       <CATEGORY>380</CATEGORY>
@@ -185092,6 +185155,15 @@
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>2.2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>QXI3297</ITEMID>
+      <ITEMNAME>Christmas Tree Ornament, Hallmark LEGO Robin, The LEGO Batman Movie</ITEMNAME>
+      <CATEGORY>1008</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>18</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -201872,7 +201944,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>30206806</ITEMID>
+      <ITEMID>QXI8792</ITEMID>
       <ITEMNAME>Christmas Tree Ornament, Hallmark LEGO Brick Suit Guy</ITEMNAME>
       <CATEGORY>1008</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
@@ -201881,7 +201953,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>30206805</ITEMID>
+      <ITEMID>QXI8785</ITEMID>
       <ITEMNAME>Christmas Tree Ornament, Hallmark LEGO Brick Suit Girl</ITEMNAME>
       <CATEGORY>1008</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
@@ -202733,6 +202805,15 @@
       <ITEMYEAR>2002</ITEMYEAR>
       <ITEMWEIGHT>113</ITEMWEIGHT>
       <IMAGECOLOR>7</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>QXI6014</ITEMID>
+      <ITEMNAME>Christmas Tree Ornament, Hallmark LEGO Star Wars Han Solo</ITEMNAME>
+      <CATEGORY>1008</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>16</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
@@ -203645,6 +203726,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6610542</ITEMID>
+      <ITEMNAME>LEGO Store Passport EU 2025 Version without Stickers</ITEMNAME>
+      <CATEGORY>1007</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>19.5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>6591192</ITEMID>
       <ITEMNAME>Magnet Flat Set, Berlin &amp;#40;3&amp;#41; - Lederhosen Guy, Pretzel Girl, Brandenburg Gate</ITEMNAME>
       <CATEGORY>14</CATEGORY>
@@ -204419,6 +204509,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>p89pirate2</ITEMID>
+      <ITEMNAME>Pirates Poster 1989 LEGOLAND &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>503</CATEGORY>
+      <ITEMYEAR>1989</ITEMYEAR>
+      <ITEMWEIGHT>24</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>ACP-6603DK</ITEMID>
       <ITEMNAME>ReCreate Aktivitetskort - Dyr &amp;#40;Danish Edition&amp;#41;</ITEMNAME>
       <CATEGORY>997</CATEGORY>
@@ -204451,6 +204550,51 @@
       <CATEGORY>997</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>154</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>UFOBan</ITEMID>
+      <ITEMNAME>Display Flag Cloth, UFO Zotaxian Alien</ITEMNAME>
+      <CATEGORY>526</CATEGORY>
+      <ITEMYEAR>1997</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>p94space3</ITEMID>
+      <ITEMNAME>Spyrius Poster 1994 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>503</CATEGORY>
+      <ITEMYEAR>1994</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>p98space</ITEMID>
+      <ITEMNAME>Insectoids Poster &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>503</CATEGORY>
+      <ITEMYEAR>1998</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>p97ufo2</ITEMID>
+      <ITEMNAME>UFO Poster 1997 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>503</CATEGORY>
+      <ITEMYEAR>1997</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>GiftBoxPirates</ITEMID>
+      <ITEMNAME>LEGOLAND Japan Gift Box - Pirates with Map</ITEMNAME>
+      <CATEGORY>1007</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>

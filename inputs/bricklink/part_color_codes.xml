@@ -288878,6 +288878,12 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>7818</ITEMID>
+      <COLOR>Trans-Clear</COLOR>
+      <CODENAME>6573182</CODENAME>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>7821</ITEMID>
       <COLOR>Black</COLOR>
       <CODENAME>6605627</CODENAME>
@@ -290261,6 +290267,12 @@
       <ITEMID>8134stk01</ITEMID>
       <COLOR>(Not Applicable)</COLOR>
       <CODENAME>4496151</CODENAME>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>8135</ITEMID>
+      <COLOR>Satin Trans-Clear</COLOR>
+      <CODENAME>6597500</CODENAME>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -455747,6 +455759,12 @@
       <ITEMID>43021stk01</ITEMID>
       <COLOR>(Not Applicable)</COLOR>
       <CODENAME>6552308</CODENAME>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>43025stk02</ITEMID>
+      <COLOR>(Not Applicable)</COLOR>
+      <CODENAME>6619648</CODENAME>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
