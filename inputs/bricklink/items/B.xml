@@ -66512,6 +66512,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b88other01dk</ITEMID>
+      <ITEMNAME>Lise viser vej: trafikregler for dig</ITEMNAME>
+      <CATEGORY>254</CATEGORY>
+      <ITEMYEAR>1988</ITEMYEAR>
+      <ITEMWEIGHT>20</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2025drm09de</ITEMID>
       <ITEMNAME>DREAMZzz Magazine 2025 Issue 9 &amp;#40;German&amp;#41;</ITEMNAME>
       <CATEGORY>1269</CATEGORY>
@@ -68757,7 +68766,7 @@
       <ITEMNAME>Harry Potter - Draco’s Potions &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
-      <ITEMWEIGHT>167</ITEMWEIGHT>
+      <ITEMWEIGHT>168.8</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -70463,6 +70472,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26cty01</ITEMID>
+      <ITEMNAME>City - Let&amp;#39;s Fly! &amp;#40;Softcover&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>181.7</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2015sw06es</ITEMID>
       <ITEMNAME>Star Wars Magazine 2015 Issue 6 &amp;#40;Spanish&amp;#41;</ITEMNAME>
       <CATEGORY>1025</CATEGORY>
@@ -70611,6 +70629,60 @@
       <ITEMNAME>NINJAGO Magazine 2017 Issue 7 &amp;#40;Spanish&amp;#41;</ITEMNAME>
       <CATEGORY>1024</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026njo139de</ITEMID>
+      <ITEMNAME>NINJAGO Magazine 2026 Issue 139 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>1024</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b25hol01</ITEMID>
+      <ITEMNAME>Easter Build and Play!</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>com2026njol34de</ITEMID>
+      <ITEMNAME>NINJAGO Legacy Comic 2026 Issue 34 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>331</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026sw132de</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2026 Issue 132 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>462</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>88</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b25sw08ca</ITEMID>
+      <ITEMNAME>Star Wars - Imperial Orders! &amp;#40;Softcover&amp;#41; &amp;#40;English - CA Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>152</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026drm13de</ITEMID>
+      <ITEMNAME>DREAMZzz Magazine 2026 Issue 13 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>1269</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>

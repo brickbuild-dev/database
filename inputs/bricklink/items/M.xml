@@ -4892,7 +4892,7 @@
       <ITEMID>cas102</ITEMID>
       <ITEMNAME>Black Falcon - Light Gray Legs with Black Hips, Dark Gray Chin-Guard</ITEMNAME>
       <CATEGORY>9</CATEGORY>
-      <ITEMYEAR>1992</ITEMYEAR>
+      <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>3.65</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -135624,7 +135624,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hp399</ITEMID>
-      <ITEMNAME>Draco Malfoy - Black Slytherin Robe and Legs</ITEMNAME>
+      <ITEMNAME>Draco Malfoy - Black Slytherin Robe and Legs, Angry / Scared</ITEMNAME>
       <CATEGORY>227</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>3.5</ITEMWEIGHT>
@@ -147522,7 +147522,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0956</ITEMID>
-      <ITEMNAME>Batman - Jet Pack</ITEMNAME>
+      <ITEMNAME>Batman - Jet Pack with Flames</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -152809,6 +152809,15 @@
       <CATEGORY>1309</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>4.5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>tls128</ITEMID>
+      <ITEMNAME>LEGO Brand Store - Female, Red Qipao and Legs, Black Bob Cut Hair, 'LEGO Store 2021' on Back</ITEMNAME>
+      <CATEGORY>976</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.5</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -161915,7 +161924,7 @@
       <ITEMID>cas596</ITEMID>
       <ITEMNAME>Black Falcon - Light Gray Legs with Black Hips, Dark Gray Chin-Guard, Quiver</ITEMNAME>
       <CATEGORY>9</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1992</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -167340,7 +167349,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1492</ITEMID>
-      <ITEMNAME>Jawa™ - Straps with Orange Stains and Holster</ITEMNAME>
+      <ITEMNAME>Jawa - Straps with Orange Stains and Holster</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.44</ITEMWEIGHT>
@@ -167349,7 +167358,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1493</ITEMID>
-      <ITEMNAME>Gonk Droid™ &amp;#40;GNK Power Droid&amp;#41; - Dark Blue Body</ITEMNAME>
+      <ITEMNAME>Gonk Droid &amp;#40;GNK Power Droid&amp;#41; - Dark Blue Body</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.75</ITEMWEIGHT>
@@ -167376,7 +167385,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1496</ITEMID>
-      <ITEMNAME>Astromech Droid, R2-D2™ - Dirt Stains on Front and Back, without Dirt Stains on Top Panels</ITEMNAME>
+      <ITEMNAME>Astromech Droid, R2-D2 - Dirt Stains on Front and Back, without Dirt Stains on Top Panels</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.5</ITEMWEIGHT>
@@ -167394,7 +167403,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1498</ITEMID>
-      <ITEMNAME>AT-ST Driver™ - Helmet with Molded Goggles, Light Bluish Gray Jumpsuit with Silver Dot, Printed Legs</ITEMNAME>
+      <ITEMNAME>AT-ST Driver - Helmet with Molded Goggles, Light Bluish Gray Jumpsuit with Silver Dot, Printed Legs</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.7</ITEMWEIGHT>
@@ -167511,7 +167520,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1511</ITEMID>
-      <ITEMNAME>Sandtrooper™ - Plastic Pauldron, Dirt Stains</ITEMNAME>
+      <ITEMNAME>Sandtrooper - Plastic Pauldron, Dirt Stains</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.5</ITEMWEIGHT>
@@ -168383,11 +168392,128 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1126</ITEMID>
+      <ITEMNAME>Batman - Jet Pack with Shooters</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>nike003</ITEMID>
       <ITEMNAME>Nike Air Max 95 Minifigure</ITEMNAME>
       <CATEGORY>1350</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>4.12</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>idea274</ITEMID>
+      <ITEMNAME>Tintin</ITEMNAME>
+      <CATEGORY>817</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>7.36</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>idea275</ITEMID>
+      <ITEMNAME>Captain Haddock</ITEMNAME>
+      <CATEGORY>817</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>7.32</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>idea276</ITEMID>
+      <ITEMNAME>Professor Calculus</ITEMNAME>
+      <CATEGORY>817</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>7.25</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>idea277</ITEMID>
+      <ITEMNAME>Thomson</ITEMNAME>
+      <CATEGORY>817</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>7.36</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>idea278</ITEMID>
+      <ITEMNAME>Thompson</ITEMNAME>
+      <CATEGORY>817</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>7.36</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>twn543</ITEMID>
+      <ITEMNAME>Pan Am Flight Attendant</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.42</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>twn544</ITEMID>
+      <ITEMNAME>Pan Am Pilot</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.54</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>twn546</ITEMID>
+      <ITEMNAME>Pan Am Purser</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>twn545</ITEMID>
+      <ITEMNAME>Pan Am Stewardess</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.91</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2002</ITEMID>
+      <ITEMNAME>Pilot - Male, Light Aqua Uniform Shirt with Tie, Dark Blue Legs and Hat, Open Mouth Smile &amp;#40;Pete&amp;#41;</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.45</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp616</ITEMID>
+      <ITEMNAME>Draco Malfoy - Black Slytherin Robe and Legs, Neutral / Angry</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>twn547</ITEMID>
+      <ITEMNAME>Bike Burger Cart Driver - Female, Red Torso, Sand Blue Legs, Red Cap</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.4</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
