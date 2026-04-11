@@ -149835,7 +149835,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>bdp120</ITEMID>
-      <ITEMNAME>Train Worker - White Hair and Beard, Reddish Brown Apron</ITEMNAME>
+      <ITEMNAME>Train Worker Frank - White Hair and Beard, Reddish Brown Apron</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>4.1</ITEMWEIGHT>
@@ -149844,7 +149844,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>bdp121</ITEMID>
-      <ITEMNAME>Train Worker - Female, Blue Overalls, Dark Blue Cap</ITEMNAME>
+      <ITEMNAME>Train Worker Andrea - Blue Overalls, Dark Blue Cap</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>3.42</ITEMWEIGHT>
@@ -149853,7 +149853,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>bdp122</ITEMID>
-      <ITEMNAME>Train Worker - Male, Dark Tan Vest, Dark Azure Legs, Prosthetic Left Leg, Orange Air Tanks, Construction Helmet</ITEMNAME>
+      <ITEMNAME>Train Worker Robert - Dark Tan Vest, Dark Azure Legs, Prosthetic Left Leg, Orange Air Tanks, Construction Helmet</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>3.87</ITEMWEIGHT>
@@ -149862,7 +149862,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>bdp123</ITEMID>
-      <ITEMNAME>Train Worker - Female, Medium Blue Octan Shirt, Dark Tan Legs with Reddish Brown Boots, Green Glasses, Black Ponytail</ITEMNAME>
+      <ITEMNAME>Train Worker Julia - Medium Blue Octan Shirt, Dark Tan Legs with Reddish Brown Boots, Green Glasses, Black Ponytail</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>3.71</ITEMWEIGHT>
@@ -149871,7 +149871,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>bdp124</ITEMID>
-      <ITEMNAME>Train Worker - Red Plaid Flannel Shirt, Black Legs, Moustache, and Hair</ITEMNAME>
+      <ITEMNAME>Train Worker Sam - Red Plaid Flannel Shirt, Black Legs, Moustache, and Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>3.54</ITEMWEIGHT>
@@ -149880,7 +149880,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>bdp125</ITEMID>
-      <ITEMNAME>Train Worker - Orange Jacket, Dark Bluish Gray Legs with Black Boots, Black Bob Cut Hair</ITEMNAME>
+      <ITEMNAME>Train Worker Samantha - Orange Jacket, Dark Bluish Gray Legs with Black Boots, Black Bob Cut Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>3.56</ITEMWEIGHT>
@@ -167033,6 +167033,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>min258</ITEMID>
+      <ITEMNAME>Ender Explorer &amp;#40;662506&amp;#41;</ITEMNAME>
+      <CATEGORY>801</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.45</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh1116</ITEMID>
       <ITEMNAME>Anti-Venom - Small</ITEMNAME>
       <CATEGORY>768</CATEGORY>
@@ -167191,6 +167200,15 @@
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.67</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>min259</ITEMID>
+      <ITEMNAME>Makena &amp;#40;b25min06uk&amp;#41;</ITEMNAME>
+      <CATEGORY>801</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.45</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -168509,11 +168527,29 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>njo1059</ITEMID>
+      <ITEMNAME>Nya - Bright Light Blue Kimono Robe</ITEMNAME>
+      <CATEGORY>976</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>twn547</ITEMID>
       <ITEMNAME>Bike Burger Cart Driver - Female, Red Torso, Sand Blue Legs, Red Cap</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>3.4</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>twn548</ITEMID>
+      <ITEMNAME>Sushi Chef, Torso with Japanese Logogram &amp;#39;寿司&amp;#39; &amp;#40;Sushi&amp;#41; on Front Pocket Pattern, Black Pants</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
