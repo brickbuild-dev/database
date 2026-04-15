@@ -63480,7 +63480,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>trn235</ITEMID>
-      <ITEMNAME>Light Orange Safety Vest, Dark Bluish Gray Legs, Red Construction Helmet, Brown Beard</ITEMNAME>
+      <ITEMNAME>Neon Red Safety Vest, Dark Bluish Gray Legs, Red Construction Helmet, Brown Beard</ITEMNAME>
       <CATEGORY>124</CATEGORY>
       <ITEMYEAR>2014</ITEMYEAR>
       <ITEMWEIGHT>3.48</ITEMWEIGHT>
@@ -94035,7 +94035,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>trn244</ITEMID>
-      <ITEMNAME>Train Driver - Orange Safety Vest with Lime Straps, Olive Green Legs, Red Cap with Hole, Beard Dark Tan Angular</ITEMNAME>
+      <ITEMNAME>Train Driver - Orange Safety Vest with Lime Stripes, Olive Green Legs, Red Cap with Hole, Beard Dark Tan Angular</ITEMNAME>
       <CATEGORY>124</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
       <ITEMWEIGHT>3.4</ITEMWEIGHT>
@@ -94053,7 +94053,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>trn246</ITEMID>
-      <ITEMNAME>Train Worker - Female, Orange Safety Vest with Lime Straps, Olive Green Legs, Red Construction Helmet with Dark Brown Ponytail Hair</ITEMNAME>
+      <ITEMNAME>Train Worker - Female, Orange Safety Vest with Lime Stripes, Olive Green Legs, Red Construction Helmet with Dark Brown Ponytail Hair</ITEMNAME>
       <CATEGORY>124</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
       <ITEMWEIGHT>3.7</ITEMWEIGHT>
@@ -168586,6 +168586,24 @@
       <CATEGORY>976</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>3.2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1516</ITEMID>
+      <ITEMNAME>Colonel Ward - X-Wing Flightsuit</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.58</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1518</ITEMID>
+      <ITEMNAME>Carson Teva - X-Wing Flightsuit</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.58</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
