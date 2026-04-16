@@ -1,17 +1,17 @@
 {
-  "created_at_utc": "2026-04-15T01:33:23Z",
+  "created_at_utc": "2026-04-16T01:30:52Z",
   "issue_count": 3,
   "issues": [
     {
       "severity": "MINOR",
       "issue_type": "BO_COLOR_ID_MISSING",
-      "count": 166218,
+      "count": 166222,
       "details": "Rows missing bo_color_id (color map coverage)."
     },
     {
       "severity": "MINOR",
       "issue_type": "BOID_MISSING",
-      "count": 167898,
+      "count": 167906,
       "details": "BOID missing (allowed)."
     },
     {
