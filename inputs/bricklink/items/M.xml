@@ -133311,7 +133311,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>47394pb338</ITEMID>
-      <ITEMNAME>Duplo Figure Lego Ville, Green Goblin, Medium Lavender Outfit</ITEMNAME>
+      <ITEMNAME>Duplo Figure Lego Ville, Green Goblin, Medium Lavender Outfit &amp;#40;6390892&amp;#41;</ITEMNAME>
       <CATEGORY>167</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT>16.4</ITEMWEIGHT>
@@ -167034,9 +167034,9 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>min258</ITEMID>
-      <ITEMNAME>Ender Explorer &amp;#40;662506&amp;#41;</ITEMNAME>
+      <ITEMNAME>Ender Explorer</ITEMNAME>
       <CATEGORY>801</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>3.45</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -168422,7 +168422,7 @@
       <ITEMID>nike003</ITEMID>
       <ITEMNAME>Nike Air Max 95 Minifigure</ITEMNAME>
       <CATEGORY>1350</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.12</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -168602,7 +168602,7 @@
       <ITEMID>sw1517</ITEMID>
       <ITEMNAME>New Republic Astromech - Dark Green</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.47</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -168613,6 +168613,15 @@
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.58</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>47394pb382</ITEMID>
+      <ITEMNAME>Duplo Figure Lego Ville, Green Goblin, Dark Purple Outfit &amp;#40;6593625&amp;#41;</ITEMNAME>
+      <CATEGORY>167</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>16.3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
