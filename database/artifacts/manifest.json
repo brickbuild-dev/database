@@ -1,19 +1,19 @@
 {
-  "created_at_utc": "2026-04-18T03:49:44Z",
+  "created_at_utc": "2026-04-18T03:57:42Z",
   "schema_version": "unknown",
-  "data_version": "310602794",
-  "builder_version": "989235f52b65fe8194fb1b5bf5a81d0b663fef9e",
+  "data_version": "310634673",
+  "builder_version": "1a7beda115ecb6995b59da20f9566162185d51f8",
   "inputs": [
     {
       "path": "inputs/upstream/brickstore-database.zip",
       "label": "upstream_zip",
-      "sha256": "310a32e3f06a34582d57d0dcb2fe095f704ae914f47bef99d5985586386f2acb",
-      "size_bytes": 38933698
+      "sha256": "842f6f9e1d674b1f4d169cfcdfbaff4478b5690b0e94425aa46d8662f9a21c84",
+      "size_bytes": 38933547
     },
     {
       "path": "inputs/upstream/last_release_id.txt",
       "label": "upstream_release_id",
-      "sha256": "d59fc8a798837095cfa26815ab001564c61e0c94e29439a31307045415b031b7",
+      "sha256": "8f6761135443a62b95edd6e61d863634234c010c78cb513e1d7601a1aefc7525",
       "size_bytes": 9
     },
     {
@@ -54,9 +54,9 @@
     {
       "path": "inputs/bricklink/items",
       "label": "bricklink_items_dir",
-      "sha256": "5091796b8bfa9a74e9818ff5c26018013b9f8fa3f3496bf76f4a6488f46d96d4",
+      "sha256": "6d8e745a29d425bf89716c0a4fbdfbbb1f409ab18e695abf08c0309f35272ace",
       "file_count": 8,
-      "size_bytes": 65701897
+      "size_bytes": 65701024
     },
     {
       "path": "inputs/bricklink/parts_weight.csv",
