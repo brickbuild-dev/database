@@ -118434,7 +118434,7 @@
    <ITEM>
       <ITEMTYPE>O</ITEMTYPE>
       <ITEMID>11912-1</ITEMID>
-      <ITEMNAME>Parts for Star Wars: Build Your Own Adventure &amp;#40;included in Book 9780241232576&amp;#41; polybag</ITEMNAME>
+      <ITEMNAME>Parts for Star Wars: Build Your Own Adventure &amp;#40;included in Books b16sw18&amp;#41; polybag</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT>1.5</ITEMWEIGHT>
@@ -140195,8 +140195,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>O</ITEMTYPE>
-      <ITEMID>modu0001-1</ITEMID>
-      <ITEMNAME>Modulex Brick 1 x 4 &amp;#40;Lego on studs&amp;#41; - Box of 100</ITEMNAME>
+      <ITEMID>modu2141-1</ITEMID>
+      <ITEMNAME>Modulex Brick 1 x 4 &amp;#40;Lego on studs&amp;#41; - Box of 100, Mx Olive Green</ITEMNAME>
       <CATEGORY>727</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -181055,6 +181055,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>modu2111-1</ITEMID>
+      <ITEMNAME>Modulex Brick 1 x 1 &amp;#40;Lego on studs&amp;#41; - Box of 100, Mx Light Gray</ITEMNAME>
+      <CATEGORY>727</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>19</ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
       <ITEMID>5009046-1</ITEMID>
       <ITEMNAME>Gingerbread Lane {Barnes &amp; Noble Promotional}</ITEMNAME>
       <CATEGORY>390</CATEGORY>
@@ -191018,6 +191027,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>4240748-1</ITEMID>
+      <ITEMNAME>BIONICLE Bundle Pack &amp;#40;Copack of Sets 8607 and 8610&amp;#41;</ITEMNAME>
+      <CATEGORY>273</CATEGORY>
+      <ITEMYEAR>2004</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
       <ITEMID>L0002246-1</ITEMID>
       <ITEMNAME>Jungle Ranger and Stray paper bag</ITEMNAME>
       <CATEGORY>801</CATEGORY>
@@ -192067,6 +192085,15 @@
       <CATEGORY>983</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>12006-1</ITEMID>
+      <ITEMNAME>Parts for Brick Like This! &amp;#40;Game GA23&amp;#41; paper bag</ITEMNAME>
+      <CATEGORY>252</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>3.3</ITEMWEIGHT>
       <IMAGECOLOR>-1</IMAGECOLOR>
    </ITEM>
 </CATALOG>
