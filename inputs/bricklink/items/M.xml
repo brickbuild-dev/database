@@ -157559,7 +157559,7 @@
       <ITEMID>jw131</ITEMID>
       <ITEMNAME>ACU Guard / Ranger - Male, Neck Bracket with Blaster Attachment</ITEMNAME>
       <CATEGORY>850</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>4.46</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -168620,8 +168620,17 @@
       <ITEMID>47394pb382</ITEMID>
       <ITEMNAME>Duplo Figure Lego Ville, Green Goblin, Dark Purple Outfit &amp;#40;6593625&amp;#41;</ITEMNAME>
       <CATEGORY>167</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>16.3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2003</ITEMID>
+      <ITEMNAME>Stuntz Driver - Male, Dark Turquoise Jacket with Dark Green Panel, Dark Tan Legs, Black Helmet, Trans-Clear Visor</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.66</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
