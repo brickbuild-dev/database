@@ -63785,6 +63785,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b66sam02</ITEMID>
+      <ITEMNAME>Idea Brochure Samsonite 'Model Ideas' - 1966 Late Issue &amp;#40;K-2236&amp;#41;</ITEMNAME>
+      <CATEGORY>317</CATEGORY>
+      <ITEMYEAR>1966</ITEMYEAR>
+      <ITEMWEIGHT>8</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>6412772</ITEMID>
       <ITEMNAME>Set 45822 - Activity Card 1 - Wind Turbine</ITEMNAME>
       <CATEGORY>576</CATEGORY>
@@ -68213,6 +68222,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b67sam01</ITEMID>
+      <ITEMNAME>Idea Brochure Samsonite &amp;#39;Model Ideas&amp;#39; - 1967 Early Issue &amp;#40;K-2236R&amp;#41;</ITEMNAME>
+      <CATEGORY>317</CATEGORY>
+      <ITEMYEAR>1967</ITEMYEAR>
+      <ITEMWEIGHT>7.45</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b67sam02</ITEMID>
+      <ITEMNAME>Idea Brochure Samsonite &amp;#39;Model Ideas&amp;#39; - 1967 Late Issue &amp;#40;K-2236R&amp;#41;</ITEMNAME>
+      <CATEGORY>317</CATEGORY>
+      <ITEMYEAR>1967</ITEMYEAR>
+      <ITEMWEIGHT>7.1</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2025shav02nl</ITEMID>
       <ITEMNAME>Avengers Magazine 2025 Issue 2 &amp;#40;Dutch&amp;#41;</ITEMNAME>
       <CATEGORY>1063</CATEGORY>
@@ -70715,6 +70742,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b22jw12</ITEMID>
+      <ITEMNAME>Jurassic World - Complete Dinosauria: A Jurassic Explorer Field Guide</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26sw01nl</ITEMID>
+      <ITEMNAME>Star Wars - Uitklappen en Spelen: Han Solo en Chewie in Actie &amp;#40;Box Set&amp;#41; &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>487</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2026njol43de</ITEMID>
       <ITEMNAME>NINJAGO Legacy Magazine 2026 Issue 43 &amp;#40;German&amp;#41;</ITEMNAME>
       <CATEGORY>1024</CATEGORY>
@@ -70729,6 +70774,87 @@
       <CATEGORY>1220</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>76</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2024sw113es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2024 Issue 113 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>94</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2025sw122es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2025 Issue 122 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>97</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2025sw123es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2025 Issue 123 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>93</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026sw133es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2026 Issue 133 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>86</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>com2025sw09es</ITEMID>
+      <ITEMNAME>Star Wars Comic 2025 Issue 9 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>78</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2025sw120es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2025 Issue 120 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>98</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2025sw118es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2025 Issue 118 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>96</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2025sw117es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2025 Issue 117 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>98</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2023sw97es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2023 Issue 97 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>99</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
