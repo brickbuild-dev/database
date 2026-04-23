@@ -1,10 +1,10 @@
 {
-  "created_at_utc": "2026-04-22T01:35:04Z",
-  "rows": 246192,
-  "distinct_parts": 171278,
+  "created_at_utc": "2026-04-23T01:33:28Z",
+  "rows": 246194,
+  "distinct_parts": 171280,
   "item_type_counts": {
     "B": 7929,
-    "C": 5086,
+    "C": 5088,
     "G": 23901,
     "I": 12997,
     "M": 18746,
@@ -13,13 +13,13 @@
     "S": 21350
   },
   "null_counts": {
-    "boid": 168018,
+    "boid": 168020,
     "weight_parts": 3087,
-    "bo_color_id": 166313,
+    "bo_color_id": 166315,
     "bk_color_id": 0,
     "bk_part_id": 0,
     "bk_part_key": 0,
-    "part_name": 92471,
-    "element_id": 162955
+    "part_name": 92473,
+    "element_id": 162957
   }
 }
