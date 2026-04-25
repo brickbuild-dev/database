@@ -45353,6 +45353,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>C</ITEMTYPE>
+      <ITEMID>c21sah1cafr</ITEMID>
+      <ITEMNAME>2021 Shop at Home - January Canadian French &amp;#40;WOR 1605&amp;#41;</ITEMNAME>
+      <CATEGORY>1119</CATEGORY>
+      <ITEMYEAR>2021</ITEMYEAR>
+      <ITEMWEIGHT>114</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>C</ITEMTYPE>
+      <ITEMID>c21sah4cafr</ITEMID>
+      <ITEMNAME>2021 Shop at Home - Fall Canadian French &amp;#40;WOR 1680&amp;#41;</ITEMNAME>
+      <CATEGORY>1119</CATEGORY>
+      <ITEMYEAR>2021</ITEMYEAR>
+      <ITEMWEIGHT>108.2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>C</ITEMTYPE>
       <ITEMID>c78usdc</ITEMID>
       <ITEMNAME>1978 Dealer Large US</ITEMNAME>
       <CATEGORY>353</CATEGORY>

@@ -13835,7 +13835,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>99512</ITEMID>
+      <ITEMID>b78other01</ITEMID>
       <ITEMNAME>A Brick - and the story behind it</ITEMNAME>
       <CATEGORY>332</CATEGORY>
       <ITEMYEAR>1978</ITEMYEAR>
@@ -70863,6 +70863,15 @@
       <ITEMNAME>City Magazine 2026 Issue 87 &amp;#40;German&amp;#41;</ITEMNAME>
       <CATEGORY>1021</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b75other01</ITEMID>
+      <ITEMNAME>En klods. Her er historien om den</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>1975</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
