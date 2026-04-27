@@ -168626,6 +168626,87 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1519</ITEMID>
+      <ITEMNAME>The Mandalorian / Din Djarin / &amp;#39;Mando&amp;#39; - Silver Beskar Armor, Jetpack, Printed Head</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.11</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1520</ITEMID>
+      <ITEMNAME>Din Grogu / The Child / &amp;#39;Baby Yoda&amp;#39; - Long Robe</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>1.02</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1521</ITEMID>
+      <ITEMNAME>Imperial Remnant AT-RT Driver</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.18</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1522</ITEMID>
+      <ITEMNAME>Din Grogu / The Child / &amp;#39;Baby Yoda&amp;#39; - Long Robe, Mudhorn Signet</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>1.02</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1523</ITEMID>
+      <ITEMNAME>Anzellan - Black Hood &amp;#40;6581506&amp;#41;</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>0.68</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1524</ITEMID>
+      <ITEMNAME>Anzellan - Dark Brown Hood &amp;#40;6581505&amp;#41;</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>0.69</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1525</ITEMID>
+      <ITEMNAME>Imperial Stormtrooper - Dual Molded Helmet with Light Bluish Gray Panels on Back, Black Pauldron, Shoulder Belts, Medium Nougat Head</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1526</ITEMID>
+      <ITEMNAME>Colonel Ward - Sand Green Jacket, Reddish Brown Legs</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.84</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1527</ITEMID>
+      <ITEMNAME>Garazeb &amp;#39;Zeb&amp;#39; Orrelios - Republic Flightsuit</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.77</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty2003</ITEMID>
       <ITEMNAME>Stunt Driver - Male, Dark Turquoise Jacket with Dark Green Panel, Dark Tan Legs, Black Helmet, Trans-Clear Visor</ITEMNAME>
       <CATEGORY>67</CATEGORY>

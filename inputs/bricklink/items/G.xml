@@ -144804,7 +144804,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>6422944</ITEMID>
-      <ITEMNAME>Flyer 2022 Set 60353 Insert - Building App Link and Instructions - North American Version</ITEMNAME>
+      <ITEMNAME>Flyer 2022 Set 60353 Insert - Building App Link and Instructions &amp;#40;North American Version&amp;#41;</ITEMNAME>
       <CATEGORY>1104</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT>3.7</ITEMWEIGHT>
@@ -144813,7 +144813,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>6422946</ITEMID>
-      <ITEMNAME>Flyer 2022 Set 60354 Insert - Building App Link and Instructions - North American Version</ITEMNAME>
+      <ITEMNAME>Flyer 2022 Set 60354 Insert - Building App Link and Instructions &amp;#40;North American Version&amp;#41;</ITEMNAME>
       <CATEGORY>1104</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT>3.7</ITEMWEIGHT>
@@ -144831,7 +144831,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>6422947</ITEMID>
-      <ITEMNAME>Flyer 2022 Set 60355 Insert - Building App Link and Instructions - North American Version</ITEMNAME>
+      <ITEMNAME>Flyer 2022 Set 60355 Insert - Building App Link and Instructions &amp;#40;North American Version&amp;#41;</ITEMNAME>
       <CATEGORY>1104</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT>3.7</ITEMWEIGHT>
@@ -214868,10 +214868,28 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6416585</ITEMID>
+      <ITEMNAME>Flyer 2022 Set 60353 Insert - Building App Link and Instructions &amp;#40;International Version&amp;#41;</ITEMNAME>
+      <CATEGORY>1104</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>3.75</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>725pb05</ITEMID>
       <ITEMNAME>Plastic Cube with Piece of Fairy Tale Puzzle and Small Letters u, v, w, x and y Pattern</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>854326</ITEMID>
+      <ITEMNAME>The Mandalorian &amp;#40;Dark Brown Legs&amp;#41; Key Chain</ITEMNAME>
+      <CATEGORY>334</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
