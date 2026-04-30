@@ -70508,6 +70508,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26sw02uk</ITEMID>
+      <ITEMNAME>Star Wars - Stories from the Galaxy &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>505</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b12other03</ITEMID>
       <ITEMNAME>Official Fan Book</ITEMNAME>
       <CATEGORY>766</CATEGORY>
@@ -70693,6 +70702,15 @@
       <CATEGORY>1024</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2018sw05es</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2018 Issue 5 &amp;#40;Spanish&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>0.3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
