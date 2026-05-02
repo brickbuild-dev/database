@@ -109446,7 +109446,7 @@
       <ITEMNAME>Pizza vs. Fire Truck</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>33.7</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -112992,7 +112992,7 @@
       <ITEMNAME>Blathers's Museum Collection</ITEMNAME>
       <CATEGORY>1285</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>198.9</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -116867,6 +116867,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>43014-1</ITEMID>
+      <ITEMNAME>Scuderia Ferrari HP Charles Leclerc Helmet</ITEMNAME>
+      <CATEGORY>1359</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>43022-1</ITEMID>
+      <ITEMNAME>Scuderia Ferrari HP Lewis Hamilton Helmet</ITEMNAME>
+      <CATEGORY>1359</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>247</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
       <ITEMID>6626053-1</ITEMID>
       <ITEMNAME>LEGO Brand Store Exclusive Build - Star Wars Lightsaber</ITEMNAME>
       <CATEGORY>976</CATEGORY>
@@ -117002,12 +117020,237 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>11506-1</ITEMID>
+      <ITEMNAME>Rocking Plants</ITEMNAME>
+      <CATEGORY>1122</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
       <ITEMID>40907-1</ITEMID>
       <ITEMNAME>Restaurants of the World: Mexico</ITEMNAME>
       <CATEGORY>983</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>43301-1</ITEMID>
+      <ITEMNAME>Toy Story Slinky Dog Bookends</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>43306-1</ITEMID>
+      <ITEMNAME>Lotso</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>43307-1</ITEMID>
+      <ITEMNAME>Alien with Pizza Planet Rocket Ride</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>43011-1</ITEMID>
+      <ITEMNAME>Lionel Messi - Soccer Highlights</ITEMNAME>
+      <CATEGORY>1359</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>186</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>43012-1</ITEMID>
+      <ITEMNAME>Cristiano Ronaldo - Soccer Highlights</ITEMNAME>
+      <CATEGORY>1359</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>179</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>43013-1</ITEMID>
+      <ITEMNAME>Kylian Mbappé - Soccer Highlights {Mbappe}</ITEMNAME>
+      <CATEGORY>1359</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>43015-1</ITEMID>
+      <ITEMNAME>Lionel Messi - Soccer Legend</ITEMNAME>
+      <CATEGORY>1359</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>43016-1</ITEMID>
+      <ITEMNAME>Cristiano Ronaldo - Soccer Legend</ITEMNAME>
+      <CATEGORY>1359</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>489</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>43027-1</ITEMID>
+      <ITEMNAME>Vini Jr. - Soccer Highlights</ITEMNAME>
+      <CATEGORY>1359</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>43032-1</ITEMID>
+      <ITEMNAME>FIFA World Cup 2026 Official Emblem</ITEMNAME>
+      <CATEGORY>1359</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>43033-1</ITEMID>
+      <ITEMNAME>2026 U.S. Soccer National Team Jersey</ITEMNAME>
+      <CATEGORY>1359</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>71052-1</ITEMID>
+      <ITEMNAME>Minifigure, Series 29 &amp;#40;Complete Random Set of 1 Minifigure&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.79</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>col29-1</ITEMID>
+      <ITEMNAME>Robot T. rex, Series 29 &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.79</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>col29-2</ITEMID>
+      <ITEMNAME>Marine Biologist, Series 29 &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.79</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>col29-3</ITEMID>
+      <ITEMNAME>Bionicle Cosplayer, Series 29 &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.79</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>col29-4</ITEMID>
+      <ITEMNAME>Monster Hunter, Series 29 &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.79</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>col29-5</ITEMID>
+      <ITEMNAME>Boba Cup Fan, Series 29 &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.79</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>col29-6</ITEMID>
+      <ITEMNAME>Trash Monster, Series 29 &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.79</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>col29-7</ITEMID>
+      <ITEMNAME>Chocolatier, Series 29 &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.79</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>col29-8</ITEMID>
+      <ITEMNAME>Tuba Player, Series 29 &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.79</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>col29-9</ITEMID>
+      <ITEMNAME>Soccer Goalkeeper, Series 29 &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.79</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>col29-10</ITEMID>
+      <ITEMNAME>Cute Witch, Series 29 &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.79</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>col29-11</ITEMID>
+      <ITEMNAME>Mysterious Ronin, Series 29 &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.79</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>col29-12</ITEMID>
+      <ITEMNAME>Unicorn Elf, Series 29 &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.79</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>I</ITEMTYPE>
@@ -117032,6 +117275,33 @@
       <ITEMID>5010075-1</ITEMID>
       <ITEMNAME>Dolphin</ITEMNAME>
       <CATEGORY>983</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>40917-1</ITEMID>
+      <ITEMNAME>The Darksaber</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>75442-1</ITEMID>
+      <ITEMNAME>The Mandalorian's N-1 Starfighter - UCS</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>43304-1</ITEMID>
+      <ITEMNAME>Blaze&amp;#39;s Horse Ranch</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>-1</IMAGECOLOR>
