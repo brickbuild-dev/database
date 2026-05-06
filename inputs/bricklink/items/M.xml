@@ -105105,7 +105105,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1077</ITEMID>
-      <ITEMNAME>Mandalorian Tribe Warrior - Female, Black Cape, Light Bluish Gray Helmet with Antenna / Rangefinder</ITEMNAME>
+      <ITEMNAME>Mandalorian Tribe Warrior &amp;#40;Amot Tenau&amp;#41; - Female, Black Cape, Light Bluish Gray Helmet with Antenna / Rangefinder</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -105114,7 +105114,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1078</ITEMID>
-      <ITEMNAME>Mandalorian Tribe Warrior - Female, Dark Brown Cape, Green Helmet with Antenna / Rangefinder</ITEMNAME>
+      <ITEMNAME>Mandalorian Tribe Warrior &amp;#40;Idalia Desta&amp;#41; - Female, Dark Brown Cape, Green Helmet with Antenna / Rangefinder</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -105123,7 +105123,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1079</ITEMID>
-      <ITEMNAME>Mandalorian Tribe Warrior - Male, Dark Brown Cape, Dark Orange Helmet</ITEMNAME>
+      <ITEMNAME>Mandalorian Tribe Warrior &amp;#40;Pen Varad&amp;#41; - Male, Dark Brown Cape, Dark Orange Helmet</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>3.8</ITEMWEIGHT>
@@ -105132,7 +105132,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1080</ITEMID>
-      <ITEMNAME>Mandalorian Tribe Warrior - Male, Olive Green Cape, Dark Azure Helmet</ITEMNAME>
+      <ITEMNAME>Mandalorian Tribe Warrior &amp;#40;Hewitt Dala&amp;#41; - Male, Olive Green Cape, Dark Azure Helmet</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>3.8</ITEMWEIGHT>
@@ -168746,7 +168746,7 @@
       <ITEMID>edi002</ITEMID>
       <ITEMNAME>Lionel Messi</ITEMNAME>
       <CATEGORY>1359</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.57</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -168755,7 +168755,7 @@
       <ITEMID>edi003</ITEMID>
       <ITEMNAME>Cristiano Ronaldo</ITEMNAME>
       <CATEGORY>1359</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.63</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -168890,7 +168890,7 @@
       <ITEMID>edi004</ITEMID>
       <ITEMNAME>Kylian Mbappé {Mbappe}</ITEMNAME>
       <CATEGORY>1359</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.32</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -168899,7 +168899,7 @@
       <ITEMID>edi005</ITEMID>
       <ITEMNAME>Vini Jr.</ITEMNAME>
       <CATEGORY>1359</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.66</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
