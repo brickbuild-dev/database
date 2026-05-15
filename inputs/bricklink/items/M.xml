@@ -93398,7 +93398,7 @@
       <ITEMID>hp134</ITEMID>
       <ITEMNAME>Professor Severus Snape - Dark Purple Shirt, Black Robes, Printed Legs &amp;#40;Undetermined Legs&amp;#41;</ITEMNAME>
       <CATEGORY>227</CATEGORY>
-      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>3.55</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -102027,7 +102027,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>jw059</ITEMID>
-      <ITEMNAME>Dennis Nedry - Jurassic Park Logo on Back</ITEMNAME>
+      <ITEMNAME>Dennis Nedry - Jurassic Park Logo on Back, Hair</ITEMNAME>
       <CATEGORY>850</CATEGORY>
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>3.5</ITEMWEIGHT>
@@ -135012,7 +135012,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1539</ITEMID>
-      <ITEMNAME>Mechanic - Female, Sand Blue Vest, Medium Blue Legs, Black Helmet, Magenta Welding Visor</ITEMNAME>
+      <ITEMNAME>Mechanic &amp;#40;Mech-Max&amp;#41; - Female, Sand Blue Vest, Medium Blue Legs, Black Helmet, Magenta Welding Visor</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -139035,7 +139035,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>jw106</ITEMID>
-      <ITEMNAME>Dennis Nedry - Dark Blue Undershirt</ITEMNAME>
+      <ITEMNAME>Dennis Nedry - Dark Blue Undershirt, Hair</ITEMNAME>
       <CATEGORY>850</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>3.5</ITEMWEIGHT>
@@ -140295,7 +140295,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1653</ITEMID>
-      <ITEMNAME>DJ - Male, White Jacket, Black Legs, Lime Hair, Dark Turquoise Headphones</ITEMNAME>
+      <ITEMNAME>DJ &amp;#40;Bytz&amp;#41; - Male, White Jacket, Black Legs, Lime Hair, Dark Turquoise Headphones</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>3.77</ITEMWEIGHT>
@@ -148215,7 +148215,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1800</ITEMID>
-      <ITEMNAME>Robot World Patron - Male, White Jacket, Black Legs, Lime Hair</ITEMNAME>
+      <ITEMNAME>Robot World Patron &amp;#40;Bytz&amp;#41; - Male, White Jacket, Black Legs, Lime Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>3.58</ITEMWEIGHT>
@@ -148845,7 +148845,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1771</ITEMID>
-      <ITEMNAME>Bus Passenger - Female, Dark Turquoise Jacket with Dark Green Panel, Dark Bluish Gray Legs, Dark Brown Hair</ITEMNAME>
+      <ITEMNAME>Bus Passenger &amp;#40;Wanda About&amp;#41; - Female, Dark Turquoise Jacket with Dark Green Panel, Dark Bluish Gray Legs, Dark Brown Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>4.41</ITEMWEIGHT>
@@ -156297,7 +156297,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1870</ITEMID>
-      <ITEMNAME>Soapbox Race Car Mechanic - Female, Sand Blue Vest, Dark Azure Legs, Magenta Messy Hair, Freckles</ITEMNAME>
+      <ITEMNAME>Soapbox Race Car Mechanic &amp;#40;Mech-Max&amp;#41; - Female, Sand Blue Vest, Dark Azure Legs, Magenta Messy Hair, Freckles</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>3.46</ITEMWEIGHT>
@@ -168627,7 +168627,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1519</ITEMID>
-      <ITEMNAME>The Mandalorian / Din Djarin / &amp;#39;Mando&amp;#39; - Silver Beskar Armor, Jetpack, Printed Head</ITEMNAME>
+      <ITEMNAME>The Mandalorian / Din Djarin / &amp;#39;Mando&amp;#39; - Silver Beskar Armor, Jetpack, Printed Head, Reddish Brown and Dark Silver Knee Pads</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.11</ITEMWEIGHT>
@@ -168919,6 +168919,69 @@
       <CATEGORY>167</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>11.6</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>47205pb134</ITEMID>
+      <ITEMNAME>Duplo Figure Lego Ville, George Pig - Dark Azure Outfit with Green Dinosaur Outline on Lime Background, Silver Earpiece Pattern &amp;#40;6601057&amp;#41;</ITEMNAME>
+      <CATEGORY>167</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>11.6</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>47205pb135</ITEMID>
+      <ITEMNAME>Duplo Figure Lego Ville, Peppa Pig - Red Outfit with Coral, Bright Light Yellow and Medium Lavender Rainbow, White Clouds Pattern &amp;#40;6601118&amp;#41;</ITEMNAME>
+      <CATEGORY>167</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>11.49</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>7627pb02</ITEMID>
+      <ITEMNAME>Duplo Figure Lego Ville, Baby Evie Pig, Light Aqua Sleep Sack with Lavender and Medium Lavender Bib, Yellow Duck and Bow Pattern &amp;#40;6566316&amp;#41;</ITEMNAME>
+      <CATEGORY>167</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>11.52</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>jw143</ITEMID>
+      <ITEMNAME>Dennis Nedry - Jurassic Park Logo on Back, Hood</ITEMNAME>
+      <CATEGORY>850</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.65</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1528</ITEMID>
+      <ITEMNAME>The Mandalorian / Din Djarin / 'Mando' - Silver Beskar Armor, Cape, Printed Head, Reddish Brown and Dark Silver Knee Pads</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.8</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>edi007</ITEMID>
+      <ITEMNAME>Charles Leclerc</ITEMNAME>
+      <CATEGORY>1359</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.64</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>twn549</ITEMID>
+      <ITEMNAME>Italian Market Van Driver - Male, Blue Torso, Dark Blue Legs and Cap</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.4</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
