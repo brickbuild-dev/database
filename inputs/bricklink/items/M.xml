@@ -90489,7 +90489,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo0419</ITEMID>
-      <ITEMNAME>Krux - Young</ITEMNAME>
+      <ITEMNAME>Young Krux - Helmet</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -110154,7 +110154,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo0617</ITEMID>
-      <ITEMNAME>Lloyd Young, Garmadon - Legacy</ITEMNAME>
+      <ITEMNAME>Young Lloyd Garmadon - Legacy</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>3.57</ITEMWEIGHT>
@@ -115509,7 +115509,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo0674</ITEMID>
-      <ITEMNAME>Lloyd - Young Lloyd, Legacy</ITEMNAME>
+      <ITEMNAME>Young Lloyd - Legacy</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>3.3</ITEMWEIGHT>
@@ -165225,7 +165225,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1022</ITEMID>
-      <ITEMNAME>Young Krux</ITEMNAME>
+      <ITEMNAME>Young Krux - Hair</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.5</ITEMWEIGHT>
@@ -168923,6 +168923,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>njo1064</ITEMID>
+      <ITEMNAME>Young Lloyd ZX &amp;#40;BAM&amp;#41;</ITEMNAME>
+      <CATEGORY>976</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.48</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>47205pb134</ITEMID>
       <ITEMNAME>Duplo Figure Lego Ville, George Pig - Dark Azure Outfit with Green Dinosaur Outline on Lime Background, Silver Earpiece Pattern &amp;#40;6601057&amp;#41;</ITEMNAME>
       <CATEGORY>167</CATEGORY>
@@ -168980,7 +168989,7 @@
       <ITEMID>twn549</ITEMID>
       <ITEMNAME>Italian Market Van Driver - Male, Blue Torso, Dark Blue Legs and Cap</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>3.4</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>

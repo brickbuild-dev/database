@@ -192657,7 +192657,7 @@
    <ITEM>
       <ITEMTYPE>S</ITEMTYPE>
       <ITEMID>L0002250-1</ITEMID>
-      <ITEMNAME>Blacksmith with Armor and Smithing Table paper bag</ITEMNAME>
+      <ITEMNAME>Blacksmith with Netherite Armor and Smithing Table paper bag</ITEMNAME>
       <CATEGORY>801</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>17.3</ITEMWEIGHT>
@@ -192677,6 +192677,24 @@
       <ITEMID>L0002223-1</ITEMID>
       <ITEMNAME>Sweeper paper bag</ITEMNAME>
       <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>L0002245-2</ITEMID>
+      <ITEMNAME>Jango Fett metal box {Helmet Shaped Box Version}</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>L0002245-1</ITEMID>
+      <ITEMNAME>Jango Fett metal box {Rectangular Box Version}</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>

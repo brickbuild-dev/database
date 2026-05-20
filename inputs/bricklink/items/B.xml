@@ -578,8 +578,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>PuzCastle</ITEMID>
-      <ITEMNAME>Castle Mystery - An Interactive Puzzle Book</ITEMNAME>
+      <ITEMID>b98cas01</ITEMID>
+      <ITEMNAME>Castle Mystery - An Interactive Puzzle Storybook</ITEMNAME>
       <CATEGORY>594</CATEGORY>
       <ITEMYEAR>1998</ITEMYEAR>
       <ITEMWEIGHT>170</ITEMWEIGHT>
@@ -10235,8 +10235,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>PuzCastleit</ITEMID>
-      <ITEMNAME>Castle Mystery - An Interactive Puzzle Book - Italian Edition</ITEMNAME>
+      <ITEMID>b99cas01it</ITEMID>
+      <ITEMNAME>Il Mistero del Castello - Un Libro-Quiz Interattivo &amp;#40;Italian Edition&amp;#41;</ITEMNAME>
       <CATEGORY>594</CATEGORY>
       <ITEMYEAR>1999</ITEMYEAR>
       <ITEMWEIGHT>160</ITEMWEIGHT>
@@ -10245,7 +10245,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b99adv02it</ITEMID>
-      <ITEMNAME>Alla Ricerca del Magico Rubino – Un Libro-Quiz Interattivo &amp;#40;Italian Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>Alla Ricerca del Magico Rubino - Un Libro-Quiz Interattivo &amp;#40;Italian Edition&amp;#41;</ITEMNAME>
       <CATEGORY>594</CATEGORY>
       <ITEMYEAR>1999</ITEMYEAR>
       <ITEMWEIGHT>160</ITEMWEIGHT>
@@ -70746,7 +70746,7 @@
       <ITEMNAME>Star Wars Magazine 2026 Issue 132 &amp;#40;German&amp;#41;</ITEMNAME>
       <CATEGORY>1025</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
-      <ITEMWEIGHT>88</ITEMWEIGHT>
+      <ITEMWEIGHT>81</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -70981,6 +70981,15 @@
       <CATEGORY>1025</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>81</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b98cas01de</ITEMID>
+      <ITEMNAME>Das Burg-Geheimnis - Eine LEGO-Rätsel-Spiel-Geschichte &amp;#40;German Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>594</CATEGORY>
+      <ITEMYEAR>1998</ITEMYEAR>
+      <ITEMWEIGHT>170</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
