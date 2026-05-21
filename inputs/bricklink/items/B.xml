@@ -48665,8 +48665,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>LTSY-6301</ITEMID>
-      <ITEMNAME>Star Wars - 800 Stickers De Lichte Kant Slaat Terug!</ITEMNAME>
+      <ITEMID>b20sw13nl</ITEMID>
+      <ITEMNAME>Star Wars - 800 Stickers - De Lichte Kant Slaat Terug! &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
       <CATEGORY>1102</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>220</ITEMWEIGHT>
@@ -70945,6 +70945,24 @@
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>160</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b24sw08uk</ITEMID>
+      <ITEMNAME>Star Wars - 800 Stickers - The Light Side Strikes Back &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>1102</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>220</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b16sw28nl</ITEMID>
+      <ITEMNAME>Star Wars - 3...2...1... Plakken! &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>1102</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT>100</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
