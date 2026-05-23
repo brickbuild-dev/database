@@ -13422,7 +13422,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>belvfemale14</ITEMID>
-      <ITEMNAME>Belville Female, Adult Woman &amp;#40;Witch&amp;#41; - Black Shorts, Violet Top with Bones and Neckerchief Pattern, Red Hair, Black Shoes &amp;#40;4140035&amp;#41;</ITEMNAME>
+      <ITEMNAME>Belville Female, Adult Woman &amp;#40;Witch&amp;#41; - Black Shorts, Violet Top with Bones and Neckerchief Scarf Pattern, Red Hair, Black Shoes &amp;#40;4140035&amp;#41;</ITEMNAME>
       <CATEGORY>48</CATEGORY>
       <ITEMYEAR>1999</ITEMYEAR>
       <ITEMWEIGHT>15</ITEMWEIGHT>
@@ -19812,7 +19812,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>4555pb110</ITEMID>
-      <ITEMNAME>Duplo Figure, Male Clown, Blue Legs, Blue Aviator Helmet, Blue Neckerchief</ITEMNAME>
+      <ITEMNAME>Duplo Figure, Male Clown, Blue Legs, Blue Aviator Helmet, Blue Neckerchief Scarf</ITEMNAME>
       <CATEGORY>167</CATEGORY>
       <ITEMYEAR>1989</ITEMYEAR>
       <ITEMWEIGHT>16.4</ITEMWEIGHT>
@@ -28677,7 +28677,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>baby020</ITEMID>
-      <ITEMNAME>Primo Figure Boy with Lime Base, Medium Blue Top with Lime Overalls with Blue Neckerchief, Red Cap</ITEMNAME>
+      <ITEMNAME>Primo Figure Boy with Lime Base, Medium Blue Top with Lime Overalls with Blue Neckerchief Scarf, Red Cap</ITEMNAME>
       <CATEGORY>294</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>37</ITEMWEIGHT>
@@ -39297,7 +39297,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>belvfemale14a</ITEMID>
-      <ITEMNAME>Belville Female, Adult Woman &amp;#40;Witch&amp;#41; - Black Shorts, Violet Top with Bones and Neckerchief Pattern, Red Hair, Black Shoes, Skirt, Hat with Spider</ITEMNAME>
+      <ITEMNAME>Belville Female, Adult Woman &amp;#40;Witch&amp;#41; - Black Shorts, Violet Top with Bones and Neckerchief Scarf Pattern, Red Hair, Black Shoes, Skirt, Hat with Spider</ITEMNAME>
       <CATEGORY>48</CATEGORY>
       <ITEMYEAR>1999</ITEMYEAR>
       <ITEMWEIGHT>22.34</ITEMWEIGHT>
@@ -94368,7 +94368,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>47394pb252</ITEMID>
-      <ITEMNAME>Duplo Figure Lego Ville, Male, Blue Legs, Dark Azure Shirt with Blue Overalls and Red Neckerchief Pattern, Blue Cap &amp;#40;6273563&amp;#41;</ITEMNAME>
+      <ITEMNAME>Duplo Figure Lego Ville, Male, Blue Legs, Dark Azure Shirt with Blue Overalls and Red Neckerchief Scarf Pattern, Blue Cap &amp;#40;6273563&amp;#41;</ITEMNAME>
       <CATEGORY>167</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
       <ITEMWEIGHT>14.89</ITEMWEIGHT>
@@ -169000,6 +169000,15 @@
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>3.4</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2004</ITEMID>
+      <ITEMNAME>Street Sweeper - Male, Neon Yellow Safety Vest with Reflective Stripes, Olive Green Legs, Dark Blue Cap</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.41</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
