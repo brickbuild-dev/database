@@ -2163,7 +2163,7 @@
    <ITEM>
       <ITEMTYPE>I</ITEMTYPE>
       <ITEMID>111-2</ITEMID>
-      <ITEMNAME>Starter Train Set without Motor</ITEMNAME>
+      <ITEMNAME>Small Train Set without Motor</ITEMNAME>
       <CATEGORY>124</CATEGORY>
       <ITEMYEAR>1966</ITEMYEAR>
       <ITEMWEIGHT>3.3</ITEMWEIGHT>
@@ -35399,12 +35399,12 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>I</ITEMTYPE>
-      <ITEMID>118-2</ITEMID>
-      <ITEMNAME>Small Train Set</ITEMNAME>
+      <ITEMID>111-4</ITEMID>
+      <ITEMNAME>Starter Train Set without Motor</ITEMNAME>
       <CATEGORY>395</CATEGORY>
       <ITEMYEAR>1968</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
-      <IMAGECOLOR>-1</IMAGECOLOR>
+      <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>I</ITEMTYPE>
