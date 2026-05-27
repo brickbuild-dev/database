@@ -168549,7 +168549,7 @@
       <ITEMNAME>Sushi Chef, Torso with Japanese Logogram &amp;#39;寿司&amp;#39; &amp;#40;Sushi&amp;#41; on Front Pocket Pattern, Black Pants</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>3.31</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -169009,6 +169009,15 @@
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.41</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>twn550</ITEMID>
+      <ITEMNAME>Taco Chef</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.9</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
