@@ -1834,7 +1834,7 @@
       <CATEGORY>464</CATEGORY>
       <ITEMYEAR>2002</ITEMYEAR>
       <ITEMWEIGHT>1.85</ITEMWEIGHT>
-      <IMAGECOLOR>-1</IMAGECOLOR>
+      <IMAGECOLOR>1</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
@@ -4948,7 +4948,7 @@
       <CATEGORY>447</CATEGORY>
       <ITEMYEAR>2003</ITEMYEAR>
       <ITEMWEIGHT>64</ITEMWEIGHT>
-      <IMAGECOLOR>0</IMAGECOLOR>
+      <IMAGECOLOR>7</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
@@ -135219,7 +135219,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>6080905</ITEMID>
-      <ITEMNAME>Envelope, Happy Year of the Horse 2014</ITEMNAME>
+      <ITEMNAME>Envelope, Cardboard, 2014 Happy Year of the Horse!</ITEMNAME>
       <CATEGORY>1006</CATEGORY>
       <ITEMYEAR>2014</ITEMYEAR>
       <ITEMWEIGHT>5</ITEMWEIGHT>
@@ -194861,6 +194861,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6436783-DE</ITEMID>
+      <ITEMNAME>Sticker Sheet, Christmas Set of 5 Sheets in Folder</ITEMNAME>
+      <CATEGORY>160</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>100</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>njo02enpack</ITEMID>
       <ITEMNAME>NINJAGO Trading Card Game &amp;#40;English&amp;#41; Series 2 - Booster Pack</ITEMNAME>
       <CATEGORY>380</CATEGORY>
@@ -196720,6 +196729,15 @@
       <CATEGORY>1111</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>12.25</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>78803</ITEMID>
+      <ITEMNAME>Postcard - Throwbot &amp;#40;Slizer&amp;#41;, Make your own Postcard - Cards and Stickers</ITEMNAME>
+      <CATEGORY>472</CATEGORY>
+      <ITEMYEAR>1999</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -204284,6 +204302,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>5008098</ITEMID>
+      <ITEMNAME>Magnet Flat, The Knight Bus</ITEMNAME>
+      <CATEGORY>14</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>39</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>5006278</ITEMID>
       <ITEMNAME>Dots Key Chain Round 4 x 4</ITEMNAME>
       <CATEGORY>334</CATEGORY>
@@ -204608,10 +204635,28 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6449292</ITEMID>
+      <ITEMNAME>Advent Calendar Packaging Tray - 24 Compartment, Type 4 &amp;#40;Cardboard&amp;#41;</ITEMNAME>
+      <CATEGORY>1092</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>124</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>monypoli</ITEMID>
       <ITEMNAME>Monypoli Køreprøven</ITEMNAME>
       <CATEGORY>252</CATEGORY>
       <ITEMYEAR>1947</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6632962</ITEMID>
+      <ITEMNAME>Envelope, Cardboard, 2026 Year of the Horse - Gallop Into Playful Horizons</ITEMNAME>
+      <CATEGORY>1006</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -212492,6 +212537,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>p20njo1</ITEMID>
+      <ITEMNAME>NINJAGO Poster 2020 - Cole</ITEMNAME>
+      <CATEGORY>503</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>njo11de086</ITEMID>
       <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 86 Boshafter Jay</ITEMNAME>
       <CATEGORY>380</CATEGORY>
@@ -215151,6 +215205,15 @@
       <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # LE6 Gewaltiger Jay Limited Edition</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>bc89lbc</ITEMID>
+      <ITEMNAME>Birthday Card - Exclusive for Lego Builders Club - 1989</ITEMNAME>
+      <CATEGORY>996</CATEGORY>
+      <ITEMYEAR>1989</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
