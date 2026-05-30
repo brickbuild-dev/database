@@ -1632,7 +1632,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>5923</ITEMID>
-      <ITEMNAME>Photo Frame Legoland Western</ITEMNAME>
+      <ITEMNAME>Photo Frame LEGOLAND Western</ITEMNAME>
       <CATEGORY>521</CATEGORY>
       <ITEMYEAR>2002</ITEMYEAR>
       <ITEMWEIGHT>225</ITEMWEIGHT>
@@ -1641,7 +1641,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>5924-GEAR</ITEMID>
-      <ITEMNAME>Photo Frame Legoland Castle</ITEMNAME>
+      <ITEMNAME>Photo Frame LEGOLAND Castle</ITEMNAME>
       <CATEGORY>521</CATEGORY>
       <ITEMYEAR>2002</ITEMYEAR>
       <ITEMWEIGHT>246</ITEMWEIGHT>
@@ -5232,7 +5232,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>5927-GEAR</ITEMID>
-      <ITEMNAME>Photo Frame Legoland Racers</ITEMNAME>
+      <ITEMNAME>Photo Frame LEGOLAND Racers</ITEMNAME>
       <CATEGORY>521</CATEGORY>
       <ITEMYEAR>2002</ITEMYEAR>
       <ITEMWEIGHT>266</ITEMWEIGHT>
@@ -16932,7 +16932,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>PFMem</ITEMID>
-      <ITEMNAME>Photo Holder Legoland Memory of the Day Set</ITEMNAME>
+      <ITEMNAME>Photo Holder LEGOLAND Memory of the Day Set</ITEMNAME>
       <CATEGORY>521</CATEGORY>
       <ITEMYEAR>2004</ITEMYEAR>
       <ITEMWEIGHT>117.11</ITEMWEIGHT>
@@ -20865,7 +20865,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>PFLL1</ITEMID>
-      <ITEMNAME>Photo Frame Legoland Duplo with Giraffe</ITEMNAME>
+      <ITEMNAME>Photo Frame LEGOLAND Duplo with Giraffe</ITEMNAME>
       <CATEGORY>521</CATEGORY>
       <ITEMYEAR>2002</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -20874,7 +20874,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>PFLL2</ITEMID>
-      <ITEMNAME>Photo Frame Legoland Duplo with Elephant</ITEMNAME>
+      <ITEMNAME>Photo Frame LEGOLAND Duplo with Elephant</ITEMNAME>
       <CATEGORY>521</CATEGORY>
       <ITEMYEAR>2002</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -35724,7 +35724,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>4530860</ITEMID>
-      <ITEMNAME>Photo Album, Legoland Deutschland</ITEMNAME>
+      <ITEMNAME>Photo Album, LEGOLAND Deutschland</ITEMNAME>
       <CATEGORY>521</CATEGORY>
       <ITEMYEAR>2008</ITEMYEAR>
       <ITEMWEIGHT>148</ITEMWEIGHT>
@@ -69267,7 +69267,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>40081</ITEMID>
-      <ITEMNAME>Photo Frame Legoland</ITEMNAME>
+      <ITEMNAME>Photo Frame LEGOLAND</ITEMNAME>
       <CATEGORY>521</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>303</ITEMWEIGHT>
@@ -93063,7 +93063,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>40389-GEAR</ITEMID>
-      <ITEMNAME>Photo Frame Legoland Pirate</ITEMNAME>
+      <ITEMNAME>Photo Frame LEGOLAND Pirate</ITEMNAME>
       <CATEGORY>521</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
       <ITEMWEIGHT>314</ITEMWEIGHT>
@@ -101748,7 +101748,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>photoband01</ITEMID>
-      <ITEMNAME>Photo Band, Legoland California Master Photos Pattern</ITEMNAME>
+      <ITEMNAME>Photo Band, LEGOLAND California Master Photos Pattern</ITEMNAME>
       <CATEGORY>521</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -196346,6 +196346,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>853835</ITEMID>
+      <ITEMNAME>Cup / Mug Assorted Bricks Plastic Tumbler</ITEMNAME>
+      <CATEGORY>175</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>52</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>854317</ITEMID>
       <ITEMNAME>T-Rex Costume Fan Key Chain</ITEMNAME>
       <CATEGORY>334</CATEGORY>
@@ -196729,6 +196738,24 @@
       <CATEGORY>1111</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>12.25</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>laptop90years</ITEMID>
+      <ITEMNAME>Laptop Bag - 90 Years of Play</ITEMNAME>
+      <CATEGORY>1112</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>100</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>tote25</ITEMID>
+      <ITEMNAME>Tote Bag, Holidays </ITEMNAME>
+      <CATEGORY>1112</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>137</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -201152,6 +201179,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>Gstk283</ITEMID>
+      <ITEMNAME>Sticker Sheet, LEGO Masters, Masterbuilder In Training</ITEMNAME>
+      <CATEGORY>160</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>Gstk282</ITEMID>
+      <ITEMNAME>Sticker Sheet, LEGO Masters Academy</ITEMNAME>
+      <CATEGORY>160</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>5009550</ITEMID>
       <ITEMNAME>Coin, Jango Fett&amp;#39;s Firespray-Class Starship Lenticular Coin</ITEMNAME>
       <CATEGORY>1147</CATEGORY>
@@ -201215,6 +201260,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>853155</ITEMID>
+      <ITEMNAME>Photo Frame LEGOLAND Windsor</ITEMNAME>
+      <CATEGORY>521</CATEGORY>
+      <ITEMYEAR>2010</ITEMYEAR>
+      <ITEMWEIGHT>162</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>bb1396</ITEMID>
       <ITEMNAME>Watch Part, Band Link - Wide Slot for Cloth Band</ITEMNAME>
       <CATEGORY>517</CATEGORY>
@@ -201247,6 +201301,15 @@
       <CATEGORY>445</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>16</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>XmasBan36</ITEMID>
+      <ITEMNAME>Display Flag Cloth, Santa</ITEMNAME>
+      <CATEGORY>526</CATEGORY>
+      <ITEMYEAR>2007</ITEMYEAR>
+      <ITEMWEIGHT>195</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -204626,6 +204689,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>tote24</ITEMID>
+      <ITEMNAME>Tote Bag, Botanicals</ITEMNAME>
+      <CATEGORY>1112</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>6616209</ITEMID>
       <ITEMNAME>Flyer 2026 Set 910054 Insert - Building App Link and Instructions &amp;#40;North American Version&amp;#41;</ITEMNAME>
       <CATEGORY>1104</CATEGORY>
@@ -204649,6 +204721,15 @@
       <CATEGORY>252</CATEGORY>
       <ITEMYEAR>1947</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de218</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;'Die Macht' Edition&amp;#41; - # 218 B-wing Starfighter</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -204793,6 +204874,15 @@
       <CATEGORY>334</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>47</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>dispshelf09</ITEMID>
+      <ITEMNAME>Display Shelf Stand for Sets, Cardboard Hanging Collectible Minifigures Disney Series 1</ITEMNAME>
+      <CATEGORY>539</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT>578</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -205090,6 +205180,15 @@
       <CATEGORY>445</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>52234</ITEMID>
+      <ITEMNAME>Bag / Luggage Tag, Silicone, Star Wars R2-D2</ITEMNAME>
+      <CATEGORY>1112</CATEGORY>
+      <ITEMYEAR>2019</ITEMYEAR>
+      <ITEMWEIGHT>27</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -215012,6 +215111,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6061568</ITEMID>
+      <ITEMNAME>Display Assembled Set, City Sets 60124 and 60125 in Plastic Case</ITEMNAME>
+      <CATEGORY>848</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT>9072</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>725pb05</ITEMID>
       <ITEMNAME>Plastic Cube with Piece of Fairy Tale Puzzle and Small Letters u, v, w, x and y Pattern</ITEMNAME>
       <CATEGORY>645</CATEGORY>
@@ -215174,6 +215282,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05deLE13</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # LE13 Darth Sidious Limited Edition</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>2.2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>2000050</ITEMID>
       <ITEMNAME>Education ROBOLAB 1.0 CD-ROM</ITEMNAME>
       <CATEGORY>180</CATEGORY>
@@ -215188,6 +215305,15 @@
       <CATEGORY>1112</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>95</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>93933-OS</ITEMID>
+      <ITEMNAME>Who can collect the most LEGOLAND models? Board Game &amp;#40;93933-OS&amp;#41;</ITEMNAME>
+      <CATEGORY>252</CATEGORY>
+      <ITEMYEAR>1984</ITEMYEAR>
+      <ITEMWEIGHT>58</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
