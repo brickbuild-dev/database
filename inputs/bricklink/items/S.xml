@@ -34151,7 +34151,7 @@
       <ITEMID>226-1</ITEMID>
       <ITEMNAME>8 Named Beams</ITEMNAME>
       <CATEGORY>423</CATEGORY>
-      <ITEMYEAR>1958</ITEMYEAR>
+      <ITEMYEAR>1956</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -184808,6 +184808,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>5009027-1</ITEMID>
+      <ITEMNAME>Barnes &amp; Noble Exclusive Build - Holiday Snow Globe</ITEMNAME>
+      <CATEGORY>988</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
       <ITEMID>5009407-1</ITEMID>
       <ITEMNAME>LEGO Store Grand Opening Exclusive Set, Kraków, Poland - Krakow Grand Opening</ITEMNAME>
       <CATEGORY>976</CATEGORY>
@@ -192714,6 +192723,24 @@
       <ITEMNAME>Toys &amp;#34;R&amp;#34; Us Exclusive Build - Giraffe Playtime</ITEMNAME>
       <CATEGORY>988</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>6385444-1</ITEMID>
+      <ITEMNAME>LEGO Brand Store Exclusive Build - Birthday Cake</ITEMNAME>
+      <CATEGORY>976</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>6659862-1</ITEMID>
+      <ITEMNAME>LEGO Store 1st Anniversary Exclusive Set</ITEMNAME>
+      <CATEGORY>976</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
