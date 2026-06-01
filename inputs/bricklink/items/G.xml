@@ -190028,6 +190028,33 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>diploma</ITEMID>
+      <ITEMNAME>Diploma of Creativity</ITEMNAME>
+      <CATEGORY>1018</CATEGORY>
+      <ITEMYEAR>1981</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>certbuilder3</ITEMID>
+      <ITEMNAME>The LEGO Builders Club Certificate of Membership - Key Member&amp;#39;s Certificate</ITEMNAME>
+      <CATEGORY>1018</CATEGORY>
+      <ITEMYEAR>1978</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>legoclubvisit</ITEMID>
+      <ITEMNAME>LEGO Club LEGOLAND Denmark Visit Update</ITEMNAME>
+      <CATEGORY>1104</CATEGORY>
+      <ITEMYEAR>1980</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>5008152</ITEMID>
       <ITEMNAME>Dream Journal with Sticker Sheets, DREAMZzz</ITEMNAME>
       <CATEGORY>447</CATEGORY>
@@ -190204,6 +190231,51 @@
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>5008036</ITEMID>
+      <ITEMNAME>Play Unstoppable Lenticular Cards Pack</ITEMNAME>
+      <CATEGORY>997</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>8</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>5008036a</ITEMID>
+      <ITEMNAME>Play Unstoppable Lenticular Card - # 8 Asisat Oshoala</ITEMNAME>
+      <CATEGORY>997</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>1</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>5008036b</ITEMID>
+      <ITEMNAME>Play Unstoppable Lenticular Card - # 15 Megan Rapinoe</ITEMNAME>
+      <CATEGORY>997</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>1</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>5008036d</ITEMID>
+      <ITEMNAME>Play Unstoppable Lenticular Card - # 20 Samantha Kerr</ITEMNAME>
+      <CATEGORY>997</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>1</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>5008036c</ITEMID>
+      <ITEMNAME>Play Unstoppable Lenticular Card - # 17 Yuki Nagasato</ITEMNAME>
+      <CATEGORY>997</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>1</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -205161,7 +205233,7 @@
       <ITEMNAME>Display Flag Cloth, UFO Zotaxian Alien</ITEMNAME>
       <CATEGORY>526</CATEGORY>
       <ITEMYEAR>1997</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>346</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -215566,6 +215638,42 @@
       <CATEGORY>996</CATEGORY>
       <ITEMYEAR>1989</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw03pl054foil</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Game &amp;#40;Polish&amp;#41; Series 3 - # 54 Zdeterminowany Mandalorianin &amp;#40;Foil Variant&amp;#41;</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw03pl060</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Game &amp;#40;Polish&amp;#41; Series 3 - # 60 Zielony Mandaloriański Wojownik</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw03pl186</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Game &amp;#40;Polish&amp;#41; Series 3 - # 186 AT-RT</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw03pl206</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Game &amp;#40;Polish&amp;#41; Series 3 - # 206 Miękkie Lądowanie</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
