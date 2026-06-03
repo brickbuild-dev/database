@@ -7581,7 +7581,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>500b</ITEMID>
-      <ITEMNAME>Klodser - 2nd Edition</ITEMNAME>
+      <ITEMNAME>Klodser - Reissue</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1998</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -25860,7 +25860,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pullduck</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Duck with Long Bill</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Duck with Long Bill</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1935</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -34707,7 +34707,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pullchick</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Chick</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Chick</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1935</ITEMYEAR>
       <ITEMWEIGHT>500</ITEMWEIGHT>
@@ -34716,7 +34716,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulltrain</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Train</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Train</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1935</ITEMYEAR>
       <ITEMWEIGHT>1500</ITEMWEIGHT>
@@ -34725,7 +34725,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pullhorse</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Horse</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Horse</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1935</ITEMYEAR>
       <ITEMWEIGHT>500</ITEMWEIGHT>
@@ -46010,8 +46010,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>ironboard</ITEMID>
-      <ITEMNAME>Wooden Ironing Board</ITEMNAME>
+      <ITEMID>370</ITEMID>
+      <ITEMNAME>Wooden Ironing Board {Strygebrædt}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1955</ITEMYEAR>
       <ITEMWEIGHT>937</ITEMWEIGHT>
@@ -46019,8 +46019,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>iron</ITEMID>
-      <ITEMNAME>Wooden Iron</ITEMNAME>
+      <ITEMID>375</ITEMID>
+      <ITEMNAME>Wooden Iron {Strygejern}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1955</ITEMYEAR>
       <ITEMWEIGHT>157</ITEMWEIGHT>
@@ -46038,7 +46038,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulltrain2</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Train</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Train</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1954</ITEMYEAR>
       <ITEMWEIGHT>181</ITEMWEIGHT>
@@ -46092,7 +46092,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulltrain3</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Locomotive 'Jacob'</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Locomotive &amp;#39;Jacob&amp;#39;</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46128,7 +46128,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>firetruck</ITEMID>
-      <ITEMNAME>Wooden Firetruck with Trailer</ITEMNAME>
+      <ITEMNAME>Wooden Fire Truck with Trailer</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1950</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46137,7 +46137,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>firetruck3</ITEMID>
-      <ITEMNAME>Wooden Firetruck</ITEMNAME>
+      <ITEMNAME>Wooden Fire Truck</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46191,7 +46191,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pullhopper</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Grasshopper</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Grasshopper</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46200,7 +46200,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulllbug</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Ladybug</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Ladybug</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46209,7 +46209,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulldog3</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Dog, Walking</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Dog, Walking</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46218,7 +46218,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pullsquirrel</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Squirrel</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Squirrel</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46227,7 +46227,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pullchicken</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Chicken</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Chicken</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46236,7 +46236,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pullcock</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Cock</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Cock</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46245,7 +46245,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pullduck2</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Duck with Short Bill</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Duck with Short Bill</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1950</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46281,7 +46281,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulldog</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Dog, Small with Wheels</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Dog, Small with Wheels</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1950</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46290,7 +46290,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pullpig</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Pig</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Pig</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46299,7 +46299,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulltrain4</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Locomotive</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Locomotive</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1950</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46317,7 +46317,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>firetruck2</ITEMID>
-      <ITEMNAME>Wooden Firetruck</ITEMNAME>
+      <ITEMNAME>Wooden Fire Truck</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46335,7 +46335,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulltrain6</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Train</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Train</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46344,7 +46344,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulltrain5</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Train</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Train</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46353,7 +46353,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulldog2</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Dog 2</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Dog 2</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46362,7 +46362,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulltrain8</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Train</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Train</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46371,7 +46371,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulltrain7</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Train</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Train</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46380,7 +46380,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulltram</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Tram</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Tram</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46389,7 +46389,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulltrain9</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Locomotive</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Locomotive</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46398,7 +46398,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulltrain10</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Locomotive</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Locomotive</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46407,7 +46407,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulltrain11</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Locomotive</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Locomotive</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46434,7 +46434,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pullchick2</ITEMID>
-      <ITEMNAME>Wooden Pull Along Chick</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Chick</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46443,7 +46443,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>Pulllamb</ITEMID>
-      <ITEMNAME>Wooden Pull Along Lamb</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Lamb</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46452,7 +46452,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>Pullcat</ITEMID>
-      <ITEMNAME>Wooden Pull Along Cat</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Cat</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46497,7 +46497,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>Carrier</ITEMID>
-      <ITEMNAME>Wooden Carrier</ITEMNAME>
+      <ITEMNAME>Tractor Attachment, Wooden - Carrier</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46506,7 +46506,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>Harvester</ITEMID>
-      <ITEMNAME>Wooden Harvester</ITEMNAME>
+      <ITEMNAME>Tractor Attachment, Wooden - Harvester</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46515,7 +46515,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>woodtrailer1</ITEMID>
-      <ITEMNAME>Wooden Tractor Trailer with Milk Bottles</ITEMNAME>
+      <ITEMNAME>Tractor Attachment, Wooden - Trailer with Milk Bottles</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46524,7 +46524,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>Harrow1</ITEMID>
-      <ITEMNAME>Wooden Harrow</ITEMNAME>
+      <ITEMNAME>Tractor Attachment, Wooden - Harrow</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>80</ITEMWEIGHT>
@@ -46533,7 +46533,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>Seeder</ITEMID>
-      <ITEMNAME>Wooden Seeder</ITEMNAME>
+      <ITEMNAME>Tractor Attachment, Wooden - Seeder</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46542,7 +46542,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>snowplough</ITEMID>
-      <ITEMNAME>Wooden snowplough</ITEMNAME>
+      <ITEMNAME>Tractor Attachment, Wooden - Snowplough</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46551,7 +46551,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>seeder1</ITEMID>
-      <ITEMNAME>Wooden seeder</ITEMNAME>
+      <ITEMNAME>Tractor Attachment, Wooden - Seeder</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46569,7 +46569,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pullchickencock</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Chicken and Cock</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Chicken and Cock</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46578,7 +46578,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>Pullelephant</ITEMID>
-      <ITEMNAME>Wooden Pull-along Elephant</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Elephant</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46587,7 +46587,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>Pullelephant1</ITEMID>
-      <ITEMNAME>Wooden Pull-along Elephant</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Elephant</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46776,7 +46776,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>Pullmonkey</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Monkey</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Monkey</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1950</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46785,7 +46785,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>Pullcrocodile</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Crocodile</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Crocodile</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46793,10 +46793,10 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>Pullgoat</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Goat with a man on his back</ITEMNAME>
+      <ITEMID>158</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Clumsy Hans on the Goat {Klods-Hans på Geden/Gedebuk}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1934</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -46820,10 +46820,10 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>pullhorse1</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Horse with Indian</ITEMNAME>
+      <ITEMID>18.5</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Horse with Indian {Indianer}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1947</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -59969,12 +59969,12 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>Harrow2</ITEMID>
-      <ITEMNAME>Plastic Harrow &amp;#40;fits Ferguson Tractor&amp;#41;</ITEMNAME>
+      <ITEMID>674</ITEMID>
+      <ITEMNAME>Tractor Attachment, Plastic - Cultivator</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1949</ITEMYEAR>
       <ITEMWEIGHT>22</ITEMWEIGHT>
-      <IMAGECOLOR>9</IMAGECOLOR>
+      <IMAGECOLOR>5</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
@@ -73695,7 +73695,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>850952</ITEMID>
-      <ITEMNAME>Classic Firetruck Key Chain &amp;#40;Bag Charm&amp;#41;</ITEMNAME>
+      <ITEMNAME>Classic Fire Truck Key Chain &amp;#40;Bag Charm&amp;#41;</ITEMNAME>
       <CATEGORY>334</CATEGORY>
       <ITEMYEAR>2014</ITEMYEAR>
       <ITEMWEIGHT>21</ITEMWEIGHT>
@@ -91902,7 +91902,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>woodtrailer2</ITEMID>
-      <ITEMNAME>Wooden Tractor Trailer Two Wheels with Milk Bottles</ITEMNAME>
+      <ITEMNAME>Tractor Attachment, Wooden - Trailer Two Wheels with Milk Bottles</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -140052,7 +140052,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulltrain12</ITEMID>
-      <ITEMNAME>Wooden Pull-Along Little Red Train</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Little Red Train</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1957</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -140213,10 +140213,10 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>Plow01</ITEMID>
-      <ITEMNAME>Plastic Plow &amp;#40;fits Ferguson Tractor&amp;#41;</ITEMNAME>
+      <ITEMID>675</ITEMID>
+      <ITEMNAME>Tractor Attachment, Plastic - Double Plow</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>1951</ITEMYEAR>
+      <ITEMYEAR>1949</ITEMYEAR>
       <ITEMWEIGHT>17</ITEMWEIGHT>
       <IMAGECOLOR>9</IMAGECOLOR>
    </ITEM>
@@ -162570,7 +162570,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>firetruck4</ITEMID>
-      <ITEMNAME>Wooden Firetruck</ITEMNAME>
+      <ITEMNAME>Wooden Fire Truck Large with 3-Piece Ladder &amp;#40;103 cm&amp;#41; and Firemen</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1946</ITEMYEAR>
       <ITEMWEIGHT>1323</ITEMWEIGHT>
@@ -167970,7 +167970,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>725</ITEMID>
-      <ITEMNAME>Plastic Kubus: de små bogstaver {Plastic Cube: Small Letters}</ITEMNAME>
+      <ITEMNAME>Plastic Cube: Small Letters {Plastic Kubus: de små bogstaver}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1950</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -176754,9 +176754,9 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>firetruck5</ITEMID>
-      <ITEMNAME>Wooden Firetruck</ITEMNAME>
+      <ITEMNAME>Wooden Fire Truck Large with 2-Piece Ladder</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1944</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>5</IMAGECOLOR>
    </ITEM>
@@ -178782,7 +178782,7 @@
       <ITEMNAME>Magnet Flat, Classic Space Logo</ITEMNAME>
       <CATEGORY>14</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>89.5</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -178935,7 +178935,7 @@
       <ITEMNAME>Magnet Flat, Royal Knights Shield</ITEMNAME>
       <CATEGORY>14</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
-      <ITEMWEIGHT>97</ITEMWEIGHT>
+      <ITEMWEIGHT>99.5</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -194996,6 +194996,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>668</ITEMID>
+      <ITEMNAME>Tractor Attachment, Wooden - Dirt Conveyer {Jordtransportør}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1953</ITEMYEAR>
+      <ITEMWEIGHT>172</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>njo10deLE06</ITEMID>
       <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 10 - # LE6 Turnier Böser Jay Limited Edition</ITEMNAME>
       <CATEGORY>380</CATEGORY>
@@ -204506,6 +204515,15 @@
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>573</ITEMWEIGHT>
       <IMAGECOLOR>1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>196</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Dachshund, Large, Beautiful, Segmented {Gravhund, stor, smuk, leddelt} </ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1937</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
