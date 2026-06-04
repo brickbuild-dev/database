@@ -56550,7 +56550,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>lor063</ITEMID>
-      <ITEMNAME>Gandalf the White</ITEMNAME>
+      <ITEMNAME>Gandalf the White - Plain Legs</ITEMNAME>
       <CATEGORY>789</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>4.19</ITEMWEIGHT>
@@ -67503,7 +67503,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0183</ITEMID>
-      <ITEMNAME>Maria Hill</ITEMNAME>
+      <ITEMNAME>Maria Hill - Dark Blue Suit, Printed Right Arm</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2015</ITEMYEAR>
       <ITEMWEIGHT>3.6</ITEMWEIGHT>
@@ -101919,7 +101919,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0601</ITEMID>
-      <ITEMNAME>Maria Hill - Black Jacket, Light Bluish Gray Shirt, Dark Blue Legs</ITEMNAME>
+      <ITEMNAME>Maria Hill - Black Jacket</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>3.62</ITEMWEIGHT>
@@ -129144,7 +129144,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hp372</ITEMID>
-      <ITEMNAME>Moaning Myrtle - Dark Bluish Gray Robe</ITEMNAME>
+      <ITEMNAME>Moaning Myrtle - Dark Bluish Gray Robe, Black Glasses</ITEMNAME>
       <CATEGORY>227</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT>3.72</ITEMWEIGHT>
@@ -139080,7 +139080,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hp441</ITEMID>
-      <ITEMNAME>Lee Jordan - Gryffindor Robe Clasped, Black Short Legs</ITEMNAME>
+      <ITEMNAME>Lee Jordan - Gryffindor Robe Clasped, Black Short Legs, Hair Tousled</ITEMNAME>
       <CATEGORY>227</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>3.36</ITEMWEIGHT>
@@ -168935,7 +168935,7 @@
       <ITEMID>sh1127</ITEMID>
       <ITEMNAME>Iron Man - Mark 85 Armor, Large Helmet Visor, Power Lasers</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169207,6 +169207,123 @@
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>4.17</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>lor159</ITEMID>
+      <ITEMNAME>Peregrin Took &amp;#40;Pippin&amp;#41; - Black Surcoat, Dark Green Cape</ITEMNAME>
+      <CATEGORY>789</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.56</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>lor158</ITEMID>
+      <ITEMNAME>Denethor</ITEMNAME>
+      <CATEGORY>789</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.23</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>lor160</ITEMID>
+      <ITEMNAME>Faramir</ITEMNAME>
+      <CATEGORY>789</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>lor156</ITEMID>
+      <ITEMNAME>Soldier of Gondor - Light Nougat Head, Dark Tan Eyebrows</ITEMNAME>
+      <CATEGORY>789</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.43</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>lor155</ITEMID>
+      <ITEMNAME>Soldier of Gondor - Light Nougat Head, Reddish Brown Eyebrows</ITEMNAME>
+      <CATEGORY>789</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.43</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>lor161</ITEMID>
+      <ITEMNAME>Soldier of Gondor - Medium Tan Head, Cheek Lines</ITEMNAME>
+      <CATEGORY>789</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.43</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>lor162</ITEMID>
+      <ITEMNAME>Soldier of Gondor - Medium Tan Head, Dimples</ITEMNAME>
+      <CATEGORY>789</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.43</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>lor154</ITEMID>
+      <ITEMNAME>Gandalf the White - Printed Legs</ITEMNAME>
+      <CATEGORY>789</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>lor163</ITEMID>
+      <ITEMNAME>Aragorn &amp;#40;King Elessar&amp;#41;</ITEMNAME>
+      <CATEGORY>789</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.83</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>lor164</ITEMID>
+      <ITEMNAME>Arwen - Yellowish Green Dress</ITEMNAME>
+      <CATEGORY>789</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.64</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>lor157</ITEMID>
+      <ITEMNAME>King of Gondor Statue</ITEMNAME>
+      <CATEGORY>789</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.17</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1129</ITEMID>
+      <ITEMNAME>Maria Hill - Dark Blue Suit, Printed Arms</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.63</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1130</ITEMID>
+      <ITEMNAME>Hawkeye - Black Suit, Quiver</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.95</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
