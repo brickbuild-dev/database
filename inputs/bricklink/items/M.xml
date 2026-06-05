@@ -53949,7 +53949,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0056</ITEMID>
-      <ITEMNAME>Nick Fury</ITEMNAME>
+      <ITEMNAME>Nick Fury - Dark Blue Shirt</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>3.03</ITEMWEIGHT>
@@ -67521,7 +67521,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0185</ITEMID>
-      <ITEMNAME>Nick Fury - Leather Trench Coat</ITEMNAME>
+      <ITEMNAME>Nick Fury - Leather Trench Coat, Dark Bluish Gray Legs</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2015</ITEMYEAR>
       <ITEMWEIGHT>3.04</ITEMWEIGHT>
@@ -81795,7 +81795,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0369</ITEMID>
-      <ITEMNAME>Agent Coulson</ITEMNAME>
+      <ITEMNAME>Agent Phil Coulson - Striped Tie</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
       <ITEMWEIGHT>3.48</ITEMWEIGHT>
@@ -168998,7 +168998,7 @@
       <ITEMID>jw143</ITEMID>
       <ITEMNAME>Dennis Nedry - Jurassic Park Logo on Back, Hood</ITEMNAME>
       <CATEGORY>850</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.65</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169088,7 +169088,7 @@
       <ITEMID>edi008</ITEMID>
       <ITEMNAME>Soccer Player - Female, US Team, Stripes Jersey</ITEMNAME>
       <CATEGORY>1359</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169097,7 +169097,7 @@
       <ITEMID>edi009</ITEMID>
       <ITEMNAME>Soccer Player - Female, US Team, Stars Jersey</ITEMNAME>
       <CATEGORY>1359</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.7</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169148,6 +169148,42 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2005</ITEMID>
+      <ITEMNAME>Child - Boy, Dark Purple Tracksuit, Black Medium Legs, Coiled Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.43</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2006</ITEMID>
+      <ITEMNAME>Woman - Dark Red Tracksuit, Dark Brown Coiled Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.41</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2007</ITEMID>
+      <ITEMNAME>Airport Worker - Male, Neon Yellow Safety Vest with Reflective Stripes, Sand Blue Legs, Red Construction Helmet with Black Ear Protectors / Headphones</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.54</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2008</ITEMID>
+      <ITEMNAME>Passenger Plane Pilot - Female, Dark Blue Suit with Tie, Bright Light Yellow Ponytail</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.64</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh1128</ITEMID>
       <ITEMNAME>Captain America - Dark Blue Suit, Printed Arms</ITEMNAME>
       <CATEGORY>768</CATEGORY>
@@ -169162,6 +169198,15 @@
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>3.84</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>njo1069</ITEMID>
+      <ITEMNAME>General Cryptor - Legacy</ITEMNAME>
+      <CATEGORY>759</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -169324,6 +169369,51 @@
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>3.95</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dp241</ITEMID>
+      <ITEMNAME>Jasmine - Top with Sparkles and Gold Trim, Open Mouth, Plain Tiara</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.57</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dp242</ITEMID>
+      <ITEMNAME>Aladdin - Gold Filigree on Vest and Belt, Medium Nougat Skin</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.19</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1131</ITEMID>
+      <ITEMNAME>Agent Phil Coulson - Black Tie</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1132</ITEMID>
+      <ITEMNAME>Winter Soldier - Dark Brown Hair, Black and Light Nougat Hands</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.58</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1133</ITEMID>
+      <ITEMNAME>Nick Fury - Leather Trench Coat, Black Legs</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
