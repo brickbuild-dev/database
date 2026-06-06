@@ -110424,7 +110424,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>pi185</ITEMID>
-      <ITEMNAME>Pirate Captain - Bicorne Hat with Skull and White Plume, Pearl Gold Epaulettes, Blue Open Coat, Black Leg and Pearl Dark Gray Peg Leg</ITEMNAME>
+      <ITEMNAME>Pirate Captain - Male, Bicorne Hat with Skull and Crossbones and White Plume, Pearl Gold Epaulettes, Blue Open Coat, Black Leg and Pearl Dark Gray Peg Leg</ITEMNAME>
       <CATEGORY>61</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>3.82</ITEMWEIGHT>
@@ -110433,7 +110433,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>pi186</ITEMID>
-      <ITEMNAME>Pirate - Black Pirate Triangle Hat, Blue Vest, Dark Bluish Gray Legs</ITEMNAME>
+      <ITEMNAME>Pirate - Male, Black Tricorne Hat, Blue Vest over Red and White Striped Shirt, Dark Bluish Gray Legs</ITEMNAME>
       <CATEGORY>61</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>3.79</ITEMWEIGHT>
@@ -110442,7 +110442,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>pi187</ITEMID>
-      <ITEMNAME>Pirate - Red Bandana, White Shirt with Red Stripes, Dark Orange Legs</ITEMNAME>
+      <ITEMNAME>Pirate - Male, Red Bandana, White Tank Top with Red Stripes, Rope Belt, Dark Orange Legs</ITEMNAME>
       <CATEGORY>61</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>3.44</ITEMWEIGHT>
@@ -111855,7 +111855,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hp242</ITEMID>
-      <ITEMNAME>Tom Riddle - Black Long Coat and Vest</ITEMNAME>
+      <ITEMNAME>Tom Riddle - Black Long Coat, Light Bluish Gray Vest, Black Sweater</ITEMNAME>
       <CATEGORY>227</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
@@ -130341,7 +130341,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sp133</ITEMID>
-      <ITEMNAME>Classic Space Droid - Round Plate Base, Light Bluish Gray and Black</ITEMNAME>
+      <ITEMNAME>Classic Space Droid - Round Plate Base, Light Bluish Gray and Black &amp;#40;Reissue&amp;#41;</ITEMNAME>
       <CATEGORY>34</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT>5</ITEMWEIGHT>
@@ -169187,7 +169187,7 @@
       <ITEMID>sh1128</ITEMID>
       <ITEMNAME>Captain America - Dark Blue Suit, Printed Arms</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.57</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169358,7 +169358,7 @@
       <ITEMID>sh1129</ITEMID>
       <ITEMNAME>Maria Hill - Dark Blue Suit, Printed Arms</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.63</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169367,7 +169367,7 @@
       <ITEMID>sh1130</ITEMID>
       <ITEMNAME>Hawkeye - Black Suit, Quiver</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.95</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>

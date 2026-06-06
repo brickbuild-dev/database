@@ -14064,7 +14064,7 @@
       <ITEMNAME>Display Flag Cloth, Life on Mars</ITEMNAME>
       <CATEGORY>526</CATEGORY>
       <ITEMYEAR>2001</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>386</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -73983,7 +73983,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>LGL-CL4</ITEMID>
-      <ITEMNAME>Light, Book Light, Friends Logo on Clip &amp;#40;LEDLite&amp;#41;</ITEMNAME>
+      <ITEMNAME>LEDLite, Book Light, Friends</ITEMNAME>
       <CATEGORY>646</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>108.2</ITEMWEIGHT>
@@ -76854,7 +76854,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>LGL-CL1a</ITEMID>
-      <ITEMNAME>Light, Book Light, Classic Blue</ITEMNAME>
+      <ITEMNAME>LEDLite, Book Light, Classic Blue</ITEMNAME>
       <CATEGORY>646</CATEGORY>
       <ITEMYEAR>2014</ITEMYEAR>
       <ITEMWEIGHT>110</ITEMWEIGHT>
@@ -77025,7 +77025,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>LGL-CL1b</ITEMID>
-      <ITEMNAME>Light, Book Light, Classic White</ITEMNAME>
+      <ITEMNAME>LEDLite, Book Light, Classic White</ITEMNAME>
       <CATEGORY>646</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>110</ITEMWEIGHT>
@@ -85206,7 +85206,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>LGL-NI9</ITEMID>
-      <ITEMNAME>Dimensions LEDLite Display Case</ITEMNAME>
+      <ITEMNAME>LEDLite, Dimensions Display Case</ITEMNAME>
       <CATEGORY>399</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT>100</ITEMWEIGHT>
@@ -91722,7 +91722,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>LGL-CL10</ITEMID>
-      <ITEMNAME>Light, Book Light, The LEGO Movie Logo on Clip &amp;#40;LETLite&amp;#41;</ITEMNAME>
+      <ITEMNAME>LEDLite, Book Light, The LEGO Movie</ITEMNAME>
       <CATEGORY>646</CATEGORY>
       <ITEMYEAR>2014</ITEMYEAR>
       <ITEMWEIGHT>105</ITEMWEIGHT>
@@ -92649,7 +92649,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>LGL-CL1c</ITEMID>
-      <ITEMNAME>Light, Book Light, Classic Red</ITEMNAME>
+      <ITEMNAME>LEDLite, Book Light, Classic Red</ITEMNAME>
       <CATEGORY>646</CATEGORY>
       <ITEMYEAR>2014</ITEMYEAR>
       <ITEMWEIGHT>110</ITEMWEIGHT>
@@ -95673,7 +95673,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>LGL-NI3S</ITEMID>
-      <ITEMNAME>LED Lite, NiteLite Night Light Stephanie</ITEMNAME>
+      <ITEMNAME>LEDLite, Night Light &amp;#40;NiteLite&amp;#41; Friends Stephanie</ITEMNAME>
       <CATEGORY>646</CATEGORY>
       <ITEMYEAR>2015</ITEMYEAR>
       <ITEMWEIGHT>416</ITEMWEIGHT>
@@ -95682,7 +95682,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>LGL-NI3O</ITEMID>
-      <ITEMNAME>LED Lite, NiteLite Night Light Olivia</ITEMNAME>
+      <ITEMNAME>LEDLite, Night Light &amp;#40;NiteLite&amp;#41; Friends Olivia</ITEMNAME>
       <CATEGORY>646</CATEGORY>
       <ITEMYEAR>2015</ITEMYEAR>
       <ITEMWEIGHT>417</ITEMWEIGHT>
@@ -95691,7 +95691,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>LGL-NI3M</ITEMID>
-      <ITEMNAME>LED Lite, NiteLite Night Light Mia</ITEMNAME>
+      <ITEMNAME>LEDLite, Night Light &amp;#40;NiteLite&amp;#41; Friends Mia</ITEMNAME>
       <CATEGORY>646</CATEGORY>
       <ITEMYEAR>2015</ITEMYEAR>
       <ITEMWEIGHT>417</ITEMWEIGHT>
@@ -95700,7 +95700,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>LGL-NI4K</ITEMID>
-      <ITEMNAME>LED Lite, NiteLite Night Light Ninjago Kai</ITEMNAME>
+      <ITEMNAME>LEDLite, Night Light &amp;#40;NiteLite&amp;#41; NINJAGO Kai</ITEMNAME>
       <CATEGORY>646</CATEGORY>
       <ITEMYEAR>2015</ITEMYEAR>
       <ITEMWEIGHT>417</ITEMWEIGHT>
@@ -98103,7 +98103,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>LGL-NI7</ITEMID>
-      <ITEMNAME>LED Lite, NiteLite Night Light Nexo Knights</ITEMNAME>
+      <ITEMNAME>LEDLite, Night Light &amp;#40;NiteLite&amp;#41; NEXO KNIGHTS</ITEMNAME>
       <CATEGORY>646</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT>454</ITEMWEIGHT>
@@ -98112,7 +98112,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>LGL-NI14</ITEMID>
-      <ITEMNAME>LED Lite, NiteLite Night Light Ninjago Sky Pirates</ITEMNAME>
+      <ITEMNAME>LEDLite, Night Light &amp;#40;NiteLite&amp;#41; NINJAGO Sky Pirates</ITEMNAME>
       <CATEGORY>646</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT>448</ITEMWEIGHT>
@@ -108669,7 +108669,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>LGL-NI4L</ITEMID>
-      <ITEMNAME>LED Lite, NiteLite Night Light Ninjago Lloyd</ITEMNAME>
+      <ITEMNAME>LEDLite, Night Light &amp;#40;NiteLite&amp;#41; NINJAGO Lloyd</ITEMNAME>
       <CATEGORY>646</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT>448</ITEMWEIGHT>
@@ -108678,7 +108678,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>LGL-NI4J</ITEMID>
-      <ITEMNAME>LED Lite, NiteLite Night Light Ninjago Jay</ITEMNAME>
+      <ITEMNAME>LEDLite, Night Light &amp;#40;NiteLite&amp;#41; NINJAGO Jay</ITEMNAME>
       <CATEGORY>646</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT>448</ITEMWEIGHT>
@@ -131439,8 +131439,8 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>LGL-NI23</ITEMID>
-      <ITEMNAME>Aquarium LEDLite Display Case</ITEMNAME>
-      <CATEGORY>399</CATEGORY>
+      <ITEMNAME>LEDLITE, Night Light &amp;#40;NiteLite&amp;#41; Display Case, Underwater Scene</ITEMNAME>
+      <CATEGORY>646</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>411</ITEMWEIGHT>
       <IMAGECOLOR>1</IMAGECOLOR>
@@ -140727,8 +140727,8 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>LGL-NI29</ITEMID>
-      <ITEMNAME>NINJAGO LEDLite Display Case</ITEMNAME>
-      <CATEGORY>399</CATEGORY>
+      <ITEMNAME>LEDLITE, Night Light &amp;#40;NiteLite&amp;#41; Display Case, NINJAGO</ITEMNAME>
+      <CATEGORY>646</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>412</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -140817,8 +140817,8 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>LGL-NI25</ITEMID>
-      <ITEMNAME>Bird LEDLite Display Case</ITEMNAME>
-      <CATEGORY>399</CATEGORY>
+      <ITEMNAME>LEDLITE, Night Light &amp;#40;NiteLite&amp;#41; Display Case, Sky Scene</ITEMNAME>
+      <CATEGORY>646</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>412</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -140826,8 +140826,8 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>LGL-NI27</ITEMID>
-      <ITEMNAME>Duck LEDLite Display Case</ITEMNAME>
-      <CATEGORY>399</CATEGORY>
+      <ITEMNAME>LEDLITE, Night Light &amp;#40;NiteLite&amp;#41; Display Case, Land Scene</ITEMNAME>
+      <CATEGORY>646</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>412</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -160548,7 +160548,7 @@
       <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 8 &amp;#40;Next Level&amp;#41; - Spielregeln</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>2.65</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -185430,7 +185430,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>5008991</ITEMID>
-      <ITEMNAME>LED Lite, Night Light 1 x 1 Plate</ITEMNAME>
+      <ITEMNAME>LEDLITE, Night Light 1 x 1 Plate</ITEMNAME>
       <CATEGORY>646</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>203</ITEMWEIGHT>
