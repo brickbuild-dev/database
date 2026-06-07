@@ -112215,7 +112215,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hp254</ITEMID>
-      <ITEMNAME>Draco Malfoy - Black Torso Slytherin Robe, Black Short Legs</ITEMNAME>
+      <ITEMNAME>Draco Malfoy - Black Slytherin Robe and Short Legs, Suspicious / Angry</ITEMNAME>
       <CATEGORY>227</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
@@ -159294,7 +159294,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo0975</ITEMID>
-      <ITEMNAME>Sora - Dragon Shoulder Armor</ITEMNAME>
+      <ITEMNAME>Sora - Dragon Shoulder Armor, Headphones</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>4.85</ITEMWEIGHT>
@@ -165486,7 +165486,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1032</ITEMID>
-      <ITEMNAME>Acid Monster</ITEMNAME>
+      <ITEMNAME>Acid Monster - Flexible Rubber Tail</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>7.98</ITEMWEIGHT>
@@ -165504,7 +165504,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1034</ITEMID>
-      <ITEMNAME>Sora - Cat Headphones, Mask, Scabbard Armor with 1 Shoulder Pad</ITEMNAME>
+      <ITEMNAME>Sora - Bandana, Scabbard, Headphones</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.42</ITEMWEIGHT>
@@ -169017,7 +169017,7 @@
       <ITEMNAME>Zilvar</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>4.66</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -169053,7 +169053,7 @@
       <ITEMNAME>Fire Monster</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>4.86</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -169062,7 +169062,7 @@
       <ITEMNAME>Ice Monster</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>4.86</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -169099,6 +169099,60 @@
       <CATEGORY>1359</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.7</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp619</ITEMID>
+      <ITEMNAME>Lee Jordan - Gryffindor Robe Clasped, Black Medium Legs, Hair Short Layered Mop Top</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.81</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp622</ITEMID>
+      <ITEMNAME>Draco Malfoy - Black Slytherin Robe and Short Legs, Grin / Surprised</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.03</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp625</ITEMID>
+      <ITEMNAME>Gilderoy Lockhart - Warm Pink Suit, Gold Vest</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.53</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp626</ITEMID>
+      <ITEMNAME>Millicent Bulstrode</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.8</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp627</ITEMID>
+      <ITEMNAME>Ginny Weasley - Gryffindor Robe Open, Black Short Legs, Skirt</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.95</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp629</ITEMID>
+      <ITEMNAME>Statue - Hogwarts, Printed Torso, Helmet Castle</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>377</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -169355,6 +169409,33 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>njo1080</ITEMID>
+      <ITEMNAME>Zane - Dragons Rising, Tunic with Dragon Head, Helmet</ITEMNAME>
+      <CATEGORY>759</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.08</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>njo1078</ITEMID>
+      <ITEMNAME>Sora - Headphones</ITEMNAME>
+      <CATEGORY>759</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.92</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>njo1079</ITEMID>
+      <ITEMNAME>Acid Monster - Legs</ITEMNAME>
+      <CATEGORY>759</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.55</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh1129</ITEMID>
       <ITEMNAME>Maria Hill - Dark Blue Suit, Printed Arms</ITEMNAME>
       <CATEGORY>768</CATEGORY>
@@ -169369,6 +169450,15 @@
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.95</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>shr001</ITEMID>
+      <ITEMNAME>Puss in Boots</ITEMNAME>
+      <CATEGORY>1384</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>5.21</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -169394,7 +169484,7 @@
       <ITEMID>sh1131</ITEMID>
       <ITEMNAME>Agent Phil Coulson - Black Tie</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.5</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169403,7 +169493,7 @@
       <ITEMID>sh1132</ITEMID>
       <ITEMNAME>Winter Soldier - Dark Brown Hair, Black and Light Nougat Hands</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.58</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169412,8 +169502,26 @@
       <ITEMID>sh1133</ITEMID>
       <ITEMNAME>Nick Fury - Leather Trench Coat, Black Legs</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2009</ITEMID>
+      <ITEMNAME>Construction Worker - Male, Dark Bluish Gray Overalls over Reddish Orange Safety Jacket with Reflective Stripes, Dark Bluish Gray Legs with Knee Pads, Red Construction Helmet, Goatee</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.34</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2010</ITEMID>
+      <ITEMNAME>Construction Worker - Female, Reddish Orange Safety Jacket with Reflective Stripes, Dark Bluish Gray Legs with Knee Pads, Red Construction Helmet with Dark Brown Ponytail Hair, Smirk</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.62</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
