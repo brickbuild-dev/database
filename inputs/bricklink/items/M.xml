@@ -134085,7 +134085,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>twn458</ITEMID>
-      <ITEMNAME>Pizza Delivery Driver</ITEMNAME>
+      <ITEMNAME>Pizza Delivery Driver - Male</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>3.6</ITEMWEIGHT>
@@ -169007,7 +169007,7 @@
       <ITEMID>sw1528</ITEMID>
       <ITEMNAME>The Mandalorian / Din Djarin / 'Mando' - Silver Beskar Armor, Cape, Printed Head, Reddish Brown and Dark Silver Knee Pads</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.8</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169099,6 +169099,15 @@
       <CATEGORY>1359</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.7</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp617</ITEMID>
+      <ITEMNAME>Hermione Granger - Gryffindor Robe Clasped, Black Skirt, Black Short Legs with Dark Bluish Gray Stripes, Grin / Cat Face</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -169520,7 +169529,7 @@
       <ITEMID>blu008</ITEMID>
       <ITEMNAME>Bingo - Chef Toque</ITEMNAME>
       <CATEGORY>1332</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.06</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
