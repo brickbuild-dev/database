@@ -142077,7 +142077,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hp444</ITEMID>
-      <ITEMNAME>Ron Weasley - Gryffindor Robe Clasped, Sweater, Shirt and Tie, Black Short Legs</ITEMNAME>
+      <ITEMNAME>Ron Weasley - Gryffindor Robe Clasped, Sweater, Shirt and Tie, Black Short Legs, Lopsided Grin / Scared Open Mouth with Top Teeth</ITEMNAME>
       <CATEGORY>227</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>3.17</ITEMWEIGHT>
@@ -169061,7 +169061,7 @@
       <ITEMID>njo1075</ITEMID>
       <ITEMNAME>Ice Monster</ITEMNAME>
       <CATEGORY>759</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.86</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169106,7 +169106,7 @@
       <ITEMID>hp617</ITEMID>
       <ITEMNAME>Hermione Granger - Gryffindor Robe Clasped, Black Skirt, Black Short Legs with Dark Bluish Gray Stripes, Grin / Cat Face</ITEMNAME>
       <CATEGORY>227</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169126,6 +169126,24 @@
       <CATEGORY>227</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.03</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp623</ITEMID>
+      <ITEMNAME>The Bloody Baron</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp624</ITEMID>
+      <ITEMNAME>Harry Potter - Gryffindor Robe Open, Black Short Legs, Grin / Reddish Brown Eyebrows</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -169153,6 +169171,15 @@
       <CATEGORY>227</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.95</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp628</ITEMID>
+      <ITEMNAME>Ron Weasley - Gryffindor Robe Clasped, Sweater, Shirt and Tie, Black Short Legs, Lopsided Grin / Scared Open Mouth, Cheek Lines</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
