@@ -105216,7 +105216,7 @@
       <ITEMNAME>5K Family Road Race Female 2018</ITEMNAME>
       <CATEGORY>976</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>3.3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -169133,8 +169133,8 @@
       <ITEMID>hp623</ITEMID>
       <ITEMNAME>The Bloody Baron</ITEMNAME>
       <CATEGORY>227</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>4.57</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -169142,8 +169142,8 @@
       <ITEMID>hp624</ITEMID>
       <ITEMNAME>Harry Potter - Gryffindor Robe Open, Black Short Legs, Grin / Reddish Brown Eyebrows</ITEMNAME>
       <CATEGORY>227</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.39</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -169178,8 +169178,8 @@
       <ITEMID>hp628</ITEMID>
       <ITEMNAME>Ron Weasley - Gryffindor Robe Clasped, Sweater, Shirt and Tie, Black Short Legs, Lopsided Grin / Scared Open Mouth, Cheek Lines</ITEMNAME>
       <CATEGORY>227</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.15</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -169188,7 +169188,7 @@
       <ITEMNAME>Statue - Hogwarts, Printed Torso, Helmet Castle</ITEMNAME>
       <CATEGORY>227</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
-      <ITEMWEIGHT>377</ITEMWEIGHT>
+      <ITEMWEIGHT>3.77</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -169454,6 +169454,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol419</ITEMID>
+      <ITEMNAME>Su Dongpo</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.98</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol420</ITEMID>
+      <ITEMNAME>Farmer - Tan Vest, Dark Bluish Gray Legs, Dark Brown Hat</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.78</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1080</ITEMID>
       <ITEMNAME>Zane - Dragons Rising, Tunic with Dragon Head, Helmet</ITEMNAME>
       <CATEGORY>759</CATEGORY>
@@ -169504,6 +169522,69 @@
       <CATEGORY>1384</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>5.21</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol421</ITEMID>
+      <ITEMNAME>Teahouse Owner</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.46</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol422</ITEMID>
+      <ITEMNAME>Businessman - Dark Red Vest, Dark Brown Hair and Legs</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.63</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol423</ITEMID>
+      <ITEMNAME>Inn Owner</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.97</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol424</ITEMID>
+      <ITEMNAME>Musician - Tan Vest, Black Hair, Dark Orange Legs</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.46</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol425</ITEMID>
+      <ITEMNAME>Chef - Light Aqua Vest, Black Hair, Bright Light Blue Skirt</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.25</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol426</ITEMID>
+      <ITEMNAME>Child - Tan Vest, Black Hair, Dark Orange Mid Legs</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.76</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol427</ITEMID>
+      <ITEMNAME>Woman - Medium Lavender Vest and Skirt, Black Hair</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.29</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -169603,6 +169684,51 @@
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.62</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2016</ITEMID>
+      <ITEMNAME>Pizza Delivery Driver - Female, Dark Red Legs, Dark Brown Hair Mid-Length</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.68</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2017</ITEMID>
+      <ITEMNAME>Pizza Chef - Male, Tan Legs, Black Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.26</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2018</ITEMID>
+      <ITEMNAME>Pizza Delivery Driver - Male, Light Bluish Gray Legs, Dark Tan Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.49</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2019</ITEMID>
+      <ITEMNAME>Pizza Restaurant Patron - Female, Dark Pink Hoodie, Sand Blue Legs, Dark Orange Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.9</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2020</ITEMID>
+      <ITEMNAME>Child - Girl, Bright Green Sweater with Bright Light Yellow Zigzag Lines, Hearing Aid, Tan Short Legs, Dark Brown Hair with Pigtails</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.32</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
