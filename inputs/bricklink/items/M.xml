@@ -77592,7 +77592,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>dis019</ITEMID>
-      <ITEMNAME>Mickey Mouse - Black Tuxedo Jacket, Yellow Bow Tie</ITEMNAME>
+      <ITEMNAME>Mickey Mouse - Black Tuxedo Jacket and Cloth Tails, Yellow Bow Tie, Legs with Vertical Stripes</ITEMNAME>
       <CATEGORY>878</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT>5</ITEMWEIGHT>
@@ -128451,7 +128451,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hp353</ITEMID>
-      <ITEMNAME>Argus Filch - Bald on Top, Reddish Brown Jacket, Printed Legs</ITEMNAME>
+      <ITEMNAME>Argus Filch - Bald on Top, Reddish Brown Coat, Dark Brown Vest, Printed Legs</ITEMNAME>
       <CATEGORY>227</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT>3.5</ITEMWEIGHT>
@@ -146775,7 +146775,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hp478</ITEMID>
-      <ITEMNAME>Argus Filch - Bald on Top, Reddish Brown Jacket, Plain Legs</ITEMNAME>
+      <ITEMNAME>Argus Filch - Bald on Top, Reddish Brown Coat, Dark Brown Vest, Plain Legs</ITEMNAME>
       <CATEGORY>227</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>3.5</ITEMWEIGHT>
@@ -169052,7 +169052,7 @@
       <ITEMID>njo1077</ITEMID>
       <ITEMNAME>Fire Monster</ITEMNAME>
       <CATEGORY>759</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.86</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169112,11 +169112,38 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp618</ITEMID>
+      <ITEMNAME>Moaning Myrtle – Light Bluish Gray Robe, Silver Glasses</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.74</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hp619</ITEMID>
       <ITEMNAME>Lee Jordan - Gryffindor Robe Clasped, Black Medium Legs, Hair Short Layered Mop Top</ITEMNAME>
       <CATEGORY>227</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.81</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp620</ITEMID>
+      <ITEMNAME>Tom Riddle - Slytherin Robe Open, Light Bluish Gray Vest, Dark Bluish Gray Sweater</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.57</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp621</ITEMID>
+      <ITEMNAME>Argus Filch - Bald on Top, Reddish Brown Coat, Dark Tan Vest, Olive Green Shirt</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.54</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -169286,7 +169313,7 @@
       <ITEMID>njo1071</ITEMID>
       <ITEMNAME>Elemental Master of Shadow &amp;#40;Dusk&amp;#41;</ITEMNAME>
       <CATEGORY>759</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.84</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169295,7 +169322,7 @@
       <ITEMID>njo1069</ITEMID>
       <ITEMNAME>General Cryptor - Legacy</ITEMNAME>
       <CATEGORY>759</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169304,7 +169331,7 @@
       <ITEMID>njo1070</ITEMID>
       <ITEMNAME>Kai ZX - Legacy, Head Wrap</ITEMNAME>
       <CATEGORY>759</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.82</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169457,7 +169484,7 @@
       <ITEMID>hol419</ITEMID>
       <ITEMNAME>Su Dongpo</ITEMNAME>
       <CATEGORY>390</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.98</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169466,7 +169493,7 @@
       <ITEMID>hol420</ITEMID>
       <ITEMNAME>Farmer - Tan Vest, Dark Bluish Gray Legs, Dark Brown Hat</ITEMNAME>
       <CATEGORY>390</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.78</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169526,10 +169553,64 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>fort021</ITEMID>
+      <ITEMNAME>Funk Ops</ITEMNAME>
+      <CATEGORY>1309</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.54</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>fort022</ITEMID>
+      <ITEMNAME>Party Trooper</ITEMNAME>
+      <CATEGORY>1309</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>fort023</ITEMID>
+      <ITEMNAME>DJ Yonder</ITEMNAME>
+      <CATEGORY>1309</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>5.04</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>fort024</ITEMID>
+      <ITEMNAME>Aura</ITEMNAME>
+      <CATEGORY>1309</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.06</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>fort025</ITEMID>
+      <ITEMNAME>Evie</ITEMNAME>
+      <CATEGORY>1309</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>fort026</ITEMID>
+      <ITEMNAME>KIT</ITEMNAME>
+      <CATEGORY>1309</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.79</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hol421</ITEMID>
       <ITEMNAME>Teahouse Owner</ITEMNAME>
       <CATEGORY>390</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.46</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169538,7 +169619,7 @@
       <ITEMID>hol422</ITEMID>
       <ITEMNAME>Businessman - Dark Red Vest, Dark Brown Hair and Legs</ITEMNAME>
       <CATEGORY>390</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.63</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169547,7 +169628,7 @@
       <ITEMID>hol423</ITEMID>
       <ITEMNAME>Inn Owner</ITEMNAME>
       <CATEGORY>390</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.97</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169556,7 +169637,7 @@
       <ITEMID>hol424</ITEMID>
       <ITEMNAME>Musician - Tan Vest, Black Hair, Dark Orange Legs</ITEMNAME>
       <CATEGORY>390</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.46</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169565,7 +169646,7 @@
       <ITEMID>hol425</ITEMID>
       <ITEMNAME>Chef - Light Aqua Vest, Black Hair, Bright Light Blue Skirt</ITEMNAME>
       <CATEGORY>390</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.25</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169574,7 +169655,7 @@
       <ITEMID>hol426</ITEMID>
       <ITEMNAME>Child - Tan Vest, Black Hair, Dark Orange Mid Legs</ITEMNAME>
       <CATEGORY>390</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.76</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169583,7 +169664,7 @@
       <ITEMID>hol427</ITEMID>
       <ITEMNAME>Woman - Medium Lavender Vest and Skirt, Black Hair</ITEMNAME>
       <CATEGORY>390</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.29</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169688,10 +169769,55 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2011</ITEMID>
+      <ITEMNAME>Streetcar Driver - Female, Sand Blue Vest over White Shirt, Dark Blue Legs, Dark Brown Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.29</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2012</ITEMID>
+      <ITEMNAME>Streetcar Passenger - Male, Bright Light Yellow Shirt with Flowers and Leaves, Sand Blue Legs with Pockets and Cap</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.45</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2013</ITEMID>
+      <ITEMNAME>Fisherman - Dark Tan Vest over Orange Shirt, Olive Green Legs, Dark Blue Beanie, Dark Orange Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.78</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2014</ITEMID>
+      <ITEMNAME>Surfer - Female, White Tank Top Cropped, Dark Turquoise Shorts, Black Hair Short Tousled</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.83</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2015</ITEMID>
+      <ITEMNAME>Ice Cream Vendor - Female, White Shirt with Dark Turquoise Stripes, Medium Nougat Legs, Dark Orange Hair, Green Glasses</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.05</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty2016</ITEMID>
       <ITEMNAME>Pizza Delivery Driver - Female, Dark Red Legs, Dark Brown Hair Mid-Length</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.68</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169700,7 +169826,7 @@
       <ITEMID>cty2017</ITEMID>
       <ITEMNAME>Pizza Chef - Male, Tan Legs, Black Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.26</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169709,7 +169835,7 @@
       <ITEMID>cty2018</ITEMID>
       <ITEMNAME>Pizza Delivery Driver - Male, Light Bluish Gray Legs, Dark Tan Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.49</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169718,7 +169844,7 @@
       <ITEMID>cty2019</ITEMID>
       <ITEMNAME>Pizza Restaurant Patron - Female, Dark Pink Hoodie, Sand Blue Legs, Dark Orange Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.9</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169727,7 +169853,7 @@
       <ITEMID>cty2020</ITEMID>
       <ITEMNAME>Child - Girl, Bright Green Sweater with Bright Light Yellow Zigzag Lines, Hearing Aid, Tan Short Legs, Dark Brown Hair with Pigtails</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.32</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
