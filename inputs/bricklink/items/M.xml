@@ -77601,7 +77601,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>dis020</ITEMID>
-      <ITEMNAME>Minnie Mouse - Red Polka Dot Dress</ITEMNAME>
+      <ITEMNAME>Minnie Mouse - Red Polka Dot Dress, Plastic Skirt</ITEMNAME>
       <CATEGORY>878</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT>7</ITEMWEIGHT>
@@ -103674,7 +103674,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>dis043</ITEMID>
-      <ITEMNAME>Minnie Mouse - Red Polka Dot Skirt</ITEMNAME>
+      <ITEMNAME>Minnie Mouse - Red Polka Dot Skirt,</ITEMNAME>
       <CATEGORY>878</CATEGORY>
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>5.9</ITEMWEIGHT>
@@ -169115,7 +169115,7 @@
       <ITEMID>hp618</ITEMID>
       <ITEMNAME>Moaning Myrtle – Light Bluish Gray Robe, Silver Glasses</ITEMNAME>
       <CATEGORY>227</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.74</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169133,7 +169133,7 @@
       <ITEMID>hp620</ITEMID>
       <ITEMNAME>Tom Riddle - Slytherin Robe Open, Light Bluish Gray Vest, Dark Bluish Gray Sweater</ITEMNAME>
       <CATEGORY>227</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.57</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169142,7 +169142,7 @@
       <ITEMID>hp621</ITEMID>
       <ITEMNAME>Argus Filch - Bald on Top, Reddish Brown Coat, Dark Tan Vest, Olive Green Shirt</ITEMNAME>
       <CATEGORY>227</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.54</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169373,10 +169373,154 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dis195</ITEMID>
+      <ITEMNAME>Main Street, U.S.A. Popcorn Seller</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.63</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dis196</ITEMID>
+      <ITEMNAME>Main Street, U.S.A. Fire Department Chief</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.56</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dis197</ITEMID>
+      <ITEMNAME>Mickey Mouse - Tuxedo Jacket, Yellow Bow Tie</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>4.98</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dis198</ITEMID>
+      <ITEMNAME>Dapper Dans Quartet Member - Bright Light Orange Suit </ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.59</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dis199</ITEMID>
+      <ITEMNAME>Dapper Dans Quartet Member - Dark Purple Suit</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.59</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dis200</ITEMID>
+      <ITEMNAME>Dapper Dans Quartet Member - Dark Azure Suit</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.59</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dis201</ITEMID>
+      <ITEMNAME>Dapper Dans Quartet Member - Red Suit</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.59</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dis202</ITEMID>
+      <ITEMNAME>Minnie Mouse - Red Polka Dot Plastic Skirt</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>7</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dis203</ITEMID>
+      <ITEMNAME>Main Street, U.S.A. Emporium Seller</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>4.1</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dis204</ITEMID>
+      <ITEMNAME>Main Street, U.S.A. Park Guest - Female, Red Star Wars Sweater with Stormtrooper, Black Legs</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>4.43</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dis205</ITEMID>
+      <ITEMNAME>Main Street, U.S.A. Park Guest - Female, Medium Azure Sweater with Ant, Lime Hoodie with Dark Pink Water Lily on Back, Dark Turquoise Legs</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>4.59</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dis206</ITEMID>
+      <ITEMNAME>Main Street, U.S.A. Park Guest Child - Boy, Toy Story Sweater with Alien and Rocket on Back, Dark Green Short Legs</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.24</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dis207</ITEMID>
+      <ITEMNAME>Main Street, U.S.A. Park Guest - Male, Red Spider-Man Top, Dark Blue Legs</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.48</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dis208</ITEMID>
+      <ITEMNAME>Main Street, U.S.A. Park Guest Child - Girl, Blue Overalls with Flounder, Blue Short Legs</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>4.06</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dis209</ITEMID>
+      <ITEMNAME>Main Street, U.S.A. Park Guest - Female, Dark Pink Mickey Mouse Sweater, Medium Azure Legs</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>4.02</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dis210</ITEMID>
+      <ITEMNAME>Main Street, U.S.A. Park Guest - Male, Medium Azure Stitch Sweater with Surfboard on Back, Dark Blue Legs</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>lor159</ITEMID>
       <ITEMNAME>Peregrin Took &amp;#40;Pippin&amp;#41; - Black Surcoat, Dark Green Cape</ITEMNAME>
       <CATEGORY>789</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.56</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169385,7 +169529,7 @@
       <ITEMID>lor158</ITEMID>
       <ITEMNAME>Denethor</ITEMNAME>
       <CATEGORY>789</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.23</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169394,7 +169538,7 @@
       <ITEMID>lor160</ITEMID>
       <ITEMNAME>Faramir</ITEMNAME>
       <CATEGORY>789</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169403,7 +169547,7 @@
       <ITEMID>lor156</ITEMID>
       <ITEMNAME>Soldier of Gondor - Light Nougat Head, Dark Tan Eyebrows</ITEMNAME>
       <CATEGORY>789</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.43</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169412,7 +169556,7 @@
       <ITEMID>lor155</ITEMID>
       <ITEMNAME>Soldier of Gondor - Light Nougat Head, Reddish Brown Eyebrows</ITEMNAME>
       <CATEGORY>789</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.43</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169421,7 +169565,7 @@
       <ITEMID>lor161</ITEMID>
       <ITEMNAME>Soldier of Gondor - Medium Tan Head, Cheek Lines</ITEMNAME>
       <CATEGORY>789</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.43</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169430,7 +169574,7 @@
       <ITEMID>lor162</ITEMID>
       <ITEMNAME>Soldier of Gondor - Medium Tan Head, Dimples</ITEMNAME>
       <CATEGORY>789</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.43</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169439,7 +169583,7 @@
       <ITEMID>lor154</ITEMID>
       <ITEMNAME>Gandalf the White - Printed Legs</ITEMNAME>
       <CATEGORY>789</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169448,7 +169592,7 @@
       <ITEMID>lor163</ITEMID>
       <ITEMNAME>Aragorn &amp;#40;King Elessar&amp;#41;</ITEMNAME>
       <CATEGORY>789</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.83</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169457,7 +169601,7 @@
       <ITEMID>lor164</ITEMID>
       <ITEMNAME>Arwen - Yellowish Green Dress</ITEMNAME>
       <CATEGORY>789</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.64</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169466,7 +169610,7 @@
       <ITEMID>lor157</ITEMID>
       <ITEMNAME>King of Gondor Statue</ITEMNAME>
       <CATEGORY>789</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.17</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169556,7 +169700,7 @@
       <ITEMID>fort021</ITEMID>
       <ITEMNAME>Funk Ops</ITEMNAME>
       <CATEGORY>1309</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.54</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169565,7 +169709,7 @@
       <ITEMID>fort022</ITEMID>
       <ITEMNAME>Party Trooper</ITEMNAME>
       <CATEGORY>1309</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169574,7 +169718,7 @@
       <ITEMID>fort023</ITEMID>
       <ITEMNAME>DJ Yonder</ITEMNAME>
       <CATEGORY>1309</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>5.04</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169583,7 +169727,7 @@
       <ITEMID>fort024</ITEMID>
       <ITEMNAME>Aura</ITEMNAME>
       <CATEGORY>1309</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.06</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169592,7 +169736,7 @@
       <ITEMID>fort025</ITEMID>
       <ITEMNAME>Evie</ITEMNAME>
       <CATEGORY>1309</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.5</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169670,6 +169814,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>gen197</ITEMID>
+      <ITEMNAME>Lady Liberty &amp;#40;Monochrome&amp;#41;</ITEMNAME>
+      <CATEGORY>629</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>4.6</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>dp241</ITEMID>
       <ITEMNAME>Jasmine - Top with Sparkles and Gold Trim, Open Mouth, Plain Tiara</ITEMNAME>
       <CATEGORY>878</CATEGORY>
@@ -169742,6 +169895,60 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp631</ITEMID>
+      <ITEMNAME>Harry Potter - Light Bluish Gray Hoodie Open, Sand Blue Legs</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp632</ITEMID>
+      <ITEMNAME>Hermione Granger - Warm Pink Jacket, Dark Tan Legs</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.59</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp633</ITEMID>
+      <ITEMNAME>Madam Potage</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.43</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp634</ITEMID>
+      <ITEMNAME>Mr. Borgin - Dark Bluish Gray Jacket, Light Bluish Gray Legs</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.6</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp635</ITEMID>
+      <ITEMNAME>Narcissa Malfoy - Dress with Dark Silver Highlights, Black Skirt, Smile</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.13</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp636</ITEMID>
+      <ITEMNAME>Fenrir Greyback - Dark Brown Long Hair</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.89</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1087</ITEMID>
       <ITEMNAME>Oni Warrior - Legends</ITEMNAME>
       <CATEGORY>759</CATEGORY>
@@ -169769,10 +169976,19 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>njo1088</ITEMID>
+      <ITEMNAME>Zane - Dragons Rising, Tunic with Dragon Head, No Armor</ITEMNAME>
+      <CATEGORY>759</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.45</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty2011</ITEMID>
       <ITEMNAME>Streetcar Driver - Female, Sand Blue Vest over White Shirt, Dark Blue Legs, Dark Brown Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.29</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169781,7 +169997,7 @@
       <ITEMID>cty2012</ITEMID>
       <ITEMNAME>Streetcar Passenger - Male, Bright Light Yellow Shirt with Flowers and Leaves, Sand Blue Legs with Pockets and Cap</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.45</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169790,7 +170006,7 @@
       <ITEMID>cty2013</ITEMID>
       <ITEMNAME>Fisherman - Dark Tan Vest over Orange Shirt, Olive Green Legs, Dark Blue Beanie, Dark Orange Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.78</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169799,7 +170015,7 @@
       <ITEMID>cty2014</ITEMID>
       <ITEMNAME>Surfer - Female, White Tank Top Cropped, Dark Turquoise Shorts, Black Hair Short Tousled</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.83</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169808,7 +170024,7 @@
       <ITEMID>cty2015</ITEMID>
       <ITEMNAME>Ice Cream Vendor - Female, White Shirt with Dark Turquoise Stripes, Medium Nougat Legs, Dark Orange Hair, Green Glasses</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.05</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169855,6 +170071,33 @@
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.32</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>njo1089</ITEMID>
+      <ITEMNAME>Nya - Dragons Rising, Tunic with Dragon Head, Hair, Belt Scabbard</ITEMNAME>
+      <CATEGORY>759</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>4.22</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2021</ITEMID>
+      <ITEMNAME>Mountain Bike Cyclist - Male, Blue Jacket with Dark Blue and Lime Diagonal Stripes, Dark Blue Legs, Reddish Brown Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.57</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2022</ITEMID>
+      <ITEMNAME>Mountain Bike Cyclist -  Female, Dark Turquoise Jacket, Dark Purple Legs, Dark Brown Ponytail</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.63</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
