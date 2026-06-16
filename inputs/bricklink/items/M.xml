@@ -46344,7 +46344,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>twn137</ITEMID>
-      <ITEMNAME>Female Corset with Gold Panel Front and Lace Up Back Pattern, Dark Red Legs, Reddish Brown Female Hair over Shoulder</ITEMNAME>
+      <ITEMNAME>Pet Shop Customer - Female, Corset with Gold Panel Front and Lace Up Back, Dark Red Legs, Reddish Brown Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2011</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -55191,7 +55191,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>twn180</ITEMID>
-      <ITEMNAME>Female Guest</ITEMNAME>
+      <ITEMNAME>Palace Cinema Guest - Female, Corset with Gold Panel Front and Lace Up Back, Red Legs, Reddish Brown Hair over Shoulder</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>3.79</ITEMWEIGHT>
@@ -169619,7 +169619,7 @@
       <ITEMID>jw144</ITEMID>
       <ITEMNAME>Dr. Gerry Harding</ITEMNAME>
       <CATEGORY>850</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.6</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169895,6 +169895,33 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sc147</ITEMID>
+      <ITEMNAME>Ken Block</ITEMNAME>
+      <CATEGORY>842</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.74</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sc148</ITEMID>
+      <ITEMNAME>Brian O&amp;#39;Conner</ITEMNAME>
+      <CATEGORY>842</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp630</ITEMID>
+      <ITEMNAME>Sirius Black - Dark Brown Hair, Sand Blue Jacket over Tattered Striped Shirt, Printed Legs</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.8</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hp631</ITEMID>
       <ITEMNAME>Harry Potter - Light Bluish Gray Hoodie Open, Sand Blue Legs</ITEMNAME>
       <CATEGORY>227</CATEGORY>
@@ -169979,7 +170006,7 @@
       <ITEMID>njo1088</ITEMID>
       <ITEMNAME>Zane - Dragons Rising, Tunic with Dragon Head, No Armor</ITEMNAME>
       <CATEGORY>759</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.45</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170030,6 +170057,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp637</ITEMID>
+      <ITEMNAME>Albus Dumbledore - Dark Red Robe with Copper Leaves, White Hair, Printed Arms</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.8</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty2016</ITEMID>
       <ITEMNAME>Pizza Delivery Driver - Female, Dark Red Legs, Dark Brown Hair Mid-Length</ITEMNAME>
       <CATEGORY>67</CATEGORY>
@@ -170071,6 +170107,24 @@
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.32</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dp243</ITEMID>
+      <ITEMNAME>Rapunzel - Micro Doll, Lavender Dress</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>2.34</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dp244</ITEMID>
+      <ITEMNAME>Flynn Rider - Micro Doll, Dark Turquoise Jacket</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>1.85</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
