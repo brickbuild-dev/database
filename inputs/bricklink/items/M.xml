@@ -161157,7 +161157,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1433</ITEMID>
-      <ITEMNAME>Jango Fett - Nougat Head, Plain Arms</ITEMNAME>
+      <ITEMNAME>Jango Fett - Nougat Head, Plain Arms, Helmet with Black Detail Lines on Right Side</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>4.2</ITEMWEIGHT>
@@ -168204,7 +168204,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>bdp305</ITEMID>
-      <ITEMNAME>Gold Mine Miner - Female, Medium Nougat Overalls over Sand Green Shirt, Dark Tan Legs with Molded Reddish Brown Boots, Dark Brown Fedora</ITEMNAME>
+      <ITEMNAME>Gold Mine Miner - Female, Medium Nougat Overalls over Sand Green Shirt, Reddish Brown Boots, Dark Brown Fedora</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.73</ITEMWEIGHT>
@@ -169085,6 +169085,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1433a</ITEMID>
+      <ITEMNAME>Jango Fett - Nougat Head, Plain Arms, Helmet with Black Detail Lines on Left Side</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>edi008</ITEMID>
       <ITEMNAME>Soccer Player - Female, US Team, Stripes Jersey</ITEMNAME>
       <CATEGORY>1359</CATEGORY>
@@ -169323,7 +169332,7 @@
       <ITEMNAME>General Cryptor - Legacy</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>4.33</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -169679,6 +169688,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>njo1081</ITEMID>
+      <ITEMNAME>Wyldfyre - Gold Chest Armor, Shoulder Armor, Belt Scabbard</ITEMNAME>
+      <CATEGORY>759</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh1130</ITEMID>
       <ITEMNAME>Hawkeye - Black Suit, Quiver</ITEMNAME>
       <CATEGORY>768</CATEGORY>
@@ -169747,6 +169765,15 @@
       <CATEGORY>1309</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>3.79</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>njo1082</ITEMID>
+      <ITEMNAME>Oni Warrior - Sand Blue Torso, Black Legs</ITEMNAME>
+      <CATEGORY>759</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.87</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -169977,7 +170004,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1087</ITEMID>
-      <ITEMNAME>Oni Warrior - Legends</ITEMNAME>
+      <ITEMNAME>Oni Warrior - Blue Violet Torso, Reddish Brown Legs</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.93</ITEMWEIGHT>
@@ -170062,6 +170089,15 @@
       <CATEGORY>227</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>4.8</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>fst057</ITEMID>
+      <ITEMNAME>Mine Cart Driver - Female, Medium Nougat Overalls over Sand Green Shirt, Reddish Brown Boots, Dark Brown Fedora</ITEMNAME>
+      <CATEGORY>545</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.76</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -170152,6 +170188,15 @@
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.63</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dp245</ITEMID>
+      <ITEMNAME>Cinderella - Bright Light Blue and Metallic Light Blue Dress, Bright Light Orange Hair, Reddish Brown Eyebrows</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>2.89</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
