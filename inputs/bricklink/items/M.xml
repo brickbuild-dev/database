@@ -134337,7 +134337,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>frnd0588</ITEMID>
-      <ITEMNAME>Friends Olly - White Paisley Shirt, Lavender Shoulder Bag, Light Bluish Gray Trousers, Dark Blue Shoes</ITEMNAME>
+      <ITEMNAME>Friends Olly - White Paisley T-Shirt, Lavender Shoulder Bag, Light Bluish Gray Trousers, Dark Blue Shoes</ITEMNAME>
       <CATEGORY>771</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>2.7</ITEMWEIGHT>
@@ -169088,7 +169088,7 @@
       <ITEMID>sw1433a</ITEMID>
       <ITEMNAME>Jango Fett - Nougat Head, Plain Arms, Helmet with Black Detail Lines on Left Side</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>4.2</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169482,7 +169482,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>dis206</ITEMID>
-      <ITEMNAME>Main Street, U.S.A. Park Guest Child - Boy, Toy Story Sweater with Alien and Rocket on Back, Dark Green Short Legs</ITEMNAME>
+      <ITEMNAME>Main Street, U.S.A. Park Guest Child - Boy, Toy Story Shirt with Alien and Rocket on Back, Dark Green Short Legs</ITEMNAME>
       <CATEGORY>878</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.24</ITEMWEIGHT>
@@ -169518,7 +169518,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>dis210</ITEMID>
-      <ITEMNAME>Main Street, U.S.A. Park Guest - Male, Medium Azure Stitch Sweater with Surfboard on Back, Dark Blue Legs</ITEMNAME>
+      <ITEMNAME>Main Street, U.S.A. Park Guest - Male, Medium Azure Stitch Shirt with Surfboard on Back, Dark Blue Legs</ITEMNAME>
       <CATEGORY>878</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.5</ITEMWEIGHT>
@@ -170096,7 +170096,7 @@
       <ITEMID>fst057</ITEMID>
       <ITEMNAME>Mine Cart Driver - Female, Medium Nougat Overalls over Sand Green Shirt, Reddish Brown Boots, Dark Brown Fedora</ITEMNAME>
       <CATEGORY>545</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>3.76</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170195,8 +170195,53 @@
       <ITEMID>dp245</ITEMID>
       <ITEMNAME>Cinderella - Bright Light Blue and Metallic Light Blue Dress, Bright Light Orange Hair, Reddish Brown Eyebrows</ITEMNAME>
       <CATEGORY>878</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>2.89</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1139</ITEMID>
+      <ITEMNAME>Hotdog Vendor</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1134</ITEMID>
+      <ITEMNAME>Spider-Man - Suit with Dark Azure Highlights, Printed Dark Blue Arms, Red Boots</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.1</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1138</ITEMID>
+      <ITEMNAME>Hulk - Giant, Reddish Brown Pants with Frayed Edges</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>30.85</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0897</ITEMID>
+      <ITEMNAME>Friends Aliya - Sand Blue Vest, Blue Skirt, Metallic Light Blue Shoes</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.38</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0898</ITEMID>
+      <ITEMNAME>Friends Olly - White T-Shirt Checkered with Pizza Slice, Dark Orange Shorts, Metallic Light Blue Shoes, Red Hat</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>2.87</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
