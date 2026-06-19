@@ -11082,7 +11082,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>cal90usbc</ITEMID>
-      <ITEMNAME>Calendar, 1990 Official Builders Club (US)</ITEMNAME>
+      <ITEMNAME>Calendar, 1990 - The Official Builders Club &amp;#40;US&amp;#41;</ITEMNAME>
       <CATEGORY>1113</CATEGORY>
       <ITEMYEAR>1990</ITEMYEAR>
       <ITEMWEIGHT>70</ITEMWEIGHT>
@@ -12279,7 +12279,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>cal92usbc</ITEMID>
-      <ITEMNAME>Calendar, 1992 Official Builders Club (US)</ITEMNAME>
+      <ITEMNAME>Calendar, 1992 - Official Builders Club, Time Travelers &amp;#40;US&amp;#41;</ITEMNAME>
       <CATEGORY>1113</CATEGORY>
       <ITEMYEAR>1992</ITEMYEAR>
       <ITEMWEIGHT>67</ITEMWEIGHT>
@@ -12450,7 +12450,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>cal91usbc</ITEMID>
-      <ITEMNAME>Calendar, 1991 &amp;#40;Birthday Surprise - Exclusive for LEGO Builders Club&amp;#41;</ITEMNAME>
+      <ITEMNAME>Calendar, 1991 - Official Builders Club, Birthday Surprise &amp;#40;US&amp;#41;</ITEMNAME>
       <CATEGORY>1113</CATEGORY>
       <ITEMYEAR>1991</ITEMYEAR>
       <ITEMWEIGHT>40.27</ITEMWEIGHT>
@@ -20166,6 +20166,15 @@
       <ITEMNAME>Magnet, Minifigure Soccer Player Red/White Team with Shirt #2</ITEMNAME>
       <CATEGORY>14</CATEGORY>
       <ITEMYEAR>2006</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>93042d</ITEMID>
+      <ITEMNAME>Gewinn&amp;#39; ein Flugticket ins LEGOLAND nach Dänemark Board Game &amp;#40;93.042-D&amp;#41;</ITEMNAME>
+      <CATEGORY>252</CATEGORY>
+      <ITEMYEAR>1981</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -54592,6 +54601,15 @@
       <CATEGORY>503</CATEGORY>
       <ITEMYEAR>1991</ITEMYEAR>
       <ITEMWEIGHT>10</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>93042e</ITEMID>
+      <ITEMNAME>El gran juego de la Ciudad LEGOLAND Board Game &amp;#40;93.042-E&amp;#41;</ITEMNAME>
+      <CATEGORY>252</CATEGORY>
+      <ITEMYEAR>1981</ITEMYEAR>
+      <ITEMWEIGHT>25</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>

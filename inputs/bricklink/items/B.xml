@@ -10334,6 +10334,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b02rac04uk</ITEMID>
+      <ITEMNAME>Racers Official Guide and Comic Book - Official Racing Programme 4 &amp;#40;419.5793-GB&amp;#41;</ITEMNAME>
+      <CATEGORY>331</CATEGORY>
+      <ITEMYEAR>2002</ITEMYEAR>
+      <ITEMWEIGHT>17</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b02rac03uk</ITEMID>
+      <ITEMNAME>Racers Official Guide and Comic Book - Official Racing Programme 3 &amp;#40;419.0696-GB&amp;#41;</ITEMNAME>
+      <CATEGORY>331</CATEGORY>
+      <ITEMYEAR>2002</ITEMYEAR>
+      <ITEMWEIGHT>18</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2008uk1</ITEMID>
       <ITEMNAME>Lego Magazine UK 2008 Issue 1</ITEMNAME>
       <CATEGORY>462</CATEGORY>
@@ -14780,7 +14798,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>4179434</ITEMID>
+      <ITEMID>b02rac01es</ITEMID>
       <ITEMNAME>Racers Official Guide and Comic Book - Programa Oficial de Carreras 1 &amp;#40;417.9434-ES&amp;#41;</ITEMNAME>
       <CATEGORY>331</CATEGORY>
       <ITEMYEAR>2002</ITEMYEAR>
@@ -15257,7 +15275,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>4184387</ITEMID>
+      <ITEMID>b02rac02de</ITEMID>
       <ITEMNAME>Racers Official Guide and Comic Book - Offizielles Racing-Programm 2 (418.4387-DE)</ITEMNAME>
       <CATEGORY>331</CATEGORY>
       <ITEMYEAR>2002</ITEMYEAR>
@@ -18641,7 +18659,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>4179431</ITEMID>
+      <ITEMID>b02rac01de</ITEMID>
       <ITEMNAME>Racers Official Guide and Comic Book - Offizielles Racing-Programm 1 &amp;#40;417.9431-DE&amp;#41;</ITEMNAME>
       <CATEGORY>331</CATEGORY>
       <ITEMYEAR>2002</ITEMYEAR>
@@ -51581,7 +51599,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>4193889</ITEMID>
+      <ITEMID>b02rac04de</ITEMID>
       <ITEMNAME>Racers Official Guide and Comic Book - Offizielles Racing-Programm 4 &amp;#40;419.3889-DE&amp;#41;</ITEMNAME>
       <CATEGORY>331</CATEGORY>
       <ITEMYEAR>2002</ITEMYEAR>
@@ -54065,6 +54083,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b02rac04cz</ITEMID>
+      <ITEMNAME>Racers Official Guide and Comic Book - Závodní program &amp;#40;419.2769-CZ&amp;#41;</ITEMNAME>
+      <CATEGORY>331</CATEGORY>
+      <ITEMYEAR>2002</ITEMYEAR>
+      <ITEMWEIGHT>20</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2022cty05nl</ITEMID>
       <ITEMNAME>City Magazine 2022 Issue 5 &amp;#40;Dutch&amp;#41;</ITEMNAME>
       <CATEGORY>1021</CATEGORY>
@@ -55681,6 +55708,15 @@
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT>310</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b02rac04pl</ITEMID>
+      <ITEMNAME>Racers Official Guide and Comic Book - Część 4</ITEMNAME>
+      <CATEGORY>331</CATEGORY>
+      <ITEMYEAR>2002</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
