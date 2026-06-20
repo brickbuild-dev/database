@@ -170204,7 +170204,7 @@
       <ITEMID>sh1139</ITEMID>
       <ITEMNAME>Hotdog Vendor</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170222,7 +170222,7 @@
       <ITEMID>sh1138</ITEMID>
       <ITEMNAME>Hulk - Giant, Reddish Brown Pants with Frayed Edges</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>30.85</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170242,6 +170242,24 @@
       <CATEGORY>771</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>2.87</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0899</ITEMID>
+      <ITEMNAME>Friends Liann - Reddish Orange and White Top, Medium Lavender Trousers Bell-Bottoms, Dark Turquoise Shoes</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.12</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0900</ITEMID>
+      <ITEMNAME>Friends Nova - Dark Turquoise Sleeveless Hoodie, Dark Blue Trousers Bell-Bottoms, Dark Tan Shoes, Sunglasses</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.25</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
