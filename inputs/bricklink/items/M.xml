@@ -29685,7 +29685,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>47205pb017</ITEMID>
-      <ITEMNAME>Duplo Figure Lego Ville, Child Girl, White Legs, Bright Light Blue Top with Heart Pattern, Blond Hair (Princess)</ITEMNAME>
+      <ITEMNAME>Duplo Figure Lego Ville, Child Girl, White Legs, Bright Light Blue Top with Heart Pattern, Blond Hair &amp;#40;Princess&amp;#41; &amp;#40;4500263&amp;#41;</ITEMNAME>
       <CATEGORY>167</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>11.73</ITEMWEIGHT>
@@ -30459,7 +30459,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>47394pb079</ITEMID>
-      <ITEMNAME>Duplo Figure Lego Ville, Male, Light Blue Legs, Sand Blue Top with Strap, Gold Crown and Medium Blue Heart, Black Hair</ITEMNAME>
+      <ITEMNAME>Duplo Figure Lego Ville, Male, Light Blue Legs, Sand Blue Top with Strap, Gold Crown and Medium Blue Heart, Black Hair &amp;#40;4273721&amp;#41;</ITEMNAME>
       <CATEGORY>167</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>15.34</ITEMWEIGHT>
@@ -170260,6 +170260,42 @@
       <CATEGORY>771</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.25</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>fst058</ITEMID>
+      <ITEMNAME>Child - Boy, Classic Space Shirt with Minifigure Floating and Back Print, Dark Azure Short Legs, Dark Brown Hair Short Wavy, Parted on Right, Freckles and Chin Dimple, Open Mouth Smile with Top Teeth and Red Tongue Pattern</ITEMNAME>
+      <CATEGORY>545</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0901</ITEMID>
+      <ITEMNAME>Friends Nova - White Hoodie with Coral Hood, Dark Turquoise Shorts, Black Boots</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.18</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0902</ITEMID>
+      <ITEMNAME>Friends Zac - Yellow Overalls with Cropped Trousers, Dark Green Sandals</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>2.94</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0903</ITEMID>
+      <ITEMNAME>Friends Liann - Coral and Dark Turquoise Vest, Medium Lavender Trousers Bell-Bottoms, Dark Turquoise Shoes, Terrified</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.12</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>

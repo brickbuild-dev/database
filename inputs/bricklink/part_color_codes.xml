@@ -143924,6 +143924,12 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>3069pb1502</ITEMID>
+      <COLOR>Medium Lavender</COLOR>
+      <CODENAME>6581624</CODENAME>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3069pc1</ITEMID>
       <COLOR>Dark Bluish Gray</COLOR>
       <CODENAME>4221879</CODENAME>
@@ -275969,6 +275975,24 @@
       <ITEMID>6330pb13</ITEMID>
       <COLOR>White</COLOR>
       <CODENAME>6542151</CODENAME>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>6330pb14</ITEMID>
+      <COLOR>Medium Azure</COLOR>
+      <CODENAME>6581625</CODENAME>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>6330pb15</ITEMID>
+      <COLOR>Yellow</COLOR>
+      <CODENAME>6581535</CODENAME>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>6330pb16</ITEMID>
+      <COLOR>Medium Nougat</COLOR>
+      <CODENAME>6594348</CODENAME>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -461426,6 +461450,12 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>43017stk01</ITEMID>
+      <COLOR>(Not Applicable)</COLOR>
+      <CODENAME>6614382</CODENAME>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>43017stk02</ITEMID>
       <COLOR>(Not Applicable)</COLOR>
       <CODENAME>6619649</CODENAME>
@@ -638924,6 +638954,12 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>dupskirt05</ITEMID>
+      <COLOR>Bright Pink</COLOR>
+      <CODENAME>4497523</CODENAME>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>dupskirt08</ITEMID>
       <COLOR>Bright Light Blue</COLOR>
       <CODENAME>4652245</CODENAME>
@@ -640109,6 +640145,12 @@
       <ITEMID>FTBpb160c01</ITEMID>
       <COLOR>Medium Tan</COLOR>
       <CODENAME>6600710</CODENAME>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>FTBpb161c01</ITEMID>
+      <COLOR>Reddish Brown</COLOR>
+      <CODENAME>6610375</CODENAME>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>

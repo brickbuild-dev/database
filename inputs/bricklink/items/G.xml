@@ -217728,4 +217728,40 @@
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>45830map</ITEMID>
+      <ITEMNAME>Playmat, FIRST LEGO League &amp;#40;FLL&amp;#41; - Set 45830 Unearthed</ITEMNAME>
+      <CATEGORY>545</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>136</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>bricklink01</ITEMID>
+      <ITEMNAME>Sticker, &amp;#39;BrickLink&amp;#39; Wordmark on Medium Blue Background</ITEMNAME>
+      <CATEGORY>1017</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>0.27</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>bricklink02</ITEMID>
+      <ITEMNAME>Sticker, &amp;#39;BrickLink&amp;#39; Wordmark and Parrot on Medium Blue Background</ITEMNAME>
+      <CATEGORY>1017</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>0.58</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>bricklink03</ITEMID>
+      <ITEMNAME>Lanyard with BrickLink Wordmark and Parrot</ITEMNAME>
+      <CATEGORY>1111</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>15.75</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
 </CATALOG>
