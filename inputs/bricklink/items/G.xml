@@ -10182,7 +10182,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>4960</ITEMID>
-      <ITEMNAME>Storage Case with Two Sliding Latches (Small)</ITEMNAME>
+      <ITEMNAME>Storage Case with Sliding Latches and Debossed LEGO Logo &amp;#40;Small&amp;#41;</ITEMNAME>
       <CATEGORY>399</CATEGORY>
       <ITEMYEAR>1985</ITEMYEAR>
       <ITEMWEIGHT>370</ITEMWEIGHT>
@@ -22386,7 +22386,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>4962</ITEMID>
-      <ITEMNAME>Storage Case with Two Sliding Latches (Large)</ITEMNAME>
+      <ITEMNAME>Storage Case with Sliding Latches and Debossed LEGO Logo &amp;#40;Large&amp;#41;</ITEMNAME>
       <CATEGORY>399</CATEGORY>
       <ITEMYEAR>1985</ITEMYEAR>
       <ITEMWEIGHT>550</ITEMWEIGHT>
@@ -35669,6 +35669,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>8113backdrop</ITEMID>
+      <ITEMNAME>Paper Cardboard Backdrop for Set 8113</ITEMNAME>
+      <CATEGORY>1008</CATEGORY>
+      <ITEMYEAR>2008</ITEMYEAR>
+      <ITEMWEIGHT>30</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>4524535</ITEMID>
       <ITEMNAME>Magnet Set, Minifigures Indiana Jones &amp;#40;3&amp;#41; - Indiana Jones, Marion, Professor Henry Jones blister pack</ITEMNAME>
       <CATEGORY>14</CATEGORY>
@@ -37006,6 +37015,15 @@
       <CATEGORY>683</CATEGORY>
       <ITEMYEAR>2009</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>8114backdrop</ITEMID>
+      <ITEMNAME>Paper Cardboard Backdrop for Set 8114</ITEMNAME>
+      <CATEGORY>1008</CATEGORY>
+      <ITEMYEAR>2008</ITEMYEAR>
+      <ITEMWEIGHT>30</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -64690,6 +64708,15 @@
       <CATEGORY>848</CATEGORY>
       <ITEMYEAR>2006</ITEMYEAR>
       <ITEMWEIGHT>1800</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>8115backdrop</ITEMID>
+      <ITEMNAME>Paper Cardboard Backdrop for Set 8115</ITEMNAME>
+      <CATEGORY>1008</CATEGORY>
+      <ITEMYEAR>2008</ITEMYEAR>
+      <ITEMWEIGHT>31.2</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>

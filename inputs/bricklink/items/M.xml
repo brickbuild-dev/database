@@ -63003,7 +63003,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0583</ITEMID>
-      <ITEMNAME>Imperial Navy Trooper - Nougat Head</ITEMNAME>
+      <ITEMNAME>Imperial Navy Trooper - Light Nougat Head</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2014</ITEMYEAR>
       <ITEMWEIGHT>3.8</ITEMWEIGHT>
@@ -170042,7 +170042,7 @@
       <ITEMID>min262</ITEMID>
       <ITEMNAME>Netherite Blacksmith</ITEMNAME>
       <CATEGORY>801</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.45</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170051,7 +170051,7 @@
       <ITEMID>min263</ITEMID>
       <ITEMNAME>Ender Knight - Dark Tan Legs, Medium Azure Armor</ITEMNAME>
       <CATEGORY>801</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.4</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170294,7 +170294,7 @@
       <ITEMID>twn551</ITEMID>
       <ITEMNAME>Child - Boy, Dark Turquoise Jacket with Dark Green Panel, Dark Turquoise Short Legs, Black Hair Wavy</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.22</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170303,7 +170303,7 @@
       <ITEMID>twn552</ITEMID>
       <ITEMNAME>Child - Girl, White Sweater with Red Horizontal Stripes, Dark Blue Short Legs, Dark Orange Tousled and Layered Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.18</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170312,7 +170312,7 @@
       <ITEMID>twn553</ITEMID>
       <ITEMNAME>Food Vendor - Male, White Shirt with Dark Turquoise Stripes, Dark Pink Legs, White Butcher / Food Service Cap</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.35</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170321,7 +170321,7 @@
       <ITEMID>twn554</ITEMID>
       <ITEMNAME>Ferris Wheel Operator - Female, Yellowish Green Jacket over White Shirt, Medium Azure Legs, Bright Light Yellow Hair Ponytail, Hearing Aid</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.65</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170330,7 +170330,7 @@
       <ITEMID>cty2027</ITEMID>
       <ITEMNAME>Train Driver - Male, Bright Light Blue Shirt, Dark Blue Overalls and Legs, Reddish Brown Flat Cap</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.57</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170339,7 +170339,7 @@
       <ITEMID>cty2026</ITEMID>
       <ITEMNAME>Passenger - Boy, Tan Knit Cable Sweater, Dark Blue Medium Legs, Reddish Brown Tousled Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.48</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170348,7 +170348,7 @@
       <ITEMID>cty2025</ITEMID>
       <ITEMNAME>Passenger - Female, Tan Knit Argyle Sweater Vest, Reddish Brown Legs, Dark Orange Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.85</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170357,7 +170357,7 @@
       <ITEMID>cty2024</ITEMID>
       <ITEMNAME>Passenger - Male, Light Bluish Gray Knit Cable Cardigan Sweater, Dark Brown Legs, Light Bluish Gray Hair Swept Back</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.79</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170366,7 +170366,7 @@
       <ITEMID>cty2023</ITEMID>
       <ITEMNAME>Station Master - Female, Sand Blue Vest over White Shirt, Dark Blue Legs, Bright Light Yellow Ponytail</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.63</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170375,7 +170375,7 @@
       <ITEMID>pi200</ITEMID>
       <ITEMNAME>Pirate - Female, Black Top with Red and White Striped Bandana, Dark Red Legs, Dark Brown Hair</ITEMNAME>
       <CATEGORY>61</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.28</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170384,7 +170384,7 @@
       <ITEMID>pi201</ITEMID>
       <ITEMNAME>Pirate - Male, White Shirt with Tattered Hem and Blue Stripes, Dark Orange Shorts, Full Beard, Red Bandana</ITEMNAME>
       <CATEGORY>61</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.53</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170393,7 +170393,7 @@
       <ITEMID>pi202</ITEMID>
       <ITEMNAME>Pirate - Female, Dark Red Vest over White Shirt, Dark Blue Legs with Sash, Red Plume, Black Tricorne, Reddish Brown Hair</ITEMNAME>
       <CATEGORY>61</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.05</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170402,7 +170402,7 @@
       <ITEMID>pi203</ITEMID>
       <ITEMNAME>Pirate Captain - Male, Pearl Gold Epaulettes, Red Coat with White Ruffled Collar, Black Leg and Reddish Brown Peg Leg, White Plume, Black Bicorne with Skull and Cutlasses</ITEMNAME>
       <CATEGORY>61</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.83</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170413,6 +170413,15 @@
       <CATEGORY>801</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>3.67</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>edi010</ITEMID>
+      <ITEMNAME>Oscar Piastri</ITEMNAME>
+      <CATEGORY>1359</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.65</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -170447,7 +170456,7 @@
       <ITEMID>frnd0904</ITEMID>
       <ITEMNAME>Friends Nova - Dark Turquoise Sleeveless Hoodie, Dark Blue Trousers Bell-Bottoms, Dark Tan Shoes</ITEMNAME>
       <CATEGORY>771</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.23</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170456,8 +170465,17 @@
       <ITEMID>frnd0905</ITEMID>
       <ITEMNAME>Friends Leo - Blue Sleeveless Shirt with Spiral, Reddish Orange Shorts, Dark Turquoise Shoes</ITEMNAME>
       <CATEGORY>771</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>2.85</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1136</ITEMID>
+      <ITEMNAME>Boomerang &amp;#40;Fred Myers&amp;#41;</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.42</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -170519,7 +170537,7 @@
       <ITEMID>frnd0906</ITEMID>
       <ITEMNAME>Friends Liann - Coral and Dark Turquoise Vest, Orange Skirt, Medium Lavender Shoes</ITEMNAME>
       <CATEGORY>771</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.1</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170528,7 +170546,7 @@
       <ITEMID>frnd0907</ITEMID>
       <ITEMNAME>Friends Aliya - Sand Blue Vest, White Skirt, Tan Sandals</ITEMNAME>
       <CATEGORY>771</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.42</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170537,8 +170555,80 @@
       <ITEMID>frnd0908</ITEMID>
       <ITEMNAME>Friends Autumn - Medium Lavender Tank Top, Sand Green Trousers Bell-Bottoms, Medium Nougat Shoes</ITEMNAME>
       <CATEGORY>771</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>2.98</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2028</ITEMID>
+      <ITEMNAME>Lava Land Patron - Male, Lime Sleeveless Hoodie, Green Legs, Tan Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.6</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2029</ITEMID>
+      <ITEMNAME>Lava Land Worker - Female, Blue Overalls and Legs, Bright Light Yellow Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.65</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2030</ITEMID>
+      <ITEMNAME>Lava Land Patron - Male, White Hawaiian Shirt, Tan Legs, Reddish Brown Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.58</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2031</ITEMID>
+      <ITEMNAME>Lava Land Patron - Child, Girl, Bright Light Blue Denim Jacket over Shirt with Record, White Short Legs, Black Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.33</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2032</ITEMID>
+      <ITEMNAME>Lava Land Patron - Female, Reddish Brown Jacket, Dark Pink Legs, Dark Brown Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.66</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2033</ITEMID>
+      <ITEMNAME>Lava Land Patron - Child, Male, White Shirt with Mountains Logo, Dark Bluish Gray Short Legs, Lanyard, Medium Azure Cap</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.18</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2034</ITEMID>
+      <ITEMNAME>Lava Land Worker - Male, Blue Overalls and Legs, Lime Mining Helmet</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.6</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2035</ITEMID>
+      <ITEMNAME>Lava Land Patron - Female, Lavender Sleeveless Top, Dark Purple Legs, Black Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.78</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
