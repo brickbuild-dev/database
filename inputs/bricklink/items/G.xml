@@ -215931,7 +215931,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>njo02deLE01</ITEMID>
-      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # LE01 Legendärer Kai Limited Edition</ITEMNAME>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # LE1 Legendärer Kai Limited Edition</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
@@ -215940,7 +215940,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>njo02deLE02</ITEMID>
-      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # LE02 Legendärer Jay Limited Edition</ITEMNAME>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # LE2 Legendärer Jay Limited Edition</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
@@ -215949,7 +215949,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>njo02deLE04</ITEMID>
-      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # LE04 NRG Cole Limited Edition</ITEMNAME>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # LE4 NRG Cole Limited Edition</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
@@ -215958,7 +215958,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>njo02deLE06</ITEMID>
-      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # LE06 Ninja Team Limited Edition</ITEMNAME>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # LE6 Ninja Team Limited Edition</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
@@ -215967,7 +215967,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>njo02deLE07</ITEMID>
-      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # LE07 Weiser Wu Limited Edition</ITEMNAME>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # LE7 Weiser Wu Limited Edition</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
@@ -215976,7 +215976,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>njo02deLE09</ITEMID>
-      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # LE09 Team Kai &amp; Nya Limited Edition</ITEMNAME>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # LE9 Team Kai &amp; Nya Limited Edition</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
@@ -217771,6 +217771,15 @@
       <CATEGORY>998</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>136</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11deLE07</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # LE7 Wilder Arin Limited Edition</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>

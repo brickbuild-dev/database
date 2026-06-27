@@ -112188,7 +112188,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hp251</ITEMID>
-      <ITEMNAME>George Weasley - Reddish Brown Suit, Dark Orange Tie, Smiling / Laughing Head</ITEMNAME>
+      <ITEMNAME>George Weasley - Reddish Brown Suit, Dark Orange Tie, Smiling / Laughing</ITEMNAME>
       <CATEGORY>227</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>3.4</ITEMWEIGHT>
@@ -112197,7 +112197,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hp252</ITEMID>
-      <ITEMNAME>Fred Weasley - Reddish Brown Suit, Dark Red Tie, Grin / Smiling Head</ITEMNAME>
+      <ITEMNAME>Fred Weasley - Reddish Brown Suit, Dark Red Tie, Grin / Smiling</ITEMNAME>
       <CATEGORY>227</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>3.4</ITEMWEIGHT>
@@ -120369,7 +120369,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hp314</ITEMID>
-      <ITEMNAME>Harry Potter - Gryffindor Robe Open, Black Short Legs, Grin / Scared Head</ITEMNAME>
+      <ITEMNAME>Harry Potter - Gryffindor Robe Open, Black Short Legs, Grin / Scared</ITEMNAME>
       <CATEGORY>227</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -128595,7 +128595,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hp365</ITEMID>
-      <ITEMNAME>Hermione Granger - Bright Pink Jacket with Stains, Angry / Scared Head</ITEMNAME>
+      <ITEMNAME>Hermione Granger - Bright Pink Jacket with Stains, Angry / Scared</ITEMNAME>
       <CATEGORY>227</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT>4.51</ITEMWEIGHT>
@@ -169016,7 +169016,7 @@
       <ITEMID>njo1074</ITEMID>
       <ITEMNAME>Zilvar</ITEMNAME>
       <CATEGORY>759</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.66</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -169943,7 +169943,7 @@
       <ITEMID>hp630</ITEMID>
       <ITEMNAME>Sirius Black - Dark Brown Hair, Sand Blue Jacket over Tattered Striped Shirt, Printed Legs</ITEMNAME>
       <CATEGORY>227</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.8</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170105,7 +170105,7 @@
       <ITEMID>hp637</ITEMID>
       <ITEMNAME>Albus Dumbledore - Dark Red Robe with Copper Leaves, White Hair, Printed Arms</ITEMNAME>
       <CATEGORY>227</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.8</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170420,7 +170420,7 @@
       <ITEMID>edi010</ITEMID>
       <ITEMNAME>Oscar Piastri</ITEMNAME>
       <CATEGORY>1359</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.65</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170474,8 +170474,26 @@
       <ITEMID>sh1136</ITEMID>
       <ITEMNAME>Boomerang &amp;#40;Fred Myers&amp;#41;</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.42</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1135</ITEMID>
+      <ITEMNAME>Tarantula &amp;#40;Anton Miguel Rodriguez&amp;#41;</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.17</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1137</ITEMID>
+      <ITEMNAME>Scorpion &amp;#40;Mac Gargan&amp;#41;</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>5.83</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -170564,7 +170582,7 @@
       <ITEMID>cty2028</ITEMID>
       <ITEMNAME>Lava Land Patron - Male, Lime Sleeveless Hoodie, Green Legs, Tan Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.6</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170573,7 +170591,7 @@
       <ITEMID>cty2029</ITEMID>
       <ITEMNAME>Lava Land Worker - Female, Blue Overalls and Legs, Bright Light Yellow Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.65</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170582,7 +170600,7 @@
       <ITEMID>cty2030</ITEMID>
       <ITEMNAME>Lava Land Patron - Male, White Hawaiian Shirt, Tan Legs, Reddish Brown Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.58</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170591,7 +170609,7 @@
       <ITEMID>cty2031</ITEMID>
       <ITEMNAME>Lava Land Patron - Child, Girl, Bright Light Blue Denim Jacket over Shirt with Record, White Short Legs, Black Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.33</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170600,7 +170618,7 @@
       <ITEMID>cty2032</ITEMID>
       <ITEMNAME>Lava Land Patron - Female, Reddish Brown Jacket, Dark Pink Legs, Dark Brown Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.66</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170609,7 +170627,7 @@
       <ITEMID>cty2033</ITEMID>
       <ITEMNAME>Lava Land Patron - Child, Male, White Shirt with Mountains Logo, Dark Bluish Gray Short Legs, Lanyard, Medium Azure Cap</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.18</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170618,7 +170636,7 @@
       <ITEMID>cty2034</ITEMID>
       <ITEMNAME>Lava Land Worker - Male, Blue Overalls and Legs, Lime Mining Helmet</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.6</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170627,7 +170645,7 @@
       <ITEMID>cty2035</ITEMID>
       <ITEMNAME>Lava Land Patron - Female, Lavender Sleeveless Top, Dark Purple Legs, Black Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.78</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
