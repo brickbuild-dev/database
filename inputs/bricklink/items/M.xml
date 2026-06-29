@@ -94170,7 +94170,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>colhp13</ITEMID>
-      <ITEMNAME>Professor Flitwick, Harry Potter, Series 1 &amp;#40;Minifigure Only without Stand and Accessories&amp;#41;</ITEMNAME>
+      <ITEMNAME>Professor Filius Flitwick, Harry Potter, Series 1 &amp;#40;Minifigure Only without Stand and Accessories&amp;#41;</ITEMNAME>
       <CATEGORY>746</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
       <ITEMWEIGHT>3.2</ITEMWEIGHT>
@@ -94278,7 +94278,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>colhp11</ITEMID>
-      <ITEMNAME>Professor Trelawney, Harry Potter, Series 1 &amp;#40;Minifigure Only without Stand and Accessories&amp;#41;</ITEMNAME>
+      <ITEMNAME>Professor Sybill Trelawney, Harry Potter, Series 1 &amp;#40;Minifigure Only without Stand and Accessories&amp;#41;</ITEMNAME>
       <CATEGORY>746</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
       <ITEMWEIGHT>5.41</ITEMWEIGHT>
@@ -170647,6 +170647,33 @@
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.78</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2038</ITEMID>
+      <ITEMNAME>Car Wash Human Billboard</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>6.6</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2036</ITEMID>
+      <ITEMNAME>Car Wash Patron - Male, Dark Brown Jacket over Red Hawaiian Shirt, Sand Blue Legs, Dark Brown Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2037</ITEMID>
+      <ITEMNAME>Car Wash Patron - Female, Dark Turquoise Track Suit, Black Legs, Dark Brown Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.42</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
