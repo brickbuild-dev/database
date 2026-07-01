@@ -169251,7 +169251,7 @@
       <ITEMNAME>Ginger Gunner</ITEMNAME>
       <CATEGORY>1309</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT>3.62</ITEMWEIGHT>
+      <ITEMWEIGHT>3.66</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -170246,6 +170246,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>njo1083</ITEMID>
+      <ITEMNAME>Master Ivo</ITEMNAME>
+      <CATEGORY>759</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.55</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>frnd0897</ITEMID>
       <ITEMNAME>Friends Aliya - Sand Blue Vest, Blue Skirt, Metallic Light Blue Shoes</ITEMNAME>
       <CATEGORY>771</CATEGORY>
@@ -170462,6 +170471,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>gen198</ITEMID>
+      <ITEMNAME>Leonardo da Vinci - Black Beret, Neck Bracket</ITEMNAME>
+      <CATEGORY>983</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.86</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>frnd0904</ITEMID>
       <ITEMNAME>Friends Nova - Dark Turquoise Sleeveless Hoodie, Dark Blue Trousers Bell-Bottoms, Dark Tan Shoes</ITEMNAME>
       <CATEGORY>771</CATEGORY>
@@ -170663,7 +170681,7 @@
       <ITEMID>sh1141</ITEMID>
       <ITEMNAME>Tombstone</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.51</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170672,7 +170690,7 @@
       <ITEMID>sh1142</ITEMID>
       <ITEMNAME>Prison DODC Guard</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.38</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170708,7 +170726,7 @@
       <ITEMID>cty2040</ITEMID>
       <ITEMNAME>Mobile Crane Operator - Female, Red Plaid Flannel Shirt, Dark Bluish Gray Legs, Red Construction Helmet with Dark Brown Ponytail Hair, Safety Glasses</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.62</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170717,7 +170735,7 @@
       <ITEMID>cty2039</ITEMID>
       <ITEMNAME>Truck Driver - Female, Blue Overalls over V-Neck Shirt, Blue Legs, Dark Brown Bob Cut Hair, Glasses</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.52</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170726,7 +170744,7 @@
       <ITEMID>cty2041</ITEMID>
       <ITEMNAME>Train Worker - Male, Neon Yellow Safety Vest with Reflective Stripes, Dark Green Legs with Reflective Stripes, White Construction Helmet, Sunglasses</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.37</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170735,8 +170753,26 @@
       <ITEMID>cty2042</ITEMID>
       <ITEMNAME>Train Worker - Male, Neon Yellow Safety Vest with Reflective Stripes, Dark Green Legs with Reflective Stripes, White Construction Helmet, Sweat Drops</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.37</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2043</ITEMID>
+      <ITEMNAME>Fire - Male, Black Jacket and Legs with Reflective Stripes and Red Collar, Neon Yellow Flight Helmet, Trans-Clear Visor</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.65</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2044</ITEMID>
+      <ITEMNAME>Car Wash Worker - Female, Blue Overalls and Legs, Medium Azure Hat</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.4</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
