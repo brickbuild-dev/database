@@ -169026,7 +169026,7 @@
       <ITEMNAME>Empress Beatrix - Gold Chest and Leg Armor</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>3.8</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -170699,7 +170699,7 @@
       <ITEMID>frnd0909</ITEMID>
       <ITEMNAME>Friends Azurea</ITEMNAME>
       <CATEGORY>771</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.93</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170708,7 +170708,7 @@
       <ITEMID>frnd0910</ITEMID>
       <ITEMNAME>Friends Serina</ITEMNAME>
       <CATEGORY>771</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.26</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170717,8 +170717,53 @@
       <ITEMID>frnd0911</ITEMID>
       <ITEMNAME>Friends Autumn - Blue Tied Flannel Vest, Medium Lavender Shorts Folded Hem, Dark Blue Sandals</ITEMNAME>
       <CATEGORY>771</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>2.86</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0912</ITEMID>
+      <ITEMNAME>Friends Astrid - White Wedding Dress</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.75</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0913</ITEMID>
+      <ITEMNAME>Friends Petch - Dark Azure Wedding Suit</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>2.8</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0914</ITEMID>
+      <ITEMNAME>Friends Liann - White Tank Top, Medium Lavender Trousers Bell-Bottoms, Dark Turquoise Shoes</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.12</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0915</ITEMID>
+      <ITEMNAME>Friends Valentine</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>2.82</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0916</ITEMID>
+      <ITEMNAME>Friends Paisley - Medium Blue Vest, Coral Skirt Full Length</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.41</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -170827,6 +170872,24 @@
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>3.59</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sp149</ITEMID>
+      <ITEMNAME>Classic Space - Bright Light Blue with Air Tanks</ITEMNAME>
+      <CATEGORY>34</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.03</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sp150</ITEMID>
+      <ITEMNAME>Spacebaby - Classic Space, Bright Light Blue</ITEMNAME>
+      <CATEGORY>34</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>1.1</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
