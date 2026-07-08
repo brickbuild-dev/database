@@ -3468,7 +3468,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>4193354</ITEMID>
-      <ITEMNAME>Watch Set, Racers</ITEMNAME>
+      <ITEMNAME>Watch Set, Drome Racers</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>2003</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -122298,7 +122298,7 @@
       <ITEMNAME>Sticker Sheet, Star Wars Wall Stickers</ITEMNAME>
       <CATEGORY>160</CATEGORY>
       <ITEMYEAR>2015</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>36</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -201404,6 +201404,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>PFMinifigures</ITEMID>
+      <ITEMNAME>Photo Frame Minifigures - Resin</ITEMNAME>
+      <CATEGORY>521</CATEGORY>
+      <ITEMYEAR>2002</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>5009438</ITEMID>
       <ITEMNAME>Notebook with Vintage LEGO Logos &amp;#40;Hardcover&amp;#41;</ITEMNAME>
       <CATEGORY>447</CATEGORY>
@@ -205226,6 +205235,15 @@
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>149</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>bead004pb093</ITEMID>
+      <ITEMNAME>Bead, Square with Matoran Alphabet N, O, W and S Pattern &amp;#40;P1702&amp;#41;</ITEMNAME>
+      <CATEGORY>464</CATEGORY>
+      <ITEMYEAR>2001</ITEMYEAR>
+      <ITEMWEIGHT>1.2</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
@@ -217816,6 +217834,24 @@
       <CATEGORY>246</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>11.18</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6640440</ITEMID>
+      <ITEMNAME>Flyer 2026 Set 910060 Insert - Building App Link and Instructions &amp;#40;International Version&amp;#41;</ITEMNAME>
+      <CATEGORY>1104</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>11</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6639704</ITEMID>
+      <ITEMNAME>Flyer 2026 Set 910059 Insert - Building App Link and Instructions &amp;#40;International Version&amp;#41;</ITEMNAME>
+      <CATEGORY>1104</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>8.05</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
