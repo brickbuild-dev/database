@@ -170849,6 +170849,42 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0917</ITEMID>
+      <ITEMNAME>Friends Autumn - White T-Shirt with Leaves, Bright Light Orange Bell-Bottoms, Orange Shoes</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.08</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0918</ITEMID>
+      <ITEMNAME>Friends Aliya - Coral Sweater Vest, Dark Red Skirt, Medium Nougat Boots</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.4</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0919</ITEMID>
+      <ITEMNAME>Friends Zac - Bright Light Yellow Jacket with Landscape, Red Cropped Trousers, Dark Blue Shoes</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>2.93</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0920</ITEMID>
+      <ITEMNAME>Friends Astrid</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.44</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1530</ITEMID>
       <ITEMNAME>Dr. Penn Pershing</ITEMNAME>
       <CATEGORY>65</CATEGORY>
@@ -170944,6 +170980,240 @@
       <CATEGORY>1197</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.02</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp315</ITEMID>
+      <ITEMNAME>Privateer Frigate Fortuna Carpenter - Female, Reddish Brown Apron, Sand Blue Legs, Dark Blue Beanie, Dark Tan Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.77</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp316</ITEMID>
+      <ITEMNAME>Privateer Frigate Fortuna Sailor - Male, Reddish Brown Vest over Red and White Striped Shirt, Dark Orange Legs, Red Bandana</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.42</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp317</ITEMID>
+      <ITEMNAME>Privateer Frigate Fortuna Sailor - Male, Reddish Brown Vest over Red and White Striped Shirt, Dark Red Legs, Black Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.48</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp318</ITEMID>
+      <ITEMNAME>Privateer Frigate Fortuna Sailor - Male, Reddish Brown Vest over Red and White Striped Shirt, Dark Red Legs, Sand Blue Bandana</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.42</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp319</ITEMID>
+      <ITEMNAME>Privateer Frigate Fortuna Marine - Female, Tan Coat, White Legs with Black Boots, Red Epaulettes, Black Tricorne, Reddish Brown Hair, Open Mouth Crooked Smile</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.08</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp320</ITEMID>
+      <ITEMNAME>Privateer Frigate Fortuna Marine - Male, Tan Coat, White Legs with Black Boots, Red Epaulettes, Black Tricorne Hat, Black Moustache</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp321</ITEMID>
+      <ITEMNAME>Privateer Frigate Fortuna Marine - Male, Tan Coat, White Legs with Black Boots, Red Epaulettes, Black Tricorne Hat, Black Goatee</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp322</ITEMID>
+      <ITEMNAME>Privateer Frigate Fortuna Captain - Male, Tan Coat, White Legs with Black Boots, Pearl Gold Epaulettes, Black Bicorne Hat, Red Plume</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.98</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp323</ITEMID>
+      <ITEMNAME>Privateer Frigate Fortuna Marine - Female, Tan Coat, White Legs with Black Boots, Red Epaulettes, Black Tricorne, Reddish Brown Hair, Nougat Lips Smile</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.08</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp324</ITEMID>
+      <ITEMNAME>Privateer Frigate Fortuna Marine - Male, Tan Coat, White Legs with Black Boots, Red Epaulettes, Black Tricorne Hat, Lopsided Grin</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp325</ITEMID>
+      <ITEMNAME>Privateer Frigate Fortuna Figurehead</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.47</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp326</ITEMID>
+      <ITEMNAME>Privateer Frigate Fortuna Sailor - Female, Reddish Brown Vest over Red and White Striped Shirt, Olive Green Legs, Red Beanie, Bright Light Yellow Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.77</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp327</ITEMID>
+      <ITEMNAME>Privateer Frigate Fortuna Midshipman - Male, Tan Coat, White Medium Legs, Pearl Gold Epaulettes, Black Tricorne Hat</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.82</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp328</ITEMID>
+      <ITEMNAME>Privateer Frigate Fortuna Cook - Female, White Torso with 8 Buttons, Dark Bluish Gray Leg with Peg Leg, Red Bandana</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.33</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp329</ITEMID>
+      <ITEMNAME>Privateer Frigate Fortuna Lieutenant - Female, Tan Coat, White Legs with Black Boots, Pearl Gold Epaulettes, Black Bicorne Hat, Red Plume</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.86</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp330</ITEMID>
+      <ITEMNAME>Privateer Frigate Fortuna Sailor - Female, Reddish Brown Vest over Red and White Striped Shirt, Olive Green Medium Legs, Black Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.76</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp331</ITEMID>
+      <ITEMNAME>Privateer Frigate Fortuna Boatswain - Female, Dark Green Jacket, Black Legs with Reddish Brown Boots, Black Tricorne, Reddish Brown Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.93</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp332</ITEMID>
+      <ITEMNAME>Privateer Frigate Fortuna Sailmaker - Male, White Shirt with Reddish Brown Vest, Black Legs with Reddish Brown Boots, Black Hair and Moustache</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp333</ITEMID>
+      <ITEMNAME>Privateer Frigate Fortuna Sailor - Male, Reddish Brown Vest over Red and White Striped Shirt, Dark Orange Legs, Tan Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.59</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp334</ITEMID>
+      <ITEMNAME>Privateer Frigate Fortuna Captain&amp;#39;s Daughter - Medium Lavender Jacket, Dark Purple Skirt, Medium Nougat Wavy Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.88</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0921</ITEMID>
+      <ITEMNAME>Friends Autumn - Orange Sleeveless Top, Medium Lavender Shorts Folded Hem, Dark Blue Sandals</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>2.86</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0922</ITEMID>
+      <ITEMNAME>Friends Nova - Blue Sleeveless Top, Dark Turquoise Shorts, Black Boots, Sunglasses</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.25</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1143</ITEMID>
+      <ITEMNAME>Iron Man - Reddish Orange and Dark Blue Armor</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.6</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1144</ITEMID>
+      <ITEMNAME>Ironheart - Magenta Armor</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.6</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1145</ITEMID>
+      <ITEMNAME>Iron Hulk</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.15</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1146</ITEMID>
+      <ITEMNAME>Loki - Pearl Gold Armor, Flexible Rubber Cape</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>5.24</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>

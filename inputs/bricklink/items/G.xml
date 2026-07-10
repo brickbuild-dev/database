@@ -698,7 +698,7 @@
       <ITEMID>7397</ITEMID>
       <ITEMNAME>Clock Set, BIONICLE</ITEMNAME>
       <CATEGORY>336</CATEGORY>
-      <ITEMYEAR>2002</ITEMYEAR>
+      <ITEMYEAR>2001</ITEMYEAR>
       <ITEMWEIGHT>246</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -42258,7 +42258,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>clk01</ITEMID>
-      <ITEMNAME>Clock Unit, Plain with Red and Blue Numbers (Gear 4250339)</ITEMNAME>
+      <ITEMNAME>Clock Unit, Plain with Red and Blue Numbers</ITEMNAME>
       <CATEGORY>336</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -42267,7 +42267,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>clk02</ITEMID>
-      <ITEMNAME>Clock Unit, Racers Wheel Pattern (Gear 4271032)</ITEMNAME>
+      <ITEMNAME>Clock Unit, Racers Wheel Pattern</ITEMNAME>
       <CATEGORY>336</CATEGORY>
       <ITEMYEAR>2007</ITEMYEAR>
       <ITEMWEIGHT>115</ITEMWEIGHT>
@@ -42285,7 +42285,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>clk03</ITEMID>
-      <ITEMNAME>Clock Unit, Soccer Pattern (Gear 7399 / 4193357)</ITEMNAME>
+      <ITEMNAME>Clock Unit, Soccer Pattern</ITEMNAME>
       <CATEGORY>336</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>112</ITEMWEIGHT>
@@ -42294,7 +42294,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>clk04</ITEMID>
-      <ITEMNAME>Clock Unit, Knights Kingdom Pattern (Gear 4250348)</ITEMNAME>
+      <ITEMNAME>Clock Unit, Knights Kingdom Pattern</ITEMNAME>
       <CATEGORY>336</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -42312,7 +42312,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>clk05</ITEMID>
-      <ITEMNAME>Clock Unit, Alpha Team Pattern (Gear 4193351)</ITEMNAME>
+      <ITEMNAME>Clock Unit, Alpha Team Pattern</ITEMNAME>
       <CATEGORY>336</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -42321,7 +42321,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>clk06</ITEMID>
-      <ITEMNAME>Clock Unit, Star Wars Stormtrooper and Chewbacca Pattern (Gear 4426075)</ITEMNAME>
+      <ITEMNAME>Clock Unit, Star Wars Stormtrooper and Chewbacca Pattern</ITEMNAME>
       <CATEGORY>336</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>238.6</ITEMWEIGHT>
@@ -42330,7 +42330,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>clk07</ITEMID>
-      <ITEMNAME>Clock Unit, Orient Expedition Pattern (Gear 4182615)</ITEMNAME>
+      <ITEMNAME>Clock Unit, Orient Expedition Pattern</ITEMNAME>
       <CATEGORY>336</CATEGORY>
       <ITEMYEAR>2003</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -42339,7 +42339,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>clk08</ITEMID>
-      <ITEMNAME>Clock Unit, Pirate Island Pattern (Gear 4250343)</ITEMNAME>
+      <ITEMNAME>Clock Unit, Pirate Island Pattern</ITEMNAME>
       <CATEGORY>336</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -42483,7 +42483,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>clk09</ITEMID>
-      <ITEMNAME>Clock Unit, Underwater Pattern &amp;#40;Gear 4394&amp;#41;</ITEMNAME>
+      <ITEMNAME>Clock Unit, Underwater Pattern</ITEMNAME>
       <CATEGORY>336</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -42501,7 +42501,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>clk10</ITEMID>
-      <ITEMNAME>Clock Unit, Belville Stars Pattern (Gear 7398 / 4168037)</ITEMNAME>
+      <ITEMNAME>Clock Unit, Belville Stars Pattern</ITEMNAME>
       <CATEGORY>336</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>130.68</ITEMWEIGHT>
@@ -46731,7 +46731,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>clk11</ITEMID>
-      <ITEMNAME>Clock Unit, Braun Quartz with Lego Logo Pattern</ITEMNAME>
+      <ITEMNAME>Clock Unit, Braun Quartz with LEGO Logo Pattern</ITEMNAME>
       <CATEGORY>336</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -52140,7 +52140,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>bb1021c01</ITEMID>
-      <ITEMNAME>Watch Part, Case Analog, Star Wars - Darth Maul on Left, White Hour and Minute Hands, Silver and Red Second Hand Double</ITEMNAME>
+      <ITEMNAME>Watch Part, Case Analog, Star Wars - Darth Maul on Left, White Hour and Minute Hands, Silver and Red Second Hand Double, Silver Crown</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>5</ITEMWEIGHT>
@@ -91650,7 +91650,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>clk13</ITEMID>
-      <ITEMNAME>Clock Unit, BIONICLE Tahu Nuva Pattern &amp;#40;Gear 4193353&amp;#41;</ITEMNAME>
+      <ITEMNAME>Clock Unit, BIONICLE Tahu Nuva Pattern</ITEMNAME>
       <CATEGORY>336</CATEGORY>
       <ITEMYEAR>2003</ITEMYEAR>
       <ITEMWEIGHT>113.4</ITEMWEIGHT>
@@ -124077,9 +124077,9 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>clk14</ITEMID>
-      <ITEMNAME>Clock Unit, BIONICLE Pattern &amp;#40;Gear 7397 / 4168039&amp;#41;</ITEMNAME>
+      <ITEMNAME>Clock Unit, BIONICLE Pattern</ITEMNAME>
       <CATEGORY>336</CATEGORY>
-      <ITEMYEAR>2002</ITEMYEAR>
+      <ITEMYEAR>2001</ITEMYEAR>
       <ITEMWEIGHT>115</ITEMWEIGHT>
       <IMAGECOLOR>11</IMAGECOLOR>
    </ITEM>
@@ -124122,18 +124122,18 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>clkinsert1</ITEMID>
-      <ITEMNAME>Flyer 2002 Clock Insert - Guarantee</ITEMNAME>
+      <ITEMNAME>Flyer 2001 Clock Insert - Guarantee</ITEMNAME>
       <CATEGORY>1104</CATEGORY>
-      <ITEMYEAR>2002</ITEMYEAR>
+      <ITEMYEAR>2001</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>clkinsert2</ITEMID>
-      <ITEMNAME>Flyer 2002 Clock Insert - Operating Manual</ITEMNAME>
+      <ITEMNAME>Flyer 2001 Clock Insert - Operating Manual</ITEMNAME>
       <CATEGORY>1104</CATEGORY>
-      <ITEMYEAR>2002</ITEMYEAR>
+      <ITEMYEAR>2001</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -138891,7 +138891,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>clk15</ITEMID>
-      <ITEMNAME>Clock Unit, Basketball Pattern &amp;#40;Gear C2614 / 4182614&amp;#41;</ITEMNAME>
+      <ITEMNAME>Clock Unit, Basketball Pattern</ITEMNAME>
       <CATEGORY>336</CATEGORY>
       <ITEMYEAR>2003</ITEMYEAR>
       <ITEMWEIGHT>113</ITEMWEIGHT>
@@ -148539,7 +148539,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>clk16</ITEMID>
-      <ITEMNAME>Clock Unit, Paw Prints Pattern &amp;#40;Gear 4393&amp;#41;</ITEMNAME>
+      <ITEMNAME>Clock Unit, Paw Prints Pattern</ITEMNAME>
       <CATEGORY>336</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT>113</ITEMWEIGHT>
@@ -148683,7 +148683,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>clk17</ITEMID>
-      <ITEMNAME>Clock Unit, Drome Racers Pattern &amp;#40;Gear 4193355&amp;#41;</ITEMNAME>
+      <ITEMNAME>Clock Unit, Drome Racers Pattern</ITEMNAME>
       <CATEGORY>336</CATEGORY>
       <ITEMYEAR>2002</ITEMYEAR>
       <ITEMWEIGHT>132.02</ITEMWEIGHT>
@@ -152094,7 +152094,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>clk18</ITEMID>
-      <ITEMNAME>Clock Unit, Jack Stone Pattern &amp;#40;Gear 4179689&amp;#41;</ITEMNAME>
+      <ITEMNAME>Clock Unit, Jack Stone Pattern</ITEMNAME>
       <CATEGORY>336</CATEGORY>
       <ITEMYEAR>2002</ITEMYEAR>
       <ITEMWEIGHT>131.28</ITEMWEIGHT>
@@ -203304,7 +203304,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>clk19</ITEMID>
-      <ITEMNAME>Clock Unit, Creator Pattern &amp;#40;Gear 7396&amp;#41;</ITEMNAME>
+      <ITEMNAME>Clock Unit, Creator Pattern</ITEMNAME>
       <CATEGORY>336</CATEGORY>
       <ITEMYEAR>2002</ITEMYEAR>
       <ITEMWEIGHT>113</ITEMWEIGHT>
@@ -217825,6 +217825,15 @@
       <CATEGORY>1111</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>15.75</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>5010229</ITEMID>
+      <ITEMNAME>Bag / Luggage Tag, Silicone, Star Wars Ahsoka Tano</ITEMNAME>
+      <CATEGORY>1112</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>29</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
