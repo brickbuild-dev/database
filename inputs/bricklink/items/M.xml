@@ -192,7 +192,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas011</ITEMID>
-      <ITEMNAME>Dragon Knights - Dragon Master, Red Plumes</ITEMNAME>
+      <ITEMNAME>Dragon Master - Red Plumes</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>1994</ITEMYEAR>
       <ITEMWEIGHT>4.4</ITEMWEIGHT>
@@ -210,7 +210,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas013</ITEMID>
-      <ITEMNAME>Dragon Knights - Knight 1, Light Gray Legs with Black Hips, Black Neck-Protector</ITEMNAME>
+      <ITEMNAME>Dragon Knight 1 - Light Gray Legs with Black Hips, Black Helmet with Neck Protector</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>1993</ITEMYEAR>
       <ITEMWEIGHT>3.68</ITEMWEIGHT>
@@ -219,7 +219,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas014</ITEMID>
-      <ITEMNAME>Dragon Knights - Knight 1, Light Gray Legs, Black Neck-Protector</ITEMNAME>
+      <ITEMNAME>Dragon Knight 1 - Light Gray Legs, Black Helmet with Neck Protector</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>1994</ITEMYEAR>
       <ITEMWEIGHT>3.68</ITEMWEIGHT>
@@ -228,7 +228,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas015</ITEMID>
-      <ITEMNAME>Dragon Knights - Knight 2, Black Legs with Red Hips, Black Dragon Helmet, Blue Plumes</ITEMNAME>
+      <ITEMNAME>Dragon Knight 2 - Black Legs with Red Hips, Black Dragon Helmet, Blue Plumes</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>1993</ITEMYEAR>
       <ITEMWEIGHT>4.4</ITEMWEIGHT>
@@ -237,7 +237,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas016</ITEMID>
-      <ITEMNAME>Dragon Knights - Knight 2, Black Legs with Red Hips, Dark Gray Neck-Protector</ITEMNAME>
+      <ITEMNAME>Dragon Knight 2 - Black Legs with Red Hips, Dark Gray Helmet with Neck Protector</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>1996</ITEMYEAR>
       <ITEMWEIGHT>3.58</ITEMWEIGHT>
@@ -246,7 +246,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas017</ITEMID>
-      <ITEMNAME>Dragon Knights - Knight 2, Black Legs, Black Dragon Helmet, Red Plumes</ITEMNAME>
+      <ITEMNAME>Dragon Knight 2 - Black Legs, Black Dragon Helmet, Red Plumes</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>1994</ITEMYEAR>
       <ITEMWEIGHT>4.4</ITEMWEIGHT>
@@ -255,7 +255,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas018</ITEMID>
-      <ITEMNAME>Dragon Knights - Knight 2, Black Legs with Red Hips, Black Dragon Helmet, Yellow Plumes</ITEMNAME>
+      <ITEMNAME>Dragon Knight 2 - Black Legs with Red Hips, Black Dragon Helmet, Yellow Plumes</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>1993</ITEMYEAR>
       <ITEMWEIGHT>4.4</ITEMWEIGHT>
@@ -264,7 +264,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas019</ITEMID>
-      <ITEMNAME>Majisto Wizard</ITEMNAME>
+      <ITEMNAME>Majisto the Wizard - Legs</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>1995</ITEMYEAR>
       <ITEMWEIGHT>4.77</ITEMWEIGHT>
@@ -336,7 +336,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas033</ITEMID>
-      <ITEMNAME>Knights Kingdom I - Queen Leonora &amp;#40;Maiden with Black Cone Hat&amp;#41;</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom - Queen Leonora &amp;#40;Maiden with Black Cone Hat&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT>4.49</ITEMWEIGHT>
@@ -345,7 +345,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas034</ITEMID>
-      <ITEMNAME>Knights Kingdom I - Princess Storm, Female Knight</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom - Princess Storm, Female Knight</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT>4.08</ITEMWEIGHT>
@@ -354,7 +354,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas035</ITEMID>
-      <ITEMNAME>Knights Kingdom I - King Leo</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom - King Leo</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -363,7 +363,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas036</ITEMID>
-      <ITEMNAME>Knights Kingdom I - Knight 1, Dark Gray Helmet, Black Visor</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom - Knight 1, Dark Gray Helmet, Black Visor</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
@@ -372,7 +372,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas037</ITEMID>
-      <ITEMNAME>Knights Kingdom I - Knight 1</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom - Knight 1</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -381,7 +381,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas039</ITEMID>
-      <ITEMNAME>Knights Kingdom I - Knight 2</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom - Knight 2</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -390,7 +390,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas041</ITEMID>
-      <ITEMNAME>Knights Kingdom I - Gilbert the Bad, Black Dragon Helmet</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom - Gilbert the Bad, Black Dragon Helmet</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -399,7 +399,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas042</ITEMID>
-      <ITEMNAME>Knights Kingdom I - Robber 1, Black Neck-Protector</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom - Robber 1, Black Neck-Protector</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT>3.79</ITEMWEIGHT>
@@ -408,7 +408,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas043</ITEMID>
-      <ITEMNAME>Knights Kingdom I - Gilbert the Bad, Black Dragon Helmet, Horns</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom - Gilbert the Bad, Black Dragon Helmet, Horns</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT>3.89</ITEMWEIGHT>
@@ -417,7 +417,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas044</ITEMID>
-      <ITEMNAME>Knights Kingdom I - Robber 2, Black Chin-Guard</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom - Robber 2, Black Chin-Guard</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT>3.8</ITEMWEIGHT>
@@ -426,7 +426,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas045</ITEMID>
-      <ITEMNAME>Knights Kingdom I - Robber 2, Black Dragon Helmet</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom - Robber 2, Black Dragon Helmet</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT>3.89</ITEMWEIGHT>
@@ -435,7 +435,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas046</ITEMID>
-      <ITEMNAME>Knights Kingdom I - Cedric the Bull &amp;#40;Robber Chief&amp;#41;, Black Dragon Helmet, Horns</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom - Cedric the Bull &amp;#40;Robber Chief&amp;#41;, Black Dragon Helmet, Horns</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT>4.22</ITEMWEIGHT>
@@ -7869,7 +7869,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas202</ITEMID>
-      <ITEMNAME>Knights Kingdom I - Helmet and Chrome Silver Armor</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom - Helmet and Chrome Silver Armor</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT>4.32</ITEMWEIGHT>
@@ -8535,7 +8535,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas001</ITEMID>
-      <ITEMNAME>Dragon Knights - Dragon Master, Yellow Plumes, Dragon Cape</ITEMNAME>
+      <ITEMNAME>Dragon Master - Yellow Plumes, Cape</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>1993</ITEMYEAR>
       <ITEMWEIGHT>4.52</ITEMWEIGHT>
@@ -12783,7 +12783,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas046cm</ITEMID>
-      <ITEMNAME>Knights Kingdom I - Cedric the Bull &amp;#40;Robber Chief&amp;#41;, Chrome Silver Dragon Helmet, Horns</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom - Cedric the Bull &amp;#40;Robber Chief&amp;#41;, Chrome Silver Dragon Helmet, Horns</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT>3.94</ITEMWEIGHT>
@@ -13125,7 +13125,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas219</ITEMID>
-      <ITEMNAME>Dragon Knights - Dragon Master, Red Plumes, Dragon Cape</ITEMNAME>
+      <ITEMNAME>Dragon Master - Red Plumes, Cape</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>1993</ITEMYEAR>
       <ITEMWEIGHT>4.52</ITEMWEIGHT>
@@ -14691,7 +14691,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas249</ITEMID>
-      <ITEMNAME>Majisto Wizard - Black Plastic Cape</ITEMNAME>
+      <ITEMNAME>Majisto the Wizard - Legs, Black Plastic Cape</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>1993</ITEMYEAR>
       <ITEMWEIGHT>4.99</ITEMWEIGHT>
@@ -14925,7 +14925,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas248</ITEMID>
-      <ITEMNAME>Knights Kingdom I - Cedric the Bull &amp;#40;Robber Chief&amp;#41;, Black Dragon Helmet</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom - Cedric the Bull &amp;#40;Robber Chief&amp;#41;, Black Dragon Helmet</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT>3.89</ITEMWEIGHT>
@@ -14934,7 +14934,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas247</ITEMID>
-      <ITEMNAME>Knights Kingdom I - Knight 2, Quiver</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom - Knight 2, Quiver</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT>4.05</ITEMWEIGHT>
@@ -14943,7 +14943,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas246</ITEMID>
-      <ITEMNAME>Knights Kingdom I - Knight 1, Quiver</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom - Knight 1, Quiver</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT>4.05</ITEMWEIGHT>
@@ -14952,7 +14952,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas245</ITEMID>
-      <ITEMNAME>Dragon Knights - Knight 1, Light Gray Legs with Black Hips, Black Chin-Guard, Quiver</ITEMNAME>
+      <ITEMNAME>Dragon Knight 1 - Light Gray Legs with Black Hips, Black Helmet with Chin Guard, Quiver</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>1993</ITEMYEAR>
       <ITEMWEIGHT>4.88</ITEMWEIGHT>
@@ -16140,7 +16140,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas279</ITEMID>
-      <ITEMNAME>Knights Kingdom I - Gilbert the Bad, Black Dragon Helmet, Horns, Quiver</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom - Gilbert the Bad, Black Dragon Helmet, Horns, Quiver</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT>4.26</ITEMWEIGHT>
@@ -16851,7 +16851,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas236</ITEMID>
-      <ITEMNAME>Dragon Knights - Dragon Master, Blue Plumes, Dragon Cape</ITEMNAME>
+      <ITEMNAME>Dragon Master - Blue Plumes, Cape</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>1993</ITEMYEAR>
       <ITEMWEIGHT>4.52</ITEMWEIGHT>
@@ -20658,7 +20658,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas256</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Shadow Knight Vladek</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Shadow Knight Vladek</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2004</ITEMYEAR>
       <ITEMWEIGHT>4.74</ITEMWEIGHT>
@@ -20667,7 +20667,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas257</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Shadow Knight, Le Chevalier Des Ombres</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Shadow Knight, Le Chevalier Des Ombres</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2004</ITEMYEAR>
       <ITEMWEIGHT>3.7</ITEMWEIGHT>
@@ -20676,7 +20676,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas258</ITEMID>
-      <ITEMNAME>Knights Kingdom II - King Mathias</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - King Mathias</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2004</ITEMYEAR>
       <ITEMWEIGHT>4.01</ITEMWEIGHT>
@@ -20685,7 +20685,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas259</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Santis</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Santis</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2004</ITEMYEAR>
       <ITEMWEIGHT>4.71</ITEMWEIGHT>
@@ -20694,7 +20694,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas260</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Jayko Plain Torso, Armor</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Jayko Plain Torso, Armor</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2004</ITEMYEAR>
       <ITEMWEIGHT>4.72</ITEMWEIGHT>
@@ -20703,7 +20703,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas261</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Rascus with Armor, Plain Torso</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Rascus with Armor, Plain Torso</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2004</ITEMYEAR>
       <ITEMWEIGHT>4.82</ITEMWEIGHT>
@@ -20712,7 +20712,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas262</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Danju</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Danju</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2004</ITEMYEAR>
       <ITEMWEIGHT>4.67</ITEMWEIGHT>
@@ -20811,7 +20811,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas263</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Rascus without Armor, Printed Torso</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Rascus without Armor, Printed Torso</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2004</ITEMYEAR>
       <ITEMWEIGHT>4.03</ITEMWEIGHT>
@@ -20820,7 +20820,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas264</ITEMID>
-      <ITEMNAME>Knights Kingdom II - The Guardian</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - The Guardian</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2004</ITEMYEAR>
       <ITEMWEIGHT>3.68</ITEMWEIGHT>
@@ -21603,7 +21603,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas265</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Jayko without Armor, Printed Torso</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Jayko without Armor, Printed Torso</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>3.9</ITEMWEIGHT>
@@ -23556,7 +23556,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas266</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Rascus with Gold Pattern Armor, Plain Torso, Dark Green Hips and Helmet</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Rascus with Gold Pattern Armor, Plain Torso, Dark Green Hips and Helmet</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>4.8</ITEMWEIGHT>
@@ -23565,7 +23565,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas267</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Santis with Gold Pattern Armor, Dark Tan Hands</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Santis with Gold Pattern Armor, Dark Tan Hands</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>4.7</ITEMWEIGHT>
@@ -23574,7 +23574,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas268</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Jayko Plain Torso, Gold Pattern Armor, Dark Blue Hips</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Jayko Plain Torso, Gold Pattern Armor, Dark Blue Hips</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>4.7</ITEMWEIGHT>
@@ -23583,7 +23583,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas269</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Danju with Gold Pattern Armor, Dark Bluish Gray Hips and Helmet</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Danju with Gold Pattern Armor, Dark Bluish Gray Hips and Helmet</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>4.8</ITEMWEIGHT>
@@ -23592,7 +23592,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas270</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Shadow Knight Vladek, Dark Red Armor</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Shadow Knight Vladek, Dark Red Armor</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>4.74</ITEMWEIGHT>
@@ -23610,7 +23610,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas271</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Shadow Knight, Speckle Black-Silver Armor and Helmet</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Shadow Knight, Speckle Black-Silver Armor and Helmet</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>4.43</ITEMWEIGHT>
@@ -24051,7 +24051,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas018a</ITEMID>
-      <ITEMNAME>Dragon Knights - Knight 2, Black Legs with Red Hips, Black Dragon Helmet, Yellow Plumes, Black Plastic Cape</ITEMNAME>
+      <ITEMNAME>Dragon Knight 2 - Black Legs with Red Hips, Black Dragon Helmet, Yellow Plumes, Black Plastic Cape</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>1993</ITEMYEAR>
       <ITEMWEIGHT>4.61</ITEMWEIGHT>
@@ -24528,7 +24528,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas273</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Shadow Knight, Speckle Black-Silver Helmet</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Shadow Knight, Speckle Black-Silver Helmet</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>3.68</ITEMWEIGHT>
@@ -24807,7 +24807,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas274</ITEMID>
-      <ITEMNAME>Knights Kingdom II - King Mathias with Light Bluish Gray Cape (Chess King)</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - King Mathias with Light Bluish Gray Cape &amp;#40;Chess King&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>4.08</ITEMWEIGHT>
@@ -24816,7 +24816,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas275</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Queen with Light Bluish Gray Hair, Light Bluish Gray Cape (Chess Queen)</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Queen with Light Bluish Gray Hair, Light Bluish Gray Cape &amp;#40;Chess Queen&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>5.83</ITEMWEIGHT>
@@ -24825,7 +24825,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas276</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Jayko Printed Torso, Broad Brim Helmet, Elderly Face (Chess Pawn)</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Jayko Printed Torso, Broad Brim Helmet, Elderly Face &amp;#40;Chess Pawn&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -24834,7 +24834,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas277</ITEMID>
-      <ITEMNAME>Knights Kingdom II - King with Crown &amp; Black Cape (Chess King)</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - King with Crown &amp; Black Cape &amp;#40;Chess King&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>4.1</ITEMWEIGHT>
@@ -24843,7 +24843,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas278</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Queen with Evil Skull Face, Black Ponytail Hair, Black Cape (Chess Queen)</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Queen with Evil Skull Face, Black Ponytail Hair, Black Cape &amp;#40;Chess Queen&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>5.36</ITEMWEIGHT>
@@ -24852,7 +24852,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas283</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Shadow Knight, Adventurer Head (Chess Pawn)</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Shadow Knight, Adventurer Head &amp;#40;Chess Pawn&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>3.68</ITEMWEIGHT>
@@ -25680,7 +25680,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas291</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Shadow Knight Vladek, Black Neck-Protector</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Shadow Knight Vladek, Black Neck-Protector</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>3.64</ITEMWEIGHT>
@@ -25860,7 +25860,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas267a</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Santis with Gold Pattern Armor, Dark Bluish Gray Hands</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Santis with Gold Pattern Armor, Dark Bluish Gray Hands</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>4.67</ITEMWEIGHT>
@@ -26679,7 +26679,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas290</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Sir Kentis</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Sir Kentis</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2006</ITEMYEAR>
       <ITEMWEIGHT>4.9</ITEMWEIGHT>
@@ -26688,7 +26688,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas258a</ITEMID>
-      <ITEMNAME>Knights Kingdom II - King Mathias with Blue Arms</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - King Mathias with Blue Arms</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>4.01</ITEMWEIGHT>
@@ -26760,7 +26760,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas296</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Lord Vladek</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Lord Vladek</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2006</ITEMYEAR>
       <ITEMWEIGHT>4.98</ITEMWEIGHT>
@@ -26769,7 +26769,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas293</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Karzon</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Karzon</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2006</ITEMYEAR>
       <ITEMWEIGHT>4.5</ITEMWEIGHT>
@@ -26778,7 +26778,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas292</ITEMID>
-      <ITEMNAME>Knights Kingdom II - The Blacksmith</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - The Blacksmith</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2006</ITEMYEAR>
       <ITEMWEIGHT>3.52</ITEMWEIGHT>
@@ -26787,7 +26787,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas294</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Sir Adric</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Sir Adric</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2006</ITEMYEAR>
       <ITEMWEIGHT>4.74</ITEMWEIGHT>
@@ -26796,7 +26796,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas295</ITEMID>
-      <ITEMNAME>Knights Kingdom II - King Jayko</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - King Jayko</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2006</ITEMYEAR>
       <ITEMWEIGHT>5.02</ITEMWEIGHT>
@@ -26823,7 +26823,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas297</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Dracus</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Dracus</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2006</ITEMYEAR>
       <ITEMWEIGHT>4.5</ITEMWEIGHT>
@@ -26832,7 +26832,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas299</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Rogue Knight 2 (Yellow Legs, Speckle Breastplate, Speckle Cheek Protector Helmet)</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Rogue Knight 2 &amp;#40;Yellow Legs, Speckle Breastplate, Speckle Cheek Protector Helmet&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2006</ITEMYEAR>
       <ITEMWEIGHT>4.5</ITEMWEIGHT>
@@ -26841,7 +26841,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas300</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Rogue Knight 1 (Sand Blue)</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Rogue Knight 1 &amp;#40;Sand Blue&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2006</ITEMYEAR>
       <ITEMWEIGHT>4.5</ITEMWEIGHT>
@@ -26940,7 +26940,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>51799</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Nestlé Promotional Figure Rascus &amp;#40;4251693&amp;#41;</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Nestlé Promotional Figure Rascus &amp;#40;4251693&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>5.05</ITEMWEIGHT>
@@ -27516,7 +27516,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas310</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Rogue Knight 3 (Yellow Legs, Black Breastplate, Black Neck-Protector)</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Rogue Knight 3 &amp;#40;Yellow Legs, Black Breastplate, Black Neck-Protector&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2006</ITEMYEAR>
       <ITEMWEIGHT>4.5</ITEMWEIGHT>
@@ -27525,7 +27525,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas311</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Rogue Knight 4 (Yellow Legs, Black Breastplate, Speckle Cheek Protector Helmet)</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Rogue Knight 4 &amp;#40;Yellow Legs, Black Breastplate, Speckle Cheek Protector Helmet&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2006</ITEMYEAR>
       <ITEMWEIGHT>4.5</ITEMWEIGHT>
@@ -27534,7 +27534,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas313</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Rogue Knight 6 (Black Legs, Speckle Breastplate, Speckle Cheek Protector Helmet)</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Rogue Knight 6 &amp;#40;Black Legs, Speckle Breastplate, Speckle Cheek Protector Helmet&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2006</ITEMYEAR>
       <ITEMWEIGHT>4.7</ITEMWEIGHT>
@@ -27543,7 +27543,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas312</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Rogue Knight 5 (Black Legs, Speckle Breastplate, Black Neck-Protector)</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Rogue Knight 5 &amp;#40;Black Legs, Speckle Breastplate, Black Neck-Protector&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2006</ITEMYEAR>
       <ITEMWEIGHT>4.5</ITEMWEIGHT>
@@ -27552,7 +27552,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas314</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Hero Knight 1</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Hero Knight 1</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2006</ITEMYEAR>
       <ITEMWEIGHT>4.6</ITEMWEIGHT>
@@ -27561,7 +27561,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas315</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Hero Knight 2</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Hero Knight 2</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2006</ITEMYEAR>
       <ITEMWEIGHT>4.7</ITEMWEIGHT>
@@ -27570,7 +27570,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas316</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Hero Knight 3</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Hero Knight 3</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2006</ITEMYEAR>
       <ITEMWEIGHT>4.6</ITEMWEIGHT>
@@ -27579,7 +27579,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas317</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Hero Knight 4</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Hero Knight 4</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2006</ITEMYEAR>
       <ITEMWEIGHT>4.5</ITEMWEIGHT>
@@ -27597,7 +27597,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas298</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Dracus</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Dracus</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2006</ITEMYEAR>
       <ITEMWEIGHT>4.6</ITEMWEIGHT>
@@ -29199,7 +29199,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>51797s</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Nestlé Promotional Figure Shadow Knight with Scorpion Pattern &amp;#40;Sticker&amp;#41;</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Nestlé Promotional Figure Shadow Knight with Scorpion Pattern &amp;#40;Sticker&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>4.5</ITEMWEIGHT>
@@ -29208,7 +29208,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>51798s</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Nestlé Promotional Figure Danju with Wolf Pattern &amp;#40;Sticker&amp;#41;</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Nestlé Promotional Figure Danju with Wolf Pattern &amp;#40;Sticker&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -29217,7 +29217,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>51796s</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Nestlé Promotional Figure Vladek with Scorpion Pattern &amp;#40;Sticker&amp;#41;</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Nestlé Promotional Figure Vladek with Scorpion Pattern &amp;#40;Sticker&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>4.62</ITEMWEIGHT>
@@ -29226,7 +29226,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>51801</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Nestlé Promotional Figure Santis &amp;#40;4251690&amp;#41;</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Nestlé Promotional Figure Santis &amp;#40;4251690&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>2</ITEMWEIGHT>
@@ -29235,7 +29235,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>51800s</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Nestlé Promotional Figure Jayko with Eagle Pattern &amp;#40;Sticker&amp;#41;</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Nestlé Promotional Figure Jayko with Eagle Pattern &amp;#40;Sticker&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>4.5</ITEMWEIGHT>
@@ -30855,7 +30855,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas324</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Rascus without Armor, Printed Torso, Green Neck-Protector</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Rascus without Armor, Printed Torso, Green Neck-Protector</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>3.59</ITEMWEIGHT>
@@ -41682,7 +41682,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas017a</ITEMID>
-      <ITEMNAME>Dragon Knights - Knight 2, Black Legs with Red Hips, Black Dragon Helmet, Red Plumes</ITEMNAME>
+      <ITEMNAME>Dragon Knight 2 - Black Legs with Red Hips, Black Dragon Helmet, Red Plumes</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>1993</ITEMYEAR>
       <ITEMWEIGHT>4.1</ITEMWEIGHT>
@@ -47901,7 +47901,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>51798</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Nestlé Promotional Figure Danju &amp;#40;4251699&amp;#41;</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Nestlé Promotional Figure Danju &amp;#40;4251699&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>4.8</ITEMWEIGHT>
@@ -47910,7 +47910,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>51800</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Nestlé Promotional Figure Jayko &amp;#40;4251696&amp;#41;</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Nestlé Promotional Figure Jayko &amp;#40;4251696&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>4.83</ITEMWEIGHT>
@@ -47919,7 +47919,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>51799s</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Nestlé Promotional Figure Rascus with Monkey Pattern &amp;#40;Sticker&amp;#41;</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Nestlé Promotional Figure Rascus with Monkey Pattern &amp;#40;Sticker&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>5</ITEMWEIGHT>
@@ -47928,7 +47928,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>51801s</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Nestlé Promotional Figure Santis with Bear Pattern &amp;#40;Sticker&amp;#41;</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Nestlé Promotional Figure Santis with Bear Pattern &amp;#40;Sticker&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>2</ITEMWEIGHT>
@@ -47937,7 +47937,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>51797</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Nestlé Promotional Figure Shadow Knight &amp;#40;4251687&amp;#41;</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Nestlé Promotional Figure Shadow Knight &amp;#40;4251687&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>4.88</ITEMWEIGHT>
@@ -47946,7 +47946,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>51796</ITEMID>
-      <ITEMNAME>Knights Kingdom II - Nestlé Promotional Figure Vladek &amp;#40;4251675&amp;#41;</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom II - Nestlé Promotional Figure Vladek &amp;#40;4251675&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2005</ITEMYEAR>
       <ITEMWEIGHT>4.52</ITEMWEIGHT>
@@ -49881,7 +49881,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas020</ITEMID>
-      <ITEMNAME>Knights Kingdom I - King Leo, Black Dragon Helmet, Red Plume Feather Triple</ITEMNAME>
+      <ITEMNAME>Knights&amp;#39; Kingdom - King Leo, Black Dragon Helmet, Red Plume Feather Triple</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2002</ITEMYEAR>
       <ITEMWEIGHT>4.1</ITEMWEIGHT>
@@ -143409,7 +143409,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas580</ITEMID>
-      <ITEMNAME>Majisto Wizard - Skirt</ITEMNAME>
+      <ITEMNAME>Majisto the Wizard - Skirt</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>4.83</ITEMWEIGHT>
@@ -170852,7 +170852,7 @@
       <ITEMID>frnd0917</ITEMID>
       <ITEMNAME>Friends Autumn - White T-Shirt with Leaves, Bright Light Orange Bell-Bottoms, Orange Shoes</ITEMNAME>
       <CATEGORY>771</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.08</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170861,7 +170861,7 @@
       <ITEMID>frnd0918</ITEMID>
       <ITEMNAME>Friends Aliya - Coral Sweater Vest, Dark Red Skirt, Medium Nougat Boots</ITEMNAME>
       <CATEGORY>771</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.4</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170870,7 +170870,7 @@
       <ITEMID>frnd0919</ITEMID>
       <ITEMNAME>Friends Zac - Bright Light Yellow Jacket with Landscape, Red Cropped Trousers, Dark Blue Shoes</ITEMNAME>
       <CATEGORY>771</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>2.93</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170879,7 +170879,7 @@
       <ITEMID>frnd0920</ITEMID>
       <ITEMNAME>Friends Astrid</ITEMNAME>
       <CATEGORY>771</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.44</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170987,7 +170987,7 @@
       <ITEMID>bdp315</ITEMID>
       <ITEMNAME>Privateer Frigate Fortuna Carpenter - Female, Reddish Brown Apron, Sand Blue Legs, Dark Blue Beanie, Dark Tan Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.77</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170996,7 +170996,7 @@
       <ITEMID>bdp316</ITEMID>
       <ITEMNAME>Privateer Frigate Fortuna Sailor - Male, Reddish Brown Vest over Red and White Striped Shirt, Dark Orange Legs, Red Bandana</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.42</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171005,7 +171005,7 @@
       <ITEMID>bdp317</ITEMID>
       <ITEMNAME>Privateer Frigate Fortuna Sailor - Male, Reddish Brown Vest over Red and White Striped Shirt, Dark Red Legs, Black Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.48</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171014,7 +171014,7 @@
       <ITEMID>bdp318</ITEMID>
       <ITEMNAME>Privateer Frigate Fortuna Sailor - Male, Reddish Brown Vest over Red and White Striped Shirt, Dark Red Legs, Sand Blue Bandana</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.42</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171023,7 +171023,7 @@
       <ITEMID>bdp319</ITEMID>
       <ITEMNAME>Privateer Frigate Fortuna Marine - Female, Tan Coat, White Legs with Black Boots, Red Epaulettes, Black Tricorne, Reddish Brown Hair, Open Mouth Crooked Smile</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.08</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171032,7 +171032,7 @@
       <ITEMID>bdp320</ITEMID>
       <ITEMNAME>Privateer Frigate Fortuna Marine - Male, Tan Coat, White Legs with Black Boots, Red Epaulettes, Black Tricorne Hat, Black Moustache</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171041,7 +171041,7 @@
       <ITEMID>bdp321</ITEMID>
       <ITEMNAME>Privateer Frigate Fortuna Marine - Male, Tan Coat, White Legs with Black Boots, Red Epaulettes, Black Tricorne Hat, Black Goatee</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171050,7 +171050,7 @@
       <ITEMID>bdp322</ITEMID>
       <ITEMNAME>Privateer Frigate Fortuna Captain - Male, Tan Coat, White Legs with Black Boots, Pearl Gold Epaulettes, Black Bicorne Hat, Red Plume</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.98</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171059,7 +171059,7 @@
       <ITEMID>bdp323</ITEMID>
       <ITEMNAME>Privateer Frigate Fortuna Marine - Female, Tan Coat, White Legs with Black Boots, Red Epaulettes, Black Tricorne, Reddish Brown Hair, Nougat Lips Smile</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.08</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171068,7 +171068,7 @@
       <ITEMID>bdp324</ITEMID>
       <ITEMNAME>Privateer Frigate Fortuna Marine - Male, Tan Coat, White Legs with Black Boots, Red Epaulettes, Black Tricorne Hat, Lopsided Grin</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171077,7 +171077,7 @@
       <ITEMID>bdp325</ITEMID>
       <ITEMNAME>Privateer Frigate Fortuna Figurehead</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.47</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171086,7 +171086,7 @@
       <ITEMID>bdp326</ITEMID>
       <ITEMNAME>Privateer Frigate Fortuna Sailor - Female, Reddish Brown Vest over Red and White Striped Shirt, Olive Green Legs, Red Beanie, Bright Light Yellow Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.77</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171095,7 +171095,7 @@
       <ITEMID>bdp327</ITEMID>
       <ITEMNAME>Privateer Frigate Fortuna Midshipman - Male, Tan Coat, White Medium Legs, Pearl Gold Epaulettes, Black Tricorne Hat</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.82</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171104,7 +171104,7 @@
       <ITEMID>bdp328</ITEMID>
       <ITEMNAME>Privateer Frigate Fortuna Cook - Female, White Torso with 8 Buttons, Dark Bluish Gray Leg with Peg Leg, Red Bandana</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.33</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171113,7 +171113,7 @@
       <ITEMID>bdp329</ITEMID>
       <ITEMNAME>Privateer Frigate Fortuna Lieutenant - Female, Tan Coat, White Legs with Black Boots, Pearl Gold Epaulettes, Black Bicorne Hat, Red Plume</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.86</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171122,7 +171122,7 @@
       <ITEMID>bdp330</ITEMID>
       <ITEMNAME>Privateer Frigate Fortuna Sailor - Female, Reddish Brown Vest over Red and White Striped Shirt, Olive Green Medium Legs, Black Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.76</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171131,7 +171131,7 @@
       <ITEMID>bdp331</ITEMID>
       <ITEMNAME>Privateer Frigate Fortuna Boatswain - Female, Dark Green Jacket, Black Legs with Reddish Brown Boots, Black Tricorne, Reddish Brown Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.93</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171140,7 +171140,7 @@
       <ITEMID>bdp332</ITEMID>
       <ITEMNAME>Privateer Frigate Fortuna Sailmaker - Male, White Shirt with Reddish Brown Vest, Black Legs with Reddish Brown Boots, Black Hair and Moustache</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171149,7 +171149,7 @@
       <ITEMID>bdp333</ITEMID>
       <ITEMNAME>Privateer Frigate Fortuna Sailor - Male, Reddish Brown Vest over Red and White Striped Shirt, Dark Orange Legs, Tan Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.59</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171158,7 +171158,7 @@
       <ITEMID>bdp334</ITEMID>
       <ITEMNAME>Privateer Frigate Fortuna Captain&amp;#39;s Daughter - Medium Lavender Jacket, Dark Purple Skirt, Medium Nougat Wavy Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.88</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171167,7 +171167,7 @@
       <ITEMID>frnd0921</ITEMID>
       <ITEMNAME>Friends Autumn - Orange Sleeveless Top, Medium Lavender Shorts Folded Hem, Dark Blue Sandals</ITEMNAME>
       <CATEGORY>771</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>2.86</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171176,7 +171176,7 @@
       <ITEMID>frnd0922</ITEMID>
       <ITEMNAME>Friends Nova - Blue Sleeveless Top, Dark Turquoise Shorts, Black Boots, Sunglasses</ITEMNAME>
       <CATEGORY>771</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.25</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171185,7 +171185,7 @@
       <ITEMID>sh1143</ITEMID>
       <ITEMNAME>Iron Man - Reddish Orange and Dark Blue Armor</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.6</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171194,7 +171194,7 @@
       <ITEMID>sh1144</ITEMID>
       <ITEMNAME>Ironheart - Magenta Armor</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.6</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171203,7 +171203,7 @@
       <ITEMID>sh1145</ITEMID>
       <ITEMNAME>Iron Hulk</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.15</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171212,7 +171212,7 @@
       <ITEMID>sh1146</ITEMID>
       <ITEMNAME>Loki - Pearl Gold Armor, Flexible Rubber Cape</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>5.24</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
