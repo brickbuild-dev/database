@@ -215651,6 +215651,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>adventurersmug</ITEMID>
+      <ITEMNAME>Cup / Mug Adventurers Desert</ITEMNAME>
+      <CATEGORY>175</CATEGORY>
+      <ITEMYEAR>1998</ITEMYEAR>
+      <ITEMWEIGHT>431</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>sw05deLE13</ITEMID>
       <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # LE13 Darth Sidious Limited Edition</ITEMNAME>
       <CATEGORY>380</CATEGORY>
@@ -216489,7 +216498,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>njo02de055</ITEMID>
-      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # LE12 Super Krux Limited Edition</ITEMNAME>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 55 Super Krux</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
