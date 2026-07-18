@@ -171356,7 +171356,7 @@
       <ITEMID>cty2045</ITEMID>
       <ITEMNAME>Construction Worker - Female, Bright Light Blue Shirt with Red Suspenders, Dark Bluish Gray Legs with Knee Pads, Red Construction Helmet with Dark Brown Ponytail Hair</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.61</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171365,6 +171365,24 @@
       <ITEMID>cty2046</ITEMID>
       <ITEMNAME>Construction Worker - Male, Reddish Orange Safety Jacket with Reflective Stripes, Dark Bluish Gray Legs with Knee Pads, Red Construction Helmet with Dark Brown Short Curly Hair, Moustache</ITEMNAME>
       <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.7</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>lor165</ITEMID>
+      <ITEMNAME>Orc - Medium Nougat Head, Pearl Dark Gray Armor and Helmet, Dark Red Arms</ITEMNAME>
+      <CATEGORY>789</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.77</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>lor166</ITEMID>
+      <ITEMNAME>Orc - Olive Green Head, Pearl Dark Gray Armor with Dirt Splotches, Dark Brown Hair, Yellow Eyes</ITEMNAME>
+      <CATEGORY>789</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>3.7</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
