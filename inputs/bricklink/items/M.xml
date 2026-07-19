@@ -96357,7 +96357,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>dp060</ITEMID>
-      <ITEMNAME>Cogsworth - Printed Face, Log Profile Body</ITEMNAME>
+      <ITEMNAME>Cogsworth - Printed Face with Tongue, Log Profile Body</ITEMNAME>
       <CATEGORY>878</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
       <ITEMWEIGHT>3.3</ITEMWEIGHT>
@@ -121404,7 +121404,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>dp129</ITEMID>
-      <ITEMNAME>Cogsworth - Printed Face, 1 x 2 Brick Body without Pendulum Sticker</ITEMNAME>
+      <ITEMNAME>Cogsworth - Printed Face with Tongue, 1 x 2 Brick Body without Pendulum Sticker</ITEMNAME>
       <CATEGORY>878</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>2.93</ITEMWEIGHT>
@@ -121413,7 +121413,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>dp129s</ITEMID>
-      <ITEMNAME>Cogsworth - Printed Face, 1 x 2 Brick Body with Pendulum Sticker</ITEMNAME>
+      <ITEMNAME>Cogsworth - Printed Face with Tongue, 1 x 2 Brick Body with Pendulum Sticker</ITEMNAME>
       <CATEGORY>878</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>2.98</ITEMWEIGHT>
@@ -149889,7 +149889,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>moa005</ITEMID>
-      <ITEMNAME>Moana &amp;#40;Sienna&amp;#41; - Mini Doll, Coral and White Strapless Top, Tan Long Skirt with Dark Tan Hems, Dark Brown Hair</ITEMNAME>
+      <ITEMNAME>Moana &amp;#40;Sienna&amp;#41; - Mini Doll, Coral and White Strapless Top, Tan Long Skirt with Dark Tan Hems, Dark Brown Hair Long Wavy, Flexible Rubber</ITEMNAME>
       <CATEGORY>878</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>3.61</ITEMWEIGHT>
@@ -157503,7 +157503,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>dp218</ITEMID>
-      <ITEMNAME>Cogsworth - Printed Face, Movable Arms</ITEMNAME>
+      <ITEMNAME>Cogsworth - Printed Face with Teeth, Movable Arms</ITEMNAME>
       <CATEGORY>878</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>3.5</ITEMWEIGHT>
@@ -158547,7 +158547,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>jw135</ITEMID>
-      <ITEMNAME>Zora Bennett</ITEMNAME>
+      <ITEMNAME>Zora Bennett - Hair</ITEMNAME>
       <CATEGORY>850</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>3.66</ITEMWEIGHT>
@@ -158556,7 +158556,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>jw136</ITEMID>
-      <ITEMNAME>Dr. Henry Loomis</ITEMNAME>
+      <ITEMNAME>Dr. Henry Loomis - Backpack</ITEMNAME>
       <CATEGORY>850</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>4.18</ITEMWEIGHT>
@@ -158628,7 +158628,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>jw137</ITEMID>
-      <ITEMNAME>Duncan Kincaid</ITEMNAME>
+      <ITEMNAME>Duncan Kincaid - Black Shirt, Dark Bluish Gray Legs, Black Beret</ITEMNAME>
       <CATEGORY>850</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>3.38</ITEMWEIGHT>
@@ -171374,7 +171374,7 @@
       <ITEMID>lor165</ITEMID>
       <ITEMNAME>Orc - Medium Nougat Head, Pearl Dark Gray Armor and Helmet, Dark Red Arms</ITEMNAME>
       <CATEGORY>789</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.77</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171383,8 +171383,17 @@
       <ITEMID>lor166</ITEMID>
       <ITEMNAME>Orc - Olive Green Head, Pearl Dark Gray Armor with Dirt Splotches, Dark Brown Hair, Yellow Eyes</ITEMNAME>
       <CATEGORY>789</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.7</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>moa011</ITEMID>
+      <ITEMNAME>Moana &amp;#40;Sienna&amp;#41; - Mini Doll, Coral and White Strapless Top, Tan Long Skirt with Dark Tan Hems, Dark Brown Hair Long Full Curly</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.33</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
