@@ -158484,7 +158484,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>idea232</ITEMID>
-      <ITEMNAME>Griffin Knight - Male, Dark Orange Beard</ITEMNAME>
+      <ITEMNAME>Griffin Knight - Male, Flat Silver Helmet</ITEMNAME>
       <CATEGORY>817</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>3.69</ITEMWEIGHT>
@@ -163821,7 +163821,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>bdp211</ITEMID>
-      <ITEMNAME>Herbalist</ITEMNAME>
+      <ITEMNAME>Herbalist - Female, Olive Green Tunic, Backpack</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>4.68</ITEMWEIGHT>
@@ -164865,7 +164865,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo0996</ITEMID>
-      <ITEMNAME>Wu Sensei - Golden Weapons Legacy Update</ITEMNAME>
+      <ITEMNAME>Wu Sensei - Golden Weapons Legacy</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.66</ITEMWEIGHT>
@@ -164883,7 +164883,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo0998</ITEMID>
-      <ITEMNAME>Jay ZX - Legacy Update</ITEMNAME>
+      <ITEMNAME>Jay ZX - Legacy</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.32</ITEMWEIGHT>
@@ -164892,7 +164892,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1003</ITEMID>
-      <ITEMNAME>Zane ZX - Legacy Update</ITEMNAME>
+      <ITEMNAME>Zane ZX - Legacy</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.34</ITEMWEIGHT>
@@ -164901,7 +164901,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1004</ITEMID>
-      <ITEMNAME>Cole ZX - Legacy Update</ITEMNAME>
+      <ITEMNAME>Cole ZX - Legacy</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.29</ITEMWEIGHT>
@@ -164910,7 +164910,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1005</ITEMID>
-      <ITEMNAME>Lloyd ZX - Legacy Update</ITEMNAME>
+      <ITEMNAME>Lloyd ZX - Legacy</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.31</ITEMWEIGHT>
@@ -164928,7 +164928,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1002</ITEMID>
-      <ITEMNAME>Samurai X &amp;#40;Nya&amp;#41; - Legacy Update</ITEMNAME>
+      <ITEMNAME>Samurai X &amp;#40;Nya&amp;#41; - Legacy</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.76</ITEMWEIGHT>
@@ -165072,7 +165072,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1007</ITEMID>
-      <ITEMNAME>Nya - The Golden Weapons, Legacy Update</ITEMNAME>
+      <ITEMNAME>Nya - The Golden Weapons, Legacy</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.49</ITEMWEIGHT>
@@ -165198,7 +165198,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1017</ITEMID>
-      <ITEMNAME>Jay ZX - Legacy Update, Aviator Cap, Neck Bracket</ITEMNAME>
+      <ITEMNAME>Jay ZX - Legacy, Aviator Cap, Neck Bracket</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.08</ITEMWEIGHT>
@@ -165288,7 +165288,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1027</ITEMID>
-      <ITEMNAME>Cole ZX - Legacy Update, Hair</ITEMNAME>
+      <ITEMNAME>Cole ZX - Legacy, Hair</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.16</ITEMWEIGHT>
@@ -170267,7 +170267,7 @@
       <ITEMID>sh1140</ITEMID>
       <ITEMNAME>Bane - Prison Jumpsuit</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.05</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170984,6 +170984,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>njo1056</ITEMID>
+      <ITEMNAME>Nya ZX - Legacy, Neck Bracket &amp;#40;Ninjago Destiny's Bounty Adventures Board Game&amp;#41;</ITEMNAME>
+      <CATEGORY>759</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>bdp315</ITEMID>
       <ITEMNAME>Privateer Frigate Fortuna Carpenter - Female, Reddish Brown Apron, Sand Blue Legs, Dark Blue Beanie, Dark Tan Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
@@ -171371,6 +171380,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol428</ITEMID>
+      <ITEMNAME>Chef Child</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.26</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>lor165</ITEMID>
       <ITEMNAME>Orc - Medium Nougat Head, Pearl Dark Gray Armor and Helmet, Dark Red Arms</ITEMNAME>
       <CATEGORY>789</CATEGORY>
@@ -171392,8 +171410,80 @@
       <ITEMID>moa011</ITEMID>
       <ITEMNAME>Moana &amp;#40;Sienna&amp;#41; - Mini Doll, Coral and White Strapless Top, Tan Long Skirt with Dark Tan Hems, Dark Brown Hair Long Full Curly</ITEMNAME>
       <CATEGORY>878</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.33</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp349</ITEMID>
+      <ITEMNAME>Herbalist - Male, Medium Nougat Overalls over Sand Green Shirt, Backpack</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.83</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp350</ITEMID>
+      <ITEMNAME>Alchemist</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.77</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp351</ITEMID>
+      <ITEMNAME>Kraken Bandit</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.87</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp352</ITEMID>
+      <ITEMNAME>Alchemist&amp;#39;s Shop Shopkeeper</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.57</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp353</ITEMID>
+      <ITEMNAME>Griffin Knight - Male, Reddish Brown Hair, Flat Silver Shoulder Pad</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.54</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp354</ITEMID>
+      <ITEMNAME>Raider - Female, Reddish Brown Jacket with Tan Fur Collar, Tan Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.28</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp355</ITEMID>
+      <ITEMNAME>Horse Knight - Female, Dark Orange Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.88</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp356</ITEMID>
+      <ITEMNAME>Horse Knight - Male, Black Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.74</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
