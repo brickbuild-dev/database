@@ -1,0 +1,87 @@
+# Brikick DB Post-Update Report
+
+- created_at_utc: `20260722_012936Z`
+- db_path: `database/brickovery.db`
+- db_sha256: `f334e6f7aad23d19e618e3934e78dbc89303bfa0b655dfd4018f8621e25d6958`
+- db_size_bytes: `58519552`
+- reason: `semantic_delta`
+- pre_meta_path: `database/backups/brickovery_db/brickovery_db_backup_20260722_012924Z.meta.json`
+- apply_json_path: `.semantic_apply.json`
+
+## Pre-Update Backup Meta (JSON)
+
+```json
+{
+  "created_at_utc": "20260722_012924Z",
+  "reason": "semantic_delta",
+  "db_path": "database/brickovery.db",
+  "db_sha256": "4dba0b0e0ad8ca90818906e5e1e3453ea4836b08c2cea24f7750ead8be17edc3",
+  "db_size_bytes": 58519552,
+  "backup_file": "database/backups/brickovery_db/brickovery_db_backup_20260722_012924Z.sqlite.gz",
+  "backup_file_format": "sqlite.gz",
+  "context_json": ".semantic_check.json",
+  "context": {
+    "semantic_new_data": true,
+    "items_upstream": 208037,
+    "items_db": 208719,
+    "items_missing_in_db": 22,
+    "codes_upstream": 85405,
+    "codes_db": 251357,
+    "codes_missing_in_db": 1,
+    "unknown_color_tokens": [],
+    "unknown_color_tokens_count": 0,
+    "copied_upstream_files": true,
+    "db_inserted_items": 0,
+    "db_inserted_codes": 0
+  },
+  "csv_path": "database/brickovery_db.csv",
+  "csv_sha256": "f6446aae9998eb82d1a46e5f05f3acb1b45227a66af18ede9ea4f94615fb1dbe",
+  "csv_size_bytes": 26499038,
+  "csv_backup_file": "database/backups/brickovery_db/brickovery_db_csv_backup_20260722_012924Z.csv.gz"
+}
+```
+
+## Apply Delta Result (JSON)
+
+```json
+{
+  "semantic_new_data": true,
+  "items_upstream": 208037,
+  "items_db": 208719,
+  "items_missing_in_db": 22,
+  "codes_upstream": 85405,
+  "codes_db": 251357,
+  "codes_missing_in_db": 1,
+  "unknown_color_tokens": [],
+  "unknown_color_tokens_count": 0,
+  "copied_upstream_files": true,
+  "db_inserted_items": 22,
+  "db_inserted_codes": 1
+}
+```
+
+## DB Metrics
+
+```json
+{
+  "tables_count": 2,
+  "brickovery_db_rows": 251380,
+  "distinct_bl_part_id": 173958,
+  "null_boid": 173204,
+  "null_weight": 96551,
+  "null_bk_part_id": 23,
+  "null_bk_part_key": 23,
+  "null_api_item_type": 23,
+  "null_brikick_name": 23,
+  "null_part_name": 97659,
+  "null_element_id": 168143,
+  "corruption_pattern_count": 0,
+  "corruption_samples": []
+}
+```
+
+## Critical Signals
+
+- null_boid: `173204`
+- null_weight: `96551`
+- corruption_pattern_count: `0`
