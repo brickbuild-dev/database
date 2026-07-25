@@ -4,4 +4,4 @@ INFO,ELEMENT_IDS_LOADED,inputs/bricklink/codes.xml,Loaded 83242 element_ids.
 INFO,PART_METADATA_APPLIED,,brikick_name_updated=0 element_id_updated=0
 INFO,WEIGHTS_CSV_FILTER,inputs/bricklink/parts_weight.csv,Filtering weights CSV to 4360 missing parts.
 INFO,WEIGHTS_APPLIED,inputs/bricklink/parts_weight.csv,weights applied (updated_rows=0)
-INFO,WEIGHTS_MISSING_AFTER_CSV,,weights em falta permanecem NULL (sem fallback). missing=96571
+INFO,WEIGHTS_MISSING_AFTER_CSV,,weights em falta permanecem NULL (sem fallback). missing=96572
