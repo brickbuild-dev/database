@@ -68844,7 +68844,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b26njo03uk</ITEMID>
-      <ITEMNAME>Ninjago Dragon Powers &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>NINJAGO Dragon Powers &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>165</ITEMWEIGHT>
@@ -71084,6 +71084,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26sw04nl</ITEMID>
+      <ITEMNAME>Star Wars - Ontdek de Duistere Kant &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>273</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26njo04nl</ITEMID>
+      <ITEMNAME>NINJAGO - Ninja-Avonturen &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>273</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2026njo142de</ITEMID>
       <ITEMNAME>NINJAGO Magazine 2026 Issue 142 &amp;#40;German&amp;#41;</ITEMNAME>
       <CATEGORY>1024</CATEGORY>
@@ -71107,6 +71125,15 @@
       <CATEGORY>1024</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26min01nl</ITEMID>
+      <ITEMNAME>Minecraft - Groot LEGO Minecraft Boek &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1302</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
