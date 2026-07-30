@@ -144993,7 +144993,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>frnd0683</ITEMID>
-      <ITEMNAME>Friends Emma &amp;#40;Adult&amp;#41; - Pleated Coral Skirt, Dark Blue, Medium Lavender, Yellow, Green, and White Top</ITEMNAME>
+      <ITEMNAME>Friends Emma &amp;#40;Adult&amp;#41; - Dark Blue, Medium Lavender, Yellow, Green, and White Top, Coral Skirt Full Length Pleated</ITEMNAME>
       <CATEGORY>771</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>3.17</ITEMWEIGHT>
@@ -154812,7 +154812,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>frnd0775</ITEMID>
-      <ITEMNAME>Friends Amalia - Mirco Doll, Baby / Toddler</ITEMNAME>
+      <ITEMNAME>Friends Amalia - Micro Doll, Baby / Toddler</ITEMNAME>
       <CATEGORY>771</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>0.68</ITEMWEIGHT>
@@ -169772,7 +169772,7 @@
       <ITEMID>njo1082</ITEMID>
       <ITEMNAME>Oni Warrior - Sand Blue Torso, Black Legs</ITEMNAME>
       <CATEGORY>759</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.87</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170249,7 +170249,7 @@
       <ITEMID>njo1083</ITEMID>
       <ITEMNAME>Master Ivo</ITEMNAME>
       <CATEGORY>759</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.55</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -170760,7 +170760,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>frnd0916</ITEMID>
-      <ITEMNAME>Friends Paisley - Medium Blue Vest, Coral Skirt Full Length</ITEMNAME>
+      <ITEMNAME>Friends Paisley - Medium Blue Vest, Coral Skirt Full Length Plain</ITEMNAME>
       <CATEGORY>771</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.41</ITEMWEIGHT>
@@ -170988,7 +170988,7 @@
       <ITEMNAME>Nya ZX - Legacy, Neck Bracket &amp;#40;Ninjago Destiny's Bounty Adventures Board Game&amp;#41;</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>4.22</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -171493,6 +171493,15 @@
       <CATEGORY>801</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0923</ITEMID>
+      <ITEMNAME>Friends Paisley - Medium Blue Vest, Coral Skirt Full Length Pleated, Bright Pink Sun Cap</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.61</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
