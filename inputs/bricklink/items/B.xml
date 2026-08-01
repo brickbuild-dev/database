@@ -51257,7 +51257,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>mag2016de3</ITEMID>
+      <ITEMID>mag2016de3frnd</ITEMID>
       <ITEMNAME>LEGO Club Magazine 2016 Friends Issue 3 &amp;#40;German&amp;#41;</ITEMNAME>
       <CATEGORY>1167</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
@@ -51266,7 +51266,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>mag2015de3</ITEMID>
+      <ITEMID>mag2015de3frnd</ITEMID>
       <ITEMNAME>LEGO Club Magazine 2015 Friends Issue 3 &amp;#40;German&amp;#41;</ITEMNAME>
       <CATEGORY>1167</CATEGORY>
       <ITEMYEAR>2015</ITEMYEAR>
@@ -71107,6 +71107,339 @@
       <CATEGORY>1024</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2013nlmarjr</ITEMID>
+      <ITEMNAME>LEGO Club Junior Magazine &amp;#40;Dutch&amp;#41; 2013 March - May</ITEMNAME>
+      <CATEGORY>1167</CATEGORY>
+      <ITEMYEAR>2013</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2013nljanjr</ITEMID>
+      <ITEMNAME>LEGO Club Junior Magazine &amp;#40;Dutch&amp;#41; 2013 January - February</ITEMNAME>
+      <CATEGORY>1167</CATEGORY>
+      <ITEMYEAR>2013</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2012nlsepjr</ITEMID>
+      <ITEMNAME>LEGO Club Junior Magazine &amp;#40;Dutch&amp;#41; 2012 September - October</ITEMNAME>
+      <CATEGORY>1167</CATEGORY>
+      <ITEMYEAR>2012</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2012nlnovjr</ITEMID>
+      <ITEMNAME>LEGO Club Junior Magazine &amp;#40;Dutch&amp;#41; 2012 November - December</ITEMNAME>
+      <CATEGORY>1167</CATEGORY>
+      <ITEMYEAR>2012</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2013nljunjr</ITEMID>
+      <ITEMNAME>LEGO Club Junior Magazine &amp;#40;Dutch&amp;#41; 2013 June - August</ITEMNAME>
+      <CATEGORY>1167</CATEGORY>
+      <ITEMYEAR>2013</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2014nlsepjr</ITEMID>
+      <ITEMNAME>LEGO Club Junior Magazine &amp;#40;Dutch&amp;#41; 2014 September - October</ITEMNAME>
+      <CATEGORY>1167</CATEGORY>
+      <ITEMYEAR>2014</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2015nljanjr</ITEMID>
+      <ITEMNAME>LEGO Club Junior Magazine &amp;#40;Dutch&amp;#41; 2015 January - February</ITEMNAME>
+      <CATEGORY>1167</CATEGORY>
+      <ITEMYEAR>2015</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2015nlmarjr</ITEMID>
+      <ITEMNAME>LEGO Club Junior Magazine &amp;#40;Dutch&amp;#41; 2015 March - May</ITEMNAME>
+      <CATEGORY>1167</CATEGORY>
+      <ITEMYEAR>2015</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2016nlsepjr</ITEMID>
+      <ITEMNAME>LEGO Club Junior Magazine &amp;#40;Dutch&amp;#41; 2016 September - October</ITEMNAME>
+      <CATEGORY>1167</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2013nl4frnd</ITEMID>
+      <ITEMNAME>LEGO Club Magazine 2013 Friends September - October &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1167</CATEGORY>
+      <ITEMYEAR>2013</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2013nl5frnd</ITEMID>
+      <ITEMNAME>LEGO Club Magazine 2013 Friends November - December &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1167</CATEGORY>
+      <ITEMYEAR>2013</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2014nl4frnd</ITEMID>
+      <ITEMNAME>LEGO Club Magazine 2014 Friends September - October &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1167</CATEGORY>
+      <ITEMYEAR>2014</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2015nl2elf</ITEMID>
+      <ITEMNAME>LEGO Club Magazine 2015 Elves March - May &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1167</CATEGORY>
+      <ITEMYEAR>2015</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2015nl3frnd</ITEMID>
+      <ITEMNAME>LEGO Club Magazine 2015 Friends June - August &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1167</CATEGORY>
+      <ITEMYEAR>2015</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2015nl5frnd</ITEMID>
+      <ITEMNAME>LEGO Club Magazine 2015 Friends November - December &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1167</CATEGORY>
+      <ITEMYEAR>2015</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2015nl4</ITEMID>
+      <ITEMNAME>LEGO Club Magazine &amp;#40;Dutch&amp;#41; 2015 September - October</ITEMNAME>
+      <CATEGORY>1167</CATEGORY>
+      <ITEMYEAR>2015</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2015nl5</ITEMID>
+      <ITEMNAME>LEGO Club Magazine &amp;#40;Dutch&amp;#41; 2015 November - December</ITEMNAME>
+      <CATEGORY>1167</CATEGORY>
+      <ITEMYEAR>2015</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2016nl1frnd</ITEMID>
+      <ITEMNAME>LEGO Club Magazine 2016 Friends January - February &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1167</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2016nl3frnd</ITEMID>
+      <ITEMNAME>LEGO Club Magazine 2016 Friends June - August &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1167</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2016nl4elf</ITEMID>
+      <ITEMNAME>LEGO Club Magazine 2016 Elves September - October &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1167</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2016nl5</ITEMID>
+      <ITEMNAME>LEGO Club Magazine &amp;#40;Dutch&amp;#41; 2016 December</ITEMNAME>
+      <CATEGORY>1167</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2017life01nl</ITEMID>
+      <ITEMNAME>LEGO Life Magazine 2017 Issue 1 March - May &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1261</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2017life03nl</ITEMID>
+      <ITEMNAME>LEGO Life Magazine 2017 Issue 3 June - August &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1261</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2017life04nl</ITEMID>
+      <ITEMNAME>LEGO Life Magazine 2017 Issue 4 September - October &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1261</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2017life05nl</ITEMID>
+      <ITEMNAME>LEGO Life Magazine 2017 Issue 5 November - December &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1261</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2018life01nl</ITEMID>
+      <ITEMNAME>LEGO Life Magazine 2018 Issue 1 January - February &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1261</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2018life02nl</ITEMID>
+      <ITEMNAME>LEGO Life Magazine 2018 Issue 2 March - May &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1261</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2018life03nl</ITEMID>
+      <ITEMNAME>LEGO Life Magazine 2018 Issue 3 June - August &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1261</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2024life03nl</ITEMID>
+      <ITEMNAME>LEGO Life Magazine 2024 Issue 3 July - October &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1261</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2017cty04nl</ITEMID>
+      <ITEMNAME>City Magazine 2017 Issue 4 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1021</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2017nex02nl</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Magazine 2017 Issue 2 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1023</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2017nex04nl</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Magazine 2017 Issue 4 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1023</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2017nex07nl</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Magazine 2017 Issue 7 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1023</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2017nex08nl</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Magazine 2017 Issue 8 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1023</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2017nex09nl</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Magazine 2017 Issue 9 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1023</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2017nex10nl</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Magazine 2017 Issue 10 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1023</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2017nex12nl</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS Magazine 2017 Issue 12 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1023</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>50</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>

@@ -200441,6 +200441,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03pl084</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Polish&amp;#41; Series 3 - # 84 Plomienna Zmija</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05apl124</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Polish&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # 124 Wybuch Spinjitzu Kai</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>shopstop32</ITEMID>
       <ITEMNAME>Display Sign, Wobbler / Shopper Stopper, Pirates &amp;#40;921238_NL&amp;#41;</ITEMNAME>
       <CATEGORY>539</CATEGORY>
@@ -217874,6 +217892,807 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw03de011</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 11 Weiser Han Solo</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw03de039</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 39 Mutige Rey</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw03de047</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 47 schneller R2-D2</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw03de070</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 70 Team Hunter &amp; Wrecker</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw03de074</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 74 Wilder Darth Vader</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw03de084</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 84 Machtvoller Darth Maul</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw03de087</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 87 Machtvoller Count Dooku</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw03de103</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 103 Vicrul</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw03de121</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 121 Rivalen Anakin Skywalker &amp; Count Dooku</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw03de135</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 135 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw03de159</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 159 Boba - Bring Captain Solo in den Laderaum</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw03de172</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 172 Tie Fighter Pilot Helm</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw03de183</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 183 Luke Skywalkers Landspeeder</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw03de200</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 200 Abriss-BB-Irne</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw03de204</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 204 Wütende Waschmaschine</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de001</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 1 Anakin Skywalker</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de002</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 2 Anakin Skywalker</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de003</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 3 Anakin Skywalker - Ultra</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de004</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 4 Obi-Wan Kenobi</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de004foil</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 4 Obi-Wan Kenobi &amp;#40;Foil Variant&amp;#41;</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de005</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 5 Obi-Wan Kenobi</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de006</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 6 Obi-Wan Kenobi</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de007</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 7 Padme Amidala</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de010</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 10 Chewbacca</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de011</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 11 Chewbacca</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de012</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 12 Han Solo</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de013</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 13 Han Solo</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de014</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 14 Han Solo - Ultra</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de015foil</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 15 Leia Organa &amp;#40;Foil Variant&amp;#41;</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de016</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 16 Leia Organa</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de018</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 18 Mace Windu</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de019</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 19 Luke Skywalker</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de021</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 21 Luke Skywalker - Ultra</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de022</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 22 Yoda</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de024</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 24 Yoda - Ultra</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de025</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 25 Qui-Gon Jinn</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de027</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 27 Der Mandalorianer - Ultra</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de028foil</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 28 Grogu &amp;#40;Foil Variant&amp;#41;</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de030</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 30 FN-2187</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de033</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 33 Poe Dameron</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de034</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 34 Rey</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de036</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 36 Lando Calrissian</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de037</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 37 Lando Calrissian</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de038</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 38 Admiral Ackbar</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de039</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 39 Ahsoka Tano</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de040</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 40 Jyn Erso</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de040foil</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 40 Jyn Erso &amp;#40;Foil Variant&amp;#41;</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de041</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 41 Cassian Andor</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de042</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 42 Cassian Andor</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de044</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 44 Tala Durith</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de044foil</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 44 Tala Durith &amp;#40;Foil Variant&amp;#41;</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de045</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 45 Hunter</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de046</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 46 Omega</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de047</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 47 Pro</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de048</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 48 Jawa</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de050</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 50 C-3PO</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de053</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 53 D-O</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de054foil</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 54 BB-8 &amp;#40;Foil Variant&amp;#41;</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de055</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # Ned-B</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de056</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 56 Mandalorianischer Krieger &amp;#40;Silber&amp;#41;</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de057</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 57 Mandalorianischer Krieger &amp;#40;Grün&amp;#41;</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de059</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 59 Mandalorianischer Krieger &amp;#40;Braun&amp;#41;</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de060</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 60 Yoda, Mace Windu &amp; Qui-Gon Jinn</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de062</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 62 R2-D2 &amp; C-3PO</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de063</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 63 Han Solo &amp; Chewbacca</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de064</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 64 Anakin Skywalker &amp; Obi-Wan Kenobi</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de067</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 67 Tala Durith &amp; Ned-B</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de068</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 68 Jyn Erso &amp; Pro</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de070</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 70 Darth Vader</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de071</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 71 Darth Vader</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de074</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 74 Darth Maul</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de076foil</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 76 Oberster Kanzler Palpatine &amp;#40;Foil Variant&amp;#41;</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de077</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 77 Darth Sidious</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de079foil</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 79 General Grievous &amp;#40;Foil Variant&amp;#41;</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de080</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 80 General Grievous</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de081</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 81 General Maximilian Veers</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de082</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 82 General Hux</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de083</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 83 General Hux</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de084</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 84 Kylo Ren</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de086</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 86 Kylo Ren - Ultra</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de087</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 87 Boba Fett</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de087foil</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 87 Beba Fett &amp;#40;Foil Variant&amp;#41;</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de089</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 89 Boba Fett - Ultra</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de090</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 90 Oberster Anführer Snoke</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de091</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 91 Oberster Anführer Snoke</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de092</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 92 Captain Phasma</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de094</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 94 Captain Rex</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de097foil</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 97 AP&amp;#39;LEK &amp;#40;Foil Variant&amp;#41;</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de098</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 98 Asajj Ventress</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>bricklink01</ITEMID>
       <ITEMNAME>Sticker, &amp;#39;BrickLink&amp;#39; Wordmark on Medium Blue Background</ITEMNAME>
       <CATEGORY>1017</CATEGORY>
@@ -217897,6 +218716,1986 @@
       <CATEGORY>1111</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>15.75</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de100</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 100 Grossinquisitor</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de102</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 102 Greedo</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de105</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 105 Reva &amp;#40;Dritte Schwester&amp;#41;</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de108</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 108 Fennec Shand</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de109</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 109 Cad Bane</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de110</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 110 Cardo</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de112</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 112 Trudgen</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de113</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 113 Ushar</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de117</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 117 Sturmtruppler der Ersten Ordnung</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de118</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 118 Klonkrieger</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de121</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 121 Sandtruppler</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de122</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 122 Sith-Truppler</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de123</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 123 Schneetruppler</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de124</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 124 Todestruppler</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de126</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 126 Prätprianergardist</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de127</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 127 Imperialer Ehrengardist</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de129</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 129 Tie Fighter Pilot</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de130</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 130 Sturmtruppler-Team</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de131</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 131 Rey vs. Kylo Ren</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de132</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 132 Han Solo vs. Greedo</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de137</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 137 Darth Vader</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de138</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 138 Count Dooku</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de139</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 139 Darth Maul</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de140</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 140 Darth Sidious</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de141</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 141 Kylo Ren</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de143</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 143 Grossinquisitor</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de144</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 144 Fünfter Bruder</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de145</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 145 Reva &amp;#40;Dritte Schwester&amp;#41;</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de146</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 146 Savage Opress</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de147</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 147 Darth Vader &amp; Darth Sidious</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de148</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 148 Maul &amp; Savage Opress</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de153</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 153 Autogrammstunde</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de154</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 154 Blitz-Limbo</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de155</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 155 Poolparty</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de156</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 156 Tomatenbad</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de157</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 157 Schatz Geschnappt</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de158</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 158 Ballspiel</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de159</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 159 Frühjahrsputz</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de160</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 160 Angeschmiert</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de162</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 162 Böse Droiden</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de163</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 163 10 Punkte Landung</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de164</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 164 Wasserschlacht</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de165</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 165 Weltraum Haustier</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de166</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 166 Präsentation</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de168</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 168 Junger Künstler</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de169</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 169 Enttarnt</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de170</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 170 Anakin</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de172</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 172 Padme</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de173</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 173 Chewbacca</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de176</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 176 Luke</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de177</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 177 Yoda</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de178</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 178 Rey</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de179</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 179 Der Mandalorianer</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de180</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 180 C-3PO</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de181</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 181 R2-D2</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de182</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 182 Vader</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de183</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 183 Sidious</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de184</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 184 Kylo</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de185</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 185 Boba</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de186</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 186 Cassian</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de188</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 188 Obi-Wan Kenobi vs. Darth Vader</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de189</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 189 Überfall auf Ferrix</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de191</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 191 Angriff der Dark Trooper</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de192</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 192 Ärder auf Tatoonie</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de193</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;'Die Macht' Edition&amp;#41; - # 193 Die Mandalorianische Schmiede der Waffenschmiedin</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de194</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 194 Duell auf Bespin</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de196</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 196 Todesstern - Letztes Duell</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de197</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 197 Pasaana Speeder Jagd</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de199</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 199 Flucht vom Todesstern</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de200</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 200 Action Battle Endor Attacke</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de201</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 2001 Action Battle Echo Base Verteidigung</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de203</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 203 Müllpresse im Todesstern - Diorama</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de205</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 205 BD-1</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de206</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 206 Luke Skywalker&amp;#39;s Landspeeder</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de207</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 207 AT-AT</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de210</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 210 Imperialer Sternenzerstörer</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de211</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 211 Y-Wing Starfighter</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de212</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 212 Millennium Falcon</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de213</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 213 Snowspeeder</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de214</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 214 Tie Fighter</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de215</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 215 Boba Fett&amp;#39;s Starship</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de216</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 216 Rebel Blockade Runner</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de217</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 217 Red Five X-Wing Starfighter</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de219</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 219 Super-Sternenzerstörer</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de220</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 220 Obi-Wan Kenobis Jedi Starfighter</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de221</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 221 Imperial Shuttle</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de222</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 222 Vader&amp;#39;s Tie Adcanced</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de223</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 223 Tie Interceptor</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de224</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;'Die Macht' Edition&amp;#41; - # 224 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de226</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;'Die Macht' Edition&amp;#41; - # 226 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de227</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;'Die Macht' Edition&amp;#41; - # 227 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de228</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;'Die Macht' Edition&amp;#41; - # 228 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de230</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;'Die Macht' Edition&amp;#41; - # 230 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de232</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;'Die Macht' Edition&amp;#41; - # 232 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de233</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;'Die Macht' Edition&amp;#41; - # 233 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de234</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;'Die Macht' Edition&amp;#41; - # 234 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de235</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;'Die Macht' Edition&amp;#41; - # 235 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de237</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;'Die Macht' Edition&amp;#41; - # 237 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de238</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;'Die Macht' Edition&amp;#41; - # 238 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de240</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;'Die Macht' Edition&amp;#41; - # 240 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de242</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;'Die Macht' Edition&amp;#41; - # 242 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de243</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;'Die Macht' Edition&amp;#41; - # 243 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de244</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;'Die Macht' Edition&amp;#41; - # 244 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de245</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;'Die Macht' Edition&amp;#41; - # 245 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de246</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;'Die Macht' Edition&amp;#41; - # 246 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de247</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;'Die Macht' Edition&amp;#41; - # 247 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de248</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;'Die Macht' Edition&amp;#41; - # 248 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de249</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;'Die Macht' Edition&amp;#41; - # 249 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de250</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;'Die Macht' Edition&amp;#41; - # 250 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de251</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 251 Gold Edition Darth Vader</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de252</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 252 Gold Edition Darth Maul</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw04de254</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 254 Gold Edition Luke Skywalker</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de002</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 2 Qui-Gon Jinn</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de003</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 3 Anakin Skywalker</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de005</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 5 Jar Jar Binks</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de008</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 8 Anakin Skywalker &amp; Jar Jar Binks</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de013</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 13 Darth Maul</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de014</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 14 Klontruppler</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de015</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 15 Klon Commander</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de017</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 17 Obi-Wan Kenobi</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de020</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 20 Jango Fett</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de022</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 22 Count Dooku</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de023</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 23 Anakin Skywalker</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de026</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 26 Katan Kryze</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de031</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 31 Saesee Tiin</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de032</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 32 General Grievous</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de034</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 34 C-3PO</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de036</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 36 Ahsoka Tano</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de038</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 38 Darth Sidious</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de039</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 39 Yoda</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de042</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 42 Chewbacca</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de043</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 43 Landoo Calrissian</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de045</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 45 Han Solo</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de054</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 54 Zeb</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de055</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 55 Inquiaitor</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de058</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 58 Imperialer Todestruppler</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de060</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 60 Jyn Erso</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de062</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 62 Imperialer Küstentruppler</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de063</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 63 Sturmtruppler</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de066</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 66 Han Solo</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de070</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 70 Han Solo &amp; Chewbacca</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de073</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 73 Han Solo</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de074</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 74 Greedo</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de077</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 77 Darth Vader</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de078</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 78 Yoda</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de079</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 79 Like Skywalker</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de083</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 83 Yoda &amp; Luke Skywalker</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de092</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 92 Ewok</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de093</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 93 Rancor</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de094</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 94 Boba Fett</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de095</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 95 Gamorreanische Wache &amp; Rancor</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de097</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 97 Boba Fett</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de100</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 100 Grogu</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de104</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 104 Din Djarin &amp; Grogu</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de107</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 107 Bo-Katan Kryze</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de109</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 109 Din Djarin</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de110</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 110 Moff Gideon</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de111</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 111 Din Djarin</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de112</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 112 Rey</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de113</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 113 Finn</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de116</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 116 Flammentruppler</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de117</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 117 Poe Dameron</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de123</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 123 Finn</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de125</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 125 Luke Skywalker</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de126</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 126 Porgs</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de131</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 131 Erste Ordnung Tie-Pilot</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de133</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 133 Kylo Ren &amp; Sith-Truppler</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de134</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 134 Luke Skywalker</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de141</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 141 Luke Skywalker</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de142</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 142 Captain Phasma</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de143</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 143 Rey</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de147</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 147 BB-8</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de148</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 148 Imperator Palpatine</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de152</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 152 Padme</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de156</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 156 Cassian</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de160</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 160 Vader</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de169</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 169 Geschwisterrivalität</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de170</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 170 Modell Stehen</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de171</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 171 Essenslieferung</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de173</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 173 Raumschiffwäsche</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de175</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 175 Scherzhafter Imerator</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de178</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 178 Kaffeepause</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de179</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 179 Gefahr in der Wüste</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de172</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 172 Wütender Wampa</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de176</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 176 Aufbruch</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de177</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 177 Familienangelegenheit</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de181</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 181 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de182</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 182 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de183</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 183 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de184</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 184 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de185</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 185 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de186</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 186 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de187</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 187 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de188</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 188 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de189</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 189 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de190</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 190 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de191</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 191 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de192</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 192 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de193</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 193 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de194</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 194 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de195</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 195 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de196</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 196 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de197</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 197 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de198</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 198 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de199</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 199 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de200</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 200 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de201</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 201 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de202</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 202 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de203</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 203 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de204</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 204 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de205</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 205 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de206</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 206 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de207</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 207 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de208</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 208 X-Wing Fighter</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de209</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 209 Destroyer Droid</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de210</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 210 Battle Droid Troop Carrier</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de211</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 211 Ewok Attack</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de212</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 212 Mini Snowspeeder &amp; AT-ST</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de213</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 213 Millennium Falcon</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de214</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 214 Wookiee-Katamaran</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -217964,6 +220763,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de215</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 215 Imperialer Sternenzerstörer</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>53869</ITEMID>
       <ITEMNAME>Stationery Set, Animals 3 in 1 Creativity Set</ITEMNAME>
       <CATEGORY>1113</CATEGORY>
@@ -217982,11 +220790,110 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de216</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 216 Clone Troopers Battle Pack</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>53598</ITEMID>
       <ITEMNAME>Botanicals Combination Lock Diary Set</ITEMNAME>
       <CATEGORY>447</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>666</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de217</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 217 Rebel Scout Speeder</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de218</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 218 Tantive IV</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de219</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 219 Hoth Wampa Cave</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de220</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 220 The Battle of Naboo</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de221</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 221 Jabbas Palast</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de222</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 222 Duel on Geonosis</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de223</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 223 The Ghost</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de224</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 224 Death Star Final Duel</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de225</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 225 Battle on Takodana</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de226</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 226 Desert Skiff Escape</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -218000,11 +220907,29 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de227</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 227 Yodas Hütte</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>53696</ITEMID>
       <ITEMNAME>Notebook Locking with Gel Pen, Violet &amp;#40;2.7cm Thickness&amp;#41;</ITEMNAME>
       <CATEGORY>447</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>234</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de228</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 228 Pasaana Speeder Jagd</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -218027,6 +220952,105 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de229</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 229 Obi-Wans Hütte</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de230</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 230 Mandalorian Starfighter</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de231</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 231 Obi-Wan Kenobi vs. Darth Vader</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de232</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 232 Rebellenbasis auf Yavin 4</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de233</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 233 Snubfighter der Piraten</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de234</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 234 Spinnenpanzer</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de235</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 235 Tie Bomber</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de236</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 236 Mandalorianischer Fang Fighter</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de237</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 237 Tie Interceptor</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de238</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 238 X-Wing Starfighter</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de239</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 239 Supersternenzerstörer Executor</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>53708</ITEMID>
       <ITEMNAME>Stationery Set, 7 Piece with Construction Worker Minifigure</ITEMNAME>
       <CATEGORY>447</CATEGORY>
@@ -218041,6 +221065,24 @@
       <CATEGORY>447</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>118</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de240</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 240 Yodas Jedi Starfighter</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de241</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 241 Die Scythe - Transportschiff des Großinquisitors</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -218072,11 +221114,38 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de242</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 242 Der N-1 Starfighter des Mandalorianers</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de243</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 243 Todesstern II</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>53705</ITEMID>
       <ITEMNAME>Pencil, Mechanical with Studs and Construction Worker Minifigure</ITEMNAME>
       <CATEGORY>447</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>30</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de244</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 244 Y-Wing</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -218095,6 +221164,15 @@
       <CATEGORY>241</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>30</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>sw05de245</ITEMID>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 5 &amp;#40;Jubiläums-Edition&amp;#41; - # 245 Ahsoka Tanos T-6 Jedi Shuttle</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
