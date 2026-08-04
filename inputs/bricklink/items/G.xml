@@ -43089,7 +43089,7 @@
       <ITEMNAME>Postcard - Star Wars The Visual Dictionary Postcard - Complete Set of 9</ITEMNAME>
       <CATEGORY>472</CATEGORY>
       <ITEMYEAR>2009</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>48</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -218415,7 +218415,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>sw04de055</ITEMID>
-      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # Ned-B</ITEMNAME>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 55 Ned-B</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
@@ -219351,7 +219351,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>sw04de201</ITEMID>
-      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 2001 Action Battle Echo Base Verteidigung</ITEMNAME>
+      <ITEMNAME>Star Wars Trading Card Collection &amp;#40;German&amp;#41; Series 4 &amp;#40;&amp;#39;Die Macht&amp;#39; Edition&amp;#41; - # 201 Action Battle Echo Base Verteidigung</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
@@ -221425,6 +221425,33 @@
       <CATEGORY>175</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6591893</ITEMID>
+      <ITEMNAME>Mighty Machines Trading Card Series 1 - # 05 Wrecking Ball Crane</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>1.75</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6591890</ITEMID>
+      <ITEMNAME>Mighty Machines Trading Card Series 1 - # 02 Wheel Loader</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>1.75</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6591892</ITEMID>
+      <ITEMNAME>Mighty Machines Trading Card Series 1 - # 04 Cement Truck</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>1.75</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
