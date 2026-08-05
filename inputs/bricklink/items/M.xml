@@ -171642,7 +171642,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>op038</ITEMID>
-      <ITEMNAME>Tony Tony Chopper</ITEMNAME>
+      <ITEMNAME>Tony Tony Chopper - Closed Mouth / Angry</ITEMNAME>
       <CATEGORY>1347</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -171659,6 +171659,33 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>op040</ITEMID>
+      <ITEMNAME>Tony Tony Chopper - Open Mouth / Sad</ITEMNAME>
+      <CATEGORY>1347</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.33</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>op041</ITEMID>
+      <ITEMNAME>Dr. Hiriluk</ITEMNAME>
+      <CATEGORY>1347</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.57</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>op042</ITEMID>
+      <ITEMNAME>Dr. Kureha</ITEMNAME>
+      <CATEGORY>1347</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.08</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>frnd0924</ITEMID>
       <ITEMNAME>Friends Aliya - Sand Blue Vest, Blue Skirt, Metallic Light Blue Shoes, Bright Light Orange Flower Tiara</ITEMNAME>
       <CATEGORY>771</CATEGORY>
@@ -171671,7 +171698,7 @@
       <ITEMID>edi012</ITEMID>
       <ITEMNAME>Olivia Rodrigo - Red Outfit</ITEMNAME>
       <CATEGORY>1359</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.18</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171680,7 +171707,7 @@
       <ITEMID>edi013</ITEMID>
       <ITEMNAME>Olivia Rodrigo - White Outfit</ITEMNAME>
       <CATEGORY>1359</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.74</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171691,6 +171718,15 @@
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.05</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2047</ITEMID>
+      <ITEMNAME>Construction Worker - Male, Reddish Orange Safety Jacket with Reflective Stripes, Dark Bluish Gray Legs, Red Construction Helmet, Safety Glasses</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.34</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
