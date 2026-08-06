@@ -167339,6 +167339,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty1993</ITEMID>
+      <ITEMNAME>Race Car Driver - Male, White, Black and Lime Racing Suit, White Legs, Black Hair</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.6</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hol415</ITEMID>
       <ITEMNAME>Man - Red Tang Jacket with Gold Chinese Scrollwork, Red Legs, Black Smooth Hair</ITEMNAME>
       <CATEGORY>390</CATEGORY>
@@ -171618,13 +171627,22 @@
       <ITEMNAME>Sanji Vinsmoke - White Hoodie</ITEMNAME>
       <CATEGORY>1347</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>3.63</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>op035</ITEMID>
       <ITEMNAME>Monkey D. Luffy - Yellow Vest, Straw Hat on Back</ITEMNAME>
+      <CATEGORY>1347</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>5.1</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>op036</ITEMID>
+      <ITEMNAME>Nefertari Vivi</ITEMNAME>
       <CATEGORY>1347</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -171636,7 +171654,7 @@
       <ITEMNAME>Nami - Dark Purple Outfit</ITEMNAME>
       <CATEGORY>1347</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>3.88</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -171645,7 +171663,7 @@
       <ITEMNAME>Tony Tony Chopper - Closed Mouth / Angry</ITEMNAME>
       <CATEGORY>1347</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>3.33</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -171654,7 +171672,7 @@
       <ITEMNAME>Wapol</ITEMNAME>
       <CATEGORY>1347</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>5.25</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -171662,7 +171680,7 @@
       <ITEMID>op040</ITEMID>
       <ITEMNAME>Tony Tony Chopper - Open Mouth / Sad</ITEMNAME>
       <CATEGORY>1347</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.33</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171671,7 +171689,7 @@
       <ITEMID>op041</ITEMID>
       <ITEMNAME>Dr. Hiriluk</ITEMNAME>
       <CATEGORY>1347</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.57</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171680,7 +171698,7 @@
       <ITEMID>op042</ITEMID>
       <ITEMNAME>Dr. Kureha</ITEMNAME>
       <CATEGORY>1347</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.08</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171713,6 +171731,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cas597</ITEMID>
+      <ITEMNAME>Kingdoms - Lion Knight Armor with Lion Head, Helmet with Broad Brim &amp;#40;Watch 9003400&amp;#41;</ITEMNAME>
+      <CATEGORY>9</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.72</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1532</ITEMID>
       <ITEMNAME>Embo - Olive Green</ITEMNAME>
       <CATEGORY>65</CATEGORY>
@@ -171725,8 +171752,53 @@
       <ITEMID>cty2047</ITEMID>
       <ITEMNAME>Construction Worker - Male, Reddish Orange Safety Jacket with Reflective Stripes, Dark Bluish Gray Legs, Red Construction Helmet, Safety Glasses</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.34</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1533</ITEMID>
+      <ITEMNAME>Imperial Remnant Warlord</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.77</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1534</ITEMID>
+      <ITEMNAME>Snowtrooper - Male, Printed Legs, White Hands</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1535</ITEMID>
+      <ITEMNAME>Imperial Remnant Snowtrooper - Medium Nougat Head</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.91</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1536</ITEMID>
+      <ITEMNAME>Imperial Remnant Snowtrooper - Umber Head</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.91</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1537</ITEMID>
+      <ITEMNAME>AT-AT Driver - White and Light Bluish Gray Suit</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -171736,6 +171808,33 @@
       <CATEGORY>842</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.64</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>op030</ITEMID>
+      <ITEMNAME>Usopp - Dark Green Bandana, Olive Green Legs</ITEMNAME>
+      <CATEGORY>1347</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.68</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>op046</ITEMID>
+      <ITEMNAME>Mr. 13</ITEMNAME>
+      <CATEGORY>1347</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>2.34</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>op047</ITEMID>
+      <ITEMNAME>Miss Friday</ITEMNAME>
+      <CATEGORY>1347</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>6.43</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>

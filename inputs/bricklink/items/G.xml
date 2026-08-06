@@ -145560,7 +145560,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>njo03deboard</ITEMID>
-      <ITEMNAME>Ninjago Trading Card Game &amp;#40;German&amp;#41; Series 3 - Game Board</ITEMNAME>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - Game Board</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -153435,7 +153435,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>njo08czpack</ITEMID>
-      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Czech&amp;#41; Series 8 - Startovaci sadu</ITEMNAME>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Czech&amp;#41; Series 6 - Startovaci sadu</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>408</ITEMWEIGHT>
@@ -153444,7 +153444,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>njo08czrules</ITEMID>
-      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Czech&amp;#41; Series 8 - Pravidla</ITEMNAME>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Czech&amp;#41; Series 6 - Pravidla</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>45</ITEMWEIGHT>
@@ -153453,7 +153453,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>njo08czboard</ITEMID>
-      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Czech&amp;#41; Series 8 - Game Board &amp;#40;Double-Sided&amp;#41;</ITEMNAME>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Czech&amp;#41; Series 6 - Game Board &amp;#40;Double-Sided&amp;#41;</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>59</ITEMWEIGHT>
@@ -200441,6 +200441,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05pl066</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Polish&amp;#41; Series 5 - # 66 Grimfax</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>njo03pl084</ITEMID>
       <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Polish&amp;#41; Series 3 - # 84 Plomienna Zmija</ITEMNAME>
       <CATEGORY>380</CATEGORY>
@@ -200450,8 +200459,44 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05pl062</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Polish&amp;#41; Series 5 - # 62 Akita Jako Wilk</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05pl103</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Polish&amp;#41; Series 5 - # 103 Potężny Unagami</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>njo05apl124</ITEMID>
       <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Polish&amp;#41; Series 5 &amp;#40;Następny Poziom&amp;#41; - # 124 Wybuch Spinjitzu Kai</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo06plpack</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Polish&amp;#41; Series 6 - Booster Pack</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2021</ITEMYEAR>
+      <ITEMWEIGHT>13.2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05pl112</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Polish&amp;#41; Series 5 - # 112 Awatar Harumi Z Prime Empire</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>2</ITEMWEIGHT>
@@ -200482,6 +200527,78 @@
       <CATEGORY>539</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05pl176</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Polish&amp;#41; Series 5 - # 176 Podskok</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05apl017</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Polish&amp;#41; Series 5 &amp;#40;Następny Poziom&amp;#41; - # 17 Dumny Zane z Nibykrainy</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05pl209</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Polish&amp;#41; Series 5 - # 209 Zakazany Smok Lodu</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05pl196</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Polish&amp;#41; Series 5 - # 196 Erupcja Lawy</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05apl114</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Polish&amp;#41; Series 5 &amp;#40;Następny Poziom&amp;#41; - # 114 Smutny</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05apl070</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Polish&amp;#41; Series 5 &amp;#40;Następny Poziom&amp;#41; - # 70 Niebepieczna Drużyna</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05pl226</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Polish&amp;#41; Series 5 - # 226 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo06czpack</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Czech&amp;#41; Series 6 - Booster Pack</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>13</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -204213,7 +204330,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>displaysign129</ITEMID>
-      <ITEMNAME>Display Sign Hanging, Exploriens</ITEMNAME>
+      <ITEMNAME>Display Sign Hanging, Exploriens &amp;#40;Dutch&amp;#41;</ITEMNAME>
       <CATEGORY>539</CATEGORY>
       <ITEMYEAR>1996</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -205139,6 +205256,33 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>bookmark10</ITEMID>
+      <ITEMNAME>Bookmark, NINJAGO - Nya &amp;#40;Hungarian&amp;#41;</ITEMNAME>
+      <CATEGORY>447</CATEGORY>
+      <ITEMYEAR>2021</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>bookmark11</ITEMID>
+      <ITEMNAME>Bookmark, NINJAGO - Lloyd &amp;#40;Hungarian&amp;#41;</ITEMNAME>
+      <CATEGORY>447</CATEGORY>
+      <ITEMYEAR>2021</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>p21njo1hu</ITEMID>
+      <ITEMNAME>NINJAGO Poster 2021 - Építs magadnak Kalandot! - A Legnagyobb Nindzsacsaták &amp;#40;Hungarian&amp;#41;</ITEMNAME>
+      <CATEGORY>503</CATEGORY>
+      <ITEMYEAR>2021</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>6616407</ITEMID>
       <ITEMNAME>Flyer 2025 Set 910057 Insert - Building App Link and Instructions &amp;#40;North American Version&amp;#41;</ITEMNAME>
       <CATEGORY>1104</CATEGORY>
@@ -205179,6 +205323,15 @@
       <ITEMNAME>Sticker Sheet for Book b18dp04</ITEMNAME>
       <CATEGORY>160</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>5051893241099</ITEMID>
+      <ITEMNAME>Star Wars: La Saga Skywalker - Sony PS5 &amp;#40;Deluxe Edition&amp;#41; &amp;#40;Spanish Version&amp;#41;</ITEMNAME>
+      <CATEGORY>712</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -215894,6 +216047,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>plush71</ITEMID>
+      <ITEMNAME>Sweet Mayhem Minifigure Plush Large</ITEMNAME>
+      <CATEGORY>512</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>368</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>6650821</ITEMID>
       <ITEMNAME>Ninjago Poster 2026 - The Twin Titan Mechs</ITEMNAME>
       <CATEGORY>503</CATEGORY>
@@ -216884,6 +217046,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>displaysign137</ITEMID>
+      <ITEMNAME>Display Sign Hanging, Exploriens &amp;#40;English&amp;#41;</ITEMNAME>
+      <CATEGORY>539</CATEGORY>
+      <ITEMYEAR>1996</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>njo02de091</ITEMID>
       <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 91 Ultra Clouse</ITEMNAME>
       <CATEGORY>380</CATEGORY>
@@ -217052,6 +217223,24 @@
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>408</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>5008984</ITEMID>
+      <ITEMNAME>LED Key Light Classic Space Minifigure Key Chain Orange &amp;#40;LEDLITE&amp;#41;</ITEMNAME>
+      <CATEGORY>334</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>35</ITEMWEIGHT>
+      <IMAGECOLOR>4</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>SWRibbon2007</ITEMID>
+      <ITEMNAME>Ribbon, LEGO Star Wars Days LEGOLAND California DROID HUNT 2007</ITEMNAME>
+      <CATEGORY>1111</CATEGORY>
+      <ITEMYEAR>2007</ITEMYEAR>
+      <ITEMWEIGHT>1</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
@@ -217830,9 +218019,540 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>njo02de198</ITEMID>
-      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 198 Zeitzwillinge</ITEMNAME>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 198 Puzzle Piece</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo02de199</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 199 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo02de200</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 200 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo02de201</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 201 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo02de202</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 202 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo02de203</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 203 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo02de204</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 204 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo02de205</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 205 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo02de206</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 206 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo02de207</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 207 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo02de208</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 208 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo02de209</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 209 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo02de210</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 210 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo02de211</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 211 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo02de212</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 212 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo02de213</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 213 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo02de214</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 214 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo02de215</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 215 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo02de216</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - # 216 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo02derulesL</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - Regeln &amp;#40;Large&amp;#41;</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>45</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo02deboard</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 2 - Game Board</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>65</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de071</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 71 Erster Haimonster General Nr. 1</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de086</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 86 Verrückter Böser Skip</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de088</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 88 Super Verrückter Herr E</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de091</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 91 Wütender Acronix</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de098</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 98 Stolze Machia</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de101</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 101 Böser Raggmunk</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de107</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 107 Tollpatschiger Vermillion</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de109</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 109 Erwachte Statue</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de113</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 113 Wütender Meister Yang</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de116</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 116 Auferstandener Meister Chen</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de124</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 124 Handschellen</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de126</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 126 Achtung Steinschlag!</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de127</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 127 Luft-Duell</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de132</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 132 Dreierschlag</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de138</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 138 Gefesselt</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de141</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 141 Von Hinten Erwischt</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de153</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 153 Körperscan</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de154</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 154 Vater gegen Sohn</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de168</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 168 Killows Oni-Chopper</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de184</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 184 Mega Duell Kai</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de182</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 182 Hai-Mech</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de193</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 193 Mega Duell Haimonster General Nr. 1</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de196</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 196 Mega Duell Oktopus</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de207</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 207 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de208</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 208 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de210</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 210 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de218</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 218 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de226</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 226 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de227</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 227 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03deLE05</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # LE5 Spinjitzu Meister Zane Limited Edition</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo03de242</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 3 - # 242 Fiese Oni Ultra Violet</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2018</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05adeXXL1</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # XXL1 Level Up Jay &amp;#40;Oversize XXL&amp;#41;</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05adeLE01</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - # LE1 Arcade Kai Limited Edition</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05aderulesL</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - Spielregeln &amp;#40;Large&amp;#41;</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>45</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo05adeboard</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 5 &amp;#40;Next Level&amp;#41; - Game Board</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>60</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo06de055</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 6 - # 55 Korgran</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2021</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo06de080</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 6 - # 80 Fieser Erwachter Krieger</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2021</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo06de093</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 6 - # 93 Fieser Poulerik</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2021</ITEMYEAR>
+      <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo06de170</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 6 - # 170 Was ist im Hut?</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -221222,6 +221942,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>boswstk123</ITEMID>
+      <ITEMNAME>Sticker, Star Wars, Blue Ocean - # 123 of 258</ITEMNAME>
+      <CATEGORY>1017</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>1</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>81301</ITEMID>
       <ITEMNAME>Cup / Mug Travel Cup NINJAGO Dragons Rising, Dark Blue 420 ml</ITEMNAME>
       <CATEGORY>175</CATEGORY>
@@ -221384,6 +222113,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo07pl188</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;Polish&amp;#41; Series 7 - # 188 Zbiory</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>5010345</ITEMID>
       <ITEMNAME>Shoe - Crocs Kids’ Creativity Clogs</ITEMNAME>
       <CATEGORY>1146</CATEGORY>
@@ -221461,6 +222199,15 @@
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>1.75</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>patch40</ITEMID>
+      <ITEMNAME>Patch, Sew-on Cloth Round, Minifigure UFO Zotaxian Alien - Black Pilot</ITEMNAME>
+      <CATEGORY>445</CATEGORY>
+      <ITEMYEAR>1997</ITEMYEAR>
+      <ITEMWEIGHT>3.7</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
