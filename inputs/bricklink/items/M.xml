@@ -131952,7 +131952,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1244</ITEMID>
-      <ITEMNAME>Kuiil - Backpack</ITEMNAME>
+      <ITEMNAME>Kuiil - Brick Built Backpack</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT>3.8</ITEMWEIGHT>
@@ -160743,7 +160743,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>op003</ITEMID>
-      <ITEMNAME>Monkey D. Luffy, Young</ITEMNAME>
+      <ITEMNAME>Monkey D. Luffy - Young, Open Mouth Grin</ITEMNAME>
       <CATEGORY>1347</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>3.35</ITEMWEIGHT>
@@ -160896,7 +160896,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>op013</ITEMID>
-      <ITEMNAME>Roronoa Zoro - Tan Shirt, Hair</ITEMNAME>
+      <ITEMNAME>Roronoa Zoro - Tan Shirt, Hair, Closed Mouth Grin / Open Mouth Scowl</ITEMNAME>
       <CATEGORY>1347</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>3.5</ITEMWEIGHT>
@@ -161058,7 +161058,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>op012</ITEMID>
-      <ITEMNAME>Monkey D. Luffy - Stretched Arms</ITEMNAME>
+      <ITEMNAME>Monkey D. Luffy - Stretched Arms, Open Mouth Grin</ITEMNAME>
       <CATEGORY>1347</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>5.95</ITEMWEIGHT>
@@ -171830,6 +171830,33 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>op043</ITEMID>
+      <ITEMNAME>Monkey D. Luffy - Young, Closed Mouth</ITEMNAME>
+      <CATEGORY>1347</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.35</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>op044</ITEMID>
+      <ITEMNAME>Monkey D. Luffy - Stretched Arms, Straw Hat with Black Hair, Closed Mouth Grin</ITEMNAME>
+      <CATEGORY>1347</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>jw148</ITEMID>
+      <ITEMNAME>Dr. Alan Grant - Tan Shirt</ITEMNAME>
+      <CATEGORY>850</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.7</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas597</ITEMID>
       <ITEMNAME>Kingdoms - Lion Knight Armor with Lion Head, Helmet with Broad Brim &amp;#40;Watch 9003400&amp;#41;</ITEMNAME>
       <CATEGORY>9</CATEGORY>
@@ -172006,6 +172033,159 @@
       <CATEGORY>1347</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>3.6</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1538</ITEMID>
+      <ITEMNAME>Boba Fett - Pauldron, Helmet, Jet Pack, Printed Arms and Legs, Rangefinder</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.24</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1543</ITEMID>
+      <ITEMNAME>Kuiil - Backpack</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.89</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>pk001</ITEMID>
+      <ITEMNAME>Zinnia</ITEMNAME>
+      <CATEGORY>1369</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.65</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>son034</ITEMID>
+      <ITEMNAME>Tails &amp;#40;Miles Prower&amp;#41; - Smirk</ITEMNAME>
+      <CATEGORY>1203</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>5.88</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>op045</ITEMID>
+      <ITEMNAME>Roronoa Zoro - Tan Shirt, Hair, Open Mouth Scowl / Open Mouth Grin</ITEMNAME>
+      <CATEGORY>1347</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>op048</ITEMID>
+      <ITEMNAME>Nami - Dark Turquoise Shirt, Black Legs</ITEMNAME>
+      <CATEGORY>1347</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.95</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>op049</ITEMID>
+      <ITEMNAME>Usopp - Lavender Bandana</ITEMNAME>
+      <CATEGORY>1347</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.65</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>op050</ITEMID>
+      <ITEMNAME>Tashigi</ITEMNAME>
+      <CATEGORY>1347</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.51</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1539</ITEMID>
+      <ITEMNAME>The Mandalorian / Din Djarin / 'Mando' - Brown Durasteel Armor, Printed Arms, Dark Tan Mud Splotches</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.7</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1541</ITEMID>
+      <ITEMNAME>Jawa - Dark Bluish Gray Offworld Outfit, Strap with Pouches, Necklace and Pendants &amp;#40;Elder&amp;#41;</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.45</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1542</ITEMID>
+      <ITEMNAME>Jawa - Dark Bluish Gray Offworld Outfit, Straps with Pouches</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.45</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>edi014</ITEMID>
+      <ITEMNAME>Olivia Rodrigo - Bright Light Blue and White Outfit</ITEMNAME>
+      <CATEGORY>1359</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.02</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>min277</ITEMID>
+      <ITEMNAME>Ren</ITEMNAME>
+      <CATEGORY>801</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.43</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>min275</ITEMID>
+      <ITEMNAME>Valorie - Dark Red Outfit</ITEMNAME>
+      <CATEGORY>801</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.43</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>min276</ITEMID>
+      <ITEMNAME>Flores</ITEMNAME>
+      <CATEGORY>801</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.43</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>min274</ITEMID>
+      <ITEMNAME>Kellen</ITEMNAME>
+      <CATEGORY>801</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.4</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1540</ITEMID>
+      <ITEMNAME>Jawa - Dark Bluish Gray Offworld Outfit, Strap with Pouches</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.45</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
