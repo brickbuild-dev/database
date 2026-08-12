@@ -172049,7 +172049,7 @@
       <ITEMID>sw1543</ITEMID>
       <ITEMNAME>Kuiil - Backpack</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.89</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -172112,7 +172112,7 @@
       <ITEMID>sw1539</ITEMID>
       <ITEMNAME>The Mandalorian / Din Djarin / 'Mando' - Brown Durasteel Armor, Printed Arms, Dark Tan Mud Splotches</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.7</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -172121,7 +172121,7 @@
       <ITEMID>sw1541</ITEMID>
       <ITEMNAME>Jawa - Dark Bluish Gray Offworld Outfit, Strap with Pouches, Necklace and Pendants &amp;#40;Elder&amp;#41;</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.45</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -172130,7 +172130,7 @@
       <ITEMID>sw1542</ITEMID>
       <ITEMNAME>Jawa - Dark Bluish Gray Offworld Outfit, Straps with Pouches</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.45</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -172184,8 +172184,26 @@
       <ITEMID>sw1540</ITEMID>
       <ITEMNAME>Jawa - Dark Bluish Gray Offworld Outfit, Strap with Pouches</ITEMNAME>
       <CATEGORY>65</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.45</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>min278</ITEMID>
+      <ITEMNAME>Space Sentinel - Light Bluish Gray Legs</ITEMNAME>
+      <CATEGORY>801</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>jw149</ITEMID>
+      <ITEMNAME>ACU Guard / Ranger - Male, Dark Blue Cap</ITEMNAME>
+      <CATEGORY>850</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.37</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
