@@ -113880,7 +113880,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>min088</ITEMID>
-      <ITEMNAME>Drowned Zombie</ITEMNAME>
+      <ITEMNAME>Drowned Zombie - Dark Brown, Dark Turquoise, Green, Sand Green, White Pixelated Vest</ITEMNAME>
       <CATEGORY>801</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>3.45</ITEMWEIGHT>
@@ -171833,7 +171833,7 @@
       <ITEMID>op043</ITEMID>
       <ITEMNAME>Monkey D. Luffy - Young, Closed Mouth</ITEMNAME>
       <CATEGORY>1347</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.35</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171842,8 +171842,8 @@
       <ITEMID>op044</ITEMID>
       <ITEMNAME>Monkey D. Luffy - Stretched Arms, Straw Hat with Black Hair, Closed Mouth Grin</ITEMNAME>
       <CATEGORY>1347</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>6.55</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -171851,7 +171851,7 @@
       <ITEMID>jw148</ITEMID>
       <ITEMNAME>Dr. Alan Grant - Tan Shirt</ITEMNAME>
       <CATEGORY>850</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.7</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -172076,7 +172076,7 @@
       <ITEMID>op045</ITEMID>
       <ITEMNAME>Roronoa Zoro - Tan Shirt, Hair, Open Mouth Scowl / Open Mouth Grin</ITEMNAME>
       <CATEGORY>1347</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.5</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -172085,7 +172085,7 @@
       <ITEMID>op048</ITEMID>
       <ITEMNAME>Nami - Dark Turquoise Shirt, Black Legs</ITEMNAME>
       <CATEGORY>1347</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.95</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -172094,7 +172094,7 @@
       <ITEMID>op049</ITEMID>
       <ITEMNAME>Usopp - Lavender Bandana</ITEMNAME>
       <CATEGORY>1347</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.65</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -172103,7 +172103,7 @@
       <ITEMID>op050</ITEMID>
       <ITEMNAME>Tashigi</ITEMNAME>
       <CATEGORY>1347</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.51</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -172193,7 +172193,7 @@
       <ITEMID>min278</ITEMID>
       <ITEMNAME>Space Sentinel - Light Bluish Gray Legs</ITEMNAME>
       <CATEGORY>801</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.2</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -172202,8 +172202,35 @@
       <ITEMID>jw149</ITEMID>
       <ITEMNAME>ACU Guard / Ranger - Male, Dark Blue Cap</ITEMNAME>
       <CATEGORY>850</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.37</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>min279</ITEMID>
+      <ITEMNAME>Steve &amp;#40;Nougat&amp;#41; - Medium Lavender Legs, Helmet and Armor</ITEMNAME>
+      <CATEGORY>801</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>5.02</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>min280</ITEMID>
+      <ITEMNAME>Deep Sea Diver</ITEMNAME>
+      <CATEGORY>801</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.47</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>min281</ITEMID>
+      <ITEMNAME>Drowned Zombie - Dark Brown, Dark Turquoise, Green, Sand Green, White, Medium Azure Pixelated Vest</ITEMNAME>
+      <CATEGORY>801</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.47</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
