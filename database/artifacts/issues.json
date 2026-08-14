@@ -1,23 +1,23 @@
 {
-  "created_at_utc": "2026-08-13T01:16:35Z",
+  "created_at_utc": "2026-08-14T01:05:57Z",
   "issue_count": 3,
   "issues": [
     {
       "severity": "MINOR",
       "issue_type": "BO_COLOR_ID_MISSING",
-      "count": 171105,
+      "count": 171108,
       "details": "Rows missing bo_color_id (color map coverage)."
     },
     {
       "severity": "MINOR",
       "issue_type": "BOID_MISSING",
-      "count": 175539,
+      "count": 175557,
       "details": "BOID missing (allowed)."
     },
     {
       "severity": "MINOR",
       "issue_type": "WEIGHT_MISSING",
-      "count": 6989,
+      "count": 7005,
       "details": "Part weights missing (allowed)."
     }
   ]
