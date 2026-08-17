@@ -171650,6 +171650,33 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>njo1090</ITEMID>
+      <ITEMNAME>Kai ZX - Legacy, Neck Bracket &amp;#40;Ninjago Destiny&amp;#39;s Bounty Adventures Board Game&amp;#41;</ITEMNAME>
+      <CATEGORY>759</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.22</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>njo1091</ITEMID>
+      <ITEMNAME>Zane ZX - Legacy, Neck Bracket &amp;#40;Ninjago Destiny&amp;#39;s Bounty Adventures Board Game&amp;#41;</ITEMNAME>
+      <CATEGORY>759</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.22</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>njo1092</ITEMID>
+      <ITEMNAME>Cole ZX - Legacy, Neck Bracket &amp;#40;Ninjago Destiny&amp;#39;s Bounty Adventures Board Game&amp;#41;</ITEMNAME>
+      <CATEGORY>759</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.22</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>op034</ITEMID>
       <ITEMNAME>Sanji Vinsmoke - White Hoodie</ITEMNAME>
       <CATEGORY>1347</CATEGORY>
@@ -172265,8 +172292,17 @@
       <ITEMID>sc150</ITEMID>
       <ITEMNAME>BMW M3 &amp;#40;E30&amp;#41; Driver</ITEMNAME>
       <CATEGORY>842</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1150</ITEMID>
+      <ITEMNAME>The Riddler - Orange Prison Jumpsuit, Side Pockets, Helicopter Backpack</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
