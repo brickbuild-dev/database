@@ -71561,6 +71561,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026shba45de</ITEMID>
+      <ITEMNAME>Batman Magazine 2026 Issue 45 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>1063</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>81</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026shav36de</ITEMID>
+      <ITEMNAME>Avengers Magazine 2026 Issue 36 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>1063</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>81</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b26min01nl</ITEMID>
       <ITEMNAME>Minecraft - Groot LEGO Minecraft Boek &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
       <CATEGORY>332</CATEGORY>
@@ -71611,6 +71629,15 @@
       <CATEGORY>1024</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026shba46de</ITEMID>
+      <ITEMNAME>Batman Magazine 2026 Issue 46 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>1063</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>81</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
