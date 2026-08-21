@@ -168717,7 +168717,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1525</ITEMID>
-      <ITEMNAME>Imperial Stormtrooper - Dual Molded Helmet with Light Bluish Gray Panels on Back, Black Pauldron, Shoulder Belts, Medium Nougat Head</ITEMNAME>
+      <ITEMNAME>Imperial Stormtrooper - Male, Dual Molded Helmet with Light Bluish Gray Panels on Back, Shoulder Belts, Medium Nougat Head, Black Pauldron</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.5</ITEMWEIGHT>
@@ -172271,6 +172271,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>blu009</ITEMID>
+      <ITEMNAME>Bluey in Grannies Costume &amp;#40;Janet&amp;#41;</ITEMNAME>
+      <CATEGORY>1332</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>5.8</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>blu010</ITEMID>
+      <ITEMNAME>Bingo in Grannies Costume &amp;#40;Rita&amp;#41;</ITEMNAME>
+      <CATEGORY>1332</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>5.74</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>LLP038</ITEMID>
       <ITEMNAME>Child - Girl, White Sweater with Red Horizontal Stripes, Dark Purple Medium Legs, Reddish Brown Wavy Hair with Ponytail</ITEMNAME>
       <CATEGORY>572</CATEGORY>
@@ -172285,6 +172303,15 @@
       <CATEGORY>572</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>3.64</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>jw150</ITEMID>
+      <ITEMNAME>Billy Brennan</ITEMNAME>
+      <CATEGORY>850</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.57</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -172307,6 +172334,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>edi015</ITEMID>
+      <ITEMNAME>Lando Norris</ITEMNAME>
+      <CATEGORY>1359</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.55</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>jw151</ITEMID>
       <ITEMNAME>Dr. Sarah Harding</ITEMNAME>
       <CATEGORY>850</CATEGORY>
@@ -172321,6 +172357,15 @@
       <CATEGORY>850</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>3.45</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>blu011</ITEMID>
+      <ITEMNAME>Rusty</ITEMNAME>
+      <CATEGORY>1332</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.86</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
