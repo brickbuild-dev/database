@@ -172316,6 +172316,33 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dp247</ITEMID>
+      <ITEMNAME>Cogsworth - Printed Face with Teeth, Log Profile Body</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>2.73</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dp248</ITEMID>
+      <ITEMNAME>Beast / Prince Adam - Mini Doll, Black Trousers, Reddish Brown Boots</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.86</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dp249</ITEMID>
+      <ITEMNAME>Belle - Mini Doll, Yellow and Bright Light Yellow Dress with Skirt Full Length, Gold Brooch</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.24</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sc150</ITEMID>
       <ITEMNAME>BMW M3 &amp;#40;E30&amp;#41; Driver</ITEMNAME>
       <CATEGORY>842</CATEGORY>
@@ -172373,7 +172400,7 @@
       <ITEMID>son035</ITEMID>
       <ITEMNAME>Shadow the Hedgehog - Doom Power Transformation</ITEMNAME>
       <CATEGORY>1203</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>13.14</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
