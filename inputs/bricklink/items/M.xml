@@ -172319,7 +172319,7 @@
       <ITEMID>dp247</ITEMID>
       <ITEMNAME>Cogsworth - Printed Face with Teeth, Log Profile Body</ITEMNAME>
       <CATEGORY>878</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>2.73</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -172328,7 +172328,7 @@
       <ITEMID>dp248</ITEMID>
       <ITEMNAME>Beast / Prince Adam - Mini Doll, Black Trousers, Reddish Brown Boots</ITEMNAME>
       <CATEGORY>878</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.86</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -172337,7 +172337,7 @@
       <ITEMID>dp249</ITEMID>
       <ITEMNAME>Belle - Mini Doll, Yellow and Bright Light Yellow Dress with Skirt Full Length, Gold Brooch</ITEMNAME>
       <CATEGORY>878</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.24</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -172355,7 +172355,7 @@
       <ITEMID>sh1150</ITEMID>
       <ITEMNAME>The Riddler - Orange Prison Jumpsuit, Side Pockets, Helicopter Backpack</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>8.95</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -172393,6 +172393,24 @@
       <CATEGORY>1332</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.86</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>min282</ITEMID>
+      <ITEMNAME>Aeronaut</ITEMNAME>
+      <CATEGORY>801</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.47</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>min283</ITEMID>
+      <ITEMNAME>Ghast Keeper</ITEMNAME>
+      <CATEGORY>801</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.52</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
