@@ -1002,7 +1002,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>adv003</ITEMID>
-      <ITEMNAME>Lord Sam Sinister / Baron von Barron - Tan Shirt, Light Gray Legs, White Pith Helmet</ITEMNAME>
+      <ITEMNAME>Sam Sinister / Baron von Barron - Tan Shirt, Light Gray Legs, White Pith Helmet</ITEMNAME>
       <CATEGORY>53</CATEGORY>
       <ITEMYEAR>1998</ITEMYEAR>
       <ITEMWEIGHT>3.59</ITEMWEIGHT>
@@ -1011,7 +1011,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>adv004</ITEMID>
-      <ITEMNAME>Lord Sam Sinister / Baron von Barron - Tan Shirt, Light Gray Legs, Brown Aviator Cap, Black Goggles, White Epaulettes</ITEMNAME>
+      <ITEMNAME>Sam Sinister / Baron von Barron - Tan Shirt, Light Gray Legs, Brown Aviator Cap, Black Goggles, White Epaulettes</ITEMNAME>
       <CATEGORY>53</CATEGORY>
       <ITEMYEAR>1998</ITEMYEAR>
       <ITEMWEIGHT>4.65</ITEMWEIGHT>
@@ -1020,7 +1020,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>adv005</ITEMID>
-      <ITEMNAME>Lord Sam Sinister / Baron von Barron - Tan Shirt, Light Gray Legs, Light Gray Aviator Cap, Dark Gray Goggles, White Epaulettes</ITEMNAME>
+      <ITEMNAME>Sam Sinister / Baron von Barron - Tan Shirt, Light Gray Legs, Light Gray Aviator Cap, Dark Gray Goggles, White Epaulettes</ITEMNAME>
       <CATEGORY>53</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT>4.65</ITEMWEIGHT>
@@ -10839,7 +10839,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>4555pb073</ITEMID>
-      <ITEMNAME>Duplo Figure, Male, Dark Gray Legs, Tan Top, Pith Helmet, Moustache &amp;#40;75425&amp;#41;</ITEMNAME>
+      <ITEMNAME>Duplo Figure, Male, Dark Gray Legs, Light Yellow Top, Tan Pith Helmet, Moustache &amp;#40;75425&amp;#41;</ITEMNAME>
       <CATEGORY>167</CATEGORY>
       <ITEMYEAR>1994</ITEMYEAR>
       <ITEMWEIGHT>17.4</ITEMWEIGHT>
@@ -10983,7 +10983,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>adv025</ITEMID>
-      <ITEMNAME>Lord Sam Sinister / Baron von Barron - Black Shirt, Dark Gray Legs, Black Top Hat</ITEMNAME>
+      <ITEMNAME>Lord Sam Sinister - Black Shirt, Dark Gray Legs, Black Top Hat</ITEMNAME>
       <CATEGORY>53</CATEGORY>
       <ITEMYEAR>2003</ITEMYEAR>
       <ITEMWEIGHT>3.6</ITEMWEIGHT>
@@ -11532,7 +11532,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>adv036</ITEMID>
-      <ITEMNAME>Lord Sam Sinister / Baron von Barron - Black Shirt, Dark Gray Legs, Black Aviator Cap, Dark Gray Goggles</ITEMNAME>
+      <ITEMNAME>Lord Sam Sinister - Black Shirt, Dark Gray Legs, Black Aviator Cap, Dark Gray Goggles</ITEMNAME>
       <CATEGORY>53</CATEGORY>
       <ITEMYEAR>2003</ITEMYEAR>
       <ITEMWEIGHT>3.68</ITEMWEIGHT>
@@ -14574,7 +14574,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>adv039</ITEMID>
-      <ITEMNAME>Lord Sam Sinister / Baron von Barron - Tan Shirt, Light Gray Legs, White Pith Helmet, White Epaulettes</ITEMNAME>
+      <ITEMNAME>Sam Sinister / Baron von Barron - Tan Shirt, Light Gray Legs, White Pith Helmet, White Epaulettes</ITEMNAME>
       <CATEGORY>53</CATEGORY>
       <ITEMYEAR>1998</ITEMYEAR>
       <ITEMWEIGHT>3.7</ITEMWEIGHT>
@@ -16995,10 +16995,10 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>4555pb039</ITEMID>
-      <ITEMNAME>Duplo Figure, Male, Light Gray Legs, Tan Top, Cowboy Hat</ITEMNAME>
+      <ITEMNAME>Duplo Figure, Male, Light Gray Legs, Light Yellow Top, Tan Cowboy Hat</ITEMNAME>
       <CATEGORY>167</CATEGORY>
       <ITEMYEAR>1994</ITEMYEAR>
-      <ITEMWEIGHT>17</ITEMWEIGHT>
+      <ITEMWEIGHT>17.32</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -30792,7 +30792,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>4555pb255</ITEMID>
-      <ITEMNAME>Duplo Figure, Male, Dark Gray Legs, Tan Top, Brown Aviator Helmet</ITEMNAME>
+      <ITEMNAME>Duplo Figure, Male, Dark Gray Legs, Light Yellow Top, Brown Aviator Helmet</ITEMNAME>
       <CATEGORY>167</CATEGORY>
       <ITEMYEAR>1994</ITEMYEAR>
       <ITEMWEIGHT>16.81</ITEMWEIGHT>
@@ -172373,7 +172373,7 @@
       <ITEMID>jw151</ITEMID>
       <ITEMNAME>Dr. Sarah Harding</ITEMNAME>
       <CATEGORY>850</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.9</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -172382,7 +172382,7 @@
       <ITEMID>jw152</ITEMID>
       <ITEMNAME>Dr. Ian Malcolm - Open Vest over Dark Blue Shirt</ITEMNAME>
       <CATEGORY>850</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.45</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
