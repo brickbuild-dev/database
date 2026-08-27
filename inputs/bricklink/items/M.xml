@@ -64119,7 +64119,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0140</ITEMID>
-      <ITEMNAME>Spider-Woman &amp;#40;San Diego Comic-Con 2013 Exclusive&amp;#41;</ITEMNAME>
+      <ITEMNAME>Spider-Woman &amp;#40;Jessica Drew&amp;#41; &amp;#40;San Diego Comic-Con 2013 Exclusive&amp;#41;</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>4.1</ITEMWEIGHT>
@@ -75558,7 +75558,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0267</ITEMID>
-      <ITEMNAME>Ghost Rider, Johnathon &amp;#39;Johnny&amp;#39; Blaze - White Head, Chain Belt</ITEMNAME>
+      <ITEMNAME>Ghost Rider &amp;#40;Johnathon &amp;#39;Johnny&amp;#39; Blaze&amp;#41; - White Head, Chain Belt</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -75612,7 +75612,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0273</ITEMID>
-      <ITEMNAME>Spider-Girl - Red Outfit</ITEMNAME>
+      <ITEMNAME>Spider-Girl &amp;#40;Jessica Drew&amp;#41; - Red Outfit</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT>3.8</ITEMWEIGHT>
@@ -106698,7 +106698,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0615</ITEMID>
-      <ITEMNAME>Spider-Girl - Black and White Outfit</ITEMNAME>
+      <ITEMNAME>Spider-Girl &amp;#40;Anya Corazon&amp;#41; - Black and White Outfit</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>3.6</ITEMWEIGHT>
@@ -113655,7 +113655,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0678</ITEMID>
-      <ITEMNAME>Ghost Rider, Roberto &amp;#39;Robbie&amp;#39; Reyes - Flat Silver Head</ITEMNAME>
+      <ITEMNAME>Ghost Rider &amp;#40;Roberto &amp;#39;Robbie&amp;#39; Reyes&amp;#41; - Flat Silver Head</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>3.88</ITEMWEIGHT>
@@ -135885,7 +135885,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0861</ITEMID>
-      <ITEMNAME>Ghost Rider, Johnathon 'Johnny' Blaze - White Head, Belt with Spikes</ITEMNAME>
+      <ITEMNAME>Ghost Rider &amp;#40;Johnathon 'Johnny' Blaze&amp;#41; - White Head, Belt with Spikes</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>3.85</ITEMWEIGHT>
@@ -156126,7 +156126,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh1027</ITEMID>
-      <ITEMNAME>Spider-Woman - Black Outfit with White Boots</ITEMNAME>
+      <ITEMNAME>Spider-Woman &amp;#40;Julia Carpenter&amp;#41; - Black Outfit with White Boots</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>3.9</ITEMWEIGHT>
@@ -161220,7 +161220,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh1064</ITEMID>
-      <ITEMNAME>Spider-Woman - Black Outfit with Black Legs</ITEMNAME>
+      <ITEMNAME>Spider-Woman &amp;#40;Julia Carpenter&amp;#41; - Black Outfit with Black Legs</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>3.83</ITEMWEIGHT>
@@ -164838,7 +164838,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh1095</ITEMID>
-      <ITEMNAME>Ghost Rider, Johnathon &amp;#39;Johnny&amp;#39; Blaze - White Head, Flaming Chain</ITEMNAME>
+      <ITEMNAME>Ghost Rider &amp;#40;Johnathon &amp;#39;Johnny&amp;#39; Blaze&amp;#41; - White Head, Flaming Chain</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.8</ITEMWEIGHT>
@@ -172400,7 +172400,7 @@
       <ITEMID>min282</ITEMID>
       <ITEMNAME>Aeronaut</ITEMNAME>
       <CATEGORY>801</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.47</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -172409,8 +172409,44 @@
       <ITEMID>min283</ITEMID>
       <ITEMNAME>Ghast Keeper</ITEMNAME>
       <CATEGORY>801</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.52</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dp255</ITEMID>
+      <ITEMNAME>Ariel - Human, Medium Tan, White Dress, Pearl Gold Tiara</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.97</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dp254</ITEMID>
+      <ITEMNAME>King Triton - Mini Doll, Medium Tan</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.02</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dp256</ITEMID>
+      <ITEMNAME>Prince Eric - Medium Tan, Uniform with Gold Epaulettes, Blue Trousers</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>2.98</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dp257</ITEMID>
+      <ITEMNAME>Vanessa &amp;#40;Ursula&amp;#41;</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.55</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
