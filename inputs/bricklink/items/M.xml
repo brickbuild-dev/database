@@ -171372,7 +171372,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>edi011</ITEMID>
-      <ITEMNAME>Olivia Rodrigo - Black Bikini Top and Shorts, Glittery Silver Cover Up Dress</ITEMNAME>
+      <ITEMNAME>Olivia Rodrigo - Black and Silver Outfit</ITEMNAME>
       <CATEGORY>1359</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.11</ITEMWEIGHT>
@@ -172481,8 +172481,17 @@
       <ITEMID>sh1151</ITEMID>
       <ITEMNAME>Jokerized Batman</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.84</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>twn558</ITEMID>
+      <ITEMNAME>Greek Taverna Owner</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.88</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
