@@ -116444,6 +116444,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>45520-1</ITEMID>
+      <ITEMNAME>Computer Science &amp; AI Kit K-2</ITEMNAME>
+      <CATEGORY>166</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
       <ITEMID>45521-1</ITEMID>
       <ITEMNAME>Computer Science &amp; AI Kit 3-5</ITEMNAME>
       <CATEGORY>166</CATEGORY>
@@ -119279,6 +119288,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>11383-1</ITEMID>
+      <ITEMNAME>Mayor Manor</ITEMNAME>
+      <CATEGORY>171</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
       <ITEMID>11381-1</ITEMID>
       <ITEMNAME>Jaguar E-Type</ITEMNAME>
       <CATEGORY>171</CATEGORY>
@@ -119297,12 +119315,57 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>11386-1</ITEMID>
+      <ITEMNAME>Bikini Bottom</ITEMNAME>
+      <CATEGORY>573</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>40858-1</ITEMID>
+      <ITEMNAME>SpongeBob SquarePants Figure</ITEMNAME>
+      <CATEGORY>903</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
       <ITEMID>21369-1</ITEMID>
       <ITEMNAME>The X-Files</ITEMNAME>
       <CATEGORY>817</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>406</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>11385-1</ITEMID>
+      <ITEMNAME>U.S.S. Enterprise NCC-1701 Bridge</ITEMNAME>
+      <CATEGORY>1355</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>76345-1</ITEMID>
+      <ITEMNAME>Doctor Doom Bust</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>71053-1</ITEMID>
+      <ITEMNAME>Minifigure, Shrek &amp;#40;Complete Random Set of 1 Minifigure&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.81</ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>I</ITEMTYPE>
@@ -119351,11 +119414,164 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>40859-1</ITEMID>
+      <ITEMNAME>Golden Age Superman and Batman</ITEMNAME>
+      <CATEGORY>903</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>40919-1</ITEMID>
+      <ITEMNAME>Gremlins: Gizmo and Stripe Figures</ITEMNAME>
+      <CATEGORY>903</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
       <ITEMID>4000703-1</ITEMID>
       <ITEMNAME>SMART Sitrus Berry Tag paper bag</ITEMNAME>
       <CATEGORY>1369</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>5.5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>43026-1</ITEMID>
+      <ITEMNAME>Nike Air Force 1</ITEMNAME>
+      <CATEGORY>1350</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>colshr-1</ITEMID>
+      <ITEMNAME>Thelonious, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.81</ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>colshr-2</ITEMID>
+      <ITEMNAME>Puss in Boots, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.81</ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>colshr-3</ITEMID>
+      <ITEMNAME>Gingy, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.81</ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>colshr-4</ITEMID>
+      <ITEMNAME>Shrek, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.81</ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>colshr-5</ITEMID>
+      <ITEMNAME>Dragon, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.81</ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>colshr-6</ITEMID>
+      <ITEMNAME>Fiona and Donkey, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.81</ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>colshr-7</ITEMID>
+      <ITEMNAME>Merlin, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.81</ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>colshr-8</ITEMID>
+      <ITEMNAME>Pinocchio, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.81</ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>colshr-9</ITEMID>
+      <ITEMNAME>Big Bad Wolf, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.81</ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>colshr-10</ITEMID>
+      <ITEMNAME>Lord Farquaad, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.81</ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>colshr-11</ITEMID>
+      <ITEMNAME>Fairy Godmother, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.81</ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>colshr-12</ITEMID>
+      <ITEMNAME>Prince Charming, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1.81</ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>43024-1</ITEMID>
+      <ITEMNAME>Ayrton Senna Helmet</ITEMNAME>
+      <CATEGORY>1359</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>76355-1</ITEMID>
+      <ITEMNAME>Batman Returns Batmobile</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>

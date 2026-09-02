@@ -50015,8 +50015,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>9783831039807</ITEMID>
-      <ITEMNAME>Star Wars - Lexikon der Minifiguren - Neuausgabe &amp;#40;Hardcover&amp;#41; &amp;#40;German Edition&amp;#41;</ITEMNAME>
+      <ITEMID>b20sw11de</ITEMID>
+      <ITEMNAME>Star Wars - Lexikon der Minifiguren: Neuausgabe &amp;#40;Hardcover&amp;#41; &amp;#40;German Edition&amp;#41;</ITEMNAME>
       <CATEGORY>332</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>909</ITEMWEIGHT>
@@ -71647,6 +71647,15 @@
       <CATEGORY>332</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>514</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26min02nl</ITEMID>
+      <ITEMNAME>Minecraft - Bouw Je Avontuur: Kies Je Eigen Weg &amp;#40;Box Set&amp;#41; &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>396</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>

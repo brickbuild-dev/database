@@ -191378,6 +191378,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>45520-1</ITEMID>
+      <ITEMNAME>Computer Science &amp; AI Kit K-2</ITEMNAME>
+      <CATEGORY>166</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
       <ITEMID>45521-1</ITEMID>
       <ITEMNAME>Computer Science &amp; AI Kit 3-5</ITEMNAME>
       <CATEGORY>166</CATEGORY>
@@ -193304,6 +193313,51 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>43298-1</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Disney Princess</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>60510-1</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, City</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>206</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-1</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76340-1</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Marvel Super Heroes</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>42698-1</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
       <ITEMID>77264-1</ITEMID>
       <ITEMNAME>Jaguar F-TYPE Project 7 &amp; Land Rover Defender Classic</ITEMNAME>
       <CATEGORY>842</CATEGORY>
@@ -194924,6 +194978,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>11383-1</ITEMID>
+      <ITEMNAME>Mayor Manor</ITEMNAME>
+      <CATEGORY>171</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
       <ITEMID>11381-1</ITEMID>
       <ITEMNAME>Jaguar E-Type</ITEMNAME>
       <CATEGORY>171</CATEGORY>
@@ -194942,11 +195005,83 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>11386-1</ITEMID>
+      <ITEMNAME>Bikini Bottom</ITEMNAME>
+      <CATEGORY>573</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>40858-1</ITEMID>
+      <ITEMNAME>SpongeBob SquarePants Figure</ITEMNAME>
+      <CATEGORY>903</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
       <ITEMID>21369-1</ITEMID>
       <ITEMNAME>The X-Files</ITEMNAME>
       <CATEGORY>817</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>355</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>11385-1</ITEMID>
+      <ITEMNAME>U.S.S. Enterprise NCC-1701 Bridge</ITEMNAME>
+      <CATEGORY>1355</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76345-1</ITEMID>
+      <ITEMNAME>Doctor Doom Bust</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>66815-1</ITEMID>
+      <ITEMNAME>Minifigure, Shrek &amp;#40;Box of 6&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>71053-3</ITEMID>
+      <ITEMNAME>Minifigure, Shrek &amp;#40;Box of 36&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>71053-1</ITEMID>
+      <ITEMNAME>Minifigure, Shrek &amp;#40;Complete Random Set of 1 Minifigure&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>8.66</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>71053-2</ITEMID>
+      <ITEMNAME>Minifigure, Shrek &amp;#40;Complete Series of 12 Complete Minifigure Sets&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -195014,6 +195149,141 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>40859-1</ITEMID>
+      <ITEMNAME>Golden Age Superman and Batman</ITEMNAME>
+      <CATEGORY>903</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>40919-1</ITEMID>
+      <ITEMNAME>Gremlins: Gizmo and Stripe Figures</ITEMNAME>
+      <CATEGORY>903</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>43026-1</ITEMID>
+      <ITEMNAME>Nike Air Force 1</ITEMNAME>
+      <CATEGORY>1350</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>colshr-1</ITEMID>
+      <ITEMNAME>Thelonious, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>8.66</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>colshr-2</ITEMID>
+      <ITEMNAME>Puss in Boots, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>8.66</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>colshr-3</ITEMID>
+      <ITEMNAME>Gingy, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>8.66</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>colshr-4</ITEMID>
+      <ITEMNAME>Shrek, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>8.66</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>colshr-5</ITEMID>
+      <ITEMNAME>Dragon, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>8.66</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>colshr-6</ITEMID>
+      <ITEMNAME>Fiona and Donkey, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>8.66</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>colshr-7</ITEMID>
+      <ITEMNAME>Merlin, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>8.66</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>colshr-8</ITEMID>
+      <ITEMNAME>Pinocchio, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>8.66</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>colshr-9</ITEMID>
+      <ITEMNAME>Big Bad Wolf, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>8.66</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>colshr-10</ITEMID>
+      <ITEMNAME>Lord Farquaad, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>8.66</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>colshr-11</ITEMID>
+      <ITEMNAME>Fairy Godmother, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>8.66</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>colshr-12</ITEMID>
+      <ITEMNAME>Prince Charming, Shrek &amp;#40;Complete Set with Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>8.66</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
       <ITEMID>L0002206-1</ITEMID>
       <ITEMNAME>Dragon Cole paper bag</ITEMNAME>
       <CATEGORY>759</CATEGORY>
@@ -195041,12 +195311,30 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>43024-1</ITEMID>
+      <ITEMNAME>Ayrton Senna Helmet</ITEMNAME>
+      <CATEGORY>1359</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
       <ITEMID>L0002261-1</ITEMID>
       <ITEMNAME>Raptor with Volcano paper bag</ITEMNAME>
       <CATEGORY>850</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76355-1</ITEMID>
+      <ITEMNAME>Batman Returns Batmobile</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>O</ITEMTYPE>
@@ -195137,5 +195425,437 @@
       <ITEMYEAR>1994</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-2</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day  1&amp;#41; - Holiday The Mandalorian</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-3</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day  2&amp;#41; - Table with Camtono and Beskar</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-4</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day  3&amp;#41; - Holiday Grogu</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-5</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day  4&amp;#41; - Grogu&amp;#39;s Hoverpram</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-6</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day  5&amp;#41; - Speeder Bike</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-7</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day  6&amp;#41; - The Razor Crest</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-8</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day  7&amp;#41; - Weapon Rack</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-9</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day  8&amp;#41; - Table with Cookies and Cup</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-10</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day  9&amp;#41; - IG-11</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-11</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day 10&amp;#41; - Mudhorn</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-12</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day 11&amp;#41; - Mandalorian Gauntlet</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-13</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day 12&amp;#41; - Blurrg</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-14</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day 13&amp;#41; - Sandcrawler</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-15</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day 14&amp;#41; - Jawa</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-16</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day 15&amp;#41; - Bantha</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-17</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day 16&amp;#41; - Mando&amp;#39;s N-1 Starfighter</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-18</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day 17&amp;#41; - Imperial Shuttle</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-19</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day 18&amp;#41; - Carson Teva</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-20</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day 19&amp;#41; - Festive X-wing</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-21</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day 20&amp;#41; - Dewback</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-22</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day 21&amp;#41; - Holiday Moff Gideon</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-23</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day 22&amp;#41; - Table with Moff Gideon's Accessories</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-24</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day 23&amp;#41; - Imperial Light Cruiser</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>75456-25</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day 24&amp;#41; - Holiday Pit Droid</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>L0002254-1</ITEMID>
+      <ITEMNAME>Zombie Hunter with Zombie and TNT Launcher paper bag</ITEMNAME>
+      <CATEGORY>801</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76340-14</ITEMID>
+      <ITEMNAME>76340 Advent Calendar 2026, Marvel Super Heroes &amp;#40;Day 13&amp;#41; - Ghost-Spider Car Trans-Dark Pink Flames</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76340-15</ITEMID>
+      <ITEMNAME>76340 Advent Calendar 2026, Marvel Super Heroes &amp;#40;Day 14&amp;#41; - Presents and Stocking</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76340-16</ITEMID>
+      <ITEMNAME>76340 Advent Calendar 2026, Marvel Super Heroes &amp;#40;Day 15&amp;#41; - Spider-Man and Skis</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76340-17</ITEMID>
+      <ITEMNAME>76340 Advent Calendar 2026, Marvel Super Heroes &amp;#40;Day 16&amp;#41; - Street Light with Garland</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76340-18</ITEMID>
+      <ITEMNAME>76340 Advent Calendar 2026, Marvel Super Heroes &amp;#40;Day 17&amp;#41; - Drinks Stall</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76340-19</ITEMID>
+      <ITEMNAME>76340 Advent Calendar 2026, Marvel Super Heroes &amp;#40;Day 18&amp;#41; - Snowman with Captain America Helmet and Shovel</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76340-20</ITEMID>
+      <ITEMNAME>76340 Advent Calendar 2026, Marvel Super Heroes &amp;#40;Day 19&amp;#41; - Helicarrier</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76340-21</ITEMID>
+      <ITEMNAME>76340 Advent Calendar 2026, Marvel Super Heroes &amp;#40;Day 20&amp;#41; - Cake Stall</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76340-22</ITEMID>
+      <ITEMNAME>76340 Advent Calendar 2026, Marvel Super Heroes &amp;#40;Day 21&amp;#41; - Wolverine with Holiday Sweater</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76340-23</ITEMID>
+      <ITEMNAME>76340 Advent Calendar 2026, Marvel Super Heroes &amp;#40;Day 22&amp;#41; - Sleigh</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76340-24</ITEMID>
+      <ITEMNAME>76340 Advent Calendar 2026, Marvel Super Heroes &amp;#40;Day 23&amp;#41; - X-Jet</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76340-25</ITEMID>
+      <ITEMNAME>76340 Advent Calendar 2026, Marvel Super Heroes &amp;#40;Day 24&amp;#41; - Christmas Tree</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76340-2</ITEMID>
+      <ITEMNAME>76340 Advent Calendar 2026, Marvel Super Heroes &amp;#40;Day 1&amp;#41; - Iron Man with Popsicle</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76340-3</ITEMID>
+      <ITEMNAME>76340 Advent Calendar 2026, Marvel Super Heroes &amp;#40;Day 2&amp;#41; - Snowball Cannon</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76340-4</ITEMID>
+      <ITEMNAME>76340 Advent Calendar 2026, Marvel Super Heroes &amp;#40;Day 3&amp;#41; - Captain America with Shield and Candy Cane</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76340-5</ITEMID>
+      <ITEMNAME>76340 Advent Calendar 2026, Marvel Super Heroes &amp;#40;Day 4&amp;#41; - Dr. Doom Helicopter</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76340-6</ITEMID>
+      <ITEMNAME>76340 Advent Calendar 2026, Marvel Super Heroes &amp;#40;Day 5&amp;#41; - Captain America Airplane</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76340-7</ITEMID>
+      <ITEMNAME>76340 Advent Calendar 2026, Marvel Super Heroes &amp;#40;Day 6&amp;#41; - Present Wrapping Robot</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76340-10</ITEMID>
+      <ITEMNAME>76340 Advent Calendar 2026, Marvel Super Heroes &amp;#40;Day 9&amp;#41; - Photo Booth</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76340-11</ITEMID>
+      <ITEMNAME>76340 Advent Calendar 2026, Marvel Super Heroes &amp;#40;Day 10&amp;#41; - Iron Man Toy Stall</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76340-12</ITEMID>
+      <ITEMNAME>76340 Advent Calendar 2026, Marvel Super Heroes &amp;#40;Day 11&amp;#41; - Ghost-Spider with Dumpling and Chopsticks</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>76340-13</ITEMID>
+      <ITEMNAME>76340 Advent Calendar 2026, Marvel Super Heroes &amp;#40;Day 12&amp;#41; - Spider-Man Pickup Truck</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>71053-4</ITEMID>
+      <ITEMNAME>Minifigure, Shrek &amp;#40;Box of 12&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>114</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
