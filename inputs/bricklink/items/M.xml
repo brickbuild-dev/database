@@ -121062,7 +121062,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>47394pb324</ITEMID>
-      <ITEMNAME>Duplo Figure Lego Ville, Spider-Man &amp;#40;Peter 'Spidey' Parker&amp;#41;, Large Eyes &amp;#40;6351304&amp;#41;</ITEMNAME>
+      <ITEMNAME>Duplo Figure Lego Ville, Spider-Man &amp;#40;Peter &amp;#39;Spidey&amp;#39; Parker&amp;#41;, Large Eyes, Small Spider &amp;#40;6351304&amp;#41;</ITEMNAME>
       <CATEGORY>167</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>14.5</ITEMWEIGHT>
@@ -172510,6 +172510,24 @@
       <CATEGORY>842</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.58</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>47394pb385</ITEMID>
+      <ITEMNAME>Duplo Figure Lego Ville, Rhino &amp;#40;6580424&amp;#41;</ITEMNAME>
+      <CATEGORY>167</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>17.35</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>47394pb384</ITEMID>
+      <ITEMNAME>Duplo Figure Lego Ville, Spider-Man &amp;#40;Peter &amp;#39;Spidey&amp;#39; Parker&amp;#41;, Large Eyes, Large Spider &amp;#40;6602960&amp;#41;</ITEMNAME>
+      <CATEGORY>167</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>14.37</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
