@@ -172775,6 +172775,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol431</ITEMID>
+      <ITEMNAME>Elf - Female, Red Outfit</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.31</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hol432</ITEMID>
       <ITEMNAME>Snowman - Red Scarf, Dark Azure Christmas Sweater</ITEMNAME>
       <CATEGORY>390</CATEGORY>
