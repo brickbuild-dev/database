@@ -172343,6 +172343,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>dp251</ITEMID>
+      <ITEMNAME>King Frederic - Mini Doll</ITEMNAME>
+      <CATEGORY>878</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.03</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sc150</ITEMID>
       <ITEMNAME>BMW M3 &amp;#40;E30&amp;#41; Driver</ITEMNAME>
       <CATEGORY>842</CATEGORY>
@@ -172487,11 +172496,128 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp638</ITEMID>
+      <ITEMNAME>Lucius Malfoy - Death Eater Outfit, Bright Light Yellow Hair, Printed Legs</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.89</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp639</ITEMID>
+      <ITEMNAME>Sirius Black - Dark Brown Hair, Olive Green Jacket, Black Plain Legs</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.8</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp640</ITEMID>
+      <ITEMNAME>Antonin Dolohov</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.6</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp641</ITEMID>
+      <ITEMNAME>Hermione Granger - Striped Sweater, Tan Jacket Collar, Black Legs</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp642</ITEMID>
+      <ITEMNAME>Professor Mad-Eye Moody - Reddish Brown Jacket</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.93</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp643</ITEMID>
+      <ITEMNAME>Albus Dumbledore - Lavender Robe, Skirt</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.6</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp644</ITEMID>
+      <ITEMNAME>Ron Weasley - Reddish Brown Sweater, Yellow and Orange Crosses</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.6</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp645</ITEMID>
+      <ITEMNAME>Arthur Weasley - Light Bluish Gray Suit, Wrinkles, Smile / Frown</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.4</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp646</ITEMID>
+      <ITEMNAME>Statue - The Ministry of Magic, Pirate Hat, Gold Beard &amp;#40;Monochrome&amp;#41;</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.07</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>twn558</ITEMID>
       <ITEMNAME>Greek Taverna Owner</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.88</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1154</ITEMID>
+      <ITEMNAME>Dr. Doom - Green Hood, Flat Silver Arms and Legs</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.98</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1157</ITEMID>
+      <ITEMNAME>Iron Man - Dark Red and Gold Armor, Round Arc Reactor, Pearl Gold Arms, Helmet with Visor, Glasses</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.04</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1155</ITEMID>
+      <ITEMNAME>Wolverine - Holiday Sweater</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.85</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1156</ITEMID>
+      <ITEMNAME>Captain America - Dark Blue Suit with Dark Blue Belt, Red Hands, Hair</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.51</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -172514,6 +172640,96 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp647</ITEMID>
+      <ITEMNAME>Harry Potter - Light Bluish Gray Hoodie Open, Sand Blue Legs, Grin / Possessed, Lime Eyes</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.4</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp648</ITEMID>
+      <ITEMNAME>Professor Dolores Umbridge - Warm Pink Dress</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.82</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp649</ITEMID>
+      <ITEMNAME>Lord Voldemort - Dark Green Robe, Skirt</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.36</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp650</ITEMID>
+      <ITEMNAME>Kingsley Shacklebolt - Umber, Blue Violet and Dark Purple Robe</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.33</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp651</ITEMID>
+      <ITEMNAME>Arabella Figg</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.8</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp652</ITEMID>
+      <ITEMNAME>Nymphadora Tonks - Medium Lavender Hair, Dark Red Outfit</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.64</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>colshr03</ITEMID>
+      <ITEMNAME>Gingy, Shrek &amp;#40;Minifigure Only without Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>colshr05</ITEMID>
+      <ITEMNAME>Dragon, Shrek &amp;#40;Minifigure Only without Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>5.52</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>colshr08</ITEMID>
+      <ITEMNAME>Pinocchio, Shrek &amp;#40;Minifigure Only without Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.22</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>colshr12</ITEMID>
+      <ITEMNAME>Prince Charming, Shrek &amp;#40;Minifigure Only without Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.73</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>47394pb385</ITEMID>
       <ITEMNAME>Duplo Figure Lego Ville, Rhino &amp;#40;6580424&amp;#41;</ITEMNAME>
       <CATEGORY>167</CATEGORY>
@@ -172528,6 +172744,114 @@
       <CATEGORY>167</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>14.37</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>colshr10</ITEMID>
+      <ITEMNAME>Lord Farquaad, Shrek &amp;#40;Minifigure Only without Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.59</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol429</ITEMID>
+      <ITEMNAME>Santa Claus - Green Shirt with Suspenders, Red Legs</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.69</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol430</ITEMID>
+      <ITEMNAME>Elf Mailman</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol432</ITEMID>
+      <ITEMNAME>Snowman - Red Scarf, Dark Azure Christmas Sweater</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.44</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol433</ITEMID>
+      <ITEMNAME>Elf - Reddish Brown Legs</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>colshr04</ITEMID>
+      <ITEMNAME>Shrek, Shrek &amp;#40;Minifigure Only without Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.18</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>colshr01</ITEMID>
+      <ITEMNAME>Thelonious, Shrek &amp;#40;Minifigure Only without Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.07</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>colshr02</ITEMID>
+      <ITEMNAME>Puss in Boots, Shrek &amp;#40;Minifigure Only without Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.66</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>colshr06</ITEMID>
+      <ITEMNAME>Fiona, Shrek &amp;#40;Minifigure Only without Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.47</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>colshr07</ITEMID>
+      <ITEMNAME>Merlin, Shrek &amp;#40;Minifigure Only without Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.99</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>colshr09</ITEMID>
+      <ITEMNAME>Big Bad Wolf, Shrek &amp;#40;Minifigure Only without Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.57</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>colshr11</ITEMID>
+      <ITEMNAME>Fairy Godmother, Shrek &amp;#40;Minifigure Only without Stand and Accessories&amp;#41;</ITEMNAME>
+      <CATEGORY>746</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>5.02</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
