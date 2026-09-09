@@ -193335,7 +193335,7 @@
       <ITEMNAME>Advent Calendar 2026, Star Wars</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>255</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -194483,6 +194483,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>O</ITEMTYPE>
+      <ITEMID>L0002291-1</ITEMID>
+      <ITEMNAME>Super Sports Car paper bag</ITEMNAME>
+      <CATEGORY>36</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>O</ITEMTYPE>
       <ITEMID>L0002224-1</ITEMID>
       <ITEMNAME>Firefighter with Fire Quad paper bag</ITEMNAME>
       <CATEGORY>67</CATEGORY>
@@ -195045,7 +195054,7 @@
       <ITEMNAME>Doctor Doom Bust</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>85</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -195432,7 +195441,7 @@
       <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day  1&amp;#41; - Holiday The Mandalorian</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>0.75</ITEMWEIGHT>
       <IMAGECOLOR>-1</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -195441,7 +195450,7 @@
       <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day  2&amp;#41; - Table with Camtono and Beskar</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>0.42</ITEMWEIGHT>
       <IMAGECOLOR>-1</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -195450,7 +195459,7 @@
       <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day  3&amp;#41; - Holiday Grogu</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>0.7</ITEMWEIGHT>
       <IMAGECOLOR>-1</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -195459,7 +195468,7 @@
       <ITEMNAME>Advent Calendar 2026, Star Wars &amp;#40;Day  4&amp;#41; - Grogu&amp;#39;s Hoverpram</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>0.37</ITEMWEIGHT>
       <IMAGECOLOR>-1</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -195870,7 +195879,7 @@
    <ITEM>
       <ITEMTYPE>O</ITEMTYPE>
       <ITEMID>43298-2</ITEMID>
-      <ITEMNAME>Advent Calendar 2026, Disney Princess &amp;#40;Day 1&amp;#41; - Cinderella, Crown Tiara and Present</ITEMNAME>
+      <ITEMNAME>Advent Calendar 2026, Disney Princess &amp;#40;Day  1&amp;#41; - Cinderella, Crown Tiara and Present</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -195879,7 +195888,7 @@
    <ITEM>
       <ITEMTYPE>O</ITEMTYPE>
       <ITEMID>43298-3</ITEMID>
-      <ITEMNAME>Advent Calendar 2026, Disney Princess &amp;#40;Day 2&amp;#41; - Piano</ITEMNAME>
+      <ITEMNAME>Advent Calendar 2026, Disney Princess &amp;#40;Day  2&amp;#41; - Piano</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -195888,7 +195897,7 @@
    <ITEM>
       <ITEMTYPE>O</ITEMTYPE>
       <ITEMID>43298-4</ITEMID>
-      <ITEMNAME>Advent Calendar 2026, Disney Princess &amp;#40;Day 3&amp;#41; - Gus with Reindeer Antlers, Sled and Tree</ITEMNAME>
+      <ITEMNAME>Advent Calendar 2026, Disney Princess &amp;#40;Day  3&amp;#41; - Gus with Reindeer Antlers, Sled and Tree</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -195897,7 +195906,7 @@
    <ITEM>
       <ITEMTYPE>O</ITEMTYPE>
       <ITEMID>43298-5</ITEMID>
-      <ITEMNAME>Advent Calendar 2026, Disney Princess &amp;#40;Day 4&amp;#41; - Table with Cup and Cookies</ITEMNAME>
+      <ITEMNAME>Advent Calendar 2026, Disney Princess &amp;#40;Day  4&amp;#41; - Table with Cup and Cookies</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -195906,7 +195915,7 @@
    <ITEM>
       <ITEMTYPE>O</ITEMTYPE>
       <ITEMID>43298-6</ITEMID>
-      <ITEMNAME>Advent Calendar 2026, Disney Princess &amp;#40;Day 5&amp;#41; - Toy Top / Dradle</ITEMNAME>
+      <ITEMNAME>Advent Calendar 2026, Disney Princess &amp;#40;Day  5&amp;#41; - Toy Top / Dradle</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -195915,7 +195924,7 @@
    <ITEM>
       <ITEMTYPE>O</ITEMTYPE>
       <ITEMID>43298-7</ITEMID>
-      <ITEMNAME>Advent Calendar 2026, Disney Princess &amp;#40;Day 6&amp;#41; - Gingerbread Castle</ITEMNAME>
+      <ITEMNAME>Advent Calendar 2026, Disney Princess &amp;#40;Day  6&amp;#41; - Gingerbread Castle</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -195924,7 +195933,7 @@
    <ITEM>
       <ITEMTYPE>O</ITEMTYPE>
       <ITEMID>43298-8</ITEMID>
-      <ITEMNAME>Advent Calendar 2026, Disney Princess &amp;#40;Day 7&amp;#41; - Mulan and Present</ITEMNAME>
+      <ITEMNAME>Advent Calendar 2026, Disney Princess &amp;#40;Day  7&amp;#41; - Mulan and Present</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -195933,7 +195942,7 @@
    <ITEM>
       <ITEMTYPE>O</ITEMTYPE>
       <ITEMID>43298-9</ITEMID>
-      <ITEMNAME>Advent Calendar 2026, Disney Princess &amp;#40;Day 8&amp;#41; - Campfire and Marshmallow</ITEMNAME>
+      <ITEMNAME>Advent Calendar 2026, Disney Princess &amp;#40;Day  8&amp;#41; - Campfire and Marshmallow</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -195942,7 +195951,7 @@
    <ITEM>
       <ITEMTYPE>O</ITEMTYPE>
       <ITEMID>43298-10</ITEMID>
-      <ITEMNAME>Advent Calendar 2026, Disney Princess &amp;#40;Day 9&amp;#41; - Mushu, Sled and Candle</ITEMNAME>
+      <ITEMNAME>Advent Calendar 2026, Disney Princess &amp;#40;Day  9&amp;#41; - Mushu, Sled and Candle</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
