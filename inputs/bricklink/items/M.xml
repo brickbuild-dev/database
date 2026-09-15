@@ -173151,4 +173151,31 @@
       <ITEMWEIGHT>11</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0925</ITEMID>
+      <ITEMNAME>Friends Aliya - Dark Blue Shirt, Bright Light Blue Trousers Bell-Bottoms, Orange Shoes, Bright Light Yellow Scarf</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.55</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0926</ITEMID>
+      <ITEMNAME>Friends Nova - Dark Purple and Medium Lavender Ski Suit / Jacket, Trousers Bell-Bottoms, Dark Turquoise Hat</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.23</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>frnd0927</ITEMID>
+      <ITEMNAME>Friends Liann - Blue and Coral Ski Suit / Jacket, Trousers Bell-Bottoms, Flat Silver Skates</ITEMNAME>
+      <CATEGORY>771</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.34</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
 </CATALOG>

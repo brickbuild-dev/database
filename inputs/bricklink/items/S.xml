@@ -153670,7 +153670,7 @@
       <ITEMTYPE>S</ITEMTYPE>
       <ITEMID>10292-1</ITEMID>
       <ITEMNAME>The Friends Apartments</ITEMNAME>
-      <CATEGORY>1154</CATEGORY>
+      <CATEGORY>1068</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>2812</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -156424,7 +156424,7 @@
       <ITEMTYPE>S</ITEMTYPE>
       <ITEMID>10291-1</ITEMID>
       <ITEMNAME>Queer Eye - The Fab 5 Loft</ITEMNAME>
-      <CATEGORY>1163</CATEGORY>
+      <CATEGORY>1068</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>1420</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -160402,7 +160402,7 @@
       <ITEMTYPE>S</ITEMTYPE>
       <ITEMID>10300-1</ITEMID>
       <ITEMNAME>Back to the Future Time Machine</ITEMNAME>
-      <CATEGORY>918</CATEGORY>
+      <CATEGORY>1068</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT>2142</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -172129,7 +172129,7 @@
       <ITEMTYPE>S</ITEMTYPE>
       <ITEMID>10327-1</ITEMID>
       <ITEMNAME>Atreides Royal Ornithopter</ITEMNAME>
-      <CATEGORY>1286</CATEGORY>
+      <CATEGORY>1068</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>1795</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -185935,7 +185935,7 @@
       <ITEMTYPE>S</ITEMTYPE>
       <ITEMID>10375-1</ITEMID>
       <ITEMNAME>How to Train Your Dragon: Toothless</ITEMNAME>
-      <CATEGORY>1349</CATEGORY>
+      <CATEGORY>1068</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>797</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -191686,7 +191686,7 @@
       <ITEMTYPE>S</ITEMTYPE>
       <ITEMID>11389-1</ITEMID>
       <ITEMNAME>Project Hail Mary</ITEMNAME>
-      <CATEGORY>1374</CATEGORY>
+      <CATEGORY>1068</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>1035</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -196265,6 +196265,222 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-2</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 1&amp;#41; - Aliya, Letter and Present</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>5.23</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-3</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 2&amp;#41; - Snowy Trail Sign and Lantern</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>5.32</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-4</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 3&amp;#41; - Red Mailbox with Snow</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>4.3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-5</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 4&amp;#41; - Pony and Carrot</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>6.94</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-6</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 5&amp;#41; - Sleigh</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>5.79</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-7</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 6&amp;#41; - Seal with Santa Hat and Slide</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>6.15</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-8</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 7&amp;#41; - Snowman with Dark Turquoise Heart</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.95</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-9</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 8&amp;#41; - Nova and Present</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>4.56</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-10</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 9&amp;#41; - Snowball Launcher</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>4.36</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-11</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 10&amp;#41; - Red Skis and Pearl Gold Ski Poles</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>2.12</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-12</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 11&amp;#41; - Polar Bear Cub with Santa Hat and Ice Cream Cone</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>2.06</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-13</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 12&amp;#41; - Ice Arch Stand with Trans-Light Blue Sides</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>7.15</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-14</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 13&amp;#41; - Bunny with Santa Hat and Gingerbread House</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>6.48</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-15</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 14&amp;#41; - Seesaw</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>7.21</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-16</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 15&amp;#41; - Ferret with Santa Hat and Ball</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>2.25</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-17</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 16&amp;#41; - Ice Arch Stand with White Sides</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>5.18</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-18</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 17&amp;#41; - Liann with Skates and Present</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>4.79</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-19</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 18&amp;#41; - Snowflake Sculpture</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>4.14</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-20</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 19&amp;#41; - Cookies and Hot Cocoa Stall</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>8.74</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-21</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 20&amp;#41; - Cake Decorating Stall</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>5.44</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-22</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 21&amp;#41; - Present Wrapping Stall</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>6.67</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-23</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 22&amp;#41; - Campfire, Marshmallows and Cushions</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>5.04</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-24</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 23&amp;#41; - Christmas Tree with Snow and Star</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>6.09</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>42698-25</ITEMID>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 24&amp;#41; - Penguin, Present, Suitcase and Passport</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.7</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
       <ITEMID>71053-4</ITEMID>
       <ITEMNAME>Minifigure, Shrek &amp;#40;Box of 12&amp;#41;</ITEMNAME>
       <CATEGORY>746</CATEGORY>
@@ -196494,6 +196710,15 @@
       <ITEMNAME>Stuntman with Stunt Quad paper bag</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>1976-2</ITEMID>
+      <ITEMNAME>Town / Space Triple Pack</ITEMNAME>
+      <CATEGORY>290</CATEGORY>
+      <ITEMYEAR>1984</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
