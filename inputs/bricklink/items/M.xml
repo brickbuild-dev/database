@@ -39657,7 +39657,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>belvfemale74a</ITEMID>
-      <ITEMNAME>Belville Female, Child Girl  - Dark Purple Top, Light Yellow Hair, Dark Pink Shoes, Skirt, Scarf, Crown</ITEMNAME>
+      <ITEMNAME>Belville Female, Child Girl - Lilac Top, Tan Hair, Dark Pink Shoes, Skirt, Scarf, Crown</ITEMNAME>
       <CATEGORY>48</CATEGORY>
       <ITEMYEAR>2007</ITEMYEAR>
       <ITEMWEIGHT>12.49</ITEMWEIGHT>
@@ -146019,7 +146019,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cty1730</ITEMID>
-      <ITEMNAME>Police - City Officer Male, Neon Yellow Safety Vest, Dark Blue Legs, White Helmet, Trans-Clear Visor</ITEMNAME>
+      <ITEMNAME>Police - City Officer Male, Neon Yellow Safety Vest, Dark Blue Legs, White Helmet, Trans-Clear Visor, Cheek Lines</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>3.62</ITEMWEIGHT>
@@ -172523,6 +172523,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2048</ITEMID>
+      <ITEMNAME>Police - City Officer Male, Neon Yellow Safety Vest, Dark Blue Legs, White Helmet, Trans-Clear Visor, Stubble</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.6</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2049</ITEMID>
+      <ITEMNAME>Construction Worker - Male, Dark Bluish Gray Overalls over Reddish Orange Safety Jacket with Reflective Stripes, Dark Bluish Gray Legs, Red Construction Helmet, Dark Orange Beard</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.35</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hp638</ITEMID>
       <ITEMNAME>Lucius Malfoy - Death Eater Outfit, Bright Light Yellow Hair, Printed Legs</ITEMNAME>
       <CATEGORY>227</CATEGORY>
@@ -172609,6 +172627,15 @@
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.88</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>edi016</ITEMID>
+      <ITEMNAME>Olivia Rodrigo - Light Aqua Outfit</ITEMNAME>
+      <CATEGORY>1359</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.18</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -173059,6 +173086,15 @@
       <CATEGORY>746</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>5.02</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>cty2050</ITEMID>
+      <ITEMNAME>Stuntman &amp;#40;Jason 'Just Jason' Brickle&amp;#41; - Male, Orange Jacket with Panels and Zipper, Dark Blue Legs, Blue Helmet, Trans-Clear Visor</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.6</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>

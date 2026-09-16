@@ -195198,7 +195198,7 @@
       <ITEMNAME>Mini Hogwarts Castle</ITEMNAME>
       <CATEGORY>227</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>800</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -196266,7 +196266,7 @@
    <ITEM>
       <ITEMTYPE>S</ITEMTYPE>
       <ITEMID>42698-2</ITEMID>
-      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 1&amp;#41; - Aliya, Letter and Present</ITEMNAME>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day  1&amp;#41; - Aliya, Letter and Present</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>5.23</ITEMWEIGHT>
@@ -196275,7 +196275,7 @@
    <ITEM>
       <ITEMTYPE>S</ITEMTYPE>
       <ITEMID>42698-3</ITEMID>
-      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 2&amp;#41; - Snowy Trail Sign and Lantern</ITEMNAME>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day  2&amp;#41; - Snowy Trail Sign and Lantern</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>5.32</ITEMWEIGHT>
@@ -196284,7 +196284,7 @@
    <ITEM>
       <ITEMTYPE>S</ITEMTYPE>
       <ITEMID>42698-4</ITEMID>
-      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 3&amp;#41; - Red Mailbox with Snow</ITEMNAME>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day  3&amp;#41; - Red Mailbox with Snow</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.3</ITEMWEIGHT>
@@ -196293,7 +196293,7 @@
    <ITEM>
       <ITEMTYPE>S</ITEMTYPE>
       <ITEMID>42698-5</ITEMID>
-      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 4&amp;#41; - Pony and Carrot</ITEMNAME>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day  4&amp;#41; - Pony and Carrot</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>6.94</ITEMWEIGHT>
@@ -196302,7 +196302,7 @@
    <ITEM>
       <ITEMTYPE>S</ITEMTYPE>
       <ITEMID>42698-6</ITEMID>
-      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 5&amp;#41; - Sleigh</ITEMNAME>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day  5&amp;#41; - Sleigh</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>5.79</ITEMWEIGHT>
@@ -196311,7 +196311,7 @@
    <ITEM>
       <ITEMTYPE>S</ITEMTYPE>
       <ITEMID>42698-7</ITEMID>
-      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 6&amp;#41; - Seal with Santa Hat and Slide</ITEMNAME>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day  6&amp;#41; - Seal with Santa Hat and Slide</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>6.15</ITEMWEIGHT>
@@ -196320,7 +196320,7 @@
    <ITEM>
       <ITEMTYPE>S</ITEMTYPE>
       <ITEMID>42698-8</ITEMID>
-      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 7&amp;#41; - Snowman with Dark Turquoise Heart</ITEMNAME>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day  7&amp;#41; - Snowman with Dark Turquoise Heart</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.95</ITEMWEIGHT>
@@ -196329,7 +196329,7 @@
    <ITEM>
       <ITEMTYPE>S</ITEMTYPE>
       <ITEMID>42698-9</ITEMID>
-      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 8&amp;#41; - Nova and Present</ITEMNAME>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day  8&amp;#41; - Nova and Present</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.56</ITEMWEIGHT>
@@ -196338,7 +196338,7 @@
    <ITEM>
       <ITEMTYPE>S</ITEMTYPE>
       <ITEMID>42698-10</ITEMID>
-      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day 9&amp;#41; - Snowball Launcher</ITEMNAME>
+      <ITEMNAME>Advent Calendar 2026, Friends &amp;#40;Day  9&amp;#41; - Snowball Launcher</ITEMNAME>
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.36</ITEMWEIGHT>
@@ -196711,6 +196711,15 @@
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>S</ITEMTYPE>
+      <ITEMID>4000049-1</ITEMID>
+      <ITEMNAME>Inside Tour &amp;#40;LIT&amp;#41; Exclusive 2026 Edition - Vintage LEGO Logo</ITEMNAME>
+      <CATEGORY>976</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>2767</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
