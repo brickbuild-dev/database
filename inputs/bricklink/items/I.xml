@@ -106081,7 +106081,7 @@
       <CATEGORY>920</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
-      <IMAGECOLOR>-1</IMAGECOLOR>
+      <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>I</ITEMTYPE>
@@ -111540,7 +111540,7 @@
    <ITEM>
       <ITEMTYPE>I</ITEMTYPE>
       <ITEMID>6051-2</ITEMID>
-      <ITEMNAME>LEGO DUPLO Play with Letters {English Version}</ITEMNAME>
+      <ITEMNAME>LEGO DUPLO Play with Letters {English, Portuguese, French, Spanish Version}</ITEMNAME>
       <CATEGORY>167</CATEGORY>
       <ITEMYEAR>2011</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -111549,11 +111549,11 @@
    <ITEM>
       <ITEMTYPE>I</ITEMTYPE>
       <ITEMID>6051-1</ITEMID>
-      <ITEMNAME>LEGO DUPLO Play with Letters {International Version}</ITEMNAME>
+      <ITEMNAME>LEGO DUPLO Play with Letters {German, Dutch, Swedish, Norwegian, Danish Version}</ITEMNAME>
       <CATEGORY>167</CATEGORY>
       <ITEMYEAR>2011</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
-      <IMAGECOLOR>-1</IMAGECOLOR>
+      <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>I</ITEMTYPE>
