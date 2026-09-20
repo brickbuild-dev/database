@@ -63507,7 +63507,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>SWCWBan03</ITEMID>
-      <ITEMNAME>Display Flag Cloth, Star Wars Clone Wars - Bounty Hunter Assault Gunship and T-6 Jedi Shuttle</ITEMNAME>
+      <ITEMNAME>Display Flag Cloth, Star Wars Clone Wars - Bounty Hunter Assault Gunship and T-6 Jedi Shuttle - Wide</ITEMNAME>
       <CATEGORY>526</CATEGORY>
       <ITEMYEAR>2011</ITEMYEAR>
       <ITEMWEIGHT>311</ITEMWEIGHT>
@@ -201476,6 +201476,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>notelm</ITEMID>
+      <ITEMNAME>Notebook LEGO Masters &amp;#40;Set of 3&amp;#41;</ITEMNAME>
+      <CATEGORY>447</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>Gstk283</ITEMID>
       <ITEMNAME>Sticker Sheet, LEGO Masters, Masterbuilder In Training</ITEMNAME>
       <CATEGORY>160</CATEGORY>
@@ -203429,6 +203438,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>SWCWBan06</ITEMID>
+      <ITEMNAME>Display Flag Cloth, Star Wars Clone Wars - Bounty Hunter Assault Gunship and T-6 Jedi Shuttle - Narrow</ITEMNAME>
+      <CATEGORY>526</CATEGORY>
+      <ITEMYEAR>2011</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>45825MAP</ITEMID>
       <ITEMNAME>Playmat, FIRST LEGO League &amp;#40;FLL&amp;#41; - Set 45825 Masterpiece</ITEMNAME>
       <CATEGORY>998</CATEGORY>
@@ -204293,6 +204311,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>DisplaySignLt10</ITEMID>
+      <ITEMNAME>Display Sign Medium LEGO Logo, Lighted &amp;#40;120-240V&amp;#41;</ITEMNAME>
+      <CATEGORY>539</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3400</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>53567</ITEMID>
       <ITEMNAME>Notebook Locking with Gel Pen, Black &amp;#40;2.7cm Thickness&amp;#41;</ITEMNAME>
       <CATEGORY>447</CATEGORY>
@@ -204513,6 +204540,24 @@
       <ITEMNAME>Bag / Luggage Tag, Silicone, 'I Heart BCN &amp;#40;Barcelona&amp;#41;'</ITEMNAME>
       <CATEGORY>1112</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6602978</ITEMID>
+      <ITEMNAME>Sticker Sheet, Friends, Sheet of 11 Stickers</ITEMNAME>
+      <CATEGORY>160</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6626324</ITEMID>
+      <ITEMNAME>Sticker Sheet, Halloween, Sheet of 6 Stickers</ITEMNAME>
+      <CATEGORY>160</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -215849,6 +215894,60 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6650001</ITEMID>
+      <ITEMNAME>Sticker Sheet, Star Wars SMART Play, Sheet of 19 Stickers</ITEMNAME>
+      <CATEGORY>160</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>pc26bot02</ITEMID>
+      <ITEMNAME>Postcard - Botanicals, Danke, Dass es Dich Gibt</ITEMNAME>
+      <CATEGORY>472</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>pc26bot01</ITEMID>
+      <ITEMNAME>Postcard - Botanicals, Ein Danke das Bleibt</ITEMNAME>
+      <CATEGORY>472</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>pc26ferrari</ITEMID>
+      <ITEMNAME>Postcard - Ferrari, Für Gemeinsame Zeit am Vatertag</ITEMNAME>
+      <CATEGORY>472</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6649125</ITEMID>
+      <ITEMNAME>Flyer 2026 Star Wars SMART Play</ITEMNAME>
+      <CATEGORY>1104</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>SVG2520911</ITEMID>
+      <ITEMNAME>Gift Card Star Wars Millennium Falcon</ITEMNAME>
+      <CATEGORY>997</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>njo11deLE06</ITEMID>
       <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # LE6 Gewaltiger Jay Limited Edition</ITEMNAME>
       <CATEGORY>380</CATEGORY>
@@ -222077,6 +222176,51 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>Gstk284</ITEMID>
+      <ITEMNAME>Sticker Sheet, Botanicals, Sheet of 6 Stickers</ITEMNAME>
+      <CATEGORY>160</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6663674</ITEMID>
+      <ITEMNAME>Editions Poster - Lionel Messi</ITEMNAME>
+      <CATEGORY>503</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6663675</ITEMID>
+      <ITEMNAME>Editions Poster - Cristiano Ronaldo</ITEMNAME>
+      <CATEGORY>503</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6663676</ITEMID>
+      <ITEMNAME>Editions Poster - Vini Jr.</ITEMNAME>
+      <CATEGORY>503</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6663673</ITEMID>
+      <ITEMNAME>Editions Poster - Kylian Mbappé {Mbappe}</ITEMNAME>
+      <CATEGORY>503</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>6663678</ITEMID>
       <ITEMNAME>Flyer 2026 Technic Set 42234 Insert - Forza Horizon 6, Get Set For The Race!</ITEMNAME>
       <CATEGORY>1104</CATEGORY>
@@ -222784,6 +222928,15 @@
       <CATEGORY>526</CATEGORY>
       <ITEMYEAR>2000</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>51311</ITEMID>
+      <ITEMNAME>Minifigures Blind Puzzle</ITEMNAME>
+      <CATEGORY>443</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>67</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>

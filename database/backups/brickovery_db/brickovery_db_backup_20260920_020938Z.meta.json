@@ -1,0 +1,33 @@
+{
+  "created_at_utc": "20260920_020938Z",
+  "reason": "semantic_delta",
+  "db_path": "database/brickovery.db",
+  "db_sha256": "743e4922f9c479344cfe7607b2fd71643bbd5f95efa546bd0c301d9d3398a10f",
+  "db_size_bytes": 58519552,
+  "backup_file": "database/backups/brickovery_db/brickovery_db_backup_20260920_020938Z.sqlite.gz",
+  "backup_file_format": "sqlite.gz",
+  "context_json": ".semantic_check.json",
+  "context": {
+    "semantic_new_data": true,
+    "items_upstream": 210830,
+    "items_db": 211656,
+    "items_missing_in_db": 42,
+    "codes_upstream": 86703,
+    "codes_db": 255666,
+    "codes_missing_in_db": 0,
+    "unknown_color_tokens": [
+      "Royal Blue",
+      "Speckle Copper",
+      "Speckle Gold",
+      "Speckle Silver"
+    ],
+    "unknown_color_tokens_count": 4,
+    "copied_upstream_files": true,
+    "db_inserted_items": 0,
+    "db_inserted_codes": 0
+  },
+  "csv_path": "database/brickovery_db.csv",
+  "csv_sha256": "4410310764e220b6dd554d5f512ac5ac782d3e5e2473f3aa5af573496aaf7a17",
+  "csv_size_bytes": 26746001,
+  "csv_backup_file": "database/backups/brickovery_db/brickovery_db_csv_backup_20260920_020938Z.csv.gz"
+}

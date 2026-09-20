@@ -71561,9 +71561,36 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026sw136de</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2026 Issue 136 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>81</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026sw135de</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2026 Issue 135 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>81</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2026shba45de</ITEMID>
       <ITEMNAME>Batman Magazine 2026 Issue 45 &amp;#40;German&amp;#41;</ITEMNAME>
       <CATEGORY>1063</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>81</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026drm14de</ITEMID>
+      <ITEMNAME>DREAMZzz Magazine 2026 Issue 14 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>1269</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>81</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -71633,6 +71660,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026shsp22de</ITEMID>
+      <ITEMNAME>Spider-Man Magazine 2026 Issue 22 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>1063</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>81</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2026shba46de</ITEMID>
       <ITEMNAME>Batman Magazine 2026 Issue 46 &amp;#40;German&amp;#41;</ITEMNAME>
       <CATEGORY>1063</CATEGORY>
@@ -71647,6 +71683,15 @@
       <CATEGORY>332</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>514</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026sw138de</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2026 Issue 138 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>81</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -71764,6 +71809,33 @@
       <CATEGORY>1024</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26sw05nl</ITEMID>
+      <ITEMNAME>Star Wars - Feestdagen Special &amp;#40;Box Set&amp;#41; &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>323</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26sh03nl</ITEMID>
+      <ITEMNAME>NINJAGO - Het Ultieme Verhaal &amp;#40;Box Set&amp;#41; &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>558</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26sh04nl</ITEMID>
+      <ITEMNAME>Batman - Battle Box &amp;#40;Box Set&amp;#41; &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>576</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
