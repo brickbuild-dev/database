@@ -222150,7 +222150,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>5010345</ITEMID>
-      <ITEMNAME>Shoe - Crocs Kids’ Creativity Clogs</ITEMNAME>
+      <ITEMNAME>Shoe - Crocs Kids' Creativity Clogs, White</ITEMNAME>
       <CATEGORY>1146</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -222179,6 +222179,78 @@
       <ITEMID>Gstk284</ITEMID>
       <ITEMNAME>Sticker Sheet, Botanicals, Sheet of 6 Stickers</ITEMNAME>
       <CATEGORY>160</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6649974</ITEMID>
+      <ITEMNAME>Card, Promotional Star Wars SMART Play - Yoda &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>997</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6649969</ITEMID>
+      <ITEMNAME>Card, Promotional Star Wars SMART Play - Princess Leia &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>997</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6649971</ITEMID>
+      <ITEMNAME>Card, Promotional Star Wars SMART Play - Obi-Wan Kenobi &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>997</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6649972</ITEMID>
+      <ITEMNAME>Card, Promotional Star Wars SMART Play - Emperor Palpatine &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>997</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6649970</ITEMID>
+      <ITEMNAME>Card, Promotional Star Wars SMART Play - Luke Skywalker &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>997</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6649973</ITEMID>
+      <ITEMNAME>Card, Promotional Star Wars SMART Play - Wicket &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>997</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6649967</ITEMID>
+      <ITEMNAME>Card, Promotional Star Wars SMART Play - Chewbacca &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>997</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6649968</ITEMID>
+      <ITEMNAME>Card, Promotional Star Wars SMART Play - Darth Vader &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>997</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -222937,6 +223009,1968 @@
       <CATEGORY>443</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>67</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de001</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 1 Power Duell Drachen Lloyd</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de002</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 2 Power Duell Giftmonster</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de003</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 3 Aufgeweckter Arin</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de004</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 4 Aufgeweckte Sora</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de005</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 5 Splash Wyldfyre</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de006</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 6 Aufgeweckter Kai</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de007</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 7 Aufgeweckter Cole</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de008</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 8 Splash Nya</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de009</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 9 Aufgeweckte Wyldfyre</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de010</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 10 Aufgeweckter Lloyd</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de011</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 11 Splash Arin</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de012</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 12 Entschlossene Sora</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de013</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 13 Aufgeweckter Zane</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de014</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 14 Drachen Kai</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de015</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 15 Loyalisten Anführer</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de016</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 16 Entschlossener Arin</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de017</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 17 Aufgeweckte Nya</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de018</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 18 Splash Sora</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de019</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 19 Entschlossene Wyldfyre</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de020</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 20 Entschlossener Lloyd</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de021</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 21 Splash Zane</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de022</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 22 Entschlossener Kai</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de023</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 23 Entschlossener Cole</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de024</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 24 Splash Frak</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de025</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 25 Eifriger Arin</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de026</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 26 Arin</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de027</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 27 Loyalist</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de028</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 28 Eifrige Sora</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de029</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 29 Entschlossene Nya</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de030</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 30 Splash Lloyd</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de031</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 31 Entschlossener Zane</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de032</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 32 Entschlossener Frak</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de033</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 33 Splash Kai</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de034</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 34 Eifrige P.I.X.A.L.</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de035</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 35 Eifrige Wyldfyre</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de036</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 36 Splash Cole</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de037</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 37 Eifriger Lloyd</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de038</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 38 Eifriger Kai</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de039</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 39 Splash P.I.X.A.L.</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de040</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 40 Eifriger Cole</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de041</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 41 Eifrige Nya</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de042</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 42 Splash Morro</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de043</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 43 Eifriger Frak</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de044</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 44 Tapferer Arin</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de045</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 45 Splash Team Wyldfyre &amp; Kai</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de046</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 46 Eifriger Zane</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de047</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 47 Tapfere Nya</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de048</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 48 Splash Team Sora &amp; Cole</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de049</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 49 Tapfere Wyldfyre</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de050</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 50 Rising Dragon Lloyd</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de051</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 51 Splash Team Arin &amp; Morro</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de052</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 52 Rising Dragon Kai</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de053</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 53 Tapferer Cole</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de054</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 54 Splash Team Frak &amp; Lloyd</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de055</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 55 Tapfere Sora</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de056</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 56 Rising Dragon Zane</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de057</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 57 Splash Team P.I.X.A.L. &amp; Zane</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de058</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 58 Rising Dragon Nya</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de059</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 59 Tapferer Frak</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de060</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 60 Aufgewecktes Team Arin &amp; Sora</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de061</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 61 Tapferes Team Cole &amp; Frak</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de062</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 62 Entschlossenes Team Lloyd &amp; Kai</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de064</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 64 Entschlossenes Team Sora &amp; Wyldfyre</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de065</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 65 Entschlossenes Team Zane &amp; Cole</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de066</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 66 Aufgewecktes Team Wyldfyre &amp; Lloyd</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de067</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 67 Rising Dragon Team Nya &amp; Kai</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de068</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 68 Eifriges Team Arin &amp; Frak</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de069</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 69 Aufgewecktes Team Zane &amp; Nya</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de070</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 70 Eifriges Team Zane &amp; P.I.X.A.L.</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de071</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 71 Power Duell Erdmonster</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de072</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 72 Power Duell Drachen Cole</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de073</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 73 Grober Jay</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de074</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 74 Grober Ras</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de075</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 75 Splash Kur</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de076</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 76 Grobes Giftmonster</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de077</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 77 Grobes Tentakelmonster</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de078</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 78 Splash Nokt</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de080</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 80 Grober Loyalist</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de081</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 81 Splash Jay</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de082</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 82 Grober Drix</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de083</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 83 Grober Nokt</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de084</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 84 Power Duell Tentakelmonster</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de085</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 85 Power Duell Drachen Jay</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de087</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 87 Boshafter Ras</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de088</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 88 Splash Zarkt</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de089</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 89 Boshafter Nokt</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de092</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 92 Boshafte Rox</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de093</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 93 Boshafte Kur</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de094</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 94 Splash Drix</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de095</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 95 Boshafter Zarkt</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de096</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 96 Grausamer Jay</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de097</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 97 Power Duell Wütender Loyalist</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de098</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 98 Power Duell Drachen Zane</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de099</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 99 Grausamer Ras</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de100</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 100 Splash Rox</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de101</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 101 Grausamer Nokt</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de102</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 102 Grausamer Drix</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de103</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 103 Splash Erdmonster</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de104</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 104 Grausame Rox</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de105</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 105 Grausame Kur</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de106</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 106 Splash Giftmonster</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de107</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 107 Grausamer Zarkt</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de108</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 108 Geisterdrachenmensch</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de109</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 109 Splash Tentakelmonster</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de110</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 110 Geisterdrachenkämpfer</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de111</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 111 Starker Geisterdrachenkämpfer</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de112</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 112 Splash Loyalisten Anführer</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de113</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 113 Grausamer Geisterdrachenmensch</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de114</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 114 Grausamer Geisterdrachenkämpfer</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de115</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 115 Splash Team Ras &amp; Jay</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de116</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 116 Wütender Tyr</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de118</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 118 Splash Team Nokt &amp; Rox</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de119</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 119 Boshafter Geisterdrachenkämpfer</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de120</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 120 Boshafter Tyr</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de121</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 121 Splash Team Zarkt &amp; Kur</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de122</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 122 Grimmiger Geisterdrachenkämpfer</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de123</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 123 Grobes Team Ras &amp; Jay</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de125</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 125 Boshaftes Team Ras &amp; Nokt</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de126</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 126 Boshaftes Team Rox &amp; Zarkt</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de127</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 127 Splash Team Loyalisten Anführer &amp; Tentakelmonster</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de128</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 128 Grobes Team Gift- &amp; Tentakelmonster</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de129</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 129 Boshaftes Team Zarkt &amp; Drix</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de130</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 130 Grausames Team Kur &amp; Rox</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de131</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 131 Grobes Team Loyalist &amp; Loyalisten Anführer</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de132</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 132 Grausames Team Nokt &amp; Drix</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de133</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 133 Grausames Team Geisterdrachenkämpfer</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de134</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 134 Grobes Team Nokt &amp; Drix</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de135</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 135 Boshaftes Team Verbotene Fünf</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de136</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 136 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de137</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 137 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de138</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 138 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de139</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 139 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de140</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 140 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de141</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 141 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de142</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 142 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de143</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 143 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de144</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 144 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de145</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 145 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de146</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 146 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de147</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 147 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de148</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 148 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de149</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 149 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de150</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 150 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de151</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 151 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de152</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 152 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de153</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 153 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de155</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 155 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de156</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 156 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de157</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 157 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de158</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 158 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de159</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 159 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de161</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 161 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de162</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 162 Puzzle Piece</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de163</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 163 Mysteriöser Ronin</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de164</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 164 Kleiner Beschützer</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de165</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 165 Kuchen-Paradies</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de166</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 166 Kurier</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de167</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 167 Pümpel</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de168</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 168 Prismatisches Schwert</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de169</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 169 Traumhaftes Team</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de170</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 170 Heldenhaftes Foto</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de171</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 171 Unterstützung</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de172</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 172 Galaktrische Eiscreme</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de173</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 173 Familie</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de174</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 174 Musssik</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de175</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 175 Unterhalter</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de176</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 176 Bunte Suppe</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de177</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 177 Weltall-Spiel</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de178</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 178 Kleiner Freund</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de179</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 179 Tiefe Verbeugung</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de180</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 180 Skeptisch</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de182</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 182 Geschockt</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de183</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 183 Stromschlag</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de184</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 184 Umarmung</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de185</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 185 Funkender Stein</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de186</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 186 Krank</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de187</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 187 Eingesperrt</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de188</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 188 Voller Käfer</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de189</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 189 Gruselig</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de190</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 190 Falsches Grinsen</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de191</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 191 In Deckung Gehen</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de192</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 192 Am Boden</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de193</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 193 En Garde!</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de195</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 195 Pssst</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de196</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 196 Unheilvoller Gral</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de197</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 197 In Der Eigenen Welt</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de198</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 198 Hinterhalt</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de199</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 199 Geschwister</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de200</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 200 Aufgeladener Schlag</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de201</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 201 Puppe</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de202</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 202 Geisterhaftes Wesen</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de203</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 203 Der Tempel-Flugsegler</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de204</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 204 Lloyds Jet</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de205</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 205 Chaosdrache Donnerzahn</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de206</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 206 Kurs Geisterdrache</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de207</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 207 Lloyds Mech</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de208</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 208 Kais Ninja-Bike</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de210</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 210 Rogues Mech-Drachenreiter</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de211</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 211 Rontu Der Meisterdrache</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de212</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 212 Arins Spinjitzumech</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de213</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 213 Dämonen-Bike</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de214</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 214 Drix' Auto</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de215</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 215 Rogues Ninja-Flitzer</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de216</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 216 Zanes Ultra-Kombi-Mech</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de217</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 217 Soras Fliegendes Motorrad</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de218</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 218 Lloyds Grüner Walddrache</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de219</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 219 Nyas Fliegendes Motorrad</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de220</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 220 Lichtbogendrache</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de221</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 221 Cole Shattered</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de222</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 222 Zane Shattered</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de223</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 223 Kai Shattered</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de224</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 224 Lloyd Shattered</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de225</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 225 Jay Shattered</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de226</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 226 Arin Shattered</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de227</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 227 Sora Shattered</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>njo11de228</ITEMID>
+      <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 228 Nya Shattered</ITEMNAME>
+      <CATEGORY>380</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>5010346</ITEMID>
+      <ITEMNAME>Shoe - Crocs Kids' Creativity Clogs, Taffy Pink</ITEMNAME>
+      <CATEGORY>1146</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>5010344</ITEMID>
+      <ITEMNAME>Shoe - Crocs Kids&amp;#39; Creativity Clogs, Black</ITEMNAME>
+      <CATEGORY>1146</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
