@@ -39702,7 +39702,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>325</ITEMID>
-      <ITEMNAME>Plastikpistol &amp;#40;Fredspistol&amp;#41; {Plastic Pistol &amp;#40;Peace Gun&amp;#41;}</ITEMNAME>
+      <ITEMNAME>Plastic Gun - Pistol, Peace Gun {Plastikpistol, Fredspistol}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1949</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -43373,10 +43373,10 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>woodrifle</ITEMID>
-      <ITEMNAME>Wooden Rifle</ITEMNAME>
+      <ITEMID>1343</ITEMID>
+      <ITEMNAME>Wooden Gun - Space Gun, Rifle {Rumpistol}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1959</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -46001,10 +46001,10 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>ferry</ITEMID>
-      <ITEMNAME>Wooden Car Ferry</ITEMNAME>
+      <ITEMID>330</ITEMID>
+      <ITEMNAME>Færge / Ferry &amp;#40;Wooden Car Ferry&amp;#41;</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>1958</ITEMYEAR>
+      <ITEMYEAR>1957</ITEMYEAR>
       <ITEMWEIGHT>671</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -46019,8 +46019,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>sewmach</ITEMID>
-      <ITEMNAME>Wooden Sewing Machine</ITEMNAME>
+      <ITEMID>1860</ITEMID>
+      <ITEMNAME>Wooden Sewing Machine {Symaskine}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1959</ITEMYEAR>
       <ITEMWEIGHT>413</ITEMWEIGHT>
@@ -46100,10 +46100,10 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>firetruck</ITEMID>
-      <ITEMNAME>Wooden Fire Truck with Trailer</ITEMNAME>
+      <ITEMID>855</ITEMID>
+      <ITEMNAME>Wooden Fire Truck, FALCKS Redninkskorps {Brandbil}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>1950</ITEMYEAR>
+      <ITEMYEAR>1951</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -46632,9 +46632,9 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>jojo</ITEMID>
-      <ITEMNAME>Wooden Yo-yo</ITEMNAME>
+      <ITEMNAME>Wooden Yo-yo &amp;#40;Yoyo&amp;#41;</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1932</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -46757,10 +46757,10 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>Pullcrocodile</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Crocodile</ITEMNAME>
+      <ITEMID>198.b</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Crocodile Rigid {Krokodille hel Stiv}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1938</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -158006,10 +158006,10 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>legogun1</ITEMID>
-      <ITEMNAME>Wooden Pistol</ITEMNAME>
+      <ITEMID>325.a</ITEMID>
+      <ITEMNAME>Wooden Gun - Pistol, Peace Gun, 3 Shot {Fredspistol, 3 skuds}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1945</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -176690,8 +176690,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>firetruck5</ITEMID>
-      <ITEMNAME>Wooden Fire Truck Large with 2-Piece Ladder</ITEMNAME>
+      <ITEMID>315</ITEMID>
+      <ITEMNAME>Wooden Fire Truck Large with 2-Piece Ladder {Brandbil med Dobbelt Stige}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1944</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -224970,6 +224970,42 @@
       <ITEMNAME>Shoe - Crocs Kids&amp;#39; Creativity Clogs, Black</ITEMNAME>
       <CATEGORY>1146</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>855.1</ITEMID>
+      <ITEMNAME>Wooden Fire Truck, Sprayer Trailer FALCK {Påhængssprøjte til Brandbil}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1951</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>198</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Crocodile with Segments {Krokodille med Led}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1937</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>326-1</ITEMID>
+      <ITEMNAME>Wooden Gun Bullets - Ammunition for Wooden Peace Gun {Skud til Freds-Pistol}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1945</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>326-2</ITEMID>
+      <ITEMNAME>Wooden Gun Bullets - Ammunition for Plastic Peace Gun {Ammunition til Pistol}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1951</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>

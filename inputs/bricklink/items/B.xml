@@ -49314,7 +49314,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b21sw01</ITEMID>
-      <ITEMNAME>Star Wars - Yoda's Galaxy Atlas</ITEMNAME>
+      <ITEMNAME>Star Wars - Yoda's Galaxy Atlas &amp;#40;Hardcover&amp;#41;</ITEMNAME>
       <CATEGORY>332</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>499</ITEMWEIGHT>
@@ -67530,7 +67530,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b24njo09uk</ITEMID>
-      <ITEMNAME>NINJAGO - Ninja Duels - Read &amp; Play Adventures &amp;#40;Box-Set&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>NINJAGO - Ninja Duels: Read &amp; Play Adventures &amp;#40;Box Set&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>674</ITEMWEIGHT>
@@ -68007,7 +68007,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b24njo12uk</ITEMID>
-      <ITEMNAME>NINJAGO - Ninja Duels - Read &amp; Play Adventures &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition&amp;#41; - book only entry</ITEMNAME>
+      <ITEMNAME>NINJAGO - Ninja Duels: Read &amp; Play Adventures &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition&amp;#41; - book only entry</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>234</ITEMWEIGHT>
@@ -68844,7 +68844,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b26njo03uk</ITEMID>
-      <ITEMNAME>NINJAGO Dragon Powers &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>NINJAGO - Dragon Powers &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>165</ITEMWEIGHT>
@@ -68853,7 +68853,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b26njo01uk</ITEMID>
-      <ITEMNAME>NINJAGO - Greatest Battles, Search &amp; Find Sticker Activity &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>NINJAGO - Greatest Battles: Search &amp; Find Sticker Activity &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>189</ITEMWEIGHT>
@@ -68871,7 +68871,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b26njo02</ITEMID>
-      <ITEMNAME>NINJAGO - Graphic Novel: Strike of the Serpentine</ITEMNAME>
+      <ITEMNAME>NINJAGO - Strike of the Serpentine &amp;#40;Softcover&amp;#41;</ITEMNAME>
       <CATEGORY>331</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>275</ITEMWEIGHT>
@@ -71517,7 +71517,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b26sh01</ITEMID>
-      <ITEMNAME>Batman - The Night Hero &amp;#40;Softcover&amp;#41;</ITEMNAME>
+      <ITEMNAME>Batman - The Night Hero</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -71624,6 +71624,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b22sw11</ITEMID>
+      <ITEMNAME>Star Wars - Yoda's Galaxy Tour &amp;#40;Hardcover&amp;#41;</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>521</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2026cty90de</ITEMID>
       <ITEMNAME>City Magazine 2026 Issue 90 &amp;#40;German&amp;#41;</ITEMNAME>
       <CATEGORY>1021</CATEGORY>
@@ -71647,6 +71656,15 @@
       <CATEGORY>462</CATEGORY>
       <ITEMYEAR>2007</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026sw139uk</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2026 Issue 139 &amp;#40;English - UK&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>75</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -71701,6 +71719,15 @@
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>396</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26sh05de</ITEMID>
+      <ITEMNAME>DC Super Heroes - Rätselspass mit Superman &amp;#40;Softcover&amp;#41; &amp;#40;German Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -71822,7 +71849,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>b26sh03nl</ITEMID>
+      <ITEMID>b26njo06nl</ITEMID>
       <ITEMNAME>NINJAGO - Het Ultieme Verhaal &amp;#40;Box Set&amp;#41; &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
@@ -71836,6 +71863,15 @@
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>576</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026frnd16de</ITEMID>
+      <ITEMNAME>Friends Magazine 2026 Issue 16 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>1022</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
