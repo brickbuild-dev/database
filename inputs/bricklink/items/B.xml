@@ -22835,7 +22835,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>b14chi04</ITEMID>
+      <ITEMID>b14loc12</ITEMID>
       <ITEMNAME>LEGENDS OF CHIMA - How to Draw: Heroes and Villains &amp;#40;Softcover&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2014</ITEMYEAR>
@@ -22862,7 +22862,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>b14chi01pl</ITEMID>
+      <ITEMID>b14loc09pl</ITEMID>
       <ITEMNAME>LEGENDS OF CHIMA - Atak łowców &amp;#40;Softcover&amp;#41; &amp;#40;Polish Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2014</ITEMYEAR>
@@ -23222,7 +23222,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>b15chi01pl</ITEMID>
+      <ITEMID>b15loc05pl</ITEMID>
       <ITEMNAME>LEGENDS OF CHIMA - Bitwa o Chimę &amp;#40;Softcover&amp;#41; &amp;#40;Polish Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2015</ITEMYEAR>
@@ -23231,7 +23231,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>b15chi02pl</ITEMID>
+      <ITEMID>b15loc06pl</ITEMID>
       <ITEMNAME>LEGENDS OF CHIMA - Na ratunek Chimie &amp;#40;Softcover&amp;#41; &amp;#40;Polish Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2015</ITEMYEAR>
@@ -24401,7 +24401,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>b15chi03pl</ITEMID>
+      <ITEMID>b15loc07pl</ITEMID>
       <ITEMNAME>LEGENDS OF CHIMA - Niesamowita przygoda &amp;#40;Softcover&amp;#41; &amp;#40;Polish Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2015</ITEMYEAR>
@@ -25463,7 +25463,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>b14chi05</ITEMID>
+      <ITEMID>b14loc13</ITEMID>
       <ITEMNAME>LEGENDS OF CHIMA - Ultimate Factivity Collection &amp;#40;Softcover&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2014</ITEMYEAR>
@@ -26066,7 +26066,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>b14chi03</ITEMID>
+      <ITEMID>b14loc11</ITEMID>
       <ITEMNAME>LEGENDS OF CHIMA - Ravens and Gorillas &amp;#40;Softcover&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2014</ITEMYEAR>
@@ -41132,8 +41132,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>9781465470256</ITEMID>
-      <ITEMNAME>LEGO DC Comics Super Heroes Book and Headlamp Gift Set</ITEMNAME>
+      <ITEMID>b17sh01</ITEMID>
+      <ITEMNAME>DC Comics Super Heroes - Book and Headlamp Gift Set &amp;#40;Box Set&amp;#41;</ITEMNAME>
       <CATEGORY>332</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
       <ITEMWEIGHT>818</ITEMWEIGHT>
@@ -44849,7 +44849,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>b14chi02fr</ITEMID>
+      <ITEMID>b14loc10fr</ITEMID>
       <ITEMNAME>LEGENDS OF CHIMA - Le combat des tribus &amp;#40;Softcover&amp;#41; &amp;#40;French Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2014</ITEMYEAR>
@@ -51545,7 +51545,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>b14chi06</ITEMID>
+      <ITEMID>b14loc14</ITEMID>
       <ITEMNAME>LEGENDS OF CHIMA - Build An Adventure: The Quest for Chi &amp;#40;Softcover&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2014</ITEMYEAR>
@@ -59762,7 +59762,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>b15chi01dk</ITEMID>
+      <ITEMID>b15loc05dk</ITEMID>
       <ITEMNAME>LEGENDS OF CHIMA - Kampen Om Chima &amp;#40;Softcover&amp;#41; &amp;#40;Danish Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2015</ITEMYEAR>
@@ -66333,7 +66333,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b25sw06</ITEMID>
-      <ITEMNAME>Star Wars - Master Yoda</ITEMNAME>
+      <ITEMNAME>Star Wars - Master Yoda &amp;#40;Softcover&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>158</ITEMWEIGHT>
@@ -67048,6 +67048,15 @@
       <CATEGORY>1024</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b16njo20</ITEMID>
+      <ITEMNAME>NINJAGO - Book and Headlamp Gift Set {2016 Edition with Ninja Kai Headlamp} &amp;#40;Box Set&amp;#41;</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2016</ITEMYEAR>
+      <ITEMWEIGHT>718</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -68331,7 +68340,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b16njo19</ITEMID>
-      <ITEMNAME>NINJAGO - Masters of Spinjitzu - From Ghosts to Pirates &amp;#40;Softcover&amp;#41;</ITEMNAME>
+      <ITEMNAME>NINJAGO - From Ghosts to Pirates &amp;#40;Softcover&amp;#41;</ITEMNAME>
       <CATEGORY>331</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT>198.7</ITEMWEIGHT>
@@ -68637,7 +68646,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b25njo09</ITEMID>
-      <ITEMNAME>NINJAGO - World Builder: Create a World of Play</ITEMNAME>
+      <ITEMNAME>NINJAGO - World Builder: Create a World of Play &amp;#40;Hardcover&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>908</ITEMWEIGHT>
@@ -68727,7 +68736,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b16njo17</ITEMID>
-      <ITEMNAME>NINJAGO - Masters of Spinjitzu - Return of the Djinn &amp;#40;Softcover&amp;#41;</ITEMNAME>
+      <ITEMNAME>NINJAGO - Return of the Djinn &amp;#40;Softcover&amp;#41;</ITEMNAME>
       <CATEGORY>505</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT>64.9</ITEMWEIGHT>
@@ -68862,7 +68871,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b26cty01uk</ITEMID>
-      <ITEMNAME>City - Let’s Fly &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>City - Let’s Fly! &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>171</ITEMWEIGHT>
@@ -70401,7 +70410,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b16njo18</ITEMID>
-      <ITEMNAME>NINJAGO - Legend of the Brown Ninja</ITEMNAME>
+      <ITEMNAME>NINJAGO - Legend of the Brown Ninja &amp;#40;Softcover&amp;#41;</ITEMNAME>
       <CATEGORY>505</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT>61</ITEMWEIGHT>
@@ -71120,6 +71129,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b13loc20fr</ITEMID>
+      <ITEMNAME>LEGENDS OF CHIMA - Livre d'Aventures &amp;#40;Hardcover&amp;#41; &amp;#40;French Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2013</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2026njo142de</ITEMID>
       <ITEMNAME>NINJAGO Magazine 2026 Issue 142 &amp;#40;German&amp;#41;</ITEMNAME>
       <CATEGORY>1024</CATEGORY>
@@ -71615,9 +71633,72 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b23dup03uk</ITEMID>
+      <ITEMNAME>DUPLO - My Little Friend {Giraffe Version} &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK / CA Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>283</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b23dup02uk</ITEMID>
+      <ITEMNAME>DUPLO - My Little Friend {Horse Version} &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK / CA Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>283</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b23dup01uk</ITEMID>
+      <ITEMNAME>DUPLO - My Little Friend {Sheep Version} &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK / CA Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>283</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b23dup06uk</ITEMID>
+      <ITEMNAME>DUPLO - My Little Friend {Boy Version} &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK / CA Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>283</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b23dup05uk</ITEMID>
+      <ITEMNAME>DUPLO - My Little Friend {Girl Version} &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK / CA Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>283</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b23dup04uk</ITEMID>
+      <ITEMNAME>DUPLO - My Little Friend {Elephant Version} &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK / CA Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>283</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>com2024njol24de</ITEMID>
       <ITEMNAME>NINJAGO Legacy Comic 2024 Issue 24 &amp;#40;German&amp;#41;</ITEMNAME>
       <CATEGORY>331</CATEGORY>
+      <ITEMYEAR>2024</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b24njo05uk</ITEMID>
+      <ITEMNAME>NINJAGO - Dragon Catcher &amp; Dragon Friend &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK / CA Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -71629,6 +71710,51 @@
       <CATEGORY>332</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT>521</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2025lmag04ca</ITEMID>
+      <ITEMNAME>LEGO Magazine 2025 Issue 4 September - October &amp;#40;English - CA Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>1323</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>62</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2025lmag05ca</ITEMID>
+      <ITEMNAME>LEGO Magazine 2025 Issue 5 November - December &amp;#40;English - CA Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>1323</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>62</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026lmag01ca</ITEMID>
+      <ITEMNAME>LEGO Magazine 2026 Issue 1 January - March &amp;#40;English - CA Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>1323</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>62</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026lmag02ca</ITEMID>
+      <ITEMNAME>LEGO Magazine 2026 Issue 2 March - June &amp;#40;English - CA Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>1323</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>62</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026lmag03ca</ITEMID>
+      <ITEMNAME>LEGO Magazine 2026 Issue 3 July - August &amp;#40;English - CA Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>1323</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>62</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -71669,6 +71795,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026njol44uk</ITEMID>
+      <ITEMNAME>NINJAGO Legacy Magazine 2026 Issue 44 &amp;#40;English - UK&amp;#41;</ITEMNAME>
+      <CATEGORY>1024</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>90</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b25njo11pl</ITEMID>
+      <ITEMNAME>NINJAGO - Uwolnić Smoka Chaosu! &amp;#40;Softcover&amp;#41; &amp;#40;Polish Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>152</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2026njo144de</ITEMID>
       <ITEMNAME>NINJAGO Magazine 2026 Issue 144 &amp;#40;German&amp;#41;</ITEMNAME>
       <CATEGORY>1024</CATEGORY>
@@ -71697,7 +71841,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b26sh02</ITEMID>
-      <ITEMNAME>Batman - Adventures in Gotham City &amp;#40;Hardcover&amp;#41;</ITEMNAME>
+      <ITEMNAME>Batman - Adventures in Gotham City &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK Version&amp;#41;</ITEMNAME>
       <CATEGORY>332</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>514</ITEMWEIGHT>
@@ -71719,6 +71863,24 @@
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>396</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26cty02</ITEMID>
+      <ITEMNAME>City - Booklet for Set 2D001164</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26cty03</ITEMID>
+      <ITEMNAME>City - Booklet for Set 2D001182</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -71840,6 +72002,33 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2025lmag03ca</ITEMID>
+      <ITEMNAME>LEGO Magazine 2025 Issue 3 July - August &amp;#40;English - CA Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>1323</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b25sw09pl</ITEMID>
+      <ITEMNAME>Star Wars - W służbie Imperium &amp;#40;Softcover&amp;#41; &amp;#40;Polish Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>145</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b25njo12pl</ITEMID>
+      <ITEMNAME>NINJAGO - Ogień i Żar &amp;#40;Softcover&amp;#41; &amp;#40;Polish Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>145</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b26sw05nl</ITEMID>
       <ITEMNAME>Star Wars - Feestdagen Special &amp;#40;Box Set&amp;#41; &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
@@ -71870,6 +72059,15 @@
       <ITEMID>mag2026frnd16de</ITEMID>
       <ITEMNAME>Friends Magazine 2026 Issue 16 &amp;#40;German&amp;#41;</ITEMNAME>
       <CATEGORY>1022</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26sw06</ITEMID>
+      <ITEMNAME>Star Wars - The Greatest Jedi</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>

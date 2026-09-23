@@ -1,0 +1,97 @@
+# Brikick DB Post-Update Report
+
+- created_at_utc: `20260923_021641Z`
+- db_path: `database/brickovery.db`
+- db_sha256: `d7b797682e6e0c87721d0d76547f71119af119456e50f76cb281d0410e7f3879`
+- db_size_bytes: `58519552`
+- reason: `semantic_delta`
+- pre_meta_path: `database/backups/brickovery_db/brickovery_db_backup_20260923_021629Z.meta.json`
+- apply_json_path: `.semantic_apply.json`
+
+## Pre-Update Backup Meta (JSON)
+
+```json
+{
+  "created_at_utc": "20260923_021629Z",
+  "reason": "semantic_delta",
+  "db_path": "database/brickovery.db",
+  "db_sha256": "5194eede19a2f151c6bf1233a13f45ca97356c02af8242a0a7f5e783762edb0f",
+  "db_size_bytes": 58519552,
+  "backup_file": "database/backups/brickovery_db/brickovery_db_backup_20260923_021629Z.sqlite.gz",
+  "backup_file_format": "sqlite.gz",
+  "context_json": ".semantic_check.json",
+  "context": {
+    "semantic_new_data": true,
+    "items_upstream": 211105,
+    "items_db": 211956,
+    "items_missing_in_db": 39,
+    "codes_upstream": 86710,
+    "codes_db": 255972,
+    "codes_missing_in_db": 1,
+    "unknown_color_tokens": [
+      "Royal Blue",
+      "Speckle Copper",
+      "Speckle Gold",
+      "Speckle Silver"
+    ],
+    "unknown_color_tokens_count": 4,
+    "copied_upstream_files": true,
+    "db_inserted_items": 0,
+    "db_inserted_codes": 0
+  },
+  "csv_path": "database/brickovery_db.csv",
+  "csv_sha256": "0580c4f95ea9d04563a3dc6195f37a9da3f5dbc7088ea2c44cc27bc0edebfd09",
+  "csv_size_bytes": 26762287,
+  "csv_backup_file": "database/backups/brickovery_db/brickovery_db_csv_backup_20260923_021629Z.csv.gz"
+}
+```
+
+## Apply Delta Result (JSON)
+
+```json
+{
+  "semantic_new_data": true,
+  "items_upstream": 211105,
+  "items_db": 211956,
+  "items_missing_in_db": 39,
+  "codes_upstream": 86710,
+  "codes_db": 255972,
+  "codes_missing_in_db": 1,
+  "unknown_color_tokens": [
+    "Royal Blue",
+    "Speckle Copper",
+    "Speckle Gold",
+    "Speckle Silver"
+  ],
+  "unknown_color_tokens_count": 4,
+  "copied_upstream_files": true,
+  "db_inserted_items": 39,
+  "db_inserted_codes": 1
+}
+```
+
+## DB Metrics
+
+```json
+{
+  "tables_count": 2,
+  "brickovery_db_rows": 256012,
+  "distinct_bl_part_id": 176799,
+  "null_boid": 177835,
+  "null_weight": 100701,
+  "null_bk_part_id": 40,
+  "null_bk_part_key": 40,
+  "null_api_item_type": 40,
+  "null_brikick_name": 40,
+  "null_part_name": 102291,
+  "null_element_id": 172775,
+  "corruption_pattern_count": 0,
+  "corruption_samples": []
+}
+```
+
+## Critical Signals
+
+- null_boid: `177835`
+- null_weight: `100701`
+- corruption_pattern_count: `0`

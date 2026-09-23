@@ -7581,7 +7581,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>500b</ITEMID>
-      <ITEMNAME>Klodser - Reissue</ITEMNAME>
+      <ITEMNAME>Wooden Blocks - ABC Blocks 36 Pieces Klodser {ABC Klodser} - Reissue</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1998</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -26166,18 +26166,18 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>730.10</ITEMID>
-      <ITEMNAME>Plastic Byggeklodser</ITEMNAME>
+      <ITEMNAME>Plastic Building Blocks - 10 Pieces {Byggeklodser 10 stk i æske}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>1950</ITEMYEAR>
+      <ITEMYEAR>1949</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>730.20</ITEMID>
-      <ITEMNAME>Plastic Byggeklodser</ITEMNAME>
+      <ITEMNAME>Plastic Building Blocks - 20 Pieces {Byggeklodser 20 stk i æske}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>1950</ITEMYEAR>
+      <ITEMYEAR>1949</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -30675,7 +30675,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>500</ITEMID>
-      <ITEMNAME>Klodser - Original Edition</ITEMNAME>
+      <ITEMNAME>Wooden Blocks - ABC Blocks 36 Pieces Klodser {ABC Klodser} - Original Edition</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1948</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -35093,12 +35093,12 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>mb01</ITEMID>
-      <ITEMNAME>Modelbiler 1:43 Tractor (Ferguson Tractor)</ITEMNAME>
+      <ITEMID>780</ITEMID>
+      <ITEMNAME>Tractor - Ferguson Red / Gray {Ferguson, Rød, Grå}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1952</ITEMYEAR>
       <ITEMWEIGHT>265</ITEMWEIGHT>
-      <IMAGECOLOR>0</IMAGECOLOR>
+      <IMAGECOLOR>9</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
@@ -45948,7 +45948,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>garage1</ITEMID>
-      <ITEMNAME>Wooden Esso Garage Double Door</ITEMNAME>
+      <ITEMNAME>Wooden Garage Double Door - Esso</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1955</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -45957,7 +45957,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>fuelpump</ITEMID>
-      <ITEMNAME>Wooden Esso Gas/Fuel Pump</ITEMNAME>
+      <ITEMNAME>Wooden Gas/Fuel Pump - Esso</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1955</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46002,7 +46002,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>330</ITEMID>
-      <ITEMNAME>Færge / Ferry &amp;#40;Wooden Car Ferry&amp;#41;</ITEMNAME>
+      <ITEMNAME>Wooden Ferry {Færge}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1957</ITEMYEAR>
       <ITEMWEIGHT>671</ITEMWEIGHT>
@@ -46056,7 +46056,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>woodcar</ITEMID>
-      <ITEMNAME>Wooden Cadillac Car</ITEMNAME>
+      <ITEMNAME>Wooden Car - Cadillac</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46065,7 +46065,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulltrain3</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Locomotive &amp;#39;Jacob&amp;#39;</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Train, Locomotive &amp;#39;Jacob&amp;#39;</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46083,7 +46083,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>woodcar1</ITEMID>
-      <ITEMNAME>Wooden Car</ITEMNAME>
+      <ITEMNAME>Wooden Car -</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46092,7 +46092,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>woodcar2</ITEMID>
-      <ITEMNAME>Wooden Car</ITEMNAME>
+      <ITEMNAME>Wooden Car -</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46182,7 +46182,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulldog3</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Dog, Walking</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Dog, Dachshund, Walking</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46227,7 +46227,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>minibus</ITEMID>
-      <ITEMNAME>Wooden Mini Bus</ITEMNAME>
+      <ITEMNAME>Wooden Bus - Mini Bus</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1950</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46245,7 +46245,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>truckbus</ITEMID>
-      <ITEMNAME>Wooden Truck Bus</ITEMNAME>
+      <ITEMNAME>Wooden Bus - Truck Bus</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1950</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46272,7 +46272,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulltrain4</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Locomotive</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Train, Locomotive</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1950</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46362,7 +46362,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulltrain9</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Locomotive</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Train, Locomotive</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46371,7 +46371,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulltrain10</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Locomotive</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Train, Locomotive</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46380,7 +46380,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulltrain11</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Locomotive</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Train, Locomotive</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46434,7 +46434,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>woodcar3</ITEMID>
-      <ITEMNAME>Wooden Car</ITEMNAME>
+      <ITEMNAME>Wooden Car -</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46443,7 +46443,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>woodcar4</ITEMID>
-      <ITEMNAME>Wooden Car</ITEMNAME>
+      <ITEMNAME>Wooden Car -</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -75755,8 +75755,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>1501</ITEMID>
-      <ITEMNAME>Klodser</ITEMNAME>
+      <ITEMID>501</ITEMID>
+      <ITEMNAME>Wooden Blocks - ABC Blocks 18 Pieces {ABC Klodser Lille æske}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1955</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -88797,7 +88797,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>414</ITEMID>
-      <ITEMNAME>Wooden Double-Decker Bus</ITEMNAME>
+      <ITEMNAME>Wooden Bus - Double-Decker Bus</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1951</ITEMYEAR>
       <ITEMWEIGHT>779</ITEMWEIGHT>
@@ -139989,7 +139989,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>pulltrain12</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Little Red Train</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Train, Little Red Train</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1957</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -204654,7 +204654,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>196</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Dachshund, Large, Beautiful, Segmented {Gravhund, stor, smuk, leddelt} </ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Dog, Dachshund, Large, Beautiful, Segmented {Gravhund, stor, smuk, leddelt}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1937</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -224985,7 +224985,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>198</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Crocodile with Segments {Krokodille med Led}</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Crocodile Segmented {Krokodille med Led}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1937</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -225006,6 +225006,33 @@
       <ITEMNAME>Wooden Gun Bullets - Ammunition for Plastic Peace Gun {Ammunition til Pistol}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1951</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>770</ITEMID>
+      <ITEMNAME>Tractor - Farmall</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1950</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>5</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>781</ITEMID>
+      <ITEMNAME>Tractor - Ferguson Red / Gray, Self Assembling Kit {Ferguson Samlesæt, Rød, Grå}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1952</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>781a</ITEMID>
+      <ITEMNAME>Tractor - Ferguson, Spare Parts {Reservedelesæske til Ferguson}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1953</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
