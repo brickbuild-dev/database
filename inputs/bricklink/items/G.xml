@@ -11117,10 +11117,10 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>Wood1</ITEMID>
-      <ITEMNAME>Wooden Abacus Wood Counting Frame</ITEMNAME>
+      <ITEMID>1510</ITEMID>
+      <ITEMNAME>Wooden Abacus 1958 {Kugleramme}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>1949</ITEMYEAR>
+      <ITEMYEAR>1958</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -22071,7 +22071,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>p96west</ITEMID>
-      <ITEMNAME>Western Poster, Sheriff's Lockup (4.104.879/4.104.880-EU)</ITEMNAME>
+      <ITEMNAME>Western Poster 1996, Sheriff&amp;#39;s Lockup &amp;#40;4.104.879/4.104.880-EU&amp;#41;</ITEMNAME>
       <CATEGORY>503</CATEGORY>
       <ITEMYEAR>1996</ITEMYEAR>
       <ITEMWEIGHT>22</ITEMWEIGHT>
@@ -25284,7 +25284,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>p97west</ITEMID>
-      <ITEMNAME>Western Poster, Indians (4108892/4108876-EU)</ITEMNAME>
+      <ITEMNAME>Western Poster 1997, Indians &amp;#40;4108892/4108876-EU&amp;#41;</ITEMNAME>
       <CATEGORY>503</CATEGORY>
       <ITEMYEAR>1997</ITEMYEAR>
       <ITEMWEIGHT>26</ITEMWEIGHT>
@@ -25814,10 +25814,10 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>pullduck</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Duck with Long Bill</ITEMNAME>
+      <ITEMID>282</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Duck with Moveable Beak {And med Bevægelig Næb}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>1935</ITEMYEAR>
+      <ITEMYEAR>1944</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -34661,10 +34661,10 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>pullchick</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Chick</ITEMNAME>
+      <ITEMID>210.2</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Rooster &amp;#40;Series 9&amp;#41; {Hane}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>1935</ITEMYEAR>
+      <ITEMYEAR>1937</ITEMYEAR>
       <ITEMWEIGHT>500</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -34679,10 +34679,10 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>pullhorse</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Horse</ITEMNAME>
+      <ITEMID>222.2</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Horse Large &amp;#40;Series 16&amp;#41; {Hest Stor}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>1935</ITEMYEAR>
+      <ITEMYEAR>1938</ITEMYEAR>
       <ITEMWEIGHT>500</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -45947,8 +45947,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>garage1</ITEMID>
-      <ITEMNAME>Wooden Garage Double Door - Esso</ITEMNAME>
+      <ITEMID>312</ITEMID>
+      <ITEMNAME>Wooden Garage Double Door - Esso Service Station</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1955</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -45965,7 +45965,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>garage3</ITEMID>
+      <ITEMID>314</ITEMID>
       <ITEMNAME>Wooden Garage Double Door</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1955</ITEMYEAR>
@@ -45974,7 +45974,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>garage2</ITEMID>
+      <ITEMID>313</ITEMID>
       <ITEMNAME>Wooden Garage Single Door</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1955</ITEMYEAR>
@@ -46064,10 +46064,10 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>pulltrain3</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Train, Locomotive &amp;#39;Jacob&amp;#39;</ITEMNAME>
+      <ITEMID>1735</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Train, Locomotive &amp;#39;Jacob&amp;#39; {Locomotiv}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1958</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -46163,19 +46163,19 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>pullhopper</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Grasshopper</ITEMNAME>
+      <ITEMID>428</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Grasshopper {Græshoppe}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1957</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>pulllbug</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Ladybug</ITEMNAME>
+      <ITEMID>427</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Race Car Driver, Moveable with Sound &amp;#40;Ladybug&amp;#41; {Væddeløbskører med Lyd}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1949</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -46190,8 +46190,26 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>pullsquirrel</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Squirrel</ITEMNAME>
+      <ITEMID>240</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Squirrel with Cub, Movable {Bevægelig Egern med Unger}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1945</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>210.5</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Hen &amp;#40;Series 16&amp;#41; {Høne}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1937</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>210.1</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Rooster &amp;#40;Series 16&amp;#41; {Hane}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -46199,28 +46217,10 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>pullchicken</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Chicken</ITEMNAME>
+      <ITEMID>213</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Duck with Short Bill &amp;#40;Series 16&amp;#41; {And}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
-      <IMAGECOLOR>0</IMAGECOLOR>
-   </ITEM>
-   <ITEM>
-      <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>pullcock</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Cock</ITEMNAME>
-      <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
-      <IMAGECOLOR>0</IMAGECOLOR>
-   </ITEM>
-   <ITEM>
-      <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>pullduck2</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Duck with Short Bill</ITEMNAME>
-      <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>1950</ITEMYEAR>
+      <ITEMYEAR>1937</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -46253,28 +46253,28 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>pulldog</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Dog, Small with Wheels</ITEMNAME>
+      <ITEMID>215.6</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Dog, Small &amp;#40;Series 6&amp;#41; {Hund}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>1950</ITEMYEAR>
+      <ITEMYEAR>1937</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>pullpig</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Pig</ITEMNAME>
+      <ITEMID>214</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Pig &amp;#40;Series 10&amp;#41; {Gris}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1937</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>pulltrain4</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Train, Locomotive</ITEMNAME>
+      <ITEMID>435</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Train, Locomotive with Driver {Locomotiv}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>1950</ITEMYEAR>
+      <ITEMYEAR>1953</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -46325,10 +46325,10 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>pulldog2</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Dog 2</ITEMNAME>
+      <ITEMID>156</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Dog Carriage {Dyrevogn, Hund og And}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1934</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -46406,28 +46406,28 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>pullchick2</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Chick</ITEMNAME>
+      <ITEMID>217</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Duckling &amp;#40;Series 16&amp;#41; {Ælling}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1937</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>Pulllamb</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Lamb</ITEMNAME>
+      <ITEMID>212.1</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Goat, Kid &amp;#40;Series 8&amp;#41; {Gedelam}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1937</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>Pullcat</ITEMID>
+      <ITEMID>220.2</ITEMID>
       <ITEMNAME>Wooden Pull-Along - Cat</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1938</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -46460,10 +46460,10 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>farm</ITEMID>
-      <ITEMNAME>Wooden Farm</ITEMNAME>
+      <ITEMID>300</ITEMID>
+      <ITEMNAME>Wooden Farm, 2 Winged with Courtyard, Fencing and Animals {Bondegård}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1951</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -46541,28 +46541,28 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>pullchickencock</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Chicken and Cock</ITEMNAME>
+      <ITEMID>238</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Rooster and Hen, Movable {Hane og høne, Bevægelige}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1938</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>Pullelephant</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Elephant</ITEMNAME>
+      <ITEMID>211.1</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Elephant &amp;#40;Series 16&amp;#41; {Elefant}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1937</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>Pullelephant1</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Elephant</ITEMNAME>
+      <ITEMID>211.2</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Elephant &amp;#40;Series 12&amp;#41; {Elefant}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1937</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -46748,10 +46748,10 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>Pullmonkey</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Monkey</ITEMNAME>
+      <ITEMID>426</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Monkey on Handcar / Dandy Horse with Sound, Moveable {Abemand på Trolje/Dræsine, Halvmekanisk}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>1950</ITEMYEAR>
+      <ITEMYEAR>1947</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -46794,7 +46794,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>18.5</ITEMID>
-      <ITEMNAME>Wooden Pull-Along - Horse with Indian {Indianer}</ITEMNAME>
+      <ITEMNAME>Wooden Pull-Along - Horse with Indian &amp;#40;Series 18&amp;#41; {Indianer}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1947</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -64704,7 +64704,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>p12frnd02</ITEMID>
-      <ITEMNAME>Friends Poster (HLN)</ITEMNAME>
+      <ITEMNAME>Friends / City Poster 2012 &amp;#40;HLN&amp;#41; &amp;#40;Double-Sided&amp;#41;</ITEMNAME>
       <CATEGORY>503</CATEGORY>
       <ITEMYEAR>2012</ITEMYEAR>
       <ITEMWEIGHT>29</ITEMWEIGHT>
@@ -194951,6 +194951,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>210.4</ITEMID>
+      <ITEMNAME>Wooden Pull-Along - Rooster &amp;#40;Series 10&amp;#41; {Hane}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1937</ITEMYEAR>
+      <ITEMWEIGHT>160</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>njo10deLE06</ITEMID>
       <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 10 - # LE6 Turnier Böser Jay Limited Edition</ITEMNAME>
       <CATEGORY>380</CATEGORY>
@@ -223013,6 +223022,42 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>1151</ITEMID>
+      <ITEMNAME>Wooden Trailer for Jeep {Anhænger til Jeep}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1959</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>1150</ITEMID>
+      <ITEMNAME>Wooden Car - Jeep</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1959</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>441</ITEMID>
+      <ITEMNAME>Wooden Gun - Blunderbuss Flintlock Rifle {Gevær "Muskedonner"}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1956</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>442</ITEMID>
+      <ITEMNAME>Wooden Gun - Pistol "Musketer", Musket</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1956</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>njo11de001</ITEMID>
       <ITEMNAME>NINJAGO Trading Card Game &amp;#40;German&amp;#41; Series 11 - # 1 Power Duell Drachen Lloyd</ITEMNAME>
       <CATEGORY>380</CATEGORY>
@@ -225033,6 +225078,33 @@
       <ITEMNAME>Tractor - Ferguson, Spare Parts {Reservedelesæske til Ferguson}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1953</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>669</ITEMID>
+      <ITEMNAME>Wooden Tractor - Miniature with Trailer and Farmer {Traktor}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1952</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>301</ITEMID>
+      <ITEMNAME>Wooden Stable with Animals {Staldbygning med Dyr}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1951</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>305</ITEMID>
+      <ITEMNAME>Wooden Abacus 1951 {Kugleramme}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1951</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>

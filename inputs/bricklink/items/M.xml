@@ -160950,7 +160950,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>twn528</ITEMID>
-      <ITEMNAME>Frankenstein's Monster &amp;#40;Frankenstein&amp;#41;</ITEMNAME>
+      <ITEMNAME>Frankenstein&amp;#39;s Monster &amp;#40;Frankenstein&amp;#41; - Reddish Brown Jacket</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>3.54</ITEMWEIGHT>
@@ -173221,6 +173221,33 @@
       <CATEGORY>771</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.34</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol434</ITEMID>
+      <ITEMNAME>Zombie - Female, Dark Red Jacket and Skirt &amp;#40;BAM&amp;#41;</ITEMNAME>
+      <CATEGORY>976</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.96</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol435</ITEMID>
+      <ITEMNAME>Frankenstein's Monster &amp;#40;Frankenstein&amp;#41; - Dark Blue Jacket &amp;#40;BAM&amp;#41;</ITEMNAME>
+      <CATEGORY>976</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>3.5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol436</ITEMID>
+      <ITEMNAME>Werewolf Costume Fan &amp;#40;BAM&amp;#41;</ITEMNAME>
+      <CATEGORY>976</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>4.13</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
