@@ -60833,8 +60833,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>b21other02</ITEMID>
-      <ITEMNAME>Everything Is Awesome: A Search-and-Find Celebration of LEGO History &amp;#40;Hardcover&amp;#41;</ITEMNAME>
+      <ITEMID>b21other02uk</ITEMID>
+      <ITEMNAME>Everything Is Awesome: A Search-and-Find Celebration of LEGO History &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -68133,7 +68133,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b25hp04pl</ITEMID>
-      <ITEMNAME>Harry Potter - Zabawa Magia &amp;#40;Softcover&amp;#41; &amp;#40;Polish Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>Harry Potter - Zabawa magią &amp;#40;Softcover&amp;#41; &amp;#40;Polish Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -70437,7 +70437,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b23njo17de</ITEMID>
-      <ITEMNAME>NINJAGO - Die Magie der Neuen Welt</ITEMNAME>
+      <ITEMNAME>NINJAGO - Die Magie der Neuen Welt &amp;#40;Hardcover&amp;#41; &amp;#40;German Edition&amp;#41;</ITEMNAME>
       <CATEGORY>505</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>268</ITEMWEIGHT>
@@ -71652,7 +71652,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b23dup03uk</ITEMID>
-      <ITEMNAME>DUPLO - My Little Friend {Giraffe Version} &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK / CA Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>DUPLO - My Little Friend {Giraffe Version} &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>283</ITEMWEIGHT>
@@ -71661,7 +71661,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b23dup02uk</ITEMID>
-      <ITEMNAME>DUPLO - My Little Friend {Horse Version} &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK / CA Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>DUPLO - My Little Friend {Horse Version} &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>283</ITEMWEIGHT>
@@ -71670,7 +71670,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b23dup01uk</ITEMID>
-      <ITEMNAME>DUPLO - My Little Friend {Sheep Version} &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK / CA Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>DUPLO - My Little Friend {Sheep Version} &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>283</ITEMWEIGHT>
@@ -71679,7 +71679,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b23dup06uk</ITEMID>
-      <ITEMNAME>DUPLO - My Little Friend {Boy Version} &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK / CA Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>DUPLO - My Little Friend {Boy Version} &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>283</ITEMWEIGHT>
@@ -71688,7 +71688,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b23dup05uk</ITEMID>
-      <ITEMNAME>DUPLO - My Little Friend {Girl Version} &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK / CA Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>DUPLO - My Little Friend {Girl Version} &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>283</ITEMWEIGHT>
@@ -71697,7 +71697,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b23dup04uk</ITEMID>
-      <ITEMNAME>DUPLO - My Little Friend {Elephant Version} &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK / CA Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>DUPLO - My Little Friend {Elephant Version} &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>283</ITEMWEIGHT>
@@ -71714,8 +71714,17 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b23njo18uk</ITEMID>
+      <ITEMNAME>NINJAGO - Gear Up for Action &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b24njo05uk</ITEMID>
-      <ITEMNAME>NINJAGO - Dragon Catcher &amp; Dragon Friend &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK / CA Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>NINJAGO - Dragon Catcher &amp; Dragon Friend &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -71966,11 +71975,47 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b17nex12</ITEMID>
+      <ITEMNAME>NEXO KNIGHTS - Pocket Book of Powers &amp;#40;Softcover&amp;#41;</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>167</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b26sh05de</ITEMID>
       <ITEMNAME>DC Super Heroes - Rätselspass mit Superman &amp;#40;Softcover&amp;#41; &amp;#40;German Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b22njo17de</ITEMID>
+      <ITEMNAME>NINJAGO - Mächtige Roboter &amp;#40;Hardcover&amp;#41; &amp;#40;German Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>530</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b25hp04de</ITEMID>
+      <ITEMNAME>Harry Potter - Rätselspass mit Ron Weasley &amp;#40;Softcover&amp;#41; &amp;#40;German Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>160</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b23njo19de</ITEMID>
+      <ITEMNAME>NINJAGO - Rätselspass für Ninja-Freunde &amp;#40;Softcover&amp;#41; &amp;#40;German Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>158</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -72150,6 +72195,15 @@
       <ITEMNAME>Star Wars - The Greatest Jedi</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b21other02</ITEMID>
+      <ITEMNAME>Everything Is Awesome: A Search-and-Find Celebration of LEGO History &amp;#40;Hardcover&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>

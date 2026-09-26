@@ -102999,7 +102999,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>ctwpack04</ITEMID>
-      <ITEMNAME>Create the World Trading Cards - Pack of 4 - Incredible Inventions</ITEMNAME>
+      <ITEMNAME>Create the World Incredible Inventions Trading Cards - Pack of 4</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -126579,7 +126579,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>ctwpack06</ITEMID>
-      <ITEMNAME>Create the World Trading Cards - Pack of 4 - Living Amazingly</ITEMNAME>
+      <ITEMNAME>Create the World Living Amazingly Trading Cards - Pack of 4</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>5.9</ITEMWEIGHT>
@@ -216223,6 +216223,15 @@
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2021</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6572251</ITEMID>
+      <ITEMNAME>Flyer 2025 Set 910047 Insert - Building App Link and Instructions &amp;#40;International Version&amp;#41;</ITEMNAME>
+      <CATEGORY>1104</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>8.4</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
