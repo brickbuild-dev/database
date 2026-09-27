@@ -69591,7 +69591,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2019tlm01hu</ITEMID>
-      <ITEMNAME>The LEGO Movie 2 Magazine Issue 1 &amp;#40;Hungarian&amp;#41;</ITEMNAME>
+      <ITEMNAME>The LEGO Movie 2 Magazine 2019 Issue 1 &amp;#40;Hungarian&amp;#41;</ITEMNAME>
       <CATEGORY>1088</CATEGORY>
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -71066,6 +71066,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026tech12de</ITEMID>
+      <ITEMNAME>Technic Magazine 2026 Issue 12 &amp;#40;German&amp;#41;</ITEMNAME>
+      <CATEGORY>1220</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>76</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2026njo141de</ITEMID>
       <ITEMNAME>NINJAGO Magazine 2026 Issue 141 &amp;#40;German&amp;#41;</ITEMNAME>
       <CATEGORY>1024</CATEGORY>
@@ -71098,6 +71107,15 @@
       <CATEGORY>1024</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b25jw03pt</ITEMID>
+      <ITEMNAME>Jurassic World - Divirta-Se Em Jurassic World &amp;#40;Portuguese Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>460</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -71350,6 +71368,15 @@
       <CATEGORY>1167</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT>50</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26jw01</ITEMID>
+      <ITEMNAME>Jurassic World - Raptors on the Run</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>150.25</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -72007,6 +72034,15 @@
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>160</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26sh03de</ITEMID>
+      <ITEMNAME>Marvel - Falcon: Der neue Captain America &amp;#40;Softcover&amp;#41; &amp;#40;German Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>174</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
