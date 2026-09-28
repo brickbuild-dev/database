@@ -46236,7 +46236,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>tractor</ITEMID>
-      <ITEMNAME>Wooden Tractor</ITEMNAME>
+      <ITEMNAME>Wooden Tractor - 17 cm</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1950</ITEMYEAR>
       <ITEMWEIGHT>315</ITEMWEIGHT>
@@ -46469,7 +46469,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>Carrier</ITEMID>
+      <ITEMID>676</ITEMID>
       <ITEMNAME>Tractor Attachment, Wooden - Carrier</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
@@ -46478,7 +46478,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>Harvester</ITEMID>
+      <ITEMID>679</ITEMID>
       <ITEMNAME>Tractor Attachment, Wooden - Harvester</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
@@ -46487,25 +46487,25 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>woodtrailer1</ITEMID>
-      <ITEMNAME>Tractor Attachment, Wooden - Trailer with Milk Bottles</ITEMNAME>
+      <ITEMID>678</ITEMID>
+      <ITEMNAME>Tractor Attachment, Wooden - Trailer with 4 Wheels for Farmall Tractor {Vogn til "Farmall" Traktor}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1951</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>Harrow1</ITEMID>
+      <ITEMID>672-2</ITEMID>
       <ITEMNAME>Tractor Attachment, Wooden - Harrow</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1957</ITEMYEAR>
       <ITEMWEIGHT>80</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>Seeder</ITEMID>
+      <ITEMID>667</ITEMID>
       <ITEMNAME>Tractor Attachment, Wooden - Seeder</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
@@ -46514,19 +46514,19 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>snowplough</ITEMID>
+      <ITEMID>673</ITEMID>
       <ITEMNAME>Tractor Attachment, Wooden - Snowplough</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1949</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>seeder1</ITEMID>
-      <ITEMNAME>Tractor Attachment, Wooden - Seeder</ITEMNAME>
+      <ITEMID>1677</ITEMID>
+      <ITEMNAME>Tractor Attachment, Wooden - Rake {Rive}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1958</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -46613,10 +46613,10 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>woodtruck9</ITEMID>
-      <ITEMNAME>Wooden Truck</ITEMNAME>
+      <ITEMID>150</ITEMID>
+      <ITEMNAME>Wooden Truck {Lastvogn}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1932</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -79365,9 +79365,9 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>Gascanister01</ITEMID>
-      <ITEMNAME>Wooden Canister BP Gas Large Size</ITEMNAME>
+      <ITEMNAME>Wooden Canister - BP Gas Cylinder 3.2 cm</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1952</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
    </ITEM>
@@ -91856,10 +91856,10 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>woodtrailer2</ITEMID>
-      <ITEMNAME>Tractor Attachment, Wooden - Trailer Two Wheels with Milk Bottles</ITEMNAME>
+      <ITEMID>670.2</ITEMID>
+      <ITEMNAME>Tractor Attachment, Wooden - Trailer with 2 Wheels with Milk Bottles {Vogn med Junger}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>1949</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -140618,19 +140618,19 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>woodunimog</ITEMID>
+      <ITEMID>1225</ITEMID>
       <ITEMNAME>Wooden Mercedes Unimog</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>1957</ITEMYEAR>
+      <ITEMYEAR>1958</ITEMYEAR>
       <ITEMWEIGHT>676</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>woodunimogtrail</ITEMID>
+      <ITEMID>1226</ITEMID>
       <ITEMNAME>Wooden Trailer for Mercedes Unimog</ITEMNAME>
       <CATEGORY>645</CATEGORY>
-      <ITEMYEAR>1957</ITEMYEAR>
+      <ITEMYEAR>1958</ITEMYEAR>
       <ITEMWEIGHT>494</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -222554,6 +222554,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>850853</ITEMID>
+      <ITEMNAME>Sword, Castle Lion Head</ITEMNAME>
+      <CATEGORY>586</CATEGORY>
+      <ITEMYEAR>2014</ITEMYEAR>
+      <ITEMWEIGHT>64</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>30989</ITEMID>
       <ITEMNAME>Drink Bottle Steel - Multicolor</ITEMNAME>
       <CATEGORY>175</CATEGORY>
@@ -225128,6 +225137,33 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>918-2</ITEMID>
+      <ITEMNAME>Chevrolet - Tanker Esso, Large / Semi-Trailer {Benzinbil}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1953</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>923</ITEMID>
+      <ITEMNAME>Chevrolet - Gasoline Truck with Semi-Trailer, Gas Cylinders and Steeringwheel {Gasbil med Gasflasker}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1953</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>918a-1</ITEMID>
+      <ITEMNAME>Chevrolet - Detachable Semi-Trailer for Gasoline Truck {Løse Sættevogne til Benzinbil}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1953</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>6</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>LGL-KE252H</ITEMID>
       <ITEMNAME>LED Key Light Adventure Peely Key Chain &amp;#40;LEDLITE&amp;#41;</ITEMNAME>
       <CATEGORY>334</CATEGORY>
@@ -225168,6 +225204,87 @@
       <ITEMNAME>Wooden Abacus 1951 {Kugleramme}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1951</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>Gascanister02</ITEMID>
+      <ITEMNAME>Wooden Canister - BP Gas Cylinder 2.2 cm</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1952</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>3</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>Oilcanister01</ITEMID>
+      <ITEMNAME>Wooden Canister - Esso Extra Motor Oil Cylinder 2.4 cm</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1953</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>918-1</ITEMID>
+      <ITEMNAME>Chevrolet - Tanker BP, Large / Semi-Trailer {Benzinbil}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1953</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>908-1</ITEMID>
+      <ITEMNAME>Chevrolet - Tanker, BP Small {Benzinbil}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1953</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>670.1</ITEMID>
+      <ITEMNAME>Tractor Attachment, Wooden - Trailer with 2 Wheels</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1950</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>milkcan01</ITEMID>
+      <ITEMNAME>Wooden Milk Can 28 x 50 mm {Junger}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1949</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>milkcan02</ITEMID>
+      <ITEMNAME>Wooden Milk Can 20 x 35 mm {Junger}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1949</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>milkcan03</ITEMID>
+      <ITEMNAME>Wooden Milk Can 15 x 27 mm {Junger}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1949</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>milkcan04</ITEMID>
+      <ITEMNAME>Wooden Milk Can 11 x 20 mm {Junger}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1952</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
