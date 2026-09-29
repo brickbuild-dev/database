@@ -9975,7 +9975,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>9771</ITEMID>
-      <ITEMNAME>Computer Interface Card Unit Manual &amp;#40;199.009.080&amp;#41;</ITEMNAME>
+      <ITEMNAME>Computer Interface Card Unit Manual - IBM PC and Compatible &amp;#40;199.009.080&amp;#41;</ITEMNAME>
       <CATEGORY>332</CATEGORY>
       <ITEMYEAR>1987</ITEMYEAR>
       <ITEMWEIGHT>127</ITEMWEIGHT>
@@ -10254,7 +10254,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>9767</ITEMID>
-      <ITEMNAME>Computer Interface Unit Manual Apple IIe &amp;#40;199.009.070&amp;#41;</ITEMNAME>
+      <ITEMNAME>Computer Interface Card Unit Manual - Apple IIe &amp;#40;199.009.070&amp;#41;</ITEMNAME>
       <CATEGORY>332</CATEGORY>
       <ITEMYEAR>1987</ITEMYEAR>
       <ITEMWEIGHT>79</ITEMWEIGHT>
@@ -38127,7 +38127,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>ctwIIalbum</ITEMID>
-      <ITEMNAME>Create the World Incredible Inventions Trading Card Official Collector's Album</ITEMNAME>
+      <ITEMNAME>Create the World Incredible Inventions Trading Card Official Collector's Album &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
       <CATEGORY>1030</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
       <ITEMWEIGHT>299</ITEMWEIGHT>
@@ -69555,7 +69555,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2023drmPRhu</ITEMID>
-      <ITEMNAME>DreamZzz 2023-as promóciós képregény &amp;#40;Hungarian&amp;#41;</ITEMNAME>
+      <ITEMNAME>DREAMZzz Magazine 2023 Promo &amp;#40;Hungarian&amp;#41;</ITEMNAME>
       <CATEGORY>1269</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -70994,11 +70994,38 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>9765</ITEMID>
+      <ITEMNAME>Computer Interface Card Unit Manual - Commodore 64/128 &amp;#40;199.009.053&amp;#41;</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>1987</ITEMYEAR>
+      <ITEMWEIGHT>116</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>9760dk</ITEMID>
       <ITEMNAME>Aktivitetspakke til LEGO Technic Control II. &amp;#40;Danish Edition&amp;#41;</ITEMNAME>
       <CATEGORY>576</CATEGORY>
       <ITEMYEAR>1989</ITEMYEAR>
       <ITEMWEIGHT>1525</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>950036</ITEMID>
+      <ITEMNAME>Grundlæggende styring og kontrol - Kursusmateriale til LEGO Technic Control I &amp;#40;Commodore 64/128 Version&amp;#41;</ITEMNAME>
+      <CATEGORY>576</CATEGORY>
+      <ITEMYEAR>1987</ITEMYEAR>
+      <ITEMWEIGHT>1055</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>950037</ITEMID>
+      <ITEMNAME>Grundlæggende styring og kontrol - Kursusmateriale til LEGO Technic Control I &amp;#40;IBM PC and Compatible Version&amp;#41;</ITEMNAME>
+      <CATEGORY>576</CATEGORY>
+      <ITEMYEAR>1987</ITEMYEAR>
+      <ITEMWEIGHT>971</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -71759,7 +71786,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>mag24cty73zh</ITEMID>
+      <ITEMID>mag2024cty73zh</ITEMID>
       <ITEMNAME>City Magazine 2024 Issue 73 &amp;#40;Chinese&amp;#41;</ITEMNAME>
       <CATEGORY>1021</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
@@ -72254,6 +72281,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>ctwLAalbum</ITEMID>
+      <ITEMNAME>Create the World Living Amazingly Trading Card Official Collector's Album &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>1030</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b21other02</ITEMID>
       <ITEMNAME>Everything Is Awesome: A Search-and-Find Celebration of LEGO History &amp;#40;Hardcover&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
@@ -72268,6 +72304,15 @@
       <CATEGORY>1024</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>94</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2023drmPRcz</ITEMID>
+      <ITEMNAME>DREAMZzz Magazine 2023 Promo &amp;#40;Czech&amp;#41;</ITEMNAME>
+      <CATEGORY>1269</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>27.2</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>

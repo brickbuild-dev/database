@@ -89984,7 +89984,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>ctwpack01</ITEMID>
+      <ITEMID>ctwpack2</ITEMID>
       <ITEMNAME>Create the World Trading Cards - Pack of 2</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
@@ -89993,7 +89993,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>ctwpack02</ITEMID>
+      <ITEMID>ctwpack4</ITEMID>
       <ITEMNAME>Create the World Trading Cards - Pack of 4</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
@@ -90002,7 +90002,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>ctwpack03</ITEMID>
+      <ITEMID>ctwpack4b</ITEMID>
       <ITEMNAME>Create the World Trading Cards - Pack of 4 &amp;#40;Booster Pack&amp;#41;</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
@@ -95861,7 +95861,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>ctwpack02dk</ITEMID>
+      <ITEMID>ctwpack4dk</ITEMID>
       <ITEMNAME>Create the World Trading Cards - Pack of 4 &amp;#40;Danish&amp;#41;</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
@@ -102998,7 +102998,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>ctwpack04</ITEMID>
+      <ITEMID>ctwIIpack</ITEMID>
       <ITEMNAME>Create the World Incredible Inventions Trading Cards - Pack of 4</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
@@ -106481,8 +106481,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>ctwpack05fr</ITEMID>
-      <ITEMNAME>Create the World Trading Cards - Pack of 6 &amp;#40;French - Auchan&amp;#41;</ITEMNAME>
+      <ITEMID>ctwpack6fr</ITEMID>
+      <ITEMNAME>Create the World Trading Cards - Pack of 6 &amp;#40;French&amp;#41;</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
       <ITEMWEIGHT>10</ITEMWEIGHT>
@@ -126578,7 +126578,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
-      <ITEMID>ctwpack06</ITEMID>
+      <ITEMID>ctwLApack</ITEMID>
       <ITEMNAME>Create the World Living Amazingly Trading Cards - Pack of 4</ITEMNAME>
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
@@ -225106,7 +225106,7 @@
       <CATEGORY>645</CATEGORY>
       <ITEMYEAR>1950</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
-      <IMAGECOLOR>5</IMAGECOLOR>
+      <IMAGECOLOR>-1</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
