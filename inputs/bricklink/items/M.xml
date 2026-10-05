@@ -21450,7 +21450,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>4555pb136</ITEMID>
-      <ITEMNAME>Duplo Figure, Male Fireman, Black Legs, Yellow Top with Flame and Orange Suspenders, White Fire Helmet, Moustache</ITEMNAME>
+      <ITEMNAME>Duplo Figure, Male Fireman, Black Legs, Yellow Top with Flame and Orange Suspenders, White Fire Helmet, Moustache &amp;#40;4194057&amp;#41;</ITEMNAME>
       <CATEGORY>167</CATEGORY>
       <ITEMYEAR>2003</ITEMYEAR>
       <ITEMWEIGHT>16.4</ITEMWEIGHT>
@@ -26049,7 +26049,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>4555pb198</ITEMID>
-      <ITEMNAME>Duplo Figure, Male Fireman, Black Legs, Yellow Top with Flame and Orange Suspenders, Blue Aviator Helmet</ITEMNAME>
+      <ITEMNAME>Duplo Figure, Male Fireman, Black Legs, Yellow Top with Flame and Orange Suspenders, Blue Aviator Helmet &amp;#40;4194194&amp;#41;</ITEMNAME>
       <CATEGORY>167</CATEGORY>
       <ITEMYEAR>2003</ITEMYEAR>
       <ITEMWEIGHT>16</ITEMWEIGHT>
@@ -173255,7 +173255,7 @@
       <ITEMID>hol437</ITEMID>
       <ITEMNAME>Mrs. Claus - Red Jacket, Dark Red Printed Skirt, Gold Glasses</ITEMNAME>
       <CATEGORY>390</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.1</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173264,7 +173264,7 @@
       <ITEMID>hol438</ITEMID>
       <ITEMNAME>Nutcracker</ITEMNAME>
       <CATEGORY>390</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.97</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173273,7 +173273,7 @@
       <ITEMID>wed012</ITEMID>
       <ITEMNAME>Wednesday Addams - Mini Doll, Black Jacket and Trousers Bell-Bottoms, Dark Bluish Gray Shoes</ITEMNAME>
       <CATEGORY>1312</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.2</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173282,7 +173282,7 @@
       <ITEMID>wed013</ITEMID>
       <ITEMNAME>Wednesday Addams - Black and Dark Bluish Gray Nevermore Academy Uniform</ITEMNAME>
       <CATEGORY>1312</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.05</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173291,7 +173291,7 @@
       <ITEMID>90398pb071</ITEMID>
       <ITEMNAME>Wednesday Adams Statuette / Trophy &amp;#40;6629401&amp;#41;</ITEMNAME>
       <CATEGORY>1312</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>0.2</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173300,52 +173300,34 @@
       <ITEMID>90398pb072</ITEMID>
       <ITEMNAME>Enid Sinclair Statuette / Trophy &amp;#40;6629402&amp;#41;</ITEMNAME>
       <CATEGORY>1312</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>0.2</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
-      <ITEMID>poke001</ITEMID>
+      <ITEMID>pk002</ITEMID>
       <ITEMNAME>Red</ITEMNAME>
       <CATEGORY>1369</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.75</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
-      <ITEMID>poke002</ITEMID>
-      <ITEMNAME>Eevee &amp;#40;6614818&amp;#41;</ITEMNAME>
-      <CATEGORY>1369</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT>1.1</ITEMWEIGHT>
-      <IMAGECOLOR>0</IMAGECOLOR>
-   </ITEM>
-   <ITEM>
-      <ITEMTYPE>M</ITEMTYPE>
-      <ITEMID>poke003</ITEMID>
+      <ITEMID>pk003</ITEMID>
       <ITEMNAME>Picnicker</ITEMNAME>
       <CATEGORY>1369</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
-      <ITEMID>poke004</ITEMID>
-      <ITEMNAME>Pikachu &amp;#40;6614819&amp;#41;</ITEMNAME>
-      <CATEGORY>1369</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
-      <ITEMWEIGHT>0.94</ITEMWEIGHT>
-      <IMAGECOLOR>0</IMAGECOLOR>
-   </ITEM>
-   <ITEM>
-      <ITEMTYPE>M</ITEMTYPE>
-      <ITEMID>poke005</ITEMID>
+      <ITEMID>pk004</ITEMID>
       <ITEMNAME>Professor Oak</ITEMNAME>
       <CATEGORY>1369</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.62</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173471,7 +173453,7 @@
       <ITEMID>sh1159</ITEMID>
       <ITEMNAME>Anti-Venom - Appendages</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>6.66</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173480,7 +173462,7 @@
       <ITEMID>min284</ITEMID>
       <ITEMNAME>Realm Raider - Pearl Dark Gray Armor</ITEMNAME>
       <CATEGORY>801</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.24</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
