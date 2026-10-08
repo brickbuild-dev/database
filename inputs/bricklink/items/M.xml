@@ -40989,7 +40989,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0279</ITEMID>
-      <ITEMNAME>Boba Fett - Pauldron, Helmet, Jet Pack</ITEMNAME>
+      <ITEMNAME>Boba Fett - Reddish Brown Pauldron, Helmet, Jet Pack</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2010</ITEMYEAR>
       <ITEMWEIGHT>4.21</ITEMWEIGHT>
@@ -66126,7 +66126,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0610</ITEMID>
-      <ITEMNAME>Boba Fett - Pauldron, Helmet, Jet Pack, Printed Arms and Legs</ITEMNAME>
+      <ITEMNAME>Boba Fett - Dark Tan Printed Pauldron, Helmet, Jet Pack, Printed Arms and Legs, Light Nougat Head, Smile</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2015</ITEMYEAR>
       <ITEMWEIGHT>4.21</ITEMWEIGHT>
@@ -72597,7 +72597,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0711</ITEMID>
-      <ITEMNAME>Boba Fett - Pauldron Cloth with Dark Orange Stripe Pattern</ITEMNAME>
+      <ITEMNAME>Boba Fett - Dark Tan Printed Pauldron, Helmet, Jet Pack, Plain Arms, Printed Legs</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -76530,7 +76530,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0751</ITEMID>
-      <ITEMNAME>Dengar - White Torso, Wrap</ITEMNAME>
+      <ITEMNAME>Dengar - White Torso, Wrap, Plain Legs</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2016</ITEMYEAR>
       <ITEMWEIGHT>6</ITEMWEIGHT>
@@ -83640,7 +83640,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0830</ITEMID>
-      <ITEMNAME>4-LOM</ITEMNAME>
+      <ITEMNAME>4-LOM - Plain Arms</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2017</ITEMYEAR>
       <ITEMWEIGHT>3</ITEMWEIGHT>
@@ -95673,7 +95673,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0977</ITEMID>
-      <ITEMNAME>Boba Fett - Pauldron, Helmet, Jet Pack, Printed Arms and Legs, Clone Head</ITEMNAME>
+      <ITEMNAME>Boba Fett - Dark Tan Printed Pauldron, Helmet, Jet Pack, Printed Arms and Legs, Light Nougat Head, Scowl</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2018</ITEMYEAR>
       <ITEMWEIGHT>4.2</ITEMWEIGHT>
@@ -172065,7 +172065,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1538</ITEMID>
-      <ITEMNAME>Boba Fett - Pauldron, Helmet, Jet Pack, Printed Arms and Legs, Rangefinder</ITEMNAME>
+      <ITEMNAME>Boba Fett - Olive Green Pauldron, Helmet, Jet Pack, Printed Arms and Legs, Rangefinder</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.24</ITEMWEIGHT>
@@ -173471,7 +173471,7 @@
       <ITEMID>sh1160</ITEMID>
       <ITEMNAME>Cyclops - Blue Outfit, Bright Light Orange Belts, Printed Legs</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.5</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173480,7 +173480,7 @@
       <ITEMID>sh1161</ITEMID>
       <ITEMNAME>Ben Grimm &amp;#40;The Thing&amp;#41; - Dark Azure Shorts</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.42</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173489,7 +173489,7 @@
       <ITEMID>sh1162</ITEMID>
       <ITEMNAME>Captain America &amp;#40;Sam Wilson&amp;#41; - Dark Blue Suit, Dark Blue Printed Legs with Red Boots, Backpack and Wings</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>9.68</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173498,8 +173498,62 @@
       <ITEMID>sh1163</ITEMID>
       <ITEMNAME>Dr. Doom - Dark Green Hood and Cape, Flat Silver Plain Arms and Printed Legs</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.78</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1549</ITEMID>
+      <ITEMNAME>Boba Fett - Dark Tan Printed Pauldron, Helmet, Jet Pack, Printed Arms and Legs, Nougat Head</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.24</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1554</ITEMID>
+      <ITEMNAME>Assassin Droid &amp;#40;IG-88&amp;#41; - Dark Bluish Gray, Molded Head, 1 x 1 Clip</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>2.42</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1550</ITEMID>
+      <ITEMNAME>Dengar - White Torso, Wrap, Printed Legs</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1552</ITEMID>
+      <ITEMNAME>Bossk - Dark Tan</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1553</ITEMID>
+      <ITEMNAME>4-LOM - Printed Arms</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sw1551</ITEMID>
+      <ITEMNAME>Zuckuss - Dark Tan Spots</ITEMNAME>
+      <CATEGORY>65</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
