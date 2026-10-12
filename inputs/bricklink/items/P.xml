@@ -33712,7 +33712,7 @@
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>42</CATEGORY>
       <ITEMWEIGHT>1.86</ITEMWEIGHT>
-      <IMAGECOLOR>48</IMAGECOLOR>
+      <IMAGECOLOR>4</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -33721,7 +33721,7 @@
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>42</CATEGORY>
       <ITEMWEIGHT>1.86</ITEMWEIGHT>
-      <IMAGECOLOR>63</IMAGECOLOR>
+      <IMAGECOLOR>4</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -207588,7 +207588,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>50950pb023L</ITEMID>
-      <ITEMNAME>Slope, Curved 3 x 1 with Red Fire Pattern Model Left &amp;#40;Sticker&amp;#41; - Set 8199</ITEMNAME>
+      <ITEMNAME>Slope, Curved 3 x 1 with Red Fire Pattern Model Left Side &amp;#40;Sticker&amp;#41; - Set 8199</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>775</CATEGORY>
       <ITEMWEIGHT>0.77</ITEMWEIGHT>
@@ -207597,7 +207597,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>50950pb023R</ITEMID>
-      <ITEMNAME>Slope, Curved 3 x 1 with Red Fire Pattern Model Right &amp;#40;Sticker&amp;#41; - Set 8199</ITEMNAME>
+      <ITEMNAME>Slope, Curved 3 x 1 with Red Fire Pattern Model Right Side &amp;#40;Sticker&amp;#41; - Set 8199</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>775</CATEGORY>
       <ITEMWEIGHT>0.77</ITEMWEIGHT>
@@ -237639,7 +237639,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>61678pb037R</ITEMID>
-      <ITEMNAME>Slope, Curved 4 x 1 with Lime Lines Pattern Model Right &amp;#40;Sticker&amp;#41; - Set 8079</ITEMNAME>
+      <ITEMNAME>Slope, Curved 4 x 1 with Lime Lines Pattern Model Right Side &amp;#40;Sticker&amp;#41; - Set 8079</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>775</CATEGORY>
       <ITEMWEIGHT>0.93</ITEMWEIGHT>
@@ -237648,7 +237648,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>61678pb037L</ITEMID>
-      <ITEMNAME>Slope, Curved 4 x 1 with Lime Lines Pattern Model Left &amp;#40;Sticker&amp;#41; - Set 8079</ITEMNAME>
+      <ITEMNAME>Slope, Curved 4 x 1 with Lime Lines Pattern Model Left Side &amp;#40;Sticker&amp;#41; - Set 8079</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>775</CATEGORY>
       <ITEMWEIGHT>0.93</ITEMWEIGHT>
@@ -237792,7 +237792,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>61678pb039R</ITEMID>
-      <ITEMNAME>Slope, Curved 4 x 1 with White &amp;#39;7985&amp;#39; and Double Grille Pattern Model Right &amp;#40;Sticker&amp;#41; - Set 7985</ITEMNAME>
+      <ITEMNAME>Slope, Curved 4 x 1 with White &amp;#39;7985&amp;#39; and Double Grille Pattern Model Right Side &amp;#40;Sticker&amp;#41; - Set 7985</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>775</CATEGORY>
       <ITEMWEIGHT>0.93</ITEMWEIGHT>
@@ -237801,7 +237801,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>61678pb039L</ITEMID>
-      <ITEMNAME>Slope, Curved 4 x 1 with White &amp;#39;7985&amp;#39; and Double Grille Pattern Model Left &amp;#40;Sticker&amp;#41; - Set 7985</ITEMNAME>
+      <ITEMNAME>Slope, Curved 4 x 1 with White &amp;#39;7985&amp;#39; and Double Grille Pattern Model Left Side &amp;#40;Sticker&amp;#41; - Set 7985</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>775</CATEGORY>
       <ITEMWEIGHT>0.93</ITEMWEIGHT>
@@ -613380,7 +613380,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>973pb4436</ITEMID>
-      <ITEMNAME>Torso Suit Jacket Bolero with Elaborate Gold Trim, White Skeleton Torso, Red Heart on Back Pattern &amp;#40;BAM&amp;#41;</ITEMNAME>
+      <ITEMNAME>Torso Cropped Jacket Open with Elaborate Gold Trim and Red Heart on Back over White Skeleton Bones Pattern &amp;#40;Day of the Dead El Catrín {Catrin}&amp;#41; &amp;#40;BAM&amp;#41;</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>150</CATEGORY>
       <ITEMWEIGHT>0.82</ITEMWEIGHT>
@@ -613389,7 +613389,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>973pb4436c01</ITEMID>
-      <ITEMNAME>Torso Suit Jacket Bolero with Elaborate Gold Trim, White Skeleton Torso, Red Heart on Back Pattern &amp;#40;BAM&amp;#41; / Black Arms / White Hands</ITEMNAME>
+      <ITEMNAME>Torso Cropped Jacket Open with Elaborate Gold Trim and Red Heart on Back over White Skeleton Bones Pattern &amp;#40;Day of the Dead El Catrín {Catrin}&amp;#41; &amp;#40;BAM&amp;#41; / Black Arms / White Hands</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>1097</CATEGORY>
       <ITEMWEIGHT>1.31</ITEMWEIGHT>
@@ -843042,7 +843042,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>102349c01pb010</ITEMID>
-      <ITEMNAME>SMART Tag Tile 2 x 2 with Hyperdrive Light Speed Stars Effect Pattern</ITEMNAME>
+      <ITEMNAME>SMART Tag Tile 2 x 2 with SW Hyperdrive Light Speed Stars Effect Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>646</CATEGORY>
       <ITEMWEIGHT>0.52</ITEMWEIGHT>
@@ -850683,7 +850683,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>14769pb0860</ITEMID>
-      <ITEMNAME>Tile, Round 2 x 2 with Bottom Stud Holder with Medium Azure Circle &amp;#40;Sticker&amp;#41; - Set 76081</ITEMNAME>
+      <ITEMNAME>Tile, Round 2 x 2 with Bottom Stud Holder with Medium Azure Circle Pattern &amp;#40;Sticker&amp;#41; - Set 76081</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>812</CATEGORY>
       <ITEMWEIGHT>0.33</ITEMWEIGHT>
@@ -872525,6 +872525,60 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>14769pb0908</ITEMID>
+      <ITEMNAME>Tile, Round 2 x 2 with Bottom Stud Holder with Dark Bluish Gray &amp;#39;RESET&amp;#39; Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>812</CATEGORY>
+      <ITEMWEIGHT>0.32</ITEMWEIGHT>
+      <IMAGECOLOR>86</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>66857pb143</ITEMID>
+      <ITEMNAME>Tile, Round 2 x 4 Oval with Open Mouth Smile with White Teeth on Black Background Pattern &amp;#40;Wallace Lower Face&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>812</CATEGORY>
+      <ITEMWEIGHT>0.76</ITEMWEIGHT>
+      <IMAGECOLOR>90</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>87079pb1723L</ITEMID>
+      <ITEMNAME>Tile 2 x 4 with Gold Plumes, Lines and 'Brickville' Pattern Model Left Side</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>39</CATEGORY>
+      <ITEMWEIGHT>0.9</ITEMWEIGHT>
+      <IMAGECOLOR>63</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>87079pb1723R</ITEMID>
+      <ITEMNAME>Tile 2 x 4 with Gold Plumes, Lines and 'Books' Pattern Model Right Side</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>39</CATEGORY>
+      <ITEMWEIGHT>0.9</ITEMWEIGHT>
+      <IMAGECOLOR>63</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>87079pb1725</ITEMID>
+      <ITEMNAME>Tile 2 x 4 with Gold Bells and 'OH WHAT FUN!' with Dark Red Outline Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>39</CATEGORY>
+      <ITEMWEIGHT>0.9</ITEMWEIGHT>
+      <IMAGECOLOR>5</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>87079pb1724</ITEMID>
+      <ITEMNAME>Tile 2 x 4 with Blue Lines and Fantastic Four Emblem with Number 4 on White Circle Pattern &amp;#40;BrickHeadz The Thing Torso&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>39</CATEGORY>
+      <ITEMWEIGHT>0.9</ITEMWEIGHT>
+      <IMAGECOLOR>153</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>973pb6845c01</ITEMID>
       <ITEMNAME>Torso Knit Fair Isle Holiday Sweater with Bright Green Zigzag Lines and SW Grogu Head, White Snowflakes Pattern / Dark Green Arms / Black Hands</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
@@ -872675,5 +872729,50 @@
       <CATEGORY>1097</CATEGORY>
       <ITEMWEIGHT>1.3</ITEMWEIGHT>
       <IMAGECOLOR>86</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>21371stk01</ITEMID>
+      <ITEMNAME>Sticker Sheet for Set 21371 - &amp;#40;10119087/6630722&amp;#41;</ITEMNAME>
+      <ALTITEMIDS>119087</ALTITEMIDS>
+      <CATEGORY>160</CATEGORY>
+      <ITEMWEIGHT>0.34</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>76348stk01</ITEMID>
+      <ITEMNAME>Sticker Sheet for Set 76348 - &amp;#40;10117664/6607062&amp;#41;</ITEMNAME>
+      <ALTITEMIDS>117664</ALTITEMIDS>
+      <CATEGORY>160</CATEGORY>
+      <ITEMWEIGHT>0.78</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>76352stk01</ITEMID>
+      <ITEMNAME>Sticker Sheet for Set 76352 - &amp;#40;10118673/6616218&amp;#41;</ITEMNAME>
+      <ALTITEMIDS>118673</ALTITEMIDS>
+      <CATEGORY>160</CATEGORY>
+      <ITEMWEIGHT>1.2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>90498pb67</ITEMID>
+      <ITEMNAME>Tile 8 x 16 with Bottom Tubes, Textured Surface with Star Wars Executor Super Star Destroyer Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>39</CATEGORY>
+      <ITEMWEIGHT>13.6</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>2431pb0961</ITEMID>
+      <ITEMNAME>Tile 1 x 4 with Dark Bluish Gray Lines and Rectangles Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>39</CATEGORY>
+      <ITEMWEIGHT>0.54</ITEMWEIGHT>
+      <IMAGECOLOR>15</IMAGECOLOR>
    </ITEM>
 </CATALOG>
