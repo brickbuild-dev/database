@@ -161769,7 +161769,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hp579</ITEMID>
-      <ITEMNAME>Minister of Magic &amp;#40;Cornelius Fudge&amp;#41; - Suit with Dark Blue Tie</ITEMNAME>
+      <ITEMNAME>Minister of Magic &amp;#40;Cornelius Fudge&amp;#41; - Suit with Dark Blue Tie, Dark Brown Eyebrows</ITEMNAME>
       <CATEGORY>227</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>3.45</ITEMWEIGHT>
@@ -173284,6 +173284,33 @@
       <CATEGORY>1312</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.05</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp653</ITEMID>
+      <ITEMNAME>The Daily Prophet Vendor</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.38</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp654</ITEMID>
+      <ITEMNAME>Minister of Magic &amp;#40;Cornelius Fudge&amp;#41; - Suit with Dark Blue Tie, Dark Bluish Gray Eyebrows</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.45</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp655</ITEMID>
+      <ITEMNAME>Statue - Fountain of Magical Brethren Witch &amp;#40;Monochrome&amp;#41;</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>5.32</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>

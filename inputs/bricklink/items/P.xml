@@ -37065,7 +37065,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>BA082pb01</ITEMID>
-      <ITEMNAME>Stickered Assembly 3 x 2 x 1 2/3 with Shell Tank Number 2 Pattern &amp;#40;Sticker&amp;#41;  - Set 6610</ITEMNAME>
+      <ITEMNAME>Stickered Assembly 3 x 2 x 1 2/3 with Shell Tank Number 2 Pattern &amp;#40;Sticker&amp;#41; - Set 6610</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>582</CATEGORY>
       <ITEMWEIGHT>4.5</ITEMWEIGHT>
@@ -37114,7 +37114,7 @@
       <ALTITEMIDS>201,464,35164,41762</ALTITEMIDS>
       <CATEGORY>438</CATEGORY>
       <ITEMWEIGHT>1.8</ITEMWEIGHT>
-      <IMAGECOLOR>5</IMAGECOLOR>
+      <IMAGECOLOR>69</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -43292,9 +43292,9 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
-      <ITEMID>4011type1pb01</ITEMID>
+      <ITEMID>4011pb01</ITEMID>
       <ITEMNAME>Duplo Pig with Black Eyes Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>4011type1pb01</ALTITEMIDS>
       <CATEGORY>420</CATEGORY>
       <ITEMWEIGHT>15</ITEMWEIGHT>
       <IMAGECOLOR>28</IMAGECOLOR>
@@ -112574,9 +112574,9 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
-      <ITEMID>4011type2pb01</ITEMID>
+      <ITEMID>4011pb02</ITEMID>
       <ITEMNAME>Duplo Pig, Black and White Eyes</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>4011type2pb01</ALTITEMIDS>
       <CATEGORY>420</CATEGORY>
       <ITEMWEIGHT>15</ITEMWEIGHT>
       <IMAGECOLOR>28</IMAGECOLOR>
@@ -325435,7 +325435,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1324</ITEMID>
       <ITEMNAME>Minifigure, Head Black Bushy Eyebrows, Red Eyes, Moustache and Goatee, Sideburns, Wrinkles Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1324</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -325444,7 +325444,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1325</ITEMID>
       <ITEMNAME>Minifigure, Head Black Eyebrows, Red Eyes with Silver Pupil Right, Goatee, Purple Snake Tattoo, Open Mouth with Fangs Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1325</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -325669,7 +325669,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1327</ITEMID>
       <ITEMNAME>Minifigure, Head Black Eyebrows, Dark Red Eyes, Dark Purple Tattoos, Open Mouth with Fangs Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1327</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -325930,7 +325930,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1328</ITEMID>
       <ITEMNAME>Minifigure, Head Dark Orange Eyebrows, Scar over Right Eye, Scowl Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1328</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -325939,7 +325939,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1329</ITEMID>
       <ITEMNAME>Minifigure, Head Female Glasses with Orange Digital Sunglasses, Pink Lips, Lopsided Mouth with Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1329</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -326110,7 +326110,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1330</ITEMID>
       <ITEMNAME>Minifigure, Head Beard Stubble, Black Eyebrows, Scar on Right Eyebrow, Open Mouth with Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1330</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -326119,7 +326119,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1331</ITEMID>
       <ITEMNAME>Minifigure, Head Beard Brown Stubble, Eye Patch, Open Grin, Missing Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1331</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -326335,7 +326335,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1333</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Dark Orange Eyebrows and Chin Dimple, Neutral / Angry, Bared Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1333</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -326443,7 +326443,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1334</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Female with Eye Patch, Smile / Angry Mouth with Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1334</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -326452,7 +326452,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1335</ITEMID>
       <ITEMNAME>Minifigure, Head Light Bluish Gray and Dark Bluish Gray Eyebrows, Mutton Chops, Moustache, Medium Nougat Chin Dimple Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1335</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -326767,7 +326767,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1336</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Female Black Eyebrows, Eyelashes, Brown Lips / Green and Gold Robot, Red Eyes and Eyebrows Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1336</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -326902,7 +326902,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1338</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Moustache Split, Stern Dark Bluish Gray Bushy Eyebrows, Sunken Eyes, Wrinkles / Green Eyes, Angry Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1338</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -326929,7 +326929,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1339</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Alien Robot with Silver Face with Medium Azure Eyes / Medium Azure Visor with Headset and Eyepiece Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1339</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>95</IMAGECOLOR>
@@ -327325,7 +327325,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1340</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Child LotR Brown Eyebrows and Freckles, Slight Smile / Frown &amp;#40;Bain&amp;#41; Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1340</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -328180,7 +328180,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1342</ITEMID>
       <ITEMNAME>Minifigure, Head Alien with Red Eyes and Silver Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1342</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>108</IMAGECOLOR>
@@ -330988,7 +330988,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1345</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Dark Orange Eyebrows, Crooked Smile with Teeth / Determined, Closed Mouth Pattern</ITEMNAME>
-      <ALTITEMIDS>88475pb1345</ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1345,88475pb1345</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -330997,7 +330997,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1346</ITEMID>
       <ITEMNAME>Minifigure, Head Alien Split Face Angry, Normal Left Side with Yellow Skin and Stubble, Burned Right Side with Red Eye Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1346</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>108</IMAGECOLOR>
@@ -331140,7 +331140,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>4162pb126</ITEMID>
-      <ITEMNAME>Tile 1 x 8 with Black Bow truncated on Yellow Background Pattern &amp;#40;Sticker&amp;#41; - Set 8143</ITEMNAME>
+      <ITEMNAME>Tile 1 x 8 with Black Rectangle with Curved Edge Pattern &amp;#40;Sticker&amp;#41; - Set 8143</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>39</CATEGORY>
       <ITEMWEIGHT>1.07</ITEMWEIGHT>
@@ -331942,7 +331942,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1347</ITEMID>
       <ITEMNAME>Minifigure, Head Glasses with Gold Sunglasses with Reflective Lines Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1347</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>12</IMAGECOLOR>
@@ -331951,7 +331951,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1348</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Black Digital Sunglasses, Stubble, Crooked Open Mouth Smile / Determined, Closed Mouth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1348</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -333246,8 +333246,8 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1355</ITEMID>
-      <ITEMNAME>Minifigure, Head Gray Eyebrows and Moustache, Red Eyes, Angry with Bared Teeth, Forehead Wrinkles Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ITEMNAME>Minifigure, Head Light Bluish Gray Eyebrows and Moustache, Red Eyes, Medium Nougat Eye Shadow, Cheek Lines and Wrinkles, Angry Bared Teeth Pattern</ITEMNAME>
+      <ALTITEMIDS>3626cpb1355</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -333310,7 +333310,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1353</ITEMID>
       <ITEMNAME>Minifigure, Head Black Eyebrows, Cheek Lines, Chin Dimple, White Pupils Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1353</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>150</IMAGECOLOR>
@@ -333940,7 +333940,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1359</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Black Glasses, Crooked Smile / Sunglasses, Clenched Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1359</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -333949,7 +333949,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1360</ITEMID>
       <ITEMNAME>Minifigure, Head Beard Stubble, Brown Eyebrows, Moustache, Open Mouth, Two Teeth Pattern &amp;#40;Hank Haystack&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1360</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -334345,7 +334345,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1361</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Beard, Brown Eyebrows, Moustache, White Pupils, Neutral / Raised Left Eyebrow Pattern &amp;#40;SW Qui-Gon&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1361</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -360597,7 +360597,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>98834pb07</ITEMID>
-      <ITEMNAME>Vehicle, Spoiler with Bar Handle with Letter R inside Black Circle on Red Oval Pattern</ITEMNAME>
+      <ITEMNAME>Vehicle, Spoiler with Bar Handle with Capital Letter R in Black Circle on Red Oval Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>72</CATEGORY>
       <ITEMWEIGHT>0.93</ITEMWEIGHT>
@@ -564690,7 +564690,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>45677pb132</ITEMID>
-      <ITEMNAME>Wedge 4 x 4 x 2/3 Triple Curved with RePLAY pattern</ITEMNAME>
+      <ITEMNAME>Wedge 4 x 4 x 2/3 Triple Curved with RePLAY Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>578</CATEGORY>
       <ITEMWEIGHT>2.7</ITEMWEIGHT>
@@ -605181,7 +605181,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>4066pb776</ITEMID>
-      <ITEMNAME>Duplo, Brick 1 x 2 x 2 with Black Lightning Bolt on Yellow Sign on One Side, Dinosaur Eggs on Other Side Pattern</ITEMNAME>
+      <ITEMNAME>Duplo, Brick 1 x 2 x 2 with Black Lightning Bolt on Yellow Sign, Dark Azure and Light Aqua Dinosaur Eggs Pattern on Opposite Sides</ITEMNAME>
       <ALTITEMIDS>76371pb235</ALTITEMIDS>
       <CATEGORY>440</CATEGORY>
       <ITEMWEIGHT>8</ITEMWEIGHT>
@@ -656044,7 +656044,7 @@
       <ALTITEMIDS>119079</ALTITEMIDS>
       <CATEGORY>117</CATEGORY>
       <ITEMWEIGHT>0.21</ITEMWEIGHT>
-      <IMAGECOLOR>11</IMAGECOLOR>
+      <IMAGECOLOR>167</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -660243,7 +660243,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>BA325pb01</ITEMID>
-      <ITEMNAME>Stickered Assembly 5 x 1 x 1 with Licence Plates &amp;#39;AW 182EF&amp;#39;, &amp;#39;AA 92430&amp;#39; and 2 Black Triangles Pattern &amp;#40;Sticker&amp;#41; - Set 8153</ITEMNAME>
+      <ITEMNAME>Stickered Assembly 5 x 1 x 1 with Black Triangles and White License Plates with 'AW 182EF' and 'AA 92430' Pattern &amp;#40;Sticker&amp;#41; - Set 8153</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>582</CATEGORY>
       <ITEMWEIGHT>2.1</ITEMWEIGHT>
@@ -662898,8 +662898,8 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb3099</ITEMID>
-      <ITEMNAME>Minifigure, Head Alien Female La Catrina with Black Eyebrows, Triangular Nose, Stitched Mouth, Dark Red Eyes, Dark Pink Lips and Heart Pattern &amp;#40;BAM&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ITEMNAME>Minifigure, Head Alien Female Skull with Black Eyebrows, Triangular Nose and Stitched Mouth, Dark Red Eye Shadow, Dark Pink Lips and Heart, Wide Grin Pattern &amp;#40;Day of the Dead La Catrina&amp;#41; &amp;#40;BAM&amp;#41;</ITEMNAME>
+      <ALTITEMIDS>3626cpb3099</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>1</IMAGECOLOR>
@@ -663105,7 +663105,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>973pb4879c01</ITEMID>
-      <ITEMNAME>Torso La Catrina Open Jacket with Elaborate Gold Trim, Necklace, Red Roses, Dark Red Laces, White Collar Pattern &amp;#40;BAM&amp;#41; / Black Arms / White Hands</ITEMNAME>
+      <ITEMNAME>Torso Female Cropped Jacket Open with Elaborate Gold Trim over Dress with Ruffled Collar and Dark Red Laces, Red Flower Brooch, White Neck, Flowers on Back Pattern &amp;#40;Day of the Dead La Catrina&amp;#41; &amp;#40;BAM&amp;#41; / Black Arms / White Hands</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>1097</CATEGORY>
       <ITEMWEIGHT>1.3</ITEMWEIGHT>
@@ -663132,7 +663132,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>973pb4879</ITEMID>
-      <ITEMNAME>Torso La Catrina Open Jacket with Elaborate Gold Trim, Necklace, Red Roses, Dark Red Laces, White Collar Pattern &amp;#40;BAM&amp;#41;</ITEMNAME>
+      <ITEMNAME>Torso Female Cropped Jacket Open with Elaborate Gold Trim over Dress with Ruffled Collar and Dark Red Laces, Red Flower Brooch, White Neck, Flowers on Back Pattern &amp;#40;Day of the Dead La Catrina&amp;#41; &amp;#40;BAM&amp;#41;</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>150</CATEGORY>
       <ITEMWEIGHT>0.82</ITEMWEIGHT>
@@ -663159,7 +663159,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>36036pb042</ITEMID>
-      <ITEMNAME>Lower Body, Skirt with White, Red, and Silver Ruffles Pattern on Both Sides &amp;#40;BAM&amp;#41;</ITEMNAME>
+      <ITEMNAME>Lower Body, Skirt with White Ruffles with Red and Silver Trim Pattern on Both Sides &amp;#40;Day of the Dead La Catrina&amp;#41; &amp;#40;BAM&amp;#41;</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>1118</CATEGORY>
       <ITEMWEIGHT>1.5</ITEMWEIGHT>
@@ -820299,7 +820299,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>973pb6343c01</ITEMID>
-      <ITEMNAME>Torso SW Imperial Uniform, White Should Panel and Collar, Black Belt with Silver Buckle and Dot, 2 Code Cylinders Pattern / Dark Green Arm Left / Dark Green Arm Right with White Hexagon Symbol Pattern / Light Nougat Hands</ITEMNAME>
+      <ITEMNAME>Torso SW Imperial Uniform, White Shoulder Panel and Collar, Black Belt with Silver Buckle and Dot, 2 Code Cylinders Pattern / Dark Green Arm Left / Dark Green Arm Right with Hexagon Symbol Pattern / Light Nougat Hands</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>1097</CATEGORY>
       <ITEMWEIGHT>1.3</ITEMWEIGHT>
@@ -820461,7 +820461,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>973pb6343</ITEMID>
-      <ITEMNAME>Torso SW Imperial Uniform, White Should Panel and Collar, Black Belt with Silver Buckle and Dot, 2 Code Cylinders Pattern</ITEMNAME>
+      <ITEMNAME>Torso SW Imperial Uniform, White Shoulder Panel and Collar, Black Belt with Silver Buckle and Dot, 2 Code Cylinders Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>150</CATEGORY>
       <ITEMWEIGHT>0.82</ITEMWEIGHT>
@@ -821172,7 +821172,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>973pb6377c01</ITEMID>
-      <ITEMNAME>Torso El Catrín Cropped Jacket with Gold Elaborate Trim, Rose with White Skull over Skeleton Torso, Medium Lavender Sash Pattern &amp;#40;BAM&amp;#41; / Black Arms / White Hands</ITEMNAME>
+      <ITEMNAME>Torso Cropped Jacket Open with Gold Trim, Leaves and Stars over Skeleton Bones, Flower Pin with White Skull, Medium Lavender Waist Sash Pattern &amp;#40;Day of the Dead El Catrín {Catrin}&amp;#41; &amp;#40;BAM&amp;#41; / Black Arms / White Hands</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>1097</CATEGORY>
       <ITEMWEIGHT>1.3</ITEMWEIGHT>
@@ -821181,7 +821181,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>970c00pb1842</ITEMID>
-      <ITEMNAME>Hips and Legs with White Skulls, Gold Elaborate Trim and Boots Pattern &amp;#40;BAM&amp;#41;</ITEMNAME>
+      <ITEMNAME>Hips and Legs with White Skulls, Gold Trim, Leaves, Dots and Shoe Tips Pattern &amp;#40;Day of the Dead El Catrín {Catrin}&amp;#41; &amp;#40;BAM&amp;#41;</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>1098</CATEGORY>
       <ITEMWEIGHT>1.18</ITEMWEIGHT>
@@ -821892,7 +821892,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>973pb6377</ITEMID>
-      <ITEMNAME>Torso El Catrín Cropped Jacket with Gold Elaborate Trim, Rose with White Skull over Skeleton Torso, Medium Lavender Sash Pattern &amp;#40;BAM&amp;#41;</ITEMNAME>
+      <ITEMNAME>Torso Cropped Jacket Open with Gold Trim, Leaves and Stars over Skeleton Bones, Flower Pin with White Skull, Medium Lavender Waist Sash Pattern &amp;#40;Day of the Dead El Catrín {Catrin}&amp;#41; &amp;#40;BAM&amp;#41;</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>150</CATEGORY>
       <ITEMWEIGHT>0.82</ITEMWEIGHT>
@@ -843744,7 +843744,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>102349c01pb020</ITEMID>
-      <ITEMNAME>SMART Tag Tile 2 x 2 with Pokémon Beverage Dispenser Pattern</ITEMNAME>
+      <ITEMNAME>SMART Tag Tile 2 x 2 with Beverage Dispenser Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>646</CATEGORY>
       <ITEMWEIGHT>0.52</ITEMWEIGHT>
@@ -868530,7 +868530,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>28326pb004</ITEMID>
-      <ITEMNAME>Vehicle, Mudguard 4 x 3 x 1 with White Curved Stripe Pattern</ITEMNAME>
+      <ITEMNAME>Vehicle, Mudguard 4 x 3 x 1 with Arch Curved with White Stripe Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>780</CATEGORY>
       <ITEMWEIGHT>1.12</ITEMWEIGHT>
@@ -871743,7 +871743,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>973pb6827c01</ITEMID>
-      <ITEMNAME>Torso Female Uniform Vest with Gold Star Trek Starfleet Insignia and 'e' Engineering Operations Logo, Medium Brown Neck, Dark Red Trim Lines, Sides and Creases Pattern / Red Arms / Umber Hands</ITEMNAME>
+      <ITEMNAME>Torso Female Uniform Vest with Gold Star Trek Starfleet Insignia and 'e' Engineering Operations Logo, Medium Brown Neck, Dark Red Trim Lines, Sides and Creases Pattern / Red Arms / Medium Brown Hands</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>1097</CATEGORY>
       <ITEMWEIGHT>1.29</ITEMWEIGHT>
@@ -872630,5 +872630,50 @@
       <CATEGORY>1098</CATEGORY>
       <ITEMWEIGHT>1.18</ITEMWEIGHT>
       <IMAGECOLOR>55</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb5378c02</ITEMID>
+      <ITEMNAME>Torso SW Mandalorian Dark Green Armor, Belt, Braid, Silver Emblem and Battle Damage, Dark Red Rectangle Pattern / Light Bluish Gray Arms with Bright Light Orange and Dark Red Armor Pattern / Dark Tan Hands</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.3</ITEMWEIGHT>
+      <IMAGECOLOR>86</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6850</ITEMID>
+      <ITEMNAME>Torso Vest with Dark Bluish Gray Belt, Pouches and Radio Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>150</CATEGORY>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6850c01</ITEMID>
+      <ITEMNAME>Torso Vest with Dark Bluish Gray Belt, Pouches and Radio Pattern / Dark Bluish Gray Arm Left with SW Imperial Logo and Code Cylinders Pattern / Dark Bluish Gray Arm Right / Black Hands</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.3</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6851</ITEMID>
+      <ITEMNAME>Torso SW Imperial Uniform, White Shoulder Panel and Collar, Black Belt with Silver Buckle Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>150</CATEGORY>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
+      <IMAGECOLOR>86</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6851c01</ITEMID>
+      <ITEMNAME>Torso SW Imperial Uniform, White Shoulder Panel and Collar, Black Belt with Silver Buckle Pattern / Light Bluish Gray Arm Left / Light Bluish Gray Arm Right with Sand Blue Insignia Pattern / Medium Tan Hands</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.3</ITEMWEIGHT>
+      <IMAGECOLOR>86</IMAGECOLOR>
    </ITEM>
 </CATALOG>
