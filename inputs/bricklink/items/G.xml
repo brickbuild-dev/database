@@ -46047,7 +46047,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>wufo</ITEMID>
-      <ITEMNAME>Watch Set, UFO</ITEMNAME>
+      <ITEMNAME>Watch Set, UFO / Space</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>1997</ITEMYEAR>
       <ITEMWEIGHT>100</ITEMWEIGHT>
@@ -54849,7 +54849,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>w012</ITEMID>
-      <ITEMNAME>Watch Set, Starlet</ITEMNAME>
+      <ITEMNAME>Watch Set, Starlet / Pastel</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>1997</ITEMYEAR>
       <ITEMWEIGHT>107</ITEMWEIGHT>
@@ -83919,7 +83919,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>bb1046c01</ITEMID>
-      <ITEMNAME>Watch Part, Case Analog, Space - Spyrius Droid, Silver Hour Hand, Neon Green Minute Hand, Neon Red Second Hand with Circle</ITEMNAME>
+      <ITEMNAME>Watch Part, Case Analog, Space - Spyrius Droid, Silver Hour Hand, Neon Green Minute Hand, Neon Orange Second Hand with Circle</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>1997</ITEMYEAR>
       <ITEMWEIGHT>6.2</ITEMWEIGHT>
@@ -138054,7 +138054,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>bb1197c01</ITEMID>
-      <ITEMNAME>Watch Part, Case Analog, Space - Brick 2 x 2, Silver Hour Hand, Neon Green Minute Hand, Neon Red Second Hand with Circle</ITEMNAME>
+      <ITEMNAME>Watch Part, Case Analog, Space - Brick 2 x 2, Silver Hour Hand, Neon Green Minute Hand, Neon Orange Second Hand with Circle</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>1997</ITEMYEAR>
       <ITEMWEIGHT>8.04</ITEMWEIGHT>
@@ -138081,7 +138081,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>bb1200c01</ITEMID>
-      <ITEMNAME>Watch Part, Case Analog - Brick 1 x 1, Black Hour and Minute Hands with Glow in the Dark Areas, Neon Red Second Hand</ITEMNAME>
+      <ITEMNAME>Watch Part, Case Analog - Brick 1 x 1, Black Hour and Minute Hands with Glow in the Dark Areas, Neon Orange Second Hand</ITEMNAME>
       <CATEGORY>517</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>11.8</ITEMWEIGHT>
@@ -139836,9 +139836,9 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>bb1270c01</ITEMID>
-      <ITEMNAME>Watch Part, Band - Female Fabric with Blue Buckle and Attached Link</ITEMNAME>
+      <ITEMNAME>Watch Part, Band - Female Fabric with Buckle and Attached Link</ITEMNAME>
       <CATEGORY>517</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2001</ITEMYEAR>
       <ITEMWEIGHT>3.81</ITEMWEIGHT>
       <IMAGECOLOR>7</IMAGECOLOR>
    </ITEM>
@@ -139847,7 +139847,7 @@
       <ITEMID>bb1271c01</ITEMID>
       <ITEMNAME>Watch Part, Band - Male Fabric with Attached Link</ITEMNAME>
       <CATEGORY>517</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2001</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>7</IMAGECOLOR>
    </ITEM>
@@ -222359,6 +222359,15 @@
       <ITEMID>5010927</ITEMID>
       <ITEMNAME>Party Drinking Straw, Set of 4 &amp;#40;Robot, Rainbow, Cat, Ice Cream&amp;#41; - Straw Topper Set</ITEMNAME>
       <CATEGORY>175</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>854332</ITEMID>
+      <ITEMNAME>Red Key Chain</ITEMNAME>
+      <CATEGORY>334</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
