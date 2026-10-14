@@ -29460,7 +29460,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3069px32</ITEMID>
-      <ITEMNAME>Tile 1 x 2 with Silver, Orange, Yellow Circuitry &amp; Display Pattern</ITEMNAME>
+      <ITEMNAME>Tile 1 x 2 with Silver, Orange and Yellow Circuitry and Display Pattern</ITEMNAME>
       <ALTITEMIDS>3069bpx32</ALTITEMIDS>
       <CATEGORY>39</CATEGORY>
       <ITEMWEIGHT>0.26</ITEMWEIGHT>
@@ -32502,7 +32502,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>30182pb01</ITEMID>
-      <ITEMNAME>Slope 45 4 x 4 with Blue Stripe Pattern</ITEMNAME>
+      <ITEMNAME>Slope 45 4 x 4 with Broken Blue Stripe Pattern on Both Sides</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>33</CATEGORY>
       <ITEMWEIGHT>3.61</ITEMWEIGHT>
@@ -34032,7 +34032,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>30182pb02</ITEMID>
-      <ITEMNAME>Slope 45 4 x 4 with Octan Logo and Red &amp; Green Stripe Pattern</ITEMNAME>
+      <ITEMNAME>Slope 45 4 x 4 with Green and Red Octan Logo on Triangles Pattern on Both Sides</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>33</CATEGORY>
       <ITEMWEIGHT>3.61</ITEMWEIGHT>
@@ -34563,7 +34563,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>42061pb01</ITEMID>
-      <ITEMNAME>Wedge 12 x 3 Left with Gray Panels &amp; Lime/Medium Orange/Dark Red Markings Pattern</ITEMNAME>
+      <ITEMNAME>Wedge 12 x 3 Left with Light Gray Panels with Dark Gray Outlines and Dark Red, Lime and Medium Orange Markings Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>578</CATEGORY>
       <ITEMWEIGHT>5.25</ITEMWEIGHT>
@@ -34572,7 +34572,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>42060pb01</ITEMID>
-      <ITEMNAME>Wedge 12 x 3 Right with Gray Panels &amp; Lime/Medium Orange/Dark Red Markings Pattern</ITEMNAME>
+      <ITEMNAME>Wedge 12 x 3 Right with Light Gray Panels with Dark Gray Outlines and Dark Red, Lime and Medium Orange Markings Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>578</CATEGORY>
       <ITEMWEIGHT>5.25</ITEMWEIGHT>
@@ -92118,7 +92118,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb0224</ITEMID>
-      <ITEMNAME>Minifigure, Head without Eyebrows, Dark Bluish Gray Creases Under Eyes, Chin Dimple and Scars, Red Burns Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Dark Bluish Gray Creases Under Eyes and Scars, Black Chin Dimple, Dark Red Burns, Neutral Pattern</ITEMNAME>
       <ALTITEMIDS>3626bpb0224</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
@@ -101928,7 +101928,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>30182pb03</ITEMID>
-      <ITEMNAME>Slope 45 4 x 4 with Yellow Stripe Pattern</ITEMNAME>
+      <ITEMNAME>Slope 45 4 x 4 with Diagonal Yellow Stripes Pattern on Both Sides</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>33</CATEGORY>
       <ITEMWEIGHT>3.61</ITEMWEIGHT>
@@ -152895,7 +152895,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>30182pb04</ITEMID>
-      <ITEMNAME>Slope 45 4 x 4 with Octan Pattern (Sticker) - Set 6617</ITEMNAME>
+      <ITEMNAME>Slope 45 4 x 4 with Green and Red 'Octan' Pattern &amp;#40;Sticker&amp;#41; - Set 6617</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>33</CATEGORY>
       <ITEMWEIGHT>3.61</ITEMWEIGHT>
@@ -183837,7 +183837,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb0412</ITEMID>
-      <ITEMNAME>Minifigure, Head Dark Bluish Gray Eyebrows, Creases Under Eyes, Chin Dimple and Scars, Dark Red Burns, Angry Frown Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Dark Bluish Gray Eyebrows, Creases Under Eyes, Chin Dimple and Scars, Dark Red Burns, Stern Frown Pattern</ITEMNAME>
       <ALTITEMIDS>3626bpb0412,3626cpb0412</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
@@ -224445,7 +224445,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>61678pb020L</ITEMID>
-      <ITEMNAME>Slope, Curved 4 x 1 with Dark Red Flame and Lime Line Pattern Model Left &amp;#40;Sticker&amp;#41; - Set 8484</ITEMNAME>
+      <ITEMNAME>Slope, Curved 4 x 1 with Dark Red Flames and Lime Angled Lines Pattern Model Left Side &amp;#40;Sticker&amp;#41; - Set 8484</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>775</CATEGORY>
       <ITEMWEIGHT>0.9</ITEMWEIGHT>
@@ -224454,7 +224454,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>61678pb020R</ITEMID>
-      <ITEMNAME>Slope, Curved 4 x 1 with Dark Red Flame and Lime Line Pattern Model Right &amp;#40;Sticker&amp;#41; - Set 8484</ITEMNAME>
+      <ITEMNAME>Slope, Curved 4 x 1 with Dark Red Flames and Lime Angled Lines Pattern Model Right Side &amp;#40;Sticker&amp;#41; - Set 8484</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>775</CATEGORY>
       <ITEMWEIGHT>0.9</ITEMWEIGHT>
@@ -224625,7 +224625,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>63864pb009L</ITEMID>
-      <ITEMNAME>Tile 1 x 3 with Lime Lines Pattern Model Left (Sticker) - Set 8484</ITEMNAME>
+      <ITEMNAME>Tile 1 x 3 with Black and Lime Curved Lines Pattern Model Left Side &amp;#40;Sticker&amp;#41; - Set 8484</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>39</CATEGORY>
       <ITEMWEIGHT>0.42</ITEMWEIGHT>
@@ -224634,7 +224634,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>63864pb009R</ITEMID>
-      <ITEMNAME>Tile 1 x 3 with Lime Lines Pattern Model Right (Sticker) - Set 8484</ITEMNAME>
+      <ITEMNAME>Tile 1 x 3 with Black and Lime Curved Lines Pattern Model Right Side &amp;#40;Sticker&amp;#41; - Set 8484</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>39</CATEGORY>
       <ITEMWEIGHT>0.42</ITEMWEIGHT>
@@ -232203,7 +232203,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>54200pb036L</ITEMID>
-      <ITEMNAME>Slope 30 1 x 1 x 2/3 with Black Vent Grille Pattern Model Left (Sticker) - Set 8125</ITEMNAME>
+      <ITEMNAME>Slope 30 1 x 1 x 2/3 with Black Vent Grille Pattern Model Left Side &amp;#40;Sticker&amp;#41; - Set 8125</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>33</CATEGORY>
       <ITEMWEIGHT>0.24</ITEMWEIGHT>
@@ -232212,7 +232212,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>54200pb036R</ITEMID>
-      <ITEMNAME>Slope 30 1 x 1 x 2/3 with Black Vent Grille Pattern Model Right (Sticker) - Set 8125</ITEMNAME>
+      <ITEMNAME>Slope 30 1 x 1 x 2/3 with Black Vent Grille Pattern Model Right Side &amp;#40;Sticker&amp;#41; - Set 8125</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>33</CATEGORY>
       <ITEMWEIGHT>0.24</ITEMWEIGHT>
@@ -317803,7 +317803,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1247</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Brown Eyebrows, Cheek Lines, Chin Dimple, Open Mouth / Closed Eyes Carbonite Pattern &amp;#40;SW Han Solo&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1247</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -318010,7 +318010,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1248</ITEMID>
       <ITEMNAME>Minifigure, Head Male Stern Black Eyebrows, Crow&amp;#39;s Feet, Cheek Lines, Chin Dimple Pattern</ITEMNAME>
-      <ALTITEMIDS>88475pb1248</ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1248,88475pb1248</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -318028,7 +318028,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1250</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Black Eyebrows, Mouth Lines / Dark Bluish Gray Visor with Silver Squares, Open Smile with Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1250</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -318037,7 +318037,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1251</ITEMID>
       <ITEMNAME>Minifigure, Head Black Eyebrows, Red Sunken Eyes, Scar over Left Eye, Cheek Lines and Wrinkles Pattern</ITEMNAME>
-      <ALTITEMIDS>88475pb1251</ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1251,88475pb1251</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -318586,7 +318586,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1257</ITEMID>
       <ITEMNAME>Minifigure, Head Black Eyebrows, White Pupils, Cheek Lines, Circles Around Eyes, Frown Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1257</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -318595,7 +318595,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1254</ITEMID>
       <ITEMNAME>Minifigure, Head Alien Pau&amp;#39;an with Yellow Eyes, Light Bluish Gray Lines and Red Markings Pattern &amp;#40;SW Inquisitor&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1254</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>1</IMAGECOLOR>
@@ -318676,7 +318676,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1259</ITEMID>
       <ITEMNAME>Minifigure, Head Male White Strip on Forehead and Brown Chin Dimple Pattern &amp;#40;Comic Con Batman&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1259</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -318685,7 +318685,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1260</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Mask with Brown Face and Gold Emblem on Forehead, Open Mouth / Closed Mouth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1260</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>1</IMAGECOLOR>
@@ -318694,7 +318694,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1261</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Gray and White Eyebrows, Cheek Lines, Raised Eyebrow /  Bared Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1261</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -318703,7 +318703,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1263</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Black Thick Eyebrows, Cheek Lines, Closed Mouth  / Open Mouth with Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1263</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -318712,7 +318712,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1264</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Skull Mask with Bright Light Orange Eyes, Skeleton Mouth Smile / Frown Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1264</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>1</IMAGECOLOR>
@@ -318721,7 +318721,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1265</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Orange Eyebrows, Cheek Lines, Closed Mouth / Open Mouth with Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1265</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -318730,7 +318730,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1266</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided White Strip on Forehead and Cheek Lines, Open Mouth Smile / Stubble, Teeth, Angry Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1266</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -319441,7 +319441,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1270</ITEMID>
       <ITEMNAME>Minifigure, Head Black Eyebrows, Wide Eyes, Open Mouth, Teeth and Tongue, Surprised Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1270</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -319450,7 +319450,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1271</ITEMID>
       <ITEMNAME>Minifigure, Head Space Mask with Gold Face Port Pattern &amp;#40;Space Batman&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1271</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>1</IMAGECOLOR>
@@ -319459,7 +319459,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1272</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Medium Blue Goggles, Smile with Teeth / Clenched Teeth Pattern &amp;#40;Captain Cold&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1272</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -320089,7 +320089,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1267</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Black Eyebrows, White Pupils, Open Mouth Smile  / Clenched Teeth Pattern &amp;#40;Cyborg&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1267</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>88</IMAGECOLOR>
@@ -320098,7 +320098,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1276</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Dark Green Eye Mask with Eye Holes, Stubble Beard, Serious / Bared Teeth Pattern &amp;#40;Green Arrow&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1276</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -320107,7 +320107,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1262</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Brown Eyebrows, Stubble Beard, Gold Chin Strap, Serious  / Bared Teeth Pattern &amp;#40;Hawkman&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1262</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -320773,7 +320773,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1282</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Digital Eye Glass over Left Eye, Smirk / Determined Pattern &amp;#40;Curtis Bolt&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1282</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -709995,7 +709995,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>1993</ITEMID>
-      <ITEMNAME>Body, Dreamzzz Creature / Dreamling</ITEMNAME>
+      <ITEMNAME>Body, Dreamzzz Creature, Dreamling / Grimspawn</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>20</CATEGORY>
       <ITEMWEIGHT>0.46</ITEMWEIGHT>
@@ -711273,7 +711273,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb3429</ITEMID>
-      <ITEMNAME>Minifigure, Head Dark Bluish Gray Eyebrows, Eye Shadow and Scar, Yellow Eyes with Silver Outline Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Alien Grimspawn with Dark Bluish Gray Eyebrows, Eye Shadow with Spikes and Scar with Stitches, Yellow Eyes with Silver Outline, Angry Pattern</ITEMNAME>
       <ALTITEMIDS>28621pb0110</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.56</ITEMWEIGHT>
@@ -714351,7 +714351,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb3452</ITEMID>
-      <ITEMNAME>Minifigure, Head Alien Dark Bluish Gray Cheek Lines, Chin Dimple, and Wrinkles, Sunken Eyes and Mouth Pattern &amp;#40;HP Statue of Slytherin Face&amp;#41;</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Alien Statue with Blank Eyes, Dark Bluish Gray Eye Shadow, Cheek Lines, Chin Dimple, Wrinkles and Sunken Mouth Pattern</ITEMNAME>
       <ALTITEMIDS>28621pb0135</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.56</ITEMWEIGHT>
@@ -728553,7 +728553,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>5098</ITEMID>
-      <ITEMNAME>Body, Dreamzzz Creature / Grimspawn Cat</ITEMNAME>
+      <ITEMNAME>Body, Dreamzzz Creature, Grimspawn Cat</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>20</CATEGORY>
       <ITEMWEIGHT>1.2</ITEMWEIGHT>
