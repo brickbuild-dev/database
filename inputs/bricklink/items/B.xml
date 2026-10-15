@@ -47055,7 +47055,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b20njol02pl</ITEMID>
-      <ITEMNAME>NINJAGO Legacy - Ruszaj do akcji! &amp;#40;Polish Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>NINJAGO Legacy - Ruszaj do akcji! &amp;#40;Softcover&amp;#41; &amp;#40;Polish Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -71597,6 +71597,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b21njo21fr</ITEMID>
+      <ITEMNAME>NINJAGO - À la recherche de l'aventure &amp;#40;Softcover&amp;#41; &amp;#40;French Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2021</ITEMYEAR>
+      <ITEMWEIGHT>118</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b23njo01fr</ITEMID>
+      <ITEMNAME>NINJAGO - Les pouvoirs de Nya &amp;#40;Softcover&amp;#41; &amp;#40;French Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>166</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b07exf05nl</ITEMID>
       <ITEMNAME>Exo-Force - Spelletjesboek &amp;#40;Softcover&amp;#41; &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
@@ -71611,6 +71629,15 @@
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b20njol02fr</ITEMID>
+      <ITEMNAME>NINJAGO Legacy - En route pour l'action ! &amp;#40;Hardcover&amp;#41; &amp;#40;French Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>460</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
