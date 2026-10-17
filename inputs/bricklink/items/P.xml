@@ -934,7 +934,7 @@
       <ALTITEMIDS>49153</ALTITEMIDS>
       <CATEGORY>38</CATEGORY>
       <ITEMWEIGHT>0.98</ITEMWEIGHT>
-      <IMAGECOLOR>5</IMAGECOLOR>
+      <IMAGECOLOR>7</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -8314,7 +8314,7 @@
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>141</CATEGORY>
       <ITEMWEIGHT>2.75</ITEMWEIGHT>
-      <IMAGECOLOR>11</IMAGECOLOR>
+      <IMAGECOLOR>153</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -52644,11 +52644,11 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>31007</ITEMID>
-      <ITEMNAME>Primo Brick 1 x 1, Four Duplo Studs on Top</ITEMNAME>
+      <ITEMNAME>Primo Brick 1 x 1 with 4 Duplo Studs on Top</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>294</CATEGORY>
       <ITEMWEIGHT>20.5</ITEMWEIGHT>
-      <IMAGECOLOR>6</IMAGECOLOR>
+      <IMAGECOLOR>7</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -566941,7 +566941,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>42123stk01</ITEMID>
       <ITEMNAME>Sticker Sheet for Set 42123 - &amp;#40;72203/6323435&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>72203</ALTITEMIDS>
       <CATEGORY>160</CATEGORY>
       <ITEMWEIGHT>3.88</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -872804,6 +872804,69 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>63864pb343</ITEMID>
+      <ITEMNAME>Tile 1 x 3 with White &amp;#39;Jingle Ln.&amp;#39; Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>39</CATEGORY>
+      <ITEMWEIGHT>0.39</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>37352pb061</ITEMID>
+      <ITEMNAME>Slope, Curved 1 x 2 with Bottom Stud Holder with Cash Register with White Buttons and Gold Filigree Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>775</CATEGORY>
+      <ITEMWEIGHT>0.63</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6856c01</ITEMID>
+      <ITEMNAME>Torso Dark Blue and Reddish Brown Apron with Gold Book Outline over Striped Shirt with Round Collar Pattern / Tan Arms / Yellow Hands</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.29</ITEMWEIGHT>
+      <IMAGECOLOR>2</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6856</ITEMID>
+      <ITEMNAME>Torso Dark Blue and Reddish Brown Apron with Gold Book Outline over Striped Shirt with Round Collar Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>150</CATEGORY>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
+      <IMAGECOLOR>2</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>3626pb4276</ITEMID>
+      <ITEMNAME>Minifigure, Head Dual Sided Female, Thin Black Eyebrows, Metallic Light Blue Glasses, Nougat Lips and Sight Smile / Open Mouth Smile Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>238</CATEGORY>
+      <ITEMWEIGHT>0.55</ITEMWEIGHT>
+      <IMAGECOLOR>3</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>40899stk01</ITEMID>
+      <ITEMNAME>Sticker Sheet for Set 40899 - &amp;#40;10119089/6630767&amp;#41;</ITEMNAME>
+      <ALTITEMIDS>119089</ALTITEMIDS>
+      <CATEGORY>160</CATEGORY>
+      <ITEMWEIGHT>0.4</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>26603pb666</ITEMID>
+      <ITEMNAME>Tile 2 x 3 with White &amp;#39;ASTRO BOT&amp;#39; Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>39</CATEGORY>
+      <ITEMWEIGHT>0.7</ITEMWEIGHT>
+      <IMAGECOLOR>7</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>4055pb03</ITEMID>
       <ITEMNAME>Minifigure, Head, Modified Tiger with Braided Beard with Dark Red and Light Bluish Gray Markings and Orange Eyes Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
@@ -872846,5 +872909,41 @@
       <CATEGORY>1097</CATEGORY>
       <ITEMWEIGHT>1.3</ITEMWEIGHT>
       <IMAGECOLOR>1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6855c01</ITEMID>
+      <ITEMNAME>Torso SW AT-AT Driver, Light Bluish Gray Jumpsuit, Belt, Chest Panel with Breathing Apparatus with Tubes and Red Rectangle Pattern / Light Bluish Gray Arms / White Hands</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.3</ITEMWEIGHT>
+      <IMAGECOLOR>1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6855</ITEMID>
+      <ITEMNAME>Torso SW AT-AT Driver, Light Bluish Gray Jumpsuit, Belt, Chest Panel with Breathing Apparatus with Tubes and Red Rectangle Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>150</CATEGORY>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
+      <IMAGECOLOR>1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>103479c02</ITEMID>
+      <ITEMNAME>Electric Powered Up Bluetooth Hub with Dark Bluish Gray Bottom, 3 Motors, 6 LED Lights and USB-C Port with Rechargeable Battery 3.6V / 2100mAh / 7.56 Wh - without Pin Holes to Secure Battery &amp;#40;103479c01 / 109481c01&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>463</CATEGORY>
+      <ITEMWEIGHT>263.5</ITEMWEIGHT>
+      <IMAGECOLOR>86</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>113557c02</ITEMID>
+      <ITEMNAME>Electric Powered Up Bluetooth Hub with Dark Bluish Gray Bottom, 3 Motors, 6 LED Lights and USB-C Port with Rechargeable Battery 3.6V / 2100mAh / 7.56 Wh - with Pin Holes to Secure Battery &amp;#40;113557c01 / 113558c01&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>463</CATEGORY>
+      <ITEMWEIGHT>267.1</ITEMWEIGHT>
+      <IMAGECOLOR>86</IMAGECOLOR>
    </ITEM>
 </CATALOG>
