@@ -173615,7 +173615,7 @@
       <ITEMID>twn559</ITEMID>
       <ITEMNAME>Book Nook Owner</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.67</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173624,7 +173624,7 @@
       <ITEMID>twn560</ITEMID>
       <ITEMNAME>Book Nook Patron</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.79</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173635,6 +173635,42 @@
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>3.65</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol439</ITEMID>
+      <ITEMNAME>Man - Tan Knit Cable Sweater, Sand Blue Legs, Dark Brown Hair, Red Scarf</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.72</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol440</ITEMID>
+      <ITEMNAME>Girl - White Dress with Ruffled Collar, Red Short Legs, Dark Brown Hair with Pigtails</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.28</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol441</ITEMID>
+      <ITEMNAME>Boy - Dark Turquoise Track Suit, Blue Medium Legs, Dark Blue Beanie, Dark Tan Hair</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.63</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hol442</ITEMID>
+      <ITEMNAME>Woman - Dark Green Open Jacket, Dark Tan Legs, Light Bluish Gray Hair with Top Knot Bun</ITEMNAME>
+      <CATEGORY>390</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.44</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>

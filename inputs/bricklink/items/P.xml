@@ -120261,7 +120261,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>57900</ITEMID>
-      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot</ITEMNAME>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot, Open Front</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>0.7</ITEMWEIGHT>
@@ -129027,7 +129027,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>crssprt01pb005</ITEMID>
-      <ITEMNAME>Brick 1 x 8 without Bottom Tubes with Cross Side Supports with Blue Volkswagen Logo &amp;#39;VW SERVICE&amp;#39; Serif Pattern</ITEMNAME>
+      <ITEMNAME>Brick 1 x 8 without Bottom Tubes with Cross Side Supports with Blue Volkswagen Logo &amp;#39;VW SERVICE&amp;#39; Serif Small Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>118</CATEGORY>
       <ITEMWEIGHT>3.3</ITEMWEIGHT>
@@ -129045,7 +129045,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>crssprt01pb018</ITEMID>
-      <ITEMNAME>Brick 1 x 8 without Bottom Tubes with Cross Side Supports with Red &amp;#39;STATION&amp;#39; Italic Thin &amp;#40;Letters Wide&amp;#41; Pattern</ITEMNAME>
+      <ITEMNAME>Brick 1 x 8 without Bottom Tubes with Cross Side Supports with Red &amp;#39;STATION&amp;#39; Italic Thin with Squared &amp;#39;O&amp;#39; &amp;#40;Letters Wide&amp;#41; Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>118</CATEGORY>
       <ITEMWEIGHT>3.2</ITEMWEIGHT>
@@ -133248,7 +133248,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>crssprt02pb004</ITEMID>
-      <ITEMNAME>Brick 1 x 6 without Bottom Tubes with Cross Side Supports with Black &amp;#39;STATION&amp;#39; Italic Thin &amp;#40;Letters Wide&amp;#41; Pattern</ITEMNAME>
+      <ITEMNAME>Brick 1 x 6 without Bottom Tubes with Cross Side Supports with Black &amp;#39;STATION&amp;#39; Italic Thin with Squared &amp;#39;O&amp;#39; &amp;#40;Letters Wide&amp;#41; Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>118</CATEGORY>
       <ITEMWEIGHT>2.5</ITEMWEIGHT>
@@ -156809,9 +156809,9 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
-      <ITEMID>crssprt01pb040</ITEMID>
+      <ITEMID>crssprt01pb040b</ITEMID>
       <ITEMNAME>Brick 1 x 8 without Bottom Tubes with Cross Side Supports with Red 'BRANDSTATION' Italic Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>crssprt01pb040</ALTITEMIDS>
       <CATEGORY>118</CATEGORY>
       <ITEMWEIGHT>3.3</ITEMWEIGHT>
       <IMAGECOLOR>1</IMAGECOLOR>
@@ -180120,7 +180120,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>87556pb01</ITEMID>
-      <ITEMNAME>Minifigure, Headgear Helmet SW Stormtrooper Type 2, AT-AT Driver Red Imperial Logo Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot with Breathing Apparatus with AT-AT Driver Red Imperial Logo, Black Lenses and Stripes on Sides Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>1.25</ITEMWEIGHT>
@@ -182874,7 +182874,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>87556pb02</ITEMID>
-      <ITEMNAME>Minifigure, Headgear Helmet SW Stormtrooper Type 2, TIE Defender Pilot Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot with Breathing Apparatus with TIE Defender Pilot Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>1.25</ITEMWEIGHT>
@@ -199928,9 +199928,9 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
-      <ITEMID>crssprt02pb069</ITEMID>
+      <ITEMID>crssprt02pb069a</ITEMID>
       <ITEMNAME>Brick 1 x 6 without Bottom Tubes with Cross Side Supports with Blue &amp;#39;RESTAURANT&amp;#39; Serif Thin Large Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>crssprt02pb069</ALTITEMIDS>
       <CATEGORY>118</CATEGORY>
       <ITEMWEIGHT>2.5</ITEMWEIGHT>
       <IMAGECOLOR>1</IMAGECOLOR>
@@ -262794,7 +262794,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>87556pb03</ITEMID>
-      <ITEMNAME>Minifigure, Headgear Helmet SW Stormtrooper Type 2, TIE Bomber Pilot with Silver Imperial Logo Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot with Breathing Apparatus with TIE Bomber Pilot with Silver Imperial Logo Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>1.25</ITEMWEIGHT>
@@ -289479,7 +289479,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>87556pb04</ITEMID>
-      <ITEMNAME>Minifigure, Headgear Helmet SW Stormtrooper Type 2, TIE Fighter Pilot Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot with Breathing Apparatus with TIE Fighter Pilot Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>1.25</ITEMWEIGHT>
@@ -311268,7 +311268,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>87556pb05</ITEMID>
-      <ITEMNAME>Minifigure, Headgear Helmet SW Stormtrooper Type 2, AT-AT Driver Dark Red Imperial Logo and Large Black Plates on Sides Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot with Breathing Apparatus with AT-AT Driver Dark Red Imperial Logo and Large Black Plates on Sides Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>1.25</ITEMWEIGHT>
@@ -318549,7 +318549,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>87556pb06</ITEMID>
-      <ITEMNAME>Minifigure, Headgear Helmet SW Stormtrooper Type 2, TIE Fighter Pilot Pattern &amp;#40;Rebels Cartoon Style&amp;#41;</ITEMNAME>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot with Breathing Apparatus with TIE Fighter Pilot Pattern &amp;#40;Rebels Cartoon Style&amp;#41;</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>1.25</ITEMWEIGHT>
@@ -321006,7 +321006,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>57900pb01</ITEMID>
-      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot with Dark Bluish Gray Imperial Logos, Red Triangles and Light Bluish Gray Lines Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot, Open Front with Dark Bluish Gray Imperial Logos, Red Triangles and Light Bluish Gray Lines Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>0.7</ITEMWEIGHT>
@@ -330231,7 +330231,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>87556pb07</ITEMID>
-      <ITEMNAME>Minifigure, Headgear Helmet SW Stormtrooper Type 2, TIE Fighter Pilot Pattern 2</ITEMNAME>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot with Breathing Apparatus with TIE Fighter Pilot Pattern 2</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>1.25</ITEMWEIGHT>
@@ -351903,7 +351903,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>57900pb02</ITEMID>
-      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot with White Imperial Logos, Black Triangles and Dark Bluish Gray Lines Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot, Open Front with White Imperial Logos, Black Triangles and Dark Bluish Gray Lines Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>0.7</ITEMWEIGHT>
@@ -384618,7 +384618,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>57900pb03</ITEMID>
-      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot with Black Goggles with White Reflection Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot, Open Front with Black Goggles with White Reflection Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>0.7</ITEMWEIGHT>
@@ -446808,7 +446808,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>87556pb08</ITEMID>
-      <ITEMNAME>Minifigure, Headgear Helmet SW Stormtrooper Type 2, TIE Fighter Pilot Pattern 3</ITEMNAME>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot with Breathing Apparatus with TIE Fighter Pilot Pattern 3</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>1.25</ITEMWEIGHT>
@@ -447411,7 +447411,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>36043pb01</ITEMID>
-      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot, Raised Forehead with Light Bluish Gray Goggles with Black Lenses, Red Square Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot, Open Front and Raised Forehead with Light Bluish Gray Goggles with Black Lenses, Red Square Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>0.5</ITEMWEIGHT>
@@ -473988,7 +473988,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>87556pb09</ITEMID>
-      <ITEMNAME>Minifigure, Headgear Helmet SW Stormtrooper Type 2, Inferno Squad Agent Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot with Breathing Apparatus with Inferno Squad Agent Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>1.25</ITEMWEIGHT>
@@ -482781,7 +482781,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>87556pb10</ITEMID>
-      <ITEMNAME>Minifigure, Headgear Helmet SW Stormtrooper Type 2, Black Ace Skull Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot with Breathing Apparatus with Black Ace Skull Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>1.25</ITEMWEIGHT>
@@ -531123,7 +531123,7 @@
       <ITEMNAME>Train Battery Box Car with Three Contact Holes, Red Switch Lever, Black Magnets, and Black Wheels</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>124</CATEGORY>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>60</ITEMWEIGHT>
       <IMAGECOLOR>5</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -565887,7 +565887,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>87556pb11</ITEMID>
-      <ITEMNAME>Minifigure, Headgear Helmet SW Stormtrooper Type 2, AT-AT Driver Dark Red Imperial Logo and Small Black Plates on Sides Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot with Breathing Apparatus with AT-AT Driver Dark Red Imperial Logo and Small Black Plates on Sides Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>1.25</ITEMWEIGHT>
@@ -565905,7 +565905,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>36043pb02</ITEMID>
-      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot, Raised Forehead with Black Goggles with White Reflections and Silver Border Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot, Open Front and Raised Forehead with Black Goggles with White Reflections and Silver Border Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>0.5</ITEMWEIGHT>
@@ -578820,7 +578820,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>87556</ITEMID>
-      <ITEMNAME>Minifigure, Headgear Helmet SW Stormtrooper Type 2 Plain</ITEMNAME>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot with Breathing Apparatus</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>1.25</ITEMWEIGHT>
@@ -630003,7 +630003,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>36043pb03</ITEMID>
-      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot, Raised Forehead with Black Goggles with White Reflections Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot, Open Front and Raised Forehead with Black Goggles with White Reflections Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>0.5</ITEMWEIGHT>
@@ -681726,7 +681726,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>87556pb12</ITEMID>
-      <ITEMNAME>Minifigure, Headgear Helmet SW Stormtrooper Type 2, TIE Bomber Pilot with White Imperial Logo Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot with Breathing Apparatus with TIE Bomber Pilot White Imperial Logo Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>1.25</ITEMWEIGHT>
@@ -809440,7 +809440,7 @@
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>150</CATEGORY>
       <ITEMWEIGHT>0.82</ITEMWEIGHT>
-      <IMAGECOLOR>-1</IMAGECOLOR>
+      <IMAGECOLOR>1</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -842781,7 +842781,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>crssprt01pb099</ITEMID>
-      <ITEMNAME>Brick 1 x 8 without Bottom Tubes with Cross Side Supports with Black &amp;#39;STATION&amp;#39; Italic Thin &amp;#40;Letters Wide&amp;#41; Pattern</ITEMNAME>
+      <ITEMNAME>Brick 1 x 8 without Bottom Tubes with Cross Side Supports with Black &amp;#39;STATION&amp;#39; Italic Thin with Rounded &amp;#39;O&amp;#39; &amp;#40;Letters Wide&amp;#41; Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>118</CATEGORY>
       <ITEMWEIGHT>3.2</ITEMWEIGHT>
@@ -870491,6 +870491,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>crssprt01pb125</ITEMID>
+      <ITEMNAME>Brick 1 x 8 without Bottom Tubes with Cross Side Supports with Blue Volkswagen Logo 'VW SERVICE' Serif Large Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>118</CATEGORY>
+      <ITEMWEIGHT>3.3</ITEMWEIGHT>
+      <IMAGECOLOR>1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>87079pb1712</ITEMID>
       <ITEMNAME>Tile 2 x 4 with 'I Heart LEGO STORE Szczecin' Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
@@ -871229,6 +871238,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>crssprt01pb040c</ITEMID>
+      <ITEMNAME>Brick 1 x 8 without Bottom Tubes with Cross Side Supports with Black 'BRANDSTATION' Italic Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>118</CATEGORY>
+      <ITEMWEIGHT>3.3</ITEMWEIGHT>
+      <IMAGECOLOR>1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>crssprt02pb005</ITEMID>
+      <ITEMNAME>Brick 1 x 6 without Bottom Tubes with Cross Side Supports with Blue Volkswagen Logo 'VW GARASJE' Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>118</CATEGORY>
+      <ITEMWEIGHT>2.5</ITEMWEIGHT>
+      <IMAGECOLOR>1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>973pb6817c01</ITEMID>
       <ITEMNAME>Torso Pixelated Batman Suit with Black and Bright Light Blue Bat and Belt, Dark Purple Muscles Outline Pattern / Medium Lavender Arms / Dark Purple Hands</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
@@ -871499,6 +871526,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>crssprt02pb123c</ITEMID>
+      <ITEMNAME>Brick 1 x 6 without Bottom Tubes with Cross Side Supports with Black 'TAXI' Serif Bold Large Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>118</CATEGORY>
+      <ITEMWEIGHT>2.5</ITEMWEIGHT>
+      <IMAGECOLOR>1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>43026stk01</ITEMID>
       <ITEMNAME>Sticker Sheet for Set 43026 - &amp;#40;10119822/6646200&amp;#41;</ITEMNAME>
       <ALTITEMIDS>119822</ALTITEMIDS>
@@ -871622,6 +871658,15 @@
       <CATEGORY>534</CATEGORY>
       <ITEMWEIGHT>6.9</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>crssprt02pb069b</ITEMID>
+      <ITEMNAME>Brick 1 x 6 without Bottom Tubes with Cross Side Supports with Red 'RESTAURANT' Serif Thin Large Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>118</CATEGORY>
+      <ITEMWEIGHT>2.5</ITEMWEIGHT>
+      <IMAGECOLOR>1</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -872216,6 +872261,15 @@
       <CATEGORY>847</CATEGORY>
       <ITEMWEIGHT>0.65</ITEMWEIGHT>
       <IMAGECOLOR>68</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>3005ptOstrokes</ITEMID>
+      <ITEMNAME>Brick 1 x 1 with Blue Capital Letter O with Stroke &amp;#40;Ø&amp;#41; Pattern &amp;#40;Serif Font&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>118</CATEGORY>
+      <ITEMWEIGHT>0.54</ITEMWEIGHT>
+      <IMAGECOLOR>1</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -872945,5 +872999,32 @@
       <CATEGORY>463</CATEGORY>
       <ITEMWEIGHT>267.1</ITEMWEIGHT>
       <IMAGECOLOR>86</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>118762pb01</ITEMID>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Remnant Snowtrooper with Molded Dark Bluish Gray Breathing Apparatus and Printed Black Lenses and Markings Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>16</CATEGORY>
+      <ITEMWEIGHT>0.85</ITEMWEIGHT>
+      <IMAGECOLOR>1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>87556pb13</ITEMID>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Imperial Pilot with Breathing Apparatus with AT-AT Driver Red Imperial Logo, Black Lenses, Light Bluish Gray Visor Outline Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>16</CATEGORY>
+      <ITEMWEIGHT>1.25</ITEMWEIGHT>
+      <IMAGECOLOR>1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>4066pb910</ITEMID>
+      <ITEMNAME>Duplo, Brick 1 x 2 x 2 with MONSTER PARTY 2026 LEGOLAND Discovery Centre Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>506</CATEGORY>
+      <ITEMWEIGHT>7.9</ITEMWEIGHT>
+      <IMAGECOLOR>4</IMAGECOLOR>
    </ITEM>
 </CATALOG>
