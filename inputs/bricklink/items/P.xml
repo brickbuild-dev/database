@@ -287535,8 +287535,8 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1025</ITEMID>
-      <ITEMNAME>Minifigure, Head Alien Robot with Red Visor and 9 Mouth Squares Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ITEMNAME>Minifigure, Head Alien Robot with Red Visor and Black Grid of Squares Mouth Pattern</ITEMNAME>
+      <ALTITEMIDS>3626cpb1025</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>95</IMAGECOLOR>
@@ -347233,7 +347233,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1443</ITEMID>
       <ITEMNAME>Minifigure, Head Alien with SW Darth Maul, Red Face, Evil Smile Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1443</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>11</IMAGECOLOR>
@@ -371416,7 +371416,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1569</ITEMID>
       <ITEMNAME>Minifigure, Head Black Eyebrows, Medium Nougat Chin Dimple, Open Mouth Smile with Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1569</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -477229,7 +477229,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2308</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Black Eyebrows, Medium Nougat Chin Dimple, Lopsided Grin / Open Mouth Smile with Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb2308</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -525577,7 +525577,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2588</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Female Reddish Brown Eyebrows, Black Glasses, Nougat Lips, Beauty Mark, Scared / Lopsided Smile Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb2588</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -528106,7 +528106,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2594</ITEMID>
       <ITEMNAME>Minifigure, Head Alien with SW Darth Maul, Red Face, Eyes with Pupils, Neutral Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb2594</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>11</IMAGECOLOR>
@@ -529033,7 +529033,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2596</ITEMID>
       <ITEMNAME>Minifigure, Head Black Eyebrows, Chin Dimple, Open Mouth Smile with Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb2596</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -534460,7 +534460,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2616</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Black Thick Eyebrows, Closed Eyes and Open Mouth with Red Tongue / Angry with Bared Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb2616</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -535315,7 +535315,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2618</ITEMID>
       <ITEMNAME>Minifigure, Head Female Black Eyebrows, Medium Nougat Lips, Sand Blue Headband with Bright Light Orange Stripes, Smile Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb2618</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -853373,15 +853373,6 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
-      <ITEMID>BA402pb01</ITEMID>
-      <ITEMNAME>Stickered Assembly 9 x 1 x 2 with Black 'London Edinburgh' on White Background Pattern &amp;#40;Sticker&amp;#41; - Set 131</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
-      <CATEGORY>582</CATEGORY>
-      <ITEMWEIGHT>6</ITEMWEIGHT>
-      <IMAGECOLOR>7</IMAGECOLOR>
-   </ITEM>
-   <ITEM>
-      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb4159</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Reddish Brown Small Eyebrows, Dark Orange Scar on Cheek, Open Mouth Smile with Top Teeth and Red Tongue / Angry Scowl Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
@@ -871634,6 +871625,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>60592c13</ITEMID>
+      <ITEMNAME>Window 1 x 2 x 2 Flat Front with Light Bluish Gray Glass &amp;#40;60592 / 60601&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>113</CATEGORY>
+      <ITEMWEIGHT>1.3</ITEMWEIGHT>
+      <IMAGECOLOR>86</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>116128pb01</ITEMID>
       <ITEMNAME>Ball, Pokémon Poké Ball with Molded Red Top and Black Band Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
@@ -872858,6 +872858,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>6636pb409</ITEMID>
+      <ITEMNAME>Tile 1 x 6 with White &amp;#39;AVENGERS: DOOMSDAY SENTINEL BATTLE&amp;#39; Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>39</CATEGORY>
+      <ITEMWEIGHT>0.83</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>2431pb0961</ITEMID>
       <ITEMNAME>Tile 1 x 4 with Dark Bluish Gray Lines and Rectangles Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
@@ -872873,6 +872882,24 @@
       <CATEGORY>39</CATEGORY>
       <ITEMWEIGHT>0.39</ITEMWEIGHT>
       <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>24593pb26</ITEMID>
+      <ITEMNAME>Cylinder Half 2 x 4 x 2 with 1 x 2 Cutout with Olive Green Eyes, Dark Bluish Gray Mouth and Lavender Face Pattern &amp;#40;Sentinel&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>926</CATEGORY>
+      <ITEMWEIGHT>2.3</ITEMWEIGHT>
+      <IMAGECOLOR>71</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>24593pb27</ITEMID>
+      <ITEMNAME>Cylinder Half 2 x 4 x 2 with 1 x 2 Cutout with Olive Green Eyes, Dark Bluish Gray Mouth and Mutating Lavender Face with Holes Pattern &amp;#40;Sentinel&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>926</CATEGORY>
+      <ITEMWEIGHT>2.3</ITEMWEIGHT>
+      <IMAGECOLOR>71</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -873035,5 +873062,59 @@
       <CATEGORY>506</CATEGORY>
       <ITEMWEIGHT>7.9</ITEMWEIGHT>
       <IMAGECOLOR>4</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6857</ITEMID>
+      <ITEMNAME>Torso Robe, Gold and Sand Green Armor, Dark Orange Laces, Orange Shirt, Ninjago Logogram &amp;#39;WF!&amp;#39; and Flame with Face Logo on Back Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>150</CATEGORY>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
+      <IMAGECOLOR>59</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6857c01</ITEMID>
+      <ITEMNAME>Torso Robe, Gold and Sand Green Armor, Dark Orange Laces, Orange Shirt, Ninjago Logogram &amp;#39;WF!&amp;#39; and Flame with Face Logo on Back Pattern / Yellow Arms / Black Hands</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.3</ITEMWEIGHT>
+      <IMAGECOLOR>59</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6858</ITEMID>
+      <ITEMNAME>Torso Gold Armor Plates, Orange and Dark Red Logo and Lines Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>150</CATEGORY>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
+      <IMAGECOLOR>77</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6858c01</ITEMID>
+      <ITEMNAME>Torso Gold Armor Plates, Orange and Dark Red Logo and Lines Pattern / Pearl Dark Gray Arm Left / Pearl Gold Arm Right / Pearl Gold Hand Left / Pearl Dark Gray Hand Right</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.3</ITEMWEIGHT>
+      <IMAGECOLOR>77</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6859</ITEMID>
+      <ITEMNAME>Torso Bare Chest with Dark Blue Tattoos and Muscles Outline, Dark Red Waist Sash with Silver Buckle Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>150</CATEGORY>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
+      <IMAGECOLOR>55</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6859c01</ITEMID>
+      <ITEMNAME>Torso Bare Chest with Dark Blue Tattoos and Muscles Outline, Dark Red Waist Sash with Silver Buckle Pattern / Sand Blue Arms / Dark Bluish Gray Hands</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.3</ITEMWEIGHT>
+      <IMAGECOLOR>55</IMAGECOLOR>
    </ITEM>
 </CATALOG>
