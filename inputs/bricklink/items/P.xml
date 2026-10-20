@@ -377698,7 +377698,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>26077</ITEMID>
       <ITEMNAME>Minifigure Costume Tail Imp / Devil</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>8146</ALTITEMIDS>
       <CATEGORY>142</CATEGORY>
       <ITEMWEIGHT>0.2</ITEMWEIGHT>
       <IMAGECOLOR>5</IMAGECOLOR>
@@ -430888,7 +430888,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1973</ITEMID>
       <ITEMNAME>Minifigure, Head Male Angry Eyebrows and Scowl, Reddish Brown Left Cheek Line Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1973</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.57</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -435685,7 +435685,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2029</ITEMID>
       <ITEMNAME>Minifigure, Head Alien Robot with Black Eyebrows, Metallic Light Blue Eyes, Cheek Lines, Angry Bared Teeth, Vents and Silver Circle on Back Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb2029</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>95</IMAGECOLOR>
@@ -448843,7 +448843,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2145</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Female Reddish Brown Eyebrows, Medium Nougat Freckles and Lips, Smirk / Wink and Open Mouth with Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb2145</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -522391,7 +522391,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2575</ITEMID>
       <ITEMNAME>Minifigure, Head Mask with White Eye Holes, Dark Silver Eyebrows and Cheek Lines, Furrowed Brow Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb2575</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>11</IMAGECOLOR>
@@ -522544,7 +522544,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2573</ITEMID>
       <ITEMNAME>Minifigure, Head Alien with Black Bushy Eyebrows, Yellow Eyes, Dark Red Stubble, Open Mouth Smile with White Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb2573</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>5</IMAGECOLOR>
@@ -522868,7 +522868,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2577</ITEMID>
       <ITEMNAME>Minifigure, Head Alien with Spider-Man Dark Bluish Gray Webbing, Dark Silver Goggles, Large Silver Eyes with Reflections Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb2577</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>11</IMAGECOLOR>
@@ -701374,7 +701374,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb3328</ITEMID>
       <ITEMNAME>Minifigure, Head Alien Robot Black Eyebrows, Metallic Light Blue Eyes, Open Mouth Smile, and Black Circle and Mechanical Panels on Back Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb3328</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>95</IMAGECOLOR>
@@ -832264,7 +832264,7 @@
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>1409</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
-      <IMAGECOLOR>105</IMAGECOLOR>
+      <IMAGECOLOR>2</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -861113,6 +861113,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>41748pb101</ITEMID>
+      <ITEMNAME>Wedge 6 x 2 Left with Black Wood Grain and Screws Pattern Model Front End &amp;#40;Sticker&amp;#41; - Set 71469</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>578</CATEGORY>
+      <ITEMWEIGHT>2.43</ITEMWEIGHT>
+      <IMAGECOLOR>85</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>41747pb101</ITEMID>
+      <ITEMNAME>Wedge 6 x 2 Right with Black Wood Grain and Screws Pattern Model Front End &amp;#40;Sticker&amp;#41; - Set 71469</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>578</CATEGORY>
+      <ITEMWEIGHT>2.43</ITEMWEIGHT>
+      <IMAGECOLOR>85</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>49612pb05</ITEMID>
       <ITEMNAME>Brick, Round Corner 4 x 4 x 2 2/3 Dome Top with Bright Pink Circles, Cat Face with Dark Purple Eyes, Nose, Mouth and Outline Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
@@ -873116,5 +873134,41 @@
       <CATEGORY>1097</CATEGORY>
       <ITEMWEIGHT>1.3</ITEMWEIGHT>
       <IMAGECOLOR>55</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6860</ITEMID>
+      <ITEMNAME>Torso Vest Open with Pockets and Dark Silver Zipper, Dark Blue Shirt, Reddish Brown Belt, Black Sunglasses Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>150</CATEGORY>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
+      <IMAGECOLOR>69</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6860c01</ITEMID>
+      <ITEMNAME>Torso Vest Open with Pockets and Dark Silver Zipper, Dark Blue Shirt, Reddish Brown Belt, Black Sunglasses Pattern / Dark Blue Arms / Light Nougat Hands</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.3</ITEMWEIGHT>
+      <IMAGECOLOR>69</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6861</ITEMID>
+      <ITEMNAME>Torso Leather Jacket Open with Pockets, Dark Tan Pouches, White Shirt, Reddish Brown Belt with Buckle Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>150</CATEGORY>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
+      <IMAGECOLOR>48</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6861c01</ITEMID>
+      <ITEMNAME>Torso Leather Jacket Open with Pockets, Dark Tan Pouches, White Shirt, Reddish Brown Belt with Buckle Pattern / Sand Green Arms / Dark Tan Hands</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.3</ITEMWEIGHT>
+      <IMAGECOLOR>48</IMAGECOLOR>
    </ITEM>
 </CATALOG>

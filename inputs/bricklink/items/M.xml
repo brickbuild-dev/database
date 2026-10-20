@@ -107004,7 +107004,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh0630</ITEMID>
-      <ITEMNAME>Yelena Belova</ITEMNAME>
+      <ITEMNAME>Yelena Belova - Olive Green and White Outfit, Bright Light Yellow Hair</ITEMNAME>
       <CATEGORY>768</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>3.7</ITEMWEIGHT>
@@ -107715,7 +107715,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>twn192b</ITEMID>
-      <ITEMNAME>Chef - White Torso with 8 Buttons, No Wrinkles Front or Back, with Back Print, White Legs, Standard Grin</ITEMNAME>
+      <ITEMNAME>Chef - White Torso with 8 Buttons, No Wrinkles Front or Back, WITH Back Print, White Legs, Standard Grin</ITEMNAME>
       <CATEGORY>67</CATEGORY>
       <ITEMYEAR>2014</ITEMYEAR>
       <ITEMWEIGHT>3.78</ITEMWEIGHT>
@@ -173558,10 +173558,55 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1172</ITEMID>
+      <ITEMNAME>Yelena Belova - Dark Bluish Gray Outfit, Tan Hair</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.72</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1170</ITEMID>
+      <ITEMNAME>Red Guardian - Helmet</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.5</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1173</ITEMID>
+      <ITEMNAME>Winter Soldier &amp;#40;Bucky Barnes&amp;#41; - Black Hair, Printed Left Arm</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.59</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1174</ITEMID>
+      <ITEMNAME>Human Torch</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.82</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>sh1171</ITEMID>
+      <ITEMNAME>Sentry</ITEMNAME>
+      <CATEGORY>768</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.77</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sh1168</ITEMID>
       <ITEMNAME>Nightcrawler</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.76</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173570,7 +173615,7 @@
       <ITEMID>sh1165</ITEMID>
       <ITEMNAME>Reed Richards &amp;#40;Mister Fantastic&amp;#41; - Long Legs</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.93</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173579,7 +173624,7 @@
       <ITEMID>sh1166</ITEMID>
       <ITEMNAME>Thor - Flexible Rubber Cape, Black Legs, Dark Tan Spiked Hair</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.55</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173588,7 +173633,7 @@
       <ITEMID>sh1169</ITEMID>
       <ITEMNAME>Mystique</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.56</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173597,7 +173642,7 @@
       <ITEMID>sh1167</ITEMID>
       <ITEMNAME>Magneto - Dark Red Outfit, Flexible Rubber Cape</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.55</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
