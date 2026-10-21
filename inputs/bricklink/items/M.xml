@@ -2199,7 +2199,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0025</ITEMID>
-      <ITEMNAME>Padmé Naberrie &amp;#40;Amidala&amp;#41; - Yellow Head</ITEMNAME>
+      <ITEMNAME>Padmé Naberrie &amp;#40;Amidala&amp;#41; - Yellow Head {Padme}</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>1999</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -32448,7 +32448,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0181</ITEMID>
-      <ITEMNAME>Starkiller / Galen Marek &amp;#40;Darth Vader’s Apprentice&amp;#41;</ITEMNAME>
+      <ITEMNAME>Starkiller / Galen Marek &amp;#40;Darth Vader's Apprentice&amp;#41;</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2008</ITEMYEAR>
       <ITEMWEIGHT>3.33</ITEMWEIGHT>
@@ -39855,7 +39855,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>pi121</ITEMID>
-      <ITEMNAME>Captain’s Daughter</ITEMNAME>
+      <ITEMNAME>Captain's Daughter</ITEMNAME>
       <CATEGORY>61</CATEGORY>
       <ITEMYEAR>2010</ITEMYEAR>
       <ITEMWEIGHT>5.03</ITEMWEIGHT>
@@ -46488,7 +46488,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0324</ITEMID>
-      <ITEMNAME>Padmé Naberrie &amp;#40;Amidala&amp;#41; - Light Nought Head</ITEMNAME>
+      <ITEMNAME>Padmé Naberrie &amp;#40;Amidala&amp;#41; - Light Nought Head {Padme}</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2011</ITEMYEAR>
       <ITEMWEIGHT>4.1</ITEMWEIGHT>
@@ -51996,7 +51996,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0411</ITEMID>
-      <ITEMNAME>Padmé Amidala - Senator, Large Eyes, Red Lips</ITEMNAME>
+      <ITEMNAME>Padmé Amidala - Senator, Large Eyes, Red Lips {Padme}</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2012</ITEMYEAR>
       <ITEMWEIGHT>3.54</ITEMWEIGHT>
@@ -56316,7 +56316,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw0490</ITEMID>
-      <ITEMNAME>Padmé Amidala - Geonosis Arena</ITEMNAME>
+      <ITEMNAME>Padmé Amidala - Geonosis Arena {Padme}</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>3.55</ITEMWEIGHT>
@@ -99381,7 +99381,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1023</ITEMID>
-      <ITEMNAME>Padmé Naberrie &amp;#40;Amidala&amp;#41; - Light Nougat Head, Medium Legs</ITEMNAME>
+      <ITEMNAME>Padmé Naberrie &amp;#40;Amidala&amp;#41; - Light Nougat Head, Medium Legs {Padme}</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
@@ -141114,7 +141114,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>sw1303</ITEMID>
-      <ITEMNAME>Padmé Amidala - Senator, Nougat Lips</ITEMNAME>
+      <ITEMNAME>Padmé Amidala - Senator, Nougat Lips {Padme}</ITEMNAME>
       <CATEGORY>65</CATEGORY>
       <ITEMYEAR>2023</ITEMYEAR>
       <ITEMWEIGHT>3.4</ITEMWEIGHT>
@@ -163509,7 +163509,7 @@
       <ITEMNAME>Mrs. Claus - Red Holiday Sweater and Wavy Skirt &amp;#40;BAM&amp;#41;</ITEMNAME>
       <CATEGORY>976</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>4.43</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -171651,7 +171651,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1090</ITEMID>
-      <ITEMNAME>Kai ZX - Legacy, Neck Bracket &amp;#40;Ninjago Destiny&amp;#39;s Bounty Adventures Board Game&amp;#41;</ITEMNAME>
+      <ITEMNAME>Kai ZX - Legacy, Neck Bracket &amp;#40;Ninjago Destiny's Bounty Adventures Board Game&amp;#41;</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>4.22</ITEMWEIGHT>
@@ -171660,7 +171660,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1091</ITEMID>
-      <ITEMNAME>Zane ZX - Legacy, Neck Bracket &amp;#40;Ninjago Destiny&amp;#39;s Bounty Adventures Board Game&amp;#41;</ITEMNAME>
+      <ITEMNAME>Zane ZX - Legacy, Neck Bracket &amp;#40;Ninjago Destiny's Bounty Adventures Board Game&amp;#41;</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>4.22</ITEMWEIGHT>
@@ -171669,7 +171669,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1092</ITEMID>
-      <ITEMNAME>Cole ZX - Legacy, Neck Bracket &amp;#40;Ninjago Destiny&amp;#39;s Bounty Adventures Board Game&amp;#41;</ITEMNAME>
+      <ITEMNAME>Cole ZX - Legacy, Neck Bracket &amp;#40;Ninjago Destiny's Bounty Adventures Board Game&amp;#41;</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>4.22</ITEMWEIGHT>
@@ -173561,7 +173561,7 @@
       <ITEMID>sh1172</ITEMID>
       <ITEMNAME>Yelena Belova - Dark Bluish Gray Outfit, Tan Hair</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.72</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173570,7 +173570,7 @@
       <ITEMID>sh1170</ITEMID>
       <ITEMNAME>Red Guardian - Helmet</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.5</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173579,7 +173579,7 @@
       <ITEMID>sh1173</ITEMID>
       <ITEMNAME>Winter Soldier &amp;#40;Bucky Barnes&amp;#41; - Black Hair, Printed Left Arm</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.59</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173588,7 +173588,7 @@
       <ITEMID>sh1174</ITEMID>
       <ITEMNAME>Human Torch</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.82</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173597,7 +173597,7 @@
       <ITEMID>sh1171</ITEMID>
       <ITEMNAME>Sentry</ITEMNAME>
       <CATEGORY>768</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.77</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
