@@ -58864,7 +58864,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>x66px4</ITEMID>
       <ITEMNAME>Plastic Triangle 6 x 12 Wing with Spider Web Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>71521</ALTITEMIDS>
       <CATEGORY>161</CATEGORY>
       <ITEMWEIGHT>1.1</ITEMWEIGHT>
       <IMAGECOLOR>12</IMAGECOLOR>
@@ -415776,7 +415776,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3005pb028</ITEMID>
-      <ITEMNAME>Brick 1 x 1 with Red Vertical Stripes and Yellow 'POP' in Speech Bubble Pattern &amp;#40;Popcorn Box&amp;#41;</ITEMNAME>
+      <ITEMNAME>Brick 1 x 1 with Red Vertical Stripes and Bright Light Orange &amp;#39;POP&amp;#39; in Speech Bubble Pattern &amp;#40;Popcorn Box&amp;#41;</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>118</CATEGORY>
       <ITEMWEIGHT>0.44</ITEMWEIGHT>
@@ -836535,7 +836535,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>87610pb30</ITEMID>
-      <ITEMNAME>Minifigure, Headgear Helmet with Holes, SW Mandalorian with Black and Dark Red Visor, Dark Green Cheek Indents and Silver Battle Damage Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Headgear Helmet with Holes, SW Mandalorian with Black and Dark Red Visor, Dark Green Cheek Indents, Dark Orange Stripes, Silver Battle Damage Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>0.59</ITEMWEIGHT>
@@ -857144,6 +857144,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>BA339pb02</ITEMID>
+      <ITEMNAME>Stickered Assembly 2 x 2 x 1 1/3 with Silver Radio with Buttons and Line on Black Background Pattern &amp;#40;Sticker&amp;#41; - Set 8169</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>582</CATEGORY>
+      <ITEMWEIGHT>1.32</ITEMWEIGHT>
+      <IMAGECOLOR>85</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>FTGpb575c01</ITEMID>
       <ITEMNAME>Torso Mini Doll Girl Reddish Orange Sleeveless Top with White &amp;#39;98&amp;#39; and Stripes Pattern, Medium Tan Arms with Hands</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
@@ -868817,6 +868826,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>3008pb203</ITEMID>
+      <ITEMNAME>Brick 1 x 8 with Octan Logo Pattern &amp;#40;Sticker&amp;#41; - Set 6543</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>118</CATEGORY>
+      <ITEMWEIGHT>3.21</ITEMWEIGHT>
+      <IMAGECOLOR>1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>26603pb656</ITEMID>
       <ITEMNAME>Tile 2 x 3 with Mayor Manor Mayor Portrait with Gold Frame, Key and Cat Hanging in Curtain Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
@@ -870879,7 +870897,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>30144pb516</ITEMID>
-      <ITEMNAME>Brick 2 x 4 x 3 with 2026 LEGOLAND Deutschland Resort and NINJAGO 15 Logo Lower Left Quarter with Kai Minifigure Pattern</ITEMNAME>
+      <ITEMNAME>Brick 2 x 4 x 3 with 2026 LEGOLAND Deutschland Resort and NINJAGO 15 Logo Lower Left Quarter with Nya Minifigure Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>534</CATEGORY>
       <ITEMWEIGHT>6.9</ITEMWEIGHT>
@@ -871829,6 +871847,24 @@
       <CATEGORY>461</CATEGORY>
       <ITEMWEIGHT>1.8</ITEMWEIGHT>
       <IMAGECOLOR>5</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>1611pb03</ITEMID>
+      <ITEMNAME>Minifigure, Headgear Head Cover, Costume Robot with Rivets, Gold Levers and Screen with Heart Beat Pattern &amp;#40;BAM&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>16</CATEGORY>
+      <ITEMWEIGHT>1.65</ITEMWEIGHT>
+      <IMAGECOLOR>39</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>90397pb025</ITEMID>
+      <ITEMNAME>Minifigure, Utensil Surfboard Standard with Sand Blue Wooden Planks with Silver Nails Pattern &amp;#40;BAM&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>943</CATEGORY>
+      <ITEMWEIGHT>1.55</ITEMWEIGHT>
+      <IMAGECOLOR>156</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -873245,6 +873281,87 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>87079pb1726</ITEMID>
+      <ITEMNAME>Tile 2 x 4 with Blue Curved Lines Pattern &amp;#40;BrickHeadz Batman Cowl&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>39</CATEGORY>
+      <ITEMWEIGHT>0.9</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>87079pb1727</ITEMID>
+      <ITEMNAME>Tile 2 x 4 with Red and Yellow Superman 'S' Logo and Dark Blue Muscles Outline Pattern &amp;#40;BrickHeadz Superman Torso&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>39</CATEGORY>
+      <ITEMWEIGHT>0.9</ITEMWEIGHT>
+      <IMAGECOLOR>7</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>3010pb384</ITEMID>
+      <ITEMNAME>Brick 1 x 4 with Black Bat and Dark Bluish Gray Lines Pattern &amp;#40;BrickHeadz Batman Torso&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>118</CATEGORY>
+      <ITEMWEIGHT>1.57</ITEMWEIGHT>
+      <IMAGECOLOR>86</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>2431pb0962</ITEMID>
+      <ITEMNAME>Tile 1 x 4 with Tan Arrows Pattern &amp;#40;BrickHeadz Stripe Forehead&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>39</CATEGORY>
+      <ITEMWEIGHT>0.54</ITEMWEIGHT>
+      <IMAGECOLOR>80</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>3068pb2857</ITEMID>
+      <ITEMNAME>Tile 2 x 2 with 3 Tan Curved Stripes Pattern &amp;#40;BrickHeadz Stripe Upper Arm&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>39</CATEGORY>
+      <ITEMWEIGHT>0.5</ITEMWEIGHT>
+      <IMAGECOLOR>80</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>42511c08</ITEMID>
+      <ITEMNAME>Minifigure, Utensil Skateboard Deck with Red Wheels &amp;#40;42511 / 2496&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>18</CATEGORY>
+      <ITEMWEIGHT>2.1</ITEMWEIGHT>
+      <IMAGECOLOR>150</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>88930pb218</ITEMID>
+      <ITEMNAME>Slope, Curved 2 x 4 x 2/3 with Bottom Tubes with Silver Half Circle, Lines and 6 Dark Bluish Gray Dots Pattern &amp;#40;BrickHeadz Doctor Doom Forehead&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>775</CATEGORY>
+      <ITEMWEIGHT>1.35</ITEMWEIGHT>
+      <IMAGECOLOR>86</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>93273pb257</ITEMID>
+      <ITEMNAME>Slope, Curved 4 x 1 x 2/3 Double with Dark Bluish Gray Mouth, 6 Dots and 2 Silver Quadrangles Pattern &amp;#40;BrickHeadz Doctor Doom Lower Face&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>775</CATEGORY>
+      <ITEMWEIGHT>0.6</ITEMWEIGHT>
+      <IMAGECOLOR>86</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>75902pb43</ITEMID>
+      <ITEMNAME>Minifigure, Shield Circular / Round Convex Face with Silver Concentric Circles, Dark Red Star and Ring on Black Background Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>418</CATEGORY>
+      <ITEMWEIGHT>0.58</ITEMWEIGHT>
+      <IMAGECOLOR>85</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>970c00pb2016</ITEMID>
       <ITEMNAME>Hips and Legs with Coattails with Tan Fur Lining, Dark Bluish Gray Shirt Tail Outline Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
@@ -873269,5 +873386,32 @@
       <CATEGORY>1098</CATEGORY>
       <ITEMWEIGHT>1.18</ITEMWEIGHT>
       <IMAGECOLOR>55</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>970c00pb2019</ITEMID>
+      <ITEMNAME>Hips and Legs with Gold Armor Plates with Orange Trim, Knee Pads and Shoes Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1098</CATEGORY>
+      <ITEMWEIGHT>1.18</ITEMWEIGHT>
+      <IMAGECOLOR>77</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>970c00pb2020</ITEMID>
+      <ITEMNAME>Hips and Legs with SW Boba Fett Dark Green Armor, Dark Red Belt, Pockets, Small Bright Light Orange Knee Pads, Silver Shoe Tips Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1098</CATEGORY>
+      <ITEMWEIGHT>1.18</ITEMWEIGHT>
+      <IMAGECOLOR>86</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>87610pb33</ITEMID>
+      <ITEMNAME>Minifigure, Headgear Helmet with Holes, SW Mandalorian with Black and Dark Red Visor, Dark Green Cheek Indents, Dark Orange Stripes, Silver Sides and Battle Damage Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>16</CATEGORY>
+      <ITEMWEIGHT>0.6</ITEMWEIGHT>
+      <IMAGECOLOR>48</IMAGECOLOR>
    </ITEM>
 </CATALOG>
