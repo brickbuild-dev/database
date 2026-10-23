@@ -3535,7 +3535,7 @@
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>42</CATEGORY>
       <ITEMWEIGHT>5.75</ITEMWEIGHT>
-      <IMAGECOLOR>86</IMAGECOLOR>
+      <IMAGECOLOR>85</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -161836,7 +161836,7 @@
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>128</CATEGORY>
       <ITEMWEIGHT>13.8</ITEMWEIGHT>
-      <IMAGECOLOR>156</IMAGECOLOR>
+      <IMAGECOLOR>85</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -296467,7 +296467,7 @@
       <ALTITEMIDS>79814</ALTITEMIDS>
       <CATEGORY>636</CATEGORY>
       <ITEMWEIGHT>0.32</ITEMWEIGHT>
-      <IMAGECOLOR>11</IMAGECOLOR>
+      <IMAGECOLOR>85</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -448411,7 +448411,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2139</ITEMID>
       <ITEMNAME>Minifigure, Head Female Dark Blue Eyebrows, Eyelashes, and Eyes, Black Ski Goggles with Medium Azure Lens, Nougat Lips, Grin Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb2139</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -489712,7 +489712,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2387</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Female Dark Blue Eyebrows, Eyelashes, and Eyes, Black Ski Goggles with Medium Azure Lens, Nougat Lips, Grin / Dark Bluish Gray Dirt Covering Face, Small Sad Frown Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb2387</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>

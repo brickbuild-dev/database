@@ -1,34 +1,34 @@
-# Brickovery DB backup & change audit — 20261018_071124Z
+# Brickovery DB backup & change audit — 20261023_022725Z
 
 ## Context
-- created_at_utc: **20261018_071124Z**
+- created_at_utc: **20261023_022725Z**
 - reason: **semantic_delta**
 - repository: `brickbuild-dev/database`
 - workflow: `Sync BrickStore payload (semantic) + update DB (manual rebuild only)`
-- run: `3790` (id `39106234305`)
-- commit: `1f2436f0092607686b059717ad0644965ea6cb00`
-- actor: `github-actions[bot]`
+- run: `3800` (id `39888813218`)
+- commit: `25aad17eba2c215de5e5122db6931c5b6591a4c9`
+- actor: `brickbuild-dev`
 - ref: `refs/heads/main`
 
 ## Backup (immutable)
 - db_path: `database/brickovery.db`
-- db_sha256 (pre-update): `69e6809bfb6d45197aa3ed516ee486bb60faa7b0acbb25d48b45cec6900f631e`
+- db_sha256 (pre-update): `2d039648e6317802e962dd4488cac59c550848991aa5130bcba20f46fb6dc0fc`
 - db_size_bytes (pre-update): `58519552`
-- backup_file: `brickovery_db_backup_20261018_071124Z.sqlite.gz`
-- meta_file: `brickovery_db_backup_20261018_071124Z.meta.json`
+- backup_file: `brickovery_db_backup_20261023_022725Z.sqlite.gz`
+- meta_file: `brickovery_db_backup_20261023_022725Z.meta.json`
 
 ## Optional CSV snapshot
-- csv_sha256 (pre-update): `e03d655e42d2ec609650008698d3f8f0624c352c18ecad3cf70c12701bbe1c21`
-- csv_size_bytes (pre-update): `26890569`
-- csv_backup_file: `brickovery_db_csv_backup_20261018_071124Z.csv.gz`
+- csv_sha256 (pre-update): `342ffc14e5b182a42cd45172b5b37e1af494b936d21f20aed374bb33663ddd9e`
+- csv_size_bytes (pre-update): `26898203`
+- csv_backup_file: `brickovery_db_csv_backup_20261023_022725Z.csv.gz`
 
 ## Intended change summary (from context JSON, if provided)
 - semantic_new_data: `True`
-- items_upstream: `211653`
-- items_db: `213510`
-- items_missing_in_db: `5`
-- codes_upstream: `87005`
-- codes_db: `258186`
+- items_upstream: `211762`
+- items_db: `213618`
+- items_missing_in_db: `11`
+- codes_upstream: `87032`
+- codes_db: `258321`
 - codes_missing_in_db: `0`
 - db_inserted_items: `0`
 - db_inserted_codes: `0`
@@ -36,7 +36,7 @@
 
 ## Restore procedure (emergency)
 1) Stop any writers (workflows/scripts) that may modify the DB.
-2) Download `database/backups/brickovery_db/brickovery_db_backup_20261018_071124Z.sqlite.gz` and decompress it:
+2) Download `database/backups/brickovery_db/brickovery_db_backup_20261023_022725Z.sqlite.gz` and decompress it:
    - `gzip -d brickovery_db_backup_...sqlite.gz`
 3) Replace `database/brickovery.db` with the decompressed file.
 4) Re-run export (mode export) to regenerate CSV and issues.
