@@ -334137,7 +334137,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>2431pb0388</ITEMID>
-      <ITEMNAME>Tile 1 x 4 with Wood Grain and 'KEEP OUT!' Pattern &amp;#40;Sticker&amp;#41; - Sets 60068 / 75903</ITEMNAME>
+      <ITEMNAME>Tile 1 x 4 with White &amp;#39;KEEP OUT!&amp;#39; and Black Wood Grain on Reddish Brown Background Pattern &amp;#40;Sticker&amp;#41; - Sets 60068 / 75903</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>39</CATEGORY>
       <ITEMWEIGHT>0.58</ITEMWEIGHT>
@@ -873413,5 +873413,14 @@
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>0.6</ITEMWEIGHT>
       <IMAGECOLOR>48</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>2431pb0804</ITEMID>
+      <ITEMNAME>Tile 1 x 4 with White 'KEEP OUT!' and Reddish Brown Wood Grain on Dark Brown Background Pattern &amp;#40;Sticker&amp;#41; - Set 79110</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>39</CATEGORY>
+      <ITEMWEIGHT>0.58</ITEMWEIGHT>
+      <IMAGECOLOR>120</IMAGECOLOR>
    </ITEM>
 </CATALOG>
