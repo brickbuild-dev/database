@@ -72380,6 +72380,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026shba03nl</ITEMID>
+      <ITEMNAME>Batman Magazine 2026 Issue 3 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1063</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>141</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026shav04nl</ITEMID>
+      <ITEMNAME>Avengers Magazine 2026 Issue 4 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1063</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>143</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2025shsp07nl</ITEMID>
       <ITEMNAME>Spider-Man Magazine 2025 Issue 7 &amp;#40;Dutch&amp;#41;</ITEMNAME>
       <CATEGORY>1063</CATEGORY>
@@ -72515,6 +72533,24 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26hp02uk</ITEMID>
+      <ITEMNAME>Harry Potter - Magical Lessons &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>170</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26sh07uk</ITEMID>
+      <ITEMNAME>Marvel - Spider-Man in Action! &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>163</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b26dis01uk</ITEMID>
       <ITEMNAME>Disney Character Guide &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK Edition&amp;#41; {Jessie Minifigure}</ITEMNAME>
       <CATEGORY>332</CATEGORY>
@@ -72547,6 +72583,15 @@
       <CATEGORY>1024</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>73</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26hp03nl</ITEMID>
+      <ITEMNAME>Harry Potter - Ontdek Zweinstein &amp;#40;Box Set&amp;#41; &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>323</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
