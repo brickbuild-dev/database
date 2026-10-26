@@ -173334,7 +173334,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>90398pb071</ITEMID>
-      <ITEMNAME>Wednesday Adams Statuette / Trophy &amp;#40;6629401&amp;#41;</ITEMNAME>
+      <ITEMNAME>Wednesday Addams Statuette / Trophy &amp;#40;6629401&amp;#41;</ITEMNAME>
       <CATEGORY>1312</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>0.2</ITEMWEIGHT>
@@ -173761,6 +173761,24 @@
       <CATEGORY>390</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.44</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>hp656</ITEMID>
+      <ITEMNAME>Hermione Granger - Gryffindor Robe Open, Sweater, Shirt and Tie, Black Legs, Reddish Brown Ponytail</ITEMNAME>
+      <CATEGORY>227</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.43</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>njo1095</ITEMID>
+      <ITEMNAME>Cole - Dragons Rising, Tunic with Strap and Charm</ITEMNAME>
+      <CATEGORY>759</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.68</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>

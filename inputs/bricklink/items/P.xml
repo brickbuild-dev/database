@@ -202125,7 +202125,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>93230pb01</ITEMID>
-      <ITEMNAME>Minifigure, Hair Swept Back with Pointed Yellow &amp;#40;Elf&amp;#41; Ears Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Hair Swept Back with Pointed Yellow Ears Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>847</CATEGORY>
       <ITEMWEIGHT>0.48</ITEMWEIGHT>
@@ -286681,7 +286681,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>75041stk01</ITEMID>
       <ITEMNAME>Sticker Sheet for Set 75041 - &amp;#40;16342/6058336&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>16342</ALTITEMIDS>
       <CATEGORY>160</CATEGORY>
       <ITEMWEIGHT>2.25</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -313987,7 +313987,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1211</ITEMID>
       <ITEMNAME>Minifigure, Head Female Black Thin Eyebrows, Eyelashes, Nougat Lips, Grin Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1211</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -620779,7 +620779,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2919</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Black Eyebrows and Moustache, Dark Brown Forehead Crease, Cheek Lines and Dimples, Stern / Scowl with Open Mouth with Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb2919</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>88</IMAGECOLOR>
@@ -676254,7 +676254,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>93230pb05</ITEMID>
-      <ITEMNAME>Minifigure, Hair Swept Back with Pointed Medium Nougat Ears and Dark Turquoise Tips Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Hair Swept Back with Pointed Medium Nougat Ears with Dark Turquoise Tips Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>847</CATEGORY>
       <ITEMWEIGHT>0.51</ITEMWEIGHT>
@@ -871625,6 +871625,33 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>981pb474</ITEMID>
+      <ITEMNAME>Arm, Left with 3 Dark Bluish Gray Stripes Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>20</CATEGORY>
+      <ITEMWEIGHT>0.15</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>982pb474</ITEMID>
+      <ITEMNAME>Arm, Right with 3 Dark Bluish Gray Stripes Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>20</CATEGORY>
+      <ITEMWEIGHT>0.15</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>981982pb474</ITEMID>
+      <ITEMNAME>Arm, &amp;#40;Matching Left and Right&amp;#41; Pair with 3 Dark Bluish Gray Stripes Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>20</CATEGORY>
+      <ITEMWEIGHT>0.3</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>43026stk01</ITEMID>
       <ITEMNAME>Sticker Sheet for Set 43026 - &amp;#40;10119822/6646200&amp;#41;</ITEMNAME>
       <ALTITEMIDS>119822</ALTITEMIDS>
@@ -871841,6 +871868,69 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6820c01</ITEMID>
+      <ITEMNAME>Torso Hoodie with Yellow Drawstrings, Medium Lavender Minifigure Head with Headphones, Stylized 'STREET' on Back Pattern &amp;#40;BAM&amp;#41; / Orange Arms / Yellow Hands</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.29</ITEMWEIGHT>
+      <IMAGECOLOR>4</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6821c01</ITEMID>
+      <ITEMNAME>Torso Dark Orange Animal Skin Top with Dark Tan Fur, Tan Bones, Reddish Brown Stitches and Spiral Symbol Pattern &amp;#40;BAM&amp;#41; / Yellow Arms / Yellow Hands</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.29</ITEMWEIGHT>
+      <IMAGECOLOR>3</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6822c01</ITEMID>
+      <ITEMNAME>Torso Doublet with Dark Green and Gold Stripes, Buttons and Bows, White Collar, Black Strap Pattern &amp;#40;BAM&amp;#41; / Sand Green Arms / Yellow Hands</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.29</ITEMWEIGHT>
+      <IMAGECOLOR>48</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6823c01</ITEMID>
+      <ITEMNAME>Torso Plaid Shirt, Sand Green Overalls with Sand Blue Buttons, White Stitching, 2 Carrots in Pocket Pattern &amp;#40;BAM&amp;#41; / Light Aqua Arms / Yellow Hands</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.29</ITEMWEIGHT>
+      <IMAGECOLOR>152</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6824c01</ITEMID>
+      <ITEMNAME>Torso Female Pirate Tank Top with Red Stripes, Black Laces, Sand Blue Open Vest with Scuff Marks, Yellow Neck, Anchor on Back Pattern &amp;#40;BAM&amp;#41; / Yellow Arms / Yellow Hands</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.29</ITEMWEIGHT>
+      <IMAGECOLOR>1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6825c01</ITEMID>
+      <ITEMNAME>Torso Shirt with Silver Stars and White Tooth Fairy with Crown and Warm Pink Cheeks and Wings Pattern &amp;#40;BAM&amp;#41; / Medium Lavender Arms / Yellow Hands</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.29</ITEMWEIGHT>
+      <IMAGECOLOR>154</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6826c01</ITEMID>
+      <ITEMNAME>Torso Female Robot Costume with Heart with Gold Gears, Dark Turquoise Belt with Buckle, Zipper on Back Pattern &amp;#40;BAM&amp;#41; / Flat Silver Arms / Medium Azure Hands</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.29</ITEMWEIGHT>
+      <IMAGECOLOR>95</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>14718pb105</ITEMID>
       <ITEMNAME>Panel 1 x 4 x 2 with Side Supports - Hollow Studs with Black Belt with Gold Buckle Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
@@ -871856,6 +871946,15 @@
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>1.65</ITEMWEIGHT>
       <IMAGECOLOR>39</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>970c00pb2007</ITEMID>
+      <ITEMNAME>Hips and Legs with Molded Black Lower Legs / Boots and Printed Dark Green Ovals, Gold Dots and Black Rounded Boot Tops Pattern &amp;#40;BAM&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1098</CATEGORY>
+      <ITEMWEIGHT>1.26</ITEMWEIGHT>
+      <IMAGECOLOR>85</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -873146,6 +873245,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>44674pb30</ITEMID>
+      <ITEMNAME>Vehicle, Mudguard 2 x 4 with Headlights Overhang with Blue and White Stylized &amp;#39;ER&amp;#39; Pattern on Both Sides &amp;#40;Stickers&amp;#41; - Set 8135</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>780</CATEGORY>
+      <ITEMWEIGHT>1.3</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>103479c02</ITEMID>
       <ITEMNAME>Electric Powered Up Bluetooth Hub with Dark Bluish Gray Bottom, 3 Motors, 6 LED Lights and USB-C Port with Rechargeable Battery 3.6V / 2100mAh / 7.56 Wh - without Pin Holes to Secure Battery &amp;#40;103479c01 / 109481c01&amp;#41;</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
@@ -873480,7 +873588,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>970c00pb2021</ITEMID>
-      <ITEMNAME>Hips and Legs with Dark Bluish Gray Armor Contour Lines and Knee Pads Pattern</ITEMNAME>
+      <ITEMNAME>Hips and Legs with Dark Bluish Gray Armor Contour Lines and Knee Pads with Dark Silver Highlights Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>1098</CATEGORY>
       <ITEMWEIGHT>1.18</ITEMWEIGHT>
@@ -873602,5 +873710,140 @@
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>240</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6820</ITEMID>
+      <ITEMNAME>Torso Hoodie with Yellow Drawstrings, Medium Lavender Minifigure Head with Headphones, Stylized &amp;#39;STREET&amp;#39; on Back Pattern &amp;#40;BAM&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>150</CATEGORY>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6821</ITEMID>
+      <ITEMNAME>Torso Dark Orange Animal Skin Top with Dark Tan Fur, Tan Bones, Reddish Brown Stitches and Spiral Symbol Pattern &amp;#40;BAM&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>150</CATEGORY>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6822</ITEMID>
+      <ITEMNAME>Torso Doublet with Dark Green and Gold Stripes, Buttons and Bows, White Collar, Black Strap Pattern &amp;#40;BAM&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>150</CATEGORY>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6823</ITEMID>
+      <ITEMNAME>Torso Plaid Shirt, Sand Green Overalls with Sand Blue Buttons, White Stitching, 2 Carrots in Pocket Pattern &amp;#40;BAM&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>150</CATEGORY>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6824</ITEMID>
+      <ITEMNAME>Torso Female Pirate Tank Top with Red Stripes, Black Laces, Sand Blue Open Vest with Scuff Marks, Yellow Neck, Anchor on Back Pattern &amp;#40;BAM&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>150</CATEGORY>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6825</ITEMID>
+      <ITEMNAME>Torso Shirt with Silver Stars and White Tooth Fairy with Crown and Warm Pink Cheeks and Wings Pattern &amp;#40;BAM&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>150</CATEGORY>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6826</ITEMID>
+      <ITEMNAME>Torso Female Robot Costume with Heart with Gold Gears, Dark Turquoise Belt with Buckle, Zipper on Back Pattern &amp;#40;BAM&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>150</CATEGORY>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6865c01</ITEMID>
+      <ITEMNAME>Torso School Uniform Jacket with Dark Bluish Gray Stripes, Letter N Logo Badge, Sweater and Tie, White Shirt Pattern / Black Arms / Medium Tan Hands</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.29</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6865</ITEMID>
+      <ITEMNAME>Torso School Uniform Jacket with Dark Bluish Gray Stripes, Letter N Logo Badge, Sweater and Tie, White Shirt Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>150</CATEGORY>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>970c00pb2026</ITEMID>
+      <ITEMNAME>Hips and Legs with Skirt with Dark Bluish Gray Stripes and Boots with Laces Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1098</CATEGORY>
+      <ITEMWEIGHT>1.18</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>3626pb4284</ITEMID>
+      <ITEMNAME>Minifigure, Head Female Black Eyebrows, Eyes, Double Eyelashes and Mouth, Medium Nougat Freckles, Nougat Lips Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>238</CATEGORY>
+      <ITEMWEIGHT>0.55</ITEMWEIGHT>
+      <IMAGECOLOR>241</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>43024stk02</ITEMID>
+      <ITEMNAME>Sticker Sheet for Set 43024, Sheet 2 - &amp;#40;10119222/6634944&amp;#41;</ITEMNAME>
+      <ALTITEMIDS>119222</ALTITEMIDS>
+      <CATEGORY>160</CATEGORY>
+      <ITEMWEIGHT>1.54</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>43024stk01</ITEMID>
+      <ITEMNAME>Sticker Sheet for Set 43024, Sheet 1 - &amp;#40;10119223/6634945&amp;#41;</ITEMNAME>
+      <ALTITEMIDS>119223</ALTITEMIDS>
+      <CATEGORY>160</CATEGORY>
+      <ITEMWEIGHT>0.39</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>3626pb4285</ITEMID>
+      <ITEMNAME>Minifigure, Head Dual Sided Dark Bluish Gray Bushy Eyebrows, Light Bluish Gray and White Moustache, Full Beard and Sideburns, Forehead Crease, Dimples, Stern / Scared Open Mouth with Teeth Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>238</CATEGORY>
+      <ITEMWEIGHT>0.55</ITEMWEIGHT>
+      <IMAGECOLOR>241</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>3626pb4286</ITEMID>
+      <ITEMNAME>Minifigure, Head Dual Sided Dark Brown Eyebrows, Moustache and Full Beard, Forehead Crease, Dimples, Neutral / White Face, Dark Blue and Black Eyebrows and Beard, Open Mouth with Metallic Light Blue Bubbles Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>238</CATEGORY>
+      <ITEMWEIGHT>0.55</ITEMWEIGHT>
+      <IMAGECOLOR>90</IMAGECOLOR>
    </ITEM>
 </CATALOG>

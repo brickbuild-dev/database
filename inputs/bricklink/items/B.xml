@@ -72551,6 +72551,33 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26njo10uk</ITEMID>
+      <ITEMNAME>NINJAGO - Cole's Mech Mission &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>178</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26sw08uk</ITEMID>
+      <ITEMNAME>Star Wars - The Dark Lord &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>168</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26sw07</ITEMID>
+      <ITEMNAME>Star Wars - Luke Skywalker's Galactic Adventures  &amp;#40;Hardcover&amp;#41;</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>493</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b26dis01uk</ITEMID>
       <ITEMNAME>Disney Character Guide &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK Edition&amp;#41; {Jessie Minifigure}</ITEMNAME>
       <CATEGORY>332</CATEGORY>
@@ -72578,11 +72605,38 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26njo09uk</ITEMID>
+      <ITEMNAME>NINJAGO - Visual Dictionary - Updated Edition &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK Edition&amp;#41; {Zane Minifigure} &amp;#40;handling, Diana&amp;#41;</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>1207</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26dup02uk</ITEMID>
+      <ITEMNAME>DUPLO - Bluey Flat Pack &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>505</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>412</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2026njo146de</ITEMID>
       <ITEMNAME>NINJAGO Magazine 2026 Issue 146 &amp;#40;German&amp;#41;</ITEMNAME>
       <CATEGORY>1024</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>73</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26other05nl</ITEMID>
+      <ITEMNAME>Bouw en Speel - Vriendschap &amp;#40;Box Set&amp;#41; &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>316</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -72610,6 +72664,15 @@
       <CATEGORY>1063</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>81</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26hp04nl</ITEMID>
+      <ITEMNAME>Harry Potter - Ontdek Zweinstein &amp;#40;Softcover&amp;#41; &amp;#40;Dutch Edition&amp;#41; - book only entry</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>136.83</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
