@@ -239359,7 +239359,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb0690</ITEMID>
       <ITEMNAME>Minifigure, Head Child Black Eyelashes, Brown Eyebrows, Freckles Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626bpb0690</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -417640,7 +417640,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1879</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Black Eyebrows, Medium Nougat Chin Dimple, Lopsided Grin / Scared Open Mouth with Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1879</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -445962,7 +445962,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2124</ITEMID>
-      <ITEMNAME>Minifigure, Head Dual Sided Reddish Brown Eyebrows and Stubble, Medium Nougat Sideburns, Moustache, Cheek Lines, and Chin Dimple, Grin / Determined Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Dual Sided Reddish Brown Eyebrows and Stubble, Medium Nougat Moustache, Sideburns, Cheek Lines and Dimples, Grin / Determined Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
@@ -873845,5 +873845,32 @@
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>7877c02</ITEMID>
+      <ITEMNAME>Wheel 56mm D. x 13mm Motorcycle with 12 Spokes with Black Tire 75 x 13 &amp;#40;7877 / 7860&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>532</CATEGORY>
+      <ITEMWEIGHT>18.4</ITEMWEIGHT>
+      <IMAGECOLOR>86</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>3626pb4289</ITEMID>
+      <ITEMNAME>Minifigure, Head Dual Sided Reddish Brown Eyebrows and Stubble, Medium Nougat Moustache, Sideburns, Cheek Lines and Dimples, Lopsided Open Mouth Smile with Teeth / Angry Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>238</CATEGORY>
+      <ITEMWEIGHT>0.55</ITEMWEIGHT>
+      <IMAGECOLOR>90</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>3626pb4290</ITEMID>
+      <ITEMNAME>Minifigure, Head Dual Sided Female Black Eyebrows and Double Eyelashes, Reddish Brown Lips, Cheek Lines and Dimple, Lopsided Grin / Frown Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>238</CATEGORY>
+      <ITEMWEIGHT>0.55</ITEMWEIGHT>
+      <IMAGECOLOR>240</IMAGECOLOR>
    </ITEM>
 </CATALOG>

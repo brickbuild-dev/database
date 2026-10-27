@@ -191360,6 +191360,18 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>3626pb4289</ITEMID>
+      <COLOR>Light Nougat</COLOR>
+      <CODENAME>6600529</CODENAME>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>3626pb4290</ITEMID>
+      <COLOR>Medium Brown</COLOR>
+      <CODENAME>6600527</CODENAME>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626ps2</ITEMID>
       <COLOR>Light Nougat</COLOR>
       <CODENAME>4291337</CODENAME>
@@ -472721,6 +472733,18 @@
       <ITEMID>43023stk02</ITEMID>
       <COLOR>(Not Applicable)</COLOR>
       <CODENAME>6650430</CODENAME>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>43024stk01</ITEMID>
+      <COLOR>(Not Applicable)</COLOR>
+      <CODENAME>6634945</CODENAME>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>43024stk02</ITEMID>
+      <COLOR>(Not Applicable)</COLOR>
+      <CODENAME>6634944</CODENAME>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
