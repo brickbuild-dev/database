@@ -41286,7 +41286,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>42061px1</ITEMID>
-      <ITEMNAME>Wedge 12 x 3 Left with Silver, Green, and Dark Orange Pattern</ITEMNAME>
+      <ITEMNAME>Wedge 12 x 3 Left with Dark Orange, Green and Silver Panels Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>578</CATEGORY>
       <ITEMWEIGHT>5.25</ITEMWEIGHT>
@@ -41295,7 +41295,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>42060px1</ITEMID>
-      <ITEMNAME>Wedge 12 x 3 Right with Silver, Green, and Dark Orange Pattern</ITEMNAME>
+      <ITEMNAME>Wedge 12 x 3 Right with Dark Orange, Green and Silver Panels Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>578</CATEGORY>
       <ITEMWEIGHT>5.25</ITEMWEIGHT>
@@ -552000,7 +552000,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2670</ITEMID>
-      <ITEMNAME>Minifigure, Head Dual Sided White Bushy Eyebrows and Beard, Gold Glasses, Grin / Smile with Teeth Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Dual Sided White Bushy Eyebrows, Moustache and Full Beard with Light Bluish Gray Highlights, Gold Glasses, Medium Nougat Cheek Lines and Dimples, Lopsided Grin / Open Mouth Smile with Teeth Pattern &amp;#40;Undetermined Type&amp;#41;</ITEMNAME>
       <ALTITEMIDS>3626cpb2670</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
@@ -586623,7 +586623,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>93273pb155</ITEMID>
-      <ITEMNAME>Slope, Curved 4 x 1 x 2/3 Double with Gold Stripe on Dark Green Background Pattern &amp;#40;Sticker&amp;#41; - Set 71044</ITEMNAME>
+      <ITEMNAME>Slope, Curved 4 x 1 x 2/3 Double with Gold Stripe Pattern &amp;#40;Sticker&amp;#41; - Set 71044</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>775</CATEGORY>
       <ITEMWEIGHT>0.6</ITEMWEIGHT>
@@ -849387,7 +849387,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>8023</ITEMID>
-      <ITEMNAME>Sports Motorcycle Helmet Large Visor</ITEMNAME>
+      <ITEMNAME>Sports Motorcycle Helmet Large Visor, Asymmetrical with Tabs</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>473</CATEGORY>
       <ITEMWEIGHT>9.88</ITEMWEIGHT>
@@ -851376,7 +851376,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>8023pb01</ITEMID>
-      <ITEMNAME>Sports Motorcycle Helmet Large Visor with Red Bolt, Light Bluish Gray Fan and Vent, Black &amp;#39;HCL Software&amp;#39; &amp;#39;RICHARD MILLE&amp;#39; and Blue Circle &amp;#39;hp&amp;#39; Logos Pattern &amp;#40;Stickers&amp;#41; - Set 43014</ITEMNAME>
+      <ITEMNAME>Sports Motorcycle Helmet Large Visor, Asymmetrical with Tabs with Red Bolt, Light Bluish Gray Fan and Vent, Black &amp;#39;HCL Software&amp;#39; &amp;#39;RICHARD MILLE&amp;#39; and Blue Circle &amp;#39;hp&amp;#39; Logos Pattern &amp;#40;Stickers&amp;#41; - Set 43014</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>473</CATEGORY>
       <ITEMWEIGHT>10</ITEMWEIGHT>
@@ -857523,7 +857523,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>8023pb02</ITEMID>
-      <ITEMNAME>Sports Motorcycle Helmet Large Visor with Black Bolt, Light Bluish Gray Fan and Vent, Mastercard, McLaren and Dropbox Logos Pattern &amp;#40;Stickers&amp;#41; - Sets 43017 / 43023</ITEMNAME>
+      <ITEMNAME>Sports Motorcycle Helmet Large Visor, Asymmetrical with Tabs with Black Bolt, Light Bluish Gray Fan and Vent, Mastercard, McLaren and Dropbox Logos Pattern &amp;#40;Stickers&amp;#41; - Sets 43017 / 43023</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>473</CATEGORY>
       <ITEMWEIGHT>10</ITEMWEIGHT>
@@ -873872,5 +873872,23 @@
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>240</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>3626pb4287</ITEMID>
+      <ITEMNAME>Minifigure, Head Dual Sided White Bushy Eyebrows, Moustache and Full Beard with Small Light Bluish Gray Highlights, Gold Glasses, Medium Nougat Cheek Lines, Dimples and Laugh Lines, Lopsided Grin / Open Mouth Smile with Teeth Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>238</CATEGORY>
+      <ITEMWEIGHT>0.55</ITEMWEIGHT>
+      <IMAGECOLOR>90</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>3626pb4288</ITEMID>
+      <ITEMNAME>Minifigure, Head Dual Sided White Bushy Eyebrows, Moustache and Full Beard with Large Light Bluish Gray Highlights, Gold Glasses, Medium Nougat Cheek Lines and Dimples, Lopsided Grin / Open Mouth Smile with Teeth Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>238</CATEGORY>
+      <ITEMWEIGHT>0.55</ITEMWEIGHT>
+      <IMAGECOLOR>90</IMAGECOLOR>
    </ITEM>
 </CATALOG>

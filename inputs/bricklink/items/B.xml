@@ -47432,8 +47432,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>9781452182254</ITEMID>
-      <ITEMNAME>Small Parts - The Secret Life Of Minifigures</ITEMNAME>
+      <ITEMID>b20other14</ITEMID>
+      <ITEMNAME>Small Parts: The Secret Life of Minifigures &amp;#40;Hardcover&amp;#41;</ITEMNAME>
       <CATEGORY>505</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>250</ITEMWEIGHT>
@@ -47963,8 +47963,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>9781452179629</ITEMID>
-      <ITEMNAME>Still Life with Bricks</ITEMNAME>
+      <ITEMID>b20other15</ITEMID>
+      <ITEMNAME>Still Life with Bricks: The Art of Everyday Play &amp;#40;Hardcover&amp;#41;</ITEMNAME>
       <CATEGORY>332</CATEGORY>
       <ITEMYEAR>2020</ITEMYEAR>
       <ITEMWEIGHT>704</ITEMWEIGHT>
@@ -53120,8 +53120,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>9781797214139</ITEMID>
-      <ITEMNAME>Build Every Day - Ignite Your Creativity and Find Your Flow</ITEMNAME>
+      <ITEMID>b22other20</ITEMID>
+      <ITEMNAME>Build Every Day: Ignite Your Creativity and Find Your Flow &amp;#40;Hardcover&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT>382</ITEMWEIGHT>
@@ -53129,8 +53129,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>9781452182261</ITEMID>
-      <ITEMNAME>The Art of the Minifigure</ITEMNAME>
+      <ITEMID>b22other21</ITEMID>
+      <ITEMNAME>The Art of the Minifigure &amp;#40;Hardcover&amp;#41;</ITEMNAME>
       <CATEGORY>332</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT>984</ITEMWEIGHT>
@@ -60402,7 +60402,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b22other05</ITEMID>
-      <ITEMNAME>In Focus &amp;#40;Hardcover&amp;#41;</ITEMNAME>
+      <ITEMNAME>In Focus: Explore the Miniature World of LEGO Photography &amp;#40;Hardcover&amp;#41;</ITEMNAME>
       <CATEGORY>332</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -70230,7 +70230,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b25min06uk</ITEMID>
-      <ITEMNAME>Minecraft - Visual Dictionary &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>Minecraft - Visual Dictionary &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
       <CATEGORY>332</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -70527,7 +70527,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b26other01nl</ITEMID>
-      <ITEMNAME>Bureau Buddy's - Corgi &amp;#40;Box Set&amp;#41; &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>Bureau Buddy's: Corgi &amp;#40;Box Set&amp;#41; &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>170</ITEMWEIGHT>
@@ -70536,7 +70536,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b26other02nl</ITEMID>
-      <ITEMNAME>Bureau Buddy's - Varkentje &amp;#40;Box Set&amp;#41; &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>Bureau Buddy's: Varkentje &amp;#40;Box Set&amp;#41; &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>170</ITEMWEIGHT>
@@ -72407,6 +72407,42 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2025frnd06nl</ITEMID>
+      <ITEMNAME>Friends Magazine 2025 Issue 6 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1022</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>142</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026frnd02nl</ITEMID>
+      <ITEMNAME>Friends Magazine 2026 Issue 2 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1022</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>151</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026jw01nl</ITEMID>
+      <ITEMNAME>Jurassic World Magazine 2026 Issue 1 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1084</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>148</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2025jw06nl</ITEMID>
+      <ITEMNAME>Jurassic World Magazine 2025 Issue 6 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1084</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>153</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2026shba03nl</ITEMID>
       <ITEMNAME>Batman Magazine 2026 Issue 3 &amp;#40;Dutch&amp;#41;</ITEMNAME>
       <CATEGORY>1063</CATEGORY>
@@ -72533,6 +72569,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026cty03nl</ITEMID>
+      <ITEMNAME>City Magazine 2026 Issue 3 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1021</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>148</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2026njol02nl</ITEMID>
       <ITEMNAME>NINJAGO Legacy Magazine 2026 Issue 2 &amp;#40;Dutch&amp;#41;</ITEMNAME>
       <CATEGORY>1024</CATEGORY>
@@ -72543,7 +72588,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b26other03nl</ITEMID>
-      <ITEMNAME>Bureau Buddy's - Koala &amp;#40;Box Set&amp;#41; &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>Bureau Buddy's: Koala &amp;#40;Box Set&amp;#41; &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>169</ITEMWEIGHT>
@@ -72552,7 +72597,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b26other04nl</ITEMID>
-      <ITEMNAME>Bureau Buddy's - Panda &amp;#40;Box Set&amp;#41; &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>Bureau Buddy's: Panda &amp;#40;Box Set&amp;#41; &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>168</ITEMWEIGHT>
@@ -72565,6 +72610,15 @@
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>170</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26sh08uk</ITEMID>
+      <ITEMNAME>Batman - Batman Needs You! &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>164</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -72610,6 +72664,15 @@
       <CATEGORY>332</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>742</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26other06</ITEMID>
+      <ITEMNAME>Animal Field Guide: Discover LEGO Wildlife Big and Small from Around the World &amp;#40;Hardcover&amp;#41;</ITEMNAME>
+      <CATEGORY>332</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>389</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -72660,7 +72723,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b26other05nl</ITEMID>
-      <ITEMNAME>Bouw en Speel - Vriendschap &amp;#40;Box Set&amp;#41; &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>Bouw en Speel: Vriendschap &amp;#40;Box Set&amp;#41; &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>316</ITEMWEIGHT>
@@ -72673,6 +72736,15 @@
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>323</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b25min05nl</ITEMID>
+      <ITEMNAME>Minecraft - Alex vs. Creeper &amp;#40;Box Set&amp;#41; &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>482</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -72709,6 +72781,33 @@
       <CATEGORY>1063</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>191</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2025sw04nl</ITEMID>
+      <ITEMNAME>Star Wars Magazine 2025 Issue 4 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1025</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>137</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026njol01nl</ITEMID>
+      <ITEMNAME>NINJAGO Legacy Magazine 2026 Issue 1 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1024</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>212</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26njo11uk</ITEMID>
+      <ITEMNAME>NINJAGO - Quill of Destiny: Attack of the Scroll Guardian &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>505</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>

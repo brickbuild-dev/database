@@ -66099,7 +66099,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo0111</ITEMID>
-      <ITEMNAME>Zane &amp;#40;Jungle Robe&amp;#41; - Tournament of Elements</ITEMNAME>
+      <ITEMNAME>Zane - Titanium Zane &amp;#40;Jungle Robe&amp;#41;, Tournament of Elements</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2015</ITEMYEAR>
       <ITEMWEIGHT>4.29</ITEMWEIGHT>
@@ -171003,7 +171003,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1056</ITEMID>
-      <ITEMNAME>Nya ZX - Legacy, Neck Bracket &amp;#40;Ninjago Destiny's Bounty Adventures Board Game&amp;#41;</ITEMNAME>
+      <ITEMNAME>Nya ZX - Legacy, Neck Bracket</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.22</ITEMWEIGHT>
@@ -171651,7 +171651,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1090</ITEMID>
-      <ITEMNAME>Kai ZX - Legacy, Neck Bracket &amp;#40;Ninjago Destiny's Bounty Adventures Board Game&amp;#41;</ITEMNAME>
+      <ITEMNAME>Kai ZX - Legacy, Neck Bracket</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.22</ITEMWEIGHT>
@@ -171660,7 +171660,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1091</ITEMID>
-      <ITEMNAME>Zane ZX - Legacy, Neck Bracket &amp;#40;Ninjago Destiny's Bounty Adventures Board Game&amp;#41;</ITEMNAME>
+      <ITEMNAME>Zane ZX - Legacy, Neck Bracket</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.22</ITEMWEIGHT>
@@ -171669,7 +171669,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>njo1092</ITEMID>
-      <ITEMNAME>Cole ZX - Legacy, Neck Bracket &amp;#40;Ninjago Destiny's Bounty Adventures Board Game&amp;#41;</ITEMNAME>
+      <ITEMNAME>Cole ZX - Legacy, Neck Bracket</ITEMNAME>
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.22</ITEMWEIGHT>
@@ -171977,7 +171977,7 @@
       <ITEMID>twn556</ITEMID>
       <ITEMNAME>Airplane Pilot - Female, Light Aqua Uniform Shirt with Tie, Dark Blue Legs and Hat, Sunglasses</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>3.56</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -171986,7 +171986,7 @@
       <ITEMID>twn557</ITEMID>
       <ITEMNAME>Airplane Passenger - Male, Reddish Brown Jacket, Dark Blue Legs, Dark Brown Cap</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>3.4</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173779,6 +173779,15 @@
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.68</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>njo1086</ITEMID>
+      <ITEMNAME>Zane - Titanium Zane &amp;#40;Jungle Robe&amp;#41;, Legacy &amp;#40;NINJAGO Visual Dictionary Updated Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>759</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.33</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
