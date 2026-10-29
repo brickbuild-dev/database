@@ -22134,7 +22134,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>FLLMedal01</ITEMID>
-      <ITEMNAME>Medal First Lego League, FLL International</ITEMNAME>
+      <ITEMNAME>Medal FIRST LEGO League, FLL International</ITEMNAME>
       <CATEGORY>1111</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>80</ITEMWEIGHT>
@@ -136596,7 +136596,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>FLLmedal02</ITEMID>
-      <ITEMNAME>Medal First Lego League, Animal Allies</ITEMNAME>
+      <ITEMNAME>Medal FIRST LEGO League, Animal Allies</ITEMNAME>
       <CATEGORY>1111</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>85</ITEMWEIGHT>
@@ -136605,7 +136605,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>FLLMedal04</ITEMID>
-      <ITEMNAME>Medal First Lego League, Body Forward</ITEMNAME>
+      <ITEMNAME>Medal FIRST LEGO League, Body Forward</ITEMNAME>
       <CATEGORY>1111</CATEGORY>
       <ITEMYEAR>2010</ITEMYEAR>
       <ITEMWEIGHT>85</ITEMWEIGHT>
@@ -136614,7 +136614,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>FLLMedal03</ITEMID>
-      <ITEMNAME>Medal First Lego League, Food Factor</ITEMNAME>
+      <ITEMNAME>Medal FIRST LEGO League, Food Factor</ITEMNAME>
       <CATEGORY>1111</CATEGORY>
       <ITEMYEAR>2011</ITEMYEAR>
       <ITEMWEIGHT>85</ITEMWEIGHT>
@@ -136623,7 +136623,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>FLLmedal05</ITEMID>
-      <ITEMNAME>Medal First Lego League, Natures Fury</ITEMNAME>
+      <ITEMNAME>Medal FIRST LEGO League, Natures Fury</ITEMNAME>
       <CATEGORY>1111</CATEGORY>
       <ITEMYEAR>2013</ITEMYEAR>
       <ITEMWEIGHT>85</ITEMWEIGHT>
@@ -136632,7 +136632,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>FLLmedal06</ITEMID>
-      <ITEMNAME>Medal First Lego League, Smart Moves</ITEMNAME>
+      <ITEMNAME>Medal FIRST LEGO League, Smart Moves</ITEMNAME>
       <CATEGORY>1111</CATEGORY>
       <ITEMYEAR>2009</ITEMYEAR>
       <ITEMWEIGHT>85</ITEMWEIGHT>
@@ -136641,7 +136641,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>FLLMedal07</ITEMID>
-      <ITEMNAME>Medal First Lego League, World Class</ITEMNAME>
+      <ITEMNAME>Medal FIRST LEGO League, World Class</ITEMNAME>
       <CATEGORY>1111</CATEGORY>
       <ITEMYEAR>2014</ITEMYEAR>
       <ITEMWEIGHT>85</ITEMWEIGHT>
@@ -137289,7 +137289,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>FLLMedal08</ITEMID>
-      <ITEMNAME>Medal First Lego League, FLL International, Interlocking Shapes</ITEMNAME>
+      <ITEMNAME>Medal FIRST LEGO League, FLL International, Interlocking Shapes</ITEMNAME>
       <CATEGORY>1111</CATEGORY>
       <ITEMYEAR>2004</ITEMYEAR>
       <ITEMWEIGHT>41</ITEMWEIGHT>
@@ -180120,7 +180120,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>5008789</ITEMID>
-      <ITEMNAME>Santa Claus Minifigure Plush</ITEMNAME>
+      <ITEMNAME>Santa Claus Minifigure Plush - Large</ITEMNAME>
       <CATEGORY>512</CATEGORY>
       <ITEMYEAR>2024</ITEMYEAR>
       <ITEMWEIGHT>272</ITEMWEIGHT>
@@ -194681,6 +194681,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>5007802</ITEMID>
+      <ITEMNAME>Sticker Sheet, City Road Tape and 2 Mixed Sheets</ITEMNAME>
+      <CATEGORY>160</CATEGORY>
+      <ITEMYEAR>2023</ITEMYEAR>
+      <ITEMWEIGHT>260</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>5008987</ITEMID>
       <ITEMNAME>Bag / Luggage Tag, Silicone, Classic Space Minifigure Blue</ITEMNAME>
       <CATEGORY>1112</CATEGORY>
@@ -202503,7 +202512,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>171300LL</ITEMID>
-      <ITEMNAME>Reindeer Costume Minifigure Plush</ITEMNAME>
+      <ITEMNAME>Reindeer Costume Minifigure Plush - Large</ITEMNAME>
       <CATEGORY>512</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
@@ -205027,6 +205036,33 @@
       <CATEGORY>543</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>17174OLL</ITEMID>
+      <ITEMNAME>Santa Claus Minifigure Plush - Small</ITEMNAME>
+      <CATEGORY>512</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>107</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>17255OLL</ITEMID>
+      <ITEMNAME>Reindeer Costume Minifigure Plush - Small</ITEMNAME>
+      <CATEGORY>512</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>119</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>17256OLL</ITEMID>
+      <ITEMNAME>Gingerbread Man Minifigure Plush - Small</ITEMNAME>
+      <CATEGORY>512</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>98</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -222194,6 +222230,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>lormetalring</ITEMID>
+      <ITEMNAME>Metal Ring - Lord of the Rings</ITEMNAME>
+      <CATEGORY>1008</CATEGORY>
+      <ITEMYEAR>2012</ITEMYEAR>
+      <ITEMWEIGHT>25</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>111154</ITEMID>
       <ITEMNAME>Ball Cap, Star Wars with 3 Patches</ITEMNAME>
       <CATEGORY>1111</CATEGORY>
@@ -222550,6 +222595,24 @@
       <CATEGORY>380</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6323169</ITEMID>
+      <ITEMNAME>Bag / Luggage Tag, Silicone, Lotte Minifigure</ITEMNAME>
+      <CATEGORY>1112</CATEGORY>
+      <ITEMYEAR>2020</ITEMYEAR>
+      <ITEMWEIGHT>26</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>6039582</ITEMID>
+      <ITEMNAME>Wristband, Rubber FIRST LEGO League</ITEMNAME>
+      <CATEGORY>1111</CATEGORY>
+      <ITEMYEAR>2014</ITEMYEAR>
+      <ITEMWEIGHT>7</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -226028,6 +226091,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>10306</ITEMID>
+      <ITEMNAME>Minifigure Plush Cushion</ITEMNAME>
+      <CATEGORY>512</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>9781797240282</ITEMID>
       <ITEMNAME>Calendar, 2027 Wall Calendar</ITEMNAME>
       <CATEGORY>251</CATEGORY>
@@ -226155,7 +226227,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>51240-51241</ITEMID>
-      <ITEMNAME>Lloyd Minifigure Plush - Dragons Rising &amp;#40;Small&amp;#41;</ITEMNAME>
+      <ITEMNAME>Lloyd Minifigure Plush - Dragons Rising - Small</ITEMNAME>
       <CATEGORY>512</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>105</ITEMWEIGHT>
@@ -226164,7 +226236,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>51240-51242</ITEMID>
-      <ITEMNAME>Kai Minifigure Plush - Dragons Rising &amp;#40;Small&amp;#41;</ITEMNAME>
+      <ITEMNAME>Kai Minifigure Plush - Dragons Rising - Small</ITEMNAME>
       <CATEGORY>512</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>103</ITEMWEIGHT>
@@ -226173,7 +226245,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>51240-51244</ITEMID>
-      <ITEMNAME>Cole Minifigure Plush - Dragons Rising &amp;#40;Small&amp;#41;</ITEMNAME>
+      <ITEMNAME>Cole Minifigure Plush - Dragons Rising - Small</ITEMNAME>
       <CATEGORY>512</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>96</ITEMWEIGHT>
@@ -226182,7 +226254,7 @@
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>51240-51243</ITEMID>
-      <ITEMNAME>Jay Minifigure Plush - Dragons Rising &amp;#40;Small&amp;#41;</ITEMNAME>
+      <ITEMNAME>Jay Minifigure Plush - Dragons Rising - Small</ITEMNAME>
       <CATEGORY>512</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>100</ITEMWEIGHT>
@@ -226195,6 +226267,69 @@
       <CATEGORY>160</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>30216571</ITEMID>
+      <ITEMNAME>Gift Bag, Paper - Christmas, Tree and Minifigures</ITEMNAME>
+      <CATEGORY>995</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>87</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>30216570</ITEMID>
+      <ITEMNAME>Gift Bag, Paper - Christmas, Carolers</ITEMNAME>
+      <CATEGORY>995</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>87</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>30209071</ITEMID>
+      <ITEMNAME>Gift Bag, Paper - Collectible Minifigures</ITEMNAME>
+      <CATEGORY>995</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>52</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>30216569</ITEMID>
+      <ITEMNAME>Gift Bag, Paper - Christmas, Gingerbread Man</ITEMNAME>
+      <CATEGORY>995</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>52</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>30216568</ITEMID>
+      <ITEMNAME>Gift Bag, Paper - Christmas, Snow Globe</ITEMNAME>
+      <CATEGORY>995</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>28</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>30216566</ITEMID>
+      <ITEMNAME>Gift Bag, Paper - Birthday</ITEMNAME>
+      <CATEGORY>995</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>28</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>30216567</ITEMID>
+      <ITEMNAME>Gift Bag, Paper - Friends, Minifigures and Animals</ITEMNAME>
+      <CATEGORY>995</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>28</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>

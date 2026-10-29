@@ -66881,7 +66881,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
-      <ITEMID>b25shsp01</ITEMID>
+      <ITEMID>b25sh01</ITEMID>
       <ITEMNAME>Spider-Man - Explore the Spider-Verse &amp;#40;Hardcover&amp;#41;</ITEMNAME>
       <CATEGORY>332</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
@@ -71147,6 +71147,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b17tlnm05</ITEMID>
+      <ITEMNAME>The LEGO NINJAGO Movie - Target Exclusive Comic</ITEMNAME>
+      <CATEGORY>331</CATEGORY>
+      <ITEMYEAR>2017</ITEMYEAR>
+      <ITEMWEIGHT>23</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b26sw04nl</ITEMID>
       <ITEMNAME>Star Wars - Ontdek de Duistere Kant &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
@@ -71724,7 +71733,7 @@
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b26min01nl</ITEMID>
-      <ITEMNAME>Minecraft - Groot LEGO Minecraft Boek &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
+      <ITEMNAME>Minecraft - Groot LEGO Minecraft Boek &amp;#40;Hardcover&amp;#41; &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
       <CATEGORY>332</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>1302</ITEMWEIGHT>
@@ -72479,6 +72488,69 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2025min07nl</ITEMID>
+      <ITEMNAME>Minecraft Magazine 2025 Issue 7 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1165</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>148</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2025min08nl</ITEMID>
+      <ITEMNAME>Minecraft Magazine 2025 Issue 8 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1165</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>139</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2025min09nl</ITEMID>
+      <ITEMNAME>Minecraft Magazine 2025 Issue 9 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1165</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>145</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026min01nl</ITEMID>
+      <ITEMNAME>Minecraft Magazine 2026 Issue 1 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1165</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>143</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026min02nl</ITEMID>
+      <ITEMNAME>Minecraft Magazine 2026 Issue 2 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1165</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>150</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026min03nl</ITEMID>
+      <ITEMNAME>Minecraft Magazine 2026 Issue 3 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1165</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>141</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026min04nl</ITEMID>
+      <ITEMNAME>Minecraft Magazine 2026 Issue 4 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1165</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>140</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2025njo07nl</ITEMID>
       <ITEMNAME>NINJAGO Magazine 2025 Issue 7 &amp;#40;Dutch&amp;#41;</ITEMNAME>
       <CATEGORY>1024</CATEGORY>
@@ -72587,6 +72659,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026min05nl</ITEMID>
+      <ITEMNAME>Minecraft Magazine 2026 Issue 5 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1165</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>145</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b26other03nl</ITEMID>
       <ITEMNAME>Bureau Buddy's: Koala &amp;#40;Box Set&amp;#41; &amp;#40;Dutch Edition&amp;#41;</ITEMNAME>
       <CATEGORY>766</CATEGORY>
@@ -72601,6 +72682,15 @@
       <CATEGORY>766</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>168</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26min03uk</ITEMID>
+      <ITEMNAME>Minecraft - How to Build Houses &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>317</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>643</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -72758,11 +72848,29 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b25min07uk</ITEMID>
+      <ITEMNAME>Minecraft - Craft Your Quest: A Choose-Your-Path Experience! &amp;#40;Box Set&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>391</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>mag2026shav37de</ITEMID>
       <ITEMNAME>Avengers Magazine 2026 Issue 37 &amp;#40;German&amp;#41;</ITEMNAME>
       <CATEGORY>1063</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>81</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26sw02de</ITEMID>
+      <ITEMNAME>Star Wars - Geschichten aus der Galaxie &amp;#40;German Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>505</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -72803,11 +72911,38 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026min07cz</ITEMID>
+      <ITEMNAME>Minecraft Magazine 2026 Issue 7 &amp;#40;Czech&amp;#41;</ITEMNAME>
+      <CATEGORY>1165</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b25sh02</ITEMID>
+      <ITEMNAME>DC Super Heroes - Superman to the Rescue! &amp;#40;Softcover&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2025</ITEMYEAR>
+      <ITEMWEIGHT>168</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b26njo11uk</ITEMID>
       <ITEMNAME>NINJAGO - Quill of Destiny: Attack of the Scroll Guardian &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
       <CATEGORY>505</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>313</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b22sw02uk</ITEMID>
+      <ITEMNAME>Star Wars - Official Annual 2023 &amp;#40;Hardcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2022</ITEMYEAR>
+      <ITEMWEIGHT>431</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
