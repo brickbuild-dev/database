@@ -69702,7 +69702,7 @@
       <ITEMNAME>Sort &amp; Store Minifigure Head - Cheeky Face Pattern &amp;#40;with Tongue&amp;#41;</ITEMNAME>
       <CATEGORY>399</CATEGORY>
       <ITEMYEAR>2012</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>1293</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -225929,6 +225929,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>351</ITEMID>
+      <ITEMNAME>Wooden Rattle Blocks - 1 Piece {Rasleklodser}</ITEMNAME>
+      <CATEGORY>645</CATEGORY>
+      <ITEMYEAR>1946</ITEMYEAR>
+      <ITEMWEIGHT>57</ITEMWEIGHT>
+      <IMAGECOLOR>6</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
       <ITEMID>918-2</ITEMID>
       <ITEMNAME>Chevrolet - Tanker Esso, Large / Semi-Trailer {Benzinbil}</ITEMNAME>
       <CATEGORY>645</CATEGORY>
@@ -226339,6 +226348,15 @@
       <CATEGORY>252</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>57</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>G</ITEMTYPE>
+      <ITEMID>5009545</ITEMID>
+      <ITEMNAME>Lanyard with Butterfly Girl Pattern</ITEMNAME>
+      <CATEGORY>1111</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>42</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>

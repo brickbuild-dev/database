@@ -72740,6 +72740,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>b26min04uk</ITEMID>
+      <ITEMNAME>Minecraft - Rare Mob Expedition &amp;#40;Softcover&amp;#41; &amp;#40;English - UK Edition&amp;#41;</ITEMNAME>
+      <CATEGORY>766</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT>190</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
       <ITEMID>b26sw07uk</ITEMID>
       <ITEMNAME>Star Wars - Luke Skywalker's Galactic Adventures &amp;#40;Hardcover&amp;#41; &amp;#40;English- UK Edition&amp;#41;</ITEMNAME>
       <CATEGORY>332</CATEGORY>
@@ -72934,6 +72943,24 @@
       <CATEGORY>505</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>313</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026tech01nl</ITEMID>
+      <ITEMNAME>Technic Magazine 2026 Issue 1 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1220</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>B</ITEMTYPE>
+      <ITEMID>mag2026tech02nl</ITEMID>
+      <ITEMNAME>Technic Magazine 2026 Issue 2 &amp;#40;Dutch&amp;#41;</ITEMNAME>
+      <CATEGORY>1220</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
