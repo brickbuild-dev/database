@@ -26143,7 +26143,7 @@
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>42</CATEGORY>
       <ITEMWEIGHT>2.02</ITEMWEIGHT>
-      <IMAGECOLOR>11</IMAGECOLOR>
+      <IMAGECOLOR>2</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -62404,7 +62404,7 @@
       <ALTITEMIDS>74849</ALTITEMIDS>
       <CATEGORY>524</CATEGORY>
       <ITEMWEIGHT>16</ITEMWEIGHT>
-      <IMAGECOLOR>9</IMAGECOLOR>
+      <IMAGECOLOR>7</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -62710,7 +62710,7 @@
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>77</CATEGORY>
       <ITEMWEIGHT>1.3</ITEMWEIGHT>
-      <IMAGECOLOR>5</IMAGECOLOR>
+      <IMAGECOLOR>39</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -70189,7 +70189,7 @@
       <ALTITEMIDS>74846</ALTITEMIDS>
       <CATEGORY>524</CATEGORY>
       <ITEMWEIGHT>26</ITEMWEIGHT>
-      <IMAGECOLOR>9</IMAGECOLOR>
+      <IMAGECOLOR>7</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -302790,7 +302790,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>16501pb01</ITEMID>
-      <ITEMNAME>Minifigure, Headgear Helmet SW Snowtrooper with Black Eye Holes Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Snowtrooper with Black Lenses and Light Bluish Gray Narrow Visor Outline Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>0.94</ITEMWEIGHT>
@@ -476301,7 +476301,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>6636pb180</ITEMID>
-      <ITEMNAME>Tile 1 x 6 with &amp;#39;CM60223&amp;#39; and Red and White Danger Stripes Pattern &amp;#40;Sticker&amp;#41; - Set 60220</ITEMNAME>
+      <ITEMNAME>Tile 1 x 6 with &amp;#39;CM60223&amp;#39; and Red and White Danger Stripes Pattern &amp;#40;Sticker&amp;#41; - Set 60223</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>39</CATEGORY>
       <ITEMWEIGHT>0.8</ITEMWEIGHT>
@@ -767118,8 +767118,8 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>4000042stk01</ITEMID>
-      <ITEMNAME>Sticker Sheet for Set 4000042 - &amp;#40;10106329/6484053&amp;#41;</ITEMNAME>
-      <ALTITEMIDS>106329</ALTITEMIDS>
+      <ITEMNAME>Sticker Sheet for Set 4000042 - &amp;#40;10108329/6484053&amp;#41;</ITEMNAME>
+      <ALTITEMIDS>108329</ALTITEMIDS>
       <CATEGORY>160</CATEGORY>
       <ITEMWEIGHT>3</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -861059,7 +861059,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
-      <ITEMID>61068pb21</ITEMID>
+      <ITEMID>61068pb021</ITEMID>
       <ITEMNAME>Slope, Curved 2 x 4 x 2/3 without Bottom Tubes with Yellow Windscreen Frame and White Glass Cracks Pattern &amp;#40;Sticker&amp;#41; - Set 8182</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>775</CATEGORY>
@@ -874587,7 +874587,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>80178pb022</ITEMID>
-      <ITEMNAME>Wedge 3 x 2 Left No Studs with Dark Blue and White Stripes on Long Side Pattern</ITEMNAME>
+      <ITEMNAME>Wedge 3 x 2 Right No Studs with Dark Blue and White Stripes on Long Side Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>578</CATEGORY>
       <ITEMWEIGHT>0.78</ITEMWEIGHT>
@@ -874655,5 +874655,23 @@
       <CATEGORY>160</CATEGORY>
       <ITEMWEIGHT>0.92</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>36036pb122</ITEMID>
+      <ITEMNAME>Lower Body, Skirt with Robe Ends with Copper Leaves, Dark Purple Center Panel with Gold Flowers and Trim Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1118</CATEGORY>
+      <ITEMWEIGHT>1.5</ITEMWEIGHT>
+      <IMAGECOLOR>59</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>16501pb02</ITEMID>
+      <ITEMNAME>Minifigure, Headgear Helmet SW Snowtrooper with Black Lenses and Light Bluish Gray Wide Visor Outline Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>16</CATEGORY>
+      <ITEMWEIGHT>0.94</ITEMWEIGHT>
+      <IMAGECOLOR>1</IMAGECOLOR>
    </ITEM>
 </CATALOG>
