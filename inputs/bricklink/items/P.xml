@@ -8697,9 +8697,9 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>518</ITEMID>
-      <ITEMNAME>Minifigure, Weapon Cannon Non-Shooting</ITEMNAME>
+      <ITEMNAME>Projectile Launcher, Cannon with Touch Hole and Crossed Cannons Logo &amp;#40;Non-Shooting&amp;#41;</ITEMNAME>
       <ALTITEMIDS>6033</ALTITEMIDS>
-      <CATEGORY>19</CATEGORY>
+      <CATEGORY>992</CATEGORY>
       <ITEMWEIGHT>2.96</ITEMWEIGHT>
       <IMAGECOLOR>10</IMAGECOLOR>
    </ITEM>
@@ -307642,7 +307642,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1171</ITEMID>
       <ITEMNAME>Minifigure, Head Balaclava with Eye Hole Narrow, Black Eyes and Eyebrows Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1171</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>11</IMAGECOLOR>
@@ -308551,7 +308551,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1111</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Black Eyebrows, Goatee, Cheek Lines, Smile / Neutral Pattern &amp;#40;SW Kanan Jarrus&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1111</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>28</IMAGECOLOR>
@@ -309514,7 +309514,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1179</ITEMID>
       <ITEMNAME>Minifigure, Head Glasses with Black Sunglasses Large and Lopsided Smile Wide with Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1179</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -309874,7 +309874,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1182</ITEMID>
       <ITEMNAME>Minifigure, Head Glasses with Blue Sunglasses and Crooked Smile Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1182</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -310152,8 +310152,8 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1184</ITEMID>
-      <ITEMNAME>Minifigure, Head Beard Stubble, Gray Bushy Eyebrows, Open Grin, Gold Tooth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ITEMNAME>Minifigure, Head Dark Bluish Gray Bushy Eyebrows and Beard Stubble, Left Lower Eyelid, Open Mouth Smile with Top Teeth, Missing and Gold Tooth Pattern</ITEMNAME>
+      <ALTITEMIDS>3626cpb1184</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -310855,7 +310855,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1186</ITEMID>
       <ITEMNAME>Minifigure, Head Male Bushy Gray Eyebrows, Wrinkles, White Pupils, Slight Smile Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1186</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -310882,7 +310882,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1187</ITEMID>
       <ITEMNAME>Minifigure, Head Moustache Black Split, Goatee, Bushy Eyebrows, Cheek Lines, Angry Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1187</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -310917,8 +310917,8 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1188</ITEMID>
-      <ITEMNAME>Minifigure, Head Moustache Dark Tan Thin, Goatee, Wide Smile with Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ITEMNAME>Minifigure, Head Dark Tan Eyebrows, Curled Moustache and Goatee, Left Eyebrow Raised, Upper Eyelids, Wide Open Mouth Smile with Teeth Pattern</ITEMNAME>
+      <ALTITEMIDS>3626cpb1188</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -311080,7 +311080,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1189</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Female Dark Orange Eyebrows, Eyelashes, Bright Pink Lips, Smile / Eyes Closed, Kissing Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1189</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -311224,7 +311224,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1191</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Dark Brown Eyebrows, Goatee, Cheek Lines, Smile / Neutral Pattern &amp;#40;SW Kanan Jarrus&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1191</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>28</IMAGECOLOR>
@@ -311962,7 +311962,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1195</ITEMID>
       <ITEMNAME>Minifigure, Head Dark Orange Eyebrows, White Pupils, Crooked Smile and Chin Dimple Pattern</ITEMNAME>
-      <ALTITEMIDS>88475pb1195</ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1195,88475pb1195</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -312169,7 +312169,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1197</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided LotR Bard Long Black Sideburns, Moustache, Goatee, Frowning / Angry with Mud Splotches Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1197</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -312178,7 +312178,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1198</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Child LotR Bain, Brown Eyebrows, Slight Smile and Freckles / Angry with Mud Splotches Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1198</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -312187,7 +312187,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1199</ITEMID>
       <ITEMNAME>Minifigure, Head LotR Hunter Orc Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1199</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>69</IMAGECOLOR>
@@ -312610,7 +312610,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1200</ITEMID>
       <ITEMNAME>Minifigure, Head Male Brown Eyebrows and Long Sideburns, Frown and Furrowed Brow Pattern &amp;#40;SW Imperial Officer&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1200</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -312826,7 +312826,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1201</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Female LotR Galadriel Eyelashes, Medium Nougat Lips, Neutral / Angry, White Eyes Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1201</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -312853,7 +312853,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1207</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided White Mask with Green Eyes, Red Scars, Open / Closed Mouth Pattern &amp;#40;The Joker&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1207</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -312916,7 +312916,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1204</ITEMID>
       <ITEMNAME>Minifigure, Head Black Eyebrows, Orange Eyes, Wrinkles, Scar, 2 Large Scars on Back Pattern &amp;#40;SW Darth Vader&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1204</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>2</IMAGECOLOR>
@@ -314176,7 +314176,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1212</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Female Dark Red Eyebrows, Eyelashes, Pink Lips, Cheek Lines, Smile / Bared Teeth Pattern &amp;#40;April O&amp;#39;Neil&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1212</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -698008,7 +698008,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>102722pb01</ITEMID>
       <ITEMNAME>Micro Doll, Body with Molded Black Dress Bottom with Flowing Tentacles and Printed Gold Shell Necklace and Black Dress Top and Arms Pattern &amp;#40;Ursula&amp;#41;</ITEMNAME>
-      <ALTITEMIDS>104766</ALTITEMIDS>
+      <ALTITEMIDS>104776</ALTITEMIDS>
       <CATEGORY>1082</CATEGORY>
       <ITEMWEIGHT>0.68</ITEMWEIGHT>
       <IMAGECOLOR>154</IMAGECOLOR>
@@ -705747,8 +705747,8 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>41759stk01</ITEMID>
-      <ITEMNAME>Sticker Sheet for Set 41759 - &amp;#40;10103445/6435275&amp;#41;</ITEMNAME>
-      <ALTITEMIDS>103445</ALTITEMIDS>
+      <ITEMNAME>Sticker Sheet for Set 41759 - &amp;#40;10103455/6435275&amp;#41;</ITEMNAME>
+      <ALTITEMIDS>103455</ALTITEMIDS>
       <CATEGORY>160</CATEGORY>
       <ITEMWEIGHT>1</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -754086,8 +754086,8 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>75393stk01</ITEMID>
-      <ITEMNAME>Sticker Sheet for Set 75393 - &amp;#40;10101914/6489010&amp;#41;</ITEMNAME>
-      <ALTITEMIDS>101914</ALTITEMIDS>
+      <ITEMNAME>Sticker Sheet for Set 75393 - &amp;#40;10109014/6489010&amp;#41;</ITEMNAME>
+      <ALTITEMIDS>109014</ALTITEMIDS>
       <CATEGORY>160</CATEGORY>
       <ITEMWEIGHT>0.75</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -872013,7 +872013,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>117811pb01</ITEMID>
-      <ITEMNAME>Pokémon Eevee with Molded Tan Fur and Printed Black Eyes and Reddish Brown Auricles Pattern</ITEMNAME>
+      <ITEMNAME>Pokémon Eevee with Molded Tan Fur and Printed Black Eyes and Reddish Brown Auricles Pattern {Pokemon}</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>147</CATEGORY>
       <ITEMWEIGHT>1.1</ITEMWEIGHT>
@@ -872022,7 +872022,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>116127pb01</ITEMID>
-      <ITEMNAME>Pokémon Pikachu with Molded Reddish Brown Stripes and Printed Red Cheeks, Black Eyes, Nose, Mouth and Ear Tips Pattern</ITEMNAME>
+      <ITEMNAME>Pokémon Pikachu with Molded Reddish Brown Stripes and Printed Red Cheeks, Black Eyes, Nose, Mouth and Ear Tips Pattern {Pokemon}</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>147</CATEGORY>
       <ITEMWEIGHT>0.94</ITEMWEIGHT>
@@ -872049,7 +872049,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>116128pb01</ITEMID>
-      <ITEMNAME>Ball, Pokémon Poké Ball with Molded Red Top and Black Band Pattern</ITEMNAME>
+      <ITEMNAME>Ball, Pokémon Poké Ball with Molded Red Top and Black Band Pattern {Pokemon} {Poke}</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>978</CATEGORY>
       <ITEMWEIGHT>0.37</ITEMWEIGHT>
@@ -874010,6 +874010,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>89680pb01</ITEMID>
+      <ITEMNAME>Wedge 16 x 4 Triple Curved without Reinforcements with Dark Tan Lines, Striped and Solid Triangles Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>578</CATEGORY>
+      <ITEMWEIGHT>8.32</ITEMWEIGHT>
+      <IMAGECOLOR>2</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>973pb6820</ITEMID>
       <ITEMNAME>Torso Hoodie with Yellow Drawstrings, Medium Lavender Minifigure Head with Headphones, Stylized &amp;#39;STREET&amp;#39; on Back Pattern &amp;#40;BAM&amp;#41;</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
@@ -874124,6 +874133,15 @@
       <CATEGORY>160</CATEGORY>
       <ITEMWEIGHT>0.39</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>4162pb346</ITEMID>
+      <ITEMNAME>Tile 1 x 8 with White &amp;#39;Sagrada Família&amp;#39; Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>39</CATEGORY>
+      <ITEMWEIGHT>1.04</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -874655,6 +874673,33 @@
       <CATEGORY>160</CATEGORY>
       <ITEMWEIGHT>0.92</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>87079pb1728</ITEMID>
+      <ITEMNAME>Tile 2 x 4 with Dark Tan Lines, Striped and Solid Triangles Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>39</CATEGORY>
+      <ITEMWEIGHT>0.9</ITEMWEIGHT>
+      <IMAGECOLOR>2</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>22385pb411</ITEMID>
+      <ITEMNAME>Tile, Modified 2 x 3 Pentagonal with Dark Tan Rounded Triangles with Dark Brown, Dark Silver and Silver Circles Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>778</CATEGORY>
+      <ITEMWEIGHT>0.6</ITEMWEIGHT>
+      <IMAGECOLOR>2</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>22385pb412</ITEMID>
+      <ITEMNAME>Tile, Modified 2 x 3 Pentagonal with Dark Tan, Dark Brown and Dark Silver Pyramid of 10 Circles with Bars on Bottom, 1 Circle with Triangle on Top Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>778</CATEGORY>
+      <ITEMWEIGHT>0.6</ITEMWEIGHT>
+      <IMAGECOLOR>2</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
