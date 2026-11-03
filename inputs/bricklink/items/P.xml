@@ -47239,7 +47239,7 @@
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>105</CATEGORY>
       <ITEMWEIGHT>2</ITEMWEIGHT>
-      <IMAGECOLOR>68</IMAGECOLOR>
+      <IMAGECOLOR>88</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -189218,7 +189218,7 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
-      <ITEMID>87705</ITEMID>
+      <ITEMID>87708</ITEMID>
       <ITEMNAME>Duplo Dump Truck Large Container &amp;#40;Tipper Bed&amp;#41;</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>488</CATEGORY>
@@ -298372,7 +298372,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1125</ITEMID>
       <ITEMNAME>Minifigure, Head Black Eyes, Open Mouth Smile and Curly Brown Moustache Pattern &amp;#40;Western Emmet&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1125</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -299227,7 +299227,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1112</ITEMID>
       <ITEMNAME>Minifigure, Head without Face with Large Black Eye with Pupil Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1112</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>1</IMAGECOLOR>
@@ -299425,7 +299425,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1113</ITEMID>
       <ITEMNAME>Minifigure, Head Alien with Robot Yellow Eyes and Mouth and Aluminum Foil Splotches Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1113</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>95</IMAGECOLOR>
@@ -299479,7 +299479,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1114</ITEMID>
       <ITEMNAME>Minifigure, Head Alien with Robot Red Eyes and Mouth and Silver Metal Plates Eyebrows and Mask Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1114</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>95</IMAGECOLOR>
@@ -300964,7 +300964,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1119</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Alien with SW Ten Numb No Mask / Breathing Mask Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1119</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>2</IMAGECOLOR>
@@ -300973,7 +300973,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1120</ITEMID>
       <ITEMNAME>Minifigure, Head Male Dark Tan Eyebrows Furrowed, Cheek Lines, Frown, Headset Pattern &amp;#40;SW Airen Cracken&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1120</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -300982,7 +300982,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1121</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Black Eyebrows, White Pupils, Chin Dimple, Slight Smile / Pink Visor, Frown Pattern &amp;#40;SW Gray Squadron Pilot&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1121</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -301441,7 +301441,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1123</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Brown Eyebrows, White Pupils and Chin and Cheek Dimples, Slight Smile / Scared Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1123</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -301477,7 +301477,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1124</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Moustache, White Pupils, Determined / Scared with Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1124</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>88</IMAGECOLOR>
@@ -301567,7 +301567,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1127</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Glasses, White Pupils, Smile / Scared with Teeth Pattern &amp;#40;Egon Spengler&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1127</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -301594,7 +301594,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1128</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Brown Eyebrows, White Pupils, Smile with Teeth / Scared Pattern &amp;#40;Ray Stantz&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1128</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -302566,7 +302566,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1130</ITEMID>
       <ITEMNAME>Minifigure, Head Alien with Yellow Eyes, Dark Red Wrinkles, Bared Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1130</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>5</IMAGECOLOR>
@@ -302575,7 +302575,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1131</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Light Bluish Gray Beard Stubble, Moustache, Eyebrows, Scar, Determined / Smirk Pattern &amp;#40;Solomon Blaze&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1131</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -302782,7 +302782,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1133</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Orange Visor, Brown Eyebrows, Chin Strap, Headset, Smile / Scared Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1133</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -303043,7 +303043,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1155</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Thick Brown Eyebrows, Silver Sunglasses, Angry Bared Teeth / Open Mouth Smile Pattern &amp;#40;Doc Ock&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1155</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -303610,7 +303610,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1137</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Black Eyebrows, Slight Crooked Smile / Downturned Mouth with Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1137</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -304771,7 +304771,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1147</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Open Smile with Tongue / Open Mouth on One Side Pattern &amp;#40;Emmet&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1147</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -305149,7 +305149,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1149</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Red Visor with 2 White Bands, Cheek Lines, Mouth Closed / Clenched Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1149</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -305158,7 +305158,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1150</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Beard Stubble, Black Eyebrows, Determined, Open Mouth / Mouth Closed, Scar on Right Eyebrow Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1150</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -305833,7 +305833,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1152</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Beard Stubble, Brown Eyebrows, Smile / Angry Bared Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1152</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -305842,7 +305842,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1153</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Brown Eyebrows, Cheek Lines, Forehead Lines, Smile / Determined, Chin Strap Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1153</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -305851,7 +305851,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1154</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Alien Skull with Mandibles and Silver Eyes / Exoskeleton and One Eye Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1154</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>11</IMAGECOLOR>
@@ -306175,7 +306175,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1158</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Black Glasses, Open Smile with Teeth and Tongue / Sunglasses, Clenched Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1158</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -306355,7 +306355,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1160</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Dark Tan Eyebrows, White Pupils, Cheek Lines, Smile / Scowling Pattern &amp;#40;SW Luke Skywalker&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1160</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -306364,7 +306364,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1161</ITEMID>
       <ITEMNAME>Minifigure, Head Male SW Dark Tan Eyebrows, White Pupils, Stubble and Wrinkles Pattern &amp;#40;Owen Lars&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1161</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -306562,7 +306562,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1162</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Alien Black Face, Gray Eyebrows, Angry, Mouth Closed / Bared Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1162</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>7</IMAGECOLOR>
@@ -306778,7 +306778,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1166</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Alien Female Silver Tattoos, Eyelashes, Green Lips, Smile / Angry Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1166</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>34</IMAGECOLOR>
@@ -307129,7 +307129,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1168</ITEMID>
       <ITEMNAME>Minifigure, Head Male Mask with Eye Holes and Letter A on Forehead, Smile Pattern &amp;#40;Captain America&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1168</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>7</IMAGECOLOR>
@@ -307138,7 +307138,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1169</ITEMID>
       <ITEMNAME>Minifigure, Head Mask with Yellow Eyes and Bared Teeth and Yellow &amp;#39;H&amp;#39; on Back Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1169</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>6</IMAGECOLOR>
@@ -874676,6 +874676,51 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>970c00pb2028</ITEMID>
+      <ITEMNAME>Hips and Legs with Racing Suit, White Pockets and Stitching in Grid, Black Folds and Boot Tips Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1098</CATEGORY>
+      <ITEMWEIGHT>1.18</ITEMWEIGHT>
+      <IMAGECOLOR>5</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>3626pb4295</ITEMID>
+      <ITEMNAME>Minifigure, Head Dual Sided Dark Brown Eyebrows, Medium Nougat Freckles and Smile Lines, Slight Smile / Gold Sunglasses, Open Mouth Smile with Teeth Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>238</CATEGORY>
+      <ITEMWEIGHT>0.55</ITEMWEIGHT>
+      <IMAGECOLOR>241</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6867c01</ITEMID>
+      <ITEMNAME>Torso T-Shirt with Minifigure Head, Red and Yellow 'SENNiNHA' Logo and Tied Racing Suit Pattern / Medium Tan Arms with Molded White Short Sleeves Pattern / Medium Tan Hands</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.3</ITEMWEIGHT>
+      <IMAGECOLOR>1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6867</ITEMID>
+      <ITEMNAME>Torso T-Shirt with Minifigure Head, Red and Yellow 'SENNiNHA' Logo and Tied Racing Suit Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>150</CATEGORY>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
+      <IMAGECOLOR>1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>53980pb05</ITEMID>
+      <ITEMNAME>Minifigure, Hair Combo, Hair with Hat, Bushy Hair with Molded Blue Ball Cap and Printed White Circle and Stripe Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>847</CATEGORY>
+      <ITEMWEIGHT>0.88</ITEMWEIGHT>
+      <IMAGECOLOR>120</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>87079pb1728</ITEMID>
       <ITEMNAME>Tile 2 x 4 with Dark Tan Lines, Striped and Solid Triangles Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
@@ -874718,5 +874763,230 @@
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>0.94</ITEMWEIGHT>
       <IMAGECOLOR>1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>49556pb08</ITEMID>
+      <ITEMNAME>Minifigure, Headgear Helmet Mask, Hole on Top with Black and Silver Star, Line and Rivets Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>16</CATEGORY>
+      <ITEMWEIGHT>0.46</ITEMWEIGHT>
+      <IMAGECOLOR>59</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>3626pb4296</ITEMID>
+      <ITEMNAME>Minifigure, Head Dark Brown Bushy Eyebrows, Moustache, Beard and Stubble, Medium Nougat Cheek Lines and Wrinkles, Stern Frown Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>238</CATEGORY>
+      <ITEMWEIGHT>0.55</ITEMWEIGHT>
+      <IMAGECOLOR>90</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>3626pb4297</ITEMID>
+      <ITEMNAME>Minifigure, Head Dual Sided Reddish Brown Eyebrows, Medium Nougat Cheek Lines and Dimples, Gold Eyes, Frown / Open Mouth Smile with Teeth Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>238</CATEGORY>
+      <ITEMWEIGHT>0.55</ITEMWEIGHT>
+      <IMAGECOLOR>90</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>3626pb4298</ITEMID>
+      <ITEMNAME>Minifigure, Head Dual Sided Female Black Eyebrows, Double Eyelashes, Dark Azure Eyeshadow, Medium Nougat Lips and Dimples, Right Eyebrow Raised, Lopsided Grin / Frown Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>238</CATEGORY>
+      <ITEMWEIGHT>0.55</ITEMWEIGHT>
+      <IMAGECOLOR>90</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>3626pb4299</ITEMID>
+      <ITEMNAME>Minifigure, Head Dark Orange Eyebrows, Yellow Eyes, Reddish Orange Dimples, Frown, Raised Left Eyebrow Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>238</CATEGORY>
+      <ITEMWEIGHT>0.55</ITEMWEIGHT>
+      <IMAGECOLOR>4</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>970c00pb2029</ITEMID>
+      <ITEMNAME>Hips and Legs with Reddish Brown Armor, Tan Straps, Black Knee Pads and Boot Tips with Dark Bluish Gray Contours Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1098</CATEGORY>
+      <ITEMWEIGHT>1.18</ITEMWEIGHT>
+      <IMAGECOLOR>59</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>970c00pb2030</ITEMID>
+      <ITEMNAME>Hips and Legs with Gold Armor, Dark Orange Lines and Dark Blue Trim, Black Belt Buckle Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1098</CATEGORY>
+      <ITEMWEIGHT>1.18</ITEMWEIGHT>
+      <IMAGECOLOR>115</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>970c00pb2031</ITEMID>
+      <ITEMNAME>Hips and Legs with Molded Black Lower Legs / Boots and Printed Armor, Knee Pads, Dark Green Straps, Gold Highlights and Dark Bluish Gray Boot Tips Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1098</CATEGORY>
+      <ITEMWEIGHT>1.18</ITEMWEIGHT>
+      <IMAGECOLOR>85</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>970c00pb2032</ITEMID>
+      <ITEMNAME>Hips and Legs with White and Yellow Flames with Reddish Orange Outline Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1098</CATEGORY>
+      <ITEMWEIGHT>1.18</ITEMWEIGHT>
+      <IMAGECOLOR>4</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6868</ITEMID>
+      <ITEMNAME>Torso Armor with Tan and Dark Tan Straps and Belt with Pouches, Silver Buckle, Clasps and Avengers Logo Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>150</CATEGORY>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
+      <IMAGECOLOR>59</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6869c01</ITEMID>
+      <ITEMNAME>Torso Gold Armor, Dark Orange Lines and Dark Blue Trim, Black Belt with &amp;#39;S&amp;#39; Buckle Pattern / Pearl Gold Arms / Light Nougat Hands</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.3</ITEMWEIGHT>
+      <IMAGECOLOR>115</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6869</ITEMID>
+      <ITEMNAME>Torso Gold Armor, Dark Orange Lines and Dark Blue Trim, Black Belt with &amp;#39;S&amp;#39; Buckle Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>150</CATEGORY>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
+      <IMAGECOLOR>115</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6868c01</ITEMID>
+      <ITEMNAME>Torso Armor with Tan and Dark Tan Straps and Belt with Pouches, Silver Buckle, Clasps and Avengers Logo Pattern / Dark Red Arms / Dark Red Hands</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.3</ITEMWEIGHT>
+      <IMAGECOLOR>59</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6871c01</ITEMID>
+      <ITEMNAME>Torso Vest with Dark Green Straps and Belt, Gold Buckle, Clasps, Rivets and Hightlights Pattern / Dark Bluish Gray Arms / Black Hands</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.3</ITEMWEIGHT>
+      <IMAGECOLOR>85</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6871</ITEMID>
+      <ITEMNAME>Torso Vest with Dark Green Straps and Belt, Gold Buckle, Clasps, Rivets and Hightlights Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>150</CATEGORY>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
+      <IMAGECOLOR>85</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6873c01</ITEMID>
+      <ITEMNAME>Torso Dark Silver and Dark Bluish Gray Armor Panels, Straps and Belt with Pouches, Silver Buckle and Avengers Logo Pattern / Pearl Dark Gray Arm Left with Gold Lines Pattern / Black Arm Right / Black Hands</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.3</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6873</ITEMID>
+      <ITEMNAME>Torso Dark Silver and Dark Bluish Gray Armor Panels, Straps and Belt with Pouches, Silver Buckle and Avengers Logo Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>150</CATEGORY>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6874c01</ITEMID>
+      <ITEMNAME>Torso Super Hero Costume with White and Yellow Flames with Reddish Orange Outline, Belt and Fantastic Four Emblem with Number 4 Pattern / Orange Arms / Orange Hands</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1097</CATEGORY>
+      <ITEMWEIGHT>1.3</ITEMWEIGHT>
+      <IMAGECOLOR>4</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>973pb6874</ITEMID>
+      <ITEMNAME>Torso Super Hero Costume with White and Yellow Flames with Reddish Orange Outline, Belt and Fantastic Four Emblem with Number 4 Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>150</CATEGORY>
+      <ITEMWEIGHT>0.82</ITEMWEIGHT>
+      <IMAGECOLOR>4</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>981pb475</ITEMID>
+      <ITEMNAME>Arm, Left with Black Shoulder and Cuff and Gold Lines Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>20</CATEGORY>
+      <ITEMWEIGHT>0.15</ITEMWEIGHT>
+      <IMAGECOLOR>77</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>981982pb476</ITEMID>
+      <ITEMNAME>Arm, &amp;#40;Matching Left and Right&amp;#41; Pair with Copper Leaves Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>20</CATEGORY>
+      <ITEMWEIGHT>0.3</ITEMWEIGHT>
+      <IMAGECOLOR>59</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>981pb476</ITEMID>
+      <ITEMNAME>Arm, Left with Copper Leaves Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>20</CATEGORY>
+      <ITEMWEIGHT>0.15</ITEMWEIGHT>
+      <IMAGECOLOR>59</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>982pb476</ITEMID>
+      <ITEMNAME>Arm, Right with Copper Leaves Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>20</CATEGORY>
+      <ITEMWEIGHT>0.15</ITEMWEIGHT>
+      <IMAGECOLOR>59</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>981pb477</ITEMID>
+      <ITEMNAME>Arm, Left with Black and White SW Imperial Logo and Silver Code Cylinders in Pocket Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>20</CATEGORY>
+      <ITEMWEIGHT>0.15</ITEMWEIGHT>
+      <IMAGECOLOR>85</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>982pb478</ITEMID>
+      <ITEMNAME>Arm, Right with White and Sand Blue SW Insignia Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>20</CATEGORY>
+      <ITEMWEIGHT>0.15</ITEMWEIGHT>
+      <IMAGECOLOR>86</IMAGECOLOR>
    </ITEM>
 </CATALOG>

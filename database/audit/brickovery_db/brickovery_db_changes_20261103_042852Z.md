@@ -1,42 +1,42 @@
-# Brickovery DB backup & change audit — 20261029_032232Z
+# Brickovery DB backup & change audit — 20261103_042852Z
 
 ## Context
-- created_at_utc: **20261029_032232Z**
+- created_at_utc: **20261103_042852Z**
 - reason: **semantic_delta**
 - repository: `brickbuild-dev/database`
 - workflow: `Sync BrickStore payload (semantic) + update DB (manual rebuild only)`
-- run: `3812` (id `40810868515`)
-- commit: `f5b8060d9c29855cee7fe0612736c04b99d82086`
+- run: `3822` (id `41577571101`)
+- commit: `feb5020a551c9be498d9f89454f545af6d7e4b0f`
 - actor: `brickbuild-dev`
 - ref: `refs/heads/main`
 
 ## Backup (immutable)
 - db_path: `database/brickovery.db`
-- db_sha256 (pre-update): `e943f64063abe3cd0babaca73c10b1266375945603f7731573fdda2c78e15dfd`
+- db_sha256 (pre-update): `801a277eecdc06942bc6a674ba0860097151b48b6551eb2e36aec9d039043d5c`
 - db_size_bytes (pre-update): `58519552`
-- backup_file: `brickovery_db_backup_20261029_032232Z.sqlite.gz`
-- meta_file: `brickovery_db_backup_20261029_032232Z.meta.json`
+- backup_file: `brickovery_db_backup_20261103_042852Z.sqlite.gz`
+- meta_file: `brickovery_db_backup_20261103_042852Z.meta.json`
 
 ## Optional CSV snapshot
-- csv_sha256 (pre-update): `e31496253c9c17f3a941650808fa707943a14eb953375999a25635228d4e7387`
-- csv_size_bytes (pre-update): `26906771`
-- csv_backup_file: `brickovery_db_csv_backup_20261029_032232Z.csv.gz`
+- csv_sha256 (pre-update): `3fec0a969e4dfb559aeac5ec4e3db30358675dcd75911030b98d2302115e5d17`
+- csv_size_bytes (pre-update): `26919955`
+- csv_backup_file: `brickovery_db_csv_backup_20261103_042852Z.csv.gz`
 
 ## Intended change summary (from context JSON, if provided)
 - semantic_new_data: `True`
-- items_upstream: `211928`
-- items_db: `213732`
-- items_missing_in_db: `73`
-- codes_upstream: `87093`
-- codes_db: `258471`
-- codes_missing_in_db: `23`
+- items_upstream: `212060`
+- items_db: `213902`
+- items_missing_in_db: `37`
+- codes_upstream: `87146`
+- codes_db: `258702`
+- codes_missing_in_db: `15`
 - db_inserted_items: `0`
 - db_inserted_codes: `0`
 - unknown_color_tokens_count: `4`
 
 ## Restore procedure (emergency)
 1) Stop any writers (workflows/scripts) that may modify the DB.
-2) Download `database/backups/brickovery_db/brickovery_db_backup_20261029_032232Z.sqlite.gz` and decompress it:
+2) Download `database/backups/brickovery_db/brickovery_db_backup_20261103_042852Z.sqlite.gz` and decompress it:
    - `gzip -d brickovery_db_backup_...sqlite.gz`
 3) Replace `database/brickovery.db` with the decompressed file.
 4) Re-run export (mode export) to regenerate CSV and issues.
