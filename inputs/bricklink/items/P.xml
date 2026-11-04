@@ -12454,7 +12454,7 @@
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>117</CATEGORY>
       <ITEMWEIGHT>5.49</ITEMWEIGHT>
-      <IMAGECOLOR>104</IMAGECOLOR>
+      <IMAGECOLOR>36</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -18471,7 +18471,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>4215bpx15</ITEMID>
-      <ITEMNAME>Panel 1 x 4 x 3 - Hollow Studs with Red Café &amp;#40;Cafe&amp;#41; and Black Semi-Truck Pattern</ITEMNAME>
+      <ITEMNAME>Panel 1 x 4 x 3 - Hollow Studs with Script Red Café {Cafe} and Black Semi-Truck Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>461</CATEGORY>
       <ITEMWEIGHT>2.29</ITEMWEIGHT>
@@ -35787,7 +35787,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3010pb008</ITEMID>
-      <ITEMNAME>Brick 1 x 4 with Pink Café &amp;#40;Cafe&amp;#41;, Palm Tree in Sand Pattern</ITEMNAME>
+      <ITEMNAME>Brick 1 x 4 with Script Pink Café {Cafe}, Palm Tree in Sand Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>118</CATEGORY>
       <ITEMWEIGHT>1.64</ITEMWEIGHT>
@@ -116967,7 +116967,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>2454pb007</ITEMID>
-      <ITEMNAME>Brick 1 x 2 x 5 with Ice Cream Cone, 'CAFÉ' (CAFE) and Coffee Cup Pattern (Sticker) - Set 4513</ITEMNAME>
+      <ITEMNAME>Brick 1 x 2 x 5 with Ice Cream Cone, 'CAFÉ' {CAFE} and Coffee Cup Pattern &amp;#40;Sticker&amp;#41; - Set 4513</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>118</CATEGORY>
       <ITEMWEIGHT>3.49</ITEMWEIGHT>
@@ -119541,7 +119541,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3069pb0078</ITEMID>
-      <ITEMNAME>Tile 1 x 2 with &amp;#39;XFxxxxxx&amp;#39; Exo-Code Pattern</ITEMNAME>
+      <ITEMNAME>Tile 1 x 2 with Exo-Code 'XFxxxxxx' Pattern</ITEMNAME>
       <ALTITEMIDS>3069bpb0078</ALTITEMIDS>
       <CATEGORY>39</CATEGORY>
       <ITEMWEIGHT>0.25</ITEMWEIGHT>
@@ -262200,7 +262200,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3069pb0263</ITEMID>
-      <ITEMNAME>Tile 1 x 2 with &amp;#39;VR-xxxxxxx&amp;#39; LEGO City Undercover Video Game Code Pattern</ITEMNAME>
+      <ITEMNAME>Tile 1 x 2 with LEGO City Undercover Video Game Code 'VR-xxxxxxx' Pattern</ITEMNAME>
       <ALTITEMIDS>3069bpb0263</ALTITEMIDS>
       <CATEGORY>39</CATEGORY>
       <ITEMWEIGHT>0.26</ITEMWEIGHT>
@@ -266530,7 +266530,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb0896</ITEMID>
       <ITEMNAME>Minifigure, Head Alien with Robot Magenta Eyes and Mouth and Metal Plates Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb0896</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>86</IMAGECOLOR>
@@ -270291,7 +270291,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>6180pb060</ITEMID>
-      <ITEMNAME>Tile, Modified 4 x 6 with Studs on Edges with 'Café' (Cafe) and Red Cup and Saucer Pattern (Sticker) - Set 3061</ITEMNAME>
+      <ITEMNAME>Tile, Modified 4 x 6 with Studs on Edges with 'Café' {Cafe} and Red Cup and Saucer Pattern &amp;#40;Sticker&amp;#41; - Set 3061</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>778</CATEGORY>
       <ITEMWEIGHT>3</ITEMWEIGHT>
@@ -292909,7 +292909,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1074</ITEMID>
       <ITEMNAME>Minifigure, Head Sideburns and Open Mouth Smile with Teeth and Tongue Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1074</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -292918,7 +292918,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1075</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Female Pink Headband, Sweat Beads, Red Lips, Mouth Closed / Clenched Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1075</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -293071,7 +293071,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1076</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Wrinkles, Dark Tan Eyebrows, Bared Teeth Evil Grin / Stern Pattern &amp;#40;SW Palpatine&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1076</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -293647,7 +293647,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1084</ITEMID>
       <ITEMNAME>Minifigure, Head Alien Skull with Red Eyes, Metal Eyebrows with Rivets and Metal Jaw with Screws Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1084</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>86</IMAGECOLOR>
@@ -294601,7 +294601,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1092</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Female Brown Eyebrows, Eyelashes, Red Lips, Smile / Angry Pattern &amp;#40;Batgirl&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1092</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -294609,8 +294609,8 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1093</ITEMID>
-      <ITEMNAME>Minifigure, Head Face Paint with Red Lips and Eyebrows, Green Cheeks, Angry Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ITEMNAME>Minifigure, Head Face Paint with Red Lips and Eyebrows, Lime Cheeks, Angry Bared Teeth Pattern</ITEMNAME>
+      <ALTITEMIDS>3626cpb1093</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -294888,8 +294888,8 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1099</ITEMID>
-      <ITEMNAME>Minifigure, Head Dual Sided Female Black Eyebrows, Eyelashes, Red Lips, Dimples, Smile / Scared Pattern &amp;#40;Mary Jane 5&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ITEMNAME>Minifigure, Head Dual Sided Female Black Eyebrows, Eyelashes, Red Lips, Dimples, Smile / Scared Pattern</ITEMNAME>
+      <ALTITEMIDS>3626cpb1099</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -294906,8 +294906,8 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1100</ITEMID>
-      <ITEMNAME>Minifigure, Head Dual Sided Black Standard Eyes, Smile with Tongue / Standard Grin Pattern &amp;#40;Benny&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ITEMNAME>Minifigure, Head Dual Sided Black Standard Eyes, Wide Open Mouth Smile with Red Tongue / Standard Grin Pattern</ITEMNAME>
+      <ALTITEMIDS>3626cpb1100</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -295906,7 +295906,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1103</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Female Red Lips and Eye Shadow, Beauty Mark, Mouth Closed / Bared Teeth Pattern &amp;#40;Karai&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1103</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -296032,7 +296032,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1105</ITEMID>
       <ITEMNAME>Minifigure, Head Male Brown Thick Eyebrows, Lines under Eyes, Cheek Lines and Open Mouth with Teeth Pattern &amp;#40;Victor&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1105</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -296563,7 +296563,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1107</ITEMID>
       <ITEMNAME>Minifigure, Head Alien with Robot Magenta Eyes, Silver Mouth, Medium Blue Line and Metal Plates Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1107</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>86</IMAGECOLOR>
@@ -296689,7 +296689,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1108</ITEMID>
       <ITEMNAME>Minifigure, Head Glasses with Black and Silver Sunglasses, Crooked Smile, Cheek Lines Pattern &amp;#40;Power Man&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1108</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>88</IMAGECOLOR>
@@ -298255,7 +298255,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1110</ITEMID>
       <ITEMNAME>Minifigure, Head Alien with Medium Blue Face with White Eyes and Lightning Bolts on Forehead Pattern &amp;#40;Electro&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1110</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>74</IMAGECOLOR>
@@ -301404,7 +301404,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>2431pb0342</ITEMID>
-      <ITEMNAME>Tile 1 x 4 with AI-xxxxxxxx Pattern</ITEMNAME>
+      <ITEMNAME>Tile 1 x 4 with The LEGO Movie Video Game Code 'AI-xxxxxxxx' Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>39</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
@@ -394518,7 +394518,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>26603pb001</ITEMID>
-      <ITEMNAME>Tile 2 x 3 with LEGO Creator Expert Modular Building Set 10182 Café Corner Box Art Pattern {Cafe}</ITEMNAME>
+      <ITEMNAME>Tile 2 x 3 with LEGO Creator Expert Modular Building Set 10182 Café {Cafe} Corner Box Art Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>39</CATEGORY>
       <ITEMWEIGHT>0.69</ITEMWEIGHT>
@@ -481188,7 +481188,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>59349pb154</ITEMID>
-      <ITEMNAME>Panel 1 x 6 x 5 with &amp;#39;CAPES &amp; COWLS CAFÉ&amp;#39; &amp;#40;Cafe&amp;#41; and Bright Light Yellow Dots Pattern &amp;#40;Sticker&amp;#41; - Set 41231</ITEMNAME>
+      <ITEMNAME>Panel 1 x 6 x 5 with 'CAPES &amp; COWLS CAFÉ' {CAFE} and Bright Light Yellow Dots Pattern &amp;#40;Sticker&amp;#41; - Set 41231</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>461</CATEGORY>
       <ITEMWEIGHT>6.1</ITEMWEIGHT>
@@ -520077,7 +520077,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>98223pb025</ITEMID>
-      <ITEMNAME>Duplo, Brick 2 x 4 Slope Curved Double with Script &amp;#39;Café&amp;#39; &amp;#40;Cafe&amp;#41;, Bright Light Yellow Cake and Heart, and Bright Pink Cupcake and Star on Black Background Pattern</ITEMNAME>
+      <ITEMNAME>Duplo, Brick 2 x 4 Slope Curved Double with Script 'Café' {Cafe}, Bright Light Yellow Cake and Heart, and Bright Pink Cupcake and Star on Black Background Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>440</CATEGORY>
       <ITEMWEIGHT>11.12</ITEMWEIGHT>
@@ -520158,7 +520158,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>bb0921pb02</ITEMID>
-      <ITEMNAME>Duplo Car Body Bus Small, 4 Studs on Top with Cupcake, Cake and &amp;#39;Café&amp;#39; &amp;#40;Cafe&amp;#41; Pattern</ITEMNAME>
+      <ITEMNAME>Duplo Car Body Bus Small, 4 Studs on Top with Cupcake, Cake and 'Café' {Cafe} Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>488</CATEGORY>
       <ITEMWEIGHT>66.9</ITEMWEIGHT>
@@ -698286,7 +698286,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>26603pb335</ITEMID>
-      <ITEMNAME>Tile 2 x 3 with Bright Pink Cup with Cream, 'Café' &amp;#40;Cafe&amp;#41; and Yellow Heart Pattern &amp;#40;Sticker&amp;#41; - Set 41426</ITEMNAME>
+      <ITEMNAME>Tile 2 x 3 with Bright Pink Cup with Cream, 'Café' {Cafe} and Yellow Heart Pattern &amp;#40;Sticker&amp;#41; - Set 41426</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>39</CATEGORY>
       <ITEMWEIGHT>0.68</ITEMWEIGHT>
@@ -756273,7 +756273,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>26603pb429</ITEMID>
-      <ITEMNAME>Tile 2 x 3 with Medium Azure Sign with Red, White and Yellow Coffee Cup, Cake, Heart and 'Café' &amp;#40;Cafe&amp;#41; Pattern</ITEMNAME>
+      <ITEMNAME>Tile 2 x 3 with Medium Azure Sign with Red, White and Yellow Coffee Cup, Cake, Heart and 'Café' {Cafe} Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>39</CATEGORY>
       <ITEMWEIGHT>0.68</ITEMWEIGHT>
@@ -786981,7 +786981,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>66857pb089</ITEMID>
-      <ITEMNAME>Tile, Round 2 x 4 Oval with Black 'Café Fleur' &amp;#40;Cafe&amp;#41;, Filigree and Dark Pink Flower on Light Nougat Background with Bright Green Border Pattern</ITEMNAME>
+      <ITEMNAME>Tile, Round 2 x 4 Oval with Black 'Café Fleur' {Cafe}, Filigree and Dark Pink Flower on Light Nougat Background with Bright Green Border Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>812</CATEGORY>
       <ITEMWEIGHT>0.78</ITEMWEIGHT>
@@ -787017,7 +787017,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>80326pb027</ITEMID>
-      <ITEMNAME>Flag 2 x 2 Square with Flared Edge with White 'Café Fleur' &amp;#40;Cafe&amp;#41;, Flowers and Scribbles Pattern on Both Sides</ITEMNAME>
+      <ITEMNAME>Flag 2 x 2 Square with Flared Edge with White 'Café Fleur' {Cafe}, Flowers and Scribbles Pattern on Both Sides</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>738</CATEGORY>
       <ITEMWEIGHT>0.53</ITEMWEIGHT>
@@ -802929,7 +802929,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>66857pb105</ITEMID>
-      <ITEMNAME>Tile, Round 2 x 4 Oval with White Sign, Lime Filigree and Flowers, Dark Blue 'Café' &amp;#40;Cafe&amp;#41; Pattern &amp;#40;Sticker&amp;#41; - Set 42671</ITEMNAME>
+      <ITEMNAME>Tile, Round 2 x 4 Oval with White Sign, Lime Filigree and Flowers, Dark Blue 'Café' {Cafe} Pattern &amp;#40;Sticker&amp;#41; - Set 42671</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>812</CATEGORY>
       <ITEMWEIGHT>0.78</ITEMWEIGHT>
@@ -874988,5 +874988,50 @@
       <CATEGORY>20</CATEGORY>
       <ITEMWEIGHT>0.15</ITEMWEIGHT>
       <IMAGECOLOR>86</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>981982pb479</ITEMID>
+      <ITEMNAME>Arm, &amp;#40;Matching Left and Right&amp;#41; Pair with Bright Light Orange Shoulder Armor, Braid, Dark Red Gauntlets with Rocket Launcher and Flamethrower Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>20</CATEGORY>
+      <ITEMWEIGHT>0.3</ITEMWEIGHT>
+      <IMAGECOLOR>86</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>981pb479</ITEMID>
+      <ITEMNAME>Arm, Left with Bright Light Orange Shoulder Armor, Dark Red Mandalorian Mythosaur Skull and Gauntlet with Rocket Launcher Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>20</CATEGORY>
+      <ITEMWEIGHT>0.15</ITEMWEIGHT>
+      <IMAGECOLOR>86</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>982pb479</ITEMID>
+      <ITEMNAME>Arm, Right with Bright Light Orange Shoulder Armor, Dark Tan Braid and Dark Red Gauntlet with Flamethrower Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>20</CATEGORY>
+      <ITEMWEIGHT>0.15</ITEMWEIGHT>
+      <IMAGECOLOR>86</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>71868pls01a</ITEMID>
+      <ITEMNAME>Plastic Part for Set 71868 - Dragon Wing with Sand Green Mechanical Bones, Trans-Orange Membranes with Red Flames, LEGO Copyright on Right Pattern</ITEMNAME>
+      <ALTITEMIDS>118944a</ALTITEMIDS>
+      <CATEGORY>161</CATEGORY>
+      <ITEMWEIGHT>2.7</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>71868pls01b</ITEMID>
+      <ITEMNAME>Plastic Part for Set 71868 - Dragon Wing with Sand Green Mechanical Bones, Trans-Orange Membranes with Red Flames, LEGO Copyright on Left Pattern</ITEMNAME>
+      <ALTITEMIDS>118944b</ALTITEMIDS>
+      <CATEGORY>161</CATEGORY>
+      <ITEMWEIGHT>2.7</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
