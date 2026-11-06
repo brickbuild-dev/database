@@ -98076,7 +98076,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>gen132</ITEMID>
-      <ITEMNAME>Store Employee &amp;#40;100 LEGO Stores - North America Back Printing&amp;#41;</ITEMNAME>
+      <ITEMNAME>LEGO Brand Store Employee, Male &amp;#40;100 LEGO Stores - North America Back Printing&amp;#41;</ITEMNAME>
       <CATEGORY>976</CATEGORY>
       <ITEMYEAR>2019</ITEMYEAR>
       <ITEMWEIGHT>3.8</ITEMWEIGHT>
@@ -128577,7 +128577,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hp363</ITEMID>
-      <ITEMNAME>Statue - The Ministry of Magic &amp;#40;Monochrome&amp;#41;</ITEMNAME>
+      <ITEMNAME>Statue - The Ministry of Magic, Fez &amp;#40;Monochrome&amp;#41;</ITEMNAME>
       <CATEGORY>227</CATEGORY>
       <ITEMYEAR>2022</ITEMYEAR>
       <ITEMWEIGHT>3.5</ITEMWEIGHT>
@@ -166316,7 +166316,7 @@
       <ITEMID>twn541</ITEMID>
       <ITEMNAME>Arcade Race Player</ITEMNAME>
       <CATEGORY>67</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>3.4</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -172632,7 +172632,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hp646</ITEMID>
-      <ITEMNAME>Statue - The Ministry of Magic, Pirate Hat, Gold Beard &amp;#40;Monochrome&amp;#41;</ITEMNAME>
+      <ITEMNAME>Statue - The Ministry of Magic, Pirate Hat &amp;#40;Monochrome&amp;#41;</ITEMNAME>
       <CATEGORY>227</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.07</ITEMWEIGHT>
@@ -173788,6 +173788,15 @@
       <CATEGORY>759</CATEGORY>
       <ITEMYEAR>?</ITEMYEAR>
       <ITEMWEIGHT>3.33</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>belvfairy10a</ITEMID>
+      <ITEMNAME>Belville Fairy &amp;#40;Millimy&amp;#41; - Pink with Stars Pattern, Wings, Bow</ITEMNAME>
+      <CATEGORY>48</CATEGORY>
+      <ITEMYEAR>1999</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>
