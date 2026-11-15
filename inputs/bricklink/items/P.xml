@@ -23596,7 +23596,7 @@
       <ALTITEMIDS>30168,90462</ALTITEMIDS>
       <CATEGORY>16</CATEGORY>
       <ITEMWEIGHT>0.8</ITEMWEIGHT>
-      <IMAGECOLOR>3</IMAGECOLOR>
+      <IMAGECOLOR>1</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -31639,7 +31639,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb0175</ITEMID>
       <ITEMNAME>Minifigure, Head Female with Black Eyes with Thick Eyelashes, Red Lips, Open Mouth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626bpb0175</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -285169,7 +285169,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1015</ITEMID>
       <ITEMNAME>Minifigure, Head Alien with Face Mask with Black Goggles Pattern &amp;#40;SW V-wing Pilot&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1015</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>1</IMAGECOLOR>
@@ -285754,7 +285754,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1019</ITEMID>
       <ITEMNAME>Minifigure, Head White Mask with Eyes and Mouth Wide Open Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1019</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.56</ITEMWEIGHT>
       <IMAGECOLOR>11</IMAGECOLOR>
@@ -285934,7 +285934,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1020</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided LotR Beard Dark Tan, Bushy Eyebrows, Wrinkles, White Pupils, Smile / Shouting Pattern &amp;#40;Radagast&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1020</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -286258,7 +286258,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1022</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided LotR Bard Long Black Sideburns, Moustache, Goatee, Frowning / Angry Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1022</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -286267,7 +286267,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1023</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided LotR Dark Orange Moustache, Goatee, Bushy Eyebrows, Wrinkles, Yellowed Teeth, Smile / Open Mouth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1023</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -287518,7 +287518,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1027</ITEMID>
       <ITEMNAME>Minifigure, Head Alien with Red Visor and 4 Mouth Squares on Silver Background Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1027</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>95</IMAGECOLOR>
@@ -287527,7 +287527,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1026</ITEMID>
       <ITEMNAME>Minifigure, Head Alien with Red Eyes, Metal Eyebrows with Rivets, 8 Mouth Squares, Stubble and Black Markings Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1026</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>95</IMAGECOLOR>
@@ -288183,8 +288183,8 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1030</ITEMID>
-      <ITEMNAME>Minifigure, Head Female with Silver Lips and Mermaid Scales, Long Eyelashes Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ITEMNAME>Minifigure, Head Female Black Eyebrows, Long Triple Eyelashes, Medium Lavender Eye Shadow Scalloped, Silver Lips and Mermaid Scales, Wavy Grin Pattern</ITEMNAME>
+      <ALTITEMIDS>3626cpb1030</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -288193,7 +288193,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1031</ITEMID>
       <ITEMNAME>Minifigure, Head Male Black Eyebrows, Smile with Red Tongue Out and White Sweat Drops on Forehead Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1031</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -288310,7 +288310,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1033</ITEMID>
       <ITEMNAME>Minifigure, Head Male Black Eyebrows, Cheek Lines, Open Mouth, Headset Pattern &amp;#40;SW Imperial Gunner&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1033</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>90</IMAGECOLOR>
@@ -288769,7 +288769,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1036</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Alien with Red Eyes, Silver Head Plates / Black Eyebrows and Crooked Smile Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1036</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -288778,7 +288778,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1037</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Alien Female with Purple Circuitry, Green Eyes / Red Eyes Pattern &amp;#40;Pixal / P.I.X.A.L.&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1037</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>1</IMAGECOLOR>
@@ -288796,7 +288796,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1039</ITEMID>
       <ITEMNAME>Minifigure, Head Alien with Mechanical Right Eye Red and Purple, Silver Head Plates Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1039</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>11</IMAGECOLOR>
@@ -288814,7 +288814,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1041</ITEMID>
       <ITEMNAME>Minifigure, Head Alien with Red Eyes, Head Plates Pattern &amp;#40;Evil Wu&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1041</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -289012,7 +289012,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1042</ITEMID>
       <ITEMNAME>Minifigure, Head Alien with SW Neimoidian Warrior Green Wrinkles Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1042</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>155</IMAGECOLOR>
@@ -342875,9 +342875,9 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
-      <ITEMID>bb0671c01pb01</ITEMID>
+      <ITEMID>21919c01pb01</ITEMID>
       <ITEMNAME>Large Figure Head Modified SW General Grievous Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>21920c01pb01</ALTITEMIDS>
       <CATEGORY>569</CATEGORY>
       <ITEMWEIGHT>8.16</ITEMWEIGHT>
       <IMAGECOLOR>2</IMAGECOLOR>
@@ -431652,7 +431652,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>981982pb170</ITEMID>
-      <ITEMNAME>Arm, &amp;#40;Matching Left and Right&amp;#41; Pair with Red Cuffs Pattern</ITEMNAME>
+      <ITEMNAME>Arm, &amp;#40;Matching Left and Right&amp;#41; Pair with Red Cuffs with Black Top Ends Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>20</CATEGORY>
       <ITEMWEIGHT>0.31</ITEMWEIGHT>
@@ -431769,7 +431769,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>981pb170</ITEMID>
-      <ITEMNAME>Arm, Left with Red Cuffs Pattern</ITEMNAME>
+      <ITEMNAME>Arm, Left with Red Cuff with Black Top End Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>20</CATEGORY>
       <ITEMWEIGHT>0.14</ITEMWEIGHT>
@@ -431778,7 +431778,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>982pb170</ITEMID>
-      <ITEMNAME>Arm, Right with Red Cuffs Pattern</ITEMNAME>
+      <ITEMNAME>Arm, Right with Red Cuff with Black Top End Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>20</CATEGORY>
       <ITEMWEIGHT>0.14</ITEMWEIGHT>
@@ -432471,7 +432471,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>973pb2948c01</ITEMID>
-      <ITEMNAME>Torso Vest with Red Collar and Belt, Muscle Contours Pattern / Medium Nougat Arms with Red Cuffs Pattern / Medium Nougat Hands</ITEMNAME>
+      <ITEMNAME>Torso Vest with Red Collar and Belt, Muscle Contours Pattern / Medium Nougat Arms with Red Cuffs with Black Top Ends Pattern / Medium Nougat Hands</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>1097</CATEGORY>
       <ITEMWEIGHT>1.29</ITEMWEIGHT>
@@ -437151,7 +437151,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>35620</ITEMID>
-      <ITEMNAME>Mini Doll, Hair Friends Long Wavy with Side French Braid</ITEMNAME>
+      <ITEMNAME>Mini Doll, Hair Friends Long Wavy with Side French Braid - Flexible Rubber</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>913</CATEGORY>
       <ITEMWEIGHT>1.07</ITEMWEIGHT>
@@ -485463,7 +485463,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>981982pb206</ITEMID>
-      <ITEMNAME>Arm, &amp;#40;Matching Left and Right&amp;#41; Pair with Red Cuff Pattern</ITEMNAME>
+      <ITEMNAME>Arm, &amp;#40;Matching Left and Right&amp;#41; Pair with Red Cuffs with Black Ends Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>20</CATEGORY>
       <ITEMWEIGHT>0.32</ITEMWEIGHT>
@@ -485472,7 +485472,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>981pb206</ITEMID>
-      <ITEMNAME>Arm, Left with Red Cuff Pattern</ITEMNAME>
+      <ITEMNAME>Arm, Left with Red Cuff with Black Ends Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>20</CATEGORY>
       <ITEMWEIGHT>0.16</ITEMWEIGHT>
@@ -485481,7 +485481,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>982pb206</ITEMID>
-      <ITEMNAME>Arm, Right with Red Cuff Pattern</ITEMNAME>
+      <ITEMNAME>Arm, Right with Red Cuff with Black Ends Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>20</CATEGORY>
       <ITEMWEIGHT>0.16</ITEMWEIGHT>
@@ -485688,7 +485688,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>973pb3514c01</ITEMID>
-      <ITEMNAME>Torso Red Collar and Belt with Gold Button Pattern / Blue Arms with Red Cuff Pattern / White Hands</ITEMNAME>
+      <ITEMNAME>Torso Red Collar and Belt with Gold Button Pattern / Blue Arms with Red Cuffs with Black Ends Pattern / White Hands</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>1097</CATEGORY>
       <ITEMWEIGHT>1.32</ITEMWEIGHT>
@@ -572064,7 +572064,7 @@
       <ITEMNAME>Clutch Test Implement with Tow Ball</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>990</CATEGORY>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>0.64</ITEMWEIGHT>
       <IMAGECOLOR>12</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -572352,7 +572352,7 @@
       <ITEMNAME>Clutch Test Implement with Ball Joint</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>990</CATEGORY>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>1.05</ITEMWEIGHT>
       <IMAGECOLOR>6</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -663385,7 +663385,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb3110</ITEMID>
       <ITEMNAME>Minifigure, Head Short Black Sideburns, Eyebrows, Right Raised, Goatee, and Open Mouth Smile with Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb3110</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -680871,8 +680871,8 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb3216</ITEMID>
-      <ITEMNAME>Minifigure, Head Dual Sided Female Black Eyebrows, Eyelashes, Medium Nougat Lips, Lopsided Open Mouth Smile with Teeth / Worried Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ITEMNAME>Minifigure, Head Dual Sided Female Black Eyebrows, Double Eyelashes, Medium Nougat Lips, Lopsided Open Mouth Smile with Teeth / Worried Pattern</ITEMNAME>
+      <ALTITEMIDS>3626cpb3216</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
