@@ -8068,7 +8068,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>7049c02</ITEMID>
       <ITEMNAME>Brick, Modified 2 x 4 with Wheels Holder, Trans-Clear Bottom</ITEMNAME>
-      <ALTITEMIDS>7049</ALTITEMIDS>
+      <ALTITEMIDS>7049b</ALTITEMIDS>
       <CATEGORY>7</CATEGORY>
       <ITEMWEIGHT>3.62</ITEMWEIGHT>
       <IMAGECOLOR>11</IMAGECOLOR>
@@ -65568,8 +65568,8 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>7049c01</ITEMID>
-      <ITEMNAME>Brick, Modified 2 x 4 with Wheels Holder, Opaque Bottom</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ITEMNAME>Brick, Modified 2 x 4 with Wheels Holder, Red Opaque Bottom</ITEMNAME>
+      <ALTITEMIDS>7049a</ALTITEMIDS>
       <CATEGORY>7</CATEGORY>
       <ITEMWEIGHT>3.99</ITEMWEIGHT>
       <IMAGECOLOR>1</IMAGECOLOR>
@@ -161310,7 +161310,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb0329</ITEMID>
-      <ITEMNAME>Minifigure, Head Alien with Single Eye, Spots, and Jagged Teeth Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Alien Cyclops with Blue Eye, Orange Spots, and Sharp Teeth Pattern</ITEMNAME>
       <ALTITEMIDS>3626bpb0329</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
@@ -194259,7 +194259,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb0462</ITEMID>
-      <ITEMNAME>Minifigure, Head Dripping Sweat, with Clenched Teeth and Crow&amp;#39;s Feet Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Black Eyebrows and Crow&amp;#39;s Feet, Blue Sweat Drops, Clenched Teeth Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
@@ -251679,7 +251679,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb0779</ITEMID>
-      <ITEMNAME>Minifigure, Head Black Thick Eyebrows, Dark Bluish Gray Eye Shadow, Cheek Lines and Chin Dimple, Sad Frown Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Alien Monster with Black Thick Eyebrows, Dark Bluish Gray Eye Shadow, Cheek Lines and Chin Dimple, Sad Frown Pattern</ITEMNAME>
       <ALTITEMIDS>3626bpb0779,3626cpb0779</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
@@ -277122,7 +277122,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb0966</ITEMID>
-      <ITEMNAME>Minifigure, Head Dual Sided Female Glasses, Dark Red Lips / Black Eye Mask, White Face Paint, Open Mouth Smile Pattern &amp;#40;Dr Harleen Quinzel&amp;#41;</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Dual Sided Female Glasses, Dark Red Lips / Black Domino Mask with Eyes, White Face Paint, Open Mouth Smile Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
@@ -342012,7 +342012,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1415</ITEMID>
-      <ITEMNAME>Minifigure, Head Dark Azure Eyebrows, Mouth and Eyes with Lightning Pattern &amp;#40;Jay&amp;#41;</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Alien with Dark Azure Eyebrows, Mouth and Eyes with Lightning Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
@@ -342021,7 +342021,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1416</ITEMID>
-      <ITEMNAME>Minifigure, Head Dark Azure and Silver Mask and Medium Azure Eyebrows and Eyes Pattern &amp;#40;Zane&amp;#41;</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Alien Robot with Dark Azure and Silver Mask and Medium Azure Eyebrows and Eyes Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
@@ -352542,7 +352542,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1471</ITEMID>
-      <ITEMNAME>Minifigure, Head Dual Sided Dark Brown Eyebrows and Black Bandana / Black Eye Mask with White Eye Holes and Open Mouth Scowl with Teeth Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Dual Sided Dark Brown Eyebrows, Black Bandana / Domino Mask with White Eye Holes, Medium Nougat Cheek Lines and Chin Dimple, Open Mouth Scowl with Teeth Pattern</ITEMNAME>
       <ALTITEMIDS>3626cpb1471,88475pb1471</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
@@ -401565,7 +401565,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1772</ITEMID>
-      <ITEMNAME>Minifigure, Head Dual Sided Female Black Eye Mask, Dark Red Lips, Diamond on Cheek, Wide Smile / Blue Eye Shadow, Frown Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Dual Sided Black Domino Mask with Eyes, Red Diamond on Cheek, Dark Red Lips, Open Mouth Smile with Teeth / Frown, Medium Blue Eye Shadow Pattern</ITEMNAME>
       <ALTITEMIDS>3626cpb1772</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
@@ -421950,7 +421950,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1912</ITEMID>
-      <ITEMNAME>Minifigure, Head Dual Sided Female White Eyes and White Mouth Area, Neutral / Angry Pattern &amp;#40;Raven&amp;#41;</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Dual Sided Alien with White Eyes and Mouth Area, Neutral / Red Eyes, Open Mouth with Teeth Clenched, Angry Pattern &amp;#40;Raven&amp;#41;</ITEMNAME>
       <ALTITEMIDS>3626cpb1912</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
@@ -437970,7 +437970,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2052</ITEMID>
-      <ITEMNAME>Minifigure, Head Dual Sided Black Eyebrows, Dark Tan Soul Patch, Black Eye and Missing Tooth / Blue Captain America Mask Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Dual Sided Black Eyebrows, Dark Tan Soul Patch, Dark Bluish Gray Black Eye and Open Mouth with Missing Tooth / Blue Captain America Domino Mask Pattern</ITEMNAME>
       <ALTITEMIDS>3626cpb2052</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.57</ITEMWEIGHT>
@@ -450079,7 +450079,7 @@
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>18</CATEGORY>
       <ITEMWEIGHT>0.9</ITEMWEIGHT>
-      <IMAGECOLOR>63</IMAGECOLOR>
+      <IMAGECOLOR>34</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -452721,7 +452721,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2176</ITEMID>
-      <ITEMNAME>Minifigure, Head Dark Brown Patch and Mouth Mask Pattern &amp;#40;SW Weazel&amp;#41;</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Alien with Dark Brown Patch and Mouth Mask Pattern &amp;#40;SW Weazel&amp;#41;</ITEMNAME>
       <ALTITEMIDS>3626cpb2176</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
@@ -469797,7 +469797,7 @@
       <ITEMNAME>Sticker Sheet for Set 42096, Sheet 2 - &amp;#40;49748/6255104&amp;#41;</ITEMNAME>
       <ALTITEMIDS>49748</ALTITEMIDS>
       <CATEGORY>160</CATEGORY>
-      <ITEMWEIGHT>7</ITEMWEIGHT>
+      <ITEMWEIGHT>5.96</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -488388,7 +488388,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2377</ITEMID>
-      <ITEMNAME>Minifigure, Head Dual Sided Female Green Glasses, Smile / Closed Mouth Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Dual Sided Female Thin Dark Red Eyebrows, Green Glasses, Medium Nougat Freckles and Lips, Open Mouth Smile / Closed Mouth Smirk Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.57</ITEMWEIGHT>
@@ -499035,7 +499035,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2447</ITEMID>
-      <ITEMNAME>Minifigure, Head Dual Sided Black Eyebrows, Silver Eyes, Smile / Silver Pupils, Energy, Angry Pattern &amp;#40;Zane&amp;#41;</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Dual Sided Alien Robot with Black Eyebrows, Silver Eyes, Smile / Silver Pupils, Energy, Angry Pattern</ITEMNAME>
       <ALTITEMIDS>3626cpb2447</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
@@ -517818,7 +517818,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2542</ITEMID>
-      <ITEMNAME>Minifigure, Head Dual Sided Alien Dark Purple Highlights Red Eye, Gritted Teeth, Silver Armored Right Side / Silver Armored Left Side Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Dual Sided Alien Robot with Dark Purple Highlights Red Eye, Gritted Teeth, Silver Armored Right Side / Silver Armored Left Side Pattern</ITEMNAME>
       <ALTITEMIDS>3626cpb2542</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
@@ -526458,7 +526458,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>973pb3859c01</ITEMID>
-      <ITEMNAME>Torso Racing Suit with Vertical White Stripes and Lamborghini Logo on Front and Back Pattern / Black Arms / Dark Bluish Gray Hands</ITEMNAME>
+      <ITEMNAME>Torso Racing Suit with Silver Trim, White Shoulders and Side Panels, Lamborghini Logo on Front and Back Pattern / Black Arms / Dark Bluish Gray Hands</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>1097</CATEGORY>
       <ITEMWEIGHT>1.35</ITEMWEIGHT>
@@ -526611,11 +526611,11 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>973pb3859</ITEMID>
-      <ITEMNAME>Torso Racing Suit with Vertical White Stripes and Lamborghini Logo on Front and Back Pattern</ITEMNAME>
+      <ITEMNAME>Torso Racing Suit with Silver Trim, White Shoulders and Side Panels, Lamborghini Logo on Front and Back Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>150</CATEGORY>
       <ITEMWEIGHT>0.79</ITEMWEIGHT>
-      <IMAGECOLOR>-1</IMAGECOLOR>
+      <IMAGECOLOR>11</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -611131,7 +611131,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>76391stk01</ITEMID>
       <ITEMNAME>Sticker Sheet for Set 76391 - &amp;#40;80305/6362546&amp;#41;</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>80305</ALTITEMIDS>
       <CATEGORY>160</CATEGORY>
       <ITEMWEIGHT>0.96</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
@@ -636294,7 +636294,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2991</ITEMID>
-      <ITEMNAME>Minifigure, Head Dual Sided Robot Bright Light Blue Bunny Face, Dark Azure Dots, Eyes, and Nose / Black Face, Red Dots and Eyes Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Dual Sided Alien Robot with Bright Light Blue Bunny Face, Dark Azure Dots, Eyes, and Nose / Black Face, Red Dots and Eyes Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
@@ -656004,7 +656004,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb3358</ITEMID>
-      <ITEMNAME>Minifigure, Head Dark Azure Eyebrows, Silver Eyes, White Teeth, Ice on Forehead and Cheeks, Scowl Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Alien with Dark Azure Eyebrows, Silver Eyes, White Teeth, Ice on Forehead and Cheeks, Scowl Pattern</ITEMNAME>
       <ALTITEMIDS>28621pb0038</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.57</ITEMWEIGHT>
@@ -686842,7 +686842,7 @@
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>150</CATEGORY>
       <ITEMWEIGHT>0.82</ITEMWEIGHT>
-      <IMAGECOLOR>-1</IMAGECOLOR>
+      <IMAGECOLOR>153</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -702984,7 +702984,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb3312</ITEMID>
-      <ITEMNAME>Minifigure, Head Dual Sided Black Eyebrows, Metallic Light Blue Eyes / Black Mask with Dark Turquoise Crystals Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Dual Sided Alien Robot with Black Eyebrows, Metallic Light Blue Eyes / Black Mask with Dark Turquoise Diamonds Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
@@ -756831,7 +756831,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb3640</ITEMID>
-      <ITEMNAME>Minifigure, Head Dual Sided Silver Face, Black Eyebrows, Medium Azure Eyes, Lopsided Grin / Open Mouth Smile with Top Teeth and Red Tongue Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Dual Sided Alien Robot with Silver Face, Black Eyebrows, Medium Azure Eyes, Lopsided Grin / Open Mouth Smile with Top Teeth and Red Tongue Pattern</ITEMNAME>
       <ALTITEMIDS>28621pb0324</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.53</ITEMWEIGHT>
@@ -757308,7 +757308,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb3649</ITEMID>
-      <ITEMNAME>Minifigure, Head Dual Sided Thin Black Eyebrows, Upper Eyelids, Red Eyes, Blue Cheek Lines and Chin Dimple, Neutral / Angry Bared Teeth Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Dual Sided Alien with Thin Black Eyebrows, Red Eyes, Blue Cheek Lines and Chin Dimple, Neutral / Angry Bared Teeth Pattern</ITEMNAME>
       <ALTITEMIDS>28621pb0333</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
@@ -759558,7 +759558,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb3668</ITEMID>
-      <ITEMNAME>Minifigure, Head Dual Sided Black Eyebrows, Dark Purple Brow Furrow, Spots, Fur, Bright Light Blue Eye Left, Yellow Eye Right and Teeth, Open Smile / Scowl Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Dual Sided Alien with Black Eyebrows, Dark Purple Brow Furrow, Spots, Fur, Bright Light Blue Eye Left, Yellow Eye Right and Teeth, Open Smile / Scowl Pattern</ITEMNAME>
       <ALTITEMIDS>28621pb0353</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
@@ -761250,7 +761250,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb3676</ITEMID>
-      <ITEMNAME>Minifigure, Head Dual Sided Dark Pink and White Pixelated Eyes and Mouth, Happy Smile / Sad Frown Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Dual Sided Alien Robot with Dark Pink and White Pixelated Eyes and Mouth, Happy Smile / Sad Frown Pattern</ITEMNAME>
       <ALTITEMIDS>28621pb0362</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
@@ -761691,7 +761691,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb3678</ITEMID>
-      <ITEMNAME>Minifigure, Head Dual Sided Black Eyebrows, Red Eyes, Dark Bluish Gray Contours, Lopsided Grin / Scowl with Open Mouth and Fangs Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Dual Sided Alien Vampire with Black Eyebrows, Red Eyes, Dark Bluish Gray Cheek  Lines, Lopsided Grin / Dark Bluish Gray Eye Shadow, Scowl with Open Mouth and Fangs Pattern</ITEMNAME>
       <ALTITEMIDS>28621pb0364</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
@@ -761700,7 +761700,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb3679</ITEMID>
-      <ITEMNAME>Minifigure, Head Dual Sided Female Black Eyebrows, Dark Orange Forehead Markings, Dark Red Lips and Contour Lines, Lopsided Grin / Scowl Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Dual Sided Alien Female with Black Eyebrows, Dark Orange Forehead Markings, Dark Red Lips and Cheek Lines, Lopsided Smile / Scowl Pattern</ITEMNAME>
       <ALTITEMIDS>28621pb0365</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
@@ -765219,7 +765219,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb3704</ITEMID>
-      <ITEMNAME>Minifigure, Head Dark Bluish Gray Eyebrows, Sand Blue Eye Shadow and Wrinkles, Crooked Open Mouth Smile with Tooth Gap Pattern &amp;#40;BAM&amp;#41;</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Alien with Dark Bluish Gray Eyebrows, Sand Blue Eye Shadow and Wrinkles, Crooked Open Mouth Smile with Tooth Gap Pattern &amp;#40;BAM&amp;#41;</ITEMNAME>
       <ALTITEMIDS>28621pb0390</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
@@ -789411,7 +789411,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb3836</ITEMID>
-      <ITEMNAME>Minifigure, Head Doll with Black Circle Patch with Yellow X Eye Right, Dark Azure Button Eye Left, Wavy Smile with Dark Pink Stitches Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Alien Doll with Black Circle with Yellow X Eye Right, Dark Azure Button Eye Left, Wavy Smile with Dark Pink Stitches Pattern</ITEMNAME>
       <ALTITEMIDS>3274pb3836</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
@@ -820546,7 +820546,7 @@
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>150</CATEGORY>
       <ITEMWEIGHT>0.82</ITEMWEIGHT>
-      <IMAGECOLOR>-1</IMAGECOLOR>
+      <IMAGECOLOR>155</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -820555,7 +820555,7 @@
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>150</CATEGORY>
       <ITEMWEIGHT>0.82</ITEMWEIGHT>
-      <IMAGECOLOR>-1</IMAGECOLOR>
+      <IMAGECOLOR>59</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -875213,5 +875213,95 @@
       <CATEGORY>160</CATEGORY>
       <ITEMWEIGHT>1.7</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>30350bpb220</ITEMID>
+      <ITEMNAME>Tile, Modified 2 x 3 with 2 Open O Clips with Black Owl Head, University of Science Mascot Pattern &amp;#40;Sticker&amp;#41; - Set 910068</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>778</CATEGORY>
+      <ITEMWEIGHT>1.01</ITEMWEIGHT>
+      <IMAGECOLOR>5</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>30292pb084</ITEMID>
+      <ITEMNAME>Flag 7 x 3 with Bar Handle with Black Owl Head, University of Science Mascot Pattern &amp;#40;Sticker&amp;#41; - Set 910068</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>738</CATEGORY>
+      <ITEMWEIGHT>2.4</ITEMWEIGHT>
+      <IMAGECOLOR>5</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>30292pb085</ITEMID>
+      <ITEMNAME>Flag 7 x 3 with Bar Handle with Solar System, Sun and Planets Pattern &amp;#40;Sticker&amp;#41; - Set 910068</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>738</CATEGORY>
+      <ITEMWEIGHT>2.4</ITEMWEIGHT>
+      <IMAGECOLOR>63</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>6180pb214</ITEMID>
+      <ITEMNAME>Tile, Modified 4 x 6 with Studs on Edges with Chalkboard with White Chemical Formula and Diagram 'C8H8' Styrene Pattern &amp;#40;Sticker&amp;#41; - Set 910068</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>778</CATEGORY>
+      <ITEMWEIGHT>2.98</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>6180pb215</ITEMID>
+      <ITEMNAME>Tile, Modified 4 x 6 with Studs on Edges with Chalkboard with White Triangle and Lego Brick Physics Theorem 'F1 F2 F3' Pattern &amp;#40;Sticker&amp;#41; - Set 910068</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>778</CATEGORY>
+      <ITEMWEIGHT>2.98</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>6180pb216</ITEMID>
+      <ITEMNAME>Tile, Modified 4 x 6 with Studs on Edges with Chalkboard with White Classic Space Planet and Rocket Equation 'v=ve*ln mo/mf' Pattern &amp;#40;Sticker&amp;#41; - Set 910068</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>778</CATEGORY>
+      <ITEMWEIGHT>2.98</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>15210pb221</ITEMID>
+      <ITEMNAME>Road Sign 2 x 2 Square with Open O Clip with Dark Blue Computer Screen, Bright Light Blue Atomic Orbit Symbol and Menu Bar with White Squares Pattern &amp;#40;Sticker&amp;#41; - Set 910068</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1048</CATEGORY>
+      <ITEMWEIGHT>0.5</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>26603pb665</ITEMID>
+      <ITEMNAME>Tile 2 x 3 with Bright Light Blue Blueprint of University of Science Model and Initials 'JK' Pattern &amp;#40;Sticker&amp;#41; - Set 910068</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>39</CATEGORY>
+      <ITEMWEIGHT>0.72</ITEMWEIGHT>
+      <IMAGECOLOR>63</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>6179pb291</ITEMID>
+      <ITEMNAME>Tile, Modified 4 x 4 with Studs on Edge with White Skeleton Torso and Bone Diagram with Labels Pattern &amp;#40;Sticker&amp;#41; - Set 910068</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>778</CATEGORY>
+      <ITEMWEIGHT>1.94</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>41835pb07</ITEMID>
+      <ITEMNAME>Bird, Small with Black Eyes and Beak Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>146</CATEGORY>
+      <ITEMWEIGHT>0.35</ITEMWEIGHT>
+      <IMAGECOLOR>69</IMAGECOLOR>
    </ITEM>
 </CATALOG>
