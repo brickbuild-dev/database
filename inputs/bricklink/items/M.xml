@@ -155577,7 +155577,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>drm072</ITEMID>
-      <ITEMNAME>Izzie &amp;#40;Isabel Christina Garcia&amp;#41; - Coral Sweater with Stripes, Flat Silver Shoulder Armor, Dark Pink Roller Skates</ITEMNAME>
+      <ITEMNAME>Izzie &amp;#40;Isabel Christina Garcia&amp;#41; - Coral Sweater with Stripes, Flat Silver Shoulder Pad, Dark Pink Roller Skates</ITEMNAME>
       <CATEGORY>1268</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>5.6</ITEMWEIGHT>
@@ -158511,7 +158511,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>idea236</ITEMID>
-      <ITEMNAME>Griffin Knight - Female</ITEMNAME>
+      <ITEMNAME>Griffin Knight - Female, Helmet</ITEMNAME>
       <CATEGORY>817</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>3.69</ITEMWEIGHT>
@@ -160968,7 +160968,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas593</ITEMID>
-      <ITEMNAME>Serpent Knight</ITEMNAME>
+      <ITEMNAME>Serpent Knight - Male, Helmet with Plume, Cape</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>4.03</ITEMWEIGHT>
@@ -160977,7 +160977,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>cas592</ITEMID>
-      <ITEMNAME>Horse Knight King</ITEMNAME>
+      <ITEMNAME>Horse Knight King - Cape</ITEMNAME>
       <CATEGORY>9</CATEGORY>
       <ITEMYEAR>2025</ITEMYEAR>
       <ITEMWEIGHT>4.15</ITEMWEIGHT>
@@ -166683,7 +166683,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>drm110</ITEMID>
-      <ITEMNAME>Mr. Oz - Pearl Gold Suit and Armor, Dark Blue Arms</ITEMNAME>
+      <ITEMNAME>Mr. Oz - Pearl Gold Suit and Shoulder Pad, Dark Blue Arms</ITEMNAME>
       <CATEGORY>1268</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.63</ITEMWEIGHT>
@@ -171543,7 +171543,7 @@
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>bdp351</ITEMID>
-      <ITEMNAME>Kraken Bandit</ITEMNAME>
+      <ITEMNAME>Kraken Bandit - Female, Dark Brown Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.87</ITEMWEIGHT>
@@ -173804,7 +173804,7 @@
       <ITEMID>bdp357</ITEMID>
       <ITEMNAME>Scientist - Female, White Lab Coat, Sand Blue Jeans, Black Coiled Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.45</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173813,7 +173813,7 @@
       <ITEMID>bdp358</ITEMID>
       <ITEMNAME>Scientist - Male, White Lab Coat, Dark Blue Legs, Light Bluish Gray Hair Swept Back</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.8</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173822,7 +173822,7 @@
       <ITEMID>bdp360</ITEMID>
       <ITEMNAME>Professor - Male, Light Bluish Gray Jacket with Pinstripes, Dark Bluish Gray Legs, Reddish Brown Hair Swept Left Tousled</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.5</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173831,7 +173831,7 @@
       <ITEMID>bdp359</ITEMID>
       <ITEMNAME>Student - Male, Yellowish Green Jacket over White Shirt, Sand Green Legs, Reddish Brown Backpack, Black Coiled Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.25</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173840,7 +173840,7 @@
       <ITEMID>bdp361</ITEMID>
       <ITEMNAME>Janitor - Male, Bright Light Blue Shirt with Red Suspenders, Blue Legs, Dark Blue Cap</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.4</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173849,7 +173849,7 @@
       <ITEMID>bdp362</ITEMID>
       <ITEMNAME>Female - Olive Green Jacket, Medium Nougat Legs with Reddish Brown Boots, Tan Ponytail</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.96</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173858,7 +173858,7 @@
       <ITEMID>bdp363</ITEMID>
       <ITEMNAME>Scientist - Male, Medium Nougat Overalls over Sand Green Shirt, Reddish Brown Boots, Black Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.68</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173867,8 +173867,62 @@
       <ITEMID>bdp364</ITEMID>
       <ITEMNAME>Female - Tan Jacket and Legs, Medium Brown Hair with Black Beret</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp375</ITEMID>
+      <ITEMNAME>Griffin Knight - Female, Dark Brown Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.4</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp376</ITEMID>
+      <ITEMNAME>Serpent Knight - Male, Reddish Brown Boots, Black Ponytail and Moustache</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.45</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp377</ITEMID>
+      <ITEMNAME>Serpent Knight - Male, Helmet with Plume, Shoulder Pad</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.54</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp378</ITEMID>
+      <ITEMNAME>Serpent Knight - Male, Black Hair, Scarf, and Shoulder Pads</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.02</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp379</ITEMID>
+      <ITEMNAME>Horse Knight King</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.85</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp380</ITEMID>
+      <ITEMNAME>Horse Knight - Male, Helmet</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.67</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -173876,8 +173930,17 @@
       <ITEMID>bdp365</ITEMID>
       <ITEMNAME>Student - Female, Light Bluish Gray Cardigan Sweater, Dark Turquoise Legs, Reddish Brown Hair with Braid</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.95</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp381</ITEMID>
+      <ITEMNAME>Maid - White Shirt with Reddish Brown Vest, Reddish Brown Apron, Sand Blue Legs, Dark Orange Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.65</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -173885,7 +173948,7 @@
       <ITEMID>bdp366</ITEMID>
       <ITEMNAME>Student - Female, Dark Turquoise Jacket, Dark Green Legs, Dark Tan Scarf, Dark Brown Hair with Buns</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.96</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173894,8 +173957,17 @@
       <ITEMID>bdp367</ITEMID>
       <ITEMNAME>Student - Male, Dark Orange Jacket, Dark Blue Legs, Black Headphones, Dark Tan Hair with Dark Blue Beanie</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.94</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp382</ITEMID>
+      <ITEMNAME>Housekeeper - Female, Sand Green Dress, Light Bluish Gray Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.42</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -173903,8 +173975,17 @@
       <ITEMID>bdp368</ITEMID>
       <ITEMNAME>Female - Tan Knit Argyle Sweater Vest, Olive Green Legs, Dark Orange Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp383</ITEMID>
+      <ITEMNAME>Scribe - Female, Sand Green Tunic, Tan Legs, Dark Brown Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.49</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -173912,8 +173993,17 @@
       <ITEMID>bdp369</ITEMID>
       <ITEMNAME>Male - Dark Red Jacket, Dark Tan Legs with Cargo Pockets, Dark Brown Wavy Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.84</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp384</ITEMID>
+      <ITEMNAME>Serpent Knight - Female, Black Hood, Quiver</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.16</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -173921,8 +174011,26 @@
       <ITEMID>bdp370</ITEMID>
       <ITEMNAME>Professor - Female, Black Suit Jacket with White Button Up Shirt, Black Legs, Dark Brown Ponytail</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.65</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp385</ITEMID>
+      <ITEMNAME>Serpent Knight - Female, Dark Orange Hair, Black Scarf and Shoulder Pads</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.25</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp386</ITEMID>
+      <ITEMNAME>Kraken Bandit - Female, Black Hair</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.86</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -173930,7 +174038,7 @@
       <ITEMID>bdp371</ITEMID>
       <ITEMNAME>Scientist - Female, White Shirt, Reddish Brown Apron, Sand Blue Legs, Black Hair with Buns</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.92</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173939,8 +174047,17 @@
       <ITEMID>bdp372</ITEMID>
       <ITEMNAME>Scientist - Female, White Lab Coat with Stethoscope, Medium Azure Scrubs, Bright Light Yellow Ponytail</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.48</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp387</ITEMID>
+      <ITEMNAME>Serpent Knight - Female, Helmet with Plume, Shoulder Armor</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.29</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -173948,8 +174065,17 @@
       <ITEMID>bdp373</ITEMID>
       <ITEMNAME>Professor - Male, Bright Light Blue Sweater Vest with ID Badge, Sand Blue Legs, Black Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.7</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp388</ITEMID>
+      <ITEMNAME>Serpent Knight - Female, Flat Silver Helmet and Shoulder Pad</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.43</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -173957,8 +174083,53 @@
       <ITEMID>bdp374</ITEMID>
       <ITEMNAME>Professor - Male, Dark Bluish Gray Plaid Jacket with Red Bow Tie, Dark Brown Legs, White Swept Back Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.45</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp389</ITEMID>
+      <ITEMNAME>Serpent Knight - Male, Black Hair and Shoulder Pad with Scabbard</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.25</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp390</ITEMID>
+      <ITEMNAME>Serpent Knight - Male, Helmet with Plume, Shoulder Armor</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.27</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp391</ITEMID>
+      <ITEMNAME>Serpent Knight - Dark Bluish Gray Hair, Shoulder Pads</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.8</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp392</ITEMID>
+      <ITEMNAME>Serpent Knight - Male, Helmet with Plume</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.82</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>bdp393</ITEMID>
+      <ITEMNAME>Serpent Knight - Male, Reddish Brown Hair, Quiver</ITEMNAME>
+      <CATEGORY>1197</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.81</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
