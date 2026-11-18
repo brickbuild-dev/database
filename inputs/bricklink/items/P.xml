@@ -116139,7 +116139,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>53585</ITEMID>
-      <ITEMNAME>Technic Ball Joint with Through Axle Hole</ITEMNAME>
+      <ITEMNAME>Technic Ball Joint with Open Axle Hole</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>36</CATEGORY>
       <ITEMWEIGHT>0.38</ITEMWEIGHT>
@@ -120876,7 +120876,7 @@
       <ITEMNAME>Duplo Stand 2 x 4 x 2 with Notch for Lever and Copper Gears Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>167</CATEGORY>
-      <ITEMWEIGHT>16</ITEMWEIGHT>
+      <ITEMWEIGHT>15.62</ITEMWEIGHT>
       <IMAGECOLOR>81</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -129723,7 +129723,7 @@
       <ITEMNAME>Duplo Cart Lid Octagonal with 2 x 2 Studs, Trans-Clear Cylinder and Green Weight</ITEMNAME>
       <ALTITEMIDS>44468</ALTITEMIDS>
       <CATEGORY>488</CATEGORY>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>76.8</ITEMWEIGHT>
       <IMAGECOLOR>5</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -129732,7 +129732,7 @@
       <ITEMNAME>Duplo Cart Lid Octagonal with 2 x 2 Studs, Trans-Clear Cylinder and Red Weight</ITEMNAME>
       <ALTITEMIDS>44466</ALTITEMIDS>
       <CATEGORY>488</CATEGORY>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>74.04</ITEMWEIGHT>
       <IMAGECOLOR>119</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -194260,7 +194260,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb0462</ITEMID>
       <ITEMNAME>Minifigure, Head Black Eyebrows and Crow&amp;#39;s Feet, Blue Sweat Drops, Clenched Teeth Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626bpb0462</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -342013,7 +342013,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1415</ITEMID>
       <ITEMNAME>Minifigure, Head Alien with Dark Azure Eyebrows, Mouth and Eyes with Lightning Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1415</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>7</IMAGECOLOR>
@@ -342022,7 +342022,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb1416</ITEMID>
       <ITEMNAME>Minifigure, Head Alien Robot with Dark Azure and Silver Mask and Medium Azure Eyebrows and Eyes Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb1416</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>1</IMAGECOLOR>
@@ -488388,7 +488388,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2377</ITEMID>
-      <ITEMNAME>Minifigure, Head Dual Sided Female Thin Dark Red Eyebrows, Green Glasses, Medium Nougat Freckles and Lips, Open Mouth Smile / Closed Mouth Smirk Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Dual Sided Female Thin Dark Red Eyebrows, Green Glasses, Medium Nougat Freckles and Lips, Open Mouth Smile with Teeth / Smirk Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.57</ITEMWEIGHT>
@@ -636295,7 +636295,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb2991</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Alien Robot with Bright Light Blue Bunny Face, Dark Azure Dots, Eyes, and Nose / Black Face, Red Dots and Eyes Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb2991</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>1</IMAGECOLOR>
@@ -680737,7 +680737,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb3214</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Male Dark Brown Eyebrows, Moustache, Soul Patch, and Beard Stubble, Worried Open Mouth with Teeth / Stern Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb3214</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -702985,7 +702985,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb3312</ITEMID>
       <ITEMNAME>Minifigure, Head Dual Sided Alien Robot with Black Eyebrows, Metallic Light Blue Eyes / Black Mask with Dark Turquoise Diamonds Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb3312</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.55</ITEMWEIGHT>
       <IMAGECOLOR>95</IMAGECOLOR>
@@ -875150,6 +875150,78 @@
       <CATEGORY>20</CATEGORY>
       <ITEMWEIGHT>0.15</ITEMWEIGHT>
       <IMAGECOLOR>86</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>69729pb287</ITEMID>
+      <ITEMNAME>Tile 2 x 6 with Blue and Red 'DRAGON BALL' Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>39</CATEGORY>
+      <ITEMWEIGHT>1.35</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>32474pb037</ITEMID>
+      <ITEMNAME>Technic Ball Joint with 1 Red Star Pattern &amp;#40;Earth Dragon Ball&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1411</CATEGORY>
+      <ITEMWEIGHT>0.42</ITEMWEIGHT>
+      <IMAGECOLOR>4</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>32474pb038</ITEMID>
+      <ITEMNAME>Technic Ball Joint with 2 Red Stars Pattern &amp;#40;Earth Dragon Ball&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1411</CATEGORY>
+      <ITEMWEIGHT>0.42</ITEMWEIGHT>
+      <IMAGECOLOR>4</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>32474pb039</ITEMID>
+      <ITEMNAME>Technic Ball Joint with 3 Red Stars Pattern &amp;#40;Earth Dragon Ball&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1411</CATEGORY>
+      <ITEMWEIGHT>0.42</ITEMWEIGHT>
+      <IMAGECOLOR>4</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>32474pb040</ITEMID>
+      <ITEMNAME>Technic Ball Joint with 4 Red Stars Pattern &amp;#40;Earth Dragon Ball&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1411</CATEGORY>
+      <ITEMWEIGHT>0.42</ITEMWEIGHT>
+      <IMAGECOLOR>4</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>32474pb041</ITEMID>
+      <ITEMNAME>Technic Ball Joint with 5 Red Stars Pattern &amp;#40;Earth Dragon Ball&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1411</CATEGORY>
+      <ITEMWEIGHT>0.42</ITEMWEIGHT>
+      <IMAGECOLOR>4</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>32474pb042</ITEMID>
+      <ITEMNAME>Technic Ball Joint with 6 Red Stars Pattern &amp;#40;Earth Dragon Ball&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1411</CATEGORY>
+      <ITEMWEIGHT>0.42</ITEMWEIGHT>
+      <IMAGECOLOR>4</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>32474pb043</ITEMID>
+      <ITEMNAME>Technic Ball Joint with 7 Red Stars Pattern &amp;#40;Earth Dragon Ball&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>1411</CATEGORY>
+      <ITEMWEIGHT>0.42</ITEMWEIGHT>
+      <IMAGECOLOR>4</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>

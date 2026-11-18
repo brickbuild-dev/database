@@ -173765,6 +173765,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>min285</ITEMID>
+      <ITEMNAME>Parrot Handler - Helmet</ITEMNAME>
+      <CATEGORY>801</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.3</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>hp656</ITEMID>
       <ITEMNAME>Hermione Granger - Gryffindor Robe Open, Sweater, Shirt and Tie, Black Legs, Reddish Brown Ponytail</ITEMNAME>
       <CATEGORY>227</CATEGORY>
@@ -173876,7 +173885,7 @@
       <ITEMID>bdp375</ITEMID>
       <ITEMNAME>Griffin Knight - Female, Dark Brown Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.4</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173885,7 +173894,7 @@
       <ITEMID>bdp376</ITEMID>
       <ITEMNAME>Serpent Knight - Male, Reddish Brown Boots, Black Ponytail and Moustache</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.45</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173894,7 +173903,7 @@
       <ITEMID>bdp377</ITEMID>
       <ITEMNAME>Serpent Knight - Male, Helmet with Plume, Shoulder Pad</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.54</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173903,7 +173912,7 @@
       <ITEMID>bdp378</ITEMID>
       <ITEMNAME>Serpent Knight - Male, Black Hair, Scarf, and Shoulder Pads</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.02</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173912,7 +173921,7 @@
       <ITEMID>bdp379</ITEMID>
       <ITEMNAME>Horse Knight King</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.85</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173921,7 +173930,7 @@
       <ITEMID>bdp380</ITEMID>
       <ITEMNAME>Horse Knight - Male, Helmet</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.67</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173939,7 +173948,7 @@
       <ITEMID>bdp381</ITEMID>
       <ITEMNAME>Maid - White Shirt with Reddish Brown Vest, Reddish Brown Apron, Sand Blue Legs, Dark Orange Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.65</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173966,7 +173975,7 @@
       <ITEMID>bdp382</ITEMID>
       <ITEMNAME>Housekeeper - Female, Sand Green Dress, Light Bluish Gray Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.42</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -173984,7 +173993,7 @@
       <ITEMID>bdp383</ITEMID>
       <ITEMNAME>Scribe - Female, Sand Green Tunic, Tan Legs, Dark Brown Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.49</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -174002,7 +174011,7 @@
       <ITEMID>bdp384</ITEMID>
       <ITEMNAME>Serpent Knight - Female, Black Hood, Quiver</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.16</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -174020,7 +174029,7 @@
       <ITEMID>bdp385</ITEMID>
       <ITEMNAME>Serpent Knight - Female, Dark Orange Hair, Black Scarf and Shoulder Pads</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.25</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -174029,7 +174038,7 @@
       <ITEMID>bdp386</ITEMID>
       <ITEMNAME>Kraken Bandit - Female, Black Hair</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.86</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -174056,7 +174065,7 @@
       <ITEMID>bdp387</ITEMID>
       <ITEMNAME>Serpent Knight - Female, Helmet with Plume, Shoulder Armor</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.29</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -174074,7 +174083,7 @@
       <ITEMID>bdp388</ITEMID>
       <ITEMNAME>Serpent Knight - Female, Flat Silver Helmet and Shoulder Pad</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.43</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -174092,7 +174101,7 @@
       <ITEMID>bdp389</ITEMID>
       <ITEMNAME>Serpent Knight - Male, Black Hair and Shoulder Pad with Scabbard</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.25</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -174101,7 +174110,7 @@
       <ITEMID>bdp390</ITEMID>
       <ITEMNAME>Serpent Knight - Male, Helmet with Plume, Shoulder Armor</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>4.27</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -174110,7 +174119,7 @@
       <ITEMID>bdp391</ITEMID>
       <ITEMNAME>Serpent Knight - Dark Bluish Gray Hair, Shoulder Pads</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.8</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -174119,7 +174128,7 @@
       <ITEMID>bdp392</ITEMID>
       <ITEMNAME>Serpent Knight - Male, Helmet with Plume</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.82</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
@@ -174128,8 +174137,17 @@
       <ITEMID>bdp393</ITEMID>
       <ITEMNAME>Serpent Knight - Male, Reddish Brown Hair, Quiver</ITEMNAME>
       <CATEGORY>1197</CATEGORY>
-      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMYEAR>2026</ITEMYEAR>
       <ITEMWEIGHT>3.81</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>min286</ITEMID>
+      <ITEMNAME>Miner - Medium Azure Legs, Helmet and Armor</ITEMNAME>
+      <CATEGORY>801</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>5</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
