@@ -572359,7 +572359,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>86190</ITEMID>
       <ITEMNAME>Clutch Test Implement with Pin</ITEMNAME>
-      <ALTITEMIDS>bb1175</ALTITEMIDS>
+      <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>990</CATEGORY>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>6</IMAGECOLOR>
@@ -572368,7 +572368,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>86192</ITEMID>
       <ITEMNAME>Clutch Test Implement with Brick</ITEMNAME>
-      <ALTITEMIDS>bb1176</ALTITEMIDS>
+      <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>990</CATEGORY>
       <ITEMWEIGHT></ITEMWEIGHT>
       <IMAGECOLOR>6</IMAGECOLOR>
@@ -728682,7 +728682,7 @@
       <ITEMNAME>Plant Plate, Round 1 x 2 with Curved, Upright Leaf</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>25</CATEGORY>
-      <ITEMWEIGHT>2.1</ITEMWEIGHT>
+      <ITEMWEIGHT>1.08</ITEMWEIGHT>
       <IMAGECOLOR>36</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -875009,6 +875009,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>53118pb03</ITEMID>
+      <ITEMNAME>Minifigure, Utensil Video Game Controller with Metallic Light Blue Oval Gems, White Trim, Eye Holes and Filigree on Gold Background Pattern &amp;#40;Venetian Carnival Mask&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>943</CATEGORY>
+      <ITEMWEIGHT>0.3</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>973pb6868</ITEMID>
       <ITEMNAME>Torso Armor with Tan and Dark Tan Straps and Belt with Pouches, Silver Buckle, Clasps and Avengers Logo Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
@@ -875153,12 +875162,57 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>118227c01</ITEMID>
+      <ITEMNAME>Minifigure, Utensil Piano &amp;#40;3D Printed&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>18</CATEGORY>
+      <ITEMWEIGHT>6.9</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>8107pb01</ITEMID>
+      <ITEMNAME>Minifigure, Headgear Hat, Straw Boater with Bow with Red Ribbon Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>16</CATEGORY>
+      <ITEMWEIGHT>0.54</ITEMWEIGHT>
+      <IMAGECOLOR>2</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>2431pb0965</ITEMID>
+      <ITEMNAME>Tile 1 x 4 with Black Piano Keys Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>39</CATEGORY>
+      <ITEMWEIGHT>0.54</ITEMWEIGHT>
+      <IMAGECOLOR>1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>44375bpb35</ITEMID>
+      <ITEMNAME>Dish 6 x 6 Inverted &amp;#40;Radar&amp;#41; - Solid Studs with 12 Dark Azure and Light Aqua Zodiac Symbols, Gold Arrows and Metallic Light Blue Border Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>779</CATEGORY>
+      <ITEMWEIGHT>2.76</ITEMWEIGHT>
+      <IMAGECOLOR>63</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>69729pb287</ITEMID>
       <ITEMNAME>Tile 2 x 6 with Blue and Red 'DRAGON BALL' Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>39</CATEGORY>
       <ITEMWEIGHT>1.35</ITEMWEIGHT>
       <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>27507pb25</ITEMID>
+      <ITEMNAME>Tile, Round Corner 4 x 4 Macaroni with Gold Suns, Crescent Moons and Lines, Dark Blue and Metallic Light Blue Border Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>812</CATEGORY>
+      <ITEMWEIGHT>0.72</ITEMWEIGHT>
+      <IMAGECOLOR>152</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -875465,5 +875519,23 @@
       <CATEGORY>146</CATEGORY>
       <ITEMWEIGHT>0.35</ITEMWEIGHT>
       <IMAGECOLOR>69</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>910066stk01</ITEMID>
+      <ITEMNAME>Sticker Sheet for Set 910066 - &amp;#40;10119601/6643238&amp;#41;</ITEMNAME>
+      <ALTITEMIDS>119601</ALTITEMIDS>
+      <CATEGORY>160</CATEGORY>
+      <ITEMWEIGHT>1.61</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>910065stk01</ITEMID>
+      <ITEMNAME>Sticker Sheet for Set 910065 - &amp;#40;10119605/6643248&amp;#41;</ITEMNAME>
+      <ALTITEMIDS>119605</ALTITEMIDS>
+      <CATEGORY>160</CATEGORY>
+      <ITEMWEIGHT>2.1</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
 </CATALOG>

@@ -173810,6 +173810,42 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>twn561</ITEMID>
+      <ITEMNAME>Venetian Gondolier - Male, Red Striped Shirt</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.71</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>twn562</ITEMID>
+      <ITEMNAME>Venetian Gondolier - Female, Black Striped Shirt</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>3.71</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>twn563</ITEMID>
+      <ITEMNAME>Venetian Carnival-Goer - Sun Costume</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>6.38</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
+      <ITEMID>twn564</ITEMID>
+      <ITEMNAME>Venetian Carnival-Goer - Moon Costume</ITEMNAME>
+      <CATEGORY>67</CATEGORY>
+      <ITEMYEAR>?</ITEMYEAR>
+      <ITEMWEIGHT>4.19</ITEMWEIGHT>
+      <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>M</ITEMTYPE>
       <ITEMID>belvfairy10a</ITEMID>
       <ITEMNAME>Belville Fairy &amp;#40;Millimy&amp;#41; - Pink with Stars Pattern, Wings, Bow</ITEMNAME>
       <CATEGORY>48</CATEGORY>
