@@ -119477,6 +119477,15 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>I</ITEMTYPE>
+      <ITEMID>4000048-1</ITEMID>
+      <ITEMNAME>2026 International Bugatti Meeting Exclusive Set - Bugatti Type 35</ITEMNAME>
+      <CATEGORY>976</CATEGORY>
+      <ITEMYEAR>2026</ITEMYEAR>
+      <ITEMWEIGHT></ITEMWEIGHT>
+      <IMAGECOLOR>-1</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>I</ITEMTYPE>
       <ITEMID>76476-1</ITEMID>
       <ITEMNAME>The Ministry of Magic - Collectors' Edition</ITEMNAME>
       <CATEGORY>227</CATEGORY>
@@ -119976,7 +119985,7 @@
       <ITEMNAME>2026 Employee Exclusive - Joy of Creation</ITEMNAME>
       <CATEGORY>976</CATEGORY>
       <ITEMYEAR>2026</ITEMYEAR>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>149.6</ITEMWEIGHT>
       <IMAGECOLOR>-1</IMAGECOLOR>
    </ITEM>
    <ITEM>

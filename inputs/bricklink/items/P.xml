@@ -130776,7 +130776,7 @@
       <ITEMNAME>Town Plan Board, Plastic Small Soft &amp;#40;60cm x 79 1/2cm&amp;#41; - Sets 200 / 1200</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>600</CATEGORY>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>125</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -279435,7 +279435,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>973pb1482c01</ITEMID>
-      <ITEMNAME>Torso Yeti with Bright Light Blue Shaggy Hair Pattern / White Arms / Bright Light Blue Hands</ITEMNAME>
+      <ITEMNAME>Torso Bare Chest with Bright Light Blue Shaggy Fur Pattern / White Arms / Bright Light Blue Hands</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>1097</CATEGORY>
       <ITEMWEIGHT>1.25</ITEMWEIGHT>
@@ -279444,7 +279444,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>970c00pb0263</ITEMID>
-      <ITEMNAME>Hips and Legs with Bright Light Blue Hair Pattern &amp;#40;Yeti&amp;#41;</ITEMNAME>
+      <ITEMNAME>Hips and Legs with Bright Light Blue Shaggy Fur Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>1098</CATEGORY>
       <ITEMWEIGHT>1.18</ITEMWEIGHT>
@@ -280569,7 +280569,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb0992</ITEMID>
-      <ITEMNAME>Minifigure, Head Glasses with Trans-Brown Sunglasses, Dark Brown Eyebrows and Cheek Lines Pattern</ITEMNAME>
+      <ITEMNAME>Minifigure, Head Dark Brown Eyebrows, Black Sunglasses with Dark Tan Lenses and Medium Nougat Cheek Lines and Chin Dimple Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
@@ -280596,7 +280596,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>970c05pb07</ITEMID>
-      <ITEMNAME>Hips and Red Legs with Black Harness with Blue Carabiner Pattern</ITEMNAME>
+      <ITEMNAME>Hips and Red Legs with Black Harness with Blue Carabiner, Belt with Silver Buckle Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>1098</CATEGORY>
       <ITEMWEIGHT>1.18</ITEMWEIGHT>
@@ -280677,7 +280677,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>973pb1482</ITEMID>
-      <ITEMNAME>Torso Yeti with Bright Light Blue Shaggy Hair Pattern</ITEMNAME>
+      <ITEMNAME>Torso Bare Chest with Bright Light Blue Shaggy Fur Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>150</CATEGORY>
       <ITEMWEIGHT>0.82</ITEMWEIGHT>
@@ -862697,6 +862697,51 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>85984pb518</ITEMID>
+      <ITEMNAME>Slope 30 1 x 2 x 2/3 with Control Panel, Black Radar Screen, Bright Green and Red Buttons and Lights Pattern &amp;#40;Sticker&amp;#41; - Set 76239</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>33</CATEGORY>
+      <ITEMWEIGHT>0.35</ITEMWEIGHT>
+      <IMAGECOLOR>85</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>85984pb519</ITEMID>
+      <ITEMNAME>Slope 30 1 x 2 x 2/3 with Control Panel, Black Screen with Copper Lines, Red Buttons and Circuitry Pattern &amp;#40;Sticker&amp;#41; - Set 76239</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>33</CATEGORY>
+      <ITEMWEIGHT>0.35</ITEMWEIGHT>
+      <IMAGECOLOR>85</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>87079pb1693</ITEMID>
+      <ITEMNAME>Tile 2 x 4 with Dark Bluish Gray Armor Plates with Silver Reflections and Zigzag Edges Pattern &amp;#40;Sticker&amp;#41; - Set 76239</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>39</CATEGORY>
+      <ITEMWEIGHT>0.9</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>48933pb053L</ITEMID>
+      <ITEMNAME>Wedge 4 x 4 Triple with Gold Brake Pads, Wheel Mechanism and Rivets Pattern Model Left Side &amp;#40;Sticker&amp;#41; - Set 76239</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>578</CATEGORY>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>48933pb053R</ITEMID>
+      <ITEMNAME>Wedge 4 x 4 Triple with Gold Brake Pads, Wheel Mechanism and Rivets Pattern Model Right Side &amp;#40;Sticker&amp;#41; - Set 76239</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>578</CATEGORY>
+      <ITEMWEIGHT>2</ITEMWEIGHT>
+      <IMAGECOLOR>11</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>7056pb01</ITEMID>
       <ITEMNAME>Wheel 24 x 13.4 with Pin Hole with Molded Black Hard Rubber Tire with Smooth Surface  Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
@@ -875162,8 +875207,8 @@
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
-      <ITEMID>118227c01</ITEMID>
-      <ITEMNAME>Minifigure, Utensil Piano &amp;#40;3D Printed&amp;#41;</ITEMNAME>
+      <ITEMID>118327c01</ITEMID>
+      <ITEMNAME>Minifigure, Utensil Musical Instrument, Piano &amp;#40;3D Printed&amp;#41;</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>18</CATEGORY>
       <ITEMWEIGHT>6.9</ITEMWEIGHT>
@@ -875537,5 +875582,32 @@
       <CATEGORY>160</CATEGORY>
       <ITEMWEIGHT>2.1</ITEMWEIGHT>
       <IMAGECOLOR>0</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>87079pb1733</ITEMID>
+      <ITEMNAME>Tile 2 x 4 with Black Squinting Eyes and Grin Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>39</CATEGORY>
+      <ITEMWEIGHT>0.9</ITEMWEIGHT>
+      <IMAGECOLOR>154</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>87079pb1734</ITEMID>
+      <ITEMNAME>Tile 2 x 4 with Black Eyes and Crooked Smirk Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>39</CATEGORY>
+      <ITEMWEIGHT>0.9</ITEMWEIGHT>
+      <IMAGECOLOR>150</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>33172c04</ITEMID>
+      <ITEMNAME>Carrot with Bright Light Orange Top &amp;#40;33172 / 33183&amp;#41;</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>175</CATEGORY>
+      <ITEMWEIGHT>0.52</ITEMWEIGHT>
+      <IMAGECOLOR>157</IMAGECOLOR>
    </ITEM>
 </CATALOG>
