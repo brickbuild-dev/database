@@ -280570,7 +280570,7 @@
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3626pb0992</ITEMID>
       <ITEMNAME>Minifigure, Head Dark Brown Eyebrows, Black Sunglasses with Dark Tan Lenses and Medium Nougat Cheek Lines and Chin Dimple Pattern</ITEMNAME>
-      <ALTITEMIDS></ALTITEMIDS>
+      <ALTITEMIDS>3626cpb0992</ALTITEMIDS>
       <CATEGORY>238</CATEGORY>
       <ITEMWEIGHT>0.54</ITEMWEIGHT>
       <IMAGECOLOR>3</IMAGECOLOR>
@@ -783237,7 +783237,7 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>14769pb0738</ITEMID>
-      <ITEMNAME>Tile, Round 2 x 2 with Bottom Stud Holder with White LEGO Logo Outline Rounded Ends Pattern</ITEMNAME>
+      <ITEMNAME>Tile, Round 2 x 2 with Bottom Stud Holder with Light Nougat and Dark Red LEGO Logo Outline Pattern</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>812</CATEGORY>
       <ITEMWEIGHT>0.33</ITEMWEIGHT>
@@ -871680,10 +871680,10 @@
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
       <ITEMID>3245cpb295</ITEMID>
-      <ITEMNAME>Brick 1 x 2 x 2 with Inside Stud Holder with Black Eye with White Bubbles Pattern</ITEMNAME>
+      <ITEMNAME>Brick 1 x 2 x 2 with Inside Stud Holder with Eye with Large Black Pupil, Eyelid and Glints Pattern &amp;#40;Education Computer Science &amp; AI Sets&amp;#41;</ITEMNAME>
       <ALTITEMIDS></ALTITEMIDS>
       <CATEGORY>118</CATEGORY>
-      <ITEMWEIGHT></ITEMWEIGHT>
+      <ITEMWEIGHT>1.43</ITEMWEIGHT>
       <IMAGECOLOR>1</IMAGECOLOR>
    </ITEM>
    <ITEM>
@@ -872927,6 +872927,15 @@
       <CATEGORY>150</CATEGORY>
       <ITEMWEIGHT>0.82</ITEMWEIGHT>
       <IMAGECOLOR>152</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>3245cpb297</ITEMID>
+      <ITEMNAME>Brick 1 x 2 x 2 with Inside Stud Holder with Red Train Logo Pattern &amp;#40;Sticker&amp;#41; - Set 60031</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>118</CATEGORY>
+      <ITEMWEIGHT>1.5</ITEMWEIGHT>
+      <IMAGECOLOR>3</IMAGECOLOR>
    </ITEM>
    <ITEM>
       <ITEMTYPE>P</ITEMTYPE>
@@ -875609,5 +875618,50 @@
       <CATEGORY>175</CATEGORY>
       <ITEMWEIGHT>0.52</ITEMWEIGHT>
       <IMAGECOLOR>157</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>3245cpb296</ITEMID>
+      <ITEMNAME>Brick 1 x 2 x 2 with Inside Stud Holder with Large Black and White Eye with Dot in Pupil Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>118</CATEGORY>
+      <ITEMWEIGHT>1.4</ITEMWEIGHT>
+      <IMAGECOLOR>3</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>14769pb0910</ITEMID>
+      <ITEMNAME>Tile, Round 2 x 2 with Bottom Stud Holder with White and Orange LEGO Logo Outline Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>812</CATEGORY>
+      <ITEMWEIGHT>0.32</ITEMWEIGHT>
+      <IMAGECOLOR>3</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>14769pb0911</ITEMID>
+      <ITEMNAME>Tile, Round 2 x 2 with Bottom Stud Holder with Lime and Dark Green LEGO Logo Outline Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>812</CATEGORY>
+      <ITEMWEIGHT>0.32</ITEMWEIGHT>
+      <IMAGECOLOR>6</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>14769pb0912</ITEMID>
+      <ITEMNAME>Tile, Round 2 x 2 with Bottom Stud Holder with Light Aqua and Blue LEGO Logo Outline Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>812</CATEGORY>
+      <ITEMWEIGHT>0.32</ITEMWEIGHT>
+      <IMAGECOLOR>156</IMAGECOLOR>
+   </ITEM>
+   <ITEM>
+      <ITEMTYPE>P</ITEMTYPE>
+      <ITEMID>14769pb0909</ITEMID>
+      <ITEMNAME>Tile, Round 2 x 2 with Bottom Stud Holder with Bright Light Blue and Dark Blue LEGO Logo Outline Pattern</ITEMNAME>
+      <ALTITEMIDS></ALTITEMIDS>
+      <CATEGORY>812</CATEGORY>
+      <ITEMWEIGHT>0.32</ITEMWEIGHT>
+      <IMAGECOLOR>7</IMAGECOLOR>
    </ITEM>
 </CATALOG>
